@@ -73,6 +73,7 @@ jobs:
           # black_list: 'repo_name,repo_name2'
           white_list: 'rule_for_quantumultX'
           force_update: true
+      
       #微信推送更新信息
       - name: Send Failed Message
         if: failure()
