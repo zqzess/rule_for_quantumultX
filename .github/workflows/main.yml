@@ -34,10 +34,13 @@ jobs:
       #提交更新
       - name: commit
         run: |
-          git config --global user.email "zqzess@126.com"
-          git config --global user.name "zqzess"
+          git config --global user.email ${USER_EMAIL}
+          git config --global user.name ${USER_NAME}
           git add .
           git commit -m "update" -a
+        env:
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          USER_NAME: ${{ secrets.USER_NAME }}
       #推送更新
       - name: Push changes
         uses: ad-m/github-push-action@master
