@@ -25,6 +25,11 @@ jobs:
       # Runs a single command using the runners shell
 #       - name: Set up Python 3.7
 #         run: actions/setup-python@v2
+      # 安装依赖
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests os time sys re
 
       # 更新
       - name: update profile
