@@ -19,7 +19,7 @@ import sys
 import requests
 import re
 
-from factory import ad_quanX
+import ad_quanX
 
 rules_url = [
     # EasyList China
