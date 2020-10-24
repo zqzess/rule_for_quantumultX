@@ -34,31 +34,32 @@ def Change():
             if lineTmp.find('# adblock rules refresh time') == 0:
                 f2.write(lineTmp)
                 f2.write("\n")
-                print("注释:"+lineTmp)
+                print("注释:" + lineTmp)
                 continue
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.search(r'[a-zA-z]+', keywords)
-            result2 = re.findall(r'\.',keywords)
+            result2 = re.findall(r'\.', keywords)
             # print(keywords)
             # print(result2)
             # print(result2.__len__())
-            if(result== None):
+            if result == None:
                 # print(keywords)
-                keywords=keywords.replace("\n","").replace(" ","")
-                keywords = "IP-CIDR,"+keywords+",AdBlock"
-                f2.write(keywords+"\n")
+                keywords = keywords.replace("\n", "").replace(" ", "")
+                keywords = "IP-CIDR," + keywords + ",AdBlock"
+                f2.write(keywords + "\n")
                 continue
-            if(result2.__len__()==1):
+            if result2.__len__() == 1:
                 keywords = keywords.replace("\n", "").replace(" ", "")
                 keywords = "HOST-SUFFIX," + keywords + ",AdBlock"
                 f2.write(keywords + "\n")
-            elif(result2.__len__()==2 | result2.__len__()==3):
+            elif result2.__len__() == 2 | result2.__len__() == 3:
                 keywords = keywords.replace("\n", "").replace(" ", "")
                 keywords = "HOST," + keywords + ",AdBlock"
                 f2.write(keywords + "\n")
         f1.close()
         f2.close()
+
 
 if __name__ == '__main__':
     Change()
