@@ -70,7 +70,7 @@ jobs:
           dst_token:  ${{ secrets.GITEE_KEY }}
           # 如果是组织，指定组织即可，默认为用户user
           # account_type: org
-          # 还有黑、白名单，静态名单机制，可以用于更新某些指定库
+          # 还有黑、白名单，静态名单机制，可以用于更新某些指定库.
           # static_list: repo_name
           # black_list: 'repo_name,repo_name2'
           white_list: 'rule_for_quantumultX'
