@@ -5,7 +5,8 @@
 @Author : zqzess
 @File : ad_quanX.py
 """
-import os, re
+import os
+import re
 import sys
 
 
