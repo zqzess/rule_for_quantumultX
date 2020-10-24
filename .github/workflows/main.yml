@@ -39,6 +39,7 @@ jobs:
         run: |
           cd factory
           python ad.py
+      
       #提交更新
       - name: commit
         run: |
