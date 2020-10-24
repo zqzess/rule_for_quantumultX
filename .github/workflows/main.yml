@@ -55,9 +55,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.PUSH_TOKEN }}
       #微信推送更新信息
-      - name: Send Success Message
-        if: success()
-        run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新出错!
       - name: Send Failed Message
         if: failure()
         run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新出错!
