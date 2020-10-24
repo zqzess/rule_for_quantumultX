@@ -62,8 +62,8 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
-          source-repo: "https://github.com/zqzess/rule_for_quantumultX.git"
-          destination-repo: "https://gitee.com/zqzess/rule_for_quantumult-x.git"
+          source-repo: "git@github.com:zqzess/rule_for_quantumultX.git"
+          destination-repo: "git@gitee.com:zqzess/rule_for_quantumult-x.git"
       
       #微信推送更新信息
       - name: Send Failed Message
