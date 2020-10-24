@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Set up Python 3.7
-        run: actions/setup-python@v2
+        run: actions/setup-python@master
 
       # 更新
       - name: update profile
@@ -37,7 +37,7 @@ jobs:
           git config --global user.email ${USER_EMAIL}
           git config --global user.name ${USER_NAME}
           git add .
-          git commit -m "update" -a
+          git commit -m "更新规则" -a
         env:
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
           USER_NAME: ${{ secrets.USER_NAME }}
@@ -49,9 +49,9 @@ jobs:
       #微信推送更新信息
       - name: Send Success Message
         if: success()
-        run: wget https://sc.ftqq.com/${USER_KEY}.send?text=配置文件更新成功
+        run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新成功
       - name: Send Failed Message
         if: failure()
-        run: wget https://sc.ftqq.com/${USER_KEY}.send?text=配置文件更新出错
+        run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新出错
         env:
           USER_KEY: ${{ secrets.USER_KEY }}
