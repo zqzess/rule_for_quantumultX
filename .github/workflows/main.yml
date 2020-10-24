@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Set up Python 3.7
-        run: actions/setup-python@master
+        run: actions/setup-python@main
 
       # 更新
       - name: update profile
