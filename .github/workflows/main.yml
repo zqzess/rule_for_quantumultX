@@ -62,4 +62,4 @@ jobs:
         if: failure()
         run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新出错!
         env:
-          USER_KEY: ${{ secrets.USER_KEY }}
+          USER_KEY: ${{secrets.USER_KEY}}
