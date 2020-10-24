@@ -23,8 +23,8 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Set up Python 3.7
-        run: actions/setup-python
+#       - name: Set up Python 3.7
+#         run: actions/setup-python@v2
 
       # 更新
       - name: update profile
