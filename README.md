@@ -7,5 +7,7 @@
 
 ## 参考
 [h2y](https://github.com/h2y)
+[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+[jdlingyu](https://github.com/jdlingyu/ad-wars/blob/master/hosts)
 
 
