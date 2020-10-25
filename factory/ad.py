@@ -31,9 +31,11 @@ rules_url = [
     #乘风 去广告
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
     #大圣净化
-    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
+    # 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
     #anti-ad-easylist
-    'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt'
+    'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt',
+    #乘风
+    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt'
 ]
 
 rule = ''
@@ -112,14 +114,14 @@ print('done.')
 
 
 # write into files
-if not os.path.exists('../rtmp'):
-    os.makedirs('../rtmp')
+if not os.path.exists('./rtmp'):
+    os.makedirs('./rtmp')
 file_ad = sys.stdout
 try:
     if sys.version_info.major == 3:
-        file_ad = open('../rtmp/ad.list', 'w+', encoding='utf-8')
+        file_ad = open('./rtmp/ad.list', 'w+', encoding='utf-8')
     else:
-        file_ad = open('../rtmp/ad.list', 'w+')
+        file_ad = open('./rtmp/ad.list', 'w+')
 except:
     pass
 
