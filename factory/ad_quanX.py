@@ -100,7 +100,7 @@ def Change():
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.search('127.0.0.1', keywords)
             if result != None:
-                keywords = keywords.replace("127.0.0.1", "HOST-SUFFIX,").replace("\n", "")
+                keywords = keywords.replace("127.0.0.1", "HOST,").replace("\n", "")
                 keywords = keywords + ",AdBlock\n"
                 f2.write(keywords)
                 continue
