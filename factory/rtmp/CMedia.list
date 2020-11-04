@@ -1,0 +1,115 @@
+# > AcFun
+USER-AGENT,AcFun*,CMedia
+HOST-SUFFIX,acfun.cn,CMedia
+HOST-SUFFIX,acfun.com,CMedia
+HOST-SUFFIX,acfun.tv,CMedia
+HOST-SUFFIX,aixifan.com,CMedia
+
+# > Bilibili
+USER-AGENT,bili*,CMedia
+USER-AGENT,Bilibili*,CMedia
+HOST-SUFFIX,acg.tv,CMedia
+HOST-SUFFIX,acgvideo.com,CMedia
+HOST-SUFFIX,b23.tv,CMedia
+HOST-SUFFIX,biliapi.com,CMedia
+HOST-SUFFIX,biliapi.net,CMedia
+HOST-SUFFIX,bilibili.com,CMedia
+HOST-SUFFIX,biligame.com,CMedia
+HOST-SUFFIX,biligame.net,CMedia
+HOST-SUFFIX,bilivideo.com,CMedia
+HOST-SUFFIX,hdslb.com,CMedia
+HOST-SUFFIX,im9.com,CMedia
+HOST-SUFFIX,smtcdns.net,CMedia
+
+# > iQiyi
+USER-AGENT,QIYI*,CMedia
+USER-AGENT,iQiYi*,CMedia
+USER-AGENT,PPStream*,CMedia
+USER-AGENT,QYPlayer*,CMedia
+HOST-SUFFIX,iqiyi.com,CMedia
+HOST-SUFFIX,iqiyipic.com,CMedia
+HOST-SUFFIX,qy.net,CMedia
+HOST-SUFFIX,71.am,CMedia
+
+# > Kugou & Kuwo
+HOST-SUFFIX,kugou.com,CMedia
+USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*,CMedia
+HOST-SUFFIX,kuwo.cn,CMedia
+HOST-SUFFIX,koowo.com,CMedia
+
+# > Letv
+HOST-SUFFIX,api.mob.app.letv.com,CMedia
+HOST-SUFFIX,letv.com,CMedia
+
+# > MGTV
+USER-AGENT,MGTV*,CMedia
+HOST-SUFFIX,hitv.com,CMedia
+HOST-SUFFIX,hunantv.com,CMedia
+HOST-SUFFIX,mgtv.com,CMedia
+
+# > Migu
+USER-AGENT,MiguVideo*,CMedia
+USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,CMedia
+HOST-SUFFIX,cmvideo.cn,CMedia
+HOST-SUFFIX,migu.cn,CMedia
+HOST-SUFFIX,miguvideo.com,CMedia
+
+# > MOOMusic
+USER-AGENT,MOO*,CMedia
+USER-AGENT,TencentMidasConnect*,CMedia
+
+# > Netease Music
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90,CMedia
+USER-AGENT,NeteaseMusic*,CMedia
+HOST,apm.music.163.com,CMedia
+HOST,apm3.music.163.com,CMedia
+HOST,interface.music.163.com,CMedia
+HOST,interface3.music.163.com,CMedia
+HOST,music.126.net,CMedia
+HOST,music.163.com,CMedia
+IP-CIDR,101.71.154.241/32,CMedia
+IP-CIDR,103.126.92.132/32,CMedia
+IP-CIDR,103.126.92.133/32,CMedia
+IP-CIDR,112.13.119.17/32,CMedia
+IP-CIDR,112.13.122.1/32,CMedia
+IP-CIDR,115.236.118.33/32,CMedia
+IP-CIDR,115.236.121.1/32,CMedia
+IP-CIDR,118.24.63.156/32,CMedia
+IP-CIDR,193.112.159.225/32,CMedia
+IP-CIDR,223.252.199.66/32,CMedia
+IP-CIDR,223.252.199.67/32,CMedia
+IP-CIDR,39.105.63.80/32,CMedia
+IP-CIDR,45.254.48.1/32,CMedia
+IP-CIDR,47.100.127.239/32,CMedia
+IP-CIDR,59.111.160.195/32,CMedia
+IP-CIDR,59.111.160.197/32,CMedia
+IP-CIDR,59.111.181.35/32,CMedia
+IP-CIDR,59.111.181.38/32,CMedia
+IP-CIDR,59.111.181.60/32,CMedia
+
+# > QQMusic
+USER-AGENT,QQ%e9%9f%b3%e4%b9%90*,CMedia
+USER-AGENT,QQMusic*,CMedia
+HOST-SUFFIX,*music.qq.com,CMedia
+HOST-SUFFIX,y.qq.com,CMedia
+HOST,aqqmusic.tc.qq.com,CMedia
+
+# > Tencent Video
+USER-AGENT,live4iphone*,CMedia
+USER-AGENT,qqlive4iphone*,CMedia
+USER-AGENT,TencentMidasConnect*,CMedia
+HOST-SUFFIX,v.qq.com,CMedia
+HOST-SUFFIX,video.qq.com,CMedia
+
+# > Xiami Music
+USER-AGENT,walkman*,CMedia
+USER-AGENT,xiami*,CMedia
+HOST-SUFFIX,xiami.com,CMedia
+HOST-SUFFIX,xiami.net,CMedia
+
+# > Youku
+USER-AGENT,Youku*,CMedia
+USER-AGENT,%E4%BC%98%E9%85%B7*,CMedia
+HOST-SUFFIX,soku.com,CMedia
+HOST-SUFFIX,youku.com,CMedia
+HOST-SUFFIX,ykimg.com,CMedia

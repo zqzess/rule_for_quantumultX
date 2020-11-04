@@ -30,8 +30,6 @@ rules_url = [
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
     #乘风 去广告
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
-    #大圣净化
-    # 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
     #anti-ad-easylist
     'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt',
     #乘风

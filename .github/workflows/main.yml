@@ -37,7 +37,7 @@ jobs:
       - name: update profile
         run: |
           cd factory
-          python ad.py
+          python MainWork.py
       
       #提交更新
       - name: commit
