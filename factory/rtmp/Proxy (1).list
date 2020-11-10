@@ -3,6 +3,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,32 +18,32 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-rejAsoJJGKFUHDunQEchnrzTFCP8j+HW+0BGXl/Fz4iEznxtf+ZDMP2v224+Na1KQbg1MmLqMl7ErrS6mxTgRw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-ade8c0b2824918a1541c3ba74047219e.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-jlDry7Lvhm9Xj5gH5j+6IESsbRyoGnFJMhI3zWyssDHvBLv1By6KSCiMJ5xco9+rbyxQvLdA0sR1voMv/Jcr1Q==" rel="stylesheet" href="https://github.githubassets.com/assets/site-8e50ebcbb2ef866f578f9807e63fba20.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-INeF7H1cgcAYKQbIBoKBPEDgdoF4J6UUmrjW2UUzKvFIBZvQjNqFE7HGek6QJXgn1zEmHU7dRyhD9CPdquI3Tg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-20d785ec7d5c81c0182906c80682813c.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-a3UvjYwiUB3k7uMFNp1DCYYo/ZZKpVWE6FJxoaoiWV2bjyvUUTiWzgEiq4wSwS7pBL7sEZhQnJ2SytUH9ar/Sw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-6b752f8d8c22501de4eee305369d4309.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-j5Qnatk4uyuGanB44d+AQJb0t5hmCKzplnmPN8aVGHaC07tcwc6o5NcCVnzQjK7r2/Z2nWODWUVvINWeYQIrcA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-8f94276ad938bb2b866a7078e1df8040.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-AWW6Hrc6QcPMXDvaVkrJnv8Pw3lwXt+a0k1U9S40gVp74kmZv1755kUWBA7QPKLu4DOx6l9B3nv5Yemf55sRBQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-0165ba1eb73a41c3cc5c3bda564ac99e.css" />
     
     
     
     
 
   <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-C1ARy+jvNWoUKep8dSwFX7zDZIJDM42nfnyqe5suPmsAXhuUhvJIUqzt4nd/r15W6WX1ClU4SHRfUpvJlt141g==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-0b5011cb.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-Shix6Hkv5DNREArBi1dz6K2Dezl6x88FzVNzPUHKbjuk6iZAuHacGedCwe/1YQtFhf8DzLIIDhr1Sb41uwiIXg==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-4a18b1e8.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-YEtshRLHr+2BeE23dp5rtQdHF4emi1s7HZto12f9a1bGq+ebWp9ScLXgCuLqLJk5ZfwWxORBfBUprys3XHMLHA==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-604b6c85.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-AsYa7L3J5bYnuUNrVC1tcCifuOPAby6GuHXmS8QCRbacHT9e6b7iZenxp4Qt/TY2qeMqrdHNHnivAsEKn9e9zw==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-02c61aec.js"></script>
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-AkIxElaeqL7JSzVlgfGn50BTI5jyG0UkVSUlissxla9WtD5UQAGn1wZXskviDmfKyKrU9WTBgPU/X+qoPJxtKA==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-02423112.js"></script>
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-FJ/kAXV8WkMmXtk0zEJmcF7C8+1SLzpvcQYTlB/OTd9n49YS73cdRuKY69Ofe6xvAn9SQ0r0U2g4VqBvq3HkrQ==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-149fe401.js"></script>
   
     <script crossorigin="anonymous" defer="defer" integrity="sha512-P2YMkqfXJOOfxTTkNHbblY5ks3U+e9w9tiVyK9syrE5+JmlaCg1kUiuT1DfbyJXwaOLaRLT3zam2r+QrxTZ3iw==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-3f660c92.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-GWmO6WpdFzHp9+4ZFVUeij/lnuI9rml4gBDWMs3/cm7pc/jW12dLrPZgChymPOQaHSRSEnV/uEA1gUJHDryPIQ==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-19698ee9.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-CA6OGHJW7NBZOqe29UPdCbAaPS/+enGcLWMFWtZxfFdP0PCFrNSvijVr3MgYasdV1rw9lfUuiAOWGxlc7+QBlg==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-080e8e18.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-obMR8mPKx8OvqRe34LgnUcxeJ1qujiA4ND3H6UX13ExMlA/WfHLjEzXRmgGRcRvN/8J1nzc+Z+jgz/PLTFy6zg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-a1b311f2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-o95wCKfOqL8EX5reoP68bQ/mUPvLnu0T5LaPZLAv0xQALhTP0XqriKBrnmOXbo6BVVM9eNnesNYw8rA37Ta60w==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-a3de7008.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-tcH4xCRuMBAh1PruDaiwGnRIbHlF6bGLhxyCQ16uqok1cV5QFMguVPWJtN9KI0jGQOgN+Pha3+uOUXhXdfK/qw==" type="application/javascript" data-module-id="./chunk-profile-pins-element.js" data-src="https://github.githubassets.com/assets/chunk-profile-pins-element-b5c1f8c4.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-gPx3bYhTjyC83X5u5KlEDJpwGAHt3AC2p5s9iMuAfPTeSj7kHlKMW231C3K3c7+jvlpWpELk8DJsefrYdRzqjA==" type="application/javascript" data-module-id="./chunk-randomColor.js" data-src="https://github.githubassets.com/assets/chunk-randomColor-80fc776d.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-hUprZmPKGx2Ji0cJJ29yrNBTnfCQoEg+Ow0rEG6bVGXu0HcagYwfPS9a5oRdoqvkE+nSk4FkIaklkLvc7Jb5+g==" type="application/javascript" data-module-id="./chunk-randomColor.js" data-src="https://github.githubassets.com/assets/chunk-randomColor-854a6b66.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-E+H+wAtjiqutBvn2cnXzDIvmasIhYiS7i7JzOfFUwo+Ej8zT54OrJtP//RhwixnypgOpCF4JvqzYy6zOtORDmg==" type="application/javascript" data-module-id="./chunk-runner-groups.js" data-src="https://github.githubassets.com/assets/chunk-runner-groups-13e1fec0.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-qdiCkJPPR4LxwUKftEmJe2v79E8xnTceYqylsWkMsGuARkiKkX9iFNwkvZJ3bDfS5YHSPD3+k+N2/I73tvlL1Q==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-a9d88290.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-NpURjBPyJ0JT8hWOMbLErYNeb0bTkKfmFX1hl1F8C/q6jckqWObeOzEAcs6TRlj+cqAR6GDohEBxDgkYBlx+QQ==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-3695118c.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-nRXmXWbTYQkOodFO0zOG/XmjOtZz/3gpqXICtuiBl3ALjqqiRgNEV46nY8UVyZb5ZH7LIz6YDQPnGSxGhi7L5w==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-9d15e65d.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-pkFKgC9JFth/pgRqBLhELfLOltqYbv+r++HblYEsbFpg7rCimMCN4Q/8RvPYilY0QMGT0q9vlJj1vzzUXYk3Zw==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-a6414a80.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-HCEY5FUSNmHYIUILB/UYu4Q6dPhLDAtK/MCQibzObiq4PxHpAohvWEf1oTil7Z4uckwsZ8q5VgDlEHJNNJ+tNg==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-1c2118e4.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-e+30BriXsBu+fb/LGEU9gAzSwn25wRYzDDPpr2AA8jZJI9034xzRHYXjA9XhF+7ncBIGJ/uTD11G25/H0XyuZg==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-7bedf406.js"></script>
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-RJH/qL01CQxNKQfUWUzz2f5zoOvILYJVOTk3IJNu53g5cnUCU9LGJbdrjBFXUCg0hC7DwuiJclKa0n6atiAqIg==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-4491ffa8.js"></script>
-<script crossorigin="anonymous" defer="defer" integrity="sha512-+M/c7JNh2iCab4BgoGfvsBrpaPa/6yUQ9FtP37K7yfhqviBQcWa+8E+16J2AV/tYG8tV65BYPIu7D1jThTPJUA==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-f8cfdcec.js"></script>
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-N0O5xJoLLdo2d6irsQsQgERIRUSntW3Z1rpjUQtKPiNMIGLLIjG3PrrRgLlFgDlAE3wMyfwOHVHzv2eHsjCOtw==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-3743b9c4.js"></script>
+<script crossorigin="anonymous" defer="defer" integrity="sha512-DCpenCObevJz6ReZOrQWdeqSyLbJ/19LRQTfnjM55GgriDs6kVA63/2N62UFgpVK+VM46kzKxWd/a0zV5KNF/w==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-0c2a5e9c.js"></script>
 
   <meta name="viewport" content="width=device-width">
   
@@ -62,7 +63,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="07C0:0ECC:40D987D:5B8D57C:5FA2BBF1" data-pjax-transient="true"/><meta name="html-safe-nonce" content="c416f24e1f9a4e262066eb87c4e9fd4836ba3c83" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MwOjBFQ0M6NDBEOTg3RDo1QjhENTdDOjVGQTJCQkYxIiwidmlzaXRvcl9pZCI6IjM4NTUxNjI2Mzc5MDQxNjU4NzMiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="b48f559e88a536122453704be521351852cff0b775a0cc9308f0072d8ef1ab0e" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
+  <meta name="request-id" content="07C0:5554:6216AF6:8B2FD30:5FA9E6FB" data-pjax-transient="true"/><meta name="html-safe-nonce" content="a5f590ca5e934edeaede742d5fdf2b62f2114bcd1e335d8b4efdf540cc9a5e13" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MwOjU1NTQ6NjIxNkFGNjo4QjJGRDMwOjVGQTlFNkZCIiwidmlzaXRvcl9pZCI6IjE1MDMzMTcyNjQ3NzU2MzY3MzEiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="5b6a641d965651caa0b8dec39e8dd78e75f27ca3107dda64a527d59737504d9c" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:276008164" data-pjax-transient>
 
@@ -107,7 +108,7 @@
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS">
 
-  <meta http-equiv="x-pjax-version" content="b6cc241cba3bbf55e40e82c79460ce0239fa6e3bf40cc0ba5f20368ef9e745ca">
+  <meta http-equiv="x-pjax-version" content="9cb90d9077e795cdde24ddc827f0cef3c63419990a93ae2d0739ad709e483ef7">
   
 
         <link href="https://github.com/blackmatrix7/ios_rule_script/commits/master.atom" rel="alternate" title="Recent Commits to ios_rule_script:master" type="application/atom+xml">
@@ -312,7 +313,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="LXOSpcpE6TrNrsaYoXUEfnbS7U4zT1xMNiZhOG/yYojixxL5TiWvkTk0aoKK2uGpnnvm841YTmgN0ugVJFc5tw==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="qjSysUmc/Ol2fDCbR/7xDVzrdqGZZR4hQOlRw6O40WSq4ACosW72WFEZWd8lhblv1Qx42APuKk1qzT45vxEvVw==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -531,8 +532,8 @@
     <svg class="octicon octicon-eye" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
     Watch
 </a>    <a class="social-count" href="/blackmatrix7/ios_rule_script/watchers"
-       aria-label="55 users are watching this repository">
-      55
+       aria-label="59 users are watching this repository">
+      59
     </a>
 
   </li>
@@ -543,8 +544,8 @@
       Star
 </a>
     <a class="social-count js-social-count" href="/blackmatrix7/ios_rule_script/stargazers"
-      aria-label="481 users starred this repository">
-      481
+      aria-label="518 users starred this repository">
+      518
     </a>
 
   </li>
@@ -555,8 +556,8 @@
           Fork
 </a>
       <a href="/blackmatrix7/ios_rule_script/network/members" class="social-count"
-         aria-label="92 users forked this repository">
-        92
+         aria-label="98 users forked this repository">
+        98
       </a>
   </li>
 </ul>
@@ -575,7 +576,7 @@
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /blackmatrix7/ios_rule_script/issues" href="/blackmatrix7/ios_rule_script/issues">
               <svg class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
             <span data-content="Issues">Issues</span>
-              <span title="0" hidden="hidden" class="Counter ">0</span>
+              <span title="1" class="Counter ">1</span>
 </a>      </li>
       <li class="d-flex">
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /blackmatrix7/ios_rule_script/pulls" href="/blackmatrix7/ios_rule_script/pulls">
@@ -664,9 +665,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/blackmatrix7/ios_rule_script/blob/234575699d58619bdbbe69b67ddf1e534df0289c/rule/QuantumultX/Telegram/Telegram.list">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/blackmatrix7/ios_rule_script/blob/c4eb7293799fa56ec073e78550b5ab36b243e70f/rule/QuantumultX/Telegram/Telegram.list">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:77211cc153c0970aac6ff5e9a5a1ece2299c9e46fa6410c9fa772bc4f201acbf -->
+    <!-- blob contrib key: blob_contributors:v22:2cab774d1a323f1627be8d0f99d957d65668c5215b4a0dc7fd2eac58b36bba0b -->
       <signup-prompt class="signup-prompt-bg rounded-1" data-prompt="signup" hidden>
     <div class="signup-prompt p-4 text-center mb-4 rounded-1">
       <div class="position-relative">
@@ -765,9 +766,6 @@
 
 
 
-<!--  TODO: remove this block when folded into repository.issue_template-->
-<!--  end temporary code-->
-
 
     <div class="Box mt-3 position-relative
       ">
@@ -823,7 +821,7 @@
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"># UPDATE: 2020-11-04 00:50:20</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"># UPDATE: 2020-11-09 13:09:00</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
@@ -927,7 +925,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/blackmatrix7/ios_rule_script/blame/234575699d58619bdbbe69b67ddf1e534df0289c/rule/QuantumultX/Telegram/Telegram.list">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/blackmatrix7/ios_rule_script/blame/c4eb7293799fa56ec073e78550b5ab36b243e70f/rule/QuantumultX/Telegram/Telegram.list">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/blackmatrix7/ios_rule_script/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
