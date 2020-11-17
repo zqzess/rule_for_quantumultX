@@ -805,6 +805,7 @@ HOST,kktv-theater.kk.stream,Outside
 HOST,linear-abematv.akamaized.net,Outside
 HOST,litvfreemobile-hichannel.cdn.hinet.net,Outside
 HOST,lookup-api.apple.com,Outside
+HOST,ocsp.apple.com,Outside
 HOST,ocsp.int-x3.letsencrypt.org,Outside
 HOST,oneclient.sfx.ms,Outside
 HOST,payments-jp.amazon.com,Outside
@@ -838,6 +839,7 @@ HOST-SUFFIX,admin.recaptcha.net,Outside
 HOST-SUFFIX,advertisercommunity.com,Outside
 HOST-SUFFIX,aiv-cdn.net,Outside
 HOST-SUFFIX,aiv-delivery.net,Outside
+HOST-SUFFIX,aka.ms,Outside
 HOST-SUFFIX,allconnected.co,Outside
 HOST-SUFFIX,amazon.co.jp,Outside
 HOST-SUFFIX,amazonvideo.com,Outside
@@ -1014,14 +1016,8 @@ HOST-SUFFIX,euronews.com,Outside
 HOST-SUFFIX,evozi.com,Outside
 HOST-SUFFIX,exblog.jp,Outside
 HOST-SUFFIX,extmatrix.com,Outside
-HOST-SUFFIX,facebook.br,Outside
 HOST-SUFFIX,facebook.com,Outside
-HOST-SUFFIX,facebook.design,Outside
-HOST-SUFFIX,facebook.hu,Outside
-HOST-SUFFIX,facebook.in,Outside
 HOST-SUFFIX,facebook.net,Outside
-HOST-SUFFIX,facebook.nl,Outside
-HOST-SUFFIX,facebook.se,Outside
 HOST-SUFFIX,facebookmail.com,Outside
 HOST-SUFFIX,fast.com,Outside
 HOST-SUFFIX,fastpic.ru,Outside
@@ -1061,6 +1057,7 @@ HOST-SUFFIX,funkyimg.com,Outside
 HOST-SUFFIX,fxnetworks.com,Outside
 HOST-SUFFIX,gamer.com.tw,Outside
 HOST-SUFFIX,gate.io,Outside
+HOST-SUFFIX,genius.com,Outside
 HOST-SUFFIX,getlantern.org,Outside
 HOST-SUFFIX,getmdl.io,Outside
 HOST-SUFFIX,getoutline.org,Outside
@@ -1371,6 +1368,7 @@ HOST-SUFFIX,steemitwallet.com,Outside
 HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
 HOST-SUFFIX,straitstimes.com,Outside
+HOST-SUFFIX,streamable.com,Outside
 HOST-SUFFIX,streema.com,Outside
 HOST-SUFFIX,streetvoice.com,Outside
 HOST-SUFFIX,superpages.com,Outside
@@ -1511,6 +1509,7 @@ HOST-SUFFIX,zeronet.io,Outside
 HOST-SUFFIX,zoom.us,Outside
 HOST-KEYWORD,-spotify-com,Outside
 HOST-KEYWORD,.blogspot.,Outside
+HOST-KEYWORD,.facebook.,Outside
 HOST-KEYWORD,.pinterest.,Outside
 HOST-KEYWORD,avoddashs,Outside
 HOST-KEYWORD,bbcfmt,Outside
