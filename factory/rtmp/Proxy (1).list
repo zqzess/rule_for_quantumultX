@@ -63,7 +63,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="07C0:319B:35E821D:4CC4B0D:5FB4B5F2" data-pjax-transient="true"/><meta name="html-safe-nonce" content="d6444359ab323a40e39e7dc6b8de01a324aef6262f612a2c780c6b4e8f29f525" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MwOjMxOUI6MzVFODIxRDo0Q0M0QjBEOjVGQjRCNUYyIiwidmlzaXRvcl9pZCI6IjIwMjY0NDQ0Mjc0NTgwMzMxMzgiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="893a2ce688c9d3e91429a69f185301117567d0b742462ce68f19b7f33fd151e3" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
+  <meta name="request-id" content="0400:4ABE:1A81D9:317B98:5FB4B777" data-pjax-transient="true"/><meta name="html-safe-nonce" content="dcb0af29c13851de0ca294591a2a93905ab4712c5964525d61d4f78e4a4b57f6" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAwOjRBQkU6MUE4MUQ5OjMxN0I5ODo1RkI0Qjc3NyIsInZpc2l0b3JfaWQiOiIxMjk1Njg4MTc3NjM2NjUyOTE5IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="9bbc8a4510ed253a61499fcb1388d3f48fb21309816b4abda7b645364a932c10" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:276008164" data-pjax-transient>
 
@@ -310,7 +310,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="B43CSDI0SJnG1wyHE1j8o9I2pD9Renbmqx84LafbLzPtfAMiwJyaUwndbmeE59Cy+9SvQR0BRzpWuFT4f7RAxQ==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="lIzk9XzjjtE65WWVdsgksUonf2vO3dVAVqAlKUn4leCaNT4FneD+Hi49onklrVn0AmN9J0Hu416k9cN+9Wf4DQ==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -673,13 +673,13 @@
           class="position-absolute top-0 right-0 btn-link link-gray"
           data-action="click:signup-prompt#dismiss"
           data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
-          data-optimizely-event="click.dismiss_signup_prompt, 2036521871.1605678578"
+          data-optimizely-event="click.dismiss_signup_prompt, 1197345537.1605678967"
         >
           Dismiss
         </button>
         <h3 class="pt-2">Join GitHub today</h3>
         <p class="col-6 mx-auto">GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.</p>
-        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 2036521871.1605678578" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up</a>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 1197345537.1605678967" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up</a>
       </div>
     </div>
 
@@ -689,13 +689,13 @@
           <h3 class="h2 lh-condensed mt-sm-1 mt-lg-0">GitHub is where the world builds software</h3>
           <p class="f4 text-gray mt-2 mb-3">Millions of developers and companies build, ship, and maintain their software on GitHub &#8212; the largest and most advanced development platform in the world.</p>
           <div class="d-flex flex-items-center pb-3">
-            <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 2036521871.1605678578" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up for free</a>
+            <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 1197345537.1605678967" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up for free</a>
             <button
               type="button"
               class="btn-link link-gray ml-3"
               data-action="click:signup-prompt#dismiss"
               data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
-              data-optimizely-event="click.dismiss_signup_prompt, 2036521871.1605678578"
+              data-optimizely-event="click.dismiss_signup_prompt, 1197345537.1605678967"
             >
               Dismiss
             </button>
