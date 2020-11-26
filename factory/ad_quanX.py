@@ -111,11 +111,11 @@ def Change():
                 print("注释:" + lineTmp)
                 continue
             elif result != None:
-                keywords = keywords.replace("Advertising", "AdBlock")
+                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock","")
                 f2.write(keywords)
                 continue
             elif result2 != None:
-                keywords = keywords.replace("Advertising", "AdBlock")
+                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock","")
                 f2.write(keywords)
                 continue
 

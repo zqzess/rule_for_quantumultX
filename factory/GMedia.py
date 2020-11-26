@@ -77,7 +77,7 @@ def GlobalMedia():
             result = re.search('GlobalMedia', keywords)
             # print(result)
             if result != None:
-                keywords = keywords.replace("GlobalMedia", "GMedia")
+                keywords = keywords.replace("GlobalMedia", "GMedia").replace(",foreignmedia","")
                 f2.write(keywords)
                 continue
         f1.close()
