@@ -33,7 +33,13 @@ rules_url = [
     #anti-ad-easylist
     'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt',
     #乘风
-    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt'
+    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
+    #Adbyby-lazy
+    'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/lazy.txt',
+    #Adbyby-video
+    'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/video.txt',
+    #AdGuard DNS filter
+    'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
 ]
 
 rule = ''
@@ -117,9 +123,9 @@ if not os.path.exists('./rtmp'):
 file_ad = sys.stdout
 try:
     if sys.version_info.major == 3:
-        file_ad = open('./rtmp/ad.list', 'w+', encoding='utf-8')
+        file_ad = open('./rtmp/adtmp.list', 'w+', encoding='utf-8')
     else:
-        file_ad = open('./rtmp/ad.list', 'w+')
+        file_ad = open('./rtmp/adtmp.list', 'w+')
 except:
     pass
 
@@ -130,6 +136,25 @@ domains.sort()
 
 for item in domains:
     file_ad.write(item + '\n')
+
+#去重
+out_fname = './rtmp/adtmp.list'
+out_fname2 ='./rtmp/ad.list'
+a = 0
+lines_seen = set()
+outfile = open(out_fname2, "w+")
+outfile.write('# AdBlock rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n\n')
+f = open(out_fname, "r")
+for line in f:
+    if line not in lines_seen:
+        a += 1
+        outfile.write(line)
+        lines_seen.add(line)
+        # print(a)
+        # print('\n')
+outfile.close()
+print(a)
+print("去重success")
 
 print("转换开始")
 ad_quanX.Change()

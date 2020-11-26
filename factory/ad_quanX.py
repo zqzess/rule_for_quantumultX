@@ -22,6 +22,7 @@ def Change():
     in_fname3 = './rtmp/hosts'
     in_fname4 = './rtmp/1024hosts.txt'
     in_fname5 = './rtmp/Zhihu.txt'
+    in_fname6 = './rtmp/adawayhosts.txt'
     DATA_URL = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list'
     #大圣净化
     DATA_URL2 = 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
@@ -31,6 +32,8 @@ def Change():
     DATA_URL4 = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Zhihu/Zhihu.list'
     #运营商劫持等,暂不添加
     #DATA_URL4='https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Hijacking/Hijacking.list'
+    #AdAway Default Blocklist
+    DATA_URL5='https://adaway.org/hosts.txt'
     if os.path.exists(out_fname):
         os.remove(out_fname)
         print("AdBlockTmp.list文件存在，已执行删除")
@@ -49,10 +52,23 @@ def Change():
     if os.path.exists(in_fname5):
         os.remove(in_fname5)
         print("zhihu文件存在，已执行删除")
-    wget.download(DATA_URL, out=in_fname2)
-    wget.download(DATA_URL2, out=in_fname3)
-    wget.download(DATA_URL3, out=in_fname4)
-    wget.download(DATA_URL4, out=in_fname5)
+    if os.path.exists(in_fname6):
+        os.remove(in_fname6)
+        print("adawayhosts文件存在，已执行删除")
+    try:
+        print("loading...."+DATA_URL)
+        wget.download(DATA_URL, out=in_fname2)
+        print("loading...." + DATA_URL2)
+        wget.download(DATA_URL2, out=in_fname3)
+        print("loading...." + DATA_URL3)
+        wget.download(DATA_URL3, out=in_fname4)
+        print("loading...." + DATA_URL4)
+        wget.download(DATA_URL4, out=in_fname5)
+        print("loading...." + DATA_URL5)
+        wget.download(DATA_URL5, out=in_fname6)
+        print("download success 下载完成")
+    except:
+        print("download err 下载错误")
     try:
         if sys.version_info.major == 3:
             f1 = open(in_fname, "r", encoding="utf-8")
@@ -61,6 +77,7 @@ def Change():
             f4 = open(in_fname3, "r", encoding="utf-8")
             f5 = open(in_fname4, "r", encoding="utf-8")
             f6 = open(in_fname5, "r", encoding="utf-8")
+            f7 = open(in_fname6, "r", encoding="utf-8")
         else:
             f1 = open(in_fname, "r")
             f2 = open(out_fname, "w+")
@@ -68,6 +85,7 @@ def Change():
             f4 = open(in_fname3, "r")
             f5 = open(in_fname4, "r")
             f6 = open(in_fname5, "r")
+            f7 = open(in_fname6, "r")
     except:
         print("Error: 没有找到文件或读取文件失败")
     else:
@@ -169,6 +187,26 @@ def Change():
                 keywords = keywords.replace("Zhihu", "AdBlock")
                 f2.write(keywords)
                 continue
+
+        # AdAway Default Blocklist
+        for lineTmp in f7.readlines():
+            if re.search('localhost', lineTmp) is not None:
+                print("注释:" + lineTmp)
+                continue
+            # if lineTmp.find('#') == 0:
+            if re.search('#', lineTmp) is not None:
+                # f2.write(lineTmp)
+                print("注释:" + lineTmp)
+                continue
+            keywords = lineTmp
+            # pattern = re.compile(r'[a-zA-z]+')
+            result = re.search('127.0.0.1', keywords)
+            if result != None:
+                keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
+                keywords = keywords + ",AdBlock\n"
+                f2.write(keywords)
+                continue
+
         f1.close()
         f2.close()
         f3.close()
