@@ -63,7 +63,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="0400:34D3:A1DCA0:E885D3:5FBF370C" data-pjax-transient="true"/><meta name="html-safe-nonce" content="1629ae6d494dd45ace8832f6fbb73a984e142cc5c708156f83a0558195532eb3" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAwOjM0RDM6QTFEQ0EwOkU4ODVEMzo1RkJGMzcwQyIsInZpc2l0b3JfaWQiOiI3MjY4ODk1MjY1NzM2NTcwNjM2IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="714ecb0de572a423be4eef51dc9fb3b462b12cfe45059abb94a47fac89c2fd1f" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
+  <meta name="request-id" content="0400:8DD0:1B4324A:23A0EE7:5FBF383D" data-pjax-transient="true"/><meta name="html-safe-nonce" content="49b32bf55d2e478fa2f18fe44f9218d1bacaedb4f0efc6214ca3af7fb9106030" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAwOjhERDA6MUI0MzI0QToyM0EwRUU3OjVGQkYzODNEIiwidmlzaXRvcl9pZCI6Ijc0NzQzNTU4MjM4ODg1MTMwODUiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="81de05fd09507231c22292948b809d151c6250ccafe3f10f0f5e8f3bec3d0d6b" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:276008164" data-pjax-transient>
 
@@ -310,7 +310,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="rXd8BcEIQFvkUPcipeQSr6FfDiVglJ9v0JM8FxlI0SXESvVdTBBctyYEARDDhOHuBKiOyP7rKBUxZcB2NzAiXg==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="P356xt1aBkTWo3h6oX5SXKh5U0+StNDl6WI0QZdvaj2JWeyOoS0j1Q+8nPA5w+TJl2Q1Zgrl6hFCRZeTZemgpQ==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -573,7 +573,7 @@
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /blackmatrix7/ios_rule_script/issues" href="/blackmatrix7/ios_rule_script/issues">
               <svg class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
             <span data-content="Issues">Issues</span>
-              <span title="2" class="Counter ">2</span>
+              <span title="3" class="Counter ">3</span>
 </a>      </li>
       <li class="d-flex">
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /blackmatrix7/ios_rule_script/pulls" href="/blackmatrix7/ios_rule_script/pulls">
@@ -673,13 +673,13 @@
           class="position-absolute top-0 right-0 btn-link link-gray"
           data-action="click:signup-prompt#dismiss"
           data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
-          data-optimizely-event="click.dismiss_signup_prompt, 1076500892.1606366988"
+          data-optimizely-event="click.dismiss_signup_prompt, 1418186260.1606367293"
         >
           Dismiss
         </button>
         <h3 class="pt-2">Join GitHub today</h3>
         <p class="col-6 mx-auto">GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.</p>
-        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 1076500892.1606366988" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up</a>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 1418186260.1606367293" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up</a>
       </div>
     </div>
 
@@ -689,13 +689,13 @@
           <h3 class="h2 lh-condensed mt-sm-1 mt-lg-0">GitHub is where the world builds software</h3>
           <p class="f4 text-gray mt-2 mb-3">Millions of developers and companies build, ship, and maintain their software on GitHub &#8212; the largest and most advanced development platform in the world.</p>
           <div class="d-flex flex-items-center pb-3">
-            <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 1076500892.1606366988" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up for free</a>
+            <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 1418186260.1606367293" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ac47e1da65900157a782f777977bcd0928f119f7b8ce89f259d3a6765edf7556" href="/join?source=prompt-blob-show&amp;source_repo=blackmatrix7%2Fios_rule_script">Sign up for free</a>
             <button
               type="button"
               class="btn-link link-gray ml-3"
               data-action="click:signup-prompt#dismiss"
               data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
-              data-optimizely-event="click.dismiss_signup_prompt, 1076500892.1606366988"
+              data-optimizely-event="click.dismiss_signup_prompt, 1418186260.1606367293"
             >
               Dismiss
             </button>
