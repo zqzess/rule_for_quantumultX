@@ -1,13 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-03 14:07:33
+# UPDATED: 2020-12-07 03:33:16
 # HOST-SUFFIX: 5903
 # USER-AGENT: 3
 # HOST: 1
 # HOST-KEYWORD: 27
 # IP-CIDR: 85
-# TOTAL: 6019
+# IP6-CIDR: 3
+# TOTAL: 6022
 HOST,testflight.apple.com,Proxy
 HOST-SUFFIX,gnews.org,Proxy
 HOST-SUFFIX,notion.so,Proxy
@@ -6027,3 +6028,6 @@ IP-CIDR,184.173.128.0/17,Proxy
 IP-CIDR,158.85.224.160/27,Proxy
 IP-CIDR,75.126.150.0/16,Proxy
 IP-CIDR,69.171.235.0/16,Proxy
+IP6-CIDR,2001:67c:4e8::/48,Proxy
+IP6-CIDR,2001:b28:f23d::/48,Proxy
+IP6-CIDR,2001:b28:f23f::/48,Proxy

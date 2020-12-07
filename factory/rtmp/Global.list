@@ -1,13 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-03 14:07:33
+# UPDATED: 2020-12-07 03:33:16
 # HOST-SUFFIX: 689
 # HOST-KEYWORD: 19
 # IP-CIDR: 29
+# IP6-CIDR: 3
 # USER-AGENT: 38
 # HOST: 47
-# TOTAL: 822
+# TOTAL: 825
 HOST,testflight.apple.com,Global
 HOST,books.itunes.apple.com,Global
 HOST,hls.itunes.apple.com,Global
@@ -830,3 +831,6 @@ IP-CIDR,192.173.64.0/18,Global
 IP-CIDR,198.38.96.0/19,Global
 IP-CIDR,198.45.48.0/20,Global
 IP-CIDR,91.108.8.0/21,Global
+IP6-CIDR,2001:b28:f23d::/48,Global
+IP6-CIDR,2001:b28:f23f::/48,Global
+IP6-CIDR,2001:67c:4e8::/48,Global

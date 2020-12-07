@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2020-12-04 01:14:21
+# Mainland rules refresh time: 2020-12-07 01:18:24
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -656,6 +656,10 @@ USER-AGENT,remoteplay*,Mainland
 USER-AGENT,yyets*,Mainland
 IP-CIDR,119.28.28.28/32,Mainland
 IP-CIDR,182.254.116.0/24,Mainland
+IP6-CIDR,2a0b:b580::/48,Mainland
+IP6-CIDR,2a0b:b581::/48,Mainland
+IP6-CIDR,2a0b:b582::/48,Mainland
+IP6-CIDR,2a0b:b583::/48,Mainland
 IP-CIDR,1.0.1.0/24,Mainland
 IP-CIDR,1.0.2.0/23,Mainland
 IP-CIDR,1.0.8.0/21,Mainland

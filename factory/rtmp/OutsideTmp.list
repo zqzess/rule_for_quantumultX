@@ -1593,6 +1593,9 @@ IP-CIDR,192.173.64.0/18,Outside
 IP-CIDR,198.38.96.0/19,Outside
 IP-CIDR,198.45.48.0/20,Outside
 IP-CIDR,91.108.8.0/21,Outside
+IP6-CIDR,2001:b28:f23d::/48,Outside
+IP6-CIDR,2001:b28:f23f::/48,Outside
+IP6-CIDR,2001:67c:4e8::/48,Outside
 
 HOST,testflight.apple.com,Outside
 HOST-SUFFIX,gnews.org,Outside
@@ -7613,3 +7616,6 @@ IP-CIDR,184.173.128.0/17,Outside
 IP-CIDR,158.85.224.160/27,Outside
 IP-CIDR,75.126.150.0/16,Outside
 IP-CIDR,69.171.235.0/16,Outside
+IP6-CIDR,2001:67c:4e8::/48,Outside
+IP6-CIDR,2001:b28:f23d::/48,Outside
+IP6-CIDR,2001:b28:f23f::/48,Outside
