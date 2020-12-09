@@ -1,15 +1,15 @@
-# YouTube rules refresh time: 2020-12-07 01:18:22
+# YouTube rules refresh time: 2020-12-09 01:18:37
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
-HOST-SUFFIX,googlevideo.com,YouTube
-HOST-SUFFIX,youtube.com,YouTube
 HOST-SUFFIX,app-measurement.com,YouTube
+HOST-SUFFIX,googlevideo.com,YouTube
 HOST-SUFFIX,gvt2.com,YouTube
 HOST-SUFFIX,youtu.be,YouTube
+HOST-SUFFIX,youtube.com,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
 HOST-KEYWORD,youtube,YouTube
-USER-AGENT,com.google.ios.youtube*,YouTube
-USER-AGENT,youtube*,YouTube
-USER-AGENT,com.google.ios.youtubemusic*,YouTube
-USER-AGENT,youtubemusic*,YouTube
 USER-AGENT,*youtube*,YouTube
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,com.google.ios.youtubemusic*,YouTube
+USER-AGENT,youtube*,YouTube
+USER-AGENT,youtubemusic*,YouTube
