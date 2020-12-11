@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2020-12-09 01:18:38
+# Mainland rules refresh time: 2020-12-11 01:21:21
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -488,6 +488,7 @@ HOST-SUFFIX,libguides.com,Mainland
 HOST-SUFFIX,licdn.com,Mainland
 HOST-SUFFIX,linkedin.com,Mainland
 HOST-SUFFIX,livechina.com,Mainland
+HOST-SUFFIX,liyuans.com,Mainland
 HOST-SUFFIX,lofter.com,Mainland
 HOST-SUFFIX,loli.net,Mainland
 HOST-SUFFIX,luojilab.com,Mainland
@@ -543,6 +544,9 @@ HOST-SUFFIX,p4pfile.com,Mainland
 HOST-SUFFIX,paypal.com,Mainland
 HOST-SUFFIX,paypal.me,Mainland
 HOST-SUFFIX,paypalobjects.com,Mainland
+HOST-SUFFIX,playstation.com,Mainland
+HOST-SUFFIX,playstation.net,Mainland
+HOST-SUFFIX,playstationnetwork.com,Mainland
 HOST-SUFFIX,plex.tv,Mainland
 HOST-SUFFIX,pnas.org,Mainland
 HOST-SUFFIX,proquest.com,Mainland
@@ -572,6 +576,8 @@ HOST-SUFFIX,snapdrop.net,Mainland
 HOST-SUFFIX,sogo.com,Mainland
 HOST-SUFFIX,sohu-inc.com,Mainland
 HOST-SUFFIX,sohucs.com,Mainland
+HOST-SUFFIX,sony.com,Mainland
+HOST-SUFFIX,sonyentertainmentnetwork.com,Mainland
 HOST-SUFFIX,spiedigitallibrary.org,Mainland
 HOST-SUFFIX,springer.com,Mainland
 HOST-SUFFIX,springerlink.com,Mainland
