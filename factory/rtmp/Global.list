@@ -1,19 +1,17 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2020-12-16 03:36:47
-# HOST-SUFFIX: 689
+# UPDATED: 2020-12-18 03:43:09
+# HOST-SUFFIX: 687
 # HOST-KEYWORD: 19
-# IP-CIDR: 29
+# IP-CIDR: 27
 # IP6-CIDR: 3
 # USER-AGENT: 38
-# HOST: 47
-# TOTAL: 825
-HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Global
+# HOST: 44
+# TOTAL: 818
 HOST,a248.e.akamai.net,Global
 HOST,a771.dscq.akamai.net,Global
 HOST,abematv.akamaized.net,Global
-HOST,api-glb-sea.smoot.apple.com,Global
 HOST,api.steampowered.com,Global
 HOST,apps.apple.com,Global
 HOST,avodmp4s3ww-a.akamaihd.net,Global
@@ -44,7 +42,6 @@ HOST,linear-abematv.akamaized.net,Global
 HOST,litvfreemobile-hichannel.cdn.hinet.net,Global
 HOST,lookup-api.apple.com,Global
 HOST,ocsp.apple.com,Global
-HOST,ocsp.int-x3.letsencrypt.org,Global
 HOST,oneclient.sfx.ms,Global
 HOST,payments-jp.amazon.com,Global
 HOST,players.brightcove.net,Global
@@ -73,7 +70,6 @@ HOST-SUFFIX,abc.xyz,Global
 HOST-SUFFIX,abebooks.com,Global
 HOST-SUFFIX,abema.io,Global
 HOST-SUFFIX,abema.tv,Global
-HOST-SUFFIX,admin.recaptcha.net,Global
 HOST-SUFFIX,advertisercommunity.com,Global
 HOST-SUFFIX,aiv-cdn.net,Global
 HOST-SUFFIX,aiv-delivery.net,Global
@@ -357,7 +353,6 @@ HOST-SUFFIX,hulustream.com,Global
 HOST-SUFFIX,hwcdn.net,Global
 HOST-SUFFIX,hyread.com.tw,Global
 HOST-SUFFIX,i-cable.com,Global
-HOST-SUFFIX,ib.metapix.net,Global
 HOST-SUFFIX,ibtimes.com,Global
 HOST-SUFFIX,icij.org,Global
 HOST-SUFFIX,icoco.com,Global
@@ -825,12 +820,10 @@ IP-CIDR,54.235.23.242/32,Global
 IP-CIDR,54.93.124.31/32,Global
 IP-CIDR,64.120.128.0/17,Global
 IP-CIDR,66.197.128.0/17,Global
-IP-CIDR,91.108.12.0/22,Global
 IP-CIDR,91.108.16.0/22,Global
 IP-CIDR,91.108.4.0/22,Global
 IP-CIDR,91.108.56.0/22,Global
 IP-CIDR,91.108.8.0/21,Global
-IP-CIDR,91.108.8.0/22,Global
 IP6-CIDR,2001:67c:4e8::/48,Global
 IP6-CIDR,2001:b28:f23d::/48,Global
 IP6-CIDR,2001:b28:f23f::/48,Global

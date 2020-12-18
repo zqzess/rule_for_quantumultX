@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2020-12-16 01:25:00
+# GMedia rules refresh time: 2020-12-18 01:29:33
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -181,7 +181,6 @@ HOST,hboasia3-i.akamaihd.net,GMedia
 HOST,hboasia4-i.akamaihd.net,GMedia
 HOST,hboasia5-i.akamaihd.net,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
-HOST,netflix.com.edgesuite.net,GMedia
 HOST,players.brightcove.net,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
@@ -190,21 +189,15 @@ HOST-SUFFIX,app-measurement.com,GMedia
 HOST-SUFFIX,bam.nr-date.net,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
 HOST-SUFFIX,c4assets.com,GMedia
-HOST-SUFFIX,cdn.registerdisney.go.com,GMedia
-HOST-SUFFIX,cdn.unid.go.com,GMedia
 HOST-SUFFIX,channel4.com,GMedia
 HOST-SUFFIX,channel5.com,GMedia
 HOST-SUFFIX,control.kochava.com,GMedia
-HOST-SUFFIX,d1sgwhnao7452x.cloudfront.net,GMedia
 HOST-SUFFIX,d9.flashtalking.com,GMedia
 HOST-SUFFIX,dc2-vodhls-perform.secure.footprint.net,GMedia
 HOST-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,GMedia
 HOST-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,GMedia
-HOST-SUFFIX,dcalivedazn.akamaized.net,GMedia
-HOST-SUFFIX,dcblivedazn.akamaized.net,GMedia
 HOST-SUFFIX,deezer.com,GMedia
 HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
-HOST-SUFFIX,disney.my.sentry.io,GMedia
 HOST-SUFFIX,disneyplus.bn5x.net,GMedia
 HOST-SUFFIX,disneystreaming.com,GMedia
 HOST-SUFFIX,dmc.nico,GMedia
@@ -236,7 +229,6 @@ HOST-SUFFIX,netflixdnstest9.com,GMedia
 HOST-SUFFIX,nicovideo.jp,GMedia
 HOST-SUFFIX,nimg.jp,GMedia
 HOST-SUFFIX,ocnttv.com,GMedia
-HOST-SUFFIX,onboarding.indazn.com,GMedia
 HOST-SUFFIX,p-cdn.us,GMedia
 HOST-SUFFIX,phncdn.com,GMedia
 HOST-SUFFIX,phprcdn.com,GMedia
@@ -244,14 +236,11 @@ HOST-SUFFIX,pornhub.com,GMedia
 HOST-SUFFIX,pornhubpremium.com,GMedia
 HOST-SUFFIX,primevideo.com,GMedia
 HOST-SUFFIX,profile.line-scdn.net,GMedia
-HOST-SUFFIX,pubby.indazn.com,GMedia
 HOST-SUFFIX,qobuz.com,GMedia
-HOST-SUFFIX,rail.discovery.indazn.com,GMedia
 HOST-SUFFIX,s.yimg.jp,GMedia
 HOST-SUFFIX,sentry.io,GMedia
 HOST-SUFFIX,skyking.com.tw,GMedia
 HOST-SUFFIX,socdm.com,GMedia
-HOST-SUFFIX,tidal-cms.s3.amazonaws.com,GMedia
 HOST-SUFFIX,tidal.com,GMedia
 HOST-SUFFIX,tidalhifi.com,GMedia
 HOST-SUFFIX,tik-tokapi.com,GMedia

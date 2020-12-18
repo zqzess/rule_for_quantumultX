@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2020-12-16 01:24:59
+# CMedia rules refresh time: 2020-12-18 01:29:33
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -90,7 +90,6 @@ USER-AGENT,%E4%BC%98%E9%85%B7*,CMedia
 HOST-SUFFIX,soku.com,CMedia
 HOST-SUFFIX,youku.com,CMedia
 HOST-SUFFIX,ykimg.com,CMedia
-HOST,cache.video.iqiyi.com,CMedia
 HOST,upos-hz-mirrorakam.akamaized.net,CMedia
 HOST-SUFFIX,56.com,CMedia
 HOST-SUFFIX,71.am.com,CMedia
@@ -104,7 +103,6 @@ HOST-SUFFIX,sohu.com,CMedia
 HOST-SUFFIX,sohu.com.cn,CMedia
 HOST-SUFFIX,v-56.com,CMedia
 HOST-SUFFIX,v.smtcdns.com,CMedia
-HOST-SUFFIX,vv.video.qq.com,CMedia
 HOST-KEYWORD,bilibili,CMedia
 HOST-KEYWORD,qiyi,CMedia
 USER-AGENT,%e4%bc%98%e9%85%b7*,CMedia
@@ -126,5 +124,4 @@ USER-AGENT,qyplayer*,CMedia
 USER-AGENT,tencentmidasconnect*,CMedia
 USER-AGENT,youku*,CMedia
 IP-CIDR,101.224.0.0/13,CMedia
-IP-CIDR,101.227.0.0/16,CMedia
 IP-CIDR,119.176.0.0/12,CMedia
