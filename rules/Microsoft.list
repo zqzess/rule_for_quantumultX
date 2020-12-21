@@ -1,4 +1,4 @@
-# Microsoft rules refresh time: 2020-12-18 01:29:33
+# Microsoft rules refresh time: 2020-12-21 01:33:27
 HOST-SUFFIX,1drv.com,Microsoft
 HOST-SUFFIX,aadrm.com,Microsoft
 HOST-SUFFIX,acompli.com,Microsoft
@@ -55,6 +55,7 @@ HOST-SUFFIX,outlook.com,Microsoft
 HOST-SUFFIX,outlookmobile.com,Microsoft
 HOST-SUFFIX,phonefactor.net,Microsoft
 HOST-SUFFIX,public-trust.com,Microsoft
+HOST-SUFFIX,s-microsoft.com,Microsoft
 HOST-SUFFIX,sfbassets.com,Microsoft
 HOST-SUFFIX,sfx.ms,Microsoft
 HOST-SUFFIX,sharepoint.com,Microsoft
@@ -78,8 +79,6 @@ HOST-SUFFIX,windows.net,Microsoft
 HOST-SUFFIX,windowsazure.com,Microsoft
 HOST-SUFFIX,windowsupdate.com,Microsoft
 HOST-SUFFIX,wunderlist.com,Microsoft
-HOST-SUFFIX,xbox.com,Microsoft
-HOST-SUFFIX,xboxlive.com,Microsoft
 HOST-SUFFIX,yammer.com,Microsoft
 HOST-SUFFIX,yammerusercontent.com,Microsoft
 HOST-KEYWORD,1drv,Microsoft
