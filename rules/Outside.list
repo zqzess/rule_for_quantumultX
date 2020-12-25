@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2020-12-23 01:36:35
+# Outside rules refresh time: 2020-12-25 01:40:03
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -756,7 +756,6 @@ HOST,abematv.akamaized.net,Outside
 HOST,api.steampowered.com,Outside
 HOST,apps.apple.com,Outside
 HOST,avodmp4s3ww-a.akamaihd.net,Outside
-HOST,az416426.vo.msecnd.net,Outside
 HOST,az668014.vo.msecnd.net,Outside
 HOST,bcbolt446c5271-a.akamaihd.net,Outside
 HOST,bcbolthboa-a.akamaihd.net,Outside
@@ -783,6 +782,7 @@ HOST,linear-abematv.akamaized.net,Outside
 HOST,litvfreemobile-hichannel.cdn.hinet.net,Outside
 HOST,lookup-api.apple.com,Outside
 HOST,ocsp.apple.com,Outside
+HOST,ocsp.int-x3.letsencrypt.org,Outside
 HOST,oneclient.sfx.ms,Outside
 HOST,payments-jp.amazon.com,Outside
 HOST,players.brightcove.net,Outside
