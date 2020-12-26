@@ -40,6 +40,7 @@ rules_url = [
     'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/video.txt',
     #AdGuard DNS filter
     'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
+
 ]
 
 rule = ''

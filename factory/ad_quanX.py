@@ -16,24 +16,30 @@ def Change():
     if not os.path.exists('../rules'):
         os.makedirs('../rules')
     out_fname = './rtmp/AdBlockTmp.list'
-    out_fname2 ='../rules/AdBlock.list'
+    out_fname2 = '../rules/AdBlock.list'
     in_fname = './rtmp/ad.list'
     in_fname2 = './rtmp/Advertising.list'
     in_fname3 = './rtmp/hosts'
     in_fname4 = './rtmp/1024hosts.txt'
     in_fname5 = './rtmp/Zhihu.txt'
     in_fname6 = './rtmp/adawayhosts.txt'
+    in_fname7 = './rtmp/SpotifyBlocklist.txt'
+
     DATA_URL = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list'
-    #大圣净化
+    # 大圣净化
     DATA_URL2 = 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
-    #1024_hosts - 1024网站和澳门皇家赌场
-    DATA_URL3='https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts'
-    #知乎
+    # 1024_hosts - 1024网站和澳门皇家赌场
+    DATA_URL3 = 'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts'
+    # 知乎
     DATA_URL4 = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Zhihu/Zhihu.list'
-    #运营商劫持等,暂不添加
-    #DATA_URL4='https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Hijacking/Hijacking.list'
-    #AdAway Default Blocklist
-    DATA_URL5='https://adaway.org/hosts.txt'
+    # 运营商劫持等,暂不添加
+    # DATA_URL4='https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Hijacking/Hijacking.list'
+
+    # AdAway Default Blocklist
+    DATA_URL5 = 'https://adaway.org/hosts.txt'
+    # Spotifyadblock
+    DATA_URL6 ='https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/SpotifyBlocklist.txt'
+
     if os.path.exists(out_fname):
         os.remove(out_fname)
         print("AdBlockTmp.list文件存在，已执行删除")
@@ -55,8 +61,11 @@ def Change():
     if os.path.exists(in_fname6):
         os.remove(in_fname6)
         print("adawayhosts文件存在，已执行删除")
+    if os.path.exists(in_fname7):
+        os.remove(in_fname7)
+        print("SpotifyBlocklist文件存在，已执行删除")
     try:
-        print("loading...."+DATA_URL)
+        print("loading...." + DATA_URL)
         wget.download(DATA_URL, out=in_fname2)
         print("loading...." + DATA_URL2)
         wget.download(DATA_URL2, out=in_fname3)
@@ -66,6 +75,8 @@ def Change():
         wget.download(DATA_URL4, out=in_fname5)
         print("loading...." + DATA_URL5)
         wget.download(DATA_URL5, out=in_fname6)
+        print("download success 下载完成")
+        wget.download(DATA_URL6, out=in_fname7)
         print("download success 下载完成")
     except:
         print("download err 下载错误")
@@ -78,6 +89,7 @@ def Change():
             f5 = open(in_fname4, "r", encoding="utf-8")
             f6 = open(in_fname5, "r", encoding="utf-8")
             f7 = open(in_fname6, "r", encoding="utf-8")
+            f8 = open(in_fname7, "r", encoding="utf-8")
         else:
             f1 = open(in_fname, "r")
             f2 = open(out_fname, "w+")
@@ -86,6 +98,7 @@ def Change():
             f5 = open(in_fname4, "r")
             f6 = open(in_fname5, "r")
             f7 = open(in_fname6, "r")
+            f8 = open(in_fname7, "r")
     except:
         print("Error: 没有找到文件或读取文件失败")
     else:
@@ -97,17 +110,20 @@ def Change():
                 continue
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
-            result = re.search(r'[a-zA-z]+', keywords)
+            # result = re.search(r'[a-zA-z]+', keywords)
             result2 = re.findall(r'\.', keywords)
+            result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)    # 只匹配IP
             # print(keywords)
+            # print(result)
             # print(result2)
             # print(result2.__len__())
-            # if result == None:
-            #     # print(keywords)
-            #     keywords = keywords.replace("\n", "").replace(" ", "")
-            #     keywords = "IP-CIDR," + keywords + ",AdBlock"
-            #     f2.write(keywords + "\n")
-            #     continue
+            if result is not None:
+                # print(keywords)
+                print("IP放弃")
+                # keywords = keywords.replace("\n", "").replace(" ", "")
+                # keywords = "IP-CIDR," + keywords + ",AdBlock"
+                # f2.write(keywords + "\n")
+                continue
             if result2.__len__() == 1:
                 keywords = keywords.replace("\n", "").replace(" ", "")
                 keywords = "HOST-SUFFIX," + keywords + ",AdBlock"
@@ -129,15 +145,15 @@ def Change():
                 print("注释:" + lineTmp)
                 continue
             elif result != None:
-                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock","")
+                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock", "")
                 f2.write(keywords)
                 continue
             elif result2 != None:
-                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock","")
+                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock", "")
                 f2.write(keywords)
                 continue
 
-        #大圣净化
+        # 大圣净化
         for lineTmp in f4.readlines():
             if re.search('localhost', lineTmp) is not None:
                 print("注释:" + lineTmp)
@@ -155,7 +171,7 @@ def Change():
                 keywords = keywords + ",AdBlock\n"
                 f2.write(keywords)
                 continue
-        #1024
+        # 1024
         for lineTmp in f5.readlines():
             if re.search('localhost', lineTmp) is not None:
                 print("注释:" + lineTmp)
@@ -168,14 +184,14 @@ def Change():
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.findall('127.0.0.1', keywords)
             if result != None:
-                if result.__len__()==1:
+                if result.__len__() == 1:
                     keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
                     keywords = keywords + ",AdBlock\n"
                     f2.write(keywords)
                 elif result.__len__() >= 2:
-                    print("错误:"+keywords)
+                    print("错误:" + keywords)
                 continue
-        #zhihu
+        # zhihu
         for lineTmp in f6.readlines():
             if lineTmp.find('#') == 0:
                 print("注释:" + lineTmp)
@@ -207,11 +223,33 @@ def Change():
                 f2.write(keywords)
                 continue
 
+        #SpotifyAdBlock
+        for lineTmp in f8.readlines():
+            keywords = lineTmp
+            result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)  # 只匹配IP
+            if result is not None:
+                # print(keywords)
+                print("IP放弃")
+                # keywords = keywords.replace("\n", "").replace(" ", "")
+                # keywords = "IP-CIDR," + keywords + ",AdBlock"
+                # f2.write(keywords + "\n")
+                continue
+            else:
+                keywords = keywords.replace("\n", "").replace(" ", "")
+                keywords = "HOST," + keywords + ",AdBlock"
+                f2.write(keywords + "\n")
+                continue
+
         f1.close()
         f2.close()
         f3.close()
         f4.close()
-#去重
+        f5.close()
+        f6.close()
+        f7.close()
+        f8.close()
+
+    # 去重
     a = 0
     lines_seen = set()
     outfile = open(out_fname2, "w+")
