@@ -38,7 +38,7 @@ def Change():
     # AdAway Default Blocklist
     DATA_URL5 = 'https://adaway.org/hosts.txt'
     # Spotifyadblock
-    DATA_URL6 ='https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/SpotifyBlocklist.txt'
+    DATA_URL6 = 'https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/SpotifyBlocklist.txt'
 
     if os.path.exists(out_fname):
         os.remove(out_fname)
@@ -112,7 +112,7 @@ def Change():
             # pattern = re.compile(r'[a-zA-z]+')
             # result = re.search(r'[a-zA-z]+', keywords)
             result2 = re.findall(r'\.', keywords)
-            result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)    # 只匹配IP
+            result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)  # 只匹配IP
             # print(keywords)
             # print(result)
             # print(result2)
@@ -223,13 +223,11 @@ def Change():
                 f2.write(keywords)
                 continue
 
-        #SpotifyAdBlock
+        # SpotifyAdBlock
         for lineTmp in f8.readlines():
-            if lineTmp is None:
-                print("空白行，舍弃")
-                continue
             keywords = lineTmp
             result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)  # 只匹配IP
+            result2 = re.findall(r'\.', keywords)
             if result is not None:
                 # print(keywords)
                 print("IP放弃")
@@ -237,7 +235,7 @@ def Change():
                 # keywords = "IP-CIDR," + keywords + ",AdBlock"
                 # f2.write(keywords + "\n")
                 continue
-            else:
+            if result2.__len__() > 0:
                 keywords = keywords.replace("\n", "").replace(" ", "")
                 keywords = "HOST," + keywords + ",AdBlock"
                 f2.write(keywords + "\n")
