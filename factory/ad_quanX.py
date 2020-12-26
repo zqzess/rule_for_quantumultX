@@ -225,6 +225,9 @@ def Change():
 
         #SpotifyAdBlock
         for lineTmp in f8.readlines():
+            if lineTmp is None:
+                print("空白行，舍弃")
+                continue
             keywords = lineTmp
             result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)  # 只匹配IP
             if result is not None:
