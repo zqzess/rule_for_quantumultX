@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2020-12-28 01:43:08
+# Mainland rules refresh time: 2020-12-30 01:46:29
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -319,14 +319,11 @@ HOST-SUFFIX,cn,Mainland
 IP-CIDR,1.255.62.0/24,Mainland
 GEOIP,CN,Mainland
 HOST,analytics.strava.com,Mainland
-HOST,blzddist1-a.akamaihd.net,Mainland
 HOST,cdn.angruo.com,Mainland
 HOST,dl.google.com,Mainland
 HOST,download.jetbrains.com,Mainland
 HOST,images-cn.ssl-images-amazon.com,Mainland
 HOST,ip.istatmenus.app,Mainland
-HOST,mtalk.google.com,Mainland
-HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
 HOST,speedtest.macpaw.com,Mainland
 HOST-SUFFIX,115.com,Mainland
@@ -348,7 +345,6 @@ HOST-SUFFIX,acg.rip,Mainland
 HOST-SUFFIX,acgvideo.com,Mainland
 HOST-SUFFIX,acm.org,Mainland
 HOST-SUFFIX,acs.org,Mainland
-HOST-SUFFIX,agefans.tv,Mainland
 HOST-SUFFIX,aicoinstorge.com,Mainland
 HOST-SUFFIX,aip.org,Mainland
 HOST-SUFFIX,aixifan.com,Mainland
@@ -391,7 +387,6 @@ HOST-SUFFIX,camera360.com,Mainland
 HOST-SUFFIX,cas.org,Mainland
 HOST-SUFFIX,cctv.com,Mainland
 HOST-SUFFIX,cctvpic.com,Mainland
-HOST-SUFFIX,cdn9-okzy.com,Mainland
 HOST-SUFFIX,chinanetcenter.com,Mainland
 HOST-SUFFIX,chinaso.com,Mainland
 HOST-SUFFIX,chua.pro,Mainland
@@ -533,13 +528,11 @@ HOST-SUFFIX,nanyangpt.com,Mainland
 HOST-SUFFIX,nature.com,Mainland
 HOST-SUFFIX,ncore.cc,Mainland
 HOST-SUFFIX,netspeedtestmaster.com,Mainland
-HOST-SUFFIX,nfmovies.com,Mainland
 HOST-SUFFIX,nim-lang-cn.org,Mainland
 HOST-SUFFIX,novipnoad.com,Mainland
 HOST-SUFFIX,nssurge.com,Mainland
 HOST-SUFFIX,nvidia.com,Mainland
 HOST-SUFFIX,oecd-ilibrary.org,Mainland
-HOST-SUFFIX,okokbo.com,Mainland
 HOST-SUFFIX,ooklaserver.net,Mainland
 HOST-SUFFIX,open.cd,Mainland
 HOST-SUFFIX,oracle.com,Mainland
@@ -579,7 +572,6 @@ HOST-SUFFIX,sciencedirect.com,Mainland
 HOST-SUFFIX,sciencemag.org,Mainland
 HOST-SUFFIX,scomper.me,Mainland
 HOST-SUFFIX,scopus.com,Mainland
-HOST-SUFFIX,sd-dykj.com,Mainland
 HOST-SUFFIX,seafile.com,Mainland
 HOST-SUFFIX,segmentfault.com,Mainland
 HOST-SUFFIX,servicewechat.com,Mainland
@@ -643,11 +635,9 @@ HOST-SUFFIX,xiaoka.tv,Mainland
 HOST-SUFFIX,xinhuanet.com,Mainland
 HOST-SUFFIX,yangkeduo.com,Mainland
 HOST-SUFFIX,ydstatic.com,Mainland
-HOST-SUFFIX,yhdm.tv,Mainland
 HOST-SUFFIX,yihaodianimg.com,Mainland
 HOST-SUFFIX,yizhibo.com,Mainland
 HOST-SUFFIX,youku.com,Mainland
-HOST-SUFFIX,youkutv.cc,Mainland
 HOST-SUFFIX,zhangzishi.cc,Mainland
 HOST-SUFFIX,zhihuishu.com,Mainland
 HOST-SUFFIX,zhuihd.com,Mainland

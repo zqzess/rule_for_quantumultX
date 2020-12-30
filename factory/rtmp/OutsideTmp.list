@@ -788,8 +788,6 @@ HOST,cf-images.ap-southeast-1.prod.boltdns.net,Outside
 HOST,ds-linear-abematv.akamaized.net,Outside
 HOST,ds-vod-abematv.akamaized.net,Outside
 HOST,edge.api.brightcove.com,Outside
-HOST,gamer-cds.cdn.hinet.net,Outside
-HOST,gamer2-cds.cdn.hinet.net,Outside
 HOST,hamifans.emome.net,Outside
 HOST,hboasia1-i.akamaihd.net,Outside
 HOST,hboasia2-i.akamaihd.net,Outside
@@ -797,6 +795,7 @@ HOST,hboasia3-i.akamaihd.net,Outside
 HOST,hboasia4-i.akamaihd.net,Outside
 HOST,hboasia5-i.akamaihd.net,Outside
 HOST,hls.itunes.apple.com,Outside
+HOST,international-gfe.download.nvidia.com,Outside
 HOST,itunes.apple.com,Outside
 HOST,itvpnpmobile-a.akamaihd.net,Outside
 HOST,kktv-theater.kk.stream,Outside
@@ -804,7 +803,6 @@ HOST,linear-abematv.akamaized.net,Outside
 HOST,litvfreemobile-hichannel.cdn.hinet.net,Outside
 HOST,lookup-api.apple.com,Outside
 HOST,ocsp.apple.com,Outside
-HOST,ocsp.int-x3.letsencrypt.org,Outside
 HOST,oneclient.sfx.ms,Outside
 HOST,payments-jp.amazon.com,Outside
 HOST,players.brightcove.net,Outside
@@ -815,7 +813,6 @@ HOST,search.avira.com,Outside
 HOST,store.steampowered.com,Outside
 HOST,testflight.apple.com,Outside
 HOST,us.weibo.com,Outside
-HOST,youtubei.googleapis.com,Outside
 HOST-SUFFIX,0rz.tw,Outside
 HOST-SUFFIX,1drv.com,Outside
 HOST-SUFFIX,1drv.ms,Outside
@@ -5721,6 +5718,7 @@ HOST-SUFFIX,rdio.com,Outside
 HOST-SUFFIX,rdtcdn.com,Outside
 HOST-SUFFIX,read01.com,Outside
 HOST-SUFFIX,read100.com,Outside
+HOST-SUFFIX,readdle.com,Outside
 HOST-SUFFIX,readingtimes.com.tw,Outside
 HOST-SUFFIX,readmoo.com,Outside
 HOST-SUFFIX,readydown.com,Outside
@@ -6309,10 +6307,12 @@ HOST-SUFFIX,tangben.com,Outside
 HOST-SUFFIX,tangren.us,Outside
 HOST-SUFFIX,taoism.net,Outside
 HOST-SUFFIX,taolun.info,Outside
+HOST-SUFFIX,tap.io,Outside
 HOST-SUFFIX,tapanwap.com,Outside
 HOST-SUFFIX,tapatalk.com,Outside
 HOST-SUFFIX,tapbots.com,Outside
 HOST-SUFFIX,tapbots.net,Outside
+HOST-SUFFIX,taptap.tw,Outside
 HOST-SUFFIX,taragana.com,Outside
 HOST-SUFFIX,target.com,Outside
 HOST-SUFFIX,tascn.com.au,Outside

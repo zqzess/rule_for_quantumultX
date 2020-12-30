@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2020-12-28 01:43:07
+# GMedia rules refresh time: 2020-12-30 01:46:28
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -166,8 +166,6 @@ HOST,api.viu.now.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GMedia
-HOST,bcbolthboa-a.akamaihd.net,GMedia
-HOST,cf-images.ap-southeast-1.prod.boltdns.net,GMedia
 HOST,edge.api.brightcove.com,GMedia
 HOST,fls-na.amazon.com,GMedia
 HOST,foxsports01-i.akamaihd.net,GMedia
@@ -181,17 +179,24 @@ HOST,hboasia3-i.akamaihd.net,GMedia
 HOST,hboasia4-i.akamaihd.net,GMedia
 HOST,hboasia5-i.akamaihd.net,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
+HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
+HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
 HOST,players.brightcove.net,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
 HOST-SUFFIX,app-measurement.com,GMedia
-HOST-SUFFIX,bam.nr-date.net,GMedia
+HOST-SUFFIX,bam.nr-data.net,GMedia
+HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
 HOST-SUFFIX,c4assets.com,GMedia
+HOST-SUFFIX,cdn.optimizely.com,GMedia
+HOST-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,GMedia
 HOST-SUFFIX,channel4.com,GMedia
 HOST-SUFFIX,channel5.com,GMedia
 HOST-SUFFIX,control.kochava.com,GMedia
+HOST-SUFFIX,cws-hulu.conviva.com,GMedia
+HOST-SUFFIX,cws.conviva.com,GMedia
 HOST-SUFFIX,d9.flashtalking.com,GMedia
 HOST-SUFFIX,dc2-vodhls-perform.secure.footprint.net,GMedia
 HOST-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,GMedia
@@ -199,10 +204,14 @@ HOST-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,GMedia
 HOST-SUFFIX,deezer.com,GMedia
 HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
 HOST-SUFFIX,disneyplus.bn5x.net,GMedia
+HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,GMedia
 HOST-SUFFIX,disneystreaming.com,GMedia
 HOST-SUFFIX,dmc.nico,GMedia
 HOST-SUFFIX,dzcdn.net,GMedia
 HOST-SUFFIX,fast.com,GMedia
+HOST-SUFFIX,hulu.hb.omtrdc.net,GMedia
+HOST-SUFFIX,hulu.sc.omtrdc.net,GMedia
+HOST-SUFFIX,huluad.com,GMedia
 HOST-SUFFIX,ibytedtos.com,GMedia
 HOST-SUFFIX,indaznlab.com,GMedia
 HOST-SUFFIX,ipstatp.com,GMedia
@@ -211,7 +220,7 @@ HOST-SUFFIX,itvstatic.com,GMedia
 HOST-SUFFIX,js-agent.newrelic.com,GMedia
 HOST-SUFFIX,jtvnw.net,GMedia
 HOST-SUFFIX,litv.tv,GMedia
-HOST-SUFFIX,logx.optimizely.com,GMedia
+HOST-SUFFIX,manifest.prod.boltdns.net,GMedia
 HOST-SUFFIX,media-amazon.com,GMedia
 HOST-SUFFIX,muscdn.com,GMedia
 HOST-SUFFIX,musical.ly,GMedia
@@ -241,6 +250,7 @@ HOST-SUFFIX,s.yimg.jp,GMedia
 HOST-SUFFIX,sentry.io,GMedia
 HOST-SUFFIX,skyking.com.tw,GMedia
 HOST-SUFFIX,socdm.com,GMedia
+HOST-SUFFIX,streaks.jp,GMedia
 HOST-SUFFIX,tidal.com,GMedia
 HOST-SUFFIX,tidalhifi.com,GMedia
 HOST-SUFFIX,tik-tokapi.com,GMedia
@@ -250,6 +260,8 @@ HOST-SUFFIX,tiktokv.com,GMedia
 HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
+HOST-SUFFIX,yahoo.co.jp,GMedia
+HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youtube.com,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
