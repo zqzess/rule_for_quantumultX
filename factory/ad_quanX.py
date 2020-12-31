@@ -41,7 +41,7 @@ def Change():
     # Spotifyadblock
     DATA_URL6 = 'https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/SpotifyBlocklist.txt'
     # YouTuebeAdBlock
-    DATA_URL7 = 'https://github.com/pSandeep2020/youtubeAdlist/blob/master/adlist.txt'
+    DATA_URL7 = 'https://cdn.jsdelivr.net/gh/pSandeep2020/youtubeAdlist@master/adlist.txt'
 
     if os.path.exists(out_fname):
         os.remove(out_fname)
