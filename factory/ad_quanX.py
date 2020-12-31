@@ -24,7 +24,6 @@ def Change():
     in_fname5 = './rtmp/Zhihu.txt'
     in_fname6 = './rtmp/adawayhosts.txt'
     in_fname7 = './rtmp/SpotifyBlocklist.txt'
-    in_fname8 = './rtmp/youtubeadlist.txt'
 
     DATA_URL = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list'
     # 大圣净化
@@ -40,8 +39,6 @@ def Change():
     DATA_URL5 = 'https://adaway.org/hosts.txt'
     # Spotifyadblock
     DATA_URL6 = 'https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/SpotifyBlocklist.txt'
-    # YouTuebeAdBlock
-    DATA_URL7 = 'https://raw.githubusercontent.com/pSandeep2020/youtubeAdlist/master/adlist.txt'
 
     if os.path.exists(out_fname):
         os.remove(out_fname)
@@ -67,9 +64,6 @@ def Change():
     if os.path.exists(in_fname7):
         os.remove(in_fname7)
         print("SpotifyBlocklist文件存在，已执行删除")
-    if os.path.exists(in_fname8):
-        os.remove(in_fname8)
-        print("youtubeadlist，已执行删除")
     try:
         print("loading...." + DATA_URL)
         wget.download(DATA_URL, out=in_fname2)
@@ -84,8 +78,6 @@ def Change():
         print("download success 下载完成")
         wget.download(DATA_URL6, out=in_fname7)
         print("download success 下载完成")
-        wget.download(DATA_URL7, out=in_fname8)
-        print("download success 下载完成")
     except:
         print("download err 下载错误")
     try:
@@ -98,7 +90,6 @@ def Change():
             f6 = open(in_fname5, "r", encoding="utf-8")
             f7 = open(in_fname6, "r", encoding="utf-8")
             f8 = open(in_fname7, "r", encoding="utf-8")
-            f9 = open(in_fname8, "r", encoding="utf-8")
         else:
             f1 = open(in_fname, "r")
             f2 = open(out_fname, "w+")
@@ -108,12 +99,11 @@ def Change():
             f6 = open(in_fname5, "r")
             f7 = open(in_fname6, "r")
             f8 = open(in_fname7, "r")
-            f9 = open(in_fname8, "r")
     except:
         print("Error: 没有找到文件或读取文件失败")
     else:
         for lineTmp in f1.readlines():
-            if lineTmp.find('# adblock rules refresh time') == 0:
+            if lineTmp.find('# Adblock rules refresh time') == 0:
                 # f2.write(lineTmp)
                 # f2.write("\n")
                 print("注释:" + lineTmp)
@@ -251,27 +241,6 @@ def Change():
                 f2.write(keywords + "\n")
                 continue
 
-        # YouTubeAd
-        for lineTmp in f9.readlines():
-            if re.search('advertisment', lineTmp) is not None:
-                print("注释:" + lineTmp)
-                continue
-            if re.search('#', lineTmp) is not None:
-                # f2.write(lineTmp)
-                print("注释:" + lineTmp)
-                continue
-            keywords = lineTmp
-            # pattern = re.compile(r'[a-zA-z]+')
-            result = re.findall('0.0.0.0 ', keywords)
-            if result is not None:
-                if result.__len__() == 1:
-                    keywords = keywords.replace("0.0.0.0 ", "HOST,").replace("\n", "")
-                    keywords = keywords + ",AdBlock\n"
-                    f2.write(keywords)
-                elif result.__len__() >= 2:
-                    print("错误:" + keywords)
-                continue
-
         f1.close()
         f2.close()
         f3.close()
@@ -280,7 +249,6 @@ def Change():
         f6.close()
         f7.close()
         f8.close()
-        f9.close()
 
     # 去重
     a = 0
