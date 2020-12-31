@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2020-12-30 01:46:29
+# Mainland rules refresh time: 2020-12-31 12:24:48
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -319,13 +319,19 @@ HOST-SUFFIX,cn,Mainland
 IP-CIDR,1.255.62.0/24,Mainland
 GEOIP,CN,Mainland
 HOST,analytics.strava.com,Mainland
+HOST,blzddist1-a.akamaihd.net,Mainland
 HOST,cdn.angruo.com,Mainland
 HOST,dl.google.com,Mainland
 HOST,download.jetbrains.com,Mainland
+HOST,file-igamecj.akamaized.net,Mainland
 HOST,images-cn.ssl-images-amazon.com,Mainland
 HOST,ip.istatmenus.app,Mainland
+HOST,mtalk.google.com,Mainland
+HOST,officecdn-microsoft-com.akamaized.net,Mainland
+HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
 HOST,speedtest.macpaw.com,Mainland
+HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST-SUFFIX,115.com,Mainland
 HOST-SUFFIX,12306.com,Mainland
 HOST-SUFFIX,126.com,Mainland
@@ -348,7 +354,6 @@ HOST-SUFFIX,acs.org,Mainland
 HOST-SUFFIX,aicoinstorge.com,Mainland
 HOST-SUFFIX,aip.org,Mainland
 HOST-SUFFIX,aixifan.com,Mainland
-HOST-SUFFIX,akamaized.net,Mainland
 HOST-SUFFIX,alibabausercontent.com,Mainland
 HOST-SUFFIX,alikunlun.com,Mainland
 HOST-SUFFIX,aliyuncs.com,Mainland

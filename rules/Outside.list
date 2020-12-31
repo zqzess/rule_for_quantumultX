@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2020-12-30 01:46:28
+# Outside rules refresh time: 2020-12-31 12:24:48
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -767,6 +767,8 @@ HOST,cf-images.ap-southeast-1.prod.boltdns.net,Outside
 HOST,ds-linear-abematv.akamaized.net,Outside
 HOST,ds-vod-abematv.akamaized.net,Outside
 HOST,edge.api.brightcove.com,Outside
+HOST,gamer-cds.cdn.hinet.net,Outside
+HOST,gamer2-cds.cdn.hinet.net,Outside
 HOST,hamifans.emome.net,Outside
 HOST,hboasia1-i.akamaihd.net,Outside
 HOST,hboasia2-i.akamaihd.net,Outside
@@ -792,6 +794,7 @@ HOST,search.avira.com,Outside
 HOST,store.steampowered.com,Outside
 HOST,testflight.apple.com,Outside
 HOST,us.weibo.com,Outside
+HOST,youtubei.googleapis.com,Outside
 HOST-SUFFIX,0rz.tw,Outside
 HOST-SUFFIX,1drv.com,Outside
 HOST-SUFFIX,1drv.ms,Outside
@@ -1297,7 +1300,6 @@ HOST-KEYWORD,.facebook.,Outside
 HOST-KEYWORD,.pinterest.,Outside
 HOST-KEYWORD,avoddashs,Outside
 HOST-KEYWORD,bbcfmt,Outside
-HOST-KEYWORD,buy.itunes.apple.com,Outside
 HOST-KEYWORD,jav,Outside
 HOST-KEYWORD,pinterest,Outside
 HOST-KEYWORD,porn,Outside
@@ -1364,10 +1366,11 @@ IP-CIDR,54.235.23.242/32,Outside
 IP-CIDR,54.93.124.31/32,Outside
 IP-CIDR,64.120.128.0/17,Outside
 IP-CIDR,66.197.128.0/17,Outside
-IP-CIDR,91.108.16.0/22,Outside
+IP-CIDR,91.108.16.0/21,Outside
 IP-CIDR,91.108.4.0/22,Outside
 IP-CIDR,91.108.56.0/22,Outside
 IP-CIDR,91.108.8.0/21,Outside
+HOST,assets-priconne-redive-us.akamaized.net,Outside
 HOST,cvws.icloud-content.com,Outside
 HOST,developer.apple.com,Outside
 HOST,sandbox.itunes.apple.com,Outside
@@ -1543,7 +1546,6 @@ HOST-SUFFIX,ajsands.com,Outside
 HOST-SUFFIX,akademiye.org,Outside
 HOST-SUFFIX,akamaihd.net,Outside
 HOST-SUFFIX,akamaistream.net,Outside
-HOST-SUFFIX,akamaized.net,Outside
 HOST-SUFFIX,akiba-online.com,Outside
 HOST-SUFFIX,akiba-web.com,Outside
 HOST-SUFFIX,akow.org,Outside
