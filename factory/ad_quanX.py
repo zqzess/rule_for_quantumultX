@@ -41,7 +41,7 @@ def Change():
     # Spotifyadblock
     DATA_URL6 = 'https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/SpotifyBlocklist.txt'
     # YouTuebeAdBlock
-    DATA_URL7 = 'https://cdn.jsdelivr.net/gh/pSandeep2020/youtubeAdlist@master/adlist.txt'
+    DATA_URL7 = 'https://raw.githubusercontent.com/pSandeep2020/youtubeAdlist/master/adlist.txt'
 
     if os.path.exists(out_fname):
         os.remove(out_fname)
@@ -262,10 +262,10 @@ def Change():
                 continue
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
-            result = re.findall('0.0.0.0', keywords)
+            result = re.findall('0.0.0.0 ', keywords)
             if result is not None:
                 if result.__len__() == 1:
-                    keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
+                    keywords = keywords.replace("0.0.0.0 ", "HOST,").replace("\n", "")
                     keywords = keywords + ",AdBlock\n"
                     f2.write(keywords)
                 elif result.__len__() >= 2:
