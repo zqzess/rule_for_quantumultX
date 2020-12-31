@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2020-12-31 15:20:05
+# AdBlock rules refresh time: 2020-12-31 15:56:05
 
 HOST-SUFFIX,00-gov.cn,AdBlock
 HOST-SUFFIX,000dn.com,AdBlock
@@ -40181,6 +40181,9 @@ HOST-KEYWORD,googleads,AdBlock
 HOST-KEYWORD,guanggao,AdBlock
 HOST-KEYWORD,inmobi,AdBlock
 HOST-KEYWORD,lianmeng,AdBlock
+HOST-KEYWORD,log.umeng.com,AdBlock
+HOST-KEYWORD,logs.umeng.com,AdBlock
+HOST-KEYWORD,logs.umengcloud.com,AdBlock
 HOST-KEYWORD,mobaders,AdBlock
 HOST-KEYWORD,monitor,AdBlock
 HOST-KEYWORD,omgmta,AdBlock
@@ -40244,6 +40247,7 @@ IP-CIDR,112.29.211.120/32,AdBlock
 IP-CIDR,112.74.95.46/32,AdBlock
 IP-CIDR,113.207.57.24/32,AdBlock
 IP-CIDR,113.57.230.88/32,AdBlock
+IP-CIDR,114.119.160.0/21,AdBlock
 IP-CIDR,114.247.28.96/32,AdBlock
 IP-CIDR,114.55.123.44/32,AdBlock
 IP-CIDR,114.95.102.77/32,AdBlock
@@ -40270,6 +40274,7 @@ IP-CIDR,120.132.57.41/32,AdBlock
 IP-CIDR,120.132.63.203/32,AdBlock
 IP-CIDR,120.197.89.239/32,AdBlock
 IP-CIDR,120.198.116.0/24,AdBlock
+IP-CIDR,120.240.95.37/32,AdBlock
 IP-CIDR,120.26.151.246/32,AdBlock
 IP-CIDR,120.27.34.156/32,AdBlock
 IP-CIDR,120.55.199.139/32,AdBlock
@@ -40358,6 +40363,7 @@ IP-CIDR,211.137.132.89/32,AdBlock
 IP-CIDR,211.139.178.49/32,AdBlock
 IP-CIDR,211.149.225.23/32,AdBlock
 IP-CIDR,211.161.101.106/32,AdBlock
+IP-CIDR,211.161.101.110/32,AdBlock
 IP-CIDR,211.167.105.131/32,AdBlock
 IP-CIDR,211.98.71.192/29,AdBlock
 IP-CIDR,212.64.34.17/32,AdBlock
@@ -58786,7 +58792,7 @@ HOST,zayit.lon.spotify.com,AdBlock
 HOST,zhcn.admob.com,AdBlock
 HOST,zlink.app.spotify.com,AdBlock
 
-# YoutubeAdBlock rules refresh time: 2020-12-31 15:20:05
+# YoutubeAdBlock rules refresh time: 2020-12-31 15:56:05
 
 HOST,2975c.v.fwmrm.net,AdBlock
 HOST,2mdn.net,AdBlock

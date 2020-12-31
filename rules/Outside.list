@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2020-12-31 15:20:06
+# Outside rules refresh time: 2020-12-31 15:56:06
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -1345,18 +1345,36 @@ USER-AGENT,viutv*,Outside
 USER-AGENT,wemusic*,Outside
 USER-AGENT,youtube*,Outside
 USER-AGENT,youtubemusic*,Outside
+IP-CIDR,103.102.166.0/24,Outside
 IP-CIDR,103.2.30.0/23,Outside
+IP-CIDR,104.244.40.0/21,Outside
 IP-CIDR,108.175.32.0/20,Outside
+IP-CIDR,108.177.8.0/21,Outside
 IP-CIDR,147.92.128.0/17,Outside
 IP-CIDR,169.45.248.118/32,Outside
+IP-CIDR,172.217.0.0/16,Outside
+IP-CIDR,173.252.64.0/18,Outside
+IP-CIDR,185.15.56.0/22,Outside
+IP-CIDR,192.133.76.0/22,Outside
 IP-CIDR,192.173.64.0/18,Outside
+IP-CIDR,198.35.26.0/23,Outside
 IP-CIDR,198.38.96.0/19,Outside
 IP-CIDR,198.45.48.0/20,Outside
+IP-CIDR,199.16.156.0/22,Outside
+IP-CIDR,199.59.148.0/22,Outside
+IP-CIDR,199.96.56.0/21,Outside
+IP-CIDR,202.160.128.0/22,Outside
 IP-CIDR,203.104.144.0/21,Outside
+IP-CIDR,208.80.152.0/22,Outside
+IP-CIDR,209.237.192.0/19,Outside
+IP-CIDR,209.85.128.0/17,Outside
+IP-CIDR,216.239.32.0/19,Outside
+IP-CIDR,216.58.192.0/19,Outside
 IP-CIDR,23.246.0.0/18,Outside
 IP-CIDR,3.123.36.126/32,Outside
 IP-CIDR,35.157.215.84/32,Outside
 IP-CIDR,35.157.217.255/32,Outside
+IP-CIDR,35.190.247.0/24,Outside
 IP-CIDR,37.77.184.0/21,Outside
 IP-CIDR,45.57.0.0/17,Outside
 IP-CIDR,52.58.209.134/32,Outside
@@ -1365,11 +1383,17 @@ IP-CIDR,54.173.34.141/32,Outside
 IP-CIDR,54.235.23.242/32,Outside
 IP-CIDR,54.93.124.31/32,Outside
 IP-CIDR,64.120.128.0/17,Outside
+IP-CIDR,64.233.160.0/19,Outside
+IP-CIDR,66.102.0.0/20,Outside
 IP-CIDR,66.197.128.0/17,Outside
+IP-CIDR,66.249.80.0/20,Outside
+IP-CIDR,69.195.160.0/19,Outside
+IP-CIDR,72.14.192.0/18,Outside
 IP-CIDR,91.108.16.0/21,Outside
 IP-CIDR,91.108.4.0/22,Outside
 IP-CIDR,91.108.56.0/22,Outside
 IP-CIDR,91.108.8.0/21,Outside
+IP-CIDR,91.198.174.0/24,Outside
 HOST,assets-priconne-redive-us.akamaized.net,Outside
 HOST,cvws.icloud-content.com,Outside
 HOST,developer.apple.com,Outside
@@ -6351,7 +6375,6 @@ IP-CIDR,158.85.5.192/27,Outside
 IP-CIDR,17.252.156.0/23,Outside
 IP-CIDR,173.192.222.160/27,Outside
 IP-CIDR,173.192.231.32/27,Outside
-IP-CIDR,173.252.64.0/18,Outside
 IP-CIDR,184.173.128.0/17,Outside
 IP-CIDR,203.104.128.0/19,Outside
 IP-CIDR,34.224.0.0/12,Outside
