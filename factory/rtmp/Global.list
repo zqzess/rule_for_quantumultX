@@ -1,7 +1,7 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-01 03:51:32
+# UPDATED: 2021-01-06 02:59:02
 # HOST-SUFFIX: 687
 # HOST-KEYWORD: 18
 # IP-CIDR: 66
@@ -15,7 +15,6 @@ HOST,abematv.akamaized.net,Global
 HOST,api.steampowered.com,Global
 HOST,apps.apple.com,Global
 HOST,avodmp4s3ww-a.akamaihd.net,Global
-HOST,az416426.vo.msecnd.net,Global
 HOST,az668014.vo.msecnd.net,Global
 HOST,bcbolt446c5271-a.akamaihd.net,Global
 HOST,bcbolthboa-a.akamaihd.net,Global
@@ -43,6 +42,7 @@ HOST,linear-abematv.akamaized.net,Global
 HOST,litvfreemobile-hichannel.cdn.hinet.net,Global
 HOST,lookup-api.apple.com,Global
 HOST,ocsp.apple.com,Global
+HOST,ocsp.int-x3.letsencrypt.org,Global
 HOST,oneclient.sfx.ms,Global
 HOST,payments-jp.amazon.com,Global
 HOST,players.brightcove.net,Global
