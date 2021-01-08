@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-01-06 01:55:58
+# Mainland rules refresh time: 2021-01-08 01:59:38
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -340,6 +340,7 @@ HOST-SUFFIX,163yun.com,Mainland
 HOST-SUFFIX,17jita.com,Mainland
 HOST-SUFFIX,21cn.com,Mainland
 HOST-SUFFIX,343480.com,Mainland
+HOST-SUFFIX,356884.com,Mainland
 HOST-SUFFIX,360in.com,Mainland
 HOST-SUFFIX,71.am,Mainland
 HOST-SUFFIX,71.am.com,Mainland
@@ -362,6 +363,7 @@ HOST-SUFFIX,ams.org,Mainland
 HOST-SUFFIX,animebytes.tv,Mainland
 HOST-SUFFIX,animetorrents.me,Mainland
 HOST-SUFFIX,annualreviews.org,Mainland
+HOST-SUFFIX,api.termius.com,Mainland
 HOST-SUFFIX,aps.org,Mainland
 HOST-SUFFIX,ascelibrary.org,Mainland
 HOST-SUFFIX,asm.org,Mainland
@@ -403,6 +405,7 @@ HOST-SUFFIX,classix-unlimited.co.uk,Mainland
 HOST-SUFFIX,cmbimg.com,Mainland
 HOST-SUFFIX,com-hs-hkdy.com,Mainland
 HOST-SUFFIX,comicat.org,Mainland
+HOST-SUFFIX,conoha.jp,Mainland
 HOST-SUFFIX,cootekservice.com,Mainland
 HOST-SUFFIX,crashlytics.com,Mainland
 HOST-SUFFIX,csdn.net,Mainland
@@ -440,6 +443,7 @@ HOST-SUFFIX,gazellegames.net,Mainland
 HOST-SUFFIX,geilicdn.com,Mainland
 HOST-SUFFIX,getpricetag.com,Mainland
 HOST-SUFFIX,gifshow.com,Mainland
+HOST-SUFFIX,google.cn,Mainland
 HOST-SUFFIX,googletraveladservices.com,Mainland
 HOST-SUFFIX,hamreus.com,Mainland
 HOST-SUFFIX,hdbits.org,Mainland
@@ -538,12 +542,14 @@ HOST-SUFFIX,novipnoad.com,Mainland
 HOST-SUFFIX,nssurge.com,Mainland
 HOST-SUFFIX,nvidia.com,Mainland
 HOST-SUFFIX,oecd-ilibrary.org,Mainland
+HOST-SUFFIX,onenote.com,Mainland
 HOST-SUFFIX,ooklaserver.net,Mainland
 HOST-SUFFIX,open.cd,Mainland
 HOST-SUFFIX,oracle.com,Mainland
 HOST-SUFFIX,osapublishing.org,Mainland
 HOST-SUFFIX,oschina.net,Mainland
 HOST-SUFFIX,oup.com,Mainland
+HOST-SUFFIX,overcast.fm,Mainland
 HOST-SUFFIX,ovid.com,Mainland
 HOST-SUFFIX,oxfordartonline.com,Mainland
 HOST-SUFFIX,oxfordbibliographies.com,Mainland
@@ -562,6 +568,7 @@ HOST-SUFFIX,proquest.com,Mainland
 HOST-SUFFIX,pterclub.com,Mainland
 HOST-SUFFIX,qhres.com,Mainland
 HOST-SUFFIX,qiniu.com,Mainland
+HOST-SUFFIX,qiyi.com,Mainland
 HOST-SUFFIX,qiyipic.com,Mainland
 HOST-SUFFIX,qqmail.com,Mainland
 HOST-SUFFIX,qyer.com,Mainland
@@ -608,6 +615,7 @@ HOST-SUFFIX,tandfonline.com,Mainland
 HOST-SUFFIX,tawk.link,Mainland
 HOST-SUFFIX,tawk.to,Mainland
 HOST-SUFFIX,tencent-cloud.net,Mainland
+HOST-SUFFIX,test-ipv4.com,Mainland
 HOST-SUFFIX,test-ipv6.com,Mainland
 HOST-SUFFIX,tjupt.org,Mainland
 HOST-SUFFIX,tmall.hk,Mainland
@@ -631,6 +639,7 @@ HOST-SUFFIX,westlaw.com,Mainland
 HOST-SUFFIX,whatismyip.com,Mainland
 HOST-SUFFIX,wiley.com,Mainland
 HOST-SUFFIX,windowsupdate.com,Mainland
+HOST-SUFFIX,workflowy.com,Mainland
 HOST-SUFFIX,worldbank.org,Mainland
 HOST-SUFFIX,worldscientific.com,Mainland
 HOST-SUFFIX,xiachufang.com,Mainland
@@ -661,14 +670,33 @@ HOST-KEYWORD,baidu,Mainland
 HOST-KEYWORD,officecdn,Mainland
 HOST-KEYWORD,speedtest,Mainland
 HOST-KEYWORD,taobao,Mainland
+USER-AGENT,%e4%b8%ad%e5%9b%bd%e5%b7%a5%e5%95%86%e9%93%b6%e8%a1%8c*,Mainland
+USER-AGENT,%e4%ba%ac%e4%b8%9c%e5%88%b0%e5%ae%b6*,Mainland
 USER-AGENT,%e4%bc%81%e4%b8%9a%e5%be%ae%e4%bf%a1*,Mainland
 USER-AGENT,%e4%bc%98%e9%85%b7*,Mainland
+USER-AGENT,%e5%8d%b3%e5%88%bb*,Mainland
 USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*,Mainland
+USER-AGENT,*vainglory*,Mainland
+USER-AGENT,adblock*,Mainland
+USER-AGENT,arrowio*,Mainland
+USER-AGENT,balls*,Mainland
+USER-AGENT,best%20trace*,Mainland
+USER-AGENT,cmblife*,Mainland
+USER-AGENT,eusoft_ting_en_iphone,Mainland
+USER-AGENT,megawerewolf*,Mainland
 USER-AGENT,micromessenger%20client,Mainland
+USER-AGENT,micromessenger*,Mainland
 USER-AGENT,micromessengerclient*,Mainland
+USER-AGENT,microsoft*,Mainland
+USER-AGENT,moke*,Mainland
 USER-AGENT,neteasemusic*,Mainland
+USER-AGENT,osee2unifiedrelease*,Mainland
 USER-AGENT,paypal*,Mainland
+USER-AGENT,qq*,Mainland
 USER-AGENT,remoteplay*,Mainland
+USER-AGENT,teamviewer*,Mainland
+USER-AGENT,tim*,Mainland
+USER-AGENT,webtorrent*,Mainland
 USER-AGENT,wechat*,Mainland
 USER-AGENT,yyets*,Mainland
 IP-CIDR,119.28.28.28/32,Mainland
@@ -678,6 +706,7 @@ IP6-CIDR,2a0b:b580::/48,Mainland
 IP6-CIDR,2a0b:b581::/48,Mainland
 IP6-CIDR,2a0b:b582::/48,Mainland
 IP6-CIDR,2a0b:b583::/48,Mainland
+GEOIP,cn,Mainland
 IP-CIDR,1.0.1.0/24,Mainland
 IP-CIDR,1.0.2.0/23,Mainland
 IP-CIDR,1.0.32.0/19,Mainland
@@ -1122,6 +1151,7 @@ IP-CIDR,103.142.28.0/23,Mainland
 IP-CIDR,103.142.58.0/23,Mainland
 IP-CIDR,103.142.82.0/23,Mainland
 IP-CIDR,103.142.96.0/23,Mainland
+IP-CIDR,103.143.120.0/24,Mainland
 IP-CIDR,103.143.124.0/23,Mainland
 IP-CIDR,103.143.132.0/22,Mainland
 IP-CIDR,103.143.16.0/22,Mainland
@@ -1154,7 +1184,9 @@ IP-CIDR,103.146.72.0/23,Mainland
 IP-CIDR,103.146.88.0/22,Mainland
 IP-CIDR,103.147.12.0/23,Mainland
 IP-CIDR,103.147.124.0/23,Mainland
+IP-CIDR,103.147.198.0/23,Mainland
 IP-CIDR,103.147.206.0/23,Mainland
+IP-CIDR,103.147.211.0/24,Mainland
 IP-CIDR,103.148.174.0/23,Mainland
 IP-CIDR,103.149.17.0/24,Mainland
 IP-CIDR,103.149.190.0/23,Mainland
@@ -1195,6 +1227,7 @@ IP-CIDR,103.152.192.0/23,Mainland
 IP-CIDR,103.152.200.0/23,Mainland
 IP-CIDR,103.152.208.0/23,Mainland
 IP-CIDR,103.152.224.0/23,Mainland
+IP-CIDR,103.152.247.0/24,Mainland
 IP-CIDR,103.152.250.0/23,Mainland
 IP-CIDR,103.152.28.0/22,Mainland
 IP-CIDR,103.152.76.0/23,Mainland
@@ -1533,6 +1566,8 @@ IP-CIDR,103.221.0.0/19,Mainland
 IP-CIDR,103.221.128.0/18,Mainland
 IP-CIDR,103.221.192.0/20,Mainland
 IP-CIDR,103.221.32.0/21,Mainland
+IP-CIDR,103.221.40.0/24,Mainland
+IP-CIDR,103.221.44.0/22,Mainland
 IP-CIDR,103.221.88.0/21,Mainland
 IP-CIDR,103.221.96.0/19,Mainland
 IP-CIDR,103.222.0.0/20,Mainland
@@ -5728,9 +5763,7 @@ IP-CIDR,220.243.230.0/23,Mainland
 IP-CIDR,220.243.232.0/22,Mainland
 IP-CIDR,220.243.237.0/24,Mainland
 IP-CIDR,220.243.238.0/23,Mainland
-IP-CIDR,220.243.240.0/22,Mainland
-IP-CIDR,220.243.244.0/23,Mainland
-IP-CIDR,220.243.246.0/24,Mainland
+IP-CIDR,220.243.240.0/21,Mainland
 IP-CIDR,220.243.248.0/23,Mainland
 IP-CIDR,220.243.250.0/24,Mainland
 IP-CIDR,220.243.252.0/22,Mainland
@@ -5861,6 +5894,7 @@ IP-CIDR,27.98.208.0/20,Mainland
 IP-CIDR,27.98.224.0/19,Mainland
 IP-CIDR,27.99.128.0/17,Mainland
 IP-CIDR,3.5.214.0/23,Mainland
+IP-CIDR,3.5.216.0/24,Mainland
 IP-CIDR,36.0.0.0/22,Mainland
 IP-CIDR,36.0.128.0/17,Mainland
 IP-CIDR,36.0.16.0/20,Mainland
@@ -6027,6 +6061,7 @@ IP-CIDR,42.99.112.0/22,Mainland
 IP-CIDR,42.99.120.0/21,Mainland
 IP-CIDR,42.99.64.0/19,Mainland
 IP-CIDR,42.99.96.0/20,Mainland
+IP-CIDR,43.0.0.0/9,Mainland
 IP-CIDR,43.224.100.0/22,Mainland
 IP-CIDR,43.224.12.0/22,Mainland
 IP-CIDR,43.224.144.0/22,Mainland

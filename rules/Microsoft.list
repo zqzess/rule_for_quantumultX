@@ -1,4 +1,4 @@
-# Microsoft rules refresh time: 2021-01-06 01:55:56
+# Microsoft rules refresh time: 2021-01-08 01:59:37
 HOST-SUFFIX,1drv.com,Microsoft
 HOST-SUFFIX,aadrm.com,Microsoft
 HOST-SUFFIX,acompli.com,Microsoft
@@ -7,13 +7,16 @@ HOST-SUFFIX,aka.ms,Microsoft
 HOST-SUFFIX,akadns.net,Microsoft
 HOST-SUFFIX,aspnetcdn.com,Microsoft
 HOST-SUFFIX,assets-yammer.com,Microsoft
+HOST-SUFFIX,azure.cn,Microsoft
 HOST-SUFFIX,azure.com,Microsoft
 HOST-SUFFIX,azure.net,Microsoft
 HOST-SUFFIX,azureedge.net,Microsoft
 HOST-SUFFIX,azurerms.com,Microsoft
 HOST-SUFFIX,bing.com,Microsoft
+HOST-SUFFIX,bing.net,Microsoft
 HOST-SUFFIX,cloudapp.net,Microsoft
 HOST-SUFFIX,cloudappsecurity.com,Microsoft
+HOST-SUFFIX,docs.com,Microsoft
 HOST-SUFFIX,edgesuite.net,Microsoft
 HOST-SUFFIX,fabric.io,Microsoft
 HOST-SUFFIX,gfx.ms,Microsoft
@@ -34,6 +37,7 @@ HOST-SUFFIX,msedge.net,Microsoft
 HOST-SUFFIX,msft.net,Microsoft
 HOST-SUFFIX,msftauth.net,Microsoft
 HOST-SUFFIX,msftauthimages.net,Microsoft
+HOST-SUFFIX,msftconnecttest.com,Microsoft
 HOST-SUFFIX,msftidentity.com,Microsoft
 HOST-SUFFIX,msidentity.com,Microsoft
 HOST-SUFFIX,msn.com,Microsoft
@@ -51,7 +55,9 @@ HOST-SUFFIX,onedrive.com,Microsoft
 HOST-SUFFIX,onenote.com,Microsoft
 HOST-SUFFIX,onenote.net,Microsoft
 HOST-SUFFIX,onestore.ms,Microsoft
+HOST-SUFFIX,onmicrosoft.com,Microsoft
 HOST-SUFFIX,outlook.com,Microsoft
+HOST-SUFFIX,outlookgroups.ms,Microsoft
 HOST-SUFFIX,outlookmobile.com,Microsoft
 HOST-SUFFIX,phonefactor.net,Microsoft
 HOST-SUFFIX,public-trust.com,Microsoft
@@ -79,11 +85,16 @@ HOST-SUFFIX,windows.net,Microsoft
 HOST-SUFFIX,windowsazure.com,Microsoft
 HOST-SUFFIX,windowsupdate.com,Microsoft
 HOST-SUFFIX,wunderlist.com,Microsoft
+HOST-SUFFIX,xbox.cn,Microsoft
+HOST-SUFFIX,xbox.com,Microsoft
+HOST-SUFFIX,xboxlive.cn,Microsoft
+HOST-SUFFIX,xboxlive.com,Microsoft
 HOST-SUFFIX,yammer.com,Microsoft
 HOST-SUFFIX,yammerusercontent.com,Microsoft
 HOST-KEYWORD,1drv,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-KEYWORD,onedrive,Microsoft
 HOST-KEYWORD,skydrive,Microsoft
+USER-AGENT,microsoft*,Microsoft
 USER-AGENT,onedrive*,Microsoft
 USER-AGENT,onedriveiosapp*,Microsoft
