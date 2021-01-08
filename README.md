@@ -1,6 +1,9 @@
 # rule_for_quantumultX
-自用圈X规则，机器人定期自动从上游获取更新,加强spotify和youtube去广告
-
+自用圈X规则，机器人定期自动从上游获取整合更新
+* **去广告**
+ > - [x] 一般化广告
+ > - [x] spotify去广告加强
+ > - [x] youtube去广告加强
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
