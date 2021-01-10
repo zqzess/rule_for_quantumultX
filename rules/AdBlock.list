@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-01-10 03:26:35
+# AdBlock rules refresh time: 2021-01-10 03:46:28
 
 HOST-SUFFIX,00-gov.cn,AdBlock
 HOST-SUFFIX,000dn.com,AdBlock
@@ -58712,7 +58712,7 @@ HOST,zayit.lon.spotify.com,AdBlock
 HOST,zhcn.admob.com,AdBlock
 HOST,zlink.app.spotify.com,AdBlock
 
-# YoutubeAdBlock rules refresh time: 2021-01-10 03:26:36
+# YoutubeAdBlock rules refresh time: 2021-01-10 03:46:28
 
 HOST,0.0.0.0 2975c.v.fwmrm.net,AdBlock
 HOST,0.0.0.0 2mdn.net,AdBlock
@@ -59584,9 +59584,9 @@ HOST,securepubads.g.doubleclick.net,AdBlock
 HOST,ssl.google-analytics.com,AdBlock
 HOST,static.doubleclick.net,AdBlock
 HOST,stats.g.doubleclick.net,AdBlock
-HOST,suggestqueries.google.com,AdBlock
 HOST,www-google-analytics.l.google.com,AdBlock
 HOST,www-googletagmanager.l.google.com,AdBlock
 HOST,www.analytic-google.com,AdBlock
 HOST,www.googleadservices.com,AdBlock
 HOST,www.googletagservices.com,AdBlock
+HOST-SUFFIX,suggestqueries.google.com,AdBlock
