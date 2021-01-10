@@ -59,6 +59,10 @@ def YTAdBlockFun():
             row0 = row0.replace("0.0.0.0 ", "HOST,")
             row0 = row0 + ",AdBlock"
             domains.append(row0)
+        else:
+            row0=row
+            row0="HOST,"+row0+",AdBlock"
+            domains.append(row0)
 
     print('规则处理完成..')
     print('wirte begin...写入开始')
