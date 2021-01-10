@@ -65,7 +65,7 @@ def YTAdBlockFun():
             domains.append(row0)
         if re.match('suggestqueries.google.com', row):
             row0 = row
-            row0="HOST,"+row0+",AdBlock"
+            row0="HOST-SUFFIX,"+row0+",AdBlock"
             domains.append(row0)
         else:
             row0=row
