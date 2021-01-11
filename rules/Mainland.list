@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-01-10 03:46:29
+# Mainland rules refresh time: 2021-01-11 02:03:35
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -546,6 +546,7 @@ HOST-SUFFIX,onenote.com,Mainland
 HOST-SUFFIX,ooklaserver.net,Mainland
 HOST-SUFFIX,open.cd,Mainland
 HOST-SUFFIX,oracle.com,Mainland
+HOST-SUFFIX,originlab.com,Mainland
 HOST-SUFFIX,osapublishing.org,Mainland
 HOST-SUFFIX,oschina.net,Mainland
 HOST-SUFFIX,oup.com,Mainland
@@ -706,7 +707,6 @@ IP6-CIDR,2a0b:b580::/48,Mainland
 IP6-CIDR,2a0b:b581::/48,Mainland
 IP6-CIDR,2a0b:b582::/48,Mainland
 IP6-CIDR,2a0b:b583::/48,Mainland
-GEOIP,cn,Mainland
 IP-CIDR,1.0.1.0/24,Mainland
 IP-CIDR,1.0.2.0/23,Mainland
 IP-CIDR,1.0.32.0/19,Mainland
