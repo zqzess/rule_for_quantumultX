@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2021-01-11 02:03:35
+# Outside rules refresh time: 2021-01-12 04:28:05
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -769,6 +769,7 @@ HOST,kktv-theater.kk.stream,Outside
 HOST,linear-abematv.akamaized.net,Outside
 HOST,lookup-api.apple.com,Outside
 HOST,ocsp.apple.com,Outside
+HOST,ocsp.int-x3.letsencrypt.org,Outside
 HOST,players.brightcove.net,Outside
 HOST,search.avira.com,Outside
 HOST,store-images.s-microsoft.com,Outside
