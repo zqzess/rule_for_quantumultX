@@ -2,8 +2,8 @@
 自用圈X规则，机器人定期自动从上游获取整合更新
 * **去广告**
  > - [x] 一般化广告
- > - [x] spotify去广告加强(受限于上游更新速度，更新有时候会比较慢)
- > - [x] youtube去广告加强(突然发现各国家地区ip广告域名都不同，优先过滤香港美国地区ip的广告)
+ > - [x] spotify去广告加强
+ > - [x] youtube去广告加强
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
