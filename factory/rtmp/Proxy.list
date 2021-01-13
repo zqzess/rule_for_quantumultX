@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-12 03:02:24
-# HOST-SUFFIX: 27732
+# UPDATED: 2021-01-13 03:09:32
+# HOST-SUFFIX: 27733
 # USER-AGENT: 49
 # HOST: 4
 # HOST-KEYWORD: 42
 # IP-CIDR: 110
 # IP6-CIDR: 3
-# TOTAL: 27940
+# TOTAL: 27941
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
 HOST,ds-linear-abematv.akamaized.net,Proxy
 HOST,ds-vod-abematv.akamaized.net,Proxy
@@ -6123,6 +6123,7 @@ HOST-SUFFIX,cnitter.com,Proxy
 HOST-SUFFIX,cnix-gov-cn.com,Proxy
 HOST-SUFFIX,cnn.com,Proxy
 HOST-SUFFIX,cnn.io,Proxy
+HOST-SUFFIX,cnn.it,Proxy
 HOST-SUFFIX,cnnarabic.com,Proxy
 HOST-SUFFIX,cnnikebrand.com,Proxy
 HOST-SUFFIX,cnnlabs.com,Proxy

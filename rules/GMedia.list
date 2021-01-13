@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-01-12 04:28:04
+# GMedia rules refresh time: 2021-01-13 02:12:08
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -162,6 +162,7 @@ HOST-SUFFIX,gvt2.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
+HOST,apple.comscoreresearch.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GMedia
@@ -180,6 +181,7 @@ HOST,hboasia5-i.akamaihd.net,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
+HOST,netflix.com.edgesuite.net,GMedia
 HOST,news-client.apple.com,GMedia
 HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
@@ -287,6 +289,8 @@ HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,avoddashs,GMedia
+HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GMedia
+HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
 HOST-KEYWORD,nflx,GMedia

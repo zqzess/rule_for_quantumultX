@@ -772,8 +772,10 @@ IP-CIDR,208.43.0.0/16,Outside
 
 
 HOST,abematv.akamaized.net,Outside
+HOST,api-glb-sea.smoot.apple.com,Outside
 HOST,api.steampowered.com,Outside
 HOST,apps.apple.com,Outside
+HOST,az416426.vo.msecnd.net,Outside
 HOST,az668014.vo.msecnd.net,Outside
 HOST,beta.music.apple.com,Outside
 HOST,books.itunes.apple.com,Outside
@@ -8176,6 +8178,7 @@ HOST-SUFFIX,cnitter.com,Outside
 HOST-SUFFIX,cnix-gov-cn.com,Outside
 HOST-SUFFIX,cnn.com,Outside
 HOST-SUFFIX,cnn.io,Outside
+HOST-SUFFIX,cnn.it,Outside
 HOST-SUFFIX,cnnarabic.com,Outside
 HOST-SUFFIX,cnnikebrand.com,Outside
 HOST-SUFFIX,cnnlabs.com,Outside

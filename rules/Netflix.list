@@ -1,4 +1,5 @@
-# Netflix rules refresh time: 2021-01-12 04:28:04
+# Netflix rules refresh time: 2021-01-13 02:12:07
+HOST,netflix.com.edgesuite.net,Netflix
 HOST-SUFFIX,fast.com,Netflix
 HOST-SUFFIX,netflix.com,Netflix
 HOST-SUFFIX,netflix.net,Netflix
@@ -17,6 +18,8 @@ HOST-SUFFIX,nflximg.com,Netflix
 HOST-SUFFIX,nflximg.net,Netflix
 HOST-SUFFIX,nflxso.net,Netflix
 HOST-SUFFIX,nflxvideo.net,Netflix
+HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
+HOST-KEYWORD,dualstack.ichnaea-web-,Netflix
 USER-AGENT,argo*,Netflix
 IP-CIDR,103.87.204.0/22,Netflix
 IP-CIDR,108.175.32.0/20,Netflix
