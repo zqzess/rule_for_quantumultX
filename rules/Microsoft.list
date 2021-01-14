@@ -1,4 +1,4 @@
-# Microsoft rules refresh time: 2021-01-13 02:12:07
+# Microsoft rules refresh time: 2021-01-14 11:32:23
 HOST-SUFFIX,1drv.com,Microsoft
 HOST-SUFFIX,aadrm.com,Microsoft
 HOST-SUFFIX,acompli.com,Microsoft
@@ -95,6 +95,6 @@ HOST-KEYWORD,1drv,Microsoft
 HOST-KEYWORD,microsoft,Microsoft
 HOST-KEYWORD,onedrive,Microsoft
 HOST-KEYWORD,skydrive,Microsoft
-USER-AGENT,microsoft*,Microsoft
-USER-AGENT,onedrive*,Microsoft
-USER-AGENT,onedriveiosapp*,Microsoft
+USER-AGENT,Microsoft*,Microsoft
+USER-AGENT,OneDrive*,Microsoft
+USER-AGENT,OneDriveiOSApp*,Microsoft

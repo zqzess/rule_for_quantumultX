@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2021-01-13 02:12:07
+# CMedia rules refresh time: 2021-01-14 11:32:23
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -139,30 +139,12 @@ HOST-SUFFIX,zmzapi.net,CMedia
 HOST-SUFFIX,zmzfile.com,CMedia
 HOST-KEYWORD,bilibili,CMedia
 HOST-KEYWORD,qiyi,CMedia
-USER-AGENT,%e4%bc%98%e9%85%b7*,CMedia
-USER-AGENT,%e5%92%aa%e5%92%95%e8%a7%86%e9%a2%91,CMedia
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*,CMedia
-USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90,CMedia
-USER-AGENT,%e9%85%b7%e6%88%91%e9%9f%b3%e4%b9%90*,CMedia
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,CMedia
 USER-AGENT,*bili*,CMedia
-USER-AGENT,acfun*,CMedia
+USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,CMedia
+USER-AGENT,QQ%E9%9F%B3%E4%B9%90,CMedia
+USER-AGENT,YYeTs*,CMedia
 USER-AGENT,baiduyinyue,CMedia
-USER-AGENT,bilibili*,CMedia
-USER-AGENT,iqiyi*,CMedia
-USER-AGENT,mgtv*,CMedia
-USER-AGENT,miguvideo*,CMedia
-USER-AGENT,moo%e9%9f%b3%e4%b9%90*,CMedia
-USER-AGENT,moo*,CMedia
-USER-AGENT,neteasemusic*,CMedia
-USER-AGENT,ppstream*,CMedia
-USER-AGENT,qiyi*,CMedia
-USER-AGENT,qq%e9%9f%b3%e4%b9%90*,CMedia
-USER-AGENT,qq%e9%9f%b3%e4%b9%90,CMedia
-USER-AGENT,qqmusic*,CMedia
-USER-AGENT,qyplayer*,CMedia
-USER-AGENT,tencentmidasconnect*,CMedia
-USER-AGENT,youku*,CMedia
-USER-AGENT,yyets*,CMedia
 IP-CIDR,101.224.0.0/13,CMedia
 IP-CIDR,103.126.92.132/31,CMedia
 IP-CIDR,119.176.0.0/12,CMedia
