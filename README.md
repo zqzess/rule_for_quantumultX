@@ -47,6 +47,7 @@ static=🇸🇬 新加坡节点, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)
 # 其中 CMedia 策略组为中国媒体，GMedia 为国际媒体，Outside 为境外链接，Mainland 为大陆链接，Others 为最终规则
 static=AdBlock, reject, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png
 static=Apple, direct, Outside, 🚀 节点选择,img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Apple.png
+static=AppleIOSUpdate, reject, direct,img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Apple.png
 static=Microsoft, direct, Outside, 🚀 节点选择,img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Microsoft.png
 static=Netflix, Outside, direct, 🚀 节点选择,img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png
 static=YouTube, Outside, direct, 🚀 节点选择,img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png
@@ -61,6 +62,7 @@ static=Others, Outside, direct, ♻️ 自动选择,🔮 负载均衡,🚀 手�
 [filter_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/AdBlock.list, force-policy=AdBlock,tag=AdBlock , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Apple.list, force-policy=Apple,tag=Apple , enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/AppleIOSUpdate.list, force-policy=AppleIOSUpdate,tag=AppleIOSUpdate , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Microsoft.list, force-policy=Microsoft,tag=Microsoft , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Netflix.list, force-policy=Netflix,tag=Netflix , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/YouTube.list, force-policy=YouTube,tag=YouTube , enabled=true
