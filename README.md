@@ -8,10 +8,10 @@
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
 ## 目录
-```rubby
-谷歌搜索重定向已经整合至rewrite,可以直接订阅rewrite,无需手动添加
+```ruby
+谷歌搜索重定向已经整合至rewrite重写规则,可以直接订阅rewrite,无需手动添加
 ```
-- [->Google搜索中国，香港，日本重定向](#Google搜索中国，香港，日本重定向)
+- ->~~[Google搜索中国，香港，日本重定向](./谷歌搜索重定向.md)~~
 - [->分流规则添加](#分流规则添加)
 - [->重写规则](#重写规则)
 ### 分流规则添加
@@ -86,26 +86,4 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/adR
 [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
 [jdlingyu](https://github.com/jdlingyu/ad-wars/blob/master/hosts)
 
-
-### Google搜索中国，香港，日本重定向
-`google.cn,google.co.jp,google.com.hk`重定向`google.com`
-```
-[rewrite_local]
-^https:\/\/www.google.cn\/* url 302 https://www.google.com/search
-^https:\/\/www.google.co.jp\/* url 302 https://www.google.com/search
-^https:\/\/www.google.com.hk\/* url 302 https://www.google.com/search
-```
-MITM hostname新增字段
-```
-[mitm]
-hostname = *.google.com.hk ,*.google.cn ,*.google.co.jp
-```
-或者 
-```
-[mitm]
-hostname = *.google.*
-```
-```ruby
-不知道第二种种写法会不会出问题
-```
 
