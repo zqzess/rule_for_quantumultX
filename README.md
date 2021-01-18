@@ -60,6 +60,7 @@ static=Others, Outside, direct, ♻️ 自动选择,🔮 负载均衡,🚀 手�
 ```
 ```
 [filter_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/ReFix.list,tag=ReFix , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/AdBlock.list, force-policy=AdBlock,tag=AdBlock , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Apple.list, force-policy=Apple,tag=Apple , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/AppleIOSUpdate.list, force-policy=AppleIOSUpdate,tag=AppleIOSUpdate , enabled=true
