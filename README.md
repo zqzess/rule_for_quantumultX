@@ -9,7 +9,7 @@
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
 ## 目录
 ```ruby
- 谷歌搜索重定向已经整合至rewrite重写规则,可以直接订阅rewrite,无需手动添加
+ 谷歌搜索重定向已经整合至重写规则
 ```
 - ->~~[Google搜索中国，香港，日本重定向](./谷歌搜索重定向.md)~~
 - ->[分流规则添加](#分流规则添加)
