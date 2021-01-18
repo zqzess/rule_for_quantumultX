@@ -85,6 +85,10 @@ ip-cidr, 192.168.0.0/16, direct
 geoip, cn, Mainland
 final, Others
 ```
+## 重写规则
+自用的重写规则，目前只能去有兔(米兔)阅读羞耻的开屏广告图片
+[server_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/adRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ## 参考
 [h2y](https://github.com/h2y)
 [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
