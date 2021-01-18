@@ -9,6 +9,8 @@
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
 
 ## Google搜索中国，香港，日本重定向
+<details>
+  <summary>展开查看</summary>
 `google.cn,google.co.jp,google.com.hk`重定向`google.com`
 ```
 [rewrite_local]
@@ -26,8 +28,10 @@ hostname = *.google.com.hk ,*.google.cn ,*.google.co.jp
 [mitm]
 hostname = *.google.*
 ```
-
+</details>
 ## 分流规则添加
+<details>
+  <summary>展开查看</summary>
 ```
 [policy]
 
@@ -85,10 +89,16 @@ ip-cidr, 192.168.0.0/16, direct
 geoip, cn, Mainland
 final, Others
 ```
+</details>
 ## 重写规则
+<details>
+<summary>展开查看</summary>
 自用的重写规则，目前只能去有兔(米兔)阅读羞耻的开屏广告图片
-[server_remote]
+```
+[rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/adRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
+```
+</details>
 ## 参考
 [h2y](https://github.com/h2y)
 [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
