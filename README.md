@@ -77,6 +77,7 @@ final, Others
 </br>**功能**:
 - 有兔(米兔)阅读羞耻的开屏广告图片
 - Google搜索中国，香港，日本重定向
+- YouTuBe跳广告
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
