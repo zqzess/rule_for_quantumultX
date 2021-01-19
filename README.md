@@ -3,7 +3,7 @@
 * **去广告**
  > - [x] 一般化广告
  > - [x] spotify去广告加强
- > - [x] youtube去广告加强
+ > - [x] youtube去广告加强(香港节点效果最好)
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
