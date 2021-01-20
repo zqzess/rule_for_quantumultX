@@ -1,8 +1,13 @@
+#有兔阅读
 HOST,app.zhoudamozi.com,Mainland
 HOST-SUFFIX,youzibank.com,Mainland
-HOST-SUFFIX,aaex.hk,Outside
-HOST-SUFFIX,cunhua.mom,Outside
-HOST-SUFFIX,cc.m.jd.com,Mainland
 HOST-SUFFIX,mituyuedu.com,Mainland
+#aaex加速器
+HOST-SUFFIX,aaex.hk,Outside
+#村花
+HOST-SUFFIX,cunhua.mom,Outside
+#
+HOST-SUFFIX,cc.m.jd.com,Mainland
+#inoreader
 HOST,download.maxmind.com,Mainland
 HOST,app-measurement.com,Mainland
