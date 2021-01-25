@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-01-22 02:19:41
+# GMedia rules refresh time: 2021-01-25 02:20:10
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -189,31 +189,23 @@ HOST,players.brightcove.net,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
-HOST-SUFFIX,amplify.outbrain.com,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bam.nr-data.net,GMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GMedia
-HOST-SUFFIX,bluekai.com,GMedia
 HOST-SUFFIX,boltdns.net,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
 HOST-SUFFIX,c4assets.com,GMedia
-HOST-SUFFIX,cdn.cookielaw.org,GMedia
 HOST-SUFFIX,cdn.optimizely.com,GMedia
 HOST-SUFFIX,channel4.com,GMedia
 HOST-SUFFIX,channel5.com,GMedia
-HOST-SUFFIX,control.kochava.com,GMedia
 HOST-SUFFIX,d9.flashtalking.com,GMedia
-HOST-SUFFIX,dc2-vodhls-perform.secure.footprint.net,GMedia
-HOST-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,GMedia
-HOST-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,GMedia
 HOST-SUFFIX,deezer.com,GMedia
 HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
 HOST-SUFFIX,disneyplus.bn5x.net,GMedia
 HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,GMedia
 HOST-SUFFIX,disneystreaming.com,GMedia
 HOST-SUFFIX,dmc.nico,GMedia
-HOST-SUFFIX,docomo.ne.jp,GMedia
 HOST-SUFFIX,dzcdn.net,GMedia
 HOST-SUFFIX,emarsys.net,GMedia
 HOST-SUFFIX,emome.net,GMedia
@@ -253,7 +245,6 @@ HOST-SUFFIX,nowestatic.com,GMedia
 HOST-SUFFIX,nqs.nice264.com,GMedia
 HOST-SUFFIX,ocnttv.com,GMedia
 HOST-SUFFIX,p-cdn.us,GMedia
-HOST-SUFFIX,perfops.doracdn.com,GMedia
 HOST-SUFFIX,phncdn.com,GMedia
 HOST-SUFFIX,phprcdn.com,GMedia
 HOST-SUFFIX,pornhub.com,GMedia
@@ -262,8 +253,6 @@ HOST-SUFFIX,primevideo.com,GMedia
 HOST-SUFFIX,prod.hjholdings.tv,GMedia
 HOST-SUFFIX,profile.line-scdn.net,GMedia
 HOST-SUFFIX,qobuz.com,GMedia
-HOST-SUFFIX,rest.zuora.com,GMedia
-HOST-SUFFIX,s.yimg.jp,GMedia
 HOST-SUFFIX,segment.com,GMedia
 HOST-SUFFIX,sentry.io,GMedia
 HOST-SUFFIX,skyking.com.tw,GMedia
@@ -280,8 +269,6 @@ HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
 HOST-SUFFIX,urlload.net,GMedia
-HOST-SUFFIX,vjs.zencdn.net,GMedia
-HOST-SUFFIX,yahoo.co.jp,GMedia
 HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
 HOST-SUFFIX,youtube.com,GMedia
@@ -293,6 +280,7 @@ HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
+HOST-KEYWORD,livedazn,GMedia
 HOST-KEYWORD,nflx,GMedia
 HOST-KEYWORD,nowtv100,GMedia
 HOST-KEYWORD,rthklive,GMedia
