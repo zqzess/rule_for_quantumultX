@@ -1,13 +1,12 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-01-27 02:55:19
-# HOST-SUFFIX: 27814
+# UPDATED: 2021-01-29 02:58:04
+# HOST-SUFFIX: 27817
 # USER-AGENT: 49
 # HOST: 36
 # HOST-KEYWORD: 42
 # IP-CIDR: 127
-# IP6-CIDR: 3
 # TOTAL: 28071
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
@@ -10405,7 +10404,6 @@ HOST-SUFFIX,goog,Proxy
 HOST-SUFFIX,googel.com,Proxy
 HOST-SUFFIX,googil.com,Proxy
 HOST-SUFFIX,googl.com,Proxy
-HOST-SUFFIX,google,Proxy
 HOST-SUFFIX,google-analytics.com,Proxy
 HOST-SUFFIX,google-syndication.com,Proxy
 HOST-SUFFIX,google.ac,Proxy
@@ -17464,18 +17462,22 @@ HOST-SUFFIX,pistonheads.com,Proxy
 HOST-SUFFIX,pitney,Proxy
 HOST-SUFFIX,pittpatt.com,Proxy
 HOST-SUFFIX,pivotalinitiative.com,Proxy
+HOST-SUFFIX,pixanalytics.com,Proxy
 HOST-SUFFIX,pixapp.net,Proxy
 HOST-SUFFIX,pixate.com,Proxy
 HOST-SUFFIX,pixelmator.com,Proxy
 HOST-SUFFIX,pixelqi.com,Proxy
+HOST-SUFFIX,pixfs.net,Proxy
 HOST-SUFFIX,pixia.com,Proxy
 HOST-SUFFIX,pixiv.com,Proxy
 HOST-SUFFIX,pixiv.me,Proxy
 HOST-SUFFIX,pixiv.net,Proxy
 HOST-SUFFIX,pixiv.org,Proxy
 HOST-SUFFIX,pixivsketch.net,Proxy
+HOST-SUFFIX,pixnet.cc,Proxy
 HOST-SUFFIX,pixnet.in,Proxy
 HOST-SUFFIX,pixnet.net,Proxy
+HOST-SUFFIX,pixnet.pro,Proxy
 HOST-SUFFIX,pixolium.com,Proxy
 HOST-SUFFIX,pixtronix.com,Proxy
 HOST-SUFFIX,pj2019.com,Proxy
@@ -28077,6 +28079,3 @@ IP-CIDR,74.86.0.0/16,Proxy
 IP-CIDR,75.126.0.0/16,Proxy
 IP-CIDR,91.108.0.0/16,Proxy
 IP-CIDR,91.198.174.0/24,Proxy
-IP6-CIDR,2001:67c:4e8::/48,Proxy
-IP6-CIDR,2001:b28:f23d::/48,Proxy
-IP6-CIDR,2001:b28:f23f::/48,Proxy

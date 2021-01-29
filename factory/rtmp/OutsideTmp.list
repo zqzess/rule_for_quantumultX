@@ -1197,7 +1197,6 @@ HOST-SUFFIX,goo.gl,Outside
 HOST-SUFFIX,goo.ne.jp,Outside
 HOST-SUFFIX,goodreaders.com,Outside
 HOST-SUFFIX,goodreads.com,Outside
-HOST-SUFFIX,google,Outside
 HOST-SUFFIX,googleapis.cn,Outside
 HOST-SUFFIX,googlevideo.com,Outside
 HOST-SUFFIX,gosetsuden.jp,Outside
@@ -2060,9 +2059,6 @@ IP-CIDR,91.108.4.0/22,Outside
 IP-CIDR,91.108.56.0/22,Outside
 IP-CIDR,91.108.8.0/21,Outside
 IP-CIDR,91.198.174.0/24,Outside
-IP6-CIDR,2001:67c:4e8::/48,Outside
-IP6-CIDR,2001:b28:f23d::/48,Outside
-IP6-CIDR,2001:b28:f23f::/48,Outside
 
 HOST,amp.akamaized.net,Outside
 HOST,apple.com.akadns.net,Outside
@@ -12460,7 +12456,6 @@ HOST-SUFFIX,goog,Outside
 HOST-SUFFIX,googel.com,Outside
 HOST-SUFFIX,googil.com,Outside
 HOST-SUFFIX,googl.com,Outside
-HOST-SUFFIX,google,Outside
 HOST-SUFFIX,google-analytics.com,Outside
 HOST-SUFFIX,google-syndication.com,Outside
 HOST-SUFFIX,google.ac,Outside
@@ -19519,18 +19514,22 @@ HOST-SUFFIX,pistonheads.com,Outside
 HOST-SUFFIX,pitney,Outside
 HOST-SUFFIX,pittpatt.com,Outside
 HOST-SUFFIX,pivotalinitiative.com,Outside
+HOST-SUFFIX,pixanalytics.com,Outside
 HOST-SUFFIX,pixapp.net,Outside
 HOST-SUFFIX,pixate.com,Outside
 HOST-SUFFIX,pixelmator.com,Outside
 HOST-SUFFIX,pixelqi.com,Outside
+HOST-SUFFIX,pixfs.net,Outside
 HOST-SUFFIX,pixia.com,Outside
 HOST-SUFFIX,pixiv.com,Outside
 HOST-SUFFIX,pixiv.me,Outside
 HOST-SUFFIX,pixiv.net,Outside
 HOST-SUFFIX,pixiv.org,Outside
 HOST-SUFFIX,pixivsketch.net,Outside
+HOST-SUFFIX,pixnet.cc,Outside
 HOST-SUFFIX,pixnet.in,Outside
 HOST-SUFFIX,pixnet.net,Outside
+HOST-SUFFIX,pixnet.pro,Outside
 HOST-SUFFIX,pixolium.com,Outside
 HOST-SUFFIX,pixtronix.com,Outside
 HOST-SUFFIX,pj2019.com,Outside
@@ -30132,6 +30131,3 @@ IP-CIDR,74.86.0.0/16,Outside
 IP-CIDR,75.126.0.0/16,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,91.198.174.0/24,Outside
-IP6-CIDR,2001:67c:4e8::/48,Outside
-IP6-CIDR,2001:b28:f23d::/48,Outside
-IP6-CIDR,2001:b28:f23f::/48,Outside
