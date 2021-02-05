@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2021-02-03 01:23:41
+# Apple rules refresh time: 2021-02-05 01:16:26
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -35,12 +35,14 @@ HOST,api.smoot.apple.cn,Apple
 HOST,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
+HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,appsto.re,Apple
+HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
@@ -90,10 +92,9 @@ HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
 HOST-KEYWORD,testflight,Apple
 USER-AGENT,AppleNews*,Apple
-USER-AGENT,AppleTV*,Apple
 USER-AGENT,Music*,Apple
 USER-AGENT,com.apple.news*,Apple
-USER-AGENT,com.apple.tv*,Apple
+USER-AGENT,com.apple.trustd*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple
 IP-CIDR,144.178.36.0/22,Apple

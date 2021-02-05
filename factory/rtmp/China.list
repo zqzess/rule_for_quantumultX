@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-02-03 02:54:08
-# HOST-SUFFIX: 623
+# UPDATED: 2021-02-05 02:47:46.326256
+# HOST-SUFFIX: 626
 # USER-AGENT: 32
+# HOST-KEYWORD: 12
 # HOST: 15
 # IP-CIDR: 4
-# HOST-KEYWORD: 11
 # IP6-CIDR: 4
-# TOTAL: 689
+# TOTAL: 693
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
@@ -254,6 +254,7 @@ HOST-SUFFIX,hddolby.com,China
 HOST-SUFFIX,hdhome.org,China
 HOST-SUFFIX,hdsky.me,China
 HOST-SUFFIX,hdslb.com,China
+HOST-SUFFIX,hicloud.com,China
 HOST-SUFFIX,hitv.com,China
 HOST-SUFFIX,hiwifi.com,China
 HOST-SUFFIX,hkserversolution.com,China
@@ -273,6 +274,8 @@ HOST-SUFFIX,icedropper.com,China
 HOST-SUFFIX,icetorrent.org,China
 HOST-SUFFIX,icevirtuallibrary.com,China
 HOST-SUFFIX,iciba.com,China
+HOST-SUFFIX,icloud-content.com,China
+HOST-SUFFIX,icloud.com,China
 HOST-SUFFIX,idqqimg.com,China
 HOST-SUFFIX,ieee.org,China
 HOST-SUFFIX,iesdouyin.com,China
@@ -654,6 +657,7 @@ HOST-KEYWORD,alipay,China
 HOST-KEYWORD,aliyun,China
 HOST-KEYWORD,baidu,China
 HOST-KEYWORD,beplay,China
+HOST-KEYWORD,icloud.com.akadns.net,China
 HOST-KEYWORD,microsoft,China
 HOST-KEYWORD,officecdn,China
 HOST-KEYWORD,speedtest,China

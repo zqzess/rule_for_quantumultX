@@ -1,4 +1,4 @@
-# YouTube rules refresh time: 2021-02-03 01:23:38
+# YouTube rules refresh time: 2021-02-05 01:16:24
 HOST-SUFFIX,.youtube,YouTube
 HOST-SUFFIX,ggpht.cn,YouTube
 HOST-SUFFIX,ggpht.com,YouTube
@@ -175,9 +175,7 @@ HOST-SUFFIX,ytimg.com,YouTube
 HOST-KEYWORD,youtube,YouTube
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
-USER-AGENT,YouTubeMusic*,YouTube
 USER-AGENT,com.google.ios.youtube*,YouTube
-USER-AGENT,com.google.ios.youtubemusic*,YouTube
 IP-CIDR,172.110.32.0/21,YouTube
 IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube

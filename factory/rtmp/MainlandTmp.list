@@ -578,6 +578,7 @@ HOST-SUFFIX,hddolby.com,Mainland
 HOST-SUFFIX,hdhome.org,Mainland
 HOST-SUFFIX,hdsky.me,Mainland
 HOST-SUFFIX,hdslb.com,Mainland
+HOST-SUFFIX,hicloud.com,Mainland
 HOST-SUFFIX,hitv.com,Mainland
 HOST-SUFFIX,hiwifi.com,Mainland
 HOST-SUFFIX,hkserversolution.com,Mainland
@@ -597,6 +598,8 @@ HOST-SUFFIX,icedropper.com,Mainland
 HOST-SUFFIX,icetorrent.org,Mainland
 HOST-SUFFIX,icevirtuallibrary.com,Mainland
 HOST-SUFFIX,iciba.com,Mainland
+HOST-SUFFIX,icloud-content.com,Mainland
+HOST-SUFFIX,icloud.com,Mainland
 HOST-SUFFIX,idqqimg.com,Mainland
 HOST-SUFFIX,ieee.org,Mainland
 HOST-SUFFIX,iesdouyin.com,Mainland
@@ -978,6 +981,7 @@ HOST-KEYWORD,alipay,Mainland
 HOST-KEYWORD,aliyun,Mainland
 HOST-KEYWORD,baidu,Mainland
 HOST-KEYWORD,beplay,Mainland
+HOST-KEYWORD,icloud.com.akadns.net,Mainland
 HOST-KEYWORD,microsoft,Mainland
 HOST-KEYWORD,officecdn,Mainland
 HOST-KEYWORD,speedtest,Mainland
@@ -1599,7 +1603,6 @@ IP-CIDR,103.157.234.0/23,Mainland
 IP-CIDR,103.157.254.0/23,Mainland
 IP-CIDR,103.157.30.0/23,Mainland
 IP-CIDR,103.158.0.0/23,Mainland
-IP-CIDR,103.158.13.0/24,Mainland
 IP-CIDR,103.158.16.0/23,Mainland
 IP-CIDR,103.158.200.0/23,Mainland
 IP-CIDR,103.158.224.0/23,Mainland

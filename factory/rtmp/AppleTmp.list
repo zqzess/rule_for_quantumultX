@@ -35,6 +35,7 @@ HOST,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
 HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
 HOST-SUFFIX,apple.co,Apple
@@ -47,6 +48,7 @@ HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.com,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,crashlytics.com,Apple
+HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
@@ -108,7 +110,6 @@ USER-AGENT,*WeatherFoundation*,Apple
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,AppStore*,Apple
 USER-AGENT,AppleNews*,Apple
-USER-AGENT,AppleTV*,Apple
 USER-AGENT,FMDClient*,Apple
 USER-AGENT,FMFD*,Apple
 USER-AGENT,FindMy*,Apple
@@ -117,9 +118,11 @@ USER-AGENT,Music*,Apple
 USER-AGENT,TestFlight*,Apple
 USER-AGENT,com.apple.Maps,Apple
 USER-AGENT,com.apple.appstored*,Apple
+USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.news*,Apple
-USER-AGENT,com.apple.tv*,Apple
+USER-AGENT,com.apple.trustd*,Apple
 USER-AGENT,fmflocatord*,Apple
+USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple
