@@ -4,6 +4,7 @@
  > - [x] 一般化广告
  > - [x] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
+ > - [x] 书旗小说去广告(规则与重写较多,可能误杀)
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
@@ -78,6 +79,7 @@ final, Others
 - 有兔(米兔)阅读羞耻的开屏广告图片
 - Google搜索中国，香港，日本重定向
 - YouTuBe跳广告
+- 书旗小说去广告(规则与重写较多,可能误杀)
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
