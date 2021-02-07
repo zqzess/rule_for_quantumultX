@@ -29,3 +29,10 @@ HOST-SUFFIX,subhd.tv,Mainland
 HOST,img.subhd.la,Mainland
 #衫果
 HOST,www.sonkwo.hk,Mainland
+#书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
+HOST-SUFFIX,pangolin-sdk-toutiao.com,AdBlock #已知
+HOST-SUFFIX,xwuad.com,AdBlock #未知
+HOST-SUFFIX,tobapplog.ctobsnssdk.com,AdBlock #未知
+HOST-SUFFIX,pangolin-sdk-toutiao.com,AdBlock #已知
+#HOST-SUFFIX,render.shuqireader.com,AdBlock
+HOST-SUFFIX,toblog.ctobsnssdk.com,AdBlock #已知
