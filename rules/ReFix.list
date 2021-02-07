@@ -30,18 +30,32 @@ HOST,img.subhd.la,Mainland
 #衫果
 HOST,www.sonkwo.hk,Mainland
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
-HOST-SUFFIX,pangolin-sdk-toutiao.com,AdBlock #已知
-HOST-SUFFIX,xwuad.com,AdBlock #未知
-HOST-SUFFIX,tobapplog.ctobsnssdk.com,AdBlock #未知
-HOST-SUFFIX,pangolin-sdk-toutiao.com,AdBlock #已知
+#已知
+HOST-SUFFIX,pangolin-sdk-toutiao.com,AdBlock
+#未知
+HOST-SUFFIX,xwuad.com,AdBlock
+#未知
+HOST-SUFFIX,tobapplog.ctobsnssdk.com,AdBlock
+#已知
+HOST-SUFFIX,pangolin-sdk-toutiao.com,AdBlock
 #HOST-SUFFIX,render.shuqireader.com,AdBlock
-HOST-SUFFIX,toblog.ctobsnssdk.com,AdBlock #已知
-HOST-SUFFIX,sdk.kaijia.com,AdBlock #未知
-HOST-SUFFIX,tobapplog.ctobsnssdk.com,AdBlock #未知
-HOST-SUFFIX,amdc.m.taobao.com,AdBlock #已知
-HOST-SUFFIX,iyes.youku.com,AdBlock #未知
-HOST-SUFFIX,sq.sljkj.com,AdBlock #未知
-HOST-SUFFIX,s2s.adjust.com,AdBlock #未知
-HOST-SUFFIX,mobads.baidu.com,AdBlock #百度移动广告联盟，可能误杀
-HOST-SUFFIX,mi.gdt.qq.com,AdBlock #腾讯广告联盟，可能误杀
-HOST-SUFFIX,jcollection.shuqireader.com,AdBlock #未知
+#已知
+HOST-SUFFIX,toblog.ctobsnssdk.com,AdBlock
+#未知
+HOST-SUFFIX,sdk.kaijia.com,AdBlock
+#未知
+HOST-SUFFIX,tobapplog.ctobsnssdk.com,AdBlock
+#已知
+HOST-SUFFIX,amdc.m.taobao.com,AdBlock
+#未知
+HOST-SUFFIX,iyes.youku.com,AdBlock
+#未知
+HOST-SUFFIX,sq.sljkj.com,AdBlock
+#未知
+HOST-SUFFIX,s2s.adjust.com,AdBlock
+#百度移动广告联盟，可能误杀
+HOST-SUFFIX,mobads.baidu.com,AdBlock
+#腾讯广告联盟，可能误杀
+HOST-SUFFIX,mi.gdt.qq.com,AdBlock
+#未知
+HOST-SUFFIX,jcollection.shuqireader.com,AdBlock
