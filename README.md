@@ -11,6 +11,8 @@
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
+
+[一套彩色图标](https://github.com/Semporia/Hand-Painted-icon)
 ## 目录
 ```ruby
  谷歌搜索重定向已经整合至重写规则
