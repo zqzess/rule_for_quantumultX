@@ -4,7 +4,7 @@
  > - [x] 一般化广告
  > - [x] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
- > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’的是书旗官方充值广告，暂时无法屏蔽，屏蔽可能导致无法充值)
+ > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’的是书旗官方充值广告，暂时无法屏蔽，涉及到会员充值初步估计需要修改请求体)
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
