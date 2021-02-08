@@ -1,10 +1,13 @@
 # rule_for_quantumultX
 自用圈X规则，GithubAction定期自动从上游拉取资源整合更新，部分手动维护
 * **去广告**
+```ruby
+去广告重写开启后请先清除缓存
+```
  > - [x] 一般化广告
  > - [x] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
- > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’的是书旗官方充值广告，暂时无法屏蔽，涉及到会员充值初步估计需要修改请求体)
+ > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装)
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
