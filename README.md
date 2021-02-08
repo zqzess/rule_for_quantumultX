@@ -1,5 +1,5 @@
 # rule_for_quantumultX
-自用圈X规则，机器人定期自动从上游获取整合更新
+自用圈X规则，GithubAction定期自动从上游拉取资源整合更新，部分手动维护
 * **去广告**
  > - [x] 一般化广告
  > - [x] spotify去广告加强
