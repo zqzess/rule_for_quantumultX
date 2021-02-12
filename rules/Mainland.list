@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-02-10 01:15:41
+# Mainland rules refresh time: 2021-02-12 01:16:53
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -698,8 +698,20 @@ USER-AGENT,balls*,Mainland
 USER-AGENT,cmblife*,Mainland
 USER-AGENT,eusoft_ting_en_iphone,Mainland
 IP-CIDR,119.28.28.28/32,Mainland
+IP-CIDR,164.52.102.66/31,Mainland
+IP-CIDR,164.52.102.68/31,Mainland
+IP-CIDR,164.52.102.70/32,Mainland
+IP-CIDR,164.52.102.75/32,Mainland
+IP-CIDR,164.52.102.76/31,Mainland
+IP-CIDR,164.52.102.91/32,Mainland
 IP-CIDR,182.254.116.0/24,Mainland
 IP-CIDR,185.188.32.0/22,Mainland
+IP-CIDR,199.190.44.36/31,Mainland
+IP-CIDR,3.0.163.78/32,Mainland
+IP-CIDR,35.178.208.187/32,Mainland
+IP-CIDR,52.194.158.59/32,Mainland
+IP-CIDR,52.52.84.170/32,Mainland
+IP-CIDR,52.58.56.244/32,Mainland
 IP6-CIDR,2a0b:b580::/48,Mainland
 IP6-CIDR,2a0b:b581::/48,Mainland
 IP6-CIDR,2a0b:b582::/48,Mainland

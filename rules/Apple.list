@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2021-02-10 01:15:42
+# Apple rules refresh time: 2021-02-12 01:16:53
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -37,7 +37,11 @@ HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,apple-icloud.cn,Apple
+HOST-SUFFIX,apple-livephotoskit.com,Apple
 HOST-SUFFIX,apple-mapkit.com,Apple
+HOST-SUFFIX,apple.com.cdn20.com,Apple
+HOST-SUFFIX,apple.com.mwcloudcdn.com,Apple
+HOST-SUFFIX,apple.com.mwcname.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
@@ -46,6 +50,7 @@ HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.de,Apple
 HOST-SUFFIX,icloud.ee,Apple
@@ -83,13 +88,17 @@ HOST-SUFFIX,icloudpay.net,Apple
 HOST-SUFFIX,icloudsecure.net,Apple
 HOST-SUFFIX,icloudsetup.com,Apple
 HOST-SUFFIX,ios-icloud.com,Apple
+HOST-SUFFIX,itunes.com.edgekey.net,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
 HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,icloud,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
+HOST-KEYWORD,icoudo,Apple
+HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple
 USER-AGENT,AppleNews*,Apple
 USER-AGENT,Music*,Apple
