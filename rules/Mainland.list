@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-02-19 01:18:07
+# Mainland rules refresh time: 2021-02-22 01:19:27
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -737,6 +737,7 @@ IP-CIDR,3.0.163.78/32,Mainland
 IP-CIDR,35.156.231.150/32,Mainland
 IP-CIDR,35.168.106.53/32,Mainland
 IP-CIDR,35.178.208.187/32,Mainland
+IP-CIDR,45.40.48.11/32,Mainland
 IP-CIDR,50.18.128.22/32,Mainland
 IP-CIDR,52.178.26.110/32,Mainland
 IP-CIDR,52.194.158.59/32,Mainland
