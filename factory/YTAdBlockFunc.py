@@ -56,7 +56,7 @@ def YTAdBlockFun():
         elif re.match('0.0.0.0 ', row):
             # row0 = row
             row0 = row.replace("0.0.0.0 ", "HOST,")
-            print(row0)
+            # print(row0)
             row0 = row0 + ",AdBlock"
             domains.append(row0)
         elif re.findall('googleusercontent', row):

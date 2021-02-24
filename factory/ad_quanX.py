@@ -31,7 +31,7 @@ def Change():
     # 1024_hosts - 1024网站和澳门皇家赌场
     DATA_URL3 = 'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts'
     # 知乎
-    DATA_URL4 = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Zhihu/Zhihu.list'
+    DATA_URL4 = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ZhihuAds/ZhihuAds.list'
     # 运营商劫持等,暂不添加
     # DATA_URL4='https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Hijacking/Hijacking.list'
 
