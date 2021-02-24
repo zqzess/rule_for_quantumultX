@@ -43,27 +43,27 @@ def YTAdBlockFun():
         rule = rule + r.text + '\n'
 
     # parse rule
-    print(rule)
+    # print(rule)
     rule = rule.split('\n')
     for row in rule:
         row = row.strip()
-
         if row == '' or row.startswith('#'):
             print("注释" + row)
             continue
-        if re.search(r'advertisment', row):
+        elif re.search(r'advertisment', row):
             print('ignore: ' + row)
             continue
-        if re.findall('0.0.0.0 ', row):
-            row0 = row
-            row0 = row0.replace("0.0.0.0 ", "HOST,")
+        elif re.match('0.0.0.0 ', row):
+            # row0 = row
+            row0 = row.replace("0.0.0.0 ", "HOST,")
+            print(row0)
             row0 = row0 + ",AdBlock"
             domains.append(row0)
-        if re.findall('googleusercontent', row):
+        elif re.findall('googleusercontent', row):
             row0 = row
             row0="HOST,"+row0+",AdBlock"
             domains.append(row0)
-        if re.match('suggestqueries.google.com', row):
+        elif re.match('suggestqueries.google.com', row):
             row0 = row
             row0="HOST-SUFFIX,"+row0+",AdBlock"
             domains.append(row0)
