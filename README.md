@@ -88,13 +88,22 @@ final, Others
 - YouTuBe跳广告
 - 书旗小说去广告(规则与重写较多,可能误杀)
 - 番茄小说去章末广告(不影响金币获取)
+
+**搬运**:
+ - 抖音去广告 (By Choler)
+ - 去微信公众号广告 (By Choler)
+ - 酷我音乐SVIP (By yxiaocai)
+ - 爱美剧Vip (by huihui）(官网：app.meiju2018.com)
+ - 京东淘宝比价 (by yichahucha)
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ```
+### 完整配置文件
 ### 参考
-[h2y](https://github.com/h2y)
-[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
-[jdlingyu](https://github.com/jdlingyu/ad-wars/blob/master/hosts)
-
-
+- [@h2y](https://github.com/h2y)
+- [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+- [@jdlingyu](https://github.com/jdlingyu/ad-wars/blob/master/hosts)
+- [@Tartarus2014](https://github.com/Tartarus2014/QuantumultX-Script)
+- [@GeQ1an](https://github.com/GeQ1an/Rules/tree/master)
+- [@Koolson](https://github.com/Koolson/Qure)
