@@ -104,7 +104,7 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyR
 ### 完整配置文件
 **两个版本配置文件均无定时任务**
 - [简洁版-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess_lite.conf)
-- [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess_lite.conf)
+- [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess.conf)
 
 **使用方法：**
 Quan X主界面，点击右下角风车，然后弹出界面下拉至 配置文件-下载，点击下载,将任一配置文件地址粘贴
