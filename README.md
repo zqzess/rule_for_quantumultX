@@ -22,6 +22,8 @@
 - ->~~[Google搜索中国，香港，日本重定向](./谷歌搜索重定向.md)~~
 - ->[分流规则添加](#分流规则添加)
 - ->[重写规则](#重写规则)
+- ->[完整配置文件](#完整配置文件)
+- ->[参考](参考)
 ### 分流规则添加
 ```
 [policy]
@@ -100,6 +102,17 @@ final, Others
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ```
 ### 完整配置文件
+**两个版本配置文件均无定时任务**
+- [简洁版-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess_lite.conf)
+- [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess_lite.conf)
+
+**使用方法：**
+Quan X主界面，点击右下角风车，然后弹出界面下拉至 配置文件-下载，点击下载,将任一配置文件地址粘贴
+
+```ruby
+PS:
+ 要开启重写功能需先配置证书并信任再开启MitM证书
+```
 ### 参考
 - [@h2y](https://github.com/h2y)
 - [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
