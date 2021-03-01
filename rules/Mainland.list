@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-02-26 01:20:15
+# Mainland rules refresh time: 2021-03-01 01:24:05
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -674,7 +674,6 @@ HOST-KEYWORD,alicdn,Mainland
 HOST-KEYWORD,alipay,Mainland
 HOST-KEYWORD,aliyun,Mainland
 HOST-KEYWORD,baidu,Mainland
-HOST-KEYWORD,icloud.com.akadns.net,Mainland
 HOST-KEYWORD,officecdn,Mainland
 HOST-KEYWORD,speedtest,Mainland
 HOST-KEYWORD,taobao,Mainland
