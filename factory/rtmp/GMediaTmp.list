@@ -208,6 +208,7 @@ HOST,hboasia4-i.akamaihd.net,GMedia
 HOST,hboasia5-i.akamaihd.net,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,kktv-theater.kk.stream,GMedia
+HOST,linear.tv.apple.com,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
 HOST,netflix.com.edgesuite.net,GMedia
@@ -265,6 +266,9 @@ HOST-SUFFIX,disneyplus.com,GMedia
 HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,GMedia
 HOST-SUFFIX,disneystreaming.com,GMedia
 HOST-SUFFIX,dmc.nico,GMedia
+HOST-SUFFIX,dmm-extension.com,GMedia
+HOST-SUFFIX,dmm.co.jp,GMedia
+HOST-SUFFIX,dmm.com,GMedia
 HOST-SUFFIX,dssott.com,GMedia
 HOST-SUFFIX,dzcdn.net,GMedia
 HOST-SUFFIX,edgedatg.com,GMedia
@@ -290,6 +294,7 @@ HOST-SUFFIX,hbogoasia.com,GMedia
 HOST-SUFFIX,hbogoasia.hk,GMedia
 HOST-SUFFIX,hbomax.com,GMedia
 HOST-SUFFIX,hbonow.com,GMedia
+HOST-SUFFIX,himalaya.com,GMedia
 HOST-SUFFIX,hinet.net,GMedia
 HOST-SUFFIX,hjholdings.jp,GMedia
 HOST-SUFFIX,hulu.com,GMedia
@@ -334,6 +339,7 @@ HOST-SUFFIX,muscdn.com,GMedia
 HOST-SUFFIX,musical.ly,GMedia
 HOST-SUFFIX,my5.tv,GMedia
 HOST-SUFFIX,mytvsuper.com,GMedia
+HOST-SUFFIX,naver.com,GMedia
 HOST-SUFFIX,netflix.com,GMedia
 HOST-SUFFIX,netflix.net,GMedia
 HOST-SUFFIX,netflixdnstest0.com,GMedia
@@ -374,6 +380,7 @@ HOST-SUFFIX,scdn.co,GMedia
 HOST-SUFFIX,segment.com,GMedia
 HOST-SUFFIX,sentry.io,GMedia
 HOST-SUFFIX,skyking.com.tw,GMedia
+HOST-SUFFIX,smartmediarep.com,GMedia
 HOST-SUFFIX,sndcdn.com,GMedia
 HOST-SUFFIX,socdm.com,GMedia
 HOST-SUFFIX,soundcloud.com,GMedia
@@ -392,6 +399,7 @@ HOST-SUFFIX,tiktokv.com,GMedia
 HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,tv.apple.com,GMedia
 HOST-SUFFIX,tvb.com,GMedia
+HOST-SUFFIX,tver.jp,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
 HOST-SUFFIX,uplynk.com,GMedia
@@ -433,7 +441,6 @@ USER-AGENT,*youtube*,GMedia
 USER-AGENT,AbemaTV*,GMedia
 USER-AGENT,All4*,GMedia
 USER-AGENT,Anime*,GMedia
-USER-AGENT,AppleNews*,GMedia
 USER-AGENT,Argo*,GMedia
 USER-AGENT,BBC*,GMedia
 USER-AGENT,BBCBeacon*,GMedia
@@ -449,6 +456,7 @@ USER-AGENT,HBO%20NOW*,GMedia
 USER-AGENT,HBOAsia*,GMedia
 USER-AGENT,HBOMAX*,GMedia
 USER-AGENT,HWTVMobile*,GMedia
+USER-AGENT,Himalaya*,GMedia
 USER-AGENT,ITV_Player*,GMedia
 USER-AGENT,InstantVideo.US*,GMedia
 USER-AGENT,JOOX*,GMedia
@@ -456,7 +464,7 @@ USER-AGENT,KKTV*,GMedia
 USER-AGENT,LINE%20TV*,GMedia
 USER-AGENT,LINE*,GMedia
 USER-AGENT,My5*,GMedia
-USER-AGENT,News*,GMedia
+USER-AGENT,Naver%20TV*,GMedia
 USER-AGENT,Niconico*,GMedia
 USER-AGENT,OTT_iPhone*,GMedia
 USER-AGENT,PBS*,GMedia
@@ -467,6 +475,7 @@ USER-AGENT,Spotify*,GMedia
 USER-AGENT,TIDAL*,GMedia
 USER-AGENT,TIDAL*dia,GMedia
 USER-AGENT,TVB*,GMedia
+USER-AGENT,TVer-Release*,GMedia
 USER-AGENT,TaiwanGood*,GMedia
 USER-AGENT,TikTok*,GMedia
 USER-AGENT,Viu*,GMedia
@@ -474,7 +483,6 @@ USER-AGENT,ViuTV*,GMedia
 USER-AGENT,WeMusic*,GMedia
 USER-AGENT,YouTube*,GMedia
 USER-AGENT,YouTubeMusic*,GMedia
-USER-AGENT,com.apple.news*,GMedia
 USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 USER-AGENT,com.kktv*,GMedia
