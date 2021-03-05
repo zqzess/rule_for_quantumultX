@@ -203,9 +203,13 @@
 
 # [accesstrade.vn]
 127.0.0.1 accesstrade.vn
+127.0.0.1 ad.accesstrade.vn
 127.0.0.1 click.accesstrade.vn
 127.0.0.1 cv.accesstrade.vn
+127.0.0.1 partner.accesstrade.vn
+127.0.0.1 service-api.accesstrade.vn
 127.0.0.1 static.accesstrade.vn
+127.0.0.1 track.accesstrade.vn
 
 # [acmeaom.com]
 127.0.0.1 tags.acmeaom.com
@@ -903,6 +907,8 @@
 
 # [adolf.tv]
 127.0.0.1 adolf.tv
+127.0.0.1 get.adolf.tv
+127.0.0.1 tracy.adolf.tv
 
 # [adotmob.com]
 127.0.0.1 adserver.adotmob.com
@@ -5255,6 +5261,9 @@
 # [fastapi.net]
 127.0.0.1 fastapi.net
 
+# [fastly.net]
+127.0.0.1 mparticle.map.fastly.net
+
 # [fbcdn.net]
 127.0.0.1 sonar-iad.xx.fbcdn.net
 
@@ -6824,6 +6833,9 @@
 
 # [kgrid.co.kr]
 127.0.0.1 log.kgrid.co.kr
+
+# [kidoz.net]
+127.0.0.1 analytics.kidoz.net
 
 # [kiip.me]
 127.0.0.1 kiip.me
@@ -8517,11 +8529,13 @@
 127.0.0.1 config2.mparticle.com
 127.0.0.1 cookiesync.mparticle.com
 127.0.0.1 identity.mparticle.com
+127.0.0.1 jssdkcdn.mparticle.com
 127.0.0.1 jssdkcdns.mparticle.com
 127.0.0.1 jssdks.mparticle.com
 127.0.0.1 nativesdks.mparticle.com
 127.0.0.1 pixels.mparticle.com
 127.0.0.1 s2s.mparticle.com
+127.0.0.1 static.mparticle.com
 
 # [mplxtms.com]
 127.0.0.1 cj.mplxtms.com
@@ -10999,6 +11013,9 @@
 127.0.0.1 t.skimresources.com
 127.0.0.1 x.skimresources.com
 
+# [slack.com]
+127.0.0.1 mparticle.slack.com
+
 # [slashdotmedia.com]
 127.0.0.1 analytics.slashdotmedia.com
 
@@ -11512,12 +11529,14 @@
 
 # [superawesome.tv]
 127.0.0.1 ads.superawesome.tv
+127.0.0.1 ads.staging.superawesome.tv
 
 # [superfastmediation.com]
 127.0.0.1 exchange.superfastmediation.com
 
 # [supersonic.com]
 127.0.0.1 logs.supersonic.com
+127.0.0.1 mobilelogs.supersonic.com
 
 # [supersonicads.com]
 127.0.0.1 supersonicads.com
@@ -11938,6 +11957,12 @@
 127.0.0.1 clk.taptica.com
 127.0.0.1 impression.taptica.com
 
+# [target2sell.com]
+127.0.0.1 target2sell.com
+127.0.0.1 api.target2sell.com
+127.0.0.1 serv-api.target2sell.com
+127.0.0.1 static.target2sell.com
+
 # [targetspot.com]
 127.0.0.1 targetspot.com
 127.0.0.1 adserver.targetspot.com
@@ -11945,9 +11970,6 @@
 127.0.0.1 content.cdn.targetspot.com
 127.0.0.1 node.targetspot.com
 127.0.0.1 nodeny.targetspot.com
-
-# [target2sell.com]
-127.0.0.1 target2sell.com
 
 # [tbliab.net]
 127.0.0.1 metrics.tbliab.net
@@ -12353,6 +12375,13 @@
 
 # [tutoads.tv]
 127.0.0.1 tutoads.tv
+127.0.0.1 cdn.tutoads.tv
+127.0.0.1 get.tutoads.tv
+127.0.0.1 tracy.tutoads.tv
+
+# [tutotoons.com]
+127.0.0.1 adstrck.tutotoons.com
+127.0.0.1 tracker.tutotoons.com
 
 # [tutuapp.com]
 127.0.0.1 asdkd.tutuapp.com
@@ -12802,11 +12831,11 @@
 127.0.0.1 cortex.vidora.com
 127.0.0.1 lb-us.vidora.com
 
-# [vidver.io]
-127.0.0.1 ad.vidverto.io
-
 # [vidver.to]
 127.0.0.1 ad.vidver.to
+
+# [vidverto.io]
+127.0.0.1 ad.vidverto.io
 
 # [viewdeos.com]
 127.0.0.1 cdn.viewdeos.com
