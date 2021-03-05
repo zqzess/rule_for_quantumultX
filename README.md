@@ -97,6 +97,9 @@ final, Others
  - 酷我音乐SVIP (By yxiaocai)
  - 爱美剧Vip (by huihui）(官网：app.meiju2018.com)
  - 京东淘宝比价 (by yichahucha)
+ - 香蕉视频VIP (by NobyDa)
+ - 91短视频 (by NobyDa)
+ - PicsArt美易 pro (by NobyDa)
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
