@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2021-03-05 01:22:59
+# Outside rules refresh time: 2021-03-08 01:24:19
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -783,6 +783,8 @@ HOST,statics-marketingsites-eus-ms-com.akamaized.net,Outside
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Outside
 HOST,tesla-cdn.thron.com,Outside
 HOST,videos-rockstargames-com.akamaized.net,Outside
+HOST,vod-dash-ww-live.akamaized.net,Outside
+HOST,vod-thumb-ww-live.akamaized.net,Outside
 HOST,widgets.stripst.com,Outside
 HOST,www-cdn.icloud.com.akadns.net,Outside
 HOST-SUFFIX,00006808.com,Outside
@@ -4174,13 +4176,13 @@ HOST-SUFFIX,bbc.in,Outside
 HOST-SUFFIX,bbc.org.cn,Outside
 HOST-SUFFIX,bbcchinese.com,Outside
 HOST-SUFFIX,bbchat.tv,Outside
-HOST-SUFFIX,bbci.co,Outside
 HOST-SUFFIX,bbci.co.uk,Outside
 HOST-SUFFIX,bbcnews.co.uk,Outside
 HOST-SUFFIX,bbcnews.com,Outside
 HOST-SUFFIX,bbcpersian.com,Outside
 HOST-SUFFIX,bbcukchina.com,Outside
 HOST-SUFFIX,bbcurdu.com,Outside
+HOST-SUFFIX,bbcverticals.com,Outside
 HOST-SUFFIX,bbcworldnews.com,Outside
 HOST-SUFFIX,bbei7.com,Outside
 HOST-SUFFIX,bbestmall.com,Outside
@@ -5460,7 +5462,6 @@ HOST-SUFFIX,braveux.com,Outside
 HOST-SUFFIX,bravoteens.com,Outside
 HOST-SUFFIX,bravotube.com,Outside
 HOST-SUFFIX,bravotube.net,Outside
-HOST-SUFFIX,braze.com,Outside
 HOST-SUFFIX,brazilpartneruniversity.com,Outside
 HOST-SUFFIX,brazzers-girls.com,Outside
 HOST-SUFFIX,brazzers.com,Outside
@@ -6262,6 +6263,8 @@ HOST-SUFFIX,cdn.mobileread.com,Outside
 HOST-SUFFIX,cdn.statically.io,Outside
 HOST-SUFFIX,cdn.tranquilli.org,Outside
 HOST-SUFFIX,cdn.ub8go.com,Outside
+HOST-SUFFIX,cdn77.com,Outside
+HOST-SUFFIX,cdn77.org,Outside
 HOST-SUFFIX,cdnews.com.tw,Outside
 HOST-SUFFIX,cdninstagram.com,Outside
 HOST-SUFFIX,cdnjs.com,Outside
@@ -7047,7 +7050,6 @@ HOST-SUFFIX,contentful.com,Outside
 HOST-SUFFIX,contest.com,Outside
 HOST-SUFFIX,convegnonazionalegeotecnica.it,Outside
 HOST-SUFFIX,convio.net,Outside
-HOST-SUFFIX,conviva.com,Outside
 HOST-SUFFIX,convrgencegame.com,Outside
 HOST-SUFFIX,coobay.com,Outside
 HOST-SUFFIX,cookiechoices.org,Outside
@@ -7171,6 +7173,7 @@ HOST-SUFFIX,creeklandmiddle.org,Outside
 HOST-SUFFIX,cricketcountry.com,Outside
 HOST-SUFFIX,crikey.com.au,Outside
 HOST-SUFFIX,crisisresponse.google,Outside
+HOST-SUFFIX,crisp.chat,Outside
 HOST-SUFFIX,cristyli.com,Outside
 HOST-SUFFIX,crit-staging.com,Outside
 HOST-SUFFIX,crmdynint-gcc.com,Outside
@@ -7664,6 +7667,7 @@ HOST-SUFFIX,dellcdn.com,Outside
 HOST-SUFFIX,delmonte,Outside
 HOST-SUFFIX,deloitte,Outside
 HOST-SUFFIX,delta,Outside
+HOST-SUFFIX,delvenetworks.com,Outside
 HOST-SUFFIX,demandware.com,Outside
 HOST-SUFFIX,demo.nyris.io,Outside
 HOST-SUFFIX,democracy.com,Outside
@@ -12874,6 +12878,7 @@ HOST-SUFFIX,inclusivegrowthscore.com,Outside
 HOST-SUFFIX,incredibox.fr,Outside
 HOST-SUFFIX,ind.sh,Outside
 HOST-SUFFIX,indazn.com,Outside
+HOST-SUFFIX,indaznlab.com,Outside
 HOST-SUFFIX,independent.co.uk,Outside
 HOST-SUFFIX,independentoperatorcn.com,Outside
 HOST-SUFFIX,indexoncensorship.org,Outside
@@ -13068,7 +13073,10 @@ HOST-SUFFIX,intelsoftwarenetwork.com,Outside
 HOST-SUFFIX,intelstore.com,Outside
 HOST-SUFFIX,inteltechnologyprovider.com,Outside
 HOST-SUFFIX,intelvmwarecybersecurity.com,Outside
+HOST-SUFFIX,intercom.com,Outside
 HOST-SUFFIX,intercom.io,Outside
+HOST-SUFFIX,intercomassets.com,Outside
+HOST-SUFFIX,intercomcdn.com,Outside
 HOST-SUFFIX,internationalconnectionsacademy.com,Outside
 HOST-SUFFIX,internationalsaimoe.com,Outside
 HOST-SUFFIX,internet-studies.org,Outside
@@ -13464,16 +13472,9 @@ HOST-SUFFIX,japanesefuck.com,Outside
 HOST-SUFFIX,japaninporn.com,Outside
 HOST-SUFFIX,japanknowledge.com,Outside
 HOST-SUFFIX,japantimes.co.jp,Outside
-HOST-SUFFIX,japonx.com,Outside
 HOST-SUFFIX,japonx.net,Outside
-HOST-SUFFIX,japonx.tv,Outside
-HOST-SUFFIX,japonx.vip,Outside
 HOST-SUFFIX,japorn.tv,Outside
 HOST-SUFFIX,jappydolls.net,Outside
-HOST-SUFFIX,japronx.com,Outside
-HOST-SUFFIX,japronx.net,Outside
-HOST-SUFFIX,japronx.tv,Outside
-HOST-SUFFIX,japronx.vip,Outside
 HOST-SUFFIX,jasminearoma.co,Outside
 HOST-SUFFIX,jason.fi,Outside
 HOST-SUFFIX,jasoncoyne.com,Outside
@@ -13488,6 +13489,7 @@ HOST-SUFFIX,jav168.cc,Outside
 HOST-SUFFIX,jav18.cc,Outside
 HOST-SUFFIX,jav18.xyz,Outside
 HOST-SUFFIX,jav2be.com,Outside
+HOST-SUFFIX,jav321.com,Outside
 HOST-SUFFIX,jav68.me,Outside
 HOST-SUFFIX,jav68.tv,Outside
 HOST-SUFFIX,jav777.cc,Outside
@@ -14052,6 +14054,7 @@ HOST-SUFFIX,kissxtv.com,Outside
 HOST-SUFFIX,kiwi.kz,Outside
 HOST-SUFFIX,kjpnote.com,Outside
 HOST-SUFFIX,kk-whys.co.jp,Outside
+HOST-SUFFIX,kk.stream,Outside
 HOST-SUFFIX,kk168.com.cn,Outside
 HOST-SUFFIX,kk2267.com,Outside
 HOST-SUFFIX,kkbox.com,Outside
@@ -14066,7 +14069,6 @@ HOST-SUFFIX,kknews.cc,Outside
 HOST-SUFFIX,kkp.org.hk,Outside
 HOST-SUFFIX,kksod.com,Outside
 HOST-SUFFIX,kktix.com,Outside
-HOST-SUFFIX,kktv-theater.kk.stream,Outside
 HOST-SUFFIX,kktv.com.tw,Outside
 HOST-SUFFIX,kktv.me,Outside
 HOST-SUFFIX,kl8888.com,Outside
@@ -14530,6 +14532,7 @@ HOST-SUFFIX,lili100.com,Outside
 HOST-SUFFIX,lilly,Outside
 HOST-SUFFIX,limbopro.xyz,Outside
 HOST-SUFFIX,limejs.com,Outside
+HOST-SUFFIX,limelight.com,Outside
 HOST-SUFFIX,limiao.net,Outside
 HOST-SUFFIX,linco.cl,Outside
 HOST-SUFFIX,lincoln,Outside
@@ -14630,6 +14633,11 @@ HOST-SUFFIX,lksdc.com,Outside
 HOST-SUFFIX,ll699.net,Outside
 HOST-SUFFIX,llamador.cl,Outside
 HOST-SUFFIX,llbn.tv,Outside
+HOST-SUFFIX,lldns.net,Outside
+HOST-SUFFIX,llnw-trials.com,Outside
+HOST-SUFFIX,llnw.com,Outside
+HOST-SUFFIX,llnw.net,Outside
+HOST-SUFFIX,llnwi.net,Outside
 HOST-SUFFIX,llqpipe.com,Outside
 HOST-SUFFIX,llss.me,Outside
 HOST-SUFFIX,lm.1731788.com,Outside
@@ -19708,6 +19716,7 @@ HOST-SUFFIX,sbobet.com,Outside
 HOST-SUFFIX,sbofa88.com,Outside
 HOST-SUFFIX,sbs,Outside
 HOST-SUFFIX,sbs.com.au,Outside
+HOST-SUFFIX,sbuxcard.com,Outside
 HOST-SUFFIX,sc,Outside
 HOST-SUFFIX,sc-cdn.net,Outside
 HOST-SUFFIX,sc.sh22.us,Outside
@@ -20728,9 +20737,25 @@ HOST-SUFFIX,standwithhk.org,Outside
 HOST-SUFFIX,stanford.edu,Outside
 HOST-SUFFIX,staples,Outside
 HOST-SUFFIX,star-telegram.com,Outside
+HOST-SUFFIX,starbucks-stars.com,Outside
+HOST-SUFFIX,starbucks.be,Outside
+HOST-SUFFIX,starbucks.ch,Outside
+HOST-SUFFIX,starbucks.co.id,Outside
 HOST-SUFFIX,starbucks.com,Outside
+HOST-SUFFIX,starbucks.com.co,Outside
+HOST-SUFFIX,starbucks.it,Outside
+HOST-SUFFIX,starbucks.pt,Outside
+HOST-SUFFIX,starbucks.rs,Outside
 HOST-SUFFIX,starbucksathome.com,Outside
+HOST-SUFFIX,starbuckscardb2b.com,Outside
+HOST-SUFFIX,starbuckscoffeegear.com,Outside
+HOST-SUFFIX,starbuckscoffeegearstore.com,Outside
+HOST-SUFFIX,starbucksforlife.com,Outside
+HOST-SUFFIX,starbuckspoq.com,Outside
 HOST-SUFFIX,starbucksreserve.com,Outside
+HOST-SUFFIX,starbucksrewardsstarland.com,Outside
+HOST-SUFFIX,starbucksrtd.com,Outside
+HOST-SUFFIX,starbuckssummergame.com,Outside
 HOST-SUFFIX,starcelebs.com,Outside
 HOST-SUFFIX,starchu.com,Outside
 HOST-SUFFIX,starcraft.com,Outside
@@ -22865,6 +22890,7 @@ HOST-SUFFIX,veritasifa.co.uk,Outside
 HOST-SUFFIX,verizon.com,Outside
 HOST-SUFFIX,verizon.net,Outside
 HOST-SUFFIX,verizonbusinessfios.com,Outside
+HOST-SUFFIX,verizondigitalmedia.com,Outside
 HOST-SUFFIX,verizonenterprise.com,Outside
 HOST-SUFFIX,verizonfios.com,Outside
 HOST-SUFFIX,verizonmedia.com,Outside
@@ -25822,11 +25848,11 @@ HOST-SUFFIX,www.jaiku.com,Outside
 HOST-SUFFIX,www.jailbreakvpn.com,Outside
 HOST-SUFFIX,www.jainchetan.com,Outside
 HOST-SUFFIX,www.jameshooker.co.uk,Outside
+HOST-SUFFIX,www.japonx.tv,Outside
 HOST-SUFFIX,www.jasonfbrennan.com,Outside
 HOST-SUFFIX,www.jav007.com,Outside
 HOST-SUFFIX,www.jav008.com,Outside
 HOST-SUFFIX,www.jav28.com,Outside
-HOST-SUFFIX,www.jav321.com,Outside
 HOST-SUFFIX,www.jav777.xyz,Outside
 HOST-SUFFIX,www.java9countdown.xyz,Outside
 HOST-SUFFIX,www.javbaike.com,Outside
@@ -27529,6 +27555,7 @@ HOST-SUFFIX,x.team,Outside
 HOST-SUFFIX,x06966.com,Outside
 HOST-SUFFIX,x12express.com,Outside
 HOST-SUFFIX,x188betx.com,Outside
+HOST-SUFFIX,x18r.com,Outside
 HOST-SUFFIX,x1949x.com,Outside
 HOST-SUFFIX,x24hr.com,Outside
 HOST-SUFFIX,x258888.com,Outside
@@ -28400,6 +28427,7 @@ HOST-SUFFIX,zeit.sh,Outside
 HOST-SUFFIX,zeitworld.com,Outside
 HOST-SUFFIX,zello.com,Outside
 HOST-SUFFIX,zencdn.net,Outside
+HOST-SUFFIX,zencoder.com,Outside
 HOST-SUFFIX,zend2.com,Outside
 HOST-SUFFIX,zendesk.com,Outside
 HOST-SUFFIX,zendproxy.com,Outside

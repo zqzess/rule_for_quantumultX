@@ -197,14 +197,8 @@
 127.0.0.1 api.accengage.net
 127.0.0.1 daraz-by.accengage.net
 
-# [accesstrade.com.vn]
-127.0.0.1 accesstrade.com.vn
-127.0.0.1 fast.accesstrade.com.vn
-
 # [accesstrade.vn]
-127.0.0.1 accesstrade.vn
 127.0.0.1 ad.accesstrade.vn
-127.0.0.1 click.accesstrade.vn
 127.0.0.1 cv.accesstrade.vn
 127.0.0.1 partner.accesstrade.vn
 127.0.0.1 service-api.accesstrade.vn
@@ -12297,6 +12291,10 @@
 127.0.0.1 beacon.tru.am
 
 # [truecaller.com]
+127.0.0.1 ads5.truecaller.com
+127.0.0.1 ads5-noneu.truecaller.com
+127.0.0.1 ads-router-noneu.truecaller.com
+127.0.0.0 batchlogging4.truecaller.com
 127.0.0.1 pushid-noneu.truecaller.com
 
 # [trustarc.com]

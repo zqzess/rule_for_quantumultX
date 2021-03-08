@@ -189,10 +189,12 @@ HOST-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
 
+HOST,api.okzy.tv,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GMedia
+HOST,cbsi.live.ott.irdeto.com,GMedia
 HOST,content.jwplatform.com,GMedia
 HOST,edge.api.brightcove.com,GMedia
 HOST,fls-na.amazon.com,GMedia
@@ -218,6 +220,7 @@ HOST,news-events.apple.com,GMedia
 HOST,np-edge.itunes.apple.com,GMedia
 HOST,play-edge.itunes.apple.com,GMedia
 HOST,players.brightcove.net,GMedia
+HOST,rpg.pic-imges.com,GMedia
 HOST,videos-f.jwpsrv.com,GMedia
 HOST,youtubei.googleapis.com,GMedia
 HOST,yt3.ggpht.com,GMedia
@@ -248,6 +251,9 @@ HOST-SUFFIX,bootstrapcdn.com,GMedia
 HOST-SUFFIX,braze.com,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
 HOST-SUFFIX,c4assets.com,GMedia
+HOST-SUFFIX,cbsaavideo.com,GMedia
+HOST-SUFFIX,cbsi.com,GMedia
+HOST-SUFFIX,cbsivideo.com,GMedia
 HOST-SUFFIX,cdn.optimizely.com,GMedia
 HOST-SUFFIX,channel4.com,GMedia
 HOST-SUFFIX,channel5.com,GMedia
@@ -366,11 +372,13 @@ HOST-SUFFIX,nqs.nice264.com,GMedia
 HOST-SUFFIX,ocnttv.com,GMedia
 HOST-SUFFIX,p-cdn.us,GMedia
 HOST-SUFFIX,pandora.com,GMedia
+HOST-SUFFIX,paramountplus.com,GMedia
 HOST-SUFFIX,pbs.org,GMedia
 HOST-SUFFIX,phncdn.com,GMedia
 HOST-SUFFIX,phprcdn.com,GMedia
 HOST-SUFFIX,pornhub.com,GMedia
 HOST-SUFFIX,pornhubpremium.com,GMedia
+HOST-SUFFIX,pplusstatic.com,GMedia
 HOST-SUFFIX,primevideo.com,GMedia
 HOST-SUFFIX,prod.hjholdings.tv,GMedia
 HOST-SUFFIX,profile.line-scdn.net,GMedia
@@ -468,6 +476,7 @@ USER-AGENT,Naver%20TV*,GMedia
 USER-AGENT,Niconico*,GMedia
 USER-AGENT,OTT_iPhone*,GMedia
 USER-AGENT,PBS*,GMedia
+USER-AGENT,PPlus*,GMedia
 USER-AGENT,Pandora*,GMedia
 USER-AGENT,Prime%20Video*,GMedia
 USER-AGENT,SoundCloud*,GMedia
