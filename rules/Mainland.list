@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-03-08 01:24:20
+# Mainland rules refresh time: 2021-03-10 01:23:35
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -330,7 +330,6 @@ HOST,mtalk.google.com,Mainland
 HOST,officecdn-microsoft-com.akamaized.net,Mainland
 HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
-HOST,speedtest.macpaw.com,Mainland
 HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST-SUFFIX,115.com,Mainland
 HOST-SUFFIX,12306.com,Mainland
@@ -542,7 +541,6 @@ HOST-SUFFIX,mzstatic.com,Mainland
 HOST-SUFFIX,nanyangpt.com,Mainland
 HOST-SUFFIX,nature.com,Mainland
 HOST-SUFFIX,ncore.cc,Mainland
-HOST-SUFFIX,netspeedtestmaster.com,Mainland
 HOST-SUFFIX,nim-lang-cn.org,Mainland
 HOST-SUFFIX,novipnoad.com,Mainland
 HOST-SUFFIX,nssurge.com,Mainland
@@ -604,7 +602,6 @@ HOST-SUFFIX,sohu-inc.com,Mainland
 HOST-SUFFIX,sohucs.com,Mainland
 HOST-SUFFIX,sony.com,Mainland
 HOST-SUFFIX,sonyentertainmentnetwork.com,Mainland
-HOST-SUFFIX,speedtest.net,Mainland
 HOST-SUFFIX,spiedigitallibrary.org,Mainland
 HOST-SUFFIX,springer.com,Mainland
 HOST-SUFFIX,springerlink.com,Mainland
@@ -676,7 +673,6 @@ HOST-KEYWORD,alipay,Mainland
 HOST-KEYWORD,aliyun,Mainland
 HOST-KEYWORD,baidu,Mainland
 HOST-KEYWORD,officecdn,Mainland
-HOST-KEYWORD,speedtest,Mainland
 HOST-KEYWORD,taobao,Mainland
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,Mainland
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,Mainland
