@@ -22,7 +22,7 @@ def download():
     DATA_URL='https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list'
     DATA_URL2='https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Global/Global.list'
     DATA_URL3='https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list'
-    DATA_URL4='https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Telegram/Telegram.list'
+    DATA_URL4='https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list'
     if os.path.exists(in_fname):
         os.remove(in_fname)
         print("Outside.list临时文件存在，已执行删除")
@@ -45,7 +45,7 @@ def download():
     wget.download(DATA_URL, out=in_fname)
     wget.download(DATA_URL2, out=in_fname2)
     wget.download(DATA_URL3, out=in_fname3)
-    wget.download(DATA_URL4, out=in_fname3)
+    wget.download(DATA_URL4, out=in_fname4)
 
 def Outside():
     print("Outside")
@@ -151,9 +151,9 @@ def Telegram():
 
 def mainchange():
     download()
-    #Outside()
-    Global()
-    #Proxy()
+    Outside()
+    #Global()
+    Proxy()
 
 #去重
     a = 0
