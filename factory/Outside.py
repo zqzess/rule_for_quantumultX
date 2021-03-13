@@ -151,7 +151,7 @@ def Telegram():
 
 def mainchange():
     download()
-    Outside()
+    #Outside()
     Global()
     #Proxy()
 
