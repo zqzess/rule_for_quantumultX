@@ -153,7 +153,7 @@ def mainchange():
     download()
     Outside()
     Global()
-    Proxy()
+    #Proxy()
 
 #去重
     a = 0
