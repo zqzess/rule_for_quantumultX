@@ -157,7 +157,10 @@ def mainchange():
     lines_seen = set()
     outfile = open(out_fname, "w+")
     outfile.write('# CMedia rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n\n')
-    f = open(out_fname2, "r")
+    if sys.version_info.major == 3:
+        f = open(out_fname2, "r", encoding="utf-8")
+    else:
+        f = open(in_fname4, "r")
     for line in f:
         if line not in lines_seen:
             a += 1

@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2021-03-12 01:25:03
+# CMedia rules refresh time: 2021-03-13 21:06:02
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -211,11 +211,11 @@ HOST-SUFFIX,zmzapi.com,CMedia
 HOST-SUFFIX,zmzapi.net,CMedia
 HOST-SUFFIX,zmzfile.com,CMedia
 HOST-SUFFIX,zygbdszt.net.cn,CMedia
-HOST-SUFFIX,涓浗骞挎挱鐢佃鎬诲彴.cn,CMedia
-HOST-SUFFIX,涓浗骞挎挱鐢佃鎬诲彴.涓浗,CMedia
-HOST-SUFFIX,涓ぎ骞挎挱鐢佃鎬诲彴.cn,CMedia
-HOST-SUFFIX,鍥藉骞挎挱鐢佃鎬诲彴.cn,CMedia
-HOST-SUFFIX,鍥藉骞挎挱鐢佃鎬诲彴.涓浗,CMedia
+HOST-SUFFIX,中国广播电视总台.cn,CMedia
+HOST-SUFFIX,中国广播电视总台.中国,CMedia
+HOST-SUFFIX,中央广播电视总台.cn,CMedia
+HOST-SUFFIX,国家广播电视总台.cn,CMedia
+HOST-SUFFIX,国家广播电视总台.中国,CMedia
 HOST-KEYWORD,bilibili,CMedia
 HOST-KEYWORD,qiyi,CMedia
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,CMedia

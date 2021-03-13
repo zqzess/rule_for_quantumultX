@@ -18,7 +18,6 @@ import time
 import sys
 import requests
 import re
-
 import ad_quanX
 
 import YTAdBlockFunc
