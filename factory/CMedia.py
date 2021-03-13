@@ -139,6 +139,11 @@ def ChinaMedia():
                 continue
             keywords = lineTmp
             result = re.search('ChinaMedia', keywords)
+            result2 = re.search(r'[\u4E00-\u9FFF\u3400-\u4DBF\uF900-\uFAFF]', keywords)
+            print(result2)
+            if result2 !=None:
+                print("错误:" + lineTmp)
+                continue
             if result != None:
                 keywords = keywords.replace("ChinaMedia", "CMedia")
                 f2.write(keywords)
@@ -157,7 +162,7 @@ def mainchange():
     lines_seen = set()
     outfile = open(out_fname, "w+")
     outfile.write('# CMedia rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n\n')
-    f = open(in_fname4, "r", encoding="utf-8")
+    f = open(out_fname2,"r",encoding="utf-8")
     for line in f:
         if line not in lines_seen:
             a += 1
