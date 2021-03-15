@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2021-03-13 22:03:34
+# Outside rules refresh time: 2021-03-15 01:24:52
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -3140,7 +3140,6 @@ HOST-SUFFIX,ampj778.com,Outside
 HOST-SUFFIX,ampj90.com,Outside
 HOST-SUFFIX,amplifyapp.com,Outside
 HOST-SUFFIX,amplifyframework.com,Outside
-HOST-SUFFIX,amplitude.com,Outside
 HOST-SUFFIX,amrita.edu,Outside
 HOST-SUFFIX,ams02.space,Outside
 HOST-SUFFIX,ams1.racingvpn.com,Outside
@@ -3319,6 +3318,7 @@ HOST-SUFFIX,apk2.ml,Outside
 HOST-SUFFIX,apk2.tk,Outside
 HOST-SUFFIX,apk4fun.com,Outside
 HOST-SUFFIX,apkcombo.com,Outside
+HOST-SUFFIX,apkdler.com,Outside
 HOST-SUFFIX,apkgk.com,Outside
 HOST-SUFFIX,apkhere.com,Outside
 HOST-SUFFIX,apkmirror.com,Outside
@@ -7981,6 +7981,7 @@ HOST-SUFFIX,dmhy.org,Outside
 HOST-SUFFIX,dmitrowski.pl,Outside
 HOST-SUFFIX,dmm-extension.com,Outside
 HOST-SUFFIX,dmm.com,Outside
+HOST-SUFFIX,dmmapis.com,Outside
 HOST-SUFFIX,dmmbus.com,Outside
 HOST-SUFFIX,dnaindia.com,Outside
 HOST-SUFFIX,dnainfo.com,Outside
@@ -19134,7 +19135,6 @@ HOST-SUFFIX,reactjs.org,Outside
 HOST-SUFFIX,read.5article.com,Outside
 HOST-SUFFIX,read01.com,Outside
 HOST-SUFFIX,read100.com,Outside
-HOST-SUFFIX,readdle.com,Outside
 HOST-SUFFIX,readmyblog.org,Outside
 HOST-SUFFIX,readthedocs-hosted.com,Outside
 HOST-SUFFIX,readthedocs.com,Outside
@@ -21214,10 +21214,8 @@ HOST-SUFFIX,taobonfu.com,Outside
 HOST-SUFFIX,taohuazu.cc,Outside
 HOST-SUFFIX,taoism.net,Outside
 HOST-SUFFIX,taolun.info,Outside
-HOST-SUFFIX,tap.io,Outside
 HOST-SUFFIX,tapanwap.com,Outside
 HOST-SUFFIX,tapatalk.com,Outside
-HOST-SUFFIX,taptap.tw,Outside
 HOST-SUFFIX,taptotokyo.com,Outside
 HOST-SUFFIX,taragana.com,Outside
 HOST-SUFFIX,target,Outside
@@ -28678,12 +28676,6 @@ USER-AGENT,ResilioSync*,Outside
 USER-AGENT,Roam*,Outside
 USER-AGENT,com.apple.trustd*,Outside
 IP-CIDR,108.168.0.0/16,Outside
-IP-CIDR,120.232.181.162/32,Outside
-IP-CIDR,120.241.147.226/32,Outside
-IP-CIDR,120.253.253.226/32,Outside
-IP-CIDR,120.253.255.162/32,Outside
-IP-CIDR,120.253.255.34/32,Outside
-IP-CIDR,120.253.255.98/32,Outside
 IP-CIDR,13.251.24.0/24,Outside
 IP-CIDR,13.251.41.0/24,Outside
 IP-CIDR,13.32.0.0/15,Outside
@@ -28695,19 +28687,8 @@ IP-CIDR,17.252.156.0/23,Outside
 IP-CIDR,173.192.222.160/27,Outside
 IP-CIDR,173.192.231.32/27,Outside
 IP-CIDR,173.252.64.0/18,Outside
-IP-CIDR,180.163.150.162/32,Outside
-IP-CIDR,180.163.150.34/32,Outside
-IP-CIDR,180.163.151.162/32,Outside
-IP-CIDR,180.163.151.34/32,Outside
 IP-CIDR,184.173.128.0/17,Outside
 IP-CIDR,203.104.128.0/19,Outside
-IP-CIDR,203.208.39.0/24,Outside
-IP-CIDR,203.208.40.0/23,Outside
-IP-CIDR,203.208.43.0/24,Outside
-IP-CIDR,203.208.50.0/24,Outside
-IP-CIDR,220.181.174.162/32,Outside
-IP-CIDR,220.181.174.226/32,Outside
-IP-CIDR,220.181.174.34/32,Outside
 IP-CIDR,34.224.0.0/12,Outside
 IP-CIDR,50.22.198.204/30,Outside
 IP-CIDR,54.242.0.0/15,Outside
