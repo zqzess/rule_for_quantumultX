@@ -1744,6 +1744,7 @@
 127.0.0.1 appnext-a.akamaihd.net
 127.0.0.1 ds-aksb-a.akamaihd.net
 127.0.0.1 inmobisdk-a.akamaihd.net
+127.0.0.1 middycdn-a.akamaihd.net
 127.0.0.1 supersonicads-a.akamaihd.net
 
 # [akamaized.net]
@@ -2158,6 +2159,9 @@
 127.0.0.1 cloud.appcelerator.com
 127.0.0.1 api.cloud.appcelerator.com
 
+# [appcenter.ms]
+127.0.0.1 in.appcenter.ms
+
 # [appchair.com]
 127.0.0.1 ads.appchair.com
 
@@ -2566,6 +2570,10 @@
 127.0.0.1 adctrl.aubemobile.com
 127.0.0.1 update.aubemobile.com
 
+# [audent.io]
+127.0.0.1 configs-community-app.audent.io
+127.0.0.1 sentry.audent.io
+
 # [auditude.com]
 127.0.0.1 auditude.com
 
@@ -2896,6 +2904,9 @@
 
 # [blismedia.com]
 127.0.0.1 tr.blismedia.com
+
+# [bloomberg.com]
+127.0.0.1 personalization.bloomberg.com
 
 # [bluebillywig.com]
 127.0.0.1 cdn.bluebillywig.com
@@ -3343,6 +3354,9 @@
 # [cision.com]
 127.0.0.1 app.cision.com
 127.0.0.1 prapi.cision.com
+
+# [clarity.ms]
+127.0.0.1 www.clarity.ms
 
 # [clean.gg]
 127.0.0.1 i.clean.gg
@@ -5018,6 +5032,8 @@
 
 # [fbcdn.net]
 127.0.0.1 sonar-iad.xx.fbcdn.net
+127.0.0.1 video-dfw5-1.xx.fbcdn.net
+127.0.0.1 video-dfw5-2.xx.fbcdn.net
 
 # [fc2.com]
 127.0.0.1 affiliate.fc2.com
@@ -5560,6 +5576,13 @@
 
 # [guoshipartners.com]
 127.0.0.1 ad-specs.guoshipartners.com
+
+# [gvt2.com]
+127.0.0.1 beacons.gvt2.com
+127.0.0.1 beacons.gcp.gvt2.com
+
+# [gvt3.com]
+127.0.0.1 beacons5.gvt3.com
 
 # [gwallet.com]
 127.0.0.1 gwallet.com
@@ -6893,6 +6916,7 @@
 
 # [liveperson.net]
 127.0.0.1 server.iad.liveperson.net
+127.0.0.1 lptag.liveperson.net
 
 # [livesegmentservice.com]
 127.0.0.1 sds.livesegmentservice.com
@@ -7521,8 +7545,12 @@
 127.0.0.1 ssp.send.microadinc.com
 
 # [microsoft.com]
+127.0.0.1 mobile.pipe.aria.microsoft.com
 127.0.0.1 bingads.microsoft.com
 127.0.0.1 advertise.bingads.microsoft.com
+127.0.0.1 mobile.events.data.microsoft.com
+127.0.0.1 self.events.data.microsoft.com
+127.0.0.1 vortex.data.microsoft.com
 
 # [midasplayer.com]
 127.0.0.1 midasplayer.com
@@ -8303,6 +8331,9 @@
 # [nextclick.pl]
 127.0.0.1 nextclick.pl
 
+# [ngtv.io]
+127.0.0.1 geo.ngtv.io
+
 # [nicovideo.jp]
 127.0.0.1 ads.nicovideo.jp
 
@@ -8443,6 +8474,7 @@
 127.0.0.1 mboxedge17.tt.omtrdc.net
 127.0.0.1 mboxedge28.tt.omtrdc.net
 127.0.0.1 southwestairlines.tt.omtrdc.net
+127.0.0.1 verizontelecom.tt.omtrdc.net
 
 # [onaudience.com]
 127.0.0.1 pixel.onaudience.com
@@ -9004,6 +9036,7 @@
 127.0.0.1 vastcdn.outbrain.com
 127.0.0.1 videoclientsservicescalls.outbrain.com
 127.0.0.1 videoevents.outbrain.com
+127.0.0.1 vrt.outbrain.com
 127.0.0.1 widget-pixels.outbrain.com
 127.0.0.1 widgetmonitor.outbrain.com
 127.0.0.1 widgets.outbrain.com
@@ -9022,6 +9055,9 @@
 127.0.0.1 log.outbrainimg.com
 127.0.0.1 tcheck.outbrainimg.com
 127.0.0.1 zem.outbrainimg.com
+
+# [outlookmobile.com]
+127.0.0.1 prod-collecticon.outlookmobile.com
 
 # [owneriq.net]
 127.0.0.1 bidder.owneriq.net
@@ -10180,6 +10216,9 @@
 
 # [sentiance.com]
 127.0.0.1 api.sentiance.com
+
+# [sentry.io]
+127.0.0.1 o430870.ingest.sentry.io
 
 # [servebom.com]
 127.0.0.1 servebom.com
@@ -12514,6 +12553,7 @@
 127.0.0.1 analytics.query.yahoo.com
 127.0.0.1 geo.query.yahoo.com
 127.0.0.1 onepush.query.yahoo.com
+127.0.0.1 edge-mcdn-beacon.secure.yahoo.com
 127.0.0.1 bats.video.yahoo.com
 127.0.0.1 visit.webhosting.yahoo.com
 127.0.0.1 ads.yap.yahoo.com
