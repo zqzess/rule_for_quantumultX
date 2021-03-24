@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2021-03-22 01:28:18
+# Outside rules refresh time: 2021-03-24 01:28:51
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -784,7 +784,11 @@ HOST,statics-marketingsites-eus-ms-com.akamaized.net,Outside
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Outside
 HOST,tesla-cdn.thron.com,Outside
 HOST,videos-rockstargames-com.akamaized.net,Outside
+HOST,vod-dash-uk-live.akamaized.net,Outside
 HOST,vod-dash-ww-live.akamaized.net,Outside
+HOST,vod-hls-uk-live.akamaized.net,Outside
+HOST,vod-sub-uk-live.akamaized.net,Outside
+HOST,vod-thumb-uk-live.akamaized.net,Outside
 HOST,vod-thumb-ww-live.akamaized.net,Outside
 HOST,widgets.stripst.com,Outside
 HOST,www-cdn.icloud.com.akadns.net,Outside
@@ -22046,6 +22050,8 @@ HOST-SUFFIX,tickling-videos.com,Outside
 HOST-SUFFIX,tickmill.com,Outside
 HOST-SUFFIX,ticsur.cl,Outside
 HOST-SUFFIX,tictoc.video,Outside
+HOST-SUFFIX,tidal.com,Outside
+HOST-SUFFIX,tidalhifi.com,Outside
 HOST-SUFFIX,tidebit.com,Outside
 HOST-SUFFIX,tidelift.com,Outside
 HOST-SUFFIX,tidex.com,Outside
@@ -24200,6 +24206,7 @@ HOST-SUFFIX,williamlong.jaiku.com,Outside
 HOST-SUFFIX,willie.idv.tw,Outside
 HOST-SUFFIX,willw.net,Outside
 HOST-SUFFIX,wilmar,Outside
+HOST-SUFFIX,wimpmusic.com,Outside
 HOST-SUFFIX,win.hicam.net,Outside
 HOST-SUFFIX,win123.ml,Outside
 HOST-SUFFIX,win558.com,Outside

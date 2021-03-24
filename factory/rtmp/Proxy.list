@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-22 02:02:35.492950
-# HOST-SUFFIX: 28927
+# UPDATED: 2021-03-24 01:46:42.611831
+# HOST-SUFFIX: 28930
 # USER-AGENT: 12
-# HOST: 39
+# HOST: 43
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 29098
+# TOTAL: 29105
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -43,7 +43,11 @@ HOST,statics-marketingsites-eus-ms-com.akamaized.net,Proxy
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Proxy
 HOST,tesla-cdn.thron.com,Proxy
 HOST,videos-rockstargames-com.akamaized.net,Proxy
+HOST,vod-dash-uk-live.akamaized.net,Proxy
 HOST,vod-dash-ww-live.akamaized.net,Proxy
+HOST,vod-hls-uk-live.akamaized.net,Proxy
+HOST,vod-sub-uk-live.akamaized.net,Proxy
+HOST,vod-thumb-uk-live.akamaized.net,Proxy
 HOST,vod-thumb-ww-live.akamaized.net,Proxy
 HOST,voice.telephony.goog,Proxy
 HOST,widgets.stripst.com,Proxy
@@ -21785,6 +21789,8 @@ HOST-SUFFIX,tickling-videos.com,Proxy
 HOST-SUFFIX,tickmill.com,Proxy
 HOST-SUFFIX,ticsur.cl,Proxy
 HOST-SUFFIX,tictoc.video,Proxy
+HOST-SUFFIX,tidal.com,Proxy
+HOST-SUFFIX,tidalhifi.com,Proxy
 HOST-SUFFIX,tidebit.com,Proxy
 HOST-SUFFIX,tidelift.com,Proxy
 HOST-SUFFIX,tidex.com,Proxy
@@ -24063,6 +24069,7 @@ HOST-SUFFIX,williamlong.jaiku.com,Proxy
 HOST-SUFFIX,willie.idv.tw,Proxy
 HOST-SUFFIX,willw.net,Proxy
 HOST-SUFFIX,wilmar,Proxy
+HOST-SUFFIX,wimpmusic.com,Proxy
 HOST-SUFFIX,win.hicam.net,Proxy
 HOST-SUFFIX,win123.ml,Proxy
 HOST-SUFFIX,win558.com,Proxy

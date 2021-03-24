@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-22 02:02:35.092095
-# HOST-SUFFIX: 627
+# UPDATED: 2021-03-24 01:46:42.218552
+# HOST-SUFFIX: 626
 # USER-AGENT: 32
 # HOST: 14
 # IP-CIDR: 56
 # HOST-KEYWORD: 10
 # IP6-CIDR: 4
-# TOTAL: 743
+# TOTAL: 742
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
@@ -172,7 +172,6 @@ HOST-SUFFIX,cnbeta.com,China
 HOST-SUFFIX,cnbetacdn.com,China
 HOST-SUFFIX,cnlang.org,China
 HOST-SUFFIX,com-hs-hkdy.com,China
-HOST-SUFFIX,comicat.org,China
 HOST-SUFFIX,conoha.jp,China
 HOST-SUFFIX,coolapk.com,China
 HOST-SUFFIX,cootekservice.com,China
