@@ -8,7 +8,7 @@
  > - [x] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
- > - [x] 番茄小说去章末广告(不影响金币获取)
+ > - [x] 番茄小说去章末广告(不影响金币获取)(如遇书城无法刷新或无法登录或广告残留请重装)
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
