@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-26 03:02:56.580878
-# HOST-SUFFIX: 28918
+# UPDATED: 2021-03-29 02:28:31.880163
+# HOST-SUFFIX: 28920
 # USER-AGENT: 49
 # HOST: 43
 # HOST-KEYWORD: 42
 # IP-CIDR: 127
 # IP6-CIDR: 3
-# TOTAL: 29182
+# TOTAL: 29184
 HOST,amp.akamaized.net,Global
 HOST,apple.com.akadns.net,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
@@ -17577,6 +17577,8 @@ HOST-SUFFIX,pao-pao.net,Global
 HOST-SUFFIX,pao77.com,Global
 HOST-SUFFIX,paofu.cloud,Global
 HOST-SUFFIX,paofuyun.me,Global
+HOST-SUFFIX,paoluz.com,Proxy
+HOST-SUFFIX,paoluz.link,Proxy
 HOST-SUFFIX,paowang.net,Global
 HOST-SUFFIX,papakev.de,Global
 HOST-SUFFIX,papalah.com,Global
