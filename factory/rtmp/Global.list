@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-31 02:27:45.170864
+# UPDATED: 2021-04-02 00:12:21
 # HOST: 43
-# HOST-SUFFIX: 28920
+# HOST-SUFFIX: 28922
 # USER-AGENT: 49
 # HOST-KEYWORD: 42
 # IP-CIDR: 127
 # IP6-CIDR: 3
-# TOTAL: 29184
+# TOTAL: 29186
 HOST,amp.akamaized.net,Global
 HOST,apple.com.akadns.net,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
@@ -11360,6 +11360,7 @@ HOST-SUFFIX,hbogo.com,Global
 HOST-SUFFIX,hbogoasia.com,Global
 HOST-SUFFIX,hbogoasia.hk,Global
 HOST-SUFFIX,hbomax.com,Global
+HOST-SUFFIX,hbomaxcdn.com,Global
 HOST-SUFFIX,hbonow.com,Global
 HOST-SUFFIX,hbxnets.com,Global
 HOST-SUFFIX,hcaptcha.com,Global
@@ -16352,6 +16353,7 @@ HOST-SUFFIX,netflix.com,Global
 HOST-SUFFIX,netflix.net,Global
 HOST-SUFFIX,netflixdnstest0.com,Global
 HOST-SUFFIX,netflixdnstest1.com,Global
+HOST-SUFFIX,netflixdnstest10.com,Global
 HOST-SUFFIX,netflixdnstest2.com,Global
 HOST-SUFFIX,netflixdnstest3.com,Global
 HOST-SUFFIX,netflixdnstest4.com,Global

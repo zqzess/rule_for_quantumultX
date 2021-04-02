@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2021-03-31 00:47:28
+# Outside rules refresh time: 2021-04-02 00:47:58
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -11890,6 +11890,7 @@ HOST-SUFFIX,hboasia.com,Outside
 HOST-SUFFIX,hbogo.com,Outside
 HOST-SUFFIX,hbogoasia.com,Outside
 HOST-SUFFIX,hbomax.com,Outside
+HOST-SUFFIX,hbomaxcdn.com,Outside
 HOST-SUFFIX,hbonow.com,Outside
 HOST-SUFFIX,hbxnets.com,Outside
 HOST-SUFFIX,hcaptcha.com,Outside
@@ -16779,6 +16780,16 @@ HOST-SUFFIX,netflav.com,Outside
 HOST-SUFFIX,netflix,Outside
 HOST-SUFFIX,netflix.com,Outside
 HOST-SUFFIX,netflix.net,Outside
+HOST-SUFFIX,netflixdnstest1.com,Outside
+HOST-SUFFIX,netflixdnstest10.com,Outside
+HOST-SUFFIX,netflixdnstest2.com,Outside
+HOST-SUFFIX,netflixdnstest3.com,Outside
+HOST-SUFFIX,netflixdnstest4.com,Outside
+HOST-SUFFIX,netflixdnstest5.com,Outside
+HOST-SUFFIX,netflixdnstest6.com,Outside
+HOST-SUFFIX,netflixdnstest7.com,Outside
+HOST-SUFFIX,netflixdnstest8.com,Outside
+HOST-SUFFIX,netflixdnstest9.com,Outside
 HOST-SUFFIX,netflixinvestor.com,Outside
 HOST-SUFFIX,netflixtechblog.com,Outside
 HOST-SUFFIX,netlify.com,Outside

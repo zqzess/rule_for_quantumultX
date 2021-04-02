@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-03-31 02:27:45.144998
+# UPDATED: 2021-04-02 00:12:21
 # HOST: 43
-# HOST-SUFFIX: 28932
+# HOST-SUFFIX: 28943
 # USER-AGENT: 12
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 29107
+# TOTAL: 29118
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -11365,6 +11365,7 @@ HOST-SUFFIX,hboasia.com,Proxy
 HOST-SUFFIX,hbogo.com,Proxy
 HOST-SUFFIX,hbogoasia.com,Proxy
 HOST-SUFFIX,hbomax.com,Proxy
+HOST-SUFFIX,hbomaxcdn.com,Proxy
 HOST-SUFFIX,hbonow.com,Proxy
 HOST-SUFFIX,hbxnets.com,Proxy
 HOST-SUFFIX,hcaptcha.com,Proxy
@@ -16353,6 +16354,16 @@ HOST-SUFFIX,netflav.com,Proxy
 HOST-SUFFIX,netflix,Proxy
 HOST-SUFFIX,netflix.com,Proxy
 HOST-SUFFIX,netflix.net,Proxy
+HOST-SUFFIX,netflixdnstest1.com,Proxy
+HOST-SUFFIX,netflixdnstest10.com,Proxy
+HOST-SUFFIX,netflixdnstest2.com,Proxy
+HOST-SUFFIX,netflixdnstest3.com,Proxy
+HOST-SUFFIX,netflixdnstest4.com,Proxy
+HOST-SUFFIX,netflixdnstest5.com,Proxy
+HOST-SUFFIX,netflixdnstest6.com,Proxy
+HOST-SUFFIX,netflixdnstest7.com,Proxy
+HOST-SUFFIX,netflixdnstest8.com,Proxy
+HOST-SUFFIX,netflixdnstest9.com,Proxy
 HOST-SUFFIX,netflixinvestor.com,Proxy
 HOST-SUFFIX,netflixtechblog.com,Proxy
 HOST-SUFFIX,netlify.com,Proxy
