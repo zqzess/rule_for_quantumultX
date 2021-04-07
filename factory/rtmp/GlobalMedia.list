@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-02 20:45:12
-# HOST: 37
+# UPDATED: 2021-04-05 16:43:51
+# HOST: 36
 # USER-AGENT: 59
-# HOST-SUFFIX: 196
-# HOST-KEYWORD: 21
+# HOST-SUFFIX: 197
+# HOST-KEYWORD: 20
 # IP-CIDR: 847
-# TOTAL: 1160
+# TOTAL: 1159
 HOST,api.okzy.tv,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
@@ -22,7 +22,6 @@ HOST,fls-na.amazon.com,GlobalMedia
 HOST,foxsports01-i.akamaihd.net,GlobalMedia
 HOST,foxsports02-i.akamaihd.net,GlobalMedia
 HOST,foxsports03-i.akamaihd.net,GlobalMedia
-HOST,gateway.icloud.com,GlobalMedia
 HOST,gspe1-ssl.ls.apple.com,GlobalMedia
 HOST,hboasia1-i.akamaihd.net,GlobalMedia
 HOST,hboasia2-i.akamaihd.net,GlobalMedia
@@ -64,6 +63,7 @@ HOST-SUFFIX,bamgrid.com,GlobalMedia
 HOST-SUFFIX,bbc.co,GlobalMedia
 HOST-SUFFIX,bbc.co.uk,GlobalMedia
 HOST-SUFFIX,bbc.com,GlobalMedia
+HOST-SUFFIX,bbc.net.uk,GlobalMedia
 HOST-SUFFIX,bbci.co,GlobalMedia
 HOST-SUFFIX,bbci.co.uk,GlobalMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GlobalMedia
@@ -247,7 +247,6 @@ HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
 HOST-KEYWORD,avoddashs,GlobalMedia
 HOST-KEYWORD,bbcfmt,GlobalMedia
 HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
-HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GlobalMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
 HOST-KEYWORD,foxplus,GlobalMedia
 HOST-KEYWORD,japonx,GlobalMedia

@@ -203,7 +203,6 @@ HOST,fls-na.amazon.com,GMedia
 HOST,foxsports01-i.akamaihd.net,GMedia
 HOST,foxsports02-i.akamaihd.net,GMedia
 HOST,foxsports03-i.akamaihd.net,GMedia
-HOST,gateway.icloud.com,GMedia
 HOST,gspe1-ssl.ls.apple.com,GMedia
 HOST,hboasia1-i.akamaihd.net,GMedia
 HOST,hboasia2-i.akamaihd.net,GMedia
@@ -245,6 +244,7 @@ HOST-SUFFIX,bamgrid.com,GMedia
 HOST-SUFFIX,bbc.co,GMedia
 HOST-SUFFIX,bbc.co.uk,GMedia
 HOST-SUFFIX,bbc.com,GMedia
+HOST-SUFFIX,bbc.net.uk,GMedia
 HOST-SUFFIX,bbci.co,GMedia
 HOST-SUFFIX,bbci.co.uk,GMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GMedia
@@ -428,7 +428,6 @@ HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,avoddashs,GMedia
 HOST-KEYWORD,bbcfmt,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
-HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,japonx,GMedia

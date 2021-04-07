@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-04-05 01:47:17
+# GMedia rules refresh time: 2021-04-07 01:46:38
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -175,7 +175,6 @@ HOST,fls-na.amazon.com,GMedia
 HOST,foxsports01-i.akamaihd.net,GMedia
 HOST,foxsports02-i.akamaihd.net,GMedia
 HOST,foxsports03-i.akamaihd.net,GMedia
-HOST,gateway.icloud.com,GMedia
 HOST,gspe1-ssl.ls.apple.com,GMedia
 HOST,hboasia1-i.akamaihd.net,GMedia
 HOST,hboasia2-i.akamaihd.net,GMedia
@@ -198,6 +197,7 @@ HOST-SUFFIX,aiv-delivery.net,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bam.nr-data.net,GMedia
+HOST-SUFFIX,bbc.net.uk,GMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GMedia
 HOST-SUFFIX,boltdns.net,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
@@ -297,7 +297,6 @@ HOST-KEYWORD,-tiktokcdn-com,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,avoddashs,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
-HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
