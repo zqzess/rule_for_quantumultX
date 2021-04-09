@@ -102,6 +102,7 @@ final, Others
  - 香蕉视频VIP (by NobyDa)
  - 91短视频 (by NobyDa)
  - PicsArt美易 pro (by NobyDa)
+ - 哔哩哔哩番剧开启1080P+ （by NobyDa）
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
