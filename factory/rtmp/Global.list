@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-04 02:24:28
+# UPDATED: 2021-04-09 02:25:40
 # HOST: 43
-# HOST-SUFFIX: 29318
+# HOST-SUFFIX: 29320
 # USER-AGENT: 49
 # HOST-KEYWORD: 42
-# IP-CIDR: 127
+# IP-CIDR: 128
 # IP6-CIDR: 3
-# TOTAL: 29582
+# TOTAL: 29585
 HOST,amp.akamaized.net,Global
 HOST,apple.com.akadns.net,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
@@ -11997,6 +11997,7 @@ HOST-SUFFIX,hot1024.win,Global
 HOST-SUFFIX,hot2.gq,Global
 HOST-SUFFIX,hotasianz.com,Global
 HOST-SUFFIX,hotav.tv,Global
+HOST-SUFFIX,hotbak.net,Proxy
 HOST-SUFFIX,hotbeatsonsale.com,Global
 HOST-SUFFIX,hotdh.xyz,Global
 HOST-SUFFIX,hotels.cn,Global
@@ -17069,6 +17070,7 @@ HOST-SUFFIX,npm.community,Global
 HOST-SUFFIX,npmjs.com,Global
 HOST-SUFFIX,npmjs.org,Global
 HOST-SUFFIX,npnt.me,Global
+HOST-SUFFIX,npr.org,Global
 HOST-SUFFIX,nps.gov,Global
 HOST-SUFFIX,npsboost.com,Global
 HOST-SUFFIX,nqma.net,Global
@@ -29588,6 +29590,7 @@ IP-CIDR,74.86.0.0/16,Global
 IP-CIDR,75.126.0.0/16,Global
 IP-CIDR,91.108.0.0/16,Global
 IP-CIDR,91.198.174.0/24,Global
+IP-CIDR,95.161.64.0/20,Global
 IP6-CIDR,2001:67c:4e8::/48,Global
 IP6-CIDR,2001:b28:f23d::/48,Global
 IP6-CIDR,2001:b28:f23f::/48,Global

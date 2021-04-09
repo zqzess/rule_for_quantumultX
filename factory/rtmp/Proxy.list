@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-02 20:45:12
+# UPDATED: 2021-04-09 02:25:40
 # HOST: 43
-# HOST-SUFFIX: 29343
+# HOST-SUFFIX: 29345
 # USER-AGENT: 12
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 29518
+# TOTAL: 29520
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -12004,6 +12004,7 @@ HOST-SUFFIX,hot1024.win,Proxy
 HOST-SUFFIX,hot2.gq,Proxy
 HOST-SUFFIX,hotasianz.com,Proxy
 HOST-SUFFIX,hotav.tv,Proxy
+HOST-SUFFIX,hotbak.net,Proxy
 HOST-SUFFIX,hotbeatsonsale.com,Proxy
 HOST-SUFFIX,hotdh.xyz,Proxy
 HOST-SUFFIX,hotels.cn,Proxy
@@ -17072,6 +17073,7 @@ HOST-SUFFIX,npm.community,Proxy
 HOST-SUFFIX,npmjs.com,Proxy
 HOST-SUFFIX,npmjs.org,Proxy
 HOST-SUFFIX,npnt.me,Proxy
+HOST-SUFFIX,npr.org,Proxy
 HOST-SUFFIX,nps.gov,Proxy
 HOST-SUFFIX,npsboost.com,Proxy
 HOST-SUFFIX,nqma.net,Proxy
