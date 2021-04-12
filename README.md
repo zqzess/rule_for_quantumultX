@@ -8,8 +8,11 @@
  > - [x] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
- > - [x] 番茄小说去章末广告(不影响金币获取)(如遇书城无法刷新或无法登录请重装或重启手机、quanX,广告残留请清除缓存或重装)
+ > - [x] 番茄小说去章末广告(不影响金币获取)(由于ssl证书原因，偶有广告存在)
  > - [x] 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
+ ```ruby
+发现Mitm会造成ssl错误(code:9829)导致番茄书城无法加载，如遇此请先关闭Mitm加载书城再开启Mitm!
+```
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
 [gitee](https://gitee.com/zqzess/rule_for_quantumult-x)
@@ -126,3 +129,4 @@ PS:
 - [@Tartarus2014](https://github.com/Tartarus2014/QuantumultX-Script)
 - [@GeQ1an](https://github.com/GeQ1an/Rules/tree/master)
 - [@Koolson](https://github.com/Koolson/Qure)
+- [@Tartarus2014](https://github.com/Tartarus2014/For-own-use/tree/master/Loon/Plugin)

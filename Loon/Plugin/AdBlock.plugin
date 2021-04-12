@@ -1,0 +1,103 @@
+[Rule]
+#有兔阅读
+DOMAIN,app.zhoudamozi.com,DIRECT
+DOMAIN-SUFFIX,youzibank.com,DIRECT
+DOMAIN-SUFFIX,mituyuedu.com,DIRECT
+DOMAIN,img.allahall.com,DIRECT
+DOMAIN,img.dailmo.com,DIRECT
+DOMAIN,activation.crossutility.com,DIRECT
+#番茄小说
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+DOMAIN-SUFFIX,ixigua.com,REJECT
+#DOMAIN,i.snssdk.com,DIRECT
+#DOMAIN,imp-toutiao-data.37.com.cn,REJECT
+DOMAIN,ad.data.lianjia.com,REJECT
+#书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,xwuad.com,REJECT
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,render.shuqireader.com,REJECT
+DOMAIN-SUFFIX,ali-stats.jpush.cn,REJECT
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,sdk.kaijia.com,REJECT
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
+DOMAIN-SUFFIX,iyes.youku.com,REJECT
+DOMAIN-SUFFIX,sq.sljkj.com,REJECT
+DOMAIN-SUFFIX,s2s.adjust.com,REJECT
+#百度移动广告联盟，可能误杀
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+#腾讯广告联盟，可能误杀
+DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,jcollection.shuqireader.com,REJECT
+DOMAIN-SUFFIX,stats.jpush.cn,REJECT
+DOMAIN-SUFFIX,sdk.kaijiawan.com,REJECT
+#抖音
+HOST-SUFFIX,amemv.com,DIRECT
+#qq群公告小程序
+HOST,cdn.ark.qq.com,DIRECT
+
+[URL Rewrite]
+#番茄小说去章末广告
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ _ reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/toutiao\.mp4 _ reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/img\/ad-app-package\/.+\.image _ reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/img\/web\.business\.image\/.+\.jpg _ reject
+^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-app-package\/.+ _ reject
+^https?:\/\/.+\.pstatp\.com\/obj\/ad-pattern\/renderer\/package\.json _ reject
+^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ _ reject
+^https?:\/\/.+\.pstatp\.com\/obj\/img-cut-tos\/.+ _ reject
+^https?:\/\/.+\.pstatp\.com\/obj\/web\.business\.image\/.+ _ reject
+^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 _ reject
+^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ _ reject
+
+#有兔阅读(米兔)去羞耻的开屏广告图片
+^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg _ reject
+^http:\/\/img\.dailmo\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg _ reject
+^http:\/\/img\.dailmo\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg _ reject
+^http:\/\/img\.dailmo\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg _ reject
+^http:\/\/img\.allahall\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg _ reject
+^http:\/\/img\.allahall\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg _ reject
+^http:\/\/img\.allahall\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg _ reject
+^http:\/\/img\.allahall\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg _ reject
+^http:\/\/img\.allahall\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.jpg _ reject
+^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\._ url reject
+^http:\/\/app\.zhoudamozi\.com\/ad\/.+ _ reject-200
+
+#新版YouTube去广告
+ctier=[A-Z] ctier=A 302
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ reject-200
+
+#书旗小说去广告
+^http:\/\/ut2\.shuqistat\.com\/.+\.gif _ reject
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ _ reject
+^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 _ reject
+^https?:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/.+ _ reject
+^https?:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/ad.+ _ reject
+^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/web\.business\.image\/.+ _ reject
+^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/arthur\/.+ _ reject
+^http:\/\/.+\.pglstatp-toutiao\.com _ reject
+^https?:\/\/img-tailor\.11222\.cn\/pm\/app\/.+\.gif _ reject
+^https?:\/\/img-tailor\.11222\.cn\/cms\/upload\/img\/.+ _ reject
+^http:\/\/message\.shuqireader\.com\/message\/.+ _ reject
+^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+ _ reject
+^http:\/\/101\.91\.69\.26:8080\/.+ _ reject
+^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ _ reject
+^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status _ reject
+^http:\/\/.+\.shuqireader\.com\/sapi\/.+ _ reject
+
+
+#百度地图开屏广告
+#hostname=*.bdstatic.com
+^https?:\/\/.+\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/tam-ogel\/.+\.jpg _ reject
+
+#每日优鲜开屏广告
+#hostname=j-image.missfresh.cn
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ _ reject
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.jpg\?iopcmd=convert&dst=webp&q=85$ _ reject
+
+[Script]
+
+[MITM]
+hostname = api.bilibili.com, app.bilibili.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com ,youtubei.googleapis.com ,*.youtube.com,premiumyva.appspot.com,img-tailor.11222.cn,j-image.missfresh.cn,*.bdstatic.com,*.pstatp.com,api-access.pangolin-sdk-toutiao.com,*.pglstatp-toutiao.com
