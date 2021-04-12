@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-04-09 01:43:16
+# GMedia rules refresh time: 2021-04-12 01:48:40
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -172,9 +172,6 @@ HOST,cbsplaylistserver.aws.syncbak.com,GMedia
 HOST,cbsservice.aws.syncbak.com,GMedia
 HOST,edge.api.brightcove.com,GMedia
 HOST,fls-na.amazon.com,GMedia
-HOST,foxsports01-i.akamaihd.net,GMedia
-HOST,foxsports02-i.akamaihd.net,GMedia
-HOST,foxsports03-i.akamaihd.net,GMedia
 HOST,gspe1-ssl.ls.apple.com,GMedia
 HOST,hboasia1-i.akamaihd.net,GMedia
 HOST,hboasia2-i.akamaihd.net,GMedia
@@ -276,6 +273,7 @@ HOST-SUFFIX,sentry.io,GMedia
 HOST-SUFFIX,skyking.com.tw,GMedia
 HOST-SUFFIX,smartmediarep.com,GMedia
 HOST-SUFFIX,socdm.com,GMedia
+HOST-SUFFIX,spotifycdn.com,GMedia
 HOST-SUFFIX,streaks.jp,GMedia
 HOST-SUFFIX,tidal.com,GMedia
 HOST-SUFFIX,tidal.comdia,GMedia

@@ -200,9 +200,6 @@ HOST,cbsservice.aws.syncbak.com,GMedia
 HOST,content.jwplatform.com,GMedia
 HOST,edge.api.brightcove.com,GMedia
 HOST,fls-na.amazon.com,GMedia
-HOST,foxsports01-i.akamaihd.net,GMedia
-HOST,foxsports02-i.akamaihd.net,GMedia
-HOST,foxsports03-i.akamaihd.net,GMedia
 HOST,gspe1-ssl.ls.apple.com,GMedia
 HOST,hboasia1-i.akamaihd.net,GMedia
 HOST,hboasia2-i.akamaihd.net,GMedia
@@ -397,6 +394,7 @@ HOST-SUFFIX,socdm.com,GMedia
 HOST-SUFFIX,soundcloud.com,GMedia
 HOST-SUFFIX,spoti.fi,GMedia
 HOST-SUFFIX,spotify.com,GMedia
+HOST-SUFFIX,spotifycdn.com,GMedia
 HOST-SUFFIX,spotifycdn.net,GMedia
 HOST-SUFFIX,streaks.jp,GMedia
 HOST-SUFFIX,theplatform.com,GMedia
