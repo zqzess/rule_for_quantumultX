@@ -10,7 +10,7 @@ DOMAIN,activation.crossutility.com,DIRECT
 DOMAIN-SUFFIX,byteimg.com,DIRECT
 DOMAIN-SUFFIX,ixigua.com,REJECT
 #DOMAIN,i.snssdk.com,DIRECT
-#DOMAIN,imp-toutiao-data.37.com.cn,REJECT
+DOMAIN,imp-toutiao-data.37.com.cn,REJECT
 DOMAIN,ad.data.lianjia.com,REJECT
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
@@ -86,6 +86,9 @@ ctier=[A-Z] ctier=A 302
 ^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ _ reject
 ^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status _ reject
 ^http:\/\/.+\.shuqireader\.com\/sapi\/.+ _ reject
+^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
+^https?:\/\/.+?\.pstatp\.com\/img\/ad _ reject
+^https?:\/\/.+?\/(mixer|track2)\? _ reject
 
 
 #百度地图开屏广告
@@ -100,4 +103,4 @@ ctier=[A-Z] ctier=A 302
 [Script]
 
 [MITM]
-hostname = api.bilibili.com, app.bilibili.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com ,youtubei.googleapis.com ,*.youtube.com,premiumyva.appspot.com,img-tailor.11222.cn,j-image.missfresh.cn,*.bdstatic.com,*.pstatp.com,api-access.pangolin-sdk-toutiao.com,*.pglstatp-toutiao.com
+hostname = api.bilibili.com, app.bilibili.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com ,youtubei.googleapis.com ,*.youtube.com,premiumyva.appspot.com,img-tailor.11222.cn,j-image.missfresh.cn,*.bdstatic.com,*.pstatp.com,api-access.pangolin-sdk-toutiao.com,*.pglstatp-toutiao.com,-i-lq.snssdk.com,-reading-lq.snssdk.com,*.snssdk.com,snssdk.com
