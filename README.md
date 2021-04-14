@@ -8,10 +8,11 @@
  > - [x] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
- > - [x] 番茄小说去章末广告(不影响金币获取)(由于ssl证书原因，偶有广告存在,建议不要更新app)
+ > - [x] 番茄小说去章内末广告(且用且珍惜)
  > - [x] 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
+ > - [x] 部分规则通用，经测试，今日头条小说与米读小说章内广告也能屏蔽
  ```ruby
-发现Mitm会造成ssl错误(code:9829)导致番茄书城无法加载，如遇此请先关闭Mitm加载书城再开启Mitm!
+发现Mitm会造成ssl错误(code:9829)导致番茄小说报证书，如遇此请先关闭Mitm加载再开启Mitm!
 ```
 ## 项目地址
 [github](https://github.com/zqzess/rule_for_quantumultX)
@@ -27,6 +28,7 @@
 - ->[分流规则添加](#分流规则添加)
 - ->[重写规则](#重写规则)
 - ->[完整配置文件](#完整配置文件)
+- ->[Loon配置文件](#Loon配置文件)
 - ->[参考](#参考)
 ### 分流规则添加
 ```
@@ -93,8 +95,9 @@ final, Others
 - Google搜索中国，香港，日本重定向
 - YouTuBe跳广告
 - 书旗小说去广告(规则与重写较多,可能误杀)
-- 番茄小说去章末广告(不影响金币获取)
+- 番茄小说去章末广告(且用且珍惜)
 - 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
+- 部分规则通用，经测试，今日头条小说与米读小说章内广告也能屏蔽
 
 **搬运**:
  - 抖音去广告 (By Choler)
@@ -122,6 +125,14 @@ Quan X主界面，点击右下角风车，然后弹出界面下拉至 配置文�
 PS:
  要开启重写功能需先配置证书并信任再开启MitM证书
 ```
+### Loon配置文件
+- [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/zqzess_Loon.conf)
+- [脚本订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/js/js.conf)
+- [复写订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Rewrite/zqzess_Rewrite.conf)
+- [广告屏蔽插件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/AdBlock.plugin)
+- [哔哩哔哩增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bilibili.plugin)
+- [酷我增强插件整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/kuwo.plugin)
+- [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/zhihu.plugin)
 ### 参考
 - [@h2y](https://github.com/h2y)
 - [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
@@ -130,3 +141,4 @@ PS:
 - [@GeQ1an](https://github.com/GeQ1an/Rules/tree/master)
 - [@Koolson](https://github.com/Koolson/Qure)
 - [@Tartarus2014](https://github.com/Tartarus2014/For-own-use/tree/master/Loon/Plugin)
+- [@NobyDa](https://github.com/NobyDa/Script)
