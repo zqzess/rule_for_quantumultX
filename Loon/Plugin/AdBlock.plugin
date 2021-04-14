@@ -6,12 +6,7 @@ DOMAIN-SUFFIX,mituyuedu.com,DIRECT
 DOMAIN,img.allahall.com,DIRECT
 DOMAIN,img.dailmo.com,DIRECT
 DOMAIN,activation.crossutility.com,DIRECT
-#番茄小说
-DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN-SUFFIX,ixigua.com,REJECT
-#DOMAIN,i.snssdk.com,DIRECT
-DOMAIN,imp-toutiao-data.37.com.cn,REJECT
-DOMAIN,ad.data.lianjia.com,REJECT
+
 #书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
@@ -39,18 +34,6 @@ HOST-SUFFIX,amemv.com,DIRECT
 HOST,cdn.ark.qq.com,DIRECT
 
 [URL Rewrite]
-#番茄小说去章末广告
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/toutiao\.mp4 _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/img\/ad-app-package\/.+\.image _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/img\/web\.business\.image\/.+\.jpg _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-app-package\/.+ _ reject
-^https?:\/\/.+\.pstatp\.com\/obj\/ad-pattern\/renderer\/package\.json _ reject
-^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ _ reject
-^https?:\/\/.+\.pstatp\.com\/obj\/img-cut-tos\/.+ _ reject
-^https?:\/\/.+\.pstatp\.com\/obj\/web\.business\.image\/.+ _ reject
-^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 _ reject
-^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ _ reject
 
 #有兔阅读(米兔)去羞耻的开屏广告图片
 ^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg _ reject
@@ -86,9 +69,6 @@ ctier=[A-Z] ctier=A 302
 ^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ _ reject
 ^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status _ reject
 ^http:\/\/.+\.shuqireader\.com\/sapi\/.+ _ reject
-^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
-^https?:\/\/.+?\.pstatp\.com\/img\/ad _ reject
-^https?:\/\/.+?\/(mixer|track2)\? _ reject
 
 
 #百度地图开屏广告
@@ -103,4 +83,4 @@ ctier=[A-Z] ctier=A 302
 [Script]
 
 [MITM]
-hostname = api.bilibili.com, app.bilibili.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com ,youtubei.googleapis.com ,*.youtube.com,premiumyva.appspot.com,img-tailor.11222.cn,j-image.missfresh.cn,*.bdstatic.com,*.pstatp.com,api-access.pangolin-sdk-toutiao.com,*.pglstatp-toutiao.com,-i-lq.snssdk.com,-reading-lq.snssdk.com,*.snssdk.com,snssdk.com
+hostname = api.bilibili.com, app.bilibili.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn,*.bdstatic.com
