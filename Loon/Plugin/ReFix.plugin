@@ -1,0 +1,31 @@
+[Rule]
+#小绿人
+DOMAIN-SUFFIX,greenmangaming.com,DIRECT
+#衫果
+DOMAIN,www.sonkwo.hk,DIRECT
+DOMAIN,static.sonkwo.hk,DIRECT
+DOMAIN-SUFFIX,sonkwo.hk,DIRECT
+DOMAIN-SUFFIX,sonkwo.com,DIRECT
+#笔趣阁
+DOMAIN-SUFFIX,biqugeu.com,DIRECT
+DOMAIN-SUFFIX,biquge.com,DIRECT
+#subhd字幕
+DOMAIN-SUFFIX,subhd.tv,DIRECT
+DOMAIN,img.subhd.la,DIRECT
+#
+DOMAIN,zqzess.qicp.vip,DIRECT
+#易有云
+DOMAIN-SUFFIX,ddns.to,DIRECT
+DOMAIN-SUFFIX,ddnsto.com,DIRECT
+#雀魂麻将
+DOMAIN,www.maj-soul.com, DIRECT
+DOMAIN-KEYWORD,maj-soul, DIRECT
+#抖音
+DOMAIN-SUFFIX,amemv.com,DIRECT
+#
+DOMAIN-SUFFIX,laiyifa.org,DIRECT
+#aaex加速器
+DOMAIN-SUFFIX,aaex.hk,PROXY
+#村花
+DOMAIN-SUFFIX,cunhua.mom,PROXY
+DOMAIN-KEYWORD,cunhua,PROXY
