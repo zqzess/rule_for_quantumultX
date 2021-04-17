@@ -1,0 +1,22 @@
+[Rule]
+DOMAIN,d3g.qq.com,REJECT
+DOMAIN,bsrv.qq.com,REJECT
+DOMAIN,sq.bls.mdt.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,xj-landing.gdtimg.com,REJECT
+
+[URL Rewrite]
+
+^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid _ reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg _ reject
+^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid _ reject
+^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid _ reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png _ reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg _ reject
+^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ _ reject
+
+[Script]
+
+
+[MITM]

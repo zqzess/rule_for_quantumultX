@@ -98,3 +98,11 @@ HOST-SUFFIX,amemv.com,Mainland
 
 #qq群公告小程序
 HOST,cdn.ark.qq.com,Mainland
+
+#qq空间广告屏蔽
+HOST,d3g.qq.com,AdBlock
+HOST,bsrv.qq.com,AdBlock
+HOST,sq.bls.mdt.qq.com,AdBlock
+HOST,btrace.qq.com,AdBlock
+HOST,adsmind.gdtimg.com,AdBlock
+HOST,xj-landing.gdtimg.com,AdBlock
