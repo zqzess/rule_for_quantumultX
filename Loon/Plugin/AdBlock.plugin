@@ -80,6 +80,9 @@ ctier=[A-Z] ctier=A 302
 ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ _ reject
 ^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.jpg\?iopcmd=convert&dst=webp&q=85$ _ reject
 
+#网易云广告
+^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg _ reject
+
 [Script]
 #微信公众号广告屏蔽(By Choler)
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js, requires-body=true, timeout=10, tag=微信公众号广告屏蔽
