@@ -1,0 +1,68 @@
+[Rule]
+DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
+DOMAIN-SUFFIX,ubmcmm.baidustatic.com,REJECT
+DOMAIN-SUFFIX,adscdn.baidu.com,REJECT
+DOMAIN-SUFFIX,f11.baidu.com,REJECT
+DOMAIN-SUFFIX,iwanad.baidu.com,REJECT
+DOMAIN-SUFFIX,pos.baidu.com,REJECT
+DOMAIN-SUFFIX,sp0.baidu.com,REJECT
+DOMAIN-SUFFIX,spcode.baidu.com,REJECT
+DOMAIN-SUFFIX,cbjs.baidu.com,REJECT
+DOMAIN-SUFFIX,cbjslog.baidu.com,REJECT
+DOMAIN-SUFFIX,crs.baidu.com,REJECT
+DOMAIN-SUFFIX,hm.baidu.com,REJECT
+#DOMAIN-SUFFIX,entry.baidu.com,REJECT
+DOMAIN-SUFFIX,znsv.baidu.com,REJECT
+DOMAIN-SUFFIX,pups.bdimg.com,REJECT
+DOMAIN-SUFFIX,eduad.baidu.com,REJECT
+#DOMAIN-SUFFIX,as2.wenku.baidu.com,REJECT
+
+DOMAIN-SUFFIX,sync.mobojoy.baidu.com,REJECT
+DOMAIN-SUFFIX,api.mobojoy.baidu.com,REJECT
+DOMAIN-SUFFIX,js.mobojoy.baidu.com,REJECT
+DOMAIN-SUFFIX,usp1.baidu.com,REJECT
+DOMAIN-SUFFIX,plugin.mobopay.baidu.com,REJECT
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+DOMAIN-SUFFIX,afd.baidu.com,REJECT
+DOMAIN-SUFFIX,wkctj.baidu.com,REJECT
+DOMAIN-SUFFIX,caclick.baidu.com,REJECT
+DOMAIN-SUFFIX,wkclick.baidu.com,REJECT
+DOMAIN-SUFFIX,conf.international.baidu.com,REJECT
+DOMAIN-SUFFIX,bzclk.baidu.com,REJECT
+DOMAIN-SUFFIX,eclick.baidu.com,REJECT
+DOMAIN-SUFFIX,gsp1.baidu.com,REJECT
+DOMAIN-SUFFIX,cpro.baidu.com,REJECT
+DOMAIN-SUFFIX,88-baidu.com,REJECT
+DOMAIN-SUFFIX,baiduyubaidu.com,REJECT
+DOMAIN-SUFFIX,cb.baidu.com,REJECT
+DOMAIN-SUFFIX,cbjs.baidu.com,REJECT
+DOMAIN-SUFFIX,drmcmm.baidu.com,REJECT
+DOMAIN-SUFFIX,duiwai.baidu.com,REJECT
+DOMAIN-SUFFIX,eduad.baidu.com,REJECT
+DOMAIN-SUFFIX,eiv.baidu.com,REJECT
+DOMAIN-SUFFIX,spcode.baidu.com,REJECT
+DOMAIN-SUFFIX,baifen.music.baidu.com,REJECT
+DOMAIN-SUFFIX,iwanad.baidu.com,REJECT
+DOMAIN-SUFFIX,as1.wenku.baidu.com,REJECT
+DOMAIN-SUFFIX,cm.baidu.com,REJECT
+DOMAIN-SUFFIX,mountain.zhidao.baidu.com,REJECT
+DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
+DOMAIN-SUFFIX,ubmcvideo.baidustatic.com,REJECT
+DOMAIN-SUFFIX,besc.baidustatic.com,REJECT
+DOMAIN-SUFFIX,ada.baidu.com,REJECT
+
+[URL Rewrite]
+^https?:\/\/.+\.bdstatic\.com\/static\/common\/widget\/ui\/admanager\/.+\.js _ reject
+^https?:\/\/cpro\.baidustatic\.com\/cpro\/ui\/cm\.js _ reject
+^https?:\/\/.+cpro.+ _ reject
+^https?:\/\/als\.baidu\.com\/dalog\/log _ reject
+^https?:\/\/eiv\.baidu\.com/(?!fcimg).+ _ reject
+^https?:\/\/baike\.baidu\.com\/api\/wikiad\/.+ _ reject
+^https?:\/\/app\.video\.baidu\.com\/adver _ reject
+^https?:\/\/v\.baidu\.com\/staticapi\/videoAd\.json
+^https?:\/\/wkstatic\.bdimg\.com\/static\/wkview\/widget\/top_ads_banner\/.+\.js _ reject
+
+[Script]
+
+[MITM]
+hostname =image.baidu.com,*.baidustatic.com,*.baidu.com,*.bdimg.com
