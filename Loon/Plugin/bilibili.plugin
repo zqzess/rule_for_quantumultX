@@ -26,4 +26,4 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? requires-body
 http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,tag=BiliBili_开屏去广告
 
 [MITM]
-hostname = api.m.jd.com,api.bilibili.com, app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,manga.bilibili.com
+hostname = api.bilibili.com,app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,manga.bilibili.com
