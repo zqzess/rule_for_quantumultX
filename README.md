@@ -10,6 +10,7 @@
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
  > - [x] 番茄小说去章内末广告(且用且珍惜)
  > - [x] 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
+ > - [x] 百度云盘广告屏蔽(会员与非会员开屏广告不同，测试的是会员，可能需要重装app)
 
 ***ps:***
 -->[详细广告屏蔽列表](https://github.com/zqzess/rule_for_quantumultX/blob/master/AdBlockList.md)
@@ -101,6 +102,7 @@ final, Others
 - 番茄小说去章末广告(且用且珍惜)
 - 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
 - 部分规则通用，经测试，今日头条小说与米读小说章内广告也能屏蔽
+- 百度云盘广告屏蔽(会员与非会员广告开屏不同，测试的是会员，可能需要重装app)
 
 **搬运**:
  - 抖音去广告 (By Choler)
@@ -136,6 +138,7 @@ PS:
 - [哔哩哔哩增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bilibili.plugin)
 - [酷我增强插件整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/kuwo.plugin)
 - [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/zhihu.plugin)
+- [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin)
 ### 参考
 - [@h2y](https://github.com/h2y)
 - [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)

@@ -73,7 +73,8 @@ ctier=[A-Z] ctier=A 302
 
 #百度地图开屏广告
 #hostname=*.bdstatic.com
-^https?:\/\/.+\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/tam-ogel\/.+\.jpg _ reject
+#^https?:\/\/.+\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/tam-ogel\/.+\.jpg _ reject
+#^https?:\/\/.+\.bdstatic\.com\/.+\/tam-ogel\/.+\.jpg _ reject
 
 #每日优鲜开屏广告
 #hostname=j-image.missfresh.cn
@@ -87,4 +88,4 @@ ctier=[A-Z] ctier=A 302
 #微信公众号广告屏蔽(By Choler)
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js, requires-body=true, timeout=10, tag=微信公众号广告屏蔽
 [MITM]
-hostname = mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn,*.bdstatic.com
+hostname = mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
