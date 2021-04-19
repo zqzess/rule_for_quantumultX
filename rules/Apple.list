@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2021-04-12 01:48:42
+# Apple rules refresh time: 2021-04-19 01:44:40
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -101,9 +101,11 @@ HOST-KEYWORD,icoudo,Apple
 HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple
 USER-AGENT,AppleNews*,Apple
+USER-AGENT,AppleTV*,Apple
 USER-AGENT,Music*,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
+USER-AGENT,com.apple.tv*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple
 IP-CIDR,144.178.36.0/22,Apple

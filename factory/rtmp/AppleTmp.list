@@ -119,6 +119,7 @@ USER-AGENT,*WeatherFoundation*,Apple
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,AppStore*,Apple
 USER-AGENT,AppleNews*,Apple
+USER-AGENT,AppleTV*,Apple
 USER-AGENT,FMDClient*,Apple
 USER-AGENT,FMFD*,Apple
 USER-AGENT,FindMy*,Apple
@@ -130,6 +131,7 @@ USER-AGENT,com.apple.appstored*,Apple
 USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
+USER-AGENT,com.apple.tv*,Apple
 USER-AGENT,fmflocatord*,Apple
 USER-AGENT,geod*,Apple
 USER-AGENT,locationd*,Apple
