@@ -27,3 +27,4 @@
  > - [x] 微信公众号文章内嵌广告屏蔽 -by Choler
  > - [x] 哔哩哔哩广告屏蔽 -by blackmatrix7
  > - [x] 知乎广告屏蔽 -by blackmatrix7
+ > - [x] 京东开屏广告 -改写子surge

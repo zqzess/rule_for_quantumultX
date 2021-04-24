@@ -84,8 +84,12 @@ ctier=[A-Z] ctier=A 302
 #网易云广告
 ^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg _ reject
 
+#京东开屏广告屏蔽(改写自surge)
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ _ reject-array
+
 [Script]
 #微信公众号广告屏蔽(By Choler)
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js, requires-body=true, timeout=10, tag=微信公众号广告屏蔽
+
 [MITM]
-hostname = mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
+hostname = api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
