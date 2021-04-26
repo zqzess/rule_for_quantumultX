@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-04-19 01:44:38
+# GMedia rules refresh time: 2021-04-26 01:50:29
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -207,6 +207,10 @@ HOST-SUFFIX,channel4.com,GMedia
 HOST-SUFFIX,channel5.com,GMedia
 HOST-SUFFIX,d9.flashtalking.com,GMedia
 HOST-SUFFIX,deezer.com,GMedia
+HOST-SUFFIX,disco-api.com,GMedia
+HOST-SUFFIX,discoveryplus.co.uk,GMedia
+HOST-SUFFIX,discoveryplus.com,GMedia
+HOST-SUFFIX,discoveryplus.in,GMedia
 HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
 HOST-SUFFIX,disneyplus.bn5x.net,GMedia
 HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,GMedia
@@ -215,6 +219,7 @@ HOST-SUFFIX,dmc.nico,GMedia
 HOST-SUFFIX,dmm-extension.com,GMedia
 HOST-SUFFIX,dmm.co.jp,GMedia
 HOST-SUFFIX,dmm.com,GMedia
+HOST-SUFFIX,dnitv.com,GMedia
 HOST-SUFFIX,dzcdn.net,GMedia
 HOST-SUFFIX,emarsys.net,GMedia
 HOST-SUFFIX,emome.net,GMedia
@@ -313,6 +318,7 @@ USER-AGENT,All4*,GMedia
 USER-AGENT,BBC*,GMedia
 USER-AGENT,BBCBeacon*,GMedia
 USER-AGENT,DAZN*,GMedia
+USER-AGENT,DPlus*,GMedia
 USER-AGENT,Deezer*,GMedia
 USER-AGENT,Disney+*,GMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
@@ -340,6 +346,7 @@ USER-AGENT,YouTubeMusic*,GMedia
 USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 USER-AGENT,com.kktv.ios.kktv*,GMedia
+USER-AGENT,discovery+*,GMedia
 IP-CIDR,1.37.35.6/32,GMedia
 IP-CIDR,101.100.179.242/32,GMedia
 IP-CIDR,101.100.179.250/32,GMedia

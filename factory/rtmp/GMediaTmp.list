@@ -263,6 +263,10 @@ HOST-SUFFIX,dazn-api.com,GMedia
 HOST-SUFFIX,dazn.com,GMedia
 HOST-SUFFIX,dazndn.com,GMedia
 HOST-SUFFIX,deezer.com,GMedia
+HOST-SUFFIX,disco-api.com,GMedia
+HOST-SUFFIX,discoveryplus.co.uk,GMedia
+HOST-SUFFIX,discoveryplus.com,GMedia
+HOST-SUFFIX,discoveryplus.in,GMedia
 HOST-SUFFIX,disney-plus.net,GMedia
 HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
 HOST-SUFFIX,disney.demdex.net,GMedia
@@ -274,6 +278,7 @@ HOST-SUFFIX,dmc.nico,GMedia
 HOST-SUFFIX,dmm-extension.com,GMedia
 HOST-SUFFIX,dmm.co.jp,GMedia
 HOST-SUFFIX,dmm.com,GMedia
+HOST-SUFFIX,dnitv.com,GMedia
 HOST-SUFFIX,dssott.com,GMedia
 HOST-SUFFIX,dzcdn.net,GMedia
 HOST-SUFFIX,edgedatg.com,GMedia
@@ -455,6 +460,7 @@ USER-AGENT,BBC*,GMedia
 USER-AGENT,BBCBeacon*,GMedia
 USER-AGENT,BBCiPlayer*,GMedia
 USER-AGENT,DAZN*,GMedia
+USER-AGENT,DPlus*,GMedia
 USER-AGENT,Deezer*,GMedia
 USER-AGENT,Disney*,GMedia
 USER-AGENT,Disney+*,GMedia
@@ -497,6 +503,7 @@ USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 USER-AGENT,com.kktv*,GMedia
 USER-AGENT,com.kktv.ios.kktv*,GMedia
+USER-AGENT,discovery+*,GMedia
 USER-AGENT,encoreTVB*,GMedia
 USER-AGENT,mytv*,GMedia
 IP-CIDR,1.37.35.6/32,GMedia
