@@ -8,7 +8,7 @@ https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
 https:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx _ reject
 https:\/\/pan\.baidu\.com\/api\/useractivity\/activity _ reject
 http:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list _ reject
-https:\/\/pan\.baidu\.com\/api\/certuser\/get _ reject
+#https:\/\/pan\.baidu\.com\/api\/certuser\/get _ reject
 https:\/\/pan\.baidu\.com\/component\/view\/1510\?from _ reject
 https:\/\/sofire\.baidu\.com\/ios\/.+ _ reject
 https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js _ reject
