@@ -106,3 +106,25 @@ HOST,sq.bls.mdt.qq.com,AdBlock
 HOST,btrace.qq.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,xj-landing.gdtimg.com,AdBlock
+
+#修复上游错误
+host, update.pan.baidu.com, Mainland
+#腾讯视频广告
+host-suffix, tetrack.qq.com, AdBlock
+host-suffix, tpns.tencent.com, AdBlock
+host-suffix, api.poll.video.qq.com, AdBlock
+host-suffix, static-res.qq.com, AdBlock
+host-suffix, stat.tpns.tencent.com, AdBlock
+host, h.trace.qq.com, AdBlock
+host, h.trace.qq.com, AdBlock
+#爱奇艺广告
+host, cr-status.iqiyi.com, AdBlock
+host-suffix, cupid.iqiyi.com, AdBlock
+host, f74f7f7765f8a2f6.ngaa.net.cn, AdBlock
+host, ef-dongfeng.tanx.com, AdBlock
+host, iqiyim.adtrack.enlightent.cn, AdBlock
+#
+host, tu.511.la, Mainland
+host, 6678888.xyz, Mainland
+#bilibili港澳台自动切换脚本
+ip-cidr, 203.107.1.1/24, reject

@@ -29,9 +29,23 @@ DOMAIN-SUFFIX,jcollection.shuqireader.com,REJECT
 DOMAIN-SUFFIX,stats.jpush.cn,REJECT
 DOMAIN-SUFFIX,sdk.kaijiawan.com,REJECT
 #抖音
-HOST-SUFFIX,amemv.com,DIRECT
+DOMAIN-SUFFIX,amemv.com,DIRECT
 #qq群公告小程序
-HOST,cdn.ark.qq.com,DIRECT
+DOMAIN,cdn.ark.qq.com,DIRECT
+#腾讯视频
+DOMAIN-SUFFIX, tetrack.qq.com, REJECT
+DOMAIN-SUFFIX, tpns.tencent.com, REJECT
+DOMAIN-SUFFIX, api.poll.video.qq.com, REJECT
+DOMAIN-SUFFIX, static-res.qq.com, REJECT
+DOMAIN-SUFFIX, stat.tpns.tencent.com, REJECT
+DOMAIN, h.trace.qq.com, REJECT
+DOMAIN, h.trace.qq.com, REJECT
+#爱奇艺
+DOMAIN, cr-status.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+DOMAIN, f74f7f7765f8a2f6.ngaa.net.cn, REJECT
+DOMAIN, ef-dongfeng.tanx.com, REJECT
+DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT
 
 [URL Rewrite]
 
@@ -86,6 +100,16 @@ ctier=[A-Z] ctier=A 302
 
 #京东开屏广告屏蔽(改写自surge)
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ _ reject-array
+
+#腾讯视频广告屏蔽
+^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 _ reject
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 _ reject
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 _ reject
+^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg _ reject
+#爱奇艺广告屏蔽
+^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg _ reject
+^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png _ reject
+^http://msga/.cupid/.iqiyi/.com/scp2.gif _ reject
 
 [Script]
 #微信公众号广告屏蔽(By Choler)

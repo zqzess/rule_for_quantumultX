@@ -11,6 +11,7 @@
  > - [x] 番茄小说去章内末广告(且用且珍惜)
  > - [x] 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
  > - [x] 百度云盘广告屏蔽(会员与非会员开屏广告不同，测试的是会员，可能需要重装app)
+。。。。
 
 ***ps:***
 -->[详细广告屏蔽列表](https://github.com/zqzess/rule_for_quantumultX/blob/master/AdBlockList.md)
@@ -35,6 +36,8 @@
 - ->[Loon配置文件](#Loon配置文件)
 - ->[参考](#参考)
 ### 分流规则添加
+<details>
+
 ```
 [policy]
 
@@ -92,8 +95,14 @@ ip-cidr, 192.168.0.0/16, direct
 geoip, cn, Mainland
 final, Others
 ```
+</details>
+
 ### 重写规则
+
+<details>
+
 自用的重写规则
+
 </br>**功能**:
 - 有兔(米兔)阅读羞耻的开屏广告图片
 - Google搜索中国，香港，日本重定向
@@ -103,6 +112,10 @@ final, Others
 - 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
 - 部分规则通用，经测试，今日头条小说与米读小说章内广告也能屏蔽
 - 百度云盘广告屏蔽(会员与非会员广告开屏不同，测试的是会员，可能需要重装app)
+。。。。。
+
+***ps:***
+-->[详细广告屏蔽列表](https://github.com/zqzess/rule_for_quantumultX/blob/master/AdBlockList.md)
 
 **搬运**:
  - 抖音去广告 (By Choler)
@@ -114,6 +127,9 @@ final, Others
  - 91短视频 (by NobyDa)
  - PicsArt美易 pro (by NobyDa)
  - 哔哩哔哩番剧开启1080P+ （by NobyDa）
+
+</details>
+
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
