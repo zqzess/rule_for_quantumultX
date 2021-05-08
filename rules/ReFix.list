@@ -128,3 +128,8 @@ host, tu.511.la, Mainland
 host, 6678888.xyz, Mainland
 #bilibili港澳台自动切换脚本
 ip-cidr, 203.107.1.1/24, reject
+
+#网易云登陆验证
+host, id6.me, direct
+host, o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
+host-suffix, ndsopaapl.nudatasecurity.com, direct
