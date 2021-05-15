@@ -16,4 +16,4 @@
 酷我音乐下载=type=http-request,pattern=^https?:\/\/musicpay\.kuwo.cn\/music\.pay\?uid=\d+ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/KuWoMusicDownload.js
 
 [MITM]
-hostname = mobilead.kuwo.cn,rich.kuwo.cn,*.kwcdn.kuwo.cn,vip1.kuwo.cn,musicpay.kuwo.cn
+hostname = %APPEND% mobilead.kuwo.cn,rich.kuwo.cn,*.kwcdn.kuwo.cn,vip1.kuwo.cn,musicpay.kuwo.cn

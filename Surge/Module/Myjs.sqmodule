@@ -18,4 +18,4 @@ BiliBili签到 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubuserc
 京东价格提醒 = type=cron,cronexp="30 0 0-23/1 * * *",script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
 
 [MITM]
-hostname = trade-acs.m.taobao.com,api.m.jd.com
+hostname = %APPEND% trade-acs.m.taobao.com,api.m.jd.com

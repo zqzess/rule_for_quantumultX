@@ -132,4 +132,4 @@ ctier=[A-Z] ctier=A 302
 微信公众号广告屏蔽=type=http-response,requires-body=true,timeout=10,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 [MITM]
-hostname = mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
+hostname = %APPEND% mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn

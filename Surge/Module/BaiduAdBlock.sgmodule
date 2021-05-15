@@ -19,4 +19,4 @@ http:\/\/rp\.hpplay\.cn\/logouts _ reject
 https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/guanggao\/.+ _ reject
 
 [MITM]
-hostname =sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com
+hostname = %APPEND% sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com
