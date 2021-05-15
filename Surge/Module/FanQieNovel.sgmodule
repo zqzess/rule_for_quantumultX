@@ -3,8 +3,8 @@
 [Rule]
 #番茄小说
 DOMAIN-SUFFIX,byteimg.com,DIRECT
-DOMAIN,i.snssdk.com,REJECT
-DOMAIN,i-lq.snssdk.com,REJECT
+#DOMAIN,i.snssdk.com,REJECT
+#DOMAIN,i-lq.snssdk.com,REJECT
 #DOMAIN,imp-toutiao-data.37.com.cn,REJECT
 #DOMAIN,ad.data.lianjia.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
