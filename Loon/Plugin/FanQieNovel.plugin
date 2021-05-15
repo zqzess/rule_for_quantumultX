@@ -33,4 +33,4 @@ DOMAIN,dig.bdurl.net,REJECT
 #^https?:\/\/.+?\/(mixer|track2)\? _ reject
 
 [MITM]
-hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.byteimg.com,*.byteimg.com.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*
+hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.byteimg.com,*.byteimg.com.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,i.snssdk.com,i.snssdk.com.*,i-lq.snssdk.com,i-lq.snssdk.com.*
