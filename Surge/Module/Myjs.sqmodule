@@ -1,0 +1,21 @@
+#!name=自用脚本
+#!desc=个人自用脚本
+
+[Script]
+#京东比价
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+#淘宝历史比价
+type=http-request,pattern=^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js,wake-system=1,timeout=360,script-update-interval=0
+中青看点浏览赚 = type=cron,cronexp=35 5 8 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js,wake-system=1,timeout=1800,,script-update-interval=0
+中青看点阅读 = type=cron,cronexp=35 */30 */2 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js,wake-system=1,timeout=3600,,script-update-interval=0
+爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+BiliBili签到 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
+米读签到=type=cron "10 0 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js
+米读阅读=type=cron "*/1 * * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js
+腾讯视频 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+京东价格提醒 = type=cron,cronexp="30 0 0-23/1 * * *",script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
+
+[MITM]
+hostname = trade-acs.m.taobao.com,api.m.jd.com

@@ -1,0 +1,16 @@
+#!name=自用cookie
+#!desc=个人自用cookie合集
+
+[Script]
+中青看点 = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/GoodHolidays/master/Task/youth.js, requires-body=true
+中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, requires-body=true
+中青看点浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, requires-body=true
+中青看点看看赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, requires-body=true
+爱奇艺获取Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+米读 = type=http-request,pattern=^https:\/\/apiwz\.midukanshu\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/midu.cookie.js,requires-body=true
+腾讯视频 = type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
+
+[MITM]
+hostname = %APPEND% kd.youth.cn, ios.baertt.com,ifac*.iqiyi.com,apiwz.midukanshu.com,*.video.qq.com

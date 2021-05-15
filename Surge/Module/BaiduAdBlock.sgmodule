@@ -1,0 +1,22 @@
+#!name=百度系
+#!desc=百度系广告屏蔽
+[URL Rewrite]
+#百度地图开屏广告
+^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg _ reject
+#百度网盘广告屏蔽(会员卖卡赚钱)
+https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
+https:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx _ reject
+https:\/\/pan\.baidu\.com\/api\/useractivity\/activity _ reject
+http:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list _ reject
+#https:\/\/pan\.baidu\.com\/api\/certuser\/get _ reject
+https:\/\/pan\.baidu\.com\/component\/view\/1510\?from _ reject
+https:\/\/sofire\.baidu\.com\/ios\/.+ _ reject
+https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js _ reject
+https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html _ reject
+https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
+https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png _ reject
+http:\/\/rp\.hpplay\.cn\/logouts _ reject
+https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/guanggao\/.+ _ reject
+
+[MITM]
+hostname =sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com
