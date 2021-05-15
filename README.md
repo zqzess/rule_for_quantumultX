@@ -162,5 +162,4 @@ PS:
 - [@Tartarus2014](https://github.com/Tartarus2014/QuantumultX-Script)
 - [@GeQ1an](https://github.com/GeQ1an/Rules/tree/master)
 - [@Koolson](https://github.com/Koolson/Qure)
-- [@Tartarus2014](https://github.com/Tartarus2014/For-own-use/tree/master/Loon/Plugin)
 - [@NobyDa](https://github.com/NobyDa/Script)
