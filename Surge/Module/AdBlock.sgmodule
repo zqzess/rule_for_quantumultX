@@ -35,100 +35,100 @@ DOMAIN-SUFFIX,amemv.com,DIRECT
 #qq群公告小程序
 DOMAIN,cdn.ark.qq.com,DIRECT
 #腾讯视频
-DOMAIN-SUFFIX, tetrack.qq.com, REJECT
-DOMAIN-SUFFIX, tpns.tencent.com, REJECT
-DOMAIN-SUFFIX, api.poll.video.qq.com, REJECT
-DOMAIN-SUFFIX, static-res.qq.com, REJECT
-DOMAIN-SUFFIX, stat.tpns.tencent.com, REJECT
-DOMAIN, h.trace.qq.com, REJECT
-DOMAIN, h.trace.qq.com, REJECT
+DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+DOMAIN-SUFFIX,static-res.qq.com,REJECT
+DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+DOMAIN,h.trace.qq.com,REJECT
 #爱奇艺
-DOMAIN, cr-status.iqiyi.com, REJECT
-DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
-DOMAIN, f74f7f7765f8a2f6.ngaa.net.cn, REJECT
-DOMAIN, ef-dongfeng.tanx.com, REJECT
-DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT
+DOMAIN,cr-status.iqiyi.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,f74f7f7765f8a2f6.ngaa.net.cn,REJECT
+DOMAIN,ef-dongfeng.tanx.com,REJECT
+DOMAIN,iqiyim.adtrack.enlightent.cn,REJECT
 #京东开屏广告屏蔽
 URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+#youtube
+#URL-REGEX,^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),REJECT-TINYGIF
 
 [URL Rewrite]
 #有兔阅读(米兔)去羞耻的开屏广告图片
-^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg _ reject
-^http:\/\/img\.dailmo\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg _ reject
-^http:\/\/img\.dailmo\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg _ reject
-^http:\/\/img\.dailmo\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg _ reject
-^http:\/\/img\.allahall\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg _ reject
-^http:\/\/img\.allahall\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg _ reject
-^http:\/\/img\.allahall\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg _ reject
-^http:\/\/img\.allahall\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg _ reject
-^http:\/\/img\.allahall\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.jpg _ reject
-^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\._ url reject
-^http:\/\/app\.zhoudamozi\.com\/ad\/.+ _ reject-200
+^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg - reject
+^http:\/\/img\.dailmo\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg - reject
+^http:\/\/img\.dailmo\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg - reject
+^http:\/\/img\.dailmo\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg - reject
+^http:\/\/img\.allahall\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.jpg - reject
+^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.+ - reject
+^http:\/\/app\.zhoudamozi\.com\/ad\/.+ - reject
 
 #新版YouTube去广告
 ctier=[A-Z] ctier=A 302
-^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ reject-200
 
 #书旗小说去广告
-^http:\/\/ut2\.shuqistat\.com\/.+\.gif _ reject
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ _ reject
-^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 _ reject
-^https?:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/.+ _ reject
-^https?:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/ad.+ _ reject
-^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/web\.business\.image\/.+ _ reject
-^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/arthur\/.+ _ reject
-^http:\/\/.+\.pglstatp-toutiao\.com _ reject
-^https?:\/\/img-tailor\.11222\.cn\/pm\/app\/.+\.gif _ reject
-^https?:\/\/img-tailor\.11222\.cn\/cms\/upload\/img\/.+ _ reject
-^http:\/\/message\.shuqireader\.com\/message\/.+ _ reject
-^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+ _ reject
-^http:\/\/101\.91\.69\.26:8080\/.+ _ reject
-^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ _ reject
-^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status _ reject
-^http:\/\/.+\.shuqireader\.com\/sapi\/.+ _ reject
+^http:\/\/ut2\.shuqistat\.com\/.+\.gif - reject
+^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ - reject
+^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 - reject
+^https?:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/.+ - reject
+^https?:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/ad.+ - reject
+^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/web\.business\.image\/.+ - reject
+^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/arthur\/.+ - reject
+^http:\/\/.+\.pglstatp-toutiao\.com - reject
+^https?:\/\/img-tailor\.11222\.cn\/pm\/app\/.+\.gif - reject
+^https?:\/\/img-tailor\.11222\.cn\/cms\/upload\/img\/.+ - reject
+^http:\/\/message\.shuqireader\.com\/message\/.+ - reject
+^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+ - reject
+^http:\/\/101\.91\.69\.26:8080\/.+ - reject
+^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ - reject
+^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status - reject
+^http:\/\/.+\.shuqireader\.com\/sapi\/.+ - reject
 
 
 #百度地图开屏广告
 #hostname=*.bdstatic.com
-#^https?:\/\/.+\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/tam-ogel\/.+\.jpg _ reject
-#^https?:\/\/.+\.bdstatic\.com\/.+\/tam-ogel\/.+\.jpg _ reject
+#^https?:\/\/.+\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/tam-ogel\/.+\.jpg - reject
+#^https?:\/\/.+\.bdstatic\.com\/.+\/tam-ogel\/.+\.jpg - reject
 
 #每日优鲜开屏广告
 #hostname=j-image.missfresh.cn
-^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ _ reject
-^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.jpg\?iopcmd=convert&dst=webp&q=85$ _ reject
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.jpg\?iopcmd=convert&dst=webp&q=85$ - reject
 
 #网易云广告
 #hostname=m.ads.8le8le.com,iadmusicmat.music.com
-^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg _ reject
-^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get _ reject
-^https?:\//m\.ads\.8le8le\.com\/adShow _ reject
+^https?:\/\/iadmusicmat\.music\.126\.net\/.+\.jpg - reject
+^http:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get - reject
+^https?:\//m\.ads\.8le8le\.com\/adShow - reject
 
 #高德地图广告
-^http:\/\/ems\.youku\.com\/imp\? _ reject
+^http:\/\/ems\.youku\.com\/imp\? - reject
 #携程广告
 #hostname=ma-adx.ctrip.com,m.ctrip.com
-^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif _ reject
-^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds _ reject
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
+^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds - reject
 
 #hostname=mbd.baidu.com
-^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare _ reject
+^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 
 
 #腾讯视频广告屏蔽
-^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 _ reject
-^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 _ reject
-^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 _ reject
-^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg _ reject
+^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 - reject
+^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
+^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject
 #爱奇艺广告屏蔽
-^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg _ reject
-^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png _ reject
-^http://msga/.cupid/.iqiyi/.com/scp2.gif _ reject
+^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg - reject
+^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png - reject
+^http://msga/.cupid/.iqiyi/.com/scp2.gif - reject
 
 
 [Script]
 #微信公众号广告屏蔽(By Choler)
-微信公众号广告屏蔽=type=http-response,requires-body=true,timeout=10,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+微信公众号广告屏蔽=type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 [MITM]
 hostname = %APPEND% mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
