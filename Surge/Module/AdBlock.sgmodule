@@ -52,7 +52,6 @@ DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT
 URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 
 [URL Rewrite]
-
 #有兔阅读(米兔)去羞耻的开屏广告图片
 ^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg _ reject
 ^http:\/\/img\.dailmo\.com\/img\/50\/edb40c6392f848df37f9c31d8a6f90f6\.jpg _ reject
@@ -114,6 +113,7 @@ ctier=[A-Z] ctier=A 302
 
 #hostname=mbd.baidu.com
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare _ reject
+
 
 #腾讯视频广告屏蔽
 ^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 _ reject
