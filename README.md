@@ -34,6 +34,7 @@
 - ->[重写规则](#重写规则)
 - ->[完整配置文件](#完整配置文件)
 - ->[Loon配置文件](#Loon配置文件)
+- ->[Surge配置文件](#Surge配置文件)
 - ->[参考](#参考)
 ### 分流规则添加
 <details>
@@ -155,6 +156,21 @@ PS:
 - [酷我增强插件整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/kuwo.plugin)
 - [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/zhihu.plugin)
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin)
+
+### Surge配置文件
+- [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/zqzess_surge.conf)
+- [广告屏蔽模组](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/AdBlock.sgmodule)
+- [哔哩哔哩增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/bilibili.sqmodule)
+- [酷我增强插件整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/kuwo.sgmodule)
+- [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/zhihu.sgmodule)
+- [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/BaiduAdBlock.sgmodule)
+  
+搬运：
+- [高级订阅管理工具-必装](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule)
+- [NetFlix显示IMDB评分](https://kinta.ma/surge/netflix_rating.sgmodule)
+- [BoxJs](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
+- [TextFight区域限制解除](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule)
+  
 ### 参考
 - [@h2y](https://github.com/h2y)
 - [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
