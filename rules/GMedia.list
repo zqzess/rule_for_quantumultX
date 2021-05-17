@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-05-10 01:44:05
+# GMedia rules refresh time: 2021-05-17 01:52:27
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -178,6 +178,8 @@ HOST,hboasia2-i.akamaihd.net,GMedia
 HOST,hboasia3-i.akamaihd.net,GMedia
 HOST,hboasia4-i.akamaihd.net,GMedia
 HOST,hboasia5-i.akamaihd.net,GMedia
+HOST,hbolb.onwardsmg.com,GMedia
+HOST,hbounify-prod.evergent.com,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,linear.tv.apple.com,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
@@ -192,6 +194,7 @@ HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
+HOST-SUFFIX,app.biliintl.com,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bam.nr-data.net,GMedia
 HOST-SUFFIX,bbc.net.uk,GMedia
@@ -297,6 +300,7 @@ HOST-SUFFIX,youboranqs01.com,GMedia
 HOST-SUFFIX,youtube.com,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
+HOST-KEYWORD,.hbogoasia.,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,avoddashs,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
@@ -322,6 +326,7 @@ USER-AGENT,DPlus*,GMedia
 USER-AGENT,Deezer*,GMedia
 USER-AGENT,Disney+*,GMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
+USER-AGENT,HBO%20GO%20PROD*,GMedia
 USER-AGENT,HBOAsia*,GMedia
 USER-AGENT,HBOMAX*,GMedia
 USER-AGENT,HWTVMobile*,GMedia

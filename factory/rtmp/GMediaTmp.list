@@ -206,6 +206,8 @@ HOST,hboasia2-i.akamaihd.net,GMedia
 HOST,hboasia3-i.akamaihd.net,GMedia
 HOST,hboasia4-i.akamaihd.net,GMedia
 HOST,hboasia5-i.akamaihd.net,GMedia
+HOST,hbolb.onwardsmg.com,GMedia
+HOST,hbounify-prod.evergent.com,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,kktv-theater.kk.stream,GMedia
 HOST,linear.tv.apple.com,GMedia
@@ -234,6 +236,7 @@ HOST-SUFFIX,amazonaws.com,GMedia
 HOST-SUFFIX,amazonvideo.com,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
+HOST-SUFFIX,app.biliintl.com,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bahamut.com.tw,GMedia
 HOST-SUFFIX,bam.nr-data.net,GMedia
@@ -427,6 +430,7 @@ HOST-SUFFIX,youtube.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
+HOST-KEYWORD,.hbogoasia.,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,avoddashs,GMedia
 HOST-KEYWORD,bbcfmt,GMedia
@@ -467,6 +471,7 @@ USER-AGENT,Disney+*,GMedia
 USER-AGENT,FOX%20NOW*,GMedia
 USER-AGENT,FOXPlus*,GMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
+USER-AGENT,HBO%20GO%20PROD*,GMedia
 USER-AGENT,HBO%20NOW*,GMedia
 USER-AGENT,HBOAsia*,GMedia
 USER-AGENT,HBOMAX*,GMedia
