@@ -3,7 +3,7 @@
 
 [Header Rewrite]
 #禁止百度跳转(改自Fokit)
-^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
+#^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com header-replace User-Agent "Mozilla/5.0 (Linux; Android 9.0; iPhone; U; CPU iPhone OS 9_9_9 like Mac OS X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/11.23 SP-engine/2.19.0 baiduboxapp (Baidu; P1 9.0)"
 
 [URL Rewrite]
 #百度地图开屏广告

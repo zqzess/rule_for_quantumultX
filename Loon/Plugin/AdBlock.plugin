@@ -59,7 +59,7 @@ DOMAIN, iqiyim.adtrack.enlightent.cn, REJECT
 ^http:\/\/img\.allahall\.com\/img\/6\/90585d9e96c73dd49644af57d8501624\.jpg _ reject
 ^http:\/\/img\.allahall\.com\/img\/5\/6cb2aa237ce1f65944aa1ecb29fbdeef\.jpg _ reject
 ^http:\/\/img\.allahall\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.jpg _ reject
-^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\._ url reject
+^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.+ _ reject
 ^http:\/\/app\.zhoudamozi\.com\/ad\/.+ _ reject-200
 
 #新版YouTube去广告
