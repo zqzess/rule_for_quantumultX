@@ -114,7 +114,6 @@ ctier=[A-Z] ctier=A 302
 #hostname=mbd.baidu.com
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 
-
 #腾讯视频广告屏蔽
 ^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 - reject
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
@@ -125,10 +124,13 @@ ctier=[A-Z] ctier=A 302
 ^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png - reject
 ^http://msga/.cupid/.iqiyi/.com/scp2.gif - reject
 
+#微博广告屏蔽(by yichahucha)
+http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 
 [Script]
 #微信公众号广告屏蔽(By Choler)
 微信公众号广告屏蔽=type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 [MITM]
-hostname = %APPEND% mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
+hostname = %APPEND% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn
