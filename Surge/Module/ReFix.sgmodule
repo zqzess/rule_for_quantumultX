@@ -45,3 +45,7 @@ DOMAIN,tu.511.la,DIRECT
 #
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,lanzous.com,DIRECT
+#百度输入法(blackmatrix7-Advertising_Domain源错误)
+DOMAIN,sofire.n.shifen.com,DIRECT
+DOMAIN,mime.n.shifen.com,DIRECT
+DOMAIN,static.n.shifen.com,DIRECT
