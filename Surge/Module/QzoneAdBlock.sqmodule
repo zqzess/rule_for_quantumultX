@@ -17,8 +17,3 @@ DOMAIN,xj-landing.gdtimg.com,REJECT
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png - reject
 ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg - reject
 ^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ - reject
-
-[Script]
-
-
-[MITM]
