@@ -1,0 +1,24 @@
+#!name=qq空间广告屏蔽
+#!desc=qq空间广告屏蔽
+[Rule]
+DOMAIN,d3g.qq.com,REJECT
+DOMAIN,bsrv.qq.com,REJECT
+DOMAIN,sq.bls.mdt.qq.com,REJECT
+DOMAIN,btrace.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,xj-landing.gdtimg.com,REJECT
+
+[URL Rewrite]
+
+^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid - reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg - reject
+^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid - reject
+^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid - reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png - reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg - reject
+^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ - reject
+
+[Script]
+
+
+[MITM]

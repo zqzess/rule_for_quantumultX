@@ -133,3 +133,6 @@ ip-cidr, 203.107.1.1/24, reject
 host, id6.me, direct
 host, o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
 host-suffix, ndsopaapl.nudatasecurity.com, direct
+
+#百度输入法
+HOST-KEYWORD,jomodns,reject
