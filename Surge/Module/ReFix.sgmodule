@@ -49,3 +49,6 @@ DOMAIN-SUFFIX,lanzous.com,DIRECT
 DOMAIN,sofire.n.shifen.com,DIRECT
 DOMAIN,mime.n.shifen.com,DIRECT
 DOMAIN,static.n.shifen.com,DIRECT
+# QQ音乐去广告
+DOMAIN,adstats.tencentmusic.com,Reject
+DOMAIN,ad.tencentmusic.com,Reject

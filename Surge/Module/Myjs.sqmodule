@@ -15,6 +15,7 @@ nf_rating.js = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netfl
 nf_rating.js = type=http-response,requires-body=1,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 # 单集评分
 nf_rating_season.js = type=http-response,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
+机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/JavaScript/main/Sub_info_lite.js
 
 #Task
 中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js,wake-system=1,timeout=360,script-update-interval=0
@@ -27,6 +28,7 @@ BiliBili签到 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubuserc
 腾讯视频 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 京东价格提醒 = type=cron,cronexp=30 0 0-23/1 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
 Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js,script-update-interval=0
+疫情播报 = type=cron,cronexp=0 8-23/1 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js
 
 [MITM]
 hostname = %APPEND% trade-acs.m.taobao.com,api.m.jd.com,weixin110.qq.com,mb3admin.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
