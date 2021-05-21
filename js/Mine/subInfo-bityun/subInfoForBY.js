@@ -143,10 +143,11 @@ function login(sub) {
         if (resp.statusCode == 200) {
             console.log("🏆比特云登录成功");
             const result = resp.headers;
-            const subkey = Object.keys(result).filter(k => /SET-COOKIE/i.test(k))[0];
-            const cookieinfo = result[subkey];
+            const subkey = Object.keys(result).filter(k => /SET-COOKIE/i.test(k))[1];
+            // const cookieinfo = result[subkey];
+            const cookie = result[subkey];
             // console.log(cookieinfo);
-            const cookie = cookieinfo[3];
+            // const cookie = cookieinfo[3];
             console.log("cookie:" + cookie);
             !(async () => {
             await get_info(cookie);

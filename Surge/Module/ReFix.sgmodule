@@ -55,3 +55,9 @@ DOMAIN,ad.tencentmusic.com,REJECT
 
 #手机号免密验证登陆(blackmatrix7-Advertising_Domain源错误)
 DOMAIN-SUFFIX,id6.me,DIRECT
+
+#bityun
+DOMAIN-SUFFIX,bityun.org,Outside
+#
+DOMAIN-KEYWORD,twimg,Outside
+DOMAIN-SUFFIX,epicgames.com,DIRECT
