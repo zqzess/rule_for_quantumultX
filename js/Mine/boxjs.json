@@ -1,0 +1,54 @@
+{
+    "id": "zqzess.app.sub",
+    "name": "zqzess 应用订阅",
+    "author": "@zqzess",
+    "icon": "https://avatars.githubusercontent.com/u/54464797?s=60&v=4",
+    "repo": "https://github.com/zqzess/rule_for_quantumultX",
+    "apps": [
+        {
+            "id": "FlowBit",
+            "name": "机场流量查询-比特云优化版",
+            "keys": [
+                "@flowbit.subscriptions",
+                "@flowbit.email",
+                "@flowbit.pwd"
+            ],
+            "settings": [
+                {
+                    "id": "@flowbit.subscriptions",
+                    "name": "机场订阅",
+                    "val": "[\n\t{\n\t\t\"link\": \"订阅地址1\",\n\t\t\"name\": \"取个名字1\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/pudding.png\"\n\t},\n\t{\n\t\t\"link\": \"订阅地址2\",\n\t\t\"name\": \"取个名字2\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/Nexitally.png\"\n\t}\n]",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 5,
+                    "desc": "机场订阅 (JSON 格式)"
+                },
+                {
+                    "id": "@flowbit.email",
+                    "name": "邮箱",
+                    "val": null,
+                    "type": "text",
+                    "autoGrow": true,
+                    "rows": 5,
+                    "desc": "比特云机场账户邮箱"
+                },
+                {
+                    "id": "@flowbit.pwd",
+                    "name": "密码",
+                    "val": null,
+                    "type": "text",
+                    "autoGrow": true,
+                    "rows": 5,
+                    "desc": "比特云机场账户密码"
+                }
+            ],
+            "author": "@zqzess",
+            "repo": "https://github.com/zqzess/rule_for_quantumultX",
+            "icons": [
+                "",
+                ""
+            ],
+            "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js"
+        }
+    ]
+}
