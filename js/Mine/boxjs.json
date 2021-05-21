@@ -28,7 +28,7 @@
                     "name": "邮箱",
                     "val": null,
                     "type": "text",
-                    "autoGrow": true,
+                    "autoGrow": false,
                     "rows": 5,
                     "desc": "比特云机场账户邮箱"
                 },
@@ -37,7 +37,7 @@
                     "name": "密码",
                     "val": null,
                     "type": "text",
-                    "autoGrow": true,
+                    "autoGrow": false,
                     "rows": 5,
                     "desc": "比特云机场账户密码"
                 }
