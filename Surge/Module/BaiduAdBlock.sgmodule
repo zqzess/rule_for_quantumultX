@@ -18,7 +18,6 @@ URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch,REJECT
 [URL Rewrite]
 #百度地图开屏广告
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg _ reject
-^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+\.gif - reject
 #百度网盘广告屏蔽(会员卖卡赚钱)
 https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
 https:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx _ reject

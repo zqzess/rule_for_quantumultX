@@ -113,6 +113,7 @@ ctier=[A-Z] ctier=A 302
 
 #高德地图广告
 ^http:\/\/ems\.youku\.com\/imp\? - reject
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ - reject
 #携程广告
 #hostname=ma-adx.ctrip.com,m.ctrip.com
 ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
