@@ -252,10 +252,11 @@ async function get_info(cookie) {
             }
             const timenum = Number(result.match(/"expired_at":(\d+)/)[1]);
             console.log("expired_at:" + timenum);
-            const ExpireDate = getDateChange(timenum);
-            const days = dayCount(ExpireDate);
+            // const ExpireDate = getDateChange(timenum);
+            // const days = dayCount(ExpireDate);
             // $.notify("🏆比特云", "有效期:" + datetime + ", 距离到期还有" + days + "天");
-            timestr = "有效期:" + ExpireDate + ", 距离到期还有" + days + "天";
+            // timestr = "有效期:" + ExpireDate + ", 距离到期还有" + days + "天";
+            timestr=getDateChange(timenum);
         } else {
             console.log("用户信息获取失败");
             $.notify("🏆比特云", "用户信息获取失败");
@@ -272,27 +273,34 @@ async function get_info(cookie) {
 // }
 
 
-function getDateChange(days) {
-    var date = new Date(1627654021 * 1000);
-    Y = date.getFullYear() + '-';
-    M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
-    D = date.getDate() + ' ';
-    var ExpireDate = Y + M + D;
+function getDateChange(timenum) {
+    const date = new Date(timenum * 1000);
+    let Y = date.getFullYear() + '-';
+    let M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+    let D = date.getDate() + ' ';
+    const ExpireDate = Y + M + D;
     console.log("到期时间:" + ExpireDate);
-    return ExpireDate;
+    const dateStart = new Date();
+    let dateEnd = new Date();
+    dateEnd.setDate(date.getDate());
+    dateEnd.setMonth(date.getMonth());
+    dateEnd.setFullYear(date.getFullYear());
+    var difValue = ((dateEnd - dateStart) / (1000 * 60 * 60 * 24)).toFixed(0);
+    var str="有效期:" + ExpireDate + ", 距离到期还有" + difValue + "天";
+    return str;
 }
 
-function dayCount(expire_date)
-{
-    var date = new Date();
-    var now = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate()
-//     console.log("当前时间:" + now);
-    var dateStart = new Date(now);
-    var dateEnd = new Date(expire_date);
-    var difValue = ((dateEnd - dateStart) / (1000 * 60 * 60 * 24)).toFixed(0);
-    console.log("🏆比特云距到期还有:" + difValue);
-    return difValue;
-}
+// function dayCount(expire_date)
+// {
+//     var date = new Date();
+//     var now = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate()
+// //     console.log("当前时间:" + now);
+//     var dateStart = new Date(now);
+//     var dateEnd = new Date(expire_date);
+//     var difValue = ((dateEnd - dateStart) / (1000 * 60 * 60 * 24)).toFixed(0);
+//     console.log("🏆比特云距到期还有:" + difValue);
+//     return difValue;
+// }
 
 
 
