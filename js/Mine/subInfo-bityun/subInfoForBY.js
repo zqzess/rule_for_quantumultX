@@ -250,26 +250,48 @@ async function get_info(cookie) {
             if (!result) {
                 $.notify("[🏆比特云]", `❌ 未找到订阅信息！`);
             }
-            var timenum = Number(result.match(/"expired_at":(\d+)/)[1]);
+            const timenum = Number(result.match(/"expired_at":(\d+)/)[1]);
             console.log("expired_at:" + timenum);
-            var days = (timenum / 270 / 86400).toFixed(0);
-            console.log("🏆比特云", "距离到期还有" + days + "天");
-            var datetime = getDateChange(days);
+            const ExpireDate = getDateChange(timenum);
+            const days = dayCount(ExpireDate);
             // $.notify("🏆比特云", "有效期:" + datetime + ", 距离到期还有" + days + "天");
-            timestr = "有效期:" + datetime + ", 距离到期还有" + days + "天";
+            timestr = "有效期:" + ExpireDate + ", 距离到期还有" + days + "天";
         } else {
             console.log("用户信息获取失败");
             $.notify("🏆比特云", "用户信息获取失败");
         }
     });
 }
+// function getDateChange(days) {
+//     var date = new Date();
+//     console.log("当前时间:" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate());
+//     var resultDate = new Date((date / 1000 + (86400 * days)) * 1000);//增加n天后的日期
+//     var CurrentDate = resultDate.getFullYear() + "-" + (resultDate.getMonth() + 1) + "-" + (resultDate.getDate());//将日期转化为字符串格式
+//     console.log("转换时间:" + CurrentDate);
+//     return CurrentDate;
+// }
+
+
 function getDateChange(days) {
+    var date = new Date(1627654021 * 1000);
+    Y = date.getFullYear() + '-';
+    M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+    D = date.getDate() + ' ';
+    var ExpireDate = Y + M + D;
+    console.log("到期时间:" + ExpireDate);
+    return ExpireDate;
+}
+
+function dayCount(expire_date)
+{
     var date = new Date();
-    console.log("当前时间:" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate());
-    var resultDate = new Date((date / 1000 + (86400 * days)) * 1000);//增加n天后的日期
-    var CurrentDate = resultDate.getFullYear() + "-" + (resultDate.getMonth() + 1) + "-" + (resultDate.getDate());//将日期转化为字符串格式
-    console.log("转换时间:" + CurrentDate);
-    return CurrentDate;
+    var now = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate()
+//     console.log("当前时间:" + now);
+    var dateStart = new Date(now);
+    var dateEnd = new Date(expire_date);
+    var difValue = ((dateEnd - dateStart) / (1000 * 60 * 60 * 24)).toFixed(0);
+    console.log("🏆比特云距到期还有:" + difValue);
+    return difValue;
 }
 
 
