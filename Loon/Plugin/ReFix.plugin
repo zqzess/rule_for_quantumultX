@@ -47,3 +47,7 @@ DOMAIN,ad.tencentmusic.com,REJECT
 
 #手机号免密验证登陆(blackmatrix7-Advertising_Domain源错误)
 DOMAIN-SUFFIX,id6.me,DIRECT
+
+DOMAIN-SUFFIX,plex.tv,DIRECT
+DOMAIN-SUFFIX,plex.direct,DIRECT
+DOMAIN,googleads.g.doubleclick.net,REJECT
