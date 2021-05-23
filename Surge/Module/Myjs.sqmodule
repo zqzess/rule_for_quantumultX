@@ -20,7 +20,7 @@ nf_rating_season.js = type=http-response,pattern=^https?:\/\/ios(-.*)?\.prod\.ft
 #Task
 中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js,wake-system=1,timeout=360,script-update-interval=0
 中青看点浏览赚 = type=cron,cronexp=35 5 8 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js,wake-system=1,timeout=1800,script-update-interval=0
-中青看点阅读 = type=cron,cronexp=35 */30 */3 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js,wake-system=1,timeout=3600,script-update-interval=0
+#中青看点自动阅读 = type=cron,cronexp=35 */30 */3 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js,wake-system=1,timeout=3600,script-update-interval=0
 爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 BiliBili签到 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
 #米读签到=type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js
