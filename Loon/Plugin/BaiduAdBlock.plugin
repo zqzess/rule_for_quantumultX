@@ -32,7 +32,15 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/start_screen_ads\/list _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch _ reject
 
+#百度贴吧(by TributePaulWalker)
+#hostname=*.tieba.baidu.com
+^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule _ reject
+^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo _ reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) _ reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) _ reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule _ reject
+
 [Script]
 
 [MITM]
-hostname =sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com
+hostname =sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.tieba.baidu.com

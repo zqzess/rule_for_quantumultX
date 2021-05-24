@@ -42,3 +42,4 @@
  > - [x] 京东开屏广告 -改写自surge
  > - [x] 微博广告屏蔽 -by yichahucha
  > - [x] 抖音广告屏蔽 -by NobyDa
+ > - [x] 百度贴吧 -by TributePaulWalker
