@@ -61,3 +61,11 @@ DOMAIN-SUFFIX,bityun.org,Outside
 #
 DOMAIN-KEYWORD,twimg,Outside
 DOMAIN-SUFFIX,epicgames.com,DIRECT
+
+DOMAIN,o2o-ad-dev.oss-cn-shanghai.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,cool18.com,Outside
+#tieba
+DOMAIN,aod-image.baidu.com,REJECT
+DOMAIN,js-ad.a.yximgs.com,REJECT
+DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+DOMAIN,nadvideo2.baidu.com,REJECT

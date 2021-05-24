@@ -51,3 +51,8 @@ DOMAIN-SUFFIX,id6.me,DIRECT
 DOMAIN-SUFFIX,plex.tv,DIRECT
 DOMAIN-SUFFIX,plex.direct,DIRECT
 DOMAIN,googleads.g.doubleclick.net,REJECT
+#tieba
+DOMAIN,aod-image.baidu.com,REJECT
+DOMAIN,js-ad.a.yximgs.com,REJECT
+DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+DOMAIN,nadvideo2.baidu.com,REJECT

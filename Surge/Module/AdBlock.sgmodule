@@ -136,6 +136,10 @@ ctier=[A-Z] ctier=A 302
 ^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg - reject
 ^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png - reject
 ^http://msga/.cupid/.iqiyi/.com/scp2.gif - reject
+#网易邮箱
+#hostname=appconf.mail.163.com,analytics.163.com
+https:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
+http:\/\/analytics\.163\.com\/ntes - reject
 
 #微博广告屏蔽(by yichahucha)
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
@@ -154,4 +158,4 @@ http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positiv
 抖音去广告&水印res = type=http-response,pattern=^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 
 [MITM]
-hostname = %APPEND% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,www.youtube.com,s.youtube.com,img-tailor.11222.cn,j-image.missfresh.cn,*.amemv.com
+hostname = %APPEND% appconf.mail.163.com,analytics.163.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,www.youtube.com,s.youtube.com,img-tailor.11222.cn,j-image.missfresh.cn,*.amemv.com

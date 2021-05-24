@@ -39,12 +39,16 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip - reject
 # http://himg\.bdimg\.com/sys/portrait/item\/.+\.jpg - reject
 
 #百度贴吧(by TributePaulWalker)
-#hostname=*.tieba.baidu.com
+#hostname=*.tieba.baidu.com,feed-image.baidu.com
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule - reject
+#mine
+https:\/\/pn\.baidu\.com\/iad\/.+\.json - reject
+^https:\/\/feed-image\.baidu\.com\/0\/pic\/ - reject
+http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) - reject
 
 [Script]
 

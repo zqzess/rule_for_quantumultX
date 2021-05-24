@@ -140,3 +140,9 @@ HOST-KEYWORD,jomodns,reject
 # QQ音乐去广告
 HOST,adstats.tencentmusic.com,reject
 HOST,ad.tencentmusic.com,reject
+
+#tieba
+HOST,aod-image.baidu.com,reject
+HOST,js-ad.a.yximgs.com,reject
+HOST,mobads-pre-config.cdn.bcebos.com,reject
+HOST,nadvideo2.baidu.com,reject
