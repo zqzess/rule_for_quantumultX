@@ -54,7 +54,7 @@
 ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
 
 # 无指令 (百度)
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.baidu.com/s?wd=$1 302
 
 [MITM]
 hostname = %APPEND% duckduckgo.com,*.google.com.hk ,*.g.cn,*.google.cn ,*.google.co.jp
