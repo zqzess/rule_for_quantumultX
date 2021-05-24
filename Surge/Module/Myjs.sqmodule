@@ -21,16 +21,16 @@ nf_rating_season.js = type=http-response,pattern=^https?:\/\/ios(-.*)?\.prod\.ft
 中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js,wake-system=1,timeout=360,script-update-interval=0
 中青看点浏览赚 = type=cron,cronexp=35 5 8 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js,wake-system=1,timeout=1800,script-update-interval=0
 #中青看点自动阅读 = type=cron,cronexp=35 */30 */3 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js,wake-system=1,timeout=3600,script-update-interval=0
-爱奇艺签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-BiliBili签到 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
+爱奇艺签到 = type=cron,cronexp=0 8 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+BiliBili签到 = type=cron,cronexp=5 1 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
 #米读签到=type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js
-米读阅读=type=cron,cronexp=*/2 6-9 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,wake-system=true
-腾讯视频 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+米读阅读=type=cron,cronexp=*/2 3-6 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,wake-system=true
+腾讯视频 = type=cron,cronexp=30 1 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 #京东价格提醒 = type=cron,cronexp=30 0 0-23/1 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
 京东价格提醒 = type=cron,cronexp=30 0 0,10,17 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
 Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js,script-update-interval=0
 #疫情播报 = type=cron,cronexp=0 8-23/1 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js
 彩云天气 = type=cron,cronexp=10 7-19/3 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=259200
-修改版机场订阅信息 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/subInfo-bityun/subInfoForBY.js,script-update-interval=0
+修改版机场订阅信息 = type=cron,cronexp=2 9 * * *,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/subInfo-bityun/subInfoForBY.js,script-update-interval=0
 [MITM]
 hostname = %APPEND% trade-acs.m.taobao.com,api.m.jd.com,weixin110.qq.com,mb3admin.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
