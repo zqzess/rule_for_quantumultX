@@ -1,5 +1,3 @@
-#!name=搜索重定向
-#!desc=包含谷歌搜索重定向和改版Safari全能搜索(需要把Safari的搜索引擎设置为：DuckDuckGo)
 
 [URL Rewrite]
 #谷歌搜索重定向
@@ -57,4 +55,4 @@
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 
 [MITM]
-hostname = %APPEND% duckduckgo.com,*.google.com.hk ,*.g.cn,*.google.cn ,*.google.co.jp
+hostname = duckduckgo.com,*.google.com.hk ,*.g.cn,*.google.cn ,*.google.co.jp
