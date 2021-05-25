@@ -146,3 +146,6 @@ HOST,aod-image.baidu.com,reject
 HOST,js-ad.a.yximgs.com,reject
 HOST,mobads-pre-config.cdn.bcebos.com,reject
 HOST,nadvideo2.baidu.com,reject
+
+#YouTube 去底部广告
+host-suffix, ehg-youtube.hitbox.com, reject

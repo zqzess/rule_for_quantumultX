@@ -56,3 +56,6 @@ DOMAIN,aod-image.baidu.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
+
+#YouTube 去底部广告
+DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
