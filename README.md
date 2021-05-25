@@ -172,7 +172,7 @@ surge搬运：
 - [BoxJs](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
 - [TextFight区域限制解除](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule)
   
-### 参考
+### 参考鸣谢
 - [@h2y](https://github.com/h2y)
 - [@blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
 - [@jdlingyu](https://github.com/jdlingyu/ad-wars/blob/master/hosts)
@@ -180,3 +180,6 @@ surge搬运：
 - [@GeQ1an](https://github.com/GeQ1an/Rules/tree/master)
 - [@Koolson](https://github.com/Koolson/Qure)
 - [@NobyDa](https://github.com/NobyDa/Script)
+- [@TributePaulWalker](https://github.com/TributePaulWalker/Profiles)
+- [@Peng-YM](https://github.com/Peng-YM)
+- [@lhie1](https://github.com/lhie1/Rules)
