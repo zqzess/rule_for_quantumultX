@@ -59,4 +59,4 @@ http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) - reject
 [Script]
 
 [MITM]
-hostname = %APPEND% ndstatic.cdn.bcebos.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.baidu.com
+hostname = %APPEND% ndstatic.cdn.bcebos.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.baidu.com,-imerres.baidu.com
