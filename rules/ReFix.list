@@ -136,6 +136,8 @@ host-suffix, ndsopaapl.nudatasecurity.com, direct
 
 #百度输入法
 HOST-KEYWORD,jomodns,reject
+HOST,res.mi.baidu.com,reject
+HOST,r6.mo.baidu.com,reject
 
 # QQ音乐去广告
 HOST,adstats.tencentmusic.com,reject

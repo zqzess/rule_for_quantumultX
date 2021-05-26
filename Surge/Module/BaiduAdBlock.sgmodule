@@ -5,8 +5,10 @@
 #百度输入法
 DOMAIN-KEYWORD,jomodns,REJECT
 URL-REGEX,^advertisement$,REJECT
-URL-REGEX,^http:\/\/r6\.mo\.baidu\.com\/res\/file/advertisement\/files\/.+\.jpg,REJECT
-URL-REGEX,^http:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg,REJECT
+DOMAIN,res.mi.baidu.com,REJECT
+DOMAIN,r6.mo.baidu.com,REJECT
+#URL-REGEX,^http:\/\/r6\.mo\.baidu\.com\/res\/file/advertisement\/files\/.+\.jpg,REJECT
+#URL-REGEX,^http:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg,REJECT
 URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/activity\/advertisementnonrealtime,REJECT
 URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/start_screen_ads\/list,REJECT
 URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch,REJECT
@@ -51,8 +53,8 @@ https:\/\/pn\.baidu\.com\/iad\/.+\.json - reject
 http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) - reject
 
 #百度输入法
-^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
-^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
+^https?:\/\/mime\.baidu\.com\/.+\/IosStart\/getStartInfo$ - reject
+^https?:\/\/mime\.baidu\.com\/.+\/activity\/advertisement - reject
 
 [Script]
 

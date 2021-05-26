@@ -1,6 +1,8 @@
 [Rule]
 #百度输入法
 DOMAIN-KEYWORD,jomodns,REJECT
+DOMAIN,res.mi.baidu.com,REJECT
+DOMAIN,r6.mo.baidu.com,REJECT
 
 [URL Rewrite]
 #百度地图开屏广告
@@ -26,8 +28,8 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip _ reject
 # http://himg\.bdimg\.com/sys/portrait/item\/.+\.jpg _ reject
 #百度输入法
 ^advertisement$,REJECT
-^http:\/\/r6\.mo\.baidu\.com\/res\/file/advertisement\/files\/.+\.jpg _ reject
-^http:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg _ reject
+#^http:\/\/r6\.mo\.baidu\.com\/res\/file/advertisement\/files\/.+\.jpg _ reject
+#^http:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/activity\/advertisementnonrealtime _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/start_screen_ads\/list _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch _ reject
