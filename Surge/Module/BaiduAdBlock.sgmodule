@@ -50,6 +50,10 @@ https:\/\/pn\.baidu\.com\/iad\/.+\.json - reject
 ^https:\/\/feed-image\.baidu\.com\/0\/pic\/ - reject
 http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) - reject
 
+#百度输入法
+^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
+
 [Script]
 
 [MITM]
