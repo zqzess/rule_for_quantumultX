@@ -77,3 +77,6 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
 DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
+
+#Qcrane牛奶批发商（机场）
+DOMAIN-SUFFIX,bgpnode.com,DIRECT

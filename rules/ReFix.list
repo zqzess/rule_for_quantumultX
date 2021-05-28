@@ -151,3 +151,6 @@ HOST,nadvideo2.baidu.com,reject
 
 #YouTube 去底部广告
 host-suffix, ehg-youtube.hitbox.com, reject
+
+#Qcrane牛奶批发商（机场）
+DOMAIN-SUFFIX,bgpnode.com,DIRECT

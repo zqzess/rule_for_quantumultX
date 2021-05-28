@@ -59,3 +59,6 @@ DOMAIN,nadvideo2.baidu.com,REJECT
 
 #YouTube 去底部广告
 DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
+
+#Qcrane牛奶批发商（机场）
+DOMAIN-SUFFIX,bgpnode.com,DIRECT
