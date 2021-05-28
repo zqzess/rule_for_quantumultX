@@ -37,7 +37,7 @@ BiliBili签到 = type=cron,cronexp=5 1 * * *,script-path=https://raw.githubuserc
 米读阅读=type=cron,cronexp=*/2 3-6 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,wake-system=true
 腾讯视频 = type=cron,cronexp=30 1 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
 #京东价格提醒 = type=cron,cronexp=30 0 0-23/1 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
-京东价格提醒 = type=cron,cronexp="30 0 0,10,17 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,script-update-interval=604800
+#京东价格提醒 = type=cron,cronexp="30 0 0,10,17 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,script-update-interval=604800
 Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js,script-update-interval=0
 #疫情播报 = type=cron,cronexp=0 8-23/1 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js
 彩云天气 = type=cron,cronexp=10 7-19/3 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=259200
