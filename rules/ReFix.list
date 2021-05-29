@@ -103,7 +103,7 @@ HOST,cdn.ark.qq.com,Mainland
 HOST,d3g.qq.com,AdBlock
 HOST,bsrv.qq.com,AdBlock
 HOST,sq.bls.mdt.qq.com,AdBlock
-HOST,btrace.qq.com,AdBlock
+#HOST,btrace.qq.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,xj-landing.gdtimg.com,AdBlock
 
@@ -154,3 +154,5 @@ host-suffix, ehg-youtube.hitbox.com, reject
 
 #Qcrane牛奶批发商（机场）
 host-suffix,bgpnode.com,direct
+
+host-suffix,ossez.com,direct
