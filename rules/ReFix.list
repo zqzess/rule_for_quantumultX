@@ -159,3 +159,11 @@ host-suffix,ossez.com,direct
 
 #高德地图
 host,optimus-ads.amap.com,reject
+
+#索尼headphones
+host-suffix,sony.com,direct
+host-suffix,janraincapture.com,direct
+host-suffix,ndmdhs.com,direct
+#育碧
+host-suffix,ubi.com,direct
+host,ubistatic2-a.akamaihd.net,direct
