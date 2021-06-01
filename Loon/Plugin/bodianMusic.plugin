@@ -1,0 +1,2 @@
+[URL Rewrite]
+^http:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/musicResource\/.+ _ reject
