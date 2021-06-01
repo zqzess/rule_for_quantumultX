@@ -156,6 +156,7 @@ PS:
 - [酷我增强插件整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/kuwo.plugin)
 - [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/zhihu.plugin)
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin)
+- [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bodianMusic.plugin)
 
 ### Surge配置文件
 - [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/zqzess_surge.conf)
@@ -164,7 +165,9 @@ PS:
 - [酷我增强插件整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/kuwo.sgmodule)
 - [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/zhihu.sgmodule)
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/BaiduAdBlock.sgmodule)
-- [qq空间广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/QzoneAdBlock.sqmodule)
+- [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/bodianMusic.sgmodule)
+- [safari全能聚合搜索-百度搜索引擎版](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/Qsearch.sqmodule)
+- [Peng-YM油猴脚本转换器surge订阅修正版](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/GreasyFork.sgmodule)
  
 surge搬运：
 - [高级订阅管理工具-必装](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule)
