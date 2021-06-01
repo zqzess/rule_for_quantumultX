@@ -44,3 +44,4 @@
  > - [x] 微博广告屏蔽 -by yichahucha
  > - [x] 抖音广告屏蔽 -by NobyDa
  > - [x] 百度贴吧 -by TributePaulWalker
+ > - [x] 淘宝广告屏蔽 -by gitee-木剑

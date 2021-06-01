@@ -156,3 +156,6 @@ host-suffix, ehg-youtube.hitbox.com, reject
 host-suffix,bgpnode.com,direct
 
 host-suffix,ossez.com,direct
+
+#高德地图
+host,optimus-ads.amap.com,reject
