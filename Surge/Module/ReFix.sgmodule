@@ -1,51 +1,48 @@
 #!name=ReFix
 #!desc=zqzess自用规则修正
 [Rule]
-#小绿人
+# 小绿人
 DOMAIN-SUFFIX,greenmangaming.com,DIRECT
-#衫果
-#DOMAIN,www.sonkwo.hk,DIRECT
-#DOMAIN,static.sonkwo.hk,DIRECT
+# 衫果
 DOMAIN-SUFFIX,sonkwo.hk,DIRECT
 DOMAIN-SUFFIX,sonkwo.com,DIRECT
-#笔趣阁
+# 笔趣阁
 DOMAIN-SUFFIX,biqugeu.com,DIRECT
 DOMAIN-SUFFIX,biquge.com,DIRECT
-#subhd字幕
+## subhd字幕
 DOMAIN-SUFFIX,subhd.tv,DIRECT
 DOMAIN,img.subhd.la,DIRECT
-#
+##
 DOMAIN,zqzess.qicp.vip,DIRECT
-#易有云
+# 易有云
 DOMAIN-SUFFIX,ddns.to,DIRECT
 DOMAIN-SUFFIX,ddnsto.com,DIRECT
-#雀魂麻将
+# 雀魂麻将
 DOMAIN-SUFFIX,maj-soul.com,DIRECT
 DOMAIN-KEYWORD,maj-soul,DIRECT
-#抖音
+# 抖音
 DOMAIN-SUFFIX,amemv.com,DIRECT
-#
+##
 DOMAIN-SUFFIX,laiyifa.org,DIRECT
-#aaex加速器
+# aaex加速器
 DOMAIN-SUFFIX,aaex.hk,Proxy
-#村花
-#DOMAIN-SUFFIX,cunhua.mom,Proxy
+# 村花
 DOMAIN-KEYWORD,cunhua,Proxy
-#
+##
 DOMAIN,www.v2rayssr.com,Proxy
 DOMAIN-SUFFIX,sakura.cat,Proxy
 DOMAIN-SUFFIX,sakura.cloud,Proxy
 DOMAIN,cmshow.gtimg.cn,DIRECT
 DOMAIN,98.142.140.135,DIRECT
 DOMAIN,104.41.164.226,DIRECT
-#
+##
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,DIRECT
 DOMAIN-SUFFIX,6678888.xyz,DIRECT
 DOMAIN,tu.511.la,DIRECT
-#
+##
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,lanzous.com,DIRECT
-#百度输入法(blackmatrix7-Advertising_Domain源错误)
+# 百度输入法(blackmatrix7-Advertising_Domain源错误)
 DOMAIN,sofire.n.shifen.com,DIRECT
 DOMAIN,mime.n.shifen.com,DIRECT
 DOMAIN,static.n.shifen.com,DIRECT
@@ -53,45 +50,42 @@ DOMAIN,static.n.shifen.com,DIRECT
 DOMAIN,adstats.tencentmusic.com,REJECT
 DOMAIN,ad.tencentmusic.com,REJECT
 
-#手机号免密验证登陆(blackmatrix7-Advertising_Domain源错误)
+# 手机号免密验证登陆(blackmatrix7-Advertising_Domain源错误)
 DOMAIN-SUFFIX,id6.me,DIRECT
 
-#bityun
+# bityun
 DOMAIN-SUFFIX,bityun.org,Outside
-#
+##
 DOMAIN-KEYWORD,twimg,Outside
 DOMAIN-SUFFIX,epicgames.com,DIRECT
-#
+##
 DOMAIN,o2o-ad-dev.oss-cn-shanghai.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,cool18.com,Outside
-#tieba
+# tieba
 DOMAIN,aod-image.baidu.com,REJECT
 DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
-
-#YouTube 去底部广告(越狱后可用)
-#DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 
 # 避免迅雷版权问题
 DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
 DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
 DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
 
-#Qcrane牛奶批发商（机场）
+# Qcrane牛奶批发商（机场）
 DOMAIN-SUFFIX,bgpnode.com,DIRECT
 
-#开源计算科学
+# 开源计算科学
 DOMAIN-SUFFIX,ossez.com,DIRECT
 
-#索尼headphones
+# 索尼headphones
 DOMAIN-SUFFIX,sony.com,DIRECT
 DOMAIN-SUFFIX,janraincapture.com,DIRECT
 DOMAIN-SUFFIX,ndmdhs.com,DIRECT
-#育碧
+# 育碧
 DOMAIN-SUFFIX,ubi.com,DIRECT
 DOMAIN,ubistatic2-a.akamaihd.net,DIRECT
-#抖音
+# 抖音
 DOMAIN-SUFFIX,amemv.com,DIRECT
-#qq群公告小程序
+# qq群公告小程序
 DOMAIN,cdn.ark.qq.com,DIRECT

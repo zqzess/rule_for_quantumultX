@@ -8,34 +8,21 @@ URL-REGEX,^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ver\/index_ios$,RE
 URL-REGEX,^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/pay\/ok$,REJECT-TINYGIF
 
 [Script]
-#京东比价
+# 京东比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-#淘宝历史比价
+# 淘宝历史比价
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-#
 解除微信屏蔽 = type=http-response,pattern=https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js,script-update-interval=0
-#emby解锁 = type=http-response,pattern=^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey),requires-body=1,script-path=https://raw.githubusercontent.com/qiangxinglin/Emby/main/scripts/emby.js
-#Netflix IMDB评分显示
+# Netflix IMDB评分显示
 nf_rating.js = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 nf_rating.js = type=http-response,requires-body=1,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 # 单集评分
 nf_rating_season.js = type=http-response,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
-机场信息 = type=http-request,pattern=http://sub\.info,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Sub_info_lite.js
 爱美剧vip解锁 = type=http-response,pattern=^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js,script-update-interval=604800
-# WPS (By eHpo)
-#WPS = type=http-response,pattern=^https://account\.wps\.cn/api/users/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js,script-update-interval=604800
 
 
-#Task
-#京东价格提醒 = type=cron,cronexp=30 0 0-23/1 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,wake-system=true,timeout=600
-#京东价格提醒 = type=cron,cronexp="30 0 0,10,17 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,script-update-interval=604800
-#Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js,script-update-interval=0
-#疫情播报 = type=cron,cronexp=0 8-23/1 * * *,wake-system=1,timeout=60,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js
-#米读签到=type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js
-#米读阅读=type=cron,cronexp=*/2 3-6 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,wake-system=true
-#中青看点自动阅读 = type=cron,cronexp=35 */30 */3 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js,wake-system=1,timeout=3600,script-update-interval=0
-
+# Task
 中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js,wake-system=1,timeout=360,script-update-interval=0
 中青看点浏览赚 = type=cron,cronexp=35 5 8 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js,wake-system=1,timeout=1800,script-update-interval=0
 爱奇艺签到 = type=cron,cronexp=0 8 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js

@@ -2,7 +2,7 @@
 #!desc=波点音乐短视频屏蔽
 
 [Rule]
-#波点音乐
+# 波点音乐
 # DOMAIN,bodiancdn.kuwo.cn,REJECT
 [URL Rewrite]
 ^http:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/musicResource\/.+ - reject
