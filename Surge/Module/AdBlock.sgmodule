@@ -17,7 +17,6 @@ DOMAIN,activation.crossutility.com,DIRECT
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,xwuad.com,REJECT
 DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 DOMAIN-SUFFIX,render.shuqireader.com,REJECT
 DOMAIN-SUFFIX,ali-stats.jpush.cn,REJECT
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,REJECT
@@ -27,6 +26,7 @@ DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
 DOMAIN-SUFFIX,iyes.youku.com,REJECT
 DOMAIN-SUFFIX,sq.sljkj.com,REJECT
 DOMAIN-SUFFIX,s2s.adjust.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao,REJECT
 #百度移动广告联盟，可能误杀
 DOMAIN-SUFFIX,mobads.baidu.com,REJECT
 #腾讯广告联盟，可能误杀
@@ -34,10 +34,6 @@ DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,jcollection.shuqireader.com,REJECT
 DOMAIN-SUFFIX,stats.jpush.cn,REJECT
 DOMAIN-SUFFIX,sdk.kaijiawan.com,REJECT
-#抖音
-DOMAIN-SUFFIX,amemv.com,DIRECT
-#qq群公告小程序
-DOMAIN,cdn.ark.qq.com,DIRECT
 #腾讯视频
 DOMAIN-SUFFIX,tetrack.qq.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
@@ -86,19 +82,19 @@ ctier=[A-Z] ctier=A 302
 
 #书旗小说去广告
 ^http:\/\/ut2\.shuqistat\.com\/.+\.gif - reject
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ - reject
+#^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ - reject
 ^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 - reject
 ^https?:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/.+ - reject
 ^https?:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/ad.+ - reject
-^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/web\.business\.image\/.+ - reject
-^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/arthur\/.+ - reject
-^http:\/\/.+\.pglstatp-toutiao\.com - reject
+#^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/web\.business\.image\/.+ - reject
+#^http:\/\/.+\.pglstatp-toutiao\.com\/obj\/arthur\/.+ - reject
+#^http:\/\/.+\.pglstatp-toutiao\.com - reject
 ^https?:\/\/img-tailor\.11222\.cn\/pm\/app\/.+\.gif - reject
 ^https?:\/\/img-tailor\.11222\.cn\/cms\/upload\/img\/.+ - reject
 ^http:\/\/message\.shuqireader\.com\/message\/.+ - reject
 ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+ - reject
 ^http:\/\/101\.91\.69\.26:8080\/.+ - reject
-^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ - reject
+#^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ - reject
 ^http:\/\/feedback.uc.cn\/feedback\/api\/get_unread_status - reject
 ^http:\/\/.+\.shuqireader\.com\/sapi\/.+ - reject
 
@@ -131,7 +127,7 @@ ctier=[A-Z] ctier=A 302
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 
 #腾讯视频广告屏蔽
-^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 - reject
+#^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 - reject
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 - reject
 ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 - reject
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg - reject

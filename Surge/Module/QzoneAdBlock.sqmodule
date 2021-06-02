@@ -10,10 +10,13 @@ DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,xj-landing.gdtimg.com,REJECT
 
 [URL Rewrite]
-^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid - reject
-^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg - reject
-^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid - reject
-^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid - reject
-^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png - reject
-^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg - reject
+#^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid - reject
+#^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid - reject
+#^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid - reject
+#^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png - reject
+#^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg - reject
+#^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg - reject
+
+^http:\/\/(rpt|v|c)\.gdt\.qq\.com\/(creative_view|gdt_stats|gdt_clickwap)\/.+ - reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+ - reject
 ^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ - reject

@@ -20,25 +20,25 @@ URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch,REJECT
 [URL Rewrite]
 #百度地图开屏广告
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg _ reject
-#百度网盘广告屏蔽(会员卖卡赚钱)
+#百度网盘广告屏蔽
+#https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/guanggao\/.+ _ reject
+# https://pan\.baidu\.com\/act\/api\/activityentry\? - reject
+# http://himg\.bdimg\.com/sys/portrait/item\/.+\.jpg - reject
+#https:\/\/pan\.baidu\.com\/component\/view\/1510\?from _ reject
+
+http:\/\/rp\.hpplay\.cn\/logouts _ reject
 https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
 https:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx _ reject
 https:\/\/pan\.baidu\.com\/api\/useractivity\/activity _ reject
-http:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list _ reject
-#https:\/\/pan\.baidu\.com\/api\/certuser\/get _ reject
-https:\/\/pan\.baidu\.com\/component\/view\/1510\?from _ reject
+https?:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list _ reject
 https:\/\/sofire\.baidu\.com\/ios\/.+ _ reject
 https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js _ reject
 https:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html _ reject
 https:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info _ reject
 https:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png _ reject
-http:\/\/rp\.hpplay\.cn\/logouts _ reject
-#https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/guanggao\/.+ _ reject
 https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ - reject
 https:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adv\? - reject
-# https://pan\.baidu\.com\/act\/api\/activityentry\? - reject
-https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip - reject
-# http://himg\.bdimg\.com/sys/portrait/item\/.+\.jpg - reject
+https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?(vip|from) - reject
 
 #百度贴吧(by TributePaulWalker)
 #hostname=*.tieba.baidu.com,feed-image.baidu.com
@@ -52,9 +52,9 @@ https:\/\/pn\.baidu\.com\/iad\/.+\.json - reject
 ^https:\/\/feed-image\.baidu\.com\/0\/pic\/ - reject
 http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) - reject
 
-#百度输入法
-^https?:\/\/mime\.baidu\.com\/.+\/IosStart\/getStartInfo$ - reject
-^https?:\/\/mime\.baidu\.com\/.+\/activity\/advertisement - reject
+#百度输入法(搬运)
+#^https?:\/\/mime\.baidu\.com\/.+\/IosStart\/getStartInfo$ - reject
+#^https?:\/\/mime\.baidu\.com\/.+\/activity\/advertisement - reject
 
 [Script]
 
