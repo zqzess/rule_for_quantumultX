@@ -1,0 +1,44 @@
+[URL Rewrite]
+
+# gm (Google图片)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gm\+([^&]+) https://www.google.com/search?&tbm=isch&q=$2 302
+
+# gh (GitHub)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gh\+([^&]+) https://github.com/search?q=$2 302
+
+# tf (Google 搜索 TestFlight)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tf(\+|%20)([^&]+) https://www.google.com/search?as_q=$3&as_sitesearch=testflight.apple.com 302
+
+# wb (微博)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wb\+([^&]+) https://s.weibo.com/weibo/$2 302
+
+# wx (微信)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) https://weixin.sogou.com/weixinwap?query=$2 302
+
+# jd (京东)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=jd\+([^&]+) https://so.m.jd.com/ware/search.action?keyword=$2 302
+
+# tb (淘宝)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tb\+([^&]+) https://s.m.taobao.com/h5?q=$2 302
+
+# tm (天猫)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tm\+([^&]+) https://s.m.tmall.com/m/search.htm?q=$2 302
+
+# ytb (YouTube)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ytb\+([^&]+) https://www.youtube.com/results?search_query=$2 302
+
+# ph (PornHub)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ph\+([^&]+) https://cn.pornhub.com/video/search?search=$2 302
+
+# bi (必应)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=bi\+([^&]+) https://cn.bing.com/search?q=$2 302
+
+# ddg (DuckDuckGo)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ddg\+([^&]+) https://duckduckgo.com/?ia=about&q=$2 302
+
+# gg(Google)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gg\+([^&]+) https://www.google.com/search?q=$2 302
+
+
+[MITM]
+hostname = %APPEND% m.baidu.com

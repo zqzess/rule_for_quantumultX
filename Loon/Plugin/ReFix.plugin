@@ -2,8 +2,6 @@
 #小绿人
 DOMAIN-SUFFIX,greenmangaming.com,DIRECT
 #衫果
-DOMAIN,www.sonkwo.hk,DIRECT
-DOMAIN,static.sonkwo.hk,DIRECT
 DOMAIN-SUFFIX,sonkwo.hk,DIRECT
 DOMAIN-SUFFIX,sonkwo.com,DIRECT
 #笔趣阁
@@ -18,7 +16,7 @@ DOMAIN,zqzess.qicp.vip,DIRECT
 DOMAIN-SUFFIX,ddns.to,DIRECT
 DOMAIN-SUFFIX,ddnsto.com,DIRECT
 #雀魂麻将
-DOMAIN,www.maj-soul.com,DIRECT
+DOMAIN-SUFFIX,maj-soul.com,DIRECT
 DOMAIN-KEYWORD,maj-soul,DIRECT
 #抖音
 DOMAIN-SUFFIX,amemv.com,DIRECT
@@ -27,7 +25,6 @@ DOMAIN-SUFFIX,laiyifa.org,DIRECT
 #aaex加速器
 DOMAIN-SUFFIX,aaex.hk,PROXY
 #村花
-DOMAIN-SUFFIX,cunhua.mom,PROXY
 DOMAIN-KEYWORD,cunhua,PROXY
 #
 DOMAIN,www.v2rayssr.com,PROXY
@@ -57,8 +54,6 @@ DOMAIN,js-ad.a.yximgs.com,REJECT
 DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,nadvideo2.baidu.com,REJECT
 
-#YouTube 去底部广告
-DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 
 #Qcrane牛奶批发商（机场）
 DOMAIN-SUFFIX,bgpnode.com,DIRECT
