@@ -43,10 +43,26 @@ DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
 DOMAIN,h.trace.qq.com,REJECT
 # 爱奇艺
 DOMAIN,cr-status.iqiyi.com,REJECT
-DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,f74f7f7765f8a2f6.ngaa.net.cn,REJECT
 DOMAIN,ef-dongfeng.tanx.com,REJECT
 DOMAIN,iqiyim.adtrack.enlightent.cn,REJECT
+DOMAIN,t7z.cupid.iqiyi.com,DIRECT
+DOMAIN,paopao-monitor.iqiyi.com,REJECT
+DOMAIN,puma-api.iqiyi.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,upqzfile.com,REJECT
+DOMAIN,mbdlog.iqiyi.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,myg.qy.net,REJECT
+DOMAIN,www.qchannel01.cn,REJECT
+DOMAIN,iqiyi-mipdx.cn.miaozhen.com,REJECT
+#米读
+URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$,REJECT
+URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$,REJECT
+URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/config\/getAds$,REJECT
+DOMAIN,bid.adview.cn,REJECT
+
+
 # 京东开屏广告屏蔽
 URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 
@@ -109,6 +125,7 @@ ctier=[A-Z] ctier=A 302
 # 携程广告->ma-adx.ctrip.com,m.ctrip.com
 ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
 ^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds - reject
+^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$,REJECT
 
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
 
