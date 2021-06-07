@@ -143,8 +143,14 @@ ctier=[A-Z] ctier=A 302
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg _ reject
 #爱奇艺广告屏蔽
 ^http:\/\/.+\.iqiyipic\.com\/image\/.+\/ad\/.+\.jpg _ reject
-^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video/a2/af/.+\.png _ reject
-^http://msga/.cupid/.iqiyi/.com/scp2.gif _ reject
+^http:\/\/static-s\.iqiyi\.com\/common\/.+\/Small_video\/a2\/af\/.+\.png _ reject
+^http://msga/.cupid/.iqiyi/.com\/scp2\.gif _ reject
+https?:\/\/ssports\.iqiyi\.com\/app\/ _ reject
+https?:\/\/ssports\.iqiyi\.com\/json\/shop\/shopInfo  _ reject
+https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$ _ reject
+https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 _ reject
+https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js _ reject
+https?:\/\/t7z\.cupid\.iqiyi\.com\/show _ reject
 #搬运爱奇艺(by gitee-木剑)
 #hostname=act.vip.iqiyi.com
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo _ reject
@@ -178,4 +184,4 @@ http-request,^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/
 http-response,^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js,requires-body=true,max-size=0,tag=抖音去广告&水印res
 
 [MITM]
-hostname = appconf.mail.163.com,analytics.163.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn,api.bjxkhc.com,act.vip.iqiyi.com, gw.alicdn.com, heic.alicdn.com
+hostname = appconf.mail.163.com,analytics.163.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn,api.bjxkhc.com,act.vip.iqiyi.com, gw.alicdn.com, heic.alicdn.com,apiwz.midukanshu.com,*.iqiyipic.com, *.iqiyi.com
