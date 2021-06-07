@@ -15,7 +15,7 @@ in_fname='./rtmp/Outside.list'
 in_fname2='./rtmp/Global.list'
 in_fname3='./rtmp/Proxy.list'
 in_fname4='./rtmp/Telegram.list'
-out_fname='../rules/Outside.list'
+out_fname='../QuantumultX/rules/Outside.list'
 out_fname2='./rtmp/OutsideTmp.list'
 
 def download():

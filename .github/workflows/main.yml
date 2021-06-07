@@ -47,7 +47,7 @@ jobs:
           git config --global user.email ${USER_EMAIL}
           git config --global user.name ${USER_NAME}
           git add .
-          git commit -m "自动更新规则" -a
+          git commit -m "程序自动更新规则" -a
         env:
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
           USER_NAME: ${{ secrets.USER_NAME }}

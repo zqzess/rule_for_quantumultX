@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # ‐*‐ coding:utf‐8 ‐*‐
 """code_info
-@Time : 2020 2020/10/23 15:32
+@Time : 2021 2021/06/07 19:52
 @Author : zqzess
-@File : ad.py.py
+@File : ad_lite.py
 """
 
 # -*- coding: utf-8 -*-
@@ -18,35 +18,18 @@ import time
 import sys
 import requests
 import re
-import ad_quanX
+import ad_quanX_lite
+import ad_surge_lite
 
 import YTAdBlockFunc
-import ad_surge
 
 rules_url = [
-    # EasyList China
-    #'https://easylist-downloads.adblockplus.org/easylistchina.txt',
-    # EasyList + China
-    'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt',
-    # # 乘风 去视频广告
-    # 'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
-    # #乘风 去广告
-    # 'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
     #乘风广告屏蔽github源
     'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt',
-    # anti-ad-easylist  adguradhome
-    # 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt',
-    # anti-ad-easylist  adgurad
-    'https://anti-ad.net/adguard.txt',
-    # #乘风
-    # 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
     #Adbyby-lazy
     'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/lazy.txt',
     #Adbyby-video
     'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/video.txt',
-    #AdGuard DNS filter
-    'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
-
 ]
 
 rule = ''
@@ -130,9 +113,9 @@ if not os.path.exists('./rtmp'):
 file_ad = sys.stdout
 try:
     if sys.version_info.major == 3:
-        file_ad = open('./rtmp/ad.list', 'w+', encoding='utf-8')
+        file_ad = open('./rtmp/ad_lite.list', 'w+', encoding='utf-8')
     else:
-        file_ad = open('./rtmp/ad.list', 'w+')
+        file_ad = open('./rtmp/ad_lite.list', 'w+')
 except:
     pass
 
@@ -144,29 +127,8 @@ domains.sort()
 for item in domains:
     file_ad.write(item + '\n')
 
-# #去重
-# out_fname = './rtmp/adtmp.list'
-# out_fname2 ='./rtmp/ad.list'
-# a = 0
-# lines_seen = set()
-# outfile = open(out_fname2, "w+")
-# outfile.write('# AdBlock rules refresh time: ' + time.strftime("%Y-%m-%d %H:%M:%S") + '\n\n')
-# f = open(out_fname, "r")
-# for line in f:
-#     if line not in lines_seen:
-#         a += 1
-#         outfile.write(line)
-#         lines_seen.add(line)
-#         # print(a)
-#         # print('\n')
-# outfile.close()
-# print(a)
-# print("去重success")
-
-print("转换开始")
-ad_quanX.Change()
-print("添加youtube去广告")
-YTAdBlockFunc.YTAdBlockFun()
-print("Surge广告屏蔽转换开始")
-ad_surge.SurgeAdChange()
+print("合并转换开始")
+ad_quanX_lite.Change()
+print("转Surge开始")
+ad_surge_lite.SurgeAdChange()
 print("工作结束")

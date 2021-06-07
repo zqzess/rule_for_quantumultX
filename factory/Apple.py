@@ -13,7 +13,7 @@ import re
 
 in_fname='./rtmp/Apple.list'
 in_fname4='./rtmp/Apple2.list'
-out_fname='../rules/Apple.list'
+out_fname='../QuantumultX/rules/Apple.list'
 out_fname2='./rtmp/AppleTmp.list'
 
 def download():

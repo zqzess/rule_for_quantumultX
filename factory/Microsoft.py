@@ -11,7 +11,7 @@ import time
 import wget
 
 in_fname='./rtmp/Microsoft.list'
-out_fname='../rules/Microsoft.list'
+out_fname='../QuantumultX/rules/Microsoft.list'
 
 def download():
     DATA_URL='https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list'

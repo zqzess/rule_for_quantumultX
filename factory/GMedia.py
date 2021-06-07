@@ -13,7 +13,7 @@ import re
 
 in_fname='./rtmp/GMedia.list'
 in_fname2='./rtmp/GlobalMedia.list'
-out_fname='../rules/GMedia.list'
+out_fname='../QuantumultX/rules/GMedia.list'
 out_fname2='./rtmp/GMediaTmp.list'
 
 def download():

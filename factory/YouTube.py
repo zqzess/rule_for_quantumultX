@@ -11,7 +11,7 @@ import time
 import wget
 
 in_fname='./rtmp/YouTube.list'
-out_fname='../rules/YouTube.list'
+out_fname='../QuantumultX/rules/YouTube.list'
 
 def download():
     DATA_URL='https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list'

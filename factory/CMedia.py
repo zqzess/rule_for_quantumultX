@@ -15,7 +15,7 @@ in_fname='./rtmp/CMedia.list'
 # in_fname2='./rtmp/China.list'
 # in_fname3='./rtmp/ChinaIPs.list'
 in_fname4='./rtmp/ChinaMedia.list'
-out_fname='../rules/CMedia.list'
+out_fname='../QuantumultX/rules/CMedia.list'
 out_fname2='./rtmp/CMediaTmp.list'
 
 def download():

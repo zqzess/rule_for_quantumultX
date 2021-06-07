@@ -11,7 +11,7 @@ import time
 import wget
 
 in_fname='./rtmp/Netflix.list'
-out_fname='../rules/Netflix.list'
+out_fname='../QuantumultX/rules/Netflix.list'
 
 def download():
     DATA_URL='https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list'

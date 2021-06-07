@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # ‐*‐ coding:utf‐8 ‐*‐
 """code_info
-@Time : 2021 2021/06/07 15:52
+@Time : 2021 2021/06/07 19:48
 @Author : zqzess
-@File : ad_surge.py
+@File : ad_surge_lite.py
 """
 
 import os
@@ -14,12 +14,12 @@ import sys
 def SurgeAdChange():
     if not os.path.exists('../Surge/List'):
         os.makedirs('../Surge/List')
-    out_fname = '../Surge/List/AdBlock.list'
-    in_fname = '../QuantumultX/rules/AdBlock.list'
+    out_fname = '../Surge/List/AdBlock_lite.list'
+    in_fname = '../QuantumultX/rules/AdBlock_lite.list'
 
     if os.path.exists(out_fname):
         os.remove(out_fname)
-        print("AdBlock.list文件存在，已执行删除")
+        print("AdBlock_lite.list文件存在，已执行删除")
     try:
         if sys.version_info.major == 3:
             f1 = open(in_fname, "r", encoding="utf-8")
