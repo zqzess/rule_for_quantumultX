@@ -5,7 +5,7 @@
 去广告重写开启后请先清除缓存,QuantumultX重写需配合ReFix修正规则
 ```
  > - [x] 一般化广告
- > - [x] spotify去广告加强
+ > - [ ] spotify去广告加强
  > - [x] youtube去广告加强(香港节点效果最好)
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
  > - [x] 番茄小说去章内末广告(且用且珍惜)
@@ -71,18 +71,32 @@ static=Others, Outside, direct, ♻️ 自动选择,🔮 负载均衡,🚀 手�
 ```
 ```
 [filter_remote]
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/ReFix.list,tag=ReFix , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/AdBlock.list, force-policy=AdBlock,tag=AdBlock , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Apple.list, force-policy=Apple,tag=Apple , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/AppleIOSUpdate.list, force-policy=AppleIOSUpdate,tag=AppleIOSUpdate , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Microsoft.list, force-policy=Microsoft,tag=Microsoft , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Netflix.list, force-policy=Netflix,tag=Netflix , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/YouTube.list, force-policy=YouTube,tag=YouTube , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/GMedia.list, force-policy=GMedia,tag=GMedia , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/CMedia.list, force-policy=CMedia,tag=CMedia , enabled=true
+#规则分流修复
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/ReFix.list, tag=ReFix规则修正, update-interval=86400, opt-parser=false, enabled=true
+#自定义
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list, force-policy=AdBlock,tag=AdBlock , enabled=true
+#苹果服务
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list, force-policy=Apple,tag=Apple , enabled=true
+#苹果ios更新屏蔽
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AppleIOSUpdate.list, force-policy=AppleIOSUpdate,tag=AppleIOSUpdate,enabled=true
+#微软
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Microsoft.list, force-policy=Microsoft,tag=Microsoft , enabled=true
+#奈飞
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Netflix.list, force-policy=Netflix,tag=Netflix , enabled=true
+#油管
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/YouTube.list, force-policy=YouTube,tag=YouTube , enabled=true
+#spotify
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=86400, opt-parser=false, enabled=true
+#国际媒体
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/GMedia.list, force-policy=GMedia,tag=GMedia , enabled=true
+#国内媒体
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/CMedia.list, force-policy=CMedia,tag=CMedia , enabled=true
+#speedtest测速
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, force-policy=Speedtest,tag=Speedtest , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Outside.list, force-policy=Outside,tag=Outside , enabled=true
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rules/Mainland.list, force-policy=Mainland,tag=Mainland , enabled=true
+#国外网站
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Outside.list, force-policy=Outside,tag=Outside , enabled=true
+#大陆
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Mainland.list, force-policy=Mainland,tag=Mainland , enabled=true
 ```
 ```
 [filter_local]
@@ -133,12 +147,12 @@ final, Others
 
 ```
 [rewrite_remote]
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ```
 ### 完整配置文件
 **两个版本配置文件均无定时任务**
-- [简洁版-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess_lite.conf)
-- [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/zqzess.conf)
+- [简洁版-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess_lite.conf)
+- [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess.conf)
 
 **使用方法：**
 Quan X主界面，点击右下角风车，然后弹出界面下拉至 配置文件-下载，点击下载,将任一配置文件地址粘贴
