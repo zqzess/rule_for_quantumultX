@@ -27,14 +27,16 @@ rules_url = [
     #'https://easylist-downloads.adblockplus.org/easylistchina.txt',
     # EasyList + China
     'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt',
-    # 乘风 去视频广告
-    'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
-    #乘风 去广告
-    'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
+    # # 乘风 去视频广告
+    # 'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
+    # #乘风 去广告
+    # 'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
+    #乘风广告屏蔽github源
+    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt',
     #anti-ad-easylist
     'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt',
-    #乘风
-    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
+    # #乘风
+    # 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
     #Adbyby-lazy
     'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/lazy.txt',
     #Adbyby-video

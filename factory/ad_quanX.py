@@ -113,44 +113,65 @@ def Change():
             # result = re.search(r'[a-zA-z]+', keywords)
             result2 = re.findall(r'\.', keywords)
             result = re.match(r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$', keywords)  # 只匹配IP
+            chineseWord=re.search(r'[\u4E00-\u9FFF]', keywords)
             # print(keywords)
             # print(result)
             # print(result2)
             # print(result2.__len__())
             if result is not None:
                 # print(keywords)
-                print("IP放弃")
-                # keywords = keywords.replace("\n", "").replace(" ", "")
-                # keywords = "IP-CIDR," + keywords + ",AdBlock"
-                # f2.write(keywords + "\n")
+                # print("IP放弃")
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("\n", "").replace(" ", "")
+                    keywords = "HOST," + keywords + ",AdBlock"
+                    f2.write(keywords + "\n")
                 continue
             if result2.__len__() == 1:
-                keywords = keywords.replace("\n", "").replace(" ", "")
-                keywords = "HOST-SUFFIX," + keywords + ",AdBlock"
-                f2.write(keywords + "\n")
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("\n", "").replace(" ", "")
+                    keywords = "HOST-SUFFIX," + keywords + ",AdBlock"
+                    f2.write(keywords + "\n")
             elif result2.__len__() == 2 | result2.__len__() == 3:
-                keywords = keywords.replace("\n", "").replace(" ", "")
-                keywords = "HOST," + keywords + ",AdBlock"
-                f2.write(keywords + "\n")
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("\n", "").replace(" ", "")
+                    keywords = "HOST," + keywords + ",AdBlock"
+                    f2.write(keywords + "\n")
         for lineTmp in f3.readlines():
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.search('IP-CIDR', keywords)
             result2 = re.search('HOST-KEYWORD', keywords)
             result3 = re.search('#', keywords)
+            chineseWord = re.search(r'[\u4E00-\u9FFF]', keywords)
             # print(result)
             # print(result2)
             # print(result3)
             if result3 != None:
-                print("注释:" + lineTmp)
+                print("注释:" + keywords)
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    f2.write(keywords)
                 continue
             elif result != None:
-                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock", "")
-                f2.write(keywords)
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock", "")
+                    f2.write(keywords)
                 continue
             elif result2 != None:
-                keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock", "")
-                f2.write(keywords)
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("Advertising", "AdBlock").replace(", adblock", "")
+                    f2.write(keywords)
                 continue
 
         # 大圣净化
@@ -162,14 +183,22 @@ def Change():
             if re.search('#', lineTmp) is not None:
                 # f2.write(lineTmp)
                 print("注释:" + lineTmp)
+                if re.search(r'[\u4E00-\u9FFF]', lineTmp) is not None:
+                    print("放弃,有汉字")
+                else:
+                    f2.write(lineTmp)
                 continue
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.search('127.0.0.1', keywords)
+            chineseWord = re.search(r'[\u4E00-\u9FFF]', keywords)
             if result != None:
-                keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
-                keywords = keywords + ",AdBlock\n"
-                f2.write(keywords)
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
+                    keywords = keywords + ",AdBlock\n"
+                    f2.write(keywords)
                 continue
         # 1024
         for lineTmp in f5.readlines():
@@ -179,15 +208,23 @@ def Change():
             if re.search('#', lineTmp) is not None:
                 # f2.write(lineTmp)
                 print("注释:" + lineTmp)
+                if re.search(r'[\u4E00-\u9FFF]', lineTmp) is not None:
+                    print("放弃,有汉字")
+                else:
+                    f2.write(lineTmp)
                 continue
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.findall('127.0.0.1', keywords)
+            chineseWord = re.search(r'[\u4E00-\u9FFF]', keywords)
             if result != None:
                 if result.__len__() == 1:
-                    keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
-                    keywords = keywords + ",AdBlock\n"
-                    f2.write(keywords)
+                    if chineseWord is not None:
+                        print("放弃,有汉字")
+                    else:
+                        keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
+                        keywords = keywords + ",AdBlock\n"
+                        f2.write(keywords)
                 elif result.__len__() >= 2:
                     print("错误:" + keywords)
                 continue
@@ -195,13 +232,21 @@ def Change():
         for lineTmp in f6.readlines():
             if lineTmp.find('#') == 0:
                 print("注释:" + lineTmp)
+                if re.search(r'[\u4E00-\u9FFF]', lineTmp) is not None:
+                    print("放弃,有汉字")
+                else:
+                    f2.write(lineTmp)
                 continue
             keywords = lineTmp
             result = re.search('Zhihu', keywords)
+            chineseWord = re.search(r'[\u4E00-\u9FFF]', keywords)
             # print(result)
             if result != None:
-                keywords = keywords.replace("Zhihu", "AdBlock")
-                f2.write(keywords)
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("ZhihuAds", "AdBlock")
+                    f2.write(keywords)
                 continue
 
         # AdAway Default Blocklist
@@ -213,14 +258,22 @@ def Change():
             if re.search('#', lineTmp) is not None:
                 # f2.write(lineTmp)
                 print("注释:" + lineTmp)
+                if re.search(r'[\u4E00-\u9FFF]', lineTmp) is not None:
+                    print("放弃,有汉字")
+                else:
+                    f2.write(lineTmp)
                 continue
             keywords = lineTmp
             # pattern = re.compile(r'[a-zA-z]+')
             result = re.search('127.0.0.1', keywords)
+            chineseWord = re.search(r'[\u4E00-\u9FFF]', keywords)
             if result != None:
-                keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
-                keywords = keywords + ",AdBlock\n"
-                f2.write(keywords)
+                if chineseWord is not None:
+                    print("放弃,有汉字")
+                else:
+                    keywords = keywords.replace("127.0.0.1 ", "HOST,").replace("\n", "")
+                    keywords = keywords + ",AdBlock\n"
+                    f2.write(keywords)
                 continue
 
         # SpotifyAdBlock
@@ -230,10 +283,10 @@ def Change():
             result2 = re.findall(r'\.', keywords)
             if result is not None:
                 # print(keywords)
-                print("IP放弃")
-                # keywords = keywords.replace("\n", "").replace(" ", "")
-                # keywords = "IP-CIDR," + keywords + ",AdBlock"
-                # f2.write(keywords + "\n")
+                # print("IP放弃")
+                keywords = keywords.replace("\n", "").replace(" ", "")
+                keywords = "HOST," + keywords + ",AdBlock"
+                f2.write(keywords + "\n")
                 continue
             if result2.__len__() > 0:
                 keywords = keywords.replace("\n", "").replace(" ", "")

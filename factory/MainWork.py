@@ -14,6 +14,7 @@ import GMedia
 import Outside
 import Mainland
 import Apple
+import ad_surge
 print("去广告工作开始")
 os.system('python ./ad.py')
 print("CMedia工作开始")
@@ -32,5 +33,7 @@ print("Mainland工作开始")
 Mainland.mainchange()
 print("Apple工作开始")
 Apple.mainchange()
+print("Surge广告屏蔽转换开始")
+ad_surge.SurgeAdChange()
 
 print("所有工作都完成")
