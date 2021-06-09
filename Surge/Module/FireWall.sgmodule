@@ -2,7 +2,7 @@
 #!desc=网络切换时打断app触发联网请求
 
 [Rule]
-AND,((NOT,((OR, (USER-AGENT,Surge*), (RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list))))), (SCRIPT,TIME防火墙)),REJECT
+# AND,((NOT,((OR, (USER-AGENT,Surge*), (RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list))))), (SCRIPT,TIME防火墙)),REJECT
 
 [Script]
 TIME防火墙 = type=rule,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/firewall/TIME防火墙.js
