@@ -179,9 +179,6 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https
 #hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,requires-body=true, timeout=10, tag=微博开屏广告
 http-response ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/(photos/pic_recommend_status|live/media_homelist)|video/tiny_stream_video_list|photo/info|remind/unread_count) script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,requires-body=true, timeout=10,tag=微博开屏广告
-#抖音
-http-request,^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js,tag=抖音去广告&水印req
-http-response,^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js,requires-body=true,max-size=0,tag=抖音去广告&水印res
 
 [MITM]
 hostname = appconf.mail.163.com,analytics.163.com,mbd.baidu.com,m.ads.8le8le.com,iadmusicmat.music.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,*.googlevideo.com,img-tailor.11222.cn,j-image.missfresh.cn,api.bjxkhc.com,act.vip.iqiyi.com, gw.alicdn.com, heic.alicdn.com,apiwz.midukanshu.com,*.iqiyipic.com, *.iqiyi.com
