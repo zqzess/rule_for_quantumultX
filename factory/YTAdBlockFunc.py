@@ -79,9 +79,9 @@ def YTAdBlockFun():
     file_ad = sys.stdout
     try:
         if sys.version_info.major == 3:
-            file_ad = open('../rules/AdBlock.list', 'a', encoding='utf-8')
+            file_ad = open('../QuantumultX/rules/AdBlock.list', 'a', encoding='utf-8')
         else:
-            file_ad = open('../rules/AdBlock.list', 'a')
+            file_ad = open('../QuantumultX/rules/AdBlock.list', 'a')
     except:
         pass
 
