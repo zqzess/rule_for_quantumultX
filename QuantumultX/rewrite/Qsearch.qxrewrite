@@ -1,0 +1,61 @@
+#wk (Wikipedia中文)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
+
+#wiki (Wikipedia)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$2
+
+#sof (Stack Overflow)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=sof\+([^&]+) url 302 https://stackoverflow.com/search?q=$2
+
+# yd  (有道词典)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=yd\+([^&]+) url 302 https://dict.youdao.com/search?q=$2
+
+# trc  (Google 译至中)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=trc\+([^&]+) url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$2
+
+# tre  (Google 译至英)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tre\+([^&]+) url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$2
+
+# trj  (Google 译至日)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=trj\+([^&]+) url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$2
+
+# gm (Google图片)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gm\+([^&]+) url 302 https://www.google.com/search?&tbm=isch&q=$2
+
+# gh (GitHub)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gh\+([^&]+) url 302 https://github.com/search?q=$2
+
+# tf (Google 搜索 TestFlight)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tf(\+|%20)([^&]+) url 302 https://www.google.com/search?as_q=$3&as_sitesearch=testflight.apple.com
+
+# wb (微博)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wb\+([^&]+) url 302 https://s.weibo.com/weibo/$2
+
+# wx (微信)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wx\+([^&]+) url 302 https://weixin.sogou.com/weixinwap?query=$2
+
+# jd (京东)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=jd\+([^&]+) url 302 https://so.m.jd.com/ware/search.action?keyword=$2
+
+# tb (淘宝)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tb\+([^&]+) url 302 https://s.m.taobao.com/h5?q=$2
+
+# tm (天猫)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=tm\+([^&]+) url 302 https://s.m.tmall.com/m/search.htm?q=$2
+
+# ytb (YouTube)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ytb\+([^&]+) url 302 https://www.youtube.com/results?search_query=$2
+
+# ph (PornHub)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ph\+([^&]+) url 302 https://cn.pornhub.com/video/search?search=$2
+
+# bi (必应)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=bi\+([^&]+) url 302 https://cn.bing.com/search?q=$2
+
+# ddg (DuckDuckGo)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=ddg\+([^&]+) url 302 https://duckduckgo.com/?ia=about&q=$2
+
+# gg(Google)
+^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gg\+([^&]+) url 302 https://www.google.com/search?q=$2
+
+hostname = m.baidu.com
