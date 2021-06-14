@@ -4,7 +4,6 @@
 [Rule]
 # 百度输入法
 DOMAIN-KEYWORD,jomodns,REJECT
-URL-REGEX,advertisement$,REJECT
 DOMAIN,res.mi.baidu.com,REJECT
 DOMAIN,r6.mo.baidu.com,REJECT
 URL-REGEX,^https:\/\/mime\.baidu\.com\/v5\/activity\/advertisementnonrealtime,REJECT
