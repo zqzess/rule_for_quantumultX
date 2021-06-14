@@ -202,46 +202,6 @@
         {
             "config": "10 7-19/3 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, tag=彩云天气, enabled=true",
             "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=番茄小说附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite,tag=番茄小说广告屏蔽"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=bilibili附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/bilibili.qxrewrite,tag=bilibili重写合集"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=百度附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/baiduAd.qxrewrite,tag=百度系广告屏蔽"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=自用脚本附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyJsRewrite_lite.qxrewrite,tag=自用脚本"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=波点音乐附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/bodianMusic.conf,tag=波点音乐mv屏蔽"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=自用重写lite附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite_lite.conf,tag=自用重写合集lite订阅"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=自用重写附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite_lite.conf,tag=自用重写合集订阅"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=广告重写附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyAdBlock.qxrewrite,tag=广告重写订阅"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=酷我音乐重写附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/kuwo.qxrewrite,tag=酷我音乐重写订阅"
-        },
-        {
-            "config": "0 0 * * * https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/sample-task.js, img-url=https:\/\/raw.githubusercontent.com\/crossutility\/Quantumult-X\/master\/quantumult-x.png, tag=safari聚合搜索附加组件, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Qsearch.qxrewrite,tag=safari聚合搜索重写订阅"
         }
     ]
 }
