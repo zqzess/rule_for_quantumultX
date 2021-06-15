@@ -150,7 +150,7 @@ def mainchange():
     download()
     Mainland()
     China()
-    ChinaIPs()
+    # ChinaIPs()
     # ChinaTest()
 #去重
     a = 0

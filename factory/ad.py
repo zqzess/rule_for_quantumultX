@@ -38,8 +38,6 @@ rules_url = [
     # 'https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt',
     # anti-ad-easylist  adgurad
     'https://anti-ad.net/adguard.txt',
-    # #乘风
-    # 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
     #Adbyby-lazy
     'https://raw.githubusercontent.com/adbyby/xwhyc-rules/master/lazy.txt',
     #Adbyby-video
@@ -166,7 +164,7 @@ for item in domains:
 print("转换开始")
 ad_quanX.Change()
 print("添加youtube去广告")
-YTAdBlockFunc.YTAdBlockFun()
+# YTAdBlockFunc.YTAdBlockFun()
 print("Surge广告屏蔽转换开始")
 ad_surge.SurgeAdChange()
 print("工作结束")

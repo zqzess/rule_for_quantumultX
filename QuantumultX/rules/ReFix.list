@@ -168,6 +168,8 @@ host-suffix,ndmdhs.com,direct
 host-suffix,ubi.com,direct
 host,ubistatic2-a.akamaihd.net,direct
 #surge
-DOMAIN-SUFFIX,nssurge.com,Outside
+host-SUFFIX,nssurge.com,Outside
 #米读
-DOMAIN,bid.adview.cn,reject
+host,bid.adview.cn,reject
+host-SUFFIX,afdback.ppsimg.com,reject
+host-SUFFIX,fanqianxs.com,direct

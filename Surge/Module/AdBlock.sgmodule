@@ -57,6 +57,7 @@ DOMAIN,myg.qy.net,REJECT
 DOMAIN,www.qchannel01.cn,REJECT
 DOMAIN,iqiyi-mipdx.cn.miaozhen.com,REJECT
 DOMAIN,show.ssports.com,REJECT
+DOMAIN-SUFFIX,afdback.ppsimg.com,REJECT
 #米读
 URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$,REJECT
 URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$,REJECT

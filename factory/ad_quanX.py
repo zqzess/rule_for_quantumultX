@@ -286,12 +286,12 @@ def Change():
                 # print("IP放弃")
                 keywords = keywords.replace("\n", "").replace(" ", "")
                 keywords = "HOST," + keywords + ",AdBlock"
-                f2.write(keywords + "\n")
+                # f2.write(keywords + "\n")
                 continue
             if result2.__len__() > 0:
                 keywords = keywords.replace("\n", "").replace(" ", "")
                 keywords = "HOST," + keywords + ",AdBlock"
-                f2.write(keywords + "\n")
+                # f2.write(keywords + "\n")
                 continue
 
         f1.close()

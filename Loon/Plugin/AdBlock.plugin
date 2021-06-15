@@ -55,7 +55,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,myg.qy.net,REJECT
 DOMAIN,www.qchannel01.cn,REJECT
 DOMAIN,iqiyi-mipdx.cn.miaozhen.com,REJECT
-
+DOMAIN-SUFFIX,afdback.ppsimg.com,REJECT
 #高德地图
 DOMAIN,optimus-ads.amap.com,REJECT
 
