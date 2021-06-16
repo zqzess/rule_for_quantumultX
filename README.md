@@ -6,7 +6,7 @@
 ```
  > - [x] 一般化广告
  > - [ ] spotify去广告加强
- > - [x] youtube去广告加强(香港节点效果最好)
+ > - [x] youtube去广告加强(香港节点效果最好,已修正短视频无法播放)
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
  > - [x] 番茄小说去章内末广告(且用且珍惜)
  > - [x] 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
@@ -148,6 +148,8 @@ final, Others
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
+#youtube广告
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/youtube.qxrewrite, tag=youtube广告屏蔽, update-interval=86400, opt-parser=false, enabled=true
 ```
 ### 完整配置文件
 **两个版本配置文件均无定时任务**
@@ -171,6 +173,7 @@ PS:
 - [知乎增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/zhihu.plugin)
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin)
 - [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bodianMusic.plugin)
+- [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin)
 
 ### Surge配置文件
 - [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/zqzess_surge.conf)
@@ -182,6 +185,7 @@ PS:
 - [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/bodianMusic.sgmodule)
 - [safari全能聚合搜索-百度搜索引擎版](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/Qsearch.sqmodule)
 - [Peng-YM油猴脚本转换器surge订阅修正版](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/GreasyFork.sgmodule)
+- [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/YouTubeAd.sgmodule)
  
 surge搬运：
 - [高级订阅管理工具-必装](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule)

@@ -1,0 +1,12 @@
+#!name=YouTube广告屏蔽
+#!desc=YouTube广告屏蔽，已修正短视频无法观看
+
+[URL Rewrite]
+# YouTube去广告 -> *.googlevideo.com,s.youtube.com,www.youtube.com
+ctier=(?!SH)[A-Z] url 302 citer=A
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com,s.youtube.com,www.youtube.com

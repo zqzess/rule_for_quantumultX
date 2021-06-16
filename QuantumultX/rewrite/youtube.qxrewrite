@@ -1,7 +1,8 @@
 # YouTube去广告
-ctier=[A-Z] url 302 citer=A
+ctier=(?!SH)[A-Z] url 302 citer=A
+#^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier=(?!SH)[A-Z]) url reject-img
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject-200
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject-200
-^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= url reject-200
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe?.*adformat= url reject-200
 
-hostname = *.googlevideo.com
+hostname = *.googlevideo.com,s.youtube.com,www.youtube.com
