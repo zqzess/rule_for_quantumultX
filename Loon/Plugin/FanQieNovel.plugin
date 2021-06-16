@@ -1,36 +1,26 @@
 #番茄小说广告屏蔽
 [Rule]
-#番茄小说
+# 番茄小说
 DOMAIN-SUFFIX,byteimg.com,DIRECT
-#DOMAIN,i.snssdk.com,REJECT
-#DOMAIN,i-lq.snssdk.com,REJECT
-#DOMAIN,imp-toutiao-data.37.com.cn,REJECT
-#DOMAIN,ad.data.lianjia.com,REJECT
+DOMAIN,i.snssdk.com,REJECT
+DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
 
 [URL Rewrite]
-#番茄小说去章末广告
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ _ reject
+# 番茄小说去章末广告
+^https?:\/\/.+\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/(get_ads|stats|settings)\/ _ reject
 ^https?:\/\/.+\.pglstatp-toutiao\.com\/.+\/toutiao\.mp4 _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/img\/ad-app-package\/.+\.image _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/img\/web\.business\.image\/.+\.jpg _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-app-package\/.+ _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/web\.business\.image\/.+ _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/package\.json _ reject
-^https?:\/\/.+\.pglstatp-toutiao\.com\/obj\/ad-pattern\/renderer\/.+\/fallback\.js _ reject
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/(ad-app-package|ad)\/.+ _ reject
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(obj|img)\/web\.business\.image\/.+ _ reject
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/obj\/ad-pattern\/renderer _ reject
 ^https?:\/\/gurd\.snssdk\.com\/src\/server\/v3\/package _ reject
 ^https?:\/\/.+\.byteimg.com/tos-cn-i-1yzifmftcy\/(.+)-jpeg\.jpeg _ reject
 ^https?:\/\/.+\.pstatp\.com\/obj\/mosaic-legacy\/.+\?from\=ad _ reject
-^https?:\/\/.+\.pstatp\.com\/obj\/ad-pattern\/renderer\/package\.json _ reject
 ^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track_log\/src\/.+ _ reject
-^https?:\/\/.+\.pstatp\.com\/obj\/img-cut-tos\/.+ _ reject
-^https?:\/\/.+\.pstatp\.com\/obj\/web\.business\.image\/.+ _ reject
 ^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 _ reject
 ^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ _ reject
-#下面两条来自他人,暂不知是哪个app
+# 下面两条来自他人,暂不知是哪个app
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
-^https?:\/\/.+?\.pstatp\.com\/img\/ad _ reject
-#^https?:\/\/.+?\/(mixer|track2)\? _ reject
 
 [MITM]
-hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.byteimg.com,*.byteimg.com.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,i.snssdk.com,i.snssdk.com.*,i-lq.snssdk.com,i-lq.snssdk.com.*
+hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.byteimg.com,*.byteimg.com.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*
