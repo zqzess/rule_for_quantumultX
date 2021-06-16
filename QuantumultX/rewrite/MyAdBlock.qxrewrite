@@ -20,17 +20,17 @@
 ^https:\/\/www\.google\.com\.hk url 302 https://www.google.com
 
 #YouTuBe去广告
-ctier=[A-Z] url 302 citer=A
-^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject-200
-^https?:\/\/.+?\.googlevideo\.com/.*&(oad|ctier) url reject-200
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-200
-^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-200
-^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-200
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-200
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-200
-^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-200
-^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
+#ctier=[A-Z] url 302 citer=A
+#^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject-200
+#^https?:\/\/.+?\.googlevideo\.com/.*&(oad|ctier) url reject-200
+#^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
+#^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-200
+#^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-200
+#^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-200
+#^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-200
+#^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-200
+#^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-200
+#^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
 
 #书旗小说去广告
 ^http:\/\/ut2\.shuqistat\.com\/.+\.gif url reject
