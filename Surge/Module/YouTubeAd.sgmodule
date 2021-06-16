@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 # YouTube去广告 -> *.googlevideo.com,s.youtube.com,www.youtube.com
-ctier=(?!SH)[A-Z] url 302 citer=A
+ctier=(?!SH)[A-Z] citer=A 302
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
 ^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject

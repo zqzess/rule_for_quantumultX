@@ -1,7 +1,7 @@
 [URL Rewrite]
 
 #YouTube去广告,已修正短视频无法播放 -> *.googlevideo.com,s.youtube.com,www.youtube.com
-ctier=(?!SH)[A-Z] url 302 citer=A
+ctier=(?!SH)[A-Z] citer=A 302
 #^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier=(?!SH)[A-Z]) _ reject-img
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads _ reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) _ reject
