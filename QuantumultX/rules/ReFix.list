@@ -142,6 +142,9 @@ HOST,r6.mo.baidu.com,reject
 # QQ音乐去广告
 HOST,adstats.tencentmusic.com,reject
 HOST,ad.tencentmusic.com,reject
+HOST,adcdn.tencentmusic.com,reject
+HOST,adexpo.tencentmusic.com,reject
+HOST,adclick.tencentmusic.com,reject
 
 #tieba
 HOST,aod-image.baidu.com,reject
