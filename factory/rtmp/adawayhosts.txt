@@ -552,6 +552,11 @@
 127.0.0.1 r8qs.adj.st
 127.0.0.1 sxj8.adj.st
 
+# [adjoe.zone]
+127.0.0.1 fraud.adjoe.zone
+127.0.0.1 prod.fraud.adjoe.zone
+127.0.0.1 prod.adjoe.zone
+
 # [adjust.com]
 127.0.0.1 adjust.com
 127.0.0.1 app.adjust.com
@@ -1752,7 +1757,6 @@
 127.0.0.1 ds-aksb-a.akamaihd.net
 127.0.0.1 inmobisdk-a.akamaihd.net
 127.0.0.1 middycdn-a.akamaihd.net
-127.0.0.1 snappytvpoc-vh.akamaihd.net
 127.0.0.1 supersonicads-a.akamaihd.net
 
 # [akamaized.net]
@@ -2166,14 +2170,6 @@
 # [appbrain.com]
 127.0.0.1 sdk.appbrain.com
 
-# [appcelerator.com]
-127.0.0.1 api.appcelerator.com
-127.0.0.1 cloud.appcelerator.com
-127.0.0.1 api.cloud.appcelerator.com
-
-# [appcenter.ms]
-127.0.0.1 in.appcenter.ms
-
 # [appchair.com]
 127.0.0.1 ads.appchair.com
 
@@ -2190,12 +2186,6 @@
 # [appcnt.com]
 127.0.0.1 bannerwall.s3.appcnt.com
 
-# [appdynamics.com]
-127.0.0.1 api.appdynamics.com
-127.0.0.1 analytics.api.appdynamics.com
-127.0.0.1 cdn.appdynamics.com
-127.0.0.1 saas.appdynamics.com
-
 # [appearch.info]
 127.0.0.1 appearch.info
 
@@ -2208,9 +2198,6 @@
 
 # [appgrowth.com]
 127.0.0.1 creative-cdn.appgrowth.com
-
-# [apphb.com]
-127.0.0.1 variantswatches.apphb.com
 
 # [appia.com]
 127.0.0.1 appia.com
@@ -2307,9 +2294,6 @@
 127.0.0.1 d.applvn.com
 127.0.0.1 ms.applvn.com
 127.0.0.1 rt.applvn.com
-
-# [appmachine.com]
-127.0.0.1 apps.appmachine.com
 
 # [appnext.com]
 127.0.0.1 admin.appnext.com
@@ -6450,10 +6434,6 @@
 # [itracker360.com]
 127.0.0.1 ip.itracker360.com
 
-# [iubenda.com]
-127.0.0.1 cdn.iubenda.com
-127.0.0.1 hits-i.iubenda.com
-
 # [ivitrack.com]
 127.0.0.1 itm.ivitrack.com
 127.0.0.1 matching.ivitrack.com
@@ -7963,6 +7943,9 @@
 127.0.0.1 analytics.lb.mobileapphelper.com
 
 # [mobileapptracking.com]
+127.0.0.1 deeplink.mobileapptracking.com
+127.0.0.1 7336.deeplink.mobileapptracking.com
+127.0.0.1 engine.mobileapptracking.com
 127.0.0.1 10148.engine.mobileapptracking.com
 127.0.0.1 159126.engine.mobileapptracking.com
 127.0.0.1 167126.engine.mobileapptracking.com
@@ -8003,15 +7986,12 @@
 127.0.0.1 3612.engine.mobileapptracking.com
 127.0.0.1 4984.engine.mobileapptracking.com
 127.0.0.1 5094.engine.mobileapptracking.com
-127.0.0.1 7336.deeplink.mobileapptracking.com
 127.0.0.1 7336.engine.mobileapptracking.com
 127.0.0.1 8008.engine.mobileapptracking.com
 127.0.0.1 8604.engine.mobileapptracking.com
 127.0.0.1 8696.engine.mobileapptracking.com
 127.0.0.1 943.engine.mobileapptracking.com
 127.0.0.1 9864.engine.mobileapptracking.com
-127.0.0.1 deeplink.mobileapptracking.com
-127.0.0.1 engine.mobileapptracking.com
 
 # [mobilebanner.ru]
 127.0.0.1 mobilebanner.ru
