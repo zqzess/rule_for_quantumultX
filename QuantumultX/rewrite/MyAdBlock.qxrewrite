@@ -15,9 +15,9 @@
 ^http:\/\/app\.zhoudamozi\.com\/ad\/.+ url reject-200
 
 #Google搜索中国，香港，日本重定向
-^https?:\/\/(www.)?(g|google)\.cn\/. url 302 https://www.google.com/search
-^https:\/\/www\.google\.co\.jp\/. url 302 https://www.google.com/search
-^https:\/\/www\.google\.com\.hk\/. url 302 https://www.google.com/search
+^https?:\/\/(www.)?(g|google)\.cn\/.+ url 302 https://www.google.com/search
+^https:\/\/www\.google\.co\.jp\/.+ url 302 https://www.google.com/search
+^https:\/\/www\.google\.com\.hk\/.+ url 302 https://www.google.com/search
 
 #YouTuBe去广告
 #ctier=[A-Z] url 302 citer=A
