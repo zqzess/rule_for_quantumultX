@@ -133,8 +133,20 @@ DOMAIN,bid.adview.cn,REJECT
 #京东开屏广告屏蔽(改写自surge)
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ _ reject-array
 
+# QQ音乐去广告
+DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adcdn.tencentmusic.com,REJECT
+DOMAIN,adexpo.tencentmusic.com,REJECT
+DOMAIN,adclick.tencentmusic.com,REJECT
+DOMAIN,p.l.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,oth.bls.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,sngdia.imtmp.net,REJECT
+
 #腾讯视频广告屏蔽
-^http:\/\/.+/\?tk=9901afb195dcf9a34db6088a4a221dba38b3d980e4db86009f8a08be4d4099ee323f6e7f03b881db21133b1bf2ae5bc5 _ reject
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 _ reject
 ^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+\.mp4 _ reject
 ^http:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg _ reject
