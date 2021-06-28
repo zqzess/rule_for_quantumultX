@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-06-21 01:46:15
+# Mainland rules refresh time: 2021-06-28 01:35:56
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -452,6 +452,7 @@ HOST-SUFFIX,hddolby.com,Mainland
 HOST-SUFFIX,hdhome.org,Mainland
 HOST-SUFFIX,hdsky.me,Mainland
 HOST-SUFFIX,hdslb.com,Mainland
+HOST-SUFFIX,heweather.net,Mainland
 HOST-SUFFIX,hicloud.com,Mainland
 HOST-SUFFIX,hitv.com,Mainland
 HOST-SUFFIX,hkserversolution.com,Mainland
@@ -575,6 +576,7 @@ HOST-SUFFIX,qiniu.com,Mainland
 HOST-SUFFIX,qiyi.com,Mainland
 HOST-SUFFIX,qiyipic.com,Mainland
 HOST-SUFFIX,qqmail.com,Mainland
+HOST-SUFFIX,qweather.com,Mainland
 HOST-SUFFIX,qyer.com,Mainland
 HOST-SUFFIX,qyerstatic.com,Mainland
 HOST-SUFFIX,raychase.net,Mainland
