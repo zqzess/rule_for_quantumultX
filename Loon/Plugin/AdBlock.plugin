@@ -32,6 +32,18 @@ DOMAIN-SUFFIX,sdk.kaijiawan.com,REJECT
 DOMAIN-SUFFIX,amemv.com,DIRECT
 #qq群公告小程序
 DOMAIN,cdn.ark.qq.com,DIRECT
+# QQ音乐去广告
+DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adcdn.tencentmusic.com,REJECT
+DOMAIN,adexpo.tencentmusic.com,REJECT
+DOMAIN,adclick.tencentmusic.com,REJECT
+DOMAIN,p.l.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,oth.bls.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,sngdia.imtmp.net,REJECT
 #腾讯视频
 DOMAIN-SUFFIX,tetrack.qq.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
@@ -132,19 +144,6 @@ DOMAIN,bid.adview.cn,REJECT
 
 #京东开屏广告屏蔽(改写自surge)
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ _ reject-array
-
-# QQ音乐去广告
-DOMAIN,adstats.tencentmusic.com,REJECT
-DOMAIN,ad.tencentmusic.com,REJECT
-DOMAIN,adcdn.tencentmusic.com,REJECT
-DOMAIN,adexpo.tencentmusic.com,REJECT
-DOMAIN,adclick.tencentmusic.com,REJECT
-DOMAIN,p.l.qq.com,REJECT
-DOMAIN,sdk.e.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,oth.bls.mdt.qq.com,REJECT
-DOMAIN-SUFFIX,beacon.qq.com,REJECT
-DOMAIN-SUFFIX,sngdia.imtmp.net,REJECT
 
 #腾讯视频广告屏蔽
 ^http:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 _ reject
