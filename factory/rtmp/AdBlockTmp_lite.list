@@ -3916,6 +3916,7 @@ HOST,a.ltdnc.com,AdBlock
 HOST,a.lz13.cn,AdBlock
 HOST,a.o333o.com,AdBlock
 HOST,a.pub.network,AdBlock
+HOST,a.realsrv.com,AdBlock
 HOST,a.teads.tv,AdBlock
 HOST,a.travel-assets.com,AdBlock
 HOST,a.vfgtb.com,AdBlock
@@ -4055,6 +4056,7 @@ HOST,ads9.contentabc.com,AdBlock
 HOST,adscdn.baidu.com,AdBlock
 HOST,adsclick.qq.com,AdBlock
 HOST,adsco.re,AdBlock
+HOST,adserve.work,AdBlock
 HOST,adserver.juicyads.com,AdBlock
 HOST,adservice.google.com,AdBlock
 HOST,adsexpert.net,AdBlock
@@ -4796,6 +4798,7 @@ HOST,dpm.demdex.net,AdBlock
 HOST,dps.jp.cinarra.com,AdBlock
 HOST,drivecdn.com,AdBlock
 HOST,ds.waimaofuzhuang.cn,AdBlock
+HOST,dsj66.cn,AdBlock
 HOST,dsp-click.youdao.com,AdBlock
 HOST,dtscout.rtb.adx1.com,AdBlock
 HOST,dup.baidustatic.com,AdBlock
@@ -6008,6 +6011,7 @@ HOST,syndication.ero-advertising.com,AdBlock
 HOST,syndication.exdynsrv.com,AdBlock
 HOST,syndication.exoclick.com,AdBlock
 HOST,syndication.exosrv.com,AdBlock
+HOST,syndication.realsrv.com,AdBlock
 HOST,szzero.livechatvalue.com,AdBlock
 HOST,t.dtscdn.com,AdBlock
 HOST,t.frtyh.com,AdBlock
@@ -7089,6 +7093,7 @@ HOST,zz.isoo.cc,AdBlock
 HOST,zz999350.com,AdBlock
 HOST,zzcw.uuzham.com,AdBlock
 HOST,zzxbn.com,AdBlock
+HOST,www.adspyglass.com,AdBlock
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -8515,8 +8520,6 @@ HOST,sync.alphonso.tv,AdBlock
 HOST,tr.alphonso.tv,AdBlock
 # [altamob.com]
 HOST,api.altamob.com,AdBlock
-# [altbalaji.com]
-HOST,cdn.cloud.altbalaji.com,AdBlock
 # [altitude-arena.com]
 HOST,altitude-arena.com,AdBlock
 HOST,ads.altitude-arena.com,AdBlock
@@ -13587,7 +13590,6 @@ HOST,a.ads2.msn.com,AdBlock
 HOST,mobileads.msn.com,AdBlock
 HOST,rads.msn.com,AdBlock
 HOST,srtb.msn.com,AdBlock
-HOST,superapp.msn.com,AdBlock
 # [msstatic.com]
 HOST,sdkconf.msstatic.com,AdBlock
 # [mtburn.com]
@@ -13880,20 +13882,6 @@ HOST,apicssdk.onemt.co,AdBlock
 HOST,click.oneplus.com,AdBlock
 # [onetrust.com]
 HOST,geolocation.onetrust.com,AdBlock
-# [online-metrix.net]
-HOST,aa.online-metrix.net,AdBlock
-HOST,d.aa.online-metrix.net,AdBlock
-HOST,e.aa.online-metrix.net,AdBlock
-HOST,eu-aa.online-metrix.net,AdBlock
-HOST,h.online-metrix.net,AdBlock
-HOST,h-ebay.online-metrix.net,AdBlock
-HOST,h-fidelity.online-metrix.net,AdBlock
-HOST,h-sdk.online-metrix.net,AdBlock
-HOST,h-signifyd.online-metrix.net,AdBlock
-HOST,h-tdcanada.online-metrix.net,AdBlock
-HOST,h6.online-metrix.net,AdBlock
-HOST,rbc.online-metrix.net,AdBlock
-HOST,h-d3tracking.rbc.online-metrix.net,AdBlock
 # [onscroll.com]
 HOST,impl.onscroll.com,AdBlock
 HOST,onetag-geo.onscroll.com,AdBlock

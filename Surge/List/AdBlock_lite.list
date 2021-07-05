@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-06-28 01:35:53
+# AdBlock rules refresh time: 2021-07-05 01:35:14
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -3828,6 +3828,7 @@ DOMAIN,a.ltdnc.com
 DOMAIN,a.lz13.cn
 DOMAIN,a.o333o.com
 DOMAIN,a.pub.network
+DOMAIN,a.realsrv.com
 DOMAIN,a.teads.tv
 DOMAIN,a.travel-assets.com
 DOMAIN,a.vfgtb.com
@@ -3949,6 +3950,7 @@ DOMAIN,ads6.contentabc.com
 DOMAIN,ads7.contentabc.com
 DOMAIN,ads8.contentabc.com
 DOMAIN,ads9.contentabc.com
+DOMAIN,adserve.work
 DOMAIN,adsexpert.net
 DOMAIN,adsfactor.net
 DOMAIN,adskeeper.co.uk
@@ -4650,6 +4652,7 @@ DOMAIN,dpm.demdex.net
 DOMAIN,dps.jp.cinarra.com
 DOMAIN,drivecdn.com
 DOMAIN,ds.waimaofuzhuang.cn
+DOMAIN,dsj66.cn
 DOMAIN,dsp-click.youdao.com
 DOMAIN,dtscout.rtb.adx1.com
 DOMAIN,dw-collect.ksosoft.com
@@ -5781,6 +5784,7 @@ DOMAIN,syndication.ero-advertising.com
 DOMAIN,syndication.exdynsrv.com
 DOMAIN,syndication.exoclick.com
 DOMAIN,syndication.exosrv.com
+DOMAIN,syndication.realsrv.com
 DOMAIN,szzero.livechatvalue.com
 DOMAIN,t.dtscdn.com
 DOMAIN,t.frtyh.com
@@ -6818,6 +6822,7 @@ DOMAIN,zz.isoo.cc
 DOMAIN,zz999350.com
 DOMAIN,zzcw.uuzham.com
 DOMAIN,zzxbn.com
+DOMAIN,www.adspyglass.com
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -8174,8 +8179,6 @@ DOMAIN,sync.alphonso.tv
 DOMAIN,tr.alphonso.tv
 # [altamob.com]
 DOMAIN,api.altamob.com
-# [altbalaji.com]
-DOMAIN,cdn.cloud.altbalaji.com
 # [altitude-arena.com]
 DOMAIN,altitude-arena.com
 DOMAIN,ads.altitude-arena.com
@@ -13006,7 +13009,6 @@ DOMAIN,b.ads1.msn.com
 DOMAIN,a.ads2.msn.com
 DOMAIN,rads.msn.com
 DOMAIN,srtb.msn.com
-DOMAIN,superapp.msn.com
 # [msstatic.com]
 DOMAIN,sdkconf.msstatic.com
 # [mtburn.com]
@@ -13294,20 +13296,6 @@ DOMAIN,apicssdk.onemt.co
 DOMAIN,click.oneplus.com
 # [onetrust.com]
 DOMAIN,geolocation.onetrust.com
-# [online-metrix.net]
-DOMAIN,aa.online-metrix.net
-DOMAIN,d.aa.online-metrix.net
-DOMAIN,e.aa.online-metrix.net
-DOMAIN,eu-aa.online-metrix.net
-DOMAIN,h.online-metrix.net
-DOMAIN,h-ebay.online-metrix.net
-DOMAIN,h-fidelity.online-metrix.net
-DOMAIN,h-sdk.online-metrix.net
-DOMAIN,h-signifyd.online-metrix.net
-DOMAIN,h-tdcanada.online-metrix.net
-DOMAIN,h6.online-metrix.net
-DOMAIN,rbc.online-metrix.net
-DOMAIN,h-d3tracking.rbc.online-metrix.net
 # [onscroll.com]
 DOMAIN,impl.onscroll.com
 DOMAIN,onetag-geo.onscroll.com
