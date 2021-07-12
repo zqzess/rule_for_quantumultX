@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-07-05 01:35:15
+# GMedia rules refresh time: 2021-07-12 01:35:22
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -198,11 +198,11 @@ HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
 HOST-SUFFIX,amplify.outbrain.com,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
-HOST-SUFFIX,app.biliintl.com,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bam.nr-data.net,GMedia
 HOST-SUFFIX,bbc.net.uk,GMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GMedia
+HOST-SUFFIX,biliintl.com,GMedia
 HOST-SUFFIX,bluekai.com,GMedia
 HOST-SUFFIX,boltdns.net,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
@@ -308,6 +308,8 @@ HOST-SUFFIX,twitchcdn.net,GMedia
 HOST-SUFFIX,urbanairship.com,GMedia
 HOST-SUFFIX,urlload.net,GMedia
 HOST-SUFFIX,vjs.zencdn.net,GMedia
+HOST-SUFFIX,wetv.vip,GMedia
+HOST-SUFFIX,wetvinfo.com,GMedia
 HOST-SUFFIX,yahoo.co.jp,GMedia
 HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
@@ -362,6 +364,7 @@ USER-AGENT,TVer-Release*,GMedia
 USER-AGENT,TaiwanGood*,GMedia
 USER-AGENT,TikTok*,GMedia
 USER-AGENT,Viu*,GMedia
+USER-AGENT,WeTV*,GMedia
 USER-AGENT,YouTubeMusic*,GMedia
 USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
@@ -378,6 +381,7 @@ IP-CIDR,105.187.243.5/32,GMedia
 IP-CIDR,105.187.243.6/32,GMedia
 IP-CIDR,110.238.107.47/32,GMedia
 IP-CIDR,112.198.26.2/32,GMedia
+IP-CIDR,118.26.32.178/32,GMedia
 IP-CIDR,122.155.238.138/32,GMedia
 IP-CIDR,122.155.238.142/32,GMedia
 IP-CIDR,122.155.238.146/32,GMedia
@@ -412,6 +416,7 @@ IP-CIDR,147.75.112.66/31,GMedia
 IP-CIDR,149.165.180.133/32,GMedia
 IP-CIDR,149.165.180.134/32,GMedia
 IP-CIDR,149.255.128.1/32,GMedia
+IP-CIDR,150.109.28.51/32,GMedia
 IP-CIDR,151.5.17.19/32,GMedia
 IP-CIDR,151.5.17.43/32,GMedia
 IP-CIDR,161.0.157.195/32,GMedia
@@ -792,6 +797,7 @@ IP-CIDR,208.76.186.7/32,GMedia
 IP-CIDR,209.166.100.18/32,GMedia
 IP-CIDR,209.166.100.22/32,GMedia
 IP-CIDR,210.201.32.11/32,GMedia
+IP-CIDR,210.201.32.8/32,GMedia
 IP-CIDR,211.25.221.90/32,GMedia
 IP-CIDR,211.25.221.94/32,GMedia
 IP-CIDR,212.113.160.242/32,GMedia
