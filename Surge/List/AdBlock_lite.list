@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-07-12 01:35:20
+# AdBlock rules refresh time: 2021-07-19 01:36:53
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -1695,6 +1695,7 @@ DOMAIN-SUFFIX,tencentmind.com
 DOMAIN-SUFFIX,tenoad.com
 DOMAIN,test.ad.xiaomi.com
 DOMAIN-SUFFIX,th21333.com
+DOMAIN-SUFFIX,thanosofcos5.com
 DOMAIN-SUFFIX,theporndude.com
 DOMAIN-SUFFIX,thxnr.com
 DOMAIN-SUFFIX,tianji520.cn
@@ -2010,8 +2011,6 @@ DOMAIN-SUFFIX,yigyx.com
 DOMAIN-SUFFIX,yiiwoo.com
 DOMAIN-SUFFIX,yiiyoo.net
 DOMAIN-SUFFIX,yijia2009.com
-DOMAIN-SUFFIX,yijieweizf.com
-DOMAIN-SUFFIX,yingdatuofu.com
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,livew.l.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -8245,70 +8244,134 @@ DOMAIN,fls-eu.amazon.sa
 DOMAIN,fls-eu.amazon.se
 # [amazon.sg]
 DOMAIN,fls-fe.amazon.sg
-# [amazonaws.com]
+# [kinesis.ap-southeast-1.amazonaws.com]
 DOMAIN,kinesis.ap-southeast-1.amazonaws.com
+# [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
+# [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,adserver-1277986481.ap-northeast-1.elb.amazonaws.com
+# [adserver-vpc-alb-0-649637586.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-0-649637586.ap-northeast-1.elb.amazonaws.com
+# [adserver-vpc-alb-1-769379334.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-1-769379334.ap-northeast-1.elb.amazonaws.com
+# [data-collect-337392791.ap-northeast-2.elb.amazonaws.com]
 DOMAIN,data-collect-337392791.ap-northeast-2.elb.amazonaws.com
+# [ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com]
 DOMAIN,ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com
+# [ads-816899299.ap-southeast-1.elb.amazonaws.com]
 DOMAIN,ads-816899299.ap-southeast-1.elb.amazonaws.com
+# [rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com]
 DOMAIN,rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com
+# [tracking-1659963975.ap-southeast-1.elb.amazonaws.com]
 DOMAIN,tracking-1659963975.ap-southeast-1.elb.amazonaws.com
+# [adserver-clarium-1405844056.eu-central-1.elb.amazonaws.com]
 DOMAIN,adserver-clarium-1405844056.eu-central-1.elb.amazonaws.com
+# [admantx-cluster-nlb-eu-2071973585.eu-west-1.elb.amazonaws.com]
 DOMAIN,admantx-cluster-nlb-eu-2071973585.eu-west-1.elb.amazonaws.com
+# [adservingvpc-1239633584.eu-west-1.elb.amazonaws.com]
 DOMAIN,adservingvpc-1239633584.eu-west-1.elb.amazonaws.com
+# [beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com]
 DOMAIN,beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com
+# [prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com]
 DOMAIN,prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
+# [adktracking-1671721947.eu-west-3.elb.amazonaws.com]
 DOMAIN,adktracking-1671721947.eu-west-3.elb.amazonaws.com
+# [adn-tktracking-virginia-621472495.us-east-1.elb.amazonaws.com]
 DOMAIN,adn-tktracking-virginia-621472495.us-east-1.elb.amazonaws.com
+# [adserver-2084671375.us-east-1.elb.amazonaws.com]
 DOMAIN,adserver-2084671375.us-east-1.elb.amazonaws.com
+# [adserver-clarium-446793891.us-east-1.elb.amazonaws.com]
 DOMAIN,adserver-clarium-446793891.us-east-1.elb.amazonaws.com
+# [adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com
+# [adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com
+# [adserver-vpc-alb-2-1898430250.us-east-1.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-2-1898430250.us-east-1.elb.amazonaws.com
+# [adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com]
 DOMAIN,adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com
+# [analytics-collector-28944298.us-east-1.elb.amazonaws.com]
 DOMAIN,analytics-collector-28944298.us-east-1.elb.amazonaws.com
+# [audience-164723144.us-east-1.elb.amazonaws.com]
 DOMAIN,audience-164723144.us-east-1.elb.amazonaws.com
+# [engagement-bus-prod-713264365.us-east-1.elb.amazonaws.com]
 DOMAIN,engagement-bus-prod-713264365.us-east-1.elb.amazonaws.com
+# [log-collectors-73517960.us-east-1.elb.amazonaws.com]
 DOMAIN,log-collectors-73517960.us-east-1.elb.amazonaws.com
+# [lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com]
 DOMAIN,lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com
+# [nova-collector-1192479543.us-east-1.elb.amazonaws.com]
 DOMAIN,nova-collector-1192479543.us-east-1.elb.amazonaws.com
+# [pixel-967319188.us-east-1.elb.amazonaws.com]
 DOMAIN,pixel-967319188.us-east-1.elb.amazonaws.com
+# [prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com]
 DOMAIN,prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com
+# [rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com]
 DOMAIN,rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
+# [tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com]
 DOMAIN,tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com
+# [tracker-sp-elb-1474841806.us-east-1.elb.amazonaws.com]
 DOMAIN,tracker-sp-elb-1474841806.us-east-1.elb.amazonaws.com
+# [tracking-1611167402.us-east-1.elb.amazonaws.com]
 DOMAIN,tracking-1611167402.us-east-1.elb.amazonaws.com
+# [vop-tracking-vpc-1741893498.us-east-1.elb.amazonaws.com]
 DOMAIN,vop-tracking-vpc-1741893498.us-east-1.elb.amazonaws.com
+# [wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com]
 DOMAIN,wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com
+# [ads-b-480313385.us-west-1.elb.amazonaws.com]
 DOMAIN,ads-b-480313385.us-west-1.elb.amazonaws.com
+# [ads-c-1854119718.us-west-1.elb.amazonaws.com]
 DOMAIN,ads-c-1854119718.us-west-1.elb.amazonaws.com
+# [adserver-clarium-1718981494.us-west-1.elb.amazonaws.com]
 DOMAIN,adserver-clarium-1718981494.us-west-1.elb.amazonaws.com
+# [adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com
+# [adserver-vpc-alb-1-725730730.us-west-2.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-1-725730730.us-west-2.elb.amazonaws.com
+# [adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com
+# [adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com]
 DOMAIN,adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com
+# [adtag-or2-697022674.us-west-2.elb.amazonaws.com]
 DOMAIN,adtag-or2-697022674.us-west-2.elb.amazonaws.com
+# [adtrue-track-server-1082517350.us-west-2.elb.amazonaws.com]
 DOMAIN,adtrue-track-server-1082517350.us-west-2.elb.amazonaws.com
+# [beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com]
 DOMAIN,beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
+# [dco-jads-727222375.us-west-2.elb.amazonaws.com]
 DOMAIN,dco-jads-727222375.us-west-2.elb.amazonaws.com
+# [insight-1616140656.us-west-2.elb.amazonaws.com]
 DOMAIN,insight-1616140656.us-west-2.elb.amazonaws.com
+# [prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com]
 DOMAIN,prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
+# [rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com]
 DOMAIN,rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com
+# [wildcard-ads-448740142.us-west-2.elb.amazonaws.com]
 DOMAIN,wildcard-ads-448740142.us-west-2.elb.amazonaws.com
+# [admarvel.s3.amazonaws.com]
+# [advancelocal-adapter-image-uploads.s3.amazonaws.com]
 DOMAIN,advancelocal-adapter-image-uploads.s3.amazonaws.com
+# [btf-analytics.s3.amazonaws.com]
 DOMAIN,btf-analytics.s3.amazonaws.com
+# [chartbeat-sdk.s3.amazonaws.com]
 DOMAIN,chartbeat-sdk.s3.amazonaws.com
+# [chartiq-client-prod.s3.amazonaws.com]
 DOMAIN,chartiq-client-prod.s3.amazonaws.com
+# [clickwallads.s3.amazonaws.com]
 DOMAIN,clickwallads.s3.amazonaws.com
+# [ignifyecom.s3.amazonaws.com]
 DOMAIN,ignifyecom.s3.amazonaws.com
+# [incoming-data-sense360.s3.amazonaws.com]
 DOMAIN,incoming-data-sense360.s3.amazonaws.com
+# [nativead.s3.amazonaws.com]
 DOMAIN,nativead.s3.amazonaws.com
+# [surveygizmobeacon.s3.amazonaws.com]
 DOMAIN,surveygizmobeacon.s3.amazonaws.com
+# [s3-accelerate.amazonaws.com]
 DOMAIN,later-analytics-reports.s3-accelerate.amazonaws.com
+# [execute-api.us-east-1.amazonaws.com]
 DOMAIN,bin5y4muil.execute-api.us-east-1.amazonaws.com
+# [mobileanalytics.us-east-1.amazonaws.com]
 DOMAIN,mobileanalytics.us-east-1.amazonaws.com
 # [amazonsilk.com]
 DOMAIN,global.cmcs.service.amazonsilk.com
@@ -8606,20 +8669,33 @@ DOMAIN,config.appsgeyser.com
 DOMAIN,files.appsgeyser.com
 DOMAIN,frame.appsgeyser.com
 DOMAIN,stat.appsgeyser.com
-# [appspot.com]
+# [adasiatagmanager.appspot.com]
 DOMAIN,adasiatagmanager.appspot.com
+# [amp-error-reporting.appspot.com]
 DOMAIN,amp-error-reporting.appspot.com
+# [bdg-analytics.appspot.com]
 DOMAIN,bdg-analytics.appspot.com
+# [ga-beacon.appspot.com]
 DOMAIN,ga-beacon.appspot.com
+# [geoapi123.appspot.com]
 DOMAIN,geoapi123.appspot.com
+# [ima3vpaid.appspot.com]
 DOMAIN,ima3vpaid.appspot.com
+# [is-tracking-pixel-api-prod.appspot.com]
 DOMAIN,is-tracking-pixel-api-prod.appspot.com
+# [musculahq.appspot.com]
 DOMAIN,musculahq.appspot.com
+# [rs-xpromotion.appspot.com]
 DOMAIN,rs-xpromotion.appspot.com
+# [sc-analytics.appspot.com]
 DOMAIN,sc-analytics.appspot.com
+# [snapabug.appspot.com]
 DOMAIN,snapabug.appspot.com
+# [tap-nexus.appspot.com]
 DOMAIN,tap-nexus.appspot.com
+# [tc-bic.appspot.com]
 DOMAIN,tc-bic.appspot.com
+# [triggeredmail.appspot.com]
 DOMAIN,triggeredmail.appspot.com
 # [apptap.com]
 DOMAIN,api.apptap.com
@@ -8788,7 +8864,7 @@ DOMAIN,sac.ayads.co
 # [azureedge.net]
 DOMAIN,masdpanalytics.azureedge.net
 DOMAIN,opimedia.azureedge.net
-# [azurewebsites.net]
+# [ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net]
 DOMAIN,ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 # [b2c.com]
 DOMAIN,b2c.com
@@ -9385,8 +9461,9 @@ DOMAIN,mxase.clmbtech.com
 DOMAIN,tml.clmbtech.com
 # [cloud-elements.com]
 DOMAIN,g2c.cloud-elements.com
-# [cloudapp.net]
+# [ailoganalyticsportal-eus.cloudapp.net]
 DOMAIN,ailoganalyticsportal-eus.cloudapp.net
+# [bi-analytics.cloudapp.net]
 DOMAIN,bi-analytics.cloudapp.net
 # [clouddn.com]
 DOMAIN,bkt.clouddn.com
@@ -9394,7 +9471,7 @@ DOMAIN,bkt.clouddn.com
 DOMAIN,metrics.cloudflarebolt.com
 # [cloudflareinsights.com]
 DOMAIN,static.cloudflareinsights.com
-# [cloudfunctions.net]
+# [us-central1-production-242307.cloudfunctions.net]
 DOMAIN,us-central1-production-242307.cloudfunctions.net
 # [cloudmobi.net]
 DOMAIN,cloudmobi.net
@@ -9414,7 +9491,7 @@ DOMAIN,cmcore.com
 # [cmgdigital.com]
 DOMAIN,appconfig.cmgdigital.com
 DOMAIN,cmgfeeds.cmgdigital.com
-# [cn.com]
+# [id1.cn.com]
 DOMAIN,id1.cn.com
 # [cnn.com]
 DOMAIN,agility.cnn.com
@@ -9875,7 +9952,7 @@ DOMAIN,track.tiara.daum.net
 # [daumcdn.net]
 # [dc-1.net]
 DOMAIN,srv.dc-1.net
-# [de.com]
+# [research.de.com]
 DOMAIN,s79.research.de.com
 # [de17a.com]
 DOMAIN,tb.de17a.com
@@ -10512,30 +10589,53 @@ DOMAIN,t.effectivemeasure.net
 # [effiliation.com]
 DOMAIN,mastertag.effiliation.com
 DOMAIN,track.effiliation.com
-# [elasticbeanstalk.com]
+# [adbrix-cpn-was-prod.ap-northeast-1.elasticbeanstalk.com]
 DOMAIN,adbrix-cpn-was-prod.ap-northeast-1.elasticbeanstalk.com
+# [adbrix-trk-was-prod.ap-northeast-1.elasticbeanstalk.com]
 DOMAIN,adbrix-trk-was-prod.ap-northeast-1.elasticbeanstalk.com
+# [production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com]
 DOMAIN,production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com
+# [ad-logging2.ap-northeast-2.elasticbeanstalk.com]
 DOMAIN,ad-logging2.ap-northeast-2.elasticbeanstalk.com
+# [bejeweled-skies-prod.elasticbeanstalk.com]
 DOMAIN,bejeweled-skies-prod.elasticbeanstalk.com
+# [bugsee-api-prod.elasticbeanstalk.com]
 DOMAIN,bugsee-api-prod.elasticbeanstalk.com
+# [tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com]
 DOMAIN,tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com
+# [fusion-iad-dev-clogs-eqbrmmvphc.elasticbeanstalk.com]
 DOMAIN,fusion-iad-dev-clogs-eqbrmmvphc.elasticbeanstalk.com
+# [kerio-push-gateway-prod.elasticbeanstalk.com]
 DOMAIN,kerio-push-gateway-prod.elasticbeanstalk.com
+# [mgd-adengine.elasticbeanstalk.com]
 DOMAIN,mgd-adengine.elasticbeanstalk.com
+# [bnsqc3zmvt.us-east-1.elasticbeanstalk.com]
 DOMAIN,poole-collector-prod.bnsqc3zmvt.us-east-1.elasticbeanstalk.com
+# [cbola-ads-1-t3.us-east-1.elasticbeanstalk.com]
 DOMAIN,cbola-ads-1-t3.us-east-1.elasticbeanstalk.com
+# [cbola-analytics-c5-6.us-east-1.elasticbeanstalk.com]
 DOMAIN,cbola-analytics-c5-6.us-east-1.elasticbeanstalk.com
+# [cbola-content-1-t3.us-east-1.elasticbeanstalk.com]
 DOMAIN,cbola-content-1-t3.us-east-1.elasticbeanstalk.com
+# [cbola-logging-1-t3.us-east-1.elasticbeanstalk.com]
 DOMAIN,cbola-logging-1-t3.us-east-1.elasticbeanstalk.com
+# [cbola-psa.us-east-1.elasticbeanstalk.com]
 DOMAIN,cbola-psa.us-east-1.elasticbeanstalk.com
+# [dhg-logging.us-east-1.elasticbeanstalk.com]
 DOMAIN,dhg-logging.us-east-1.elasticbeanstalk.com
+# [ei-event-collector.us-east-1.elasticbeanstalk.com]
 DOMAIN,ei-event-collector.us-east-1.elasticbeanstalk.com
+# [ts-tracker-env.us-east-1.elasticbeanstalk.com]
 DOMAIN,ts-tracker-env.us-east-1.elasticbeanstalk.com
+# [ts-tracker-env-2.us-east-1.elasticbeanstalk.com]
 DOMAIN,ts-tracker-env-2.us-east-1.elasticbeanstalk.com
+# [user-event-tracker-prod.us-east-1.elasticbeanstalk.com]
 DOMAIN,user-event-tracker-prod.us-east-1.elasticbeanstalk.com
+# [adlic.us-west-2.elasticbeanstalk.com]
 DOMAIN,adlic.us-west-2.elasticbeanstalk.com
+# [api-gateway.us-west-2.elasticbeanstalk.com]
 DOMAIN,api-gateway.us-west-2.elasticbeanstalk.com
+# [wpsconfig4svr.elasticbeanstalk.com]
 DOMAIN,wpsconfig4svr.elasticbeanstalk.com
 # [emxdgt.com]
 DOMAIN,emxdgt.com
@@ -10681,7 +10781,7 @@ DOMAIN,fam-ad.com
 DOMAIN,img.fam-ad.com
 # [fastapi.net]
 DOMAIN,fastapi.net
-# [fastly.net]
+# [mparticle.map.fastly.net]
 DOMAIN,mparticle.map.fastly.net
 # [fbcdn.net]
 DOMAIN,sonar-iad.xx.fbcdn.net
@@ -11012,8 +11112,9 @@ DOMAIN,adservice.google.nl
 DOMAIN,googleadservices.com
 DOMAIN,pagead2.googleadservices.com
 # [googleadsserving.cn]
-# [googleapis.com]
+# [androidtvwatsonfe-pa.googleapis.com]
 DOMAIN,androidtvwatsonfe-pa.googleapis.com
+# [clientmetrics-pa.googleapis.com]
 DOMAIN,clientmetrics-pa.googleapis.com
 # [googlesyndication.com]
 DOMAIN,buttons.googlesyndication.com
@@ -11114,12 +11215,17 @@ DOMAIN,cdn.heapanalytics.com
 # [herocraft.com]
 DOMAIN,adv.herocraft.com
 DOMAIN,gamestats.herocraft.com
-# [herokuapp.com]
+# [collection-endpoint-prod.herokuapp.com]
 DOMAIN,collection-endpoint-prod.herokuapp.com
+# [collection-endpoint-staging.herokuapp.com]
 DOMAIN,collection-endpoint-staging.herokuapp.com
+# [evening-badlands-6215.herokuapp.com]
 DOMAIN,evening-badlands-6215.herokuapp.com
+# [ilyonanalytics.herokuapp.com]
 DOMAIN,ilyonanalytics.herokuapp.com
+# [powr-counter.herokuapp.com]
 DOMAIN,powr-counter.herokuapp.com
+# [wootric-eligibility.herokuapp.com]
 DOMAIN,wootric-eligibility.herokuapp.com
 # [herokudns.com]
 DOMAIN,analytics.readcube.com.herokudns.com
@@ -13202,8 +13308,8 @@ DOMAIN,synad2.nuffnang.com.my
 DOMAIN,synad3.nuffnang.com.my
 # [nytimes.com]
 DOMAIN,als-svc.nytimes.com
-DOMAIN,meter-svc.nytimes.com
 DOMAIN,a.et.nytimes.com
+DOMAIN,meter-svc.nytimes.com
 # [o333o.com]
 DOMAIN,cdn.o333o.com
 # [oath.com]
@@ -14720,7 +14826,7 @@ DOMAIN,log.sina.cn
 DOMAIN,sax.sina.cn
 # [sina.com.cn]
 DOMAIN,emarketing.sina.com.cn
-# [sinaapp.com]
+# [pubstatus.sinaapp.com]
 DOMAIN,pubstatus.sinaapp.com
 # [sinajs.cn]
 DOMAIN,newspush.sinajs.cn
