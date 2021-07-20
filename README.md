@@ -209,6 +209,3 @@ surge搬运：
 
 ![](http://profile-counter.glitch.me/zqzess/count.svg)
 
-### 项目 Star 数增长趋势
-
-[![Stargazers over time](https://github.com/zqzess/rule_for_quantumultX.svg)](https://github.com/zqzess/rule_for_quantumultX)
