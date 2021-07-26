@@ -190,6 +190,7 @@ HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
 
 HOST,api.okzy.tv,GMedia
+HOST,apm-misaka.biliapi.net,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GMedia
@@ -214,6 +215,7 @@ HOST,intl.iqiyi.com,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,kktv-theater.kk.stream,GMedia
 HOST,linear.tv.apple.com,GMedia
+HOST,mobileso.bz.mgtv.com,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
 HOST,netflix.com.edgesuite.net,GMedia
@@ -221,6 +223,7 @@ HOST,news-client.apple.com,GMedia
 HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
 HOST,np-edge.itunes.apple.com,GMedia
+HOST,p.bstarstatic.com,GMedia
 HOST,play-edge.itunes.apple.com,GMedia
 HOST,players.brightcove.net,GMedia
 HOST,rpg.pic-imges.com,GMedia
@@ -239,6 +242,7 @@ HOST-SUFFIX,amazonaws.com,GMedia
 HOST-SUFFIX,amazonvideo.com,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,amplify.outbrain.com,GMedia
+HOST-SUFFIX,api.mgtv.com,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bahamut.com.tw,GMedia
@@ -390,6 +394,7 @@ HOST-SUFFIX,p-cdn.us,GMedia
 HOST-SUFFIX,pandora.com,GMedia
 HOST-SUFFIX,paramountplus.com,GMedia
 HOST-SUFFIX,pbs.org,GMedia
+HOST-SUFFIX,peacocktv.com,GMedia
 HOST-SUFFIX,perfops.doracdn.com,GMedia
 HOST-SUFFIX,phncdn.com,GMedia
 HOST-SUFFIX,phprcdn.com,GMedia
@@ -509,6 +514,7 @@ USER-AGENT,Overcast*,GMedia
 USER-AGENT,PBS*,GMedia
 USER-AGENT,PPlus*,GMedia
 USER-AGENT,Pandora*,GMedia
+USER-AGENT,PeacockMobile*,GMedia
 USER-AGENT,Prime%20Video*,GMedia
 USER-AGENT,SoundCloud*,GMedia
 USER-AGENT,Spotify*,GMedia

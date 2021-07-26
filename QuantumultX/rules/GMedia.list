@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-07-19 01:36:53
+# GMedia rules refresh time: 2021-07-26 01:39:45
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -163,6 +163,7 @@ HOST-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
 HOST,api.okzy.tv,GMedia
+HOST,apm-misaka.biliapi.net,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GMedia
@@ -185,18 +186,21 @@ HOST,intl-subscription.iqiyi.com,GMedia
 HOST,intl.iqiyi.com,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,linear.tv.apple.com,GMedia
+HOST,mobileso.bz.mgtv.com,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
 HOST,netflix.com.edgesuite.net,GMedia
 HOST,news-client.apple.com,GMedia
 HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
+HOST,p.bstarstatic.com,GMedia
 HOST,players.brightcove.net,GMedia
 HOST,rpg.pic-imges.com,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
 HOST-SUFFIX,amplify.outbrain.com,GMedia
+HOST-SUFFIX,api.mgtv.com,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
 HOST-SUFFIX,apple.news,GMedia
 HOST-SUFFIX,bam.nr-data.net,GMedia
@@ -275,6 +279,7 @@ HOST-SUFFIX,ocnttv.com,GMedia
 HOST-SUFFIX,overcast.fm,GMedia
 HOST-SUFFIX,p-cdn.us,GMedia
 HOST-SUFFIX,paramountplus.com,GMedia
+HOST-SUFFIX,peacocktv.com,GMedia
 HOST-SUFFIX,perfops.doracdn.com,GMedia
 HOST-SUFFIX,phncdn.com,GMedia
 HOST-SUFFIX,phprcdn.com,GMedia
@@ -358,6 +363,7 @@ USER-AGENT,OTT_iPhone*,GMedia
 USER-AGENT,Overcast*,GMedia
 USER-AGENT,PPlus*,GMedia
 USER-AGENT,Pandora*,GMedia
+USER-AGENT,PeacockMobile*,GMedia
 USER-AGENT,Spotify*,GMedia
 USER-AGENT,TIDAL*,GMedia
 USER-AGENT,TIDAL*dia,GMedia
