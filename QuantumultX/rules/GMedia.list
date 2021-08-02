@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-07-26 01:39:45
+# GMedia rules refresh time: 2021-08-02 01:37:01
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -830,6 +830,7 @@ IP-CIDR,216.68.248.178/32,GMedia
 IP-CIDR,216.68.248.182/32,GMedia
 IP-CIDR,216.68.248.190/32,GMedia
 IP-CIDR,216.70.1.54/32,GMedia
+IP-CIDR,23.211.15.99/32,GMedia
 IP-CIDR,23.228.129.239/32,GMedia
 IP-CIDR,23.228.129.247/32,GMedia
 IP-CIDR,23.228.129.65/32,GMedia

@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-26 02:06:24
+# UPDATED: 2021-08-02 02:06:37
 # HOST: 50
-# HOST-SUFFIX: 33443
+# HOST-SUFFIX: 33449
 # USER-AGENT: 48
 # HOST-KEYWORD: 41
 # IP-CIDR: 128
 # IP6-CIDR: 3
-# TOTAL: 33713
+# TOTAL: 33719
 HOST,amp.akamaized.net,Global
 HOST,apple.com.akadns.net,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
@@ -10902,6 +10902,7 @@ HOST-SUFFIX,ff383.net,Global
 HOST-SUFFIX,ff766.net,Global
 HOST-SUFFIX,ffacebook.com,Global
 HOST-SUFFIX,fff36.net,Global
+HOST-SUFFIX,fffdm.com,Global
 HOST-SUFFIX,fffff.at,Global
 HOST-SUFFIX,fflick.com,Global
 HOST-SUFFIX,fflnk.net,Global
@@ -11826,6 +11827,7 @@ HOST-SUFFIX,fyt80.com,Global
 HOST-SUFFIX,fyt96.com,Global
 HOST-SUFFIX,fyxm.net,Global
 HOST-SUFFIX,fyy3368.com,Global
+HOST-SUFFIX,fzdm.com,Global
 HOST-SUFFIX,fzh999.com,Global
 HOST-SUFFIX,fzh999.net,Global
 HOST-SUFFIX,fzlm.com,Global
@@ -12312,6 +12314,7 @@ HOST-SUFFIX,githubassets.com,Global
 HOST-SUFFIX,githubhackathon.com,Global
 HOST-SUFFIX,githubpreview.dev,Global
 HOST-SUFFIX,githubstatus.com,Global
+HOST-SUFFIX,githubuniverse.com,Global
 HOST-SUFFIX,githubusercontent.com,Global
 HOST-SUFFIX,gitlab-static.net,Global
 HOST-SUFFIX,gitlab.com,Global
@@ -26248,6 +26251,7 @@ HOST-SUFFIX,vac-go.de,Global
 HOST-SUFFIX,vacationbibleschool.com,Global
 HOST-SUFFIX,vaginacontest.com,Global
 HOST-SUFFIX,vagos.es,Global
+HOST-SUFFIX,vagrantcloud.com,Global
 HOST-SUFFIX,vagrantup.com,Global
 HOST-SUFFIX,valeriavidela.cl,Global
 HOST-SUFFIX,valeursactuelles.com,Global
@@ -27386,6 +27390,7 @@ HOST-SUFFIX,wf,Global
 HOST-SUFFIX,wf.smathis.com,Global
 HOST-SUFFIX,wf22.ga,Global
 HOST-SUFFIX,wfc01.com,Global
+HOST-SUFFIX,wfm.com,Global
 HOST-SUFFIX,wforum.com,Global
 HOST-SUFFIX,wfrick.net,Global
 HOST-SUFFIX,wfwp.org,Global
@@ -27433,6 +27438,7 @@ HOST-SUFFIX,whodns.xyz,Global
 HOST-SUFFIX,whoer.net,Global
 HOST-SUFFIX,whogovernstw.org,Global
 HOST-SUFFIX,wholecitiesfoundation.org,Global
+HOST-SUFFIX,wholefoods.com,Global
 HOST-SUFFIX,wholefoodsmarket.com,Global
 HOST-SUFFIX,wholekidsfoundation.org,Global
 HOST-SUFFIX,wholeplanetfoundation.org,Global

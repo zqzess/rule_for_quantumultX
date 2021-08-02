@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-07-26 02:06:24
+# UPDATED: 2021-08-02 02:06:37
 # HOST: 46
-# HOST-SUFFIX: 33458
+# HOST-SUFFIX: 33464
 # USER-AGENT: 11
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 33635
+# TOTAL: 33641
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -10902,6 +10902,7 @@ HOST-SUFFIX,ff383.net,Proxy
 HOST-SUFFIX,ff766.net,Proxy
 HOST-SUFFIX,ffacebook.com,Proxy
 HOST-SUFFIX,fff36.net,Proxy
+HOST-SUFFIX,fffdm.com,Proxy
 HOST-SUFFIX,fffff.at,Proxy
 HOST-SUFFIX,fflick.com,Proxy
 HOST-SUFFIX,fflnk.net,Proxy
@@ -11824,6 +11825,7 @@ HOST-SUFFIX,fyt80.com,Proxy
 HOST-SUFFIX,fyt96.com,Proxy
 HOST-SUFFIX,fyxm.net,Proxy
 HOST-SUFFIX,fyy3368.com,Proxy
+HOST-SUFFIX,fzdm.com,Proxy
 HOST-SUFFIX,fzh999.com,Proxy
 HOST-SUFFIX,fzh999.net,Proxy
 HOST-SUFFIX,fzlm.com,Proxy
@@ -12311,6 +12313,7 @@ HOST-SUFFIX,githubassets.com,Proxy
 HOST-SUFFIX,githubhackathon.com,Proxy
 HOST-SUFFIX,githubpreview.dev,Proxy
 HOST-SUFFIX,githubstatus.com,Proxy
+HOST-SUFFIX,githubuniverse.com,Proxy
 HOST-SUFFIX,githubusercontent.com,Proxy
 HOST-SUFFIX,gitlab-static.net,Proxy
 HOST-SUFFIX,gitlab.com,Proxy
@@ -26247,6 +26250,7 @@ HOST-SUFFIX,vac-go.de,Proxy
 HOST-SUFFIX,vacationbibleschool.com,Proxy
 HOST-SUFFIX,vaginacontest.com,Proxy
 HOST-SUFFIX,vagos.es,Proxy
+HOST-SUFFIX,vagrantcloud.com,Proxy
 HOST-SUFFIX,vagrantup.com,Proxy
 HOST-SUFFIX,valeriavidela.cl,Proxy
 HOST-SUFFIX,valeursactuelles.com,Proxy
@@ -27388,6 +27392,7 @@ HOST-SUFFIX,wf,Proxy
 HOST-SUFFIX,wf.smathis.com,Proxy
 HOST-SUFFIX,wf22.ga,Proxy
 HOST-SUFFIX,wfc01.com,Proxy
+HOST-SUFFIX,wfm.com,Proxy
 HOST-SUFFIX,wforum.com,Proxy
 HOST-SUFFIX,wfrick.net,Proxy
 HOST-SUFFIX,wfwp.org,Proxy
@@ -27435,6 +27440,7 @@ HOST-SUFFIX,whodns.xyz,Proxy
 HOST-SUFFIX,whoer.net,Proxy
 HOST-SUFFIX,whogovernstw.org,Proxy
 HOST-SUFFIX,wholecitiesfoundation.org,Proxy
+HOST-SUFFIX,wholefoods.com,Proxy
 HOST-SUFFIX,wholefoodsmarket.com,Proxy
 HOST-SUFFIX,wholekidsfoundation.org,Proxy
 HOST-SUFFIX,wholeplanetfoundation.org,Proxy

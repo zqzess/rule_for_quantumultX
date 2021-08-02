@@ -667,7 +667,6 @@ HOST-SUFFIX,cyad.cc,AdBlock
 HOST-SUFFIX,cyad123.com,AdBlock
 HOST-SUFFIX,cyad456.com,AdBlock
 HOST-SUFFIX,czpush.com,AdBlock
-HOST-SUFFIX,czywssj.com,AdBlock
 HOST-SUFFIX,czzdf.com,AdBlock
 HOST,d0.xcar.com.cn,AdBlock
 HOST-SUFFIX,d1ad.com,AdBlock
@@ -708,7 +707,6 @@ HOST-SUFFIX,dian500.com,AdBlock
 HOST-SUFFIX,dian5000.com,AdBlock
 HOST-SUFFIX,dianyilm.com,AdBlock
 HOST-SUFFIX,diaojiaoji168.com,AdBlock
-HOST-SUFFIX,dieka888.com,AdBlock
 HOST-SUFFIX,dilcn.net,AdBlock
 HOST,dimg1.sz.net.cn,AdBlock
 HOST-SUFFIX,dingge.cc,AdBlock
@@ -810,6 +808,7 @@ HOST-SUFFIX,ffhtek.com,AdBlock
 HOST-SUFFIX,ffychb.com,AdBlock
 HOST-SUFFIX,fhbv.cn,AdBlock
 HOST-SUFFIX,fhoa365.com,AdBlock
+HOST-SUFFIX,fieldofbachus.com,AdBlock
 HOST,file.chanet.com.cn,AdBlock
 HOST-SUFFIX,finead.cn,AdBlock
 HOST-SUFFIX,firefang.cn,AdBlock
@@ -1057,7 +1056,6 @@ HOST-SUFFIX,istreamsche.com,AdBlock
 HOST-SUFFIX,it760.com,AdBlock
 HOST-SUFFIX,italy-lottery.com,AdBlock
 HOST-SUFFIX,iygeoy.com,AdBlock
-HOST-SUFFIX,iyoowi.com,AdBlock
 HOST-SUFFIX,ja9377.com,AdBlock
 HOST-SUFFIX,jackaow.com,AdBlock
 HOST-SUFFIX,jasd.php,AdBlock
@@ -1497,7 +1495,6 @@ HOST-SUFFIX,qtch888.com,AdBlock
 HOST-SUFFIX,qtdfg.com,AdBlock
 HOST-SUFFIX,quadasdata.cn,AdBlock
 HOST-SUFFIX,quanbailing.com,AdBlock
-HOST-SUFFIX,quandangdang.net,AdBlock
 HOST-SUFFIX,quansj.cn,AdBlock
 HOST-SUFFIX,qucaigg.com,AdBlock
 HOST-SUFFIX,queene.cn,AdBlock
@@ -2010,6 +2007,9 @@ HOST-SUFFIX,yigyx.com,AdBlock
 HOST-SUFFIX,yiiwoo.com,AdBlock
 HOST-SUFFIX,yiiyoo.net,AdBlock
 HOST-SUFFIX,yijia2009.com,AdBlock
+HOST-SUFFIX,yijieweizf.com,AdBlock
+HOST-SUFFIX,yingdatuofu.com,AdBlock
+HOST-SUFFIX,yingkeduo.cn,AdBlock
 HOST,t7z.cupid.iqiyi.com,AdBlock
 HOST,livew.l.qq.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
@@ -16377,6 +16377,7 @@ HOST,id.tinypass.com,AdBlock
 HOST,sandbox.tinypass.com,AdBlock
 # [tiqcdn.com]
 HOST,tags.tiqcdn.com,AdBlock
+HOST,tags-eu.tiqcdn.com,AdBlock
 # [tllms.com]
 HOST,api.tllms.com,AdBlock
 HOST,marketing.tllms.com,AdBlock
