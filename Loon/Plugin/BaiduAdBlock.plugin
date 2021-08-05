@@ -33,7 +33,7 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/start_screen_ads\/list _ reject
 ^https:\/\/mime\.baidu\.com\/v5\/hotpatch\/check\?hotpatch _ reject
 
-#百度贴吧(by TributePaulWalker)
+#百度贴吧(TributePaulWalker搬运)
 #hostname=*.tieba.baidu.com
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule _ reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo _ reject
