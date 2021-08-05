@@ -5,8 +5,7 @@
     "author": "@zqzess",
     "icon": "https://avatars.githubusercontent.com/u/54464797?s=60&v=4",
     "repo": "https://github.com/zqzess/rule_for_quantumultX",
-    "apps": [
-        {
+    "apps": [{
             "id": "FlowBit",
             "name": "机场流量查询-比特云优化版",
             "keys": [
@@ -14,8 +13,7 @@
                 "@flowbit.email",
                 "@flowbit.pwd"
             ],
-            "settings": [
-                {
+            "settings": [{
                     "id": "@flowbit.subscriptions",
                     "name": "机场订阅",
                     "val": "[\n\t{\n\t\t\"link\": \"订阅地址1\",\n\t\t\"name\": \"取个名字1\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/pudding.png\"\n\t},\n\t{\n\t\t\"link\": \"订阅地址2\",\n\t\t\"name\": \"取个名字2\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/Nexitally.png\"\n\t}\n]",
@@ -62,8 +60,7 @@
                 "@caiyun.location.longitude",
                 "@caiyun.address"
             ],
-            "settings": [
-                {
+            "settings": [{
                     "id": "@caiyun.token.caiyun",
                     "name": "彩云天气API Token",
                     "val": null,
@@ -122,8 +119,7 @@
                 "BiliArea_HK",
                 "BiliArea_TW"
             ],
-            "settings": [
-                {
+            "settings": [{
                     "id": "BiliAreaNotify",
                     "name": "静默运行",
                     "val": false,
@@ -178,8 +174,7 @@
             ]
         }
     ],
-    "task": [
-        {
+    "task": [{
             "config": "30 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/bilibili.png, tag=bilibili签到, enabled=true",
             "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
         },
@@ -201,6 +196,10 @@
         },
         {
             "config": "10 7-19/3 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, tag=彩云天气, enabled=true",
+            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+        },
+        {
+            "config": "0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js, tag=不挂科签到拿爱奇艺, enabled=false",
             "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
         }
     ]

@@ -20,8 +20,8 @@ Surge 4.2.0+ 脚本配置:
 ************************
 ```
 [Script]
-不挂科签到 = type=cron,cronexp=0 9 * * *,script-path=
-不挂科获取Cookie = type=http-request,pattern=https:\/\/appwk\.baidu\.com\/naapi\/stsign\/activity\?bid,script-path=
+不挂科签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js
+不挂科获取Cookie = type=http-request,pattern=https:\/\/appwk\.baidu\.com\/naapi\/stsign\/activity\?bid,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js
 [MITM] 
 hostname= appwk.baidu.com
 ```
@@ -31,10 +31,10 @@ QuantumultX 远程脚本配置:
 ```
 [task_local]
 # 不挂科签到
-0 9 * * * https://
+0 9 * * * [https://](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js)
 [rewrite_local]
 # 获取Cookie
-https:\/\/appwk\.baidu\.com\/naapi\/stsign\/activity\?bid url script-request-header https://
+https:\/\/appwk\.baidu\.com\/naapi\/stsign\/activity\?bid url script-request-header [https://](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js)
 [mitm] 
 hostname= appwk.baidu.com
 ```
@@ -44,9 +44,9 @@ Loon 2.1.0+ 脚本配置:
 ```
 [Script]
 # 不挂科签到
-cron "0 9 * * *" script-path=
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js,tag=不挂科签到
 # 获取Cookie
-http-request https:\/\/appwk\.baidu\.com\/naapi\/stsign\/activity\?bid script-path=
+http-request https:\/\/appwk\.baidu\.com\/naapi\/stsign\/activity\?bid script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js, tag=不挂科cookie
 [Mitm] 
 hostname= appwk.baidu.com
 ```
