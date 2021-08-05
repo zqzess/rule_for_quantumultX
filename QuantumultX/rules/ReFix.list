@@ -176,3 +176,8 @@ host-SUFFIX,nssurge.com,Outside
 host,bid.adview.cn,reject
 host-SUFFIX,afdback.ppsimg.com,reject
 host-SUFFIX,fanqianxs.com,direct
+#
+DOMAIN-SUFFIX,whitemoon.top,direct
+IP-CIDR,10.0.0.12/32,direct
+DOMAIN-SUFFIX,push.apple.com,direct
+DOMAIN-SUFFIX,jddebug.com,reject

@@ -89,3 +89,8 @@ DOMAIN,cdn.ark.qq.com,DIRECT
 #surge
 DOMAIN-SUFFIX,nssurge.com,Outside
 DOMAIN-SUFFIX,fanqianxs.com,DIRECT
+# 
+DOMAIN-SUFFIX,whitemoon.top,DIRECT
+IP-CIDR,10.0.0.12/32,DIRECT,no-resolve
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-SUFFIX,jddebug.com,REJECT

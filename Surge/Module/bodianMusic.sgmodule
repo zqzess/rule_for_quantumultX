@@ -4,5 +4,9 @@
 [Rule]
 # 波点音乐
 # DOMAIN,bodiancdn.kuwo.cn,REJECT
+URL-REGEX,^https:\/\/bodiancdn\.kuwo\.cn\/.+\.mp4,REJECT
+URL-REGEX,^http:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/view\?uid,REJECT 
+URL-REGEX,^http:\/\/bd-api\.kuwo\.cn\/api\/service\/music\/recommendList\?uid,REJECT 
+
 [URL Rewrite]
 ^http:\/\/bd-api\.kuwo\.cn\/api\/service\/resource\/musicResource\/.+ - reject
