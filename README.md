@@ -8,7 +8,7 @@
 ```
  > - [x] 一般化广告
  > - [ ] spotify去广告加强
- > - [x] youtube去广告加强($\color{#FF0000}{已修复短视频无法加载问题}$)
+ > - [x] youtube去广告加强(已修复短视频无法加载问题)
  > - [x] 书旗小说去广告(规则与重写较多,可能误杀,文章内‘全场畅读无广告’清除缓存无效请卸载重装书旗)
  > - [x] 番茄小说去章内末广告(且用且珍惜)
  > - [x] 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
@@ -46,23 +46,23 @@
 - ->[参考](#参考)
   
     -------------------------------
-### $\color{#FFB6C1}{QuantumultX配置文件}$
+### QuantumultX配置文件
 
 [详细介绍--->](https://github.com/zqzess/rule_for_quantumultX/tree/master/QuantumultX)
 
-$\color{#FF7F50}{重写规则合集订阅}$
+**重写规则合集订阅**
 
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ```
-youtube 广告屏蔽单文件订阅，$\color{#FF0000}{已修复短视频无法加载问题}$
+youtube 广告屏蔽单文件订阅，已修复短视频无法加载问题
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/youtube.qxrewrite, tag=youtube广告屏蔽, update-interval=86400, opt-parser=false, enabled=true
 ```
 
-$\color{#98FB98}{完整配置文件}$
+**完整配置文件**
 ```ruby
 两个版本配置文件均无定时任务
 ```
@@ -72,7 +72,7 @@ $\color{#98FB98}{完整配置文件}$
 - [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess.conf)
 
     --------------------
-### $\color{#FFB6C1}{Loon配置文件}$
+### Loon配置文件
 - [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/zqzess_Loon.conf)
 - [脚本订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/js/js.conf)
 - [复写订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Rewrite/zqzess_Rewrite.conf)
@@ -85,7 +85,7 @@ $\color{#98FB98}{完整配置文件}$
 - [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin)
 
     -----------------
-### $\color{#FFB6C1}{Surge配置文件}$
+### Surge配置文件
 - [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/zqzess_surge.conf)
 - [广告屏蔽模组](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/AdBlock.sgmodule)
 - [哔哩哔哩增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/bilibili.sqmodule)
@@ -104,7 +104,7 @@ surge搬运：
 - [TextFight区域限制解除](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule)
   
 
-### $\color{#FFB6C1}{自制脚本}$
+### 自制脚本
 
 - [目录地址-->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine)
 

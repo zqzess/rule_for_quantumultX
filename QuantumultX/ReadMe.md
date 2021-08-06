@@ -119,55 +119,55 @@ final, Others
 
 </details>
 
-$\color{#FF7F50}{重写合集订阅}$
+重写合集订阅
 
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ```
 
-$\color{#FF7F50}{单文件订阅}$
+单文件订阅
 
 <details>
 
-$\color{#00FFFF}{youtube广告屏蔽，已修复短视频无法加载}$
+- youtube广告屏蔽，已修复短视频无法加载
 
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/youtube.qxrewrite, tag=youtube广告屏蔽, update-interval=86400, opt-parser=false, enabled=true
 ```
 
-$\color{#00FFFF}{百度系app广告屏蔽}$
+- 百度系app广告屏蔽
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/baiduAd.qxrewrite, tag=百度系广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
 ```
-$\color{#00FFFF}{Safari聚合搜索百度引擎版}$
+- Safari聚合搜索百度引擎版
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Qsearch.qxrewrite, tag=safari聚合搜索百度版, update-interval=604800, opt-parser=false, enabled=true
 ```
-$\color{#00FFFF}{常规广告屏蔽}$
+- 常规广告屏蔽
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyAdBlock.qxrewrite, tag=zqzess常规广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
 ```
-$\color{#00FFFF}{番茄小说广告屏蔽}$
+- 番茄小说广告屏蔽
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite, tag=番茄小说广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
 ```
-$\color{#00FFFF}{哔哩哔哩重写合集}$
+- 哔哩哔哩重写合集
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/bilibili.qxrewrite, tag=哔哩哔哩重写合集, update-interval=604800, opt-parser=false, enabled=true
 ```
-$\color{#00FFFF}{酷我音乐vip解锁及广告屏蔽}$
+- 酷我音乐vip解锁及广告屏蔽
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/kuwo.qxrewrite, tag=酷我音乐增强重写, update-interval=604800, opt-parser=false, enabled=true
 ```
-$\color{#00FFFF}{fake vip脚本搬运合集}$
+- fake vip脚本搬运合集
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyJsRewrite.conf, tag=zqzess自用搬运脚本, update-interval=604800, opt-parser=true, enabled=false
