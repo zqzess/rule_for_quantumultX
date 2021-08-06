@@ -119,14 +119,14 @@ final, Others
 
 </details>
 
-重写合集订阅
+**重写合集订阅**
 
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
 ```
 
-单文件订阅
+**单文件订阅**
 
 <details>
 
