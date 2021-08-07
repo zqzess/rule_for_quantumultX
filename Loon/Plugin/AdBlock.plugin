@@ -157,7 +157,7 @@ https?:\/\/ssports\.iqiyi\.com\/app\/ _ reject
 https?:\/\/ssports\.iqiyi\.com\/json\/shop\/shopInfo  _ reject
 https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$ _ reject
 https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 _ reject
-https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js _ reject
+#https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js _ reject
 https?:\/\/t7z\.cupid\.iqiyi\.com\/show _ reject
 #搬运爱奇艺(by gitee-木剑)
 #hostname=act.vip.iqiyi.com

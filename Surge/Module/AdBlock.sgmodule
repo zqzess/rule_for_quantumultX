@@ -149,7 +149,7 @@ https?:\/\/ssports\.iqiyi\.com\/app\/ - reject
 https?:\/\/ssports\.iqiyi\.com\/json\/shop\/shopInfo  - reject
 https?:\/\/.+\.iqiyi\.com\/videos\/other\/20$ - reject
 https?:\/\/.+\.iqiyipic\.com\/image\/20*_100000 - reject
-https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js - reject
+#https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js - reject
 https?:\/\/t7z\.cupid\.iqiyi\.com\/show - reject
 # 搬运爱奇艺(by gitee-木剑)->act.vip.iqiyi.com
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
