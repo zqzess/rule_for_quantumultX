@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-02 02:06:37
+# UPDATED: 2021-08-07 02:06:57
 # HOST: 46
-# HOST-SUFFIX: 33464
+# HOST-SUFFIX: 33468
 # USER-AGENT: 11
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 33641
+# TOTAL: 33645
 HOST,amp.akamaized.net,Proxy
 HOST,apple.com.akadns.net,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -2255,6 +2255,7 @@ HOST-SUFFIX,8950815.com,Proxy
 HOST-SUFFIX,895600.cc,Proxy
 HOST-SUFFIX,8958164.com,Proxy
 HOST-SUFFIX,8964.com,Proxy
+HOST-SUFFIX,8964museum.com,Proxy
 HOST-SUFFIX,8969.org,Proxy
 HOST-SUFFIX,8977.cc,Proxy
 HOST-SUFFIX,8977.com,Proxy
@@ -2561,6 +2562,7 @@ HOST-SUFFIX,9bam1.com,Proxy
 HOST-SUFFIX,9bas1.com,Proxy
 HOST-SUFFIX,9bis.com,Proxy
 HOST-SUFFIX,9bis.net,Proxy
+HOST-SUFFIX,9cache.com,Proxy
 HOST-SUFFIX,9cash.net,Proxy
 HOST-SUFFIX,9cdn.net,Proxy
 HOST-SUFFIX,9ff450a4-6dc6-4b0c-9e7a-87c74a5b5e70.realclearprivacy.biz,Proxy
@@ -4366,6 +4368,7 @@ HOST-SUFFIX,azerimix.com,Proxy
 HOST-SUFFIX,azirevpn.com,Proxy
 HOST-SUFFIX,azirevpn.net,Proxy
 HOST-SUFFIX,aznmovies.com,Proxy
+HOST-SUFFIX,aznude.com,Proxy
 HOST-SUFFIX,azproxies.com,Proxy
 HOST-SUFFIX,azubu.tv,Proxy
 HOST-SUFFIX,azure,Proxy
@@ -10871,6 +10874,7 @@ HOST-SUFFIX,feikebt.com,Proxy
 HOST-SUFFIX,feikebt.pw,Proxy
 HOST-SUFFIX,feitian-california.org,Proxy
 HOST-SUFFIX,feitianacademy.org,Proxy
+HOST-SUFFIX,feixiaohao.com,Proxy
 HOST-SUFFIX,felixcat.net,Proxy
 HOST-SUFFIX,femalefounderscomp.com,Proxy
 HOST-SUFFIX,fembed.com,Proxy
@@ -12790,6 +12794,7 @@ HOST-SUFFIX,googlelabs.com,Proxy
 HOST-SUFFIX,googlemail.com,Proxy
 HOST-SUFFIX,googlemaps.com,Proxy
 HOST-SUFFIX,googlemashups.com,Proxy
+HOST-SUFFIX,googleoptimize.com,Proxy
 HOST-SUFFIX,googlepagecreator.com,Proxy
 HOST-SUFFIX,googlephotos.com,Proxy
 HOST-SUFFIX,googleplay.com,Proxy
@@ -14529,7 +14534,6 @@ HOST-SUFFIX,imdb.com,Proxy
 HOST-SUFFIX,imdj.imdj3001pankou.com,Proxy
 HOST-SUFFIX,imes-yabotiyu.tianjiugong.com,Proxy
 HOST-SUFFIX,imessage.tv,Proxy
-HOST-SUFFIX,img-9gag-fun.9cache.com,Proxy
 HOST-SUFFIX,img.ahri-plus.com,Proxy
 HOST-SUFFIX,img.bipics.net,Proxy
 HOST-SUFFIX,img.ly,Proxy
@@ -18008,7 +18012,6 @@ HOST-SUFFIX,mirrorsedge.com,Proxy
 HOST-SUFFIX,mirrorsedge.net,Proxy
 HOST-SUFFIX,mirrorsedge2.com,Proxy
 HOST-SUFFIX,mirrorsedge2d.com,Proxy
-HOST-SUFFIX,miscmedia-9gag-fun.9cache.com,Proxy
 HOST-SUFFIX,miss-no1.com,Proxy
 HOST-SUFFIX,miss148.com,Proxy
 HOST-SUFFIX,missrissa.net,Proxy
@@ -18806,6 +18809,7 @@ HOST-SUFFIX,naluone-av.com,Proxy
 HOST-SUFFIX,name.com,Proxy
 HOST-SUFFIX,namemybeats.com,Proxy
 HOST-SUFFIX,namepros.com,Proxy
+HOST-SUFFIX,namethatporn.com,Proxy
 HOST-SUFFIX,namethatpornstar.com,Proxy
 HOST-SUFFIX,namgyal.org,Proxy
 HOST-SUFFIX,namgyalmonastery.org,Proxy
@@ -19162,6 +19166,7 @@ HOST-SUFFIX,ngensis.com,Proxy
 HOST-SUFFIX,ngeo.com,Proxy
 HOST-SUFFIX,nginx.com,Proxy
 HOST-SUFFIX,nginx.org,Proxy
+HOST-SUFFIX,ngodupdongchung.com,Proxy
 HOST-SUFFIX,nguyentandung.org,Proxy
 HOST-SUFFIX,nhance.com,Proxy
 HOST-SUFFIX,nhentai.com,Proxy
@@ -28623,7 +28628,6 @@ HOST-SUFFIX,www.aykow.com,Proxy
 HOST-SUFFIX,www.ayx121.com,Proxy
 HOST-SUFFIX,www.azattyk.org,Proxy
 HOST-SUFFIX,www.azattyq.org,Proxy
-HOST-SUFFIX,www.aznude.com,Proxy
 HOST-SUFFIX,www.b1000.com,Proxy
 HOST-SUFFIX,www.b13.cc,Proxy
 HOST-SUFFIX,www.b16.bet,Proxy
