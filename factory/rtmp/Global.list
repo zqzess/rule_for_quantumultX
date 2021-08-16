@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-07 02:06:57
+# UPDATED: 2021-08-13 16:08:28
 # HOST: 50
-# HOST-SUFFIX: 33454
+# HOST-SUFFIX: 33458
 # USER-AGENT: 48
 # HOST-KEYWORD: 41
 # IP-CIDR: 128
 # IP6-CIDR: 3
-# TOTAL: 33724
+# TOTAL: 33728
 HOST,amp.akamaized.net,Global
 HOST,apple.com.akadns.net,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
@@ -8389,6 +8389,7 @@ HOST-SUFFIX,danawa.com,Global
 HOST-SUFFIX,dancemeets.com,Global
 HOST-SUFFIX,dancingbear.com,Global
 HOST-SUFFIX,dandalinvoa.com,Global
+HOST-SUFFIX,dandanzan.cc,Global
 HOST-SUFFIX,danemarket.com,Global
 HOST-SUFFIX,danielbispo.com.br,Global
 HOST-SUFFIX,danielgranda.com,Global
@@ -18472,6 +18473,7 @@ HOST-SUFFIX,mucinex.net,Global
 HOST-SUFFIX,mucinex.tv,Global
 HOST-SUFFIX,mucinexprofessional.com,Global
 HOST-SUFFIX,mudfish.net,Global
+HOST-SUFFIX,mudvod.tv,Global
 HOST-SUFFIX,muftah.org,Global
 HOST-SUFFIX,muji.com,Global
 HOST-SUFFIX,muji.net,Global
@@ -19619,6 +19621,7 @@ HOST-SUFFIX,nuget.org,Global
 HOST-SUFFIX,nugettest.org,Global
 HOST-SUFFIX,nukistream.com,Global
 HOST-SUFFIX,numbr.com,Global
+HOST-SUFFIX,nunuyy.cc,Global
 HOST-SUFFIX,nuovelle.ee,Global
 HOST-SUFFIX,nuovomegavideo.com,Global
 HOST-SUFFIX,nurgo-software.com,Global
@@ -25072,6 +25075,7 @@ HOST-SUFFIX,tinypic.com,Global
 HOST-SUFFIX,tinyrealm.com,Global
 HOST-SUFFIX,tinytu.be,Global
 HOST-SUFFIX,tinyurl.com,Global
+HOST-SUFFIX,tipas.net,Global
 HOST-SUFFIX,tipo.gov.tw,Global
 HOST-SUFFIX,tiresplus.com,Global
 HOST-SUFFIX,tistory.com,Global
@@ -26775,6 +26779,7 @@ HOST-SUFFIX,vocn.tv,Global
 HOST-SUFFIX,vocus.cc,Global
 HOST-SUFFIX,vod-abematv.akamaized.net,Global
 HOST-SUFFIX,vod.com,Global
+HOST-SUFFIX,vod360.net,Global
 HOST-SUFFIX,voicettank.org,Global
 HOST-SUFFIX,voipfone.net,Global
 HOST-SUFFIX,vokevr.com,Global
@@ -28697,7 +28702,6 @@ HOST-SUFFIX,www.beauty.com,Global
 HOST-SUFFIX,www.beeg.co,Global
 HOST-SUFFIX,www.beezmall.com,Global
 HOST-SUFFIX,www.befuck.com,Global
-HOST-SUFFIX,www.beian.gov.cn,Global
 HOST-SUFFIX,www.beingbrunel.com,Global
 HOST-SUFFIX,www.bellissimabyhh.com,Global
 HOST-SUFFIX,www.benarnews.org,Global
