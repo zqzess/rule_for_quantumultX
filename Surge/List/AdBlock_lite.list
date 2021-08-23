@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-08-16 01:33:13
+# AdBlock rules refresh time: 2021-08-23 01:27:24
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -596,6 +596,7 @@ DOMAIN-SUFFIX,chinaweichu.net
 DOMAIN-SUFFIX,chmae.com
 DOMAIN-SUFFIX,chnhty.com
 DOMAIN-SUFFIX,chunfuxie.cn
+DOMAIN-SUFFIX,chushoushijian.cn
 DOMAIN-SUFFIX,chuzushijian.cn
 DOMAIN-SUFFIX,cindy17club.com
 DOMAIN-SUFFIX,ciyitan.com
@@ -2009,7 +2010,6 @@ DOMAIN-SUFFIX,yigyx.com
 DOMAIN-SUFFIX,yiiwoo.com
 DOMAIN-SUFFIX,yiiyoo.net
 DOMAIN-SUFFIX,yijia2009.com
-DOMAIN-SUFFIX,yijieweizf.com
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,livew.l.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -8258,8 +8258,6 @@ DOMAIN,fls-eu.amazon.sa
 DOMAIN,fls-eu.amazon.se
 # [amazon.sg]
 DOMAIN,fls-fe.amazon.sg
-# [kinesis.ap-southeast-1.amazonaws.com]
-DOMAIN,kinesis.ap-southeast-1.amazonaws.com
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
 # [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
@@ -8385,12 +8383,8 @@ DOMAIN,surveygizmobeacon.s3.amazonaws.com
 DOMAIN,later-analytics-reports.s3-accelerate.amazonaws.com
 # [execute-api.us-east-1.amazonaws.com]
 DOMAIN,bin5y4muil.execute-api.us-east-1.amazonaws.com
-# [kinesis.us-east-1.amazonaws.com]
-DOMAIN,kinesis.us-east-1.amazonaws.com
 # [mobileanalytics.us-east-1.amazonaws.com]
 DOMAIN,mobileanalytics.us-east-1.amazonaws.com
-# [amazonsilk.com]
-DOMAIN,global.cmcs.service.amazonsilk.com
 # [ambient-platform.com]
 DOMAIN,ambient-platform.com
 DOMAIN,static.ambient-platform.com
@@ -8887,33 +8881,6 @@ DOMAIN,ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 # [b2c.com]
 DOMAIN,b2c.com
 DOMAIN,api.b2c.com
-# [baidu.com]
-DOMAIN,j.br.baidu.com
-DOMAIN,bzclk.baidu.com
-DOMAIN,dj1.baidu.com
-DOMAIN,dxp.baidu.com
-DOMAIN,e.baidu.com
-DOMAIN,gsp1.baidu.com
-DOMAIN,log.hm.baidu.com
-DOMAIN,imageplus.baidu.com
-DOMAIN,conf.international.baidu.com
-DOMAIN,loc.map.baidu.com
-DOMAIN,ofloc.map.baidu.com
-DOMAIN,mobile-global.baidu.com
-DOMAIN,s.mobile-global.baidu.com
-DOMAIN,plugin.mobopay.baidu.com
-DOMAIN,msc.baidu.com
-DOMAIN,paimgcdn.baidu.com
-DOMAIN,statsonline.pushct.baidu.com
-DOMAIN,rj.baidu.com
-DOMAIN,sp1.baidu.com
-DOMAIN,static.tieba.baidu.com
-DOMAIN,usp1.baidu.com
-# [baidustatic.com]
-DOMAIN,baidustatic.com
-# [banggood.com]
-DOMAIN,appanalysis.banggood.com
-DOMAIN,dc.banggood.com
 # [bango.net]
 DOMAIN,bango.net
 # [bannersnack.com]
@@ -9426,8 +9393,6 @@ DOMAIN,collector.cint.com
 DOMAIN,qps.cint.com
 # [cintnetworks.com]
 DOMAIN,c.cintnetworks.com
-# [circularhub.com]
-DOMAIN,api.circularhub.com
 # [cision.com]
 DOMAIN,app.cision.com
 DOMAIN,prapi.cision.com
@@ -9545,17 +9510,6 @@ DOMAIN,cnt.my
 DOMAIN,app.cobrowser.com
 # [cocamobile.com]
 DOMAIN,msg.cocamobile.com
-# [coccoc.com]
-DOMAIN,cdn-qc.coccoc.com
-DOMAIN,cdn.comedia.coccoc.com
-DOMAIN,metrics.coccoc.com
-DOMAIN,nt-cdn.coccoc.com
-DOMAIN,qc.coccoc.com
-DOMAIN,catalog.qc.coccoc.com
-DOMAIN,context.qc.coccoc.com
-DOMAIN,display.qc.coccoc.com
-DOMAIN,ntrb.qc.coccoc.com
-DOMAIN,qc-static.coccoc.com
 # [cognitivlabs.com]
 DOMAIN,lynx.cognitivlabs.com
 DOMAIN,beacon.lynx.cognitivlabs.com
@@ -13369,7 +13323,6 @@ DOMAIN,lciapi.ninthdecimal.com
 DOMAIN,rtb.ninthdecimal.com
 # [nixcdn.com]
 DOMAIN,log4x.nixcdn.com
-DOMAIN,lrc.nct.nixcdn.com
 DOMAIN,stc-nas.nixcdn.com
 # [nmcdn.us]
 DOMAIN,nmcdn.us
@@ -13910,11 +13863,6 @@ DOMAIN,api.optmstr.com
 DOMAIN,a.optnmnstr.com
 # [optnmstr.com]
 DOMAIN,a.optnmstr.com
-# [ordergroove.com]
-DOMAIN,static.ordergroove.com
-# [osano.com]
-DOMAIN,consent.api.osano.com
-DOMAIN,cmp.osano.com
 # [otherlevels.com]
 DOMAIN,otherlevels.com
 DOMAIN,api.otherlevels.com
@@ -14474,8 +14422,6 @@ DOMAIN,rbnt.org
 DOMAIN,realclever.com
 # [rebel.ai]
 DOMAIN,cdn.rebel.ai
-# [rebelmouse.io]
-DOMAIN,assets.rebelmouse.io
 # [recreativ.ru]
 DOMAIN,recreativ.ru
 DOMAIN,track.recreativ.ru
@@ -15588,46 +15534,6 @@ DOMAIN,snowplowcollector.talkspace.com
 DOMAIN,agent.tamedia.com.tw
 # [tango.me]
 DOMAIN,acme.tango.me
-# [tanx.com]
-DOMAIN,advertisement.tanx.com
-DOMAIN,wagbridge.advertisement.tanx.com
-DOMAIN,na61-na62.wagbridge.advertisement.tanx.com
-DOMAIN,na61-na62-st3.wagbridge.advertisement.tanx.com
-DOMAIN,alibaba.tanx.com
-DOMAIN,wagbridge.alibaba.tanx.com
-DOMAIN,dualstack-na61-na62.wagbridge.alibaba.tanx.com
-DOMAIN,et2-na61-na62.wagbridge.alibaba.tanx.com
-DOMAIN,na61-na62.wagbridge.alibaba.tanx.com
-DOMAIN,secgw-na61-na62.wagbridge.alibaba.tanx.com
-DOMAIN,cms.tanx.com
-DOMAIN,dfhs.tanx.com
-DOMAIN,ecpm.tanx.com
-DOMAIN,ifs.tanx.com
-DOMAIN,ifsk2.tanx.com
-DOMAIN,opehs.tanx.com
-DOMAIN,p.tanx.com
-DOMAIN,pcookie.tanx.com
-DOMAIN,rdstat.tanx.com
-# [taobao.com]
-DOMAIN,wb.110.taobao.com
-DOMAIN,ai.taobao.com
-DOMAIN,count.taobao.com
-DOMAIN,ip.taobao.com
-DOMAIN,ju.taobao.com
-DOMAIN,accscdn.m.taobao.com
-DOMAIN,agoodm.m.taobao.com
-DOMAIN,ai.m.taobao.com
-DOMAIN,apoll.m.taobao.com
-DOMAIN,w.m.taobao.com
-DOMAIN,nbsdk-baichuan.taobao.com
-DOMAIN,pcookie.taobao.com
-DOMAIN,re.taobao.com
-DOMAIN,show.re.taobao.com
-DOMAIN,redirect.simba.taobao.com
-DOMAIN,srd.simba.taobao.com
-DOMAIN,textlink.simba.taobao.com
-DOMAIN,tns.simba.taobao.com
-DOMAIN,tui.taobao.com
 # [tapad.app]
 DOMAIN,cdn-stg.tapad.app
 # [tapad.com]
@@ -15788,10 +15694,6 @@ DOMAIN,smaato-server.thinknearhub.com
 DOMAIN,thinknear-hosted.thinknearhub.com
 # [thrtle.com]
 DOMAIN,thrtle.com
-# [tigertext.me]
-DOMAIN,sdk.tigertext.me
-# [tiktokv.com]
-DOMAIN,mcs-va.tiktokv.com
 # [tiltingpoint.io]
 DOMAIN,registration.tiltingpoint.io
 DOMAIN,utctime.tiltingpoint.io
@@ -15976,10 +15878,6 @@ DOMAIN,beacon.tru.am
 DOMAIN,ads-router-noneu.truecaller.com
 DOMAIN,ads5-noneu.truecaller.com
 DOMAIN,pushid-noneu.truecaller.com
-# [trustarc.com]
-DOMAIN,choices.trustarc.com
-DOMAIN,consent.trustarc.com
-DOMAIN,preferences.trustarc.com
 # [truste.com]
 DOMAIN,choices.truste.com
 # [trustx.org]
@@ -16061,8 +15959,6 @@ DOMAIN,analytics.twitter.com
 DOMAIN,u-ad.info
 # [ua.com]
 DOMAIN,lightstep-collector.api.ua.com
-# [uber.com]
-DOMAIN,events.uber.com
 # [uberads.com]
 DOMAIN,uberads.com
 DOMAIN,ads.uberads.com
