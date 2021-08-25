@@ -1,6 +1,6 @@
 # YouTube去广告
 ctier=(?!SH)[\w-] url 302 citer=A
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier) url reject
+^https?:\/\/[\w-]+\.googlevideo\.com\/((?!(dclk_video_ads|videoplayback)).)+&(oad|ctier) url reject
 #^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier=(?!SH)[A-Z]) url reject-img
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject-200
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject-200
