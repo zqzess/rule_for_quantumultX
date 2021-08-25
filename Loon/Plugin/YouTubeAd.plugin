@@ -2,7 +2,7 @@
 
 #YouTube去广告,已修正短视频无法播放 -> *.googlevideo.com,s.youtube.com,www.youtube.com
 ctier=(?!SH)[\w-] citer=A 302
-^https?:\/\/[\w-]+\.googlevideo\.com\/((?!(dclk_video_ads|videoplayback)).)+&(oad|ctier) _ reject
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier) _ reject
 #^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier=(?!SH)[A-Z]) _ reject-img
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads _ reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) _ reject
