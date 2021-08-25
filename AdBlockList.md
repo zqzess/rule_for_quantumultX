@@ -45,3 +45,4 @@
  > - [x] 抖音广告屏蔽 -by NobyDa
  > - [x] 百度贴吧 -by TributePaulWalker
  > - [x] 淘宝广告屏蔽 -by gitee-木剑
+ > - [x] 多个app广告屏蔽合集(腾讯新闻,vgtime,贴吧,起点,知乎,穿山甲,哔哩哔哩,qq音乐) -by app2smile

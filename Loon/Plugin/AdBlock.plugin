@@ -42,8 +42,10 @@ DOMAIN,p.l.qq.com,REJECT
 DOMAIN,sdk.e.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,oth.bls.mdt.qq.com,REJECT
+DOMAIN,oth.str.mdt.qq.com,REJECT
 DOMAIN-SUFFIX,beacon.qq.com,REJECT
 DOMAIN-SUFFIX,sngdia.imtmp.net,REJECT
+DOMAIN-SUFFIX,us.l.qq.com,REJECT
 #腾讯视频
 DOMAIN-SUFFIX,tetrack.qq.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT

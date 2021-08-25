@@ -17,10 +17,6 @@
 
 ***ps:***
 -->[详细广告屏蔽列表](https://github.com/zqzess/rule_for_quantumultX/blob/master/AdBlockList.md)
- 
- ```ruby
-发现Mitm会造成ssl错误(code:9829)导致番茄小说报证书，如遇此请先关闭Mitm加载再开启Mitm!
-```
 ## 项目地址
 
 ---------------------
@@ -86,6 +82,9 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 
     -----------------
 ### Surge配置文件
+```ruby
+ 配置文件仅供参考，导入后须自行修改才能正常使用
+```
 - [完整配置文件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/zqzess_surge.conf)
 - [广告屏蔽模组](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/AdBlock.sgmodule)
 - [哔哩哔哩增强插件搬运整合](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/bilibili.sqmodule)
@@ -102,7 +101,7 @@ surge搬运：
 - [NetFlix显示IMDB评分](https://kinta.ma/surge/netflix_rating.sgmodule)
 - [BoxJs](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
 - [TextFight区域限制解除](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule)
-  
+- [多个app广告屏蔽合集](https://github.com/app2smile/rules/blob/master/module/ad.sgmodule)
 
 ### 自制脚本
 

@@ -34,18 +34,7 @@ DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
 DOMAIN-SUFFIX,jcollection.shuqireader.com,REJECT
 DOMAIN-SUFFIX,stats.jpush.cn,REJECT
 DOMAIN-SUFFIX,sdk.kaijiawan.com,REJECT
-# QQ音乐去广告
-DOMAIN,adstats.tencentmusic.com,REJECT
-DOMAIN,ad.tencentmusic.com,REJECT
-DOMAIN,adcdn.tencentmusic.com,REJECT
-DOMAIN,adexpo.tencentmusic.com,REJECT
-DOMAIN,adclick.tencentmusic.com,REJECT
-DOMAIN,p.l.qq.com,REJECT
-DOMAIN,sdk.e.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,oth.bls.mdt.qq.com,REJECT
-DOMAIN-SUFFIX,beacon.qq.com,REJECT
-DOMAIN-SUFFIX,sngdia.imtmp.net,REJECT
+
 # 腾讯视频
 DOMAIN-SUFFIX,tetrack.qq.com,REJECT
 DOMAIN-SUFFIX,tpns.tencent.com,REJECT
