@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-08-30 01:32:38
+# AdBlock rules refresh time: 2021-09-06 01:39:24
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -6867,14 +6867,16 @@ DOMAIN,tie.247-inc.net
 # [247realmedia.com]
 DOMAIN,247realmedia.com
 # [2mdn.net]
+# [33across.com]
+DOMAIN,ssc.33across.com
 # [360in.com]
 DOMAIN,360in.com
 DOMAIN,ad.360in.com
 DOMAIN,challenge.360in.com
 DOMAIN,dispatcher.360in.com
 DOMAIN,exp.360in.com
-DOMAIN,hotpot.360in.com
-DOMAIN,i.360in.com
+# [360yield.com]
+DOMAIN,ad.360yield.com
 # [3cinteractive.com]
 DOMAIN,3cinteractive.com
 # [3gl.net]
@@ -6896,13 +6898,12 @@ DOMAIN,staging-us-east-tlx.3lift.com
 DOMAIN,tlx.3lift.com
 DOMAIN,update.3lift.com
 DOMAIN,s.update.3lift.com
-DOMAIN,t.update.3lift.com
 DOMAIN,us-east-tlx.3lift.com
-DOMAIN,us-west-eb2.3lift.com
 DOMAIN,us-west-tlx.3lift.com
 # [404mobi.com]
 DOMAIN,404mobi.com
 # [4dex.io]
+DOMAIN,c.4dex.io
 DOMAIN,script.4dex.io
 # [4dsply.com]
 DOMAIN,4dsply.com
@@ -6920,9 +6921,6 @@ DOMAIN,logs.81plug.com
 # [88-f.net]
 DOMAIN,cdn.88-f.net
 DOMAIN,config.88-f.net
-# [8live.com]
-DOMAIN,8live.com
-DOMAIN,ad.8live.com
 # [9gag.com]
 DOMAIN,rlog.9gag.com
 # [a-ads.com]
@@ -6934,6 +6932,7 @@ DOMAIN,fl.a.ki
 # [a2dfp.net]
 DOMAIN,a2dfp.net
 # [a2z.com]
+DOMAIN,prod.cm.publishers.advertising.a2z.com
 DOMAIN,notify.bugsnag.appstore.a2z.com
 DOMAIN,analytics.console.aws.a2z.com
 DOMAIN,pr.analytics.console.aws.a2z.com
@@ -6954,6 +6953,10 @@ DOMAIN,segment.a3cloud.net
 DOMAIN,a8.net
 # [aa.com]
 DOMAIN,smetrics.aa.com
+# [aamapi.com]
+DOMAIN,aamapi.com
+# [aamsitecertifier.com]
+DOMAIN,aamcf.aamsitecertifier.com
 # [aarki.com]
 DOMAIN,aarki.com
 # [aarki.net]
@@ -6994,9 +6997,6 @@ DOMAIN,pingapi.accengage.com
 DOMAIN,api.accengage.net
 DOMAIN,daraz-by.accengage.net
 # [accesstrade.vn]
-DOMAIN,cv.accesstrade.vn
-DOMAIN,partner.accesstrade.vn
-DOMAIN,service-api.accesstrade.vn
 DOMAIN,static.accesstrade.vn
 DOMAIN,track.accesstrade.vn
 # [acmeaom.com]
@@ -7009,10 +7009,7 @@ DOMAIN,as.ad-brix.com
 DOMAIN,campaign.ad-brix.com
 DOMAIN,config.ad-brix.com
 DOMAIN,cvr.ad-brix.com
-DOMAIN,ref.ad-brix.com
 DOMAIN,tracking.ad-brix.com
-# [ad-cloud.jp]
-DOMAIN,ad-cloud.jp
 # [ad-delivery.net]
 # [ad-locus.com]
 # [ad-maven.com]
@@ -7036,7 +7033,6 @@ DOMAIN,bypass.ad-stir.com
 DOMAIN,js.ad-stir.com
 DOMAIN,sync.ad-stir.com
 DOMAIN,tr.ad-stir.com
-DOMAIN,win.ad-stir.com
 # [ad-x.co.uk]
 DOMAIN,ad-x.co.uk
 DOMAIN,apps.ad-x.co.uk
@@ -7060,8 +7056,6 @@ DOMAIN,ad4.com.cn
 DOMAIN,s.ad4.com.cn
 # [ad4game.com]
 DOMAIN,ads.ad4game.com
-# [ad4push.com]
-DOMAIN,ad4push.com
 # [ad6media.fr]
 DOMAIN,ad6media.fr
 # [adacado.com]
@@ -7110,7 +7104,6 @@ DOMAIN,t.adcell.com
 DOMAIN,adc3-assets.adcolony.com
 DOMAIN,adc3-launch.adcolony.com
 DOMAIN,ads30.adcolony.com
-DOMAIN,alpha-assets.adcolony.com
 DOMAIN,androidads20.adcolony.com
 DOMAIN,androidads20staging.adcolony.com
 DOMAIN,androidads21.adcolony.com
@@ -7120,7 +7113,6 @@ DOMAIN,c4dm.adcolony.com
 DOMAIN,cpa.adcolony.com
 DOMAIN,events3.adcolony.com
 DOMAIN,events3alt.adcolony.com
-DOMAIN,iosads22.adcolony.com
 DOMAIN,iosads24.adcolony.com
 DOMAIN,rtb.adcolony.com
 DOMAIN,wd.adcolony.com
@@ -7135,7 +7127,6 @@ DOMAIN,track.addict-mobile.net
 # [addthis.com]
 DOMAIN,api.addthis.com
 DOMAIN,api-public.addthis.com
-DOMAIN,api-public-oci-origin.addthis.com
 DOMAIN,e.dlx.addthis.com
 DOMAIN,m.dlx.addthis.com
 DOMAIN,p.dlx.addthis.com
@@ -7191,7 +7182,6 @@ DOMAIN,api.adfurikun.jp
 DOMAIN,ginf.adfurikun.jp
 # [adfuture.cn]
 DOMAIN,folder.adfuture.cn
-DOMAIN,fota4.adfuture.cn
 DOMAIN,fotacontrol.adfuture.cn
 DOMAIN,rebootv5.adfuture.cn
 # [adgaterewards.com]
@@ -7296,15 +7286,12 @@ DOMAIN,tag.adkernel.com
 # [adkmob.com]
 DOMAIN,bp.adkmob.com
 DOMAIN,profile.adkmob.com
-DOMAIN,rtb.adkmob.com
 DOMAIN,ufs.adkmob.com
 DOMAIN,unad.adkmob.com
 # [adleadevent.com]
 DOMAIN,adtrack.adleadevent.com
 # [adledge.com]
-DOMAIN,bs.adledge.com
 DOMAIN,epn.adledge.com
-DOMAIN,lbjs.adledge.com
 DOMAIN,rs.adledge.com
 DOMAIN,rs2.adledge.com
 DOMAIN,ser.adledge.com
@@ -7321,20 +7308,12 @@ DOMAIN,as.adlooxtracking.com
 DOMAIN,data02.adlooxtracking.com
 DOMAIN,data03.adlooxtracking.com
 DOMAIN,data04.adlooxtracking.com
-DOMAIN,data07.adlooxtracking.com
-DOMAIN,data08.adlooxtracking.com
-DOMAIN,data10.adlooxtracking.com
-DOMAIN,data12.adlooxtracking.com
-DOMAIN,data14.adlooxtracking.com
 DOMAIN,data53.adlooxtracking.com
 DOMAIN,datam16.adlooxtracking.com
-DOMAIN,datas01.adlooxtracking.com
-DOMAIN,datas04.adlooxtracking.com
 DOMAIN,datas05.adlooxtracking.com
 DOMAIN,js02.adlooxtracking.com
 DOMAIN,js05.adlooxtracking.com
 DOMAIN,js07.adlooxtracking.com
-DOMAIN,js09.adlooxtracking.com
 DOMAIN,js11.adlooxtracking.com
 DOMAIN,js12.adlooxtracking.com
 DOMAIN,js13.adlooxtracking.com
@@ -7358,10 +7337,7 @@ DOMAIN,omax-apac.admarvel.com
 # [admaster.com.cn]
 DOMAIN,admaster.com.cn
 DOMAIN,adx.admaster.com.cn
-DOMAIN,ipinyou.cm.admaster.com.cn
-DOMAIN,fun-adx.admaster.com.cn
 DOMAIN,reachmax-cm.admaster.com.cn
-DOMAIN,yoyi-cm.admaster.com.cn
 # [admatic.com.tr]
 DOMAIN,cdn2.admatic.com.tr
 # [admedia.com]
@@ -7374,15 +7350,11 @@ DOMAIN,pj.l.admedo.com
 DOMAIN,ps.l.admedo.com
 # [admicro.vn]
 DOMAIN,adi.admicro.vn
-DOMAIN,admarket.admicro.vn
 DOMAIN,admatic.admicro.vn
 DOMAIN,adnetwork.admicro.vn
 DOMAIN,adx.admicro.vn
 DOMAIN,goodsp.admicro.vn
-DOMAIN,in.admicro.vn
-DOMAIN,lab.admicro.vn
 DOMAIN,logging.admicro.vn
-DOMAIN,lg.logging.admicro.vn
 DOMAIN,lg1.logging.admicro.vn
 DOMAIN,pson.logging.admicro.vn
 DOMAIN,media1.admicro.vn
@@ -7393,7 +7365,6 @@ DOMAIN,admitad.com
 DOMAIN,fonts.ad.admitad.com
 # [admixer.co.kr]
 DOMAIN,admixer.co.kr
-DOMAIN,dispatch.admixer.co.kr
 # [admixer.net]
 DOMAIN,admixer.net
 DOMAIN,bigosg-inv-eu.admixer.net
@@ -7414,12 +7385,12 @@ DOMAIN,banners.adnetmedia.lt
 DOMAIN,adnetwork.vn
 DOMAIN,delivery.adnetwork.vn
 DOMAIN,media.adnetwork.vn
-DOMAIN,retg.adnetwork.vn
 DOMAIN,track.adnetwork.vn
 # [adnium.com]
 DOMAIN,adnium.com
 DOMAIN,a.adnium.com
-DOMAIN,i.adnium.com
+# [adnxs-simple.com]
+DOMAIN,nym1-ib.adnxs-simple.com
 # [adnxs.com]
 DOMAIN,adscale-emea.adnxs.com
 DOMAIN,ams1-ib.adnxs.com
@@ -7431,16 +7402,13 @@ DOMAIN,b.adnxs.com
 DOMAIN,crcdn01.adnxs.com
 DOMAIN,crcdn09.adnxs.com
 DOMAIN,dcdn.adnxs.com
-DOMAIN,lax1.ib.adnxs.com
 DOMAIN,update.ib.adnxs.com
 DOMAIN,s.update.ib.adnxs.com
-DOMAIN,t.update.ib.adnxs.com
-DOMAIN,iqzn-apac.adnxs.com
 DOMAIN,iqzn-emea.adnxs.com
 DOMAIN,iqzn-useast.adnxs.com
 DOMAIN,lax1-ib.adnxs.com
-DOMAIN,lib.adnxs.com
 DOMAIN,mediation.adnxs.com
+DOMAIN,nym1-ib.adnxs.com
 DOMAIN,oas-c18.adnxs.com
 DOMAIN,cdn.oas-c18.adnxs.com
 DOMAIN,p.adnxs.com
@@ -7450,14 +7418,11 @@ DOMAIN,yj-a.p.adnxs.com
 DOMAIN,prebid.adnxs.com
 DOMAIN,rb.adnxs.com
 DOMAIN,secure-lax.adnxs.com
-DOMAIN,secure-nym.adnxs.com
 DOMAIN,sharethrough.adnxs.com
 DOMAIN,sin1-ib.adnxs.com
 DOMAIN,sin3-ib.adnxs.com
 DOMAIN,thunder.adnxs.com
 DOMAIN,vcdn.adnxs.com
-# [adnxtr.com]
-DOMAIN,t.adnxtr.com
 # [adobe.com]
 DOMAIN,campaign.adobe.com
 DOMAIN,pandoramedia-mkt-prod1-t.campaign.adobe.com
@@ -7475,13 +7440,10 @@ DOMAIN,dsp.adotmob.com
 DOMAIN,sdk.adotmob.com
 DOMAIN,sync.adotmob.com
 DOMAIN,tracker.adotmob.com
-# [adotsolution.com]
-DOMAIN,adotsolution.com
 # [adotube.com]
 DOMAIN,adotube.com
 # [adperfect.com]
 DOMAIN,casmp.adperfect.com
-DOMAIN,cdn-otf-cas.adperfect.com
 # [adpia.vn]
 DOMAIN,ac.adpia.vn
 DOMAIN,click.adpia.vn
@@ -7579,10 +7541,8 @@ DOMAIN,ads5-adnow.com
 DOMAIN,n.ads5-adnow.com
 DOMAIN,st-n.ads5-adnow.com
 # [adsafeprotected.com]
-DOMAIN,amidt.adsafeprotected.com
 DOMAIN,appvast.adsafeprotected.com
 DOMAIN,cdn.adsafeprotected.com
-DOMAIN,daldt.adsafeprotected.com
 DOMAIN,dt.adsafeprotected.com
 DOMAIN,dtvc.adsafeprotected.com
 DOMAIN,fw.adsafeprotected.com
@@ -7595,7 +7555,6 @@ DOMAIN,orpixel.adsafeprotected.com
 DOMAIN,pixel.adsafeprotected.com
 DOMAIN,sgfw.adsafeprotected.com
 DOMAIN,sgpixel.adsafeprotected.com
-DOMAIN,sjedt.adsafeprotected.com
 DOMAIN,spixel.adsafeprotected.com
 DOMAIN,static.adsafeprotected.com
 DOMAIN,unified.adsafeprotected.com
@@ -7607,13 +7566,10 @@ DOMAIN,wrapper-vast.adsafeprotected.com
 # [adsafety.net]
 DOMAIN,cm.adsafety.net
 DOMAIN,tags.adsafety.net
-# [adsage.com]
-DOMAIN,adsage.com
 # [adsame.com]
 # [adsbynimbus.com]
 DOMAIN,adsbynimbus.com
 DOMAIN,growlr.adsbynimbus.com
-DOMAIN,mixerbox-lite.adsbynimbus.com
 DOMAIN,mw-encyclopediabritannica.adsbynimbus.com
 DOMAIN,timehop.adsbynimbus.com
 DOMAIN,turbo.adsbynimbus.com
@@ -7647,12 +7603,8 @@ DOMAIN,cdn-f.adsmoloco.com
 DOMAIN,tr-asia.adsmoloco.com
 DOMAIN,tr-eu.adsmoloco.com
 DOMAIN,tr-us.adsmoloco.com
-DOMAIN,tracker-us.adsmoloco.com
 # [adsmovil.com]
 DOMAIN,atr.adsmovil.com
-# [adsnative.com]
-DOMAIN,api.adsnative.com
-DOMAIN,rudy.adsnative.com
 # [adsniper.ru]
 # [adsolutions.com]
 DOMAIN,tagmans3.adsolutions.com
@@ -7672,8 +7624,6 @@ DOMAIN,track.adsplay.in
 DOMAIN,adsplay.net
 DOMAIN,d.adsplay.net
 DOMAIN,log.adsplay.net
-# [adsplus.vn]
-DOMAIN,adsplus.vn
 # [adspruce.com]
 DOMAIN,adspruce.com
 DOMAIN,ani.adspruce.com
@@ -7685,7 +7635,6 @@ DOMAIN,sync.adspruce.com
 DOMAIN,track.adspruce.com
 DOMAIN,vast.adspruce.com
 DOMAIN,video.adspruce.com
-DOMAIN,vod.adspruce.com
 # [adsrvr.org]
 DOMAIN,a.adsrvr.org
 DOMAIN,ad.adsrvr.org
@@ -7704,7 +7653,6 @@ DOMAIN,sg2-bid.adsrvr.org
 DOMAIN,sindirect.adsrvr.org
 DOMAIN,update.adsrvr.org
 DOMAIN,s.update.adsrvr.org
-DOMAIN,t.update.adsrvr.org
 DOMAIN,use-tor.adsrvr.org
 DOMAIN,usedirect.adsrvr.org
 DOMAIN,usw-ca2.adsrvr.org
@@ -7716,11 +7664,8 @@ DOMAIN,va6-bid.adsrvr.org
 DOMAIN,assets.adstage.io
 # [adstune.com]
 DOMAIN,adstune.com
-# [adsunflower.cn]
-DOMAIN,app.adsunflower.cn
 # [adsunflower.com]
 DOMAIN,folder.adsunflower.com
-DOMAIN,fota4hw.adsunflower.com
 DOMAIN,rebootv5.adsunflower.com
 # [adswizz.com]
 DOMAIN,adswizz.com
@@ -7778,7 +7723,6 @@ DOMAIN,ter-adserver-origin-ap.prod.adtechjp.com
 # [adtechus.com]
 DOMAIN,a.adtechus.com
 DOMAIN,adserverwc.adtechus.com
-DOMAIN,ums.adtechus.com
 # [adtelligent.com]
 DOMAIN,dsp3.adtelligent.com
 DOMAIN,ghb.adtelligent.com
@@ -7807,13 +7751,11 @@ DOMAIN,track.adthrive.com
 DOMAIN,adc-ad-assets.adtilt.com
 # [adtima.vn]
 DOMAIN,adtima.vn
-DOMAIN,static.adtima.vn
 DOMAIN,stc.adtima.vn
 # [adtimaserver.vn]
 DOMAIN,adtimaserver.vn
 DOMAIN,api.adtimaserver.vn
 DOMAIN,log.adtimaserver.vn
-DOMAIN,static.adtimaserver.vn
 DOMAIN,static2.adtimaserver.vn
 # [adtiming.com]
 DOMAIN,apacrtb.adtiming.com
@@ -7839,8 +7781,6 @@ DOMAIN,exchange.adtrue.com
 DOMAIN,static.adtrue.com
 DOMAIN,track.adtrue.com
 DOMAIN,v.adtrue.com
-# [adtrustmedia.com]
-DOMAIN,ads.adtrustmedia.com
 # [adup-tech.com]
 DOMAIN,rtb.d.adup-tech.com
 DOMAIN,s.d.adup-tech.com
@@ -7873,8 +7813,6 @@ DOMAIN,cdn.advanseads.com
 DOMAIN,count.advanseads.com
 DOMAIN,delivery.advanseads.com
 DOMAIN,pixel.advanseads.com
-# [advanstar.com]
-DOMAIN,images2.advanstar.com
 # [advconversion.com]
 DOMAIN,redirect.advconversion.com
 # [adventori.com]
@@ -7903,14 +7841,12 @@ DOMAIN,pxl.ace.advertising.com
 DOMAIN,ace-tag.advertising.com
 DOMAIN,ads-ap.adaptv.advertising.com
 DOMAIN,cdn.adaptv.advertising.com
-DOMAIN,control-test-ec.adaptv.advertising.com
 DOMAIN,conversions.adaptv.advertising.com
 DOMAIN,log.adaptv.advertising.com
 DOMAIN,video.adaptv.advertising.com
 DOMAIN,wtag.adaptv.advertising.com
 DOMAIN,update.wtag.adaptv.advertising.com
 DOMAIN,s.update.wtag.adaptv.advertising.com
-DOMAIN,t.update.wtag.adaptv.advertising.com
 DOMAIN,adserver.adtech.advertising.com
 DOMAIN,adserver-as.adtech.advertising.com
 DOMAIN,adserver-eu.adtech.advertising.com
@@ -8057,6 +7993,10 @@ DOMAIN,aresssl.agoop.net
 DOMAIN,latency.agoop.net
 DOMAIN,log.agoop.net
 DOMAIN,roundrobin-log.agoop.net
+# [aibuy.io]
+DOMAIN,aibuy-api.aibuy.io
+DOMAIN,cdn-media.aibuy.io
+DOMAIN,overlay.aibuy.io
 # [aimatch.com]
 DOMAIN,aimatch.com
 # [airpush.com]
@@ -8129,7 +8069,6 @@ DOMAIN,sgcp-hlb.dvgtm.akadns.net
 DOMAIN,tps-wlb-uswest.dvgtm.akadns.net
 DOMAIN,eyeblaster.akadns.net
 DOMAIN,bs.eyeblaster.akadns.net
-DOMAIN,bsams.eyeblaster.akadns.net
 DOMAIN,bsla.eyeblaster.akadns.net
 DOMAIN,bssg.eyeblaster.akadns.net
 DOMAIN,adlanding.admarketplace.net.akadns.net
@@ -8162,11 +8101,10 @@ DOMAIN,e7876.dscg.akamaiedge.net
 DOMAIN,ds-aksb-a.akamaihd.net
 DOMAIN,inmobisdk-a.akamaihd.net
 DOMAIN,middycdn-a.akamaihd.net
+DOMAIN,ntvcld-a.akamaihd.net
 # [akamaized.net]
-DOMAIN,cdn-guile.akamaized.net
 DOMAIN,appsflyer.com.akamaized.net
 DOMAIN,fvalid.appsflyer.com.akamaized.net
-DOMAIN,heytapimg.com.akamaized.net
 DOMAIN,dyn-beacon.akamaized.net
 DOMAIN,jioads.akamaized.net
 DOMAIN,ma85-r-analytics.akamaized.net
@@ -8190,7 +8128,6 @@ DOMAIN,acjs.aliyun.com
 # [aliyuncs.com]
 DOMAIN,beacon-api.aliyuncs.com
 DOMAIN,fineboost-loghub.ap-southeast-1.log.aliyuncs.com
-DOMAIN,shihuo.shihuo.cn-hangzhou.log.aliyuncs.com
 # [allaccess.com.ph]
 DOMAIN,ads.allaccess.com.ph
 # [allstarcluster.com]
@@ -8240,7 +8177,6 @@ DOMAIN,aan.amazon.com
 DOMAIN,aax-us-iad.amazon.com
 DOMAIN,device-metrics-us.amazon.com
 DOMAIN,device-metrics-us-2.amazon.com
-DOMAIN,fls-cn.amazon.com
 DOMAIN,fls-eu.amazon.com
 DOMAIN,fls-fe.amazon.com
 DOMAIN,fls-na.amazon.com
@@ -8317,14 +8253,12 @@ DOMAIN,adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com
 DOMAIN,analytics-collector-28944298.us-east-1.elb.amazonaws.com
 # [audience-164723144.us-east-1.elb.amazonaws.com]
 DOMAIN,audience-164723144.us-east-1.elb.amazonaws.com
-# [detailed-ad-logger-load-balancer-561104410.us-east-1.elb.amazonaws.com]
-DOMAIN,detailed-ad-logger-load-balancer-561104410.us-east-1.elb.amazonaws.com
-# [engagement-bus-prod-713264365.us-east-1.elb.amazonaws.com]
-DOMAIN,engagement-bus-prod-713264365.us-east-1.elb.amazonaws.com
 # [log-collectors-73517960.us-east-1.elb.amazonaws.com]
 DOMAIN,log-collectors-73517960.us-east-1.elb.amazonaws.com
 # [lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com]
 DOMAIN,lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com
+# [measure-vpc-1125642515.us-east-1.elb.amazonaws.com]
+DOMAIN,measure-vpc-1125642515.us-east-1.elb.amazonaws.com
 # [nova-collector-1192479543.us-east-1.elb.amazonaws.com]
 DOMAIN,nova-collector-1192479543.us-east-1.elb.amazonaws.com
 # [pixel-967319188.us-east-1.elb.amazonaws.com]
@@ -8398,16 +8332,12 @@ DOMAIN,later-analytics-reports.s3-accelerate.amazonaws.com
 DOMAIN,bin5y4muil.execute-api.us-east-1.amazonaws.com
 # [mobileanalytics.us-east-1.amazonaws.com]
 DOMAIN,mobileanalytics.us-east-1.amazonaws.com
-# [ambient-platform.com]
-DOMAIN,ambient-platform.com
-DOMAIN,static.ambient-platform.com
 # [amoad.com]
 DOMAIN,amoad.com
 DOMAIN,m.amoad.com
 # [amobee.com]
 DOMAIN,amobee.com
 # [ampiri.com]
-DOMAIN,api.ampiri.com
 DOMAIN,signals.ampiri.com
 # [amplitude.com]
 DOMAIN,analytics.amplitude.com
@@ -8420,9 +8350,10 @@ DOMAIN,static.amplitude.com
 # [amung.us]
 DOMAIN,amung.us
 # [anagog.com]
-DOMAIN,api.anagog.com
 DOMAIN,eapik.anagog.com
 DOMAIN,eapip.anagog.com
+# [analysis.fi]
+DOMAIN,ecdn.analysis.fi
 # [analysys.cn]
 DOMAIN,analysys.cn
 # [analytics-egain.com]
@@ -8448,6 +8379,8 @@ DOMAIN,track1.aniview.com
 DOMAIN,vast.aniview.com
 DOMAIN,wlplay.aniview.com
 DOMAIN,wltrack.aniview.com
+# [annoyingacoustics.com]
+DOMAIN,annoyingacoustics.com
 # [anquan.org]
 DOMAIN,anquan.org
 # [answerscloud.com]
@@ -8465,8 +8398,6 @@ DOMAIN,t.ants.vn
 DOMAIN,analytics.anvato.net
 DOMAIN,rt.analytics.anvato.net
 # [aotter.net]
-DOMAIN,tkmedia.aotter.net
-DOMAIN,tkmedia-cache.aotter.net
 DOMAIN,tkmftc.aotter.net
 DOMAIN,tkportal.aotter.net
 DOMAIN,tkrecorder.aotter.net
@@ -8482,8 +8413,6 @@ DOMAIN,renderer.apester.com
 DOMAIN,static.apester.com
 # [apis.com.br]
 DOMAIN,apis.com.br
-# [apkcar.com]
-DOMAIN,ymsdk.apkcar.com
 # [app-adforce.jp]
 DOMAIN,app-adforce.jp
 DOMAIN,analytics.app-adforce.jp
@@ -8532,14 +8461,11 @@ DOMAIN,sdk.appbrain.com
 # [appchair.com]
 DOMAIN,ads.appchair.com
 # [appchina.com]
-DOMAIN,log.appchina.com
 DOMAIN,mobile.appchina.com
 # [appclick.co]
 DOMAIN,appclick.co
 # [appcloudbox.net]
 DOMAIN,api-scsdk.appcloudbox.net
-# [appcnt.com]
-DOMAIN,bannerwall.s3.appcnt.com
 # [apperol.com]
 DOMAIN,trk.apperol.com
 # [appflood.com]
@@ -8560,10 +8486,8 @@ DOMAIN,aiqua-sdk.c.appier.net
 DOMAIN,aiqua-user.c.appier.net
 DOMAIN,anylist.c.appier.net
 DOMAIN,apn.c.appier.net
-DOMAIN,apnjp.c.appier.net
 DOMAIN,arm.c.appier.net
 DOMAIN,c.c.appier.net
-DOMAIN,d.c.appier.net
 DOMAIN,dync.c.appier.net
 DOMAIN,g.c.appier.net
 DOMAIN,gocm.c.appier.net
@@ -8589,13 +8513,15 @@ DOMAIN,news.iadsdk.apple.com
 DOMAIN,tr.iadsdk.apple.com
 DOMAIN,ut.iadsdk.apple.com
 DOMAIN,banners.itunes.apple.com
+DOMAIN,notes-analytics-events.apple.com
+DOMAIN,stocks-analytics-events.apple.com
+DOMAIN,weather-analytics-events.apple.com
 # [applicaster.com]
 DOMAIN,assets-secure.applicaster.com
 # [applifier.com]
 DOMAIN,impact.applifier.com
 # [applovin.com]
 DOMAIN,applovin.com
-DOMAIN,api.applovin.com
 DOMAIN,assets.applovin.com
 DOMAIN,dash.applovin.com
 DOMAIN,img.applovin.com
@@ -8652,11 +8578,8 @@ DOMAIN,d.appsdt.com
 DOMAIN,api.appsee.com
 # [appserver-ap.com]
 DOMAIN,appserver-ap.com
-DOMAIN,am.appserver-ap.com
-DOMAIN,rg.appserver-ap.com
 # [appserver-cp.com]
 DOMAIN,appserver-cp.com
-DOMAIN,am.appserver-cp.com
 # [appservestar.com]
 DOMAIN,appservestar.com
 # [appsflyer.com]
@@ -8746,8 +8669,6 @@ DOMAIN,eu-srv.apptornado.com
 DOMAIN,sdk-b.apptornado.com
 # [apptrackerlink.com]
 DOMAIN,tracking.apptrackerlink.com
-# [appwifi.com]
-DOMAIN,api.appwifi.com
 # [apsalar.com]
 DOMAIN,apsalar.com
 DOMAIN,ad.apsalar.com
@@ -8765,13 +8686,14 @@ DOMAIN,tag.apxlv.com
 # [aralego.com]
 DOMAIN,ads.aralego.com
 DOMAIN,agent.aralego.com
-DOMAIN,apac-hk-ad-track.aralego.com
 DOMAIN,apac-sg-ad-track.aralego.com
 DOMAIN,apac-tw-ad-track.aralego.com
 DOMAIN,hb.aralego.com
 DOMAIN,sync.aralego.com
 DOMAIN,us-east-ad-track.aralego.com
 DOMAIN,us-east-ads.aralego.com
+# [aralego.net]
+DOMAIN,cdn.aralego.net
 # [arcsoft.com]
 DOMAIN,intouch.arcsoft.com
 # [areametrics.com]
@@ -8800,7 +8722,6 @@ DOMAIN,cx.atdmt.com
 DOMAIN,db3aqu.atdmt.com
 DOMAIN,ec.atdmt.com
 DOMAIN,jact.atdmt.com
-DOMAIN,sact.atdmt.com
 DOMAIN,switch.atdmt.com
 DOMAIN,view.atdmt.com
 # [ateam-ad.jp]
@@ -8811,6 +8732,8 @@ DOMAIN,atedra.com
 # [atemda.com]
 DOMAIN,atemda.com
 DOMAIN,p287.atemda.com
+# [atgsvcs.com]
+DOMAIN,static.atgsvcs.com
 # [atlassbx.com]
 DOMAIN,atlassbx.com
 DOMAIN,geo.atlassbx.com
@@ -8838,6 +8761,8 @@ DOMAIN,as.y.atwola.com
 DOMAIN,tw.as.y.atwola.com
 DOMAIN,eu.y.atwola.com
 DOMAIN,us.y.atwola.com
+# [audioboom.com]
+DOMAIN,audioboom.com
 # [audioeye.com]
 DOMAIN,ws.audioeye.com
 # [auditude.com]
@@ -8847,10 +8772,6 @@ DOMAIN,augur.io
 # [autoads.asia]
 DOMAIN,autoads.asia
 DOMAIN,fcd.autoads.asia
-DOMAIN,file.autoads.asia
-DOMAIN,tracking.autoads.asia
-# [autodaily.vn]
-DOMAIN,adsv2.autodaily.vn
 # [autoimg.cn]
 DOMAIN,adm3.autoimg.cn
 DOMAIN,img2.autoimg.cn
@@ -8865,7 +8786,6 @@ DOMAIN,stats.avast.com
 DOMAIN,avazunativeads.com
 DOMAIN,api.c.avazunativeads.com
 # [avazutracking.net]
-DOMAIN,apx.avazutracking.net
 DOMAIN,cdn.avazutracking.net
 # [avocarrot.com]
 DOMAIN,avocarrot.com
@@ -8873,10 +8793,11 @@ DOMAIN,ads.avocarrot.com
 DOMAIN,sdklogs.avocarrot.com
 # [avosapps.us]
 DOMAIN,crosspromotion-us.avosapps.us
-DOMAIN,iapserver.avosapps.us
 # [axonix.com]
 DOMAIN,axonix.com
 DOMAIN,vektor-us-east-1.axonix.com
+# [ay.delivery]
+DOMAIN,csxmhkahpy9y6cwwr.ay.delivery
 # [ayads.co]
 DOMAIN,ads.ayads.co
 DOMAIN,antenna.ayads.co
@@ -8922,8 +8843,6 @@ DOMAIN,sts.batmobi.net
 # [batmobil.net]
 DOMAIN,batmobil.net
 DOMAIN,dsp.batmobil.net
-# [batmobile.com.tw]
-DOMAIN,analytics.batmobile.com.tw
 # [bayctrk.com]
 DOMAIN,bayctrk.com
 # [bazaarvoice.com]
@@ -8938,8 +8857,6 @@ DOMAIN,api.beaconstreetservices.com
 # [beanstalkdata.com]
 DOMAIN,t.beanstalkdata.com
 DOMAIN,t2.beanstalkdata.com
-# [bearclod.com]
-DOMAIN,alb.bearclod.com
 # [bee7.com]
 DOMAIN,api.bee7.com
 DOMAIN,api-proxy.bee7.com
@@ -8976,7 +8893,6 @@ DOMAIN,cdn.biddingx.com
 DOMAIN,hkbj.biddingx.com
 DOMAIN,masky.biddingx.com
 DOMAIN,ana.masky.biddingx.com
-DOMAIN,cdn.masky.biddingx.com
 DOMAIN,cm.masky.biddingx.com
 # [bidgear.com]
 DOMAIN,bidgear.com
@@ -8985,8 +8901,6 @@ DOMAIN,imp-dsp.bidgear.com
 DOMAIN,platform.bidgear.com
 DOMAIN,source.bidgear.com
 DOMAIN,vn-platform.bidgear.com
-# [bidmotion.com]
-DOMAIN,sdk-data.bidmotion.com
 # [bidr.io]
 DOMAIN,media.bidr.io
 DOMAIN,event.prod.bidr.io
@@ -9007,7 +8921,9 @@ DOMAIN,fanserv.us-west-2.stinger-ad.bidr.io
 # [bidsopt.com]
 DOMAIN,bidsopt.com
 # [bidswitch.net]
+DOMAIN,gce-or.bidswitch.net
 DOMAIN,grid.bidswitch.net
+DOMAIN,sandbox.bidswitch.net
 # [bing.com]
 DOMAIN,bat.bing.com
 # [bitmango.com]
@@ -9020,12 +8936,12 @@ DOMAIN,cdn.bizible.com
 DOMAIN,sf.bizible.com
 # [bizrate.com]
 DOMAIN,insights.bizrate.com
-# [bizweb.vn]
-DOMAIN,stats.bizweb.vn
 # [bkav.com]
 DOMAIN,analytics.bkav.com
 # [bkav.com.vn]
 DOMAIN,analytics.bkav.com.vn
+# [bkrtx.com]
+DOMAIN,tags.bkrtx.com
 # [bksn.se]
 DOMAIN,us.bksn.se
 # [blinkreceipt.com]
@@ -9033,6 +8949,8 @@ DOMAIN,licensing.blinkreceipt.com
 DOMAIN,sdk-resources.blinkreceipt.com
 # [blismedia.com]
 DOMAIN,tr.blismedia.com
+# [blisspointmedia.com]
+DOMAIN,cdn.blisspointmedia.com
 # [blogherads.com]
 DOMAIN,ads.blogherads.com
 # [bloomberg.com]
@@ -9110,6 +9028,9 @@ DOMAIN,assets.bounceexchange.com
 DOMAIN,cnn.bounceexchange.com
 DOMAIN,pixel.bounceexchange.com
 DOMAIN,tag.bounceexchange.com
+# [bouncex.net]
+DOMAIN,dfp.bouncex.net
+DOMAIN,events.bouncex.net
 # [brafton.com]
 DOMAIN,atlantisjs.brafton.com
 # [brainient.com]
@@ -9158,7 +9079,6 @@ DOMAIN,inferna.iad-03.braze.com
 DOMAIN,izar.iad-03.braze.com
 DOMAIN,lalande.iad-03.braze.com
 DOMAIN,mag.iad-03.braze.com
-DOMAIN,markab.iad-03.braze.com
 DOMAIN,phillateemis.iad-03.braze.com
 DOMAIN,rastaban.iad-03.braze.com
 DOMAIN,rest.iad-03.braze.com
@@ -9192,8 +9112,6 @@ DOMAIN,brealtime.com
 DOMAIN,biddr.brealtime.com
 DOMAIN,biddr-cloud.brealtime.com
 DOMAIN,cookie.brealtime.com
-# [bricknet.com]
-DOMAIN,analytics-prod-ingress.bricknet.com
 # [bridgebase.com]
 DOMAIN,ads.bridgebase.com
 DOMAIN,adserver.bridgebase.com
@@ -9211,8 +9129,6 @@ DOMAIN,px.britepool.com
 # [browsiprod.com]
 DOMAIN,events.browsiprod.com
 DOMAIN,yield-manager.browsiprod.com
-# [bsclink.cn]
-DOMAIN,sdk.appadhoc.com.bsclink.cn
 # [bskarn.com]
 DOMAIN,cdn.bskarn.com
 DOMAIN,loc.bskarn.com
@@ -9222,6 +9138,8 @@ DOMAIN,btloader.com
 DOMAIN,web.btncdn.com
 # [btrll.com]
 DOMAIN,btrll.com
+# [btstatic.com]
+DOMAIN,s.btstatic.com
 # [bttn.io]
 DOMAIN,bttn.io
 DOMAIN,etsy.bttn.io
@@ -9231,6 +9149,8 @@ DOMAIN,uberm.bttn.io
 # [bttrack.com]
 DOMAIN,api.bttrack.com
 DOMAIN,video.bttrack.com
+# [btttag.com]
+DOMAIN,lululemonspna.btttag.com
 # [bubblesmedia.ru]
 DOMAIN,bubblesmedia.ru
 # [bugfender.com]
@@ -9244,7 +9164,6 @@ DOMAIN,app.bugreplay.com
 DOMAIN,api.bugsee.com
 # [bugsense.com]
 DOMAIN,bugsense.com
-DOMAIN,alt.bugsense.com
 DOMAIN,ticks2.bugsense.com
 # [bulldogcpi.com]
 DOMAIN,ads.bulldogcpi.com
@@ -9271,11 +9190,11 @@ DOMAIN,verification-va.byteoversea.com
 DOMAIN,c1exchange.com
 # [c8.net.ua]
 DOMAIN,c8.net.ua
-# [cachefly.net]
-DOMAIN,flurry.cachefly.net
 # [camera360.com]
 DOMAIN,applog.camera360.com
 DOMAIN,appres.camera360.com
+# [campaignmonitor.com]
+DOMAIN,commerce.campaignmonitor.com
 # [capitalone.com]
 DOMAIN,m-metrics.capitalone.com
 # [caprofitx.com]
@@ -9302,6 +9221,8 @@ DOMAIN,images.cardlytics.com
 DOMAIN,devices.carnivalmobile.com
 # [carrier.com]
 DOMAIN,coremetrics.carrier.com
+# [carthook.com]
+DOMAIN,gcheck.carthook.com
 # [casalemedia.com]
 DOMAIN,a1726.casalemedia.com
 DOMAIN,amp.casalemedia.com
@@ -9341,24 +9262,14 @@ DOMAIN,cdnwidget.com
 DOMAIN,ids.cdnwidget.com
 DOMAIN,pixel.cdnwidget.com
 DOMAIN,u.cdnwidget.com
-# [cedexis-radar.net]
-DOMAIN,cedexis-radar.net
-DOMAIN,init.cedexis-radar.net
-# [cedexis.com]
-DOMAIN,cedexis.com
-DOMAIN,akabench.cedexis.com
-DOMAIN,fastlybench.cedexis.com
-DOMAIN,hwcdn.cedexis.com
-DOMAIN,limelight.cedexis.com
-DOMAIN,radar.cedexis.com
-DOMAIN,rpt.cedexis.com
-DOMAIN,tata-bitgravity.cedexis.com
 # [celltick.com]
 DOMAIN,celltick.com
 DOMAIN,contentapi.celltick.com
 # [celtra.com]
 DOMAIN,celtra.com
 DOMAIN,geo.celtra.com
+# [center.io]
+DOMAIN,js.center.io
 # [chango.com]
 DOMAIN,chango.com
 DOMAIN,as.chango.com
@@ -9392,9 +9303,7 @@ DOMAIN,www.chartboost.com
 # [chartboosts.com]
 DOMAIN,chartboosts.com
 DOMAIN,ads.chartboosts.com
-DOMAIN,adtrack.chartboosts.com
 DOMAIN,analysis2.chartboosts.com
-DOMAIN,other.chartboosts.com
 DOMAIN,remain.chartboosts.com
 # [chrysler.com]
 DOMAIN,smetrics.chrysler.com
@@ -9409,6 +9318,10 @@ DOMAIN,c.cintnetworks.com
 # [cision.com]
 DOMAIN,app.cision.com
 DOMAIN,prapi.cision.com
+# [civicscience.com]
+DOMAIN,cdn.civicscience.com
+DOMAIN,get.civicscience.com
+DOMAIN,www.civicscience.com
 # [clarity.ms]
 DOMAIN,www.clarity.ms
 # [claspws.tv]
@@ -9490,6 +9403,8 @@ DOMAIN,bkt.clouddn.com
 DOMAIN,metrics.cloudflarebolt.com
 # [cloudflareinsights.com]
 DOMAIN,static.cloudflareinsights.com
+# [us-central1-adaptive-growth.cloudfunctions.net]
+DOMAIN,us-central1-adaptive-growth.cloudfunctions.net
 # [us-central1-production-242307.cloudfunctions.net]
 DOMAIN,us-central1-production-242307.cloudfunctions.net
 # [cloudmobi.net]
@@ -9514,6 +9429,8 @@ DOMAIN,cmgfeeds.cmgdigital.com
 DOMAIN,id1.cn.com
 # [cnn.com]
 DOMAIN,agility.cnn.com
+DOMAIN,collector.cdp.cnn.com
+DOMAIN,z.cdp-dev.cnn.com
 DOMAIN,data.cnn.com
 DOMAIN,lightning.cnn.com
 DOMAIN,mms.cnn.com
@@ -9622,6 +9539,10 @@ DOMAIN,cmp.uniconsent.mgr.consensu.org
 DOMAIN,vendorlist.consensu.org
 # [consoliads.com]
 DOMAIN,sdk.consoliads.com
+# [content-ad.net]
+DOMAIN,fyls88zqyb.content-ad.net
+# [content-square.net]
+DOMAIN,mobile-production.content-square.net
 # [content.ad]
 DOMAIN,content.ad
 DOMAIN,api.content.ad
@@ -9649,6 +9570,8 @@ DOMAIN,sjc-tr-bgp.contextweb.com
 DOMAIN,tag-st.contextweb.com
 # [contineljs.com]
 DOMAIN,contineljs.com
+# [convertexperiments.com]
+DOMAIN,cdn-3.convertexperiments.com
 # [conviva.com]
 DOMAIN,conviva.com
 DOMAIN,cws.conviva.com
@@ -9662,7 +9585,6 @@ DOMAIN,87a6b28bc7823e67a5bb2a0a6728c702afcae78d.cws.conviva.com
 DOMAIN,a1521dca917ff0e871c935c9253afc0626587b2d.cws.conviva.com
 DOMAIN,a6709203f34992a5095d2bc7ceaf2ec504f651a8.cws.conviva.com
 DOMAIN,ad16a8c8b860d62e9d55b11a66f20c9e32f3e887.cws.conviva.com
-DOMAIN,b3bb7de118d3a2fed1dd1ee77ed5a2bac10fe77b.cws.conviva.com
 DOMAIN,d14bd151e5e8a2a2551514106f790db76ce3fa35.cws.conviva.com
 DOMAIN,e12872de91aaca7a39095801bdf5f168d87912fa.cws.conviva.com
 DOMAIN,fc8dbfdc5da519f576628f619306a357f31bd006.cws.conviva.com
@@ -9675,11 +9597,13 @@ DOMAIN,cws-sjc2.conviva.com
 DOMAIN,cws-us-east.conviva.com
 DOMAIN,cws-usw2.conviva.com
 DOMAIN,dl.conviva.com
-DOMAIN,vrl.m.conviva.com
 DOMAIN,pings.conviva.com
+# [cookiepro.com]
+DOMAIN,cookie-cdn.cookiepro.com
 # [cookieyes.com]
 DOMAIN,geoip.cookieyes.com
 # [cootlogix.com]
+DOMAIN,openrtb.cootlogix.com
 DOMAIN,prebid.cootlogix.com
 # [coralogix.com]
 DOMAIN,api.coralogix.com
@@ -9820,7 +9744,6 @@ DOMAIN,gbc5.da.us.criteo.com
 DOMAIN,gbc6.da.us.criteo.com
 DOMAIN,gbc7.da.us.criteo.com
 DOMAIN,gbc8.da.us.criteo.com
-DOMAIN,rat.da.us.criteo.com
 DOMAIN,rtb.da.us.criteo.com
 DOMAIN,widget.da.us.criteo.com
 DOMAIN,dis.us.criteo.com
@@ -9865,7 +9788,6 @@ DOMAIN,static.par.vip.prod.criteo.net
 DOMAIN,va1.vip.prod.criteo.net
 DOMAIN,csm.va1.vip.prod.criteo.net
 DOMAIN,static.va1.vip.prod.criteo.net
-DOMAIN,sslwidget.criteo.net
 DOMAIN,us.criteo.net
 DOMAIN,csm.us.criteo.net
 DOMAIN,da.us.criteo.net
@@ -9889,7 +9811,6 @@ DOMAIN,img.crossinstall.com
 DOMAIN,rtb-east-wins.crossinstall.com
 # [crossinstall.io]
 DOMAIN,creative-analytics.crossinstall.io
-DOMAIN,creatives.crossinstall.io
 DOMAIN,impressions.crossinstall.io
 DOMAIN,step-service.crossinstall.io
 # [crowdtangle.com]
@@ -9918,7 +9839,6 @@ DOMAIN,clientstorage.cxense.com
 DOMAIN,csyn.cxense.com
 DOMAIN,csyn-r.cxense.com
 DOMAIN,cxad.cxense.com
-DOMAIN,adserver.cxad.cxense.com
 DOMAIN,id.cxense.com
 DOMAIN,p1cluster.cxense.com
 DOMAIN,scdn.cxense.com
@@ -9998,10 +9918,7 @@ DOMAIN,collect10665dd4kq.deltadna.net
 DOMAIN,collect10791rllrc.deltadna.net
 DOMAIN,collect10854wrdcr.deltadna.net
 DOMAIN,collect11136gwntd.deltadna.net
-DOMAIN,collect11463shdwg.deltadna.net
-DOMAIN,collect12285mytmg.deltadna.net
 DOMAIN,collect12348wrdvs.deltadna.net
-DOMAIN,collect12717rnssg.deltadna.net
 DOMAIN,collect12981wrdfl.deltadna.net
 DOMAIN,collect15099mrbll.deltadna.net
 DOMAIN,collect17070dvntr.deltadna.net
@@ -10009,7 +9926,6 @@ DOMAIN,collect2585gmsfw.deltadna.net
 DOMAIN,collect3515gvrnr.deltadna.net
 DOMAIN,collect4739mgndm.deltadna.net
 DOMAIN,collect5081wrdch.deltadna.net
-DOMAIN,collect82532756ggplc.deltadna.net
 DOMAIN,engage10665dd4kq.deltadna.net
 DOMAIN,engage10791rllrc.deltadna.net
 DOMAIN,engage10854wrdcr.deltadna.net
@@ -10022,7 +9938,6 @@ DOMAIN,engage15099mrbll.deltadna.net
 DOMAIN,engage17070dvntr.deltadna.net
 DOMAIN,engage3515gvrnr.deltadna.net
 DOMAIN,engage5081wrdch.deltadna.net
-DOMAIN,engage82532756ggplc.deltadna.net
 DOMAIN,engage8829thscr.deltadna.net
 # [deltago.com]
 DOMAIN,deltago.com
@@ -10097,6 +10012,8 @@ DOMAIN,tracking.directservices.it
 DOMAIN,xpig-dev.directservices.it
 # [disneyplus.com]
 DOMAIN,sanalytics.disneyplus.com
+# [display.io]
+DOMAIN,appsrv.display.io
 # [disq.us]
 DOMAIN,x.disq.us
 # [disqus.com]
@@ -10302,8 +10219,6 @@ DOMAIN,tubemogul-sync.dotomi.com
 DOMAIN,usadmm.dotomi.com
 DOMAIN,usadmm-ds.dotomi.com
 DOMAIN,usweb.dotomi.com
-# [dotui.cn]
-DOMAIN,sdk.dotui.cn
 # [doubleclick.net]
 DOMAIN,accounts.doubleclick.net
 DOMAIN,ad-emea.doubleclick.net
@@ -10319,6 +10234,8 @@ DOMAIN,g2.doubleclick.net
 DOMAIN,g3.doubleclick.net
 DOMAIN,ads-bid.l.doubleclick.net
 DOMAIN,dart.l.doubleclick.net
+DOMAIN,partnerad.l.doubleclick.net
+DOMAIN,stats.l.doubleclick.net
 DOMAIN,m.doubleclick.net
 DOMAIN,s0.doubleclick.net
 # [doubleverify.com]
@@ -10332,9 +10249,17 @@ DOMAIN,rtbcdn.doubleverify.com
 DOMAIN,sgcp-hlb.doubleverify.com
 DOMAIN,tps.doubleverify.com
 DOMAIN,tps10232.doubleverify.com
+DOMAIN,tps11003.doubleverify.com
 DOMAIN,tps11005.doubleverify.com
+DOMAIN,tps11009.doubleverify.com
 DOMAIN,tps11031.doubleverify.com
+DOMAIN,tps11046.doubleverify.com
+DOMAIN,tps11054.doubleverify.com
+DOMAIN,tps11055.doubleverify.com
 DOMAIN,tps30.doubleverify.com
+DOMAIN,tps703.doubleverify.com
+DOMAIN,tps704.doubleverify.com
+DOMAIN,tps707.doubleverify.com
 DOMAIN,tps711.doubleverify.com
 DOMAIN,vast.doubleverify.com
 DOMAIN,vpaid.doubleverify.com
@@ -10356,19 +10281,13 @@ DOMAIN,analytics.dspunion.com
 # [duapp.com]
 DOMAIN,agentchannel.api.duapp.com
 DOMAIN,channel.api.duapp.com
-DOMAIN,bcs.duapp.com
 # [duapps.com]
 DOMAIN,duapps.com
-DOMAIN,pasta.bl.duapps.com
 DOMAIN,common.duapps.com
-DOMAIN,nrc.da.duapps.com
 DOMAIN,pasta.da.duapps.com
 DOMAIN,nrc.dc.duapps.com
 DOMAIN,pasta.dc.duapps.com
-DOMAIN,u.dc.duapps.com
-DOMAIN,pasta.dec.duapps.com
 DOMAIN,gc.ds.duapps.com
-DOMAIN,isgame.ds.duapps.com
 DOMAIN,api.mobula.ds.duapps.com
 DOMAIN,nrc.ds.duapps.com
 DOMAIN,pasta.ds.duapps.com
@@ -10379,26 +10298,20 @@ DOMAIN,pasta.esapplocker.duapps.com
 DOMAIN,pasta.estrongspro.duapps.com
 DOMAIN,api.gif.duapps.com
 DOMAIN,pasta.pw.duapps.com
-DOMAIN,video.rec.duapps.com
-DOMAIN,donate-api.recorder.duapps.com
 DOMAIN,s.duapps.com
-DOMAIN,sandbox.duapps.com
 DOMAIN,nrc.sd.duapps.com
 DOMAIN,pasta.sd.duapps.com
 DOMAIN,api.mobula.sdk.duapps.com
 DOMAIN,rts.mobula.sdk.duapps.com
 DOMAIN,ioslog.ssl2.duapps.com
 DOMAIN,mblapi.ssl2.duapps.com
-DOMAIN,mobula.ssl2.duapps.com
 DOMAIN,motu-hk.ssl2.duapps.com
 DOMAIN,rts.ssl2.duapps.com
-DOMAIN,pasta.tk.duapps.com
 DOMAIN,pasta.whosthat.duapps.com
 # [dui88.com]
 DOMAIN,dui88.com
 # [duiba.com.cn]
 DOMAIN,duiba.com.cn
-DOMAIN,activity.m.duiba.com.cn
 # [duokanbox.com]
 DOMAIN,controller.duokanbox.com
 DOMAIN,mobile.controller.duokanbox.com
@@ -10409,7 +10322,6 @@ DOMAIN,assets.dwell.com
 DOMAIN,images.dwell.com
 # [dxsvr.com]
 DOMAIN,ak.dxsvr.com
-DOMAIN,fbapi.dxsvr.com
 DOMAIN,nrc.dxsvr.com
 DOMAIN,rc.dxsvr.com
 DOMAIN,rts.dxsvr.com
@@ -10439,6 +10351,8 @@ DOMAIN,dlt-beacon.dynatrace-managed.com
 # [dynatrace.com]
 DOMAIN,bf20578xco.bf.dynatrace.com
 DOMAIN,js-cdn.dynatrace.com
+# [dynstc.com]
+DOMAIN,cdn.n.dynstc.com
 # [dyntrk.com]
 DOMAIN,dyntrk.com
 DOMAIN,eu-level1.dyntrk.com
@@ -10584,9 +10498,6 @@ DOMAIN,tracking.admarketplace.net.edgekey.net
 DOMAIN,clicktale.net.edgekey.net
 DOMAIN,cdn-dsa.clicktale.net.edgekey.net
 DOMAIN,everestjs.net.edgekey.net
-DOMAIN,go-mpulse.net.edgekey.net
-DOMAIN,ip46s2.go-mpulse.net.edgekey.net
-DOMAIN,wildcard46.go-mpulse.net.edgekey.net
 DOMAIN,marketo.net.edgekey.net
 DOMAIN,wildcard.marketo.net.edgekey.net
 DOMAIN,owneriq.net.edgekey.net
@@ -10705,6 +10616,8 @@ DOMAIN,ads2.eqads.com
 DOMAIN,ads3.eqads.com
 DOMAIN,um2.eqads.com
 DOMAIN,um3.eqads.com
+# [espn.com]
+DOMAIN,sw88.espn.com
 # [estara.com]
 DOMAIN,as00.estara.com
 # [etahub.com]
@@ -10815,24 +10728,20 @@ DOMAIN,an.facebook.com
 DOMAIN,pixel.facebook.com
 # [fam-ad.com]
 DOMAIN,fam-ad.com
-DOMAIN,img.fam-ad.com
 # [fastapi.net]
 DOMAIN,fastapi.net
 # [mparticle.map.fastly.net]
 DOMAIN,mparticle.map.fastly.net
+# [confiant-integrations.global.ssl.fastly.net]
+DOMAIN,confiant-integrations.global.ssl.fastly.net
 # [fbcdn.net]
 DOMAIN,sonar-iad.xx.fbcdn.net
 # [fc2.com]
-DOMAIN,affiliate.fc2.com
 DOMAIN,aimg.fc2.com
-# [fccinteractive.com]
-DOMAIN,enrichmentservices.fccinteractive.com
 # [fedex.com]
 DOMAIN,metrics.fedex.com
 # [feedmob.com]
 DOMAIN,tracking.feedmob.com
-# [feng.com]
-DOMAIN,yes1.feng.com
 # [fgl.com]
 DOMAIN,enhance-config.fgl.com
 # [fidelity-media.com]
@@ -10855,6 +10764,8 @@ DOMAIN,ecdn.firstimpression.io
 DOMAIN,tracking1.firstimpression.io
 # [fishsticksgames.com]
 DOMAIN,logging.fishsticksgames.com
+# [fitanalytics.com]
+DOMAIN,widget.fitanalytics.com
 # [flashtalking.com]
 DOMAIN,d9.flashtalking.com
 DOMAIN,fdz.flashtalking.com
@@ -10881,6 +10792,8 @@ DOMAIN,adbsdk.flyermobi.com
 DOMAIN,adc.flyermobi.com
 # [fmpub.net]
 DOMAIN,fmpub.net
+# [fn-pz.com]
+DOMAIN,vision.fn-pz.com
 # [follow-apps.com]
 DOMAIN,auth.follow-apps.com
 DOMAIN,sdk.follow-apps.com
@@ -10903,6 +10816,8 @@ DOMAIN,static.foresee.com
 DOMAIN,events.foreseeresults.com
 # [formisimo.com]
 DOMAIN,cdn-static.formisimo.com
+# [forter.com]
+DOMAIN,fdfe4ed62699.cdn4.forter.com
 # [fosrv.com]
 DOMAIN,analytics.fosrv.com
 # [fotoable.com]
@@ -11017,6 +10932,9 @@ DOMAIN,t.gammaplatform.com
 DOMAIN,tag.gammaplatform.com
 # [gamooga.com]
 DOMAIN,evbk.gamooga.com
+# [gannettdigital.com]
+DOMAIN,adrev-ingress.ad-rev-dev-production-east.shared-gke-production-east-svc.gannettdigital.com
+DOMAIN,traxex.gannettdigital.com
 # [gdeslon.ru]
 DOMAIN,gdeslon.ru
 # [gemius.pl]
@@ -11048,6 +10966,9 @@ DOMAIN,static.getclicky.com
 # [getdrip.com]
 DOMAIN,api.getdrip.com
 DOMAIN,tag.getdrip.com
+# [getgo.com]
+DOMAIN,api-telemetry.servers.getgo.com
+DOMAIN,telemetry.servers.getgo.com
 # [getshogun.com]
 DOMAIN,analytics.getshogun.com
 # [getsocial.im]
@@ -11070,7 +10991,6 @@ DOMAIN,cdn.gimbal.tech
 DOMAIN,stats.gioneemobile.net
 # [gismart.xyz]
 DOMAIN,analytics.gismart.xyz
-DOMAIN,cdn-prod-defaulting-gamedev-ads.gismart.xyz
 DOMAIN,prod-defaulting-subscriptiontool.gismart.xyz
 # [gladly.com]
 DOMAIN,cdn.gladly.com
@@ -11083,6 +11003,9 @@ DOMAIN,rd.glispa.com
 DOMAIN,trk.glispa.com
 # [globalnetworkad.com]
 DOMAIN,trans.globalnetworkad.com
+# [globalwebindex.net]
+DOMAIN,gwiq-v3.globalwebindex.net
+DOMAIN,gwiqcdn.globalwebindex.net
 # [glulive.com]
 DOMAIN,personalization.centech.glulive.com
 DOMAIN,prd1.personalization.centech.glulive.com
@@ -11094,12 +11017,12 @@ DOMAIN,cdn.gmossp-sp.jp
 DOMAIN,adn-d.sp.gmossp-sp.jp
 DOMAIN,adn-i.sp.gmossp-sp.jp
 DOMAIN,adn-j.sp.gmossp-sp.jp
-# [go-mpulse.net]
-DOMAIN,go-mpulse.net
-DOMAIN,s.go-mpulse.net
-DOMAIN,s2.go-mpulse.net
 # [go.com]
 DOMAIN,log.go.com
+DOMAIN,sw88.go.com
+DOMAIN,tredir.go.com
+DOMAIN,cdn.unid.go.com
+DOMAIN,ios.unid.go.com
 # [go2cloud.org]
 DOMAIN,tapjoy.go2cloud.org
 # [go2speed.org]
@@ -11135,7 +11058,6 @@ DOMAIN,fundingchoices.google.com
 DOMAIN,crashlytics2.l.google.com
 DOMAIN,pagead-googlehosted.l.google.com
 DOMAIN,s0-2mdn-net.l.google.com
-DOMAIN,video-stats.video.google.com
 # [google.com.tr]
 DOMAIN,adservice.google.com.tr
 # [google.com.ua]
@@ -11154,8 +11076,6 @@ DOMAIN,pagead2.googleadservices.com
 # [googleadsserving.cn]
 # [androidtvwatsonfe-pa.googleapis.com]
 DOMAIN,androidtvwatsonfe-pa.googleapis.com
-# [clientmetrics-pa.googleapis.com]
-DOMAIN,clientmetrics-pa.googleapis.com
 # [googlesyndication.com]
 DOMAIN,buttons.googlesyndication.com
 # [googleusercontent.com]
@@ -11163,8 +11083,6 @@ DOMAIN,displayads-formats.googleusercontent.com
 # [gop1.co]
 DOMAIN,gop1.co
 DOMAIN,aos.gop1.co
-DOMAIN,g.gop1.co
-DOMAIN,geo.gop1.co
 DOMAIN,img.gop1.co
 # [gotoip55.com]
 DOMAIN,gotoip55.com
@@ -11173,8 +11091,6 @@ DOMAIN,cdn.gotraffic.net
 # [gowadogo.com]
 DOMAIN,gowadogo.com
 DOMAIN,click.gowadogo.com
-# [gplayspace.com]
-DOMAIN,sdk.gplayspace.com
 # [grabify.link]
 DOMAIN,grabify.link
 # [grapeshot.co.uk]
@@ -11190,7 +11106,6 @@ DOMAIN,diag-wd.gridsumdissector.com
 DOMAIN,i.gridsumdissector.com
 DOMAIN,recv-bak-wd.gridsumdissector.com
 DOMAIN,recv-wd.gridsumdissector.com
-DOMAIN,ssl.gridsumdissector.com
 DOMAIN,static.gridsumdissector.com
 # [growthbeat.com]
 DOMAIN,api.growthbeat.com
@@ -11217,7 +11132,6 @@ DOMAIN,va-lb.gumgum.com
 DOMAIN,wo.gumgum.com
 DOMAIN,update.wo.gumgum.com
 DOMAIN,s.update.wo.gumgum.com
-DOMAIN,t.update.wo.gumgum.com
 # [guoshipartners.com]
 # [gwallet.com]
 DOMAIN,gwallet.com
@@ -11227,11 +11141,6 @@ DOMAIN,perr.h-cdn.com
 # [h12-media.com]
 DOMAIN,h12-media.com
 DOMAIN,tags.h12-media.com
-# [hadarone.com]
-DOMAIN,hadarone.com
-DOMAIN,d1.hadarone.com
-DOMAIN,d2.hadarone.com
-DOMAIN,static.hadarone.com
 # [hansel.io]
 DOMAIN,dil.hansel.io
 DOMAIN,sdk.hansel.io
@@ -11333,11 +11242,16 @@ DOMAIN,howdoesin.net
 DOMAIN,click.howdoesin.net
 # [hrzn-nxt.com]
 DOMAIN,hrzn-nxt.com
+DOMAIN,c.hrzn-nxt.com
 DOMAIN,hmi-hershey.hrzn-nxt.com
+DOMAIN,l.hrzn-nxt.com
 # [hs-analytics.net]
 DOMAIN,hs-analytics.net
 # [htmedia.in]
 DOMAIN,analytics.htmedia.in
+# [humann.com]
+DOMAIN,segment.humann.com
+DOMAIN,segment-api.humann.com
 # [huqindustries.co.uk]
 DOMAIN,api.huqindustries.co.uk
 DOMAIN,charles.huqindustries.co.uk
@@ -11357,8 +11271,6 @@ DOMAIN,i-mobile.co.jp
 DOMAIN,i2ad.jp
 # [i2i.jp]
 DOMAIN,i2i.jp
-# [i2idata.com]
-DOMAIN,ad.i2idata.com
 # [iadvize.com]
 DOMAIN,api.iadvize.com
 DOMAIN,cdlc.iadvize.com
@@ -11370,7 +11282,6 @@ DOMAIN,static.iadvize.com
 DOMAIN,xmpp-ha-alb.iadvize.com
 # [iappgame.com]
 DOMAIN,app.iappgame.com
-DOMAIN,madv.iappgame.com
 DOMAIN,sdk.iappgame.com
 # [iappmobi.com]
 DOMAIN,data.iappmobi.com
@@ -11380,7 +11291,6 @@ DOMAIN,sc.iasds01.com
 # [iaudienc.com]
 DOMAIN,iaudienc.com
 DOMAIN,s.iaudienc.com
-DOMAIN,t.iaudienc.com
 # [ibmcloud.com]
 DOMAIN,planning-analytics.ibmcloud.com
 DOMAIN,tealeaf.ibmcloud.com
@@ -11395,6 +11305,8 @@ DOMAIN,ads.icloseli.com
 DOMAIN,api.icloseli.com
 DOMAIN,esd.icloseli.com
 DOMAIN,relaycn.icloseli.com
+# [icloud.com]
+DOMAIN,metrics.icloud.com
 # [id1.cn]
 DOMAIN,id1.cn
 # [idio.co]
@@ -11409,28 +11321,27 @@ DOMAIN,ssl-s.idio.co
 DOMAIN,game.idoing3d.com
 # [idreams.pl]
 DOMAIN,server.idreams.pl
+# [iesnare.com]
+DOMAIN,mpsnare.iesnare.com
 # [ifengimg.com]
 DOMAIN,d.ifengimg.com
 # [ifood.tv]
 DOMAIN,adlog.ifood.tv
 DOMAIN,log.ifood.tv
-# [igaworks.com]
-DOMAIN,igaworks.com
 # [igetget.com]
-DOMAIN,dedao.igetget.com
 DOMAIN,entree.igetget.com
 DOMAIN,piccdn.igetget.com
 DOMAIN,seeder.igetget.com
 # [igexin.com]
-DOMAIN,cname1.igexin.com
 DOMAIN,inc2.igexin.com
 DOMAIN,open.inc2.igexin.com
 DOMAIN,sdk.open.inc2.igexin.com
-DOMAIN,talk.nz4.igexin.com
 DOMAIN,open.phone.igexin.com
 DOMAIN,talk.igexin.com
 DOMAIN,open.talk.igexin.com
 DOMAIN,sdk.open.talk.igexin.com
+# [igodigital.com]
+DOMAIN,10870841.collect.igodigital.com
 # [ihsmarkit.com]
 DOMAIN,wass.ihsmarkit.com
 # [ihuman.com]
@@ -11476,18 +11387,12 @@ DOMAIN,imimobile.com
 # [immobilienscout24.de]
 DOMAIN,tracking.immobilienscout24.de
 # [immomo.com]
-DOMAIN,ap.immomo.com
 DOMAIN,api.immomo.com
 DOMAIN,api-log.immomo.com
-DOMAIN,api-vip.immomo.com
-DOMAIN,app-log.immomo.com
 DOMAIN,connperf.immomo.com
 DOMAIN,live-api.immomo.com
-DOMAIN,live-log.immomo.com
 DOMAIN,paas-push-api.immomo.com
 DOMAIN,paas-push-api-log.immomo.com
-# [imoads.com]
-DOMAIN,sdk.imoads.com
 # [imonomy.com]
 DOMAIN,b.imonomy.com
 DOMAIN,srv.imonomy.com
@@ -11504,6 +11409,8 @@ DOMAIN,partners-hotwire-com.impactradius.com
 DOMAIN,cdn-gl.imrworldwide.com
 DOMAIN,cloudapi.imrworldwide.com
 DOMAIN,cm.imrworldwide.com
+DOMAIN,errors.imrworldwide.com
+DOMAIN,global.imrworldwide.com
 DOMAIN,priv-policy.imrworldwide.com
 DOMAIN,sdk.imrworldwide.com
 DOMAIN,seccdn-gl.imrworldwide.com
@@ -11518,6 +11425,7 @@ DOMAIN,secure-gl.imrworldwide.com
 DOMAIN,secure-it.imrworldwide.com
 DOMAIN,secure-nz.imrworldwide.com
 DOMAIN,secure-proxy.imrworldwide.com
+DOMAIN,secure-sdk.imrworldwide.com
 DOMAIN,secure-sg.imrworldwide.com
 DOMAIN,secure-uk.imrworldwide.com
 DOMAIN,secure-us.imrworldwide.com
@@ -11536,7 +11444,6 @@ DOMAIN,t.indeed.com
 DOMAIN,js-sec.indexww.com
 DOMAIN,update.indexww.com
 DOMAIN,s.update.indexww.com
-DOMAIN,t.update.indexww.com
 # [indiatimes.com]
 DOMAIN,mobileads.indiatimes.com
 # [indicative.com]
@@ -11555,8 +11462,6 @@ DOMAIN,targeting.influencemobile.com
 DOMAIN,image.influenster.com
 # [informatm.com]
 DOMAIN,images.informatm.com
-# [infourl.net]
-DOMAIN,i151125.infourl.net
 # [infra.systems]
 DOMAIN,studcat.infra.systems
 # [inlcorp.com]
@@ -11624,8 +11529,6 @@ DOMAIN,inmobi.net
 DOMAIN,inmobicdn.net
 DOMAIN,l.inmobicdn.net
 DOMAIN,glance.l.inmobicdn.net
-# [inmoji.com]
-DOMAIN,api.inmoji.com
 # [inmoment.com]
 DOMAIN,dispawsusva.inmoment.com
 DOMAIN,intercept.inmoment.com
@@ -11689,6 +11592,10 @@ DOMAIN,api.insmobi.com
 DOMAIN,cdn.inspectlet.com
 DOMAIN,hn.inspectlet.com
 DOMAIN,ws.inspectlet.com
+# [instabug.com]
+DOMAIN,api.instabug.com
+# [instana.io]
+DOMAIN,eum-orange-saas.instana.io
 # [integromat.com]
 DOMAIN,hook.integromat.com
 # [intellimize.co]
@@ -11699,7 +11606,6 @@ DOMAIN,static.intentarget.com
 # [intentiq.com]
 DOMAIN,ads.intentiq.com
 DOMAIN,api.intentiq.com
-DOMAIN,bid.intentiq.com
 DOMAIN,pe.intentiq.com
 DOMAIN,pe-east.intentiq.com
 DOMAIN,pe1.intentiq.com
@@ -11739,6 +11645,8 @@ DOMAIN,fm.ipinyou.com
 DOMAIN,fms.ipinyou.com
 DOMAIN,mdi.ipinyou.com
 DOMAIN,stats.ipinyou.com
+# [iponweb.net]
+DOMAIN,fastg8.pool.iponweb.net
 # [ipredictive.com]
 DOMAIN,ad-us-west.ipredictive.com
 DOMAIN,events-us-east-1.ipredictive.com
@@ -11782,9 +11690,9 @@ DOMAIN,irr.ru
 DOMAIN,dm.isnssdk.com
 DOMAIN,h5.isnssdk.com
 DOMAIN,hotapi-va.isnssdk.com
+DOMAIN,i.isnssdk.com
 DOMAIN,i16-tb.isnssdk.com
 DOMAIN,ichannel.isnssdk.com
-DOMAIN,ichannel-tb.isnssdk.com
 DOMAIN,imapi-sg.isnssdk.com
 DOMAIN,log.isnssdk.com
 DOMAIN,log-tb.isnssdk.com
@@ -11827,8 +11735,6 @@ DOMAIN,err.izooto.com
 DOMAIN,jampp.com
 DOMAIN,cdn.jampp.com
 DOMAIN,imgx.jampp.com
-# [jd.com]
-DOMAIN,union.m.jd.com
 # [jeeng.com]
 DOMAIN,api.jeeng.com
 DOMAIN,users.api.jeeng.com
@@ -11875,7 +11781,6 @@ DOMAIN,mobile-sdk-resources.jumio.com
 DOMAIN,nv-sdk.jumio.com
 # [justpremium.com]
 DOMAIN,ads.justpremium.com
-DOMAIN,ae.ads.justpremium.com
 DOMAIN,de.ads.justpremium.com
 DOMAIN,es.ads.justpremium.com
 DOMAIN,fr.ads.justpremium.com
@@ -11962,7 +11867,6 @@ DOMAIN,servicelayer.king.com
 DOMAIN,analytics.kingoapp.com
 DOMAIN,sdk.kingoapp.com
 DOMAIN,service.kingoapp.com
-DOMAIN,update.kingoapp.com
 DOMAIN,uts.kingoapp.com
 # [kingsoft-office-service.com]
 DOMAIN,abroad-ad.kingsoft-office-service.com
@@ -11980,12 +11884,18 @@ DOMAIN,a.klaviyo.com
 DOMAIN,fast.a.klaviyo.com
 DOMAIN,static.klaviyo.com
 DOMAIN,telemetrics.klaviyo.com
+# [klclick2.com]
+DOMAIN,trk.klclick2.com
 # [klclick3.com]
 DOMAIN,trk.klclick3.com
 # [kmpmedia.net]
 DOMAIN,gplayer.kmpmedia.net
 DOMAIN,player.kmpmedia.net
 DOMAIN,update.kmpmedia.net
+# [kmsmep.com]
+DOMAIN,brand-sdk.kmsmep.com
+DOMAIN,brands.kmsmep.com
+DOMAIN,metrics.kmsmep.com
 # [knlob.com]
 DOMAIN,track.knlob.com
 # [knorex.com]
@@ -12009,7 +11919,6 @@ DOMAIN,g.koowo.com
 DOMAIN,krxd.net
 DOMAIN,apiservices.krxd.net
 DOMAIN,beacon-ash-prod.krxd.net
-DOMAIN,beacon-pdx-prod.krxd.net
 DOMAIN,beacon-sie.krxd.net
 DOMAIN,consumer.krxd.net
 DOMAIN,jslog.krxd.net
@@ -12022,7 +11931,6 @@ DOMAIN,apissl.ksapisrv.com
 DOMAIN,gdfp.ksapisrv.com
 DOMAIN,live.ksapisrv.com
 DOMAIN,push.ksapisrv.com
-DOMAIN,sixinpic.ksapisrv.com
 DOMAIN,ulog.ksapisrv.com
 DOMAIN,upload.ksapisrv.com
 # [kshwtj.com]
@@ -12042,7 +11950,6 @@ DOMAIN,ws.ksmobile.net
 # [kt.com]
 DOMAIN,freesam.kt.com
 DOMAIN,ilb.pns.kt.com
-DOMAIN,olb.pns.kt.com
 # [ktplay.com]
 DOMAIN,dataapi.ktplay.com
 DOMAIN,track.ktplay.com
@@ -12054,13 +11961,9 @@ DOMAIN,events.kumulos.com
 DOMAIN,stats.kumulos.com
 # [kuwo.cn]
 DOMAIN,log.kuwo.cn
-DOMAIN,updatepage.kuwo.cn
 DOMAIN,wa.kuwo.cn
-DOMAIN,webstat.kuwo.cn
 # [kuyun.com]
 DOMAIN,ask.log.kuyun.com
-# [kxcdn.com]
-DOMAIN,sumome-140a.kxcdn.com
 # [lanistaads.com]
 DOMAIN,api.lanistaads.com
 # [largosoft.co.kr]
@@ -12075,6 +11978,8 @@ DOMAIN,libs.lavanetwork.net
 DOMAIN,pub.lavanetwork.net
 # [lavasoft.com]
 DOMAIN,wc-tracking.lavasoft.com
+# [lbdns-streamguys.com]
+DOMAIN,ad-im-cmg.lbdns-streamguys.com
 # [lbesec.com]
 DOMAIN,cc.lbesec.com
 # [lbesecapi.com]
@@ -12099,6 +12004,8 @@ DOMAIN,ldynamicspublicapi.leadforensics.com
 DOMAIN,tracking.leadlander.com
 # [leadpages.io]
 DOMAIN,api.leadpages.io
+# [leadpages.net]
+DOMAIN,static.leadpages.net
 # [leadplace.fr]
 DOMAIN,tag.leadplace.fr
 # [leads.su]
@@ -12147,7 +12054,6 @@ DOMAIN,api.itv.letv.com
 DOMAIN,api.platform.letv.com
 # [lfengmobile.com]
 DOMAIN,ads1.lfengmobile.com
-DOMAIN,204.scloud.lfengmobile.com
 DOMAIN,agnes.scloud.lfengmobile.com
 DOMAIN,control.scloud.lfengmobile.com
 DOMAIN,dnm.scloud.lfengmobile.com
@@ -12177,6 +12083,9 @@ DOMAIN,us.rdx2.lgtvsdp.com
 DOMAIN,us.lgtvsdp.com
 # [liadm.com]
 DOMAIN,b-code.liadm.com
+DOMAIN,p.liadm.com
+DOMAIN,rp.liadm.com
+DOMAIN,rp4.liadm.com
 # [licdn.com]
 DOMAIN,snap.licdn.com
 # [licensebuttons.net]
@@ -12193,6 +12102,7 @@ DOMAIN,impression-europe.liftoff.io
 DOMAIN,a.ligatus.com
 DOMAIN,a-ssl.ligatus.com
 # [lightboxcdn.com]
+DOMAIN,s3.lightboxcdn.com
 DOMAIN,www.lightboxcdn.com
 # [lijit.com]
 DOMAIN,pba.aws.lijit.com
@@ -12220,8 +12130,6 @@ DOMAIN,vap6ewr1.lijit.com
 DOMAIN,api.limbik.com
 # [linkedin.com]
 DOMAIN,ads.linkedin.com
-# [linkitox.com]
-DOMAIN,prod.linkitox.com
 # [linkprice.com]
 DOMAIN,ad.linkprice.com
 # [linksynergy.com]
@@ -12298,16 +12206,16 @@ DOMAIN,api.locuslabs.com
 DOMAIN,assets.locuslabs.com
 # [lodeo.io]
 DOMAIN,cdn.lodeo.io
+# [loft.com]
+DOMAIN,smetrics.loft.com
 # [logentries.com]
 DOMAIN,api.logentries.com
 DOMAIN,data.logentries.com
 DOMAIN,js.logentries.com
 DOMAIN,webhook.logentries.com
 # [loggly.com]
-DOMAIN,cloudfront.loggly.com
 DOMAIN,logs-01.loggly.com
 # [logly.co.jp]
-DOMAIN,abc.logly.co.jp
 DOMAIN,b.logly.co.jp
 DOMAIN,cdn.logly.co.jp
 DOMAIN,dsp.logly.co.jp
@@ -12339,6 +12247,8 @@ DOMAIN,csync.loopme.me
 DOMAIN,i.loopme.me
 DOMAIN,m.loopme.me
 DOMAIN,track.loopme.me
+# [lovelydrum.com]
+DOMAIN,lovelydrum.com
 # [loveota.net]
 DOMAIN,sdk.loveota.net
 # [lp4.io]
@@ -12351,10 +12261,10 @@ DOMAIN,dc.lsosad.com
 DOMAIN,user.lucidmedia.com
 # [luckyforworlds.com]
 DOMAIN,lg.luckyforworlds.com
+# [lululemon.com]
+DOMAIN,smetrics.lululemon.com
 # [luminati.io]
 DOMAIN,clientsdk.luminati.io
-# [luojilab.com]
-DOMAIN,dasdk.luojilab.com
 # [lytics.io]
 DOMAIN,api.lytics.io
 DOMAIN,c.lytics.io
@@ -12667,9 +12577,6 @@ DOMAIN,medio.com
 DOMAIN,api.megacool.co
 # [meiqia.com]
 DOMAIN,eco-api.meiqia.com
-# [meitu.com]
-DOMAIN,message.meitu.com
-DOMAIN,tuiguang.meitu.com
 # [meitudata.com]
 DOMAIN,xiuxiu.mobile.meitudata.com
 # [mellowads.com]
@@ -12720,14 +12627,12 @@ DOMAIN,fi-analytics.mgsn.it
 # [miaozhen.com]
 DOMAIN,ads.cn.miaozhen.com
 DOMAIN,pd.ads.cn.miaozhen.com
-DOMAIN,hunantv-ipdx.cn.miaozhen.com
 DOMAIN,monitor-tools.cn.miaozhen.com
 DOMAIN,xiaomi-mipdx.cn.miaozhen.com
 DOMAIN,g.jp.miaozhen.com
 # [microad.jp]
 DOMAIN,microad.jp
 DOMAIN,cdn.microad.jp
-DOMAIN,cm.send.microad.jp
 DOMAIN,s-rtb.send.microad.jp
 DOMAIN,s-rtb-pb.send.microad.jp
 DOMAIN,ssp.send.microad.jp
@@ -12740,7 +12645,6 @@ DOMAIN,jgl.microad.net
 DOMAIN,send.microadinc.com
 DOMAIN,cache.send.microadinc.com
 DOMAIN,cm.send.microadinc.com
-DOMAIN,dsp.send.microadinc.com
 DOMAIN,s-rtb.send.microadinc.com
 DOMAIN,ssp.send.microadinc.com
 # [microsoft.com]
@@ -12775,7 +12679,6 @@ DOMAIN,m.mixadvert.com
 # [mixmarket.biz]
 DOMAIN,mixmarket.biz
 # [mixpanel.com]
-DOMAIN,api-compatible.mixpanel.com
 DOMAIN,api-js.mixpanel.com
 DOMAIN,decide.mixpanel.com
 DOMAIN,switchboard.mixpanel.com
@@ -12886,7 +12789,6 @@ DOMAIN,smgbacdcm963283424490.s.moatpixel.com
 DOMAIN,smgbacflashtalking972483164724.s.moatpixel.com
 DOMAIN,sparkusdiscoverdcm781744349491.s.moatpixel.com
 DOMAIN,stackadaptdisplay515602019759.s.moatpixel.com
-DOMAIN,targetdfp320149284940.s.moatpixel.com
 DOMAIN,teads245638586802.s.moatpixel.com
 DOMAIN,terminusdisplay296618589072.s.moatpixel.com
 DOMAIN,testtradedeskmve.s.moatpixel.com
@@ -12921,15 +12823,11 @@ DOMAIN,tcp.push.mob.com
 DOMAIN,k.tcp.push.mob.com
 DOMAIN,l.tcp.push.mob.com
 DOMAIN,udp.push.mob.com
-DOMAIN,sentinel.mob.com
-DOMAIN,data.sentinel.mob.com
-DOMAIN,api.data.sentinel.mob.com
 DOMAIN,share.mob.com
 DOMAIN,jp.api.share.mob.com
 DOMAIN,p.share.mob.com
 DOMAIN,sms.mob.com
 DOMAIN,init.sms.mob.com
-DOMAIN,ulml.mob.com
 DOMAIN,verify.mob.com
 # [mob193.com]
 DOMAIN,track.mob193.com
@@ -12992,11 +12890,9 @@ DOMAIN,17058.engine.mobileapptracking.com
 DOMAIN,175038.engine.mobileapptracking.com
 DOMAIN,176232.engine.mobileapptracking.com
 DOMAIN,1782.engine.mobileapptracking.com
-DOMAIN,178852.engine.mobileapptracking.com
 DOMAIN,17908.engine.mobileapptracking.com
 DOMAIN,180642.engine.mobileapptracking.com
 DOMAIN,183704.engine.mobileapptracking.com
-DOMAIN,183804.engine.mobileapptracking.com
 DOMAIN,185492.engine.mobileapptracking.com
 DOMAIN,185536.engine.mobileapptracking.com
 DOMAIN,189358.engine.mobileapptracking.com
@@ -13005,22 +12901,16 @@ DOMAIN,189983.engine.mobileapptracking.com
 DOMAIN,190107.engine.mobileapptracking.com
 DOMAIN,190829.engine.mobileapptracking.com
 DOMAIN,192569.engine.mobileapptracking.com
-DOMAIN,192834.engine.mobileapptracking.com
 DOMAIN,194192.engine.mobileapptracking.com
 DOMAIN,194792.engine.mobileapptracking.com
 DOMAIN,194985.engine.mobileapptracking.com
 DOMAIN,195724.engine.mobileapptracking.com
-DOMAIN,19588.engine.mobileapptracking.com
-DOMAIN,198935.engine.mobileapptracking.com
 DOMAIN,199107.engine.mobileapptracking.com
-DOMAIN,199109.engine.mobileapptracking.com
 DOMAIN,20298.engine.mobileapptracking.com
 DOMAIN,22006.engine.mobileapptracking.com
 DOMAIN,3612.engine.mobileapptracking.com
 DOMAIN,4984.engine.mobileapptracking.com
-DOMAIN,5094.engine.mobileapptracking.com
 DOMAIN,7336.engine.mobileapptracking.com
-DOMAIN,8008.engine.mobileapptracking.com
 DOMAIN,8604.engine.mobileapptracking.com
 DOMAIN,8696.engine.mobileapptracking.com
 DOMAIN,943.engine.mobileapptracking.com
@@ -13053,23 +12943,16 @@ DOMAIN,cross-promo.mwx.ext.mobilityware.com
 # [mobimagic.com]
 DOMAIN,mobimagic.com
 DOMAIN,a.mobimagic.com
-DOMAIN,iw.a.mobimagic.com
 DOMAIN,l.a.mobimagic.com
 DOMAIN,pks.a.mobimagic.com
 DOMAIN,ul.a.mobimagic.com
-# [mobisky.pl]
-DOMAIN,api.mobeacon.mobisky.pl
 # [mobisla.com]
 DOMAIN,mobisla.com
 DOMAIN,go.mobisla.com
 # [mobitech-content.xyz]
 DOMAIN,api.mobitech-content.xyz
-# [mobitree.co.kr]
-DOMAIN,ads.mobitree.co.kr
 # [mobivity.com]
 DOMAIN,mobivity.com
-# [mobpedia.com]
-DOMAIN,srv6.mobpedia.com
 # [mobpowertech.com]
 DOMAIN,mobpowertech.com
 DOMAIN,api.mobpowertech.com
@@ -13094,12 +12977,10 @@ DOMAIN,smart.mobvista.com
 DOMAIN,api.moengage.com
 DOMAIN,apiv2.moengage.com
 DOMAIN,apiv2eu.moengage.com
-DOMAIN,apiv3.moengage.com
 DOMAIN,cdn.moengage.com
 DOMAIN,cfimage.moengage.com
 DOMAIN,ec.moengage.com
 DOMAIN,image.moengage.com
-DOMAIN,inapps.moengage.com
 DOMAIN,websdk.moengage.com
 # [mologiq.net]
 DOMAIN,mologiq.net
@@ -13140,12 +13021,9 @@ DOMAIN,id-gmtdmp.mookie1.com
 DOMAIN,in-gmtdmp.mookie1.com
 DOMAIN,it-gmtdmp.mookie1.com
 DOMAIN,jp-gmtdmp.mookie1.com
-DOMAIN,kr-gmtdmp.mookie1.com
 DOMAIN,mena-gmtdmp.mookie1.com
 DOMAIN,my-gmtdmp.mookie1.com
-DOMAIN,nz-gmtdmp.mookie1.com
 DOMAIN,ph-gmtdmp.mookie1.com
-DOMAIN,pk-gmtdmp.mookie1.com
 DOMAIN,pl-gmtdmp.mookie1.com
 DOMAIN,pr-gmtdmp.mookie1.com
 DOMAIN,pt-gmtdmp.mookie1.com
@@ -13164,6 +13042,9 @@ DOMAIN,us-gmtdmp.mookie1.com
 DOMAIN,vn-gmtdmp.mookie1.com
 DOMAIN,x2.mookie1.com
 DOMAIN,za-gmtdmp.mookie1.com
+# [moonactive.net]
+DOMAIN,vik-analytics.moonactive.net
+DOMAIN,vik-analytics-gke.moonactive.net
 # [mopub.com]
 DOMAIN,analytics.mopub.com
 DOMAIN,cb.mopub.com
@@ -13224,6 +13105,8 @@ DOMAIN,adv.mxmcdn.net
 DOMAIN,mxpnl.com
 DOMAIN,cdn4.mxpnl.com
 DOMAIN,images.mxpnl.com
+# [mxptint.net]
+DOMAIN,oxp.mxptint.net
 # [mxtads.com]
 DOMAIN,mxtads.com
 # [my.com]
@@ -13296,8 +13179,11 @@ DOMAIN,vdapp.nend.net
 # [nervoussummer.com]
 DOMAIN,nervoussummer.com
 # [netflix.com]
+DOMAIN,ichnaea-web.netflix.com
 DOMAIN,nmtracking.netflix.com
 DOMAIN,presentationtracking.netflix.com
+# [netizen.co]
+DOMAIN,assets.netizen.co
 # [netmera.com]
 DOMAIN,sdkapi.netmera.com
 # [netmng.com]
@@ -13309,7 +13195,6 @@ DOMAIN,j2waycm.netmng.com
 DOMAIN,krux2waycm.netmng.com
 DOMAIN,lijit2waycm.netmng.com
 DOMAIN,liveramp2waycm-atl.netmng.com
-DOMAIN,lowes.netmng.com
 DOMAIN,nan.netmng.com
 DOMAIN,sinkhole.netmng.com
 # [netseer.com]
@@ -13325,9 +13210,8 @@ DOMAIN,networld.hk
 # [neustar.biz]
 DOMAIN,wpm.neustar.biz
 DOMAIN,rum-collector.wpm.neustar.biz
-# [newrelic.com]
-DOMAIN,newrelic.com
-DOMAIN,insights-collector.newrelic.com
+# [newsbreak.com]
+DOMAIN,www.newsbreak.com
 # [newscgp.com]
 DOMAIN,us.tags.newscgp.com
 # [nex8.net]
@@ -13346,9 +13230,9 @@ DOMAIN,pinger.ads.nexage.com
 DOMAIN,hb.nexage.com
 DOMAIN,prod-m-node-1112.nexage.com
 DOMAIN,prod-m-node-1212.nexage.com
-DOMAIN,prod-m-node-2112.nexage.com
 # [nexstardigital.net]
 DOMAIN,ccpa.psg.nexstardigital.net
+DOMAIN,segment.psg.nexstardigital.net
 # [nextclick.pl]
 DOMAIN,nextclick.pl
 # [ngtv.io]
@@ -13394,7 +13278,9 @@ DOMAIN,nuffnang.com.my
 DOMAIN,synad2.nuffnang.com.my
 DOMAIN,synad3.nuffnang.com.my
 # [nytimes.com]
+DOMAIN,a-reporting.nytimes.com
 DOMAIN,als-svc.nytimes.com
+DOMAIN,dd.nytimes.com
 DOMAIN,a.et.nytimes.com
 DOMAIN,meter-svc.nytimes.com
 # [o333o.com]
@@ -13471,13 +13357,12 @@ DOMAIN,southwestairlines.tt.omtrdc.net
 DOMAIN,verizontelecom.tt.omtrdc.net
 # [onaudience.com]
 DOMAIN,pixel.onaudience.com
-# [oneapm.com]
-DOMAIN,browsercollector.oneapm.com
-DOMAIN,miv2dc.oneapm.com
 # [oneaudience.com]
 DOMAIN,api.oneaudience.com
 # [onecms.io]
 DOMAIN,static.onecms.io
+# [onecount.net]
+DOMAIN,validate.onecount.net
 # [onefeed.co.uk]
 DOMAIN,tracking.onefeed.co.uk
 # [onelink.me]
@@ -13494,7 +13379,10 @@ DOMAIN,apicssdk.onemt.co
 # [oneplus.com]
 DOMAIN,click.oneplus.com
 # [onesignal.com]
+DOMAIN,api.onesignal.com
 DOMAIN,cdn.onesignal.com
+# [onetag-sys.com]
+DOMAIN,onetag-sys.com
 # [onetrust.com]
 DOMAIN,geolocation.onetrust.com
 DOMAIN,privacyportal.onetrust.com
@@ -13505,8 +13393,6 @@ DOMAIN,onetag-geo.onscroll.com
 DOMAIN,tag.onscroll.com
 DOMAIN,tags.onscroll.com
 DOMAIN,tags.us.onscroll.com
-# [ontarget.mobi]
-DOMAIN,ads.ontarget.mobi
 # [onthe.io]
 DOMAIN,onthe.io
 DOMAIN,cdn.onthe.io
@@ -13529,7 +13415,6 @@ DOMAIN,log.opentracker.net
 # [openx.com]
 DOMAIN,update.openx.com
 DOMAIN,s.update.openx.com
-DOMAIN,t.update.openx.com
 # [openx.net]
 DOMAIN,33across-d.openx.net
 DOMAIN,accuradio-d.openx.net
@@ -13544,7 +13429,6 @@ DOMAIN,adopkorea-d.openx.net
 DOMAIN,adpone-d.openx.net
 DOMAIN,adpushup-d.openx.net
 DOMAIN,adtelligent-d.openx.net
-DOMAIN,ambermobile-d.openx.net
 DOMAIN,amu-d.openx.net
 DOMAIN,aniview-d.openx.net
 DOMAIN,answers-d.openx.net
@@ -13765,7 +13649,6 @@ DOMAIN,traffective-d.openx.net
 DOMAIN,tribune-d.openx.net
 DOMAIN,tunein-d.openx.net
 DOMAIN,u-us.openx.net
-DOMAIN,ubh-d.openx.net
 DOMAIN,udn-usd-d.openx.net
 DOMAIN,uk-ads.openx.net
 DOMAIN,ultimate-guitar-d.openx.net
@@ -13786,7 +13669,6 @@ DOMAIN,videointelligence-d.openx.net
 DOMAIN,vidoomy-d.openx.net
 DOMAIN,viralize-d.openx.net
 DOMAIN,viumbe-d.openx.net
-DOMAIN,voyagermarketing-d.openx.net
 DOMAIN,vuukle-d.openx.net
 DOMAIN,warnerbros-d.openx.net
 DOMAIN,washingtonpost-d.openx.net
@@ -13810,6 +13692,8 @@ DOMAIN,zoopla-d.openx.net
 DOMAIN,zulily-d.openx.net
 DOMAIN,zynga-d.openx.net
 # [oppomobile.com]
+# [opstag.com]
+DOMAIN,cdn1.opstag.com
 # [optad360.io]
 DOMAIN,optad360.io
 DOMAIN,cmp.optad360.io
@@ -13834,7 +13718,6 @@ DOMAIN,a11085769837.cdn.optimizely.com
 DOMAIN,a11179690159.cdn.optimizely.com
 DOMAIN,a11347113422.cdn.optimizely.com
 DOMAIN,a11391265293.cdn.optimizely.com
-DOMAIN,a12420422337.cdn.optimizely.com
 DOMAIN,a125375509.cdn.optimizely.com
 DOMAIN,a12600010354.cdn.optimizely.com
 DOMAIN,a14069890047.cdn.optimizely.com
@@ -13848,7 +13731,6 @@ DOMAIN,a1706490390.cdn.optimizely.com
 DOMAIN,a17126690382.cdn.optimizely.com
 DOMAIN,a1719570453.cdn.optimizely.com
 DOMAIN,a17571560121.cdn.optimizely.com
-DOMAIN,a17906371784.cdn.optimizely.com
 DOMAIN,a17957420003.cdn.optimizely.com
 DOMAIN,a1859010085.cdn.optimizely.com
 DOMAIN,a2129670914.cdn.optimizely.com
@@ -13925,7 +13807,6 @@ DOMAIN,ws.otherlevels.com
 DOMAIN,log.oto.com.vn
 # [oupeng.com]
 DOMAIN,cp.oupeng.com
-DOMAIN,ip.oupeng.com
 DOMAIN,max-files.oupeng.com
 DOMAIN,oumax.oupeng.com
 DOMAIN,startup.oupeng.com
@@ -13972,6 +13853,10 @@ DOMAIN,images.outbrainimg.com
 DOMAIN,log.outbrainimg.com
 DOMAIN,tcheck.outbrainimg.com
 DOMAIN,zem.outbrainimg.com
+# [outgrow.co]
+DOMAIN,api-h.outgrow.co
+DOMAIN,api-live.outgrow.co
+DOMAIN,api-n.outgrow.co
 # [outlookmobile.com]
 DOMAIN,prod-collecticon.outlookmobile.com
 # [owneriq.net]
@@ -14018,11 +13903,14 @@ DOMAIN,static.parsely.com
 # [paypal.com]
 DOMAIN,b.stats.paypal.com
 DOMAIN,slc.stats.paypal.com
+DOMAIN,t.paypal.com
 # [pcgamer.com]
 DOMAIN,hawk.pcgamer.com
 # [pdbarea.com]
 DOMAIN,ads.pdbarea.com
 DOMAIN,api.pdbarea.com
+# [perf-serving.com]
+DOMAIN,images.perf-serving.com
 # [perfectaudience.com]
 DOMAIN,ads.perfectaudience.com
 DOMAIN,tag.perfectaudience.com
@@ -14038,6 +13926,7 @@ DOMAIN,newfeatureview.perfectionholic.com
 DOMAIN,performancehorizon.com
 # [perimeterx.net]
 DOMAIN,collector-pxuarm9b04.perimeterx.net
+DOMAIN,px-conf.perimeterx.net
 # [period-calendar.com]
 DOMAIN,ad.period-calendar.com
 # [perk0mean.com]
@@ -14074,9 +13963,9 @@ DOMAIN,api.perzonalization.com
 DOMAIN,cdn.perzonalization.com
 # [petametrics.com]
 DOMAIN,api.petametrics.com
+DOMAIN,cdn.petametrics.com
 DOMAIN,query.petametrics.com
 DOMAIN,query-us-east1.petametrics.com
-DOMAIN,query-us-west1.petametrics.com
 DOMAIN,query1.petametrics.com
 # [phluant.com]
 DOMAIN,phluant.com
@@ -14147,6 +14036,8 @@ DOMAIN,s.po.st
 DOMAIN,pocketmath.com
 # [pof.com]
 DOMAIN,ads.pof.com
+# [pointmediatracker.com]
+DOMAIN,pixel.pointmediatracker.com
 # [pointroll.com]
 DOMAIN,ads.pointroll.com
 # [pokki.com]
@@ -14165,7 +14056,6 @@ DOMAIN,meraxes-cdn.polarmobile.com
 # [polyad.net]
 DOMAIN,polyad.net
 DOMAIN,core.polyad.net
-DOMAIN,st.core.polyad.net
 DOMAIN,ds.polyad.net
 DOMAIN,st.polyad.net
 # [popads.net]
@@ -14184,6 +14074,9 @@ DOMAIN,postitial.com
 DOMAIN,cdn-cf.postitial.com
 # [postrelease.com]
 DOMAIN,jadserve.postrelease.com
+# [postscript.io]
+DOMAIN,api.postscript.io
+DOMAIN,sdk.postscript.io
 # [powerad.ai]
 DOMAIN,powerad.ai
 # [pp.cn]
@@ -14197,10 +14090,8 @@ DOMAIN,tags.premiumads.com.br
 # [presage.io]
 DOMAIN,presage.io
 DOMAIN,ah-v1.presage.io
-DOMAIN,au-v2.presage.io
 DOMAIN,bip.presage.io
 DOMAIN,ext-inv-cdn.presage.io
-DOMAIN,it-v2.presage.io
 DOMAIN,l-v1.presage.io
 DOMAIN,medias.presage.io
 DOMAIN,mraid.presage.io
@@ -14217,7 +14108,6 @@ DOMAIN,sy-v1.presage.io
 DOMAIN,tr-v1.presage.io
 DOMAIN,wsback-event.presage.io
 DOMAIN,wsback-get-config.presage.io
-DOMAIN,wsback-presage.presage.io
 DOMAIN,wsback-profile.presage.io
 DOMAIN,wsback-track.presage.io
 DOMAIN,wsback-videotracking.presage.io
@@ -14250,8 +14140,6 @@ DOMAIN,promotionengine.com
 # [prooffactor.com]
 DOMAIN,prooffactor.com
 DOMAIN,api.prooffactor.com
-# [proofpositivemedia.com]
-DOMAIN,api.proofpositivemedia.com
 # [propellerads.com]
 DOMAIN,ad.propellerads.com
 DOMAIN,native.propellerads.com
@@ -14259,6 +14147,8 @@ DOMAIN,offers.propellerads.com
 DOMAIN,promo.propellerads.com
 # [proper.io]
 DOMAIN,global.proper.io
+# [provesrc.com]
+DOMAIN,cdn.provesrc.com
 # [pub.network]
 DOMAIN,pub.network
 # [pub1.co]
@@ -14287,11 +14177,11 @@ DOMAIN,image6.pubmatic.com
 DOMAIN,image8.pubmatic.com
 DOMAIN,openbid.pubmatic.com
 DOMAIN,ow.pubmatic.com
-DOMAIN,t.update.rose.pubmatic.com
 DOMAIN,showads.pubmatic.com
 DOMAIN,showads-sg.pubmatic.com
 DOMAIN,showads-sgc.pubmatic.com
 DOMAIN,simage2.pubmatic.com
+DOMAIN,simage4.pubmatic.com
 DOMAIN,sshowads.pubmatic.com
 # [pubmine.com]
 DOMAIN,s.pubmine.com
@@ -14312,8 +14202,6 @@ DOMAIN,assets.purch.com
 DOMAIN,app.push-ad.com
 # [push-notifs.com]
 DOMAIN,ws.push-notifs.com
-# [push.world]
-DOMAIN,api.push.world
 # [push7.jp]
 DOMAIN,sdk.push7.jp
 # [pushcrew.com]
@@ -14324,9 +14212,12 @@ DOMAIN,tracking.pushcrew.com
 DOMAIN,anandabazar.pushengage.com
 DOMAIN,clientcdn.pushengage.com
 DOMAIN,clients-api.pushengage.com
-DOMAIN,pratidin.pushengage.com
 DOMAIN,sw.pushengage.com
 DOMAIN,theconstructor.pushengage.com
+# [pushnami.com]
+DOMAIN,pushnami.com
+DOMAIN,api.pushnami.com
+DOMAIN,trc.pushnami.com
 # [pushspring.com]
 DOMAIN,api.pushspring.com
 # [pushwoosh.com]
@@ -14355,6 +14246,8 @@ DOMAIN,collector-px8fcgygk4.px-cloud.net
 DOMAIN,api.pxlad.io
 # [pythonexample.com]
 DOMAIN,api.pythonexample.com
+# [qbk1.com]
+DOMAIN,c2.qbk1.com
 # [qccoccocmedia.vn]
 DOMAIN,qccoccocmedia.vn
 # [qgraph.io]
@@ -14411,7 +14304,6 @@ DOMAIN,px.quantserve.com
 DOMAIN,global.px.quantserve.com
 DOMAIN,px2.px.quantserve.com
 DOMAIN,qcx.quantserve.com
-DOMAIN,segapi.quantserve.com
 DOMAIN,ssl.quantserve.com
 DOMAIN,us-west-notify-rtb.quantserve.com
 DOMAIN,vast.quantserve.com
@@ -14419,6 +14311,8 @@ DOMAIN,vast.quantserve.com
 DOMAIN,api.quantumgraph.com
 DOMAIN,config.quantumgraph.com
 DOMAIN,users.quantumgraph.com
+# [quantummetric.com]
+DOMAIN,cdn.quantummetric.com
 # [questionmarket.com]
 DOMAIN,questionmarket.com
 # [qwapi.com]
@@ -14437,8 +14331,6 @@ DOMAIN,client.rave-api.com
 DOMAIN,ravm.tv
 DOMAIN,display.ravm.tv
 DOMAIN,hb-t5u9.raps.ravm.tv
-# [rayjoy.com]
-DOMAIN,sdk-h5-cdn.rayjoy.com
 # [rayjump.com]
 DOMAIN,rayjump.com
 DOMAIN,adx-tk.rayjump.com
@@ -14480,10 +14372,15 @@ DOMAIN,redintelligence.net
 DOMAIN,hal9000.redintelligence.net
 # [redirectingat.com]
 DOMAIN,go.redirectingat.com
+# [redretarget.com]
+DOMAIN,app.redretarget.com
+DOMAIN,trackifyx.redretarget.com
 # [redshell.io]
 DOMAIN,api.redshell.io
 # [reembed.com]
 DOMAIN,ads.reembed.com
+# [reftagger.com]
+DOMAIN,api.reftagger.com
 # [reklamstore.com]
 DOMAIN,adserver.reklamstore.com
 # [rekmob.com]
@@ -14502,6 +14399,8 @@ DOMAIN,tag.researchnow.com
 DOMAIN,ds.reson8.com
 DOMAIN,idsync.reson8.com
 DOMAIN,track.reson8.com
+# [responsys.net]
+DOMAIN,static.cdn.responsys.net
 # [restartad.com]
 DOMAIN,restartad.com
 DOMAIN,api2.restartad.com
@@ -14591,8 +14490,6 @@ DOMAIN,analytics.rogersmedia.com
 DOMAIN,p.ads.roku.com
 DOMAIN,austin.logs.roku.com
 DOMAIN,scribe.logs.roku.com
-# [roosterfirework.com]
-DOMAIN,roosterfirework.com
 # [rotaban.ru]
 DOMAIN,rotaban.ru
 # [rovio.com]
@@ -14614,6 +14511,10 @@ DOMAIN,msdk.rqmob.com
 DOMAIN,shareitcpi.rqmob.com
 DOMAIN,static.rqmob.com
 DOMAIN,tracker.rqmob.com
+# [rtbsrv.com]
+DOMAIN,dmp.rtbsrv.com
+# [rtk.io]
+DOMAIN,bidder.rtk.io
 # [rtmark.net]
 # [rubiconproject.com]
 DOMAIN,ads.rubiconproject.com
@@ -14647,13 +14548,13 @@ DOMAIN,prebid-server.rubiconproject.com
 DOMAIN,smarttag.rubiconproject.com
 DOMAIN,tap.rubiconproject.com
 DOMAIN,tap-cdn.rubiconproject.com
-DOMAIN,tap-secure.rubiconproject.com
 DOMAIN,token.rubiconproject.com
 DOMAIN,update.rubiconproject.com
 DOMAIN,s.update.rubiconproject.com
-DOMAIN,t.update.rubiconproject.com
 DOMAIN,video-ads.rubiconproject.com
 DOMAIN,video-ads-apex.rubiconproject.com
+# [rudderlabs.com]
+DOMAIN,api.rudderlabs.com
 # [ruetracking.com]
 DOMAIN,prdwebcollector.ruetracking.com
 # [run-syndicate.com]
@@ -14733,7 +14634,6 @@ DOMAIN,samsungads.com
 DOMAIN,ads.samsungads.com
 DOMAIN,config.samsungads.com
 # [sandai.net]
-DOMAIN,ping.xlmc.sandai.net
 # [sas.com]
 DOMAIN,execution-use.ci360.sas.com
 # [sascdn.com]
@@ -14751,6 +14651,7 @@ DOMAIN,sbbanner.com
 # [sc-static.net]
 # [scanalert.com]
 DOMAIN,images.scanalert.com
+# [scarabresearch.com]
 # [scopely.io]
 DOMAIN,aprod.scopely.io
 DOMAIN,raven.aprod.scopely.io
@@ -14816,10 +14717,14 @@ DOMAIN,dcetr8.segmentify.com
 # [sekindo.com]
 DOMAIN,sekindo.com
 DOMAIN,video.sekindo.com
+# [selectablemedia.com]
+DOMAIN,cdn.selectablemedia.com
 # [sembox.it]
 DOMAIN,tracking.sembox.it
 # [sendo.vn]
 DOMAIN,track.sendo.vn
+# [sendtonews.com]
+DOMAIN,embed.sendtonews.com
 # [sense360eng.com]
 DOMAIN,android-quinoa-config-prod.sense360eng.com
 DOMAIN,ios-quinoa-config-prod.sense360eng.com
@@ -14827,6 +14732,8 @@ DOMAIN,ios-quinoa-personal-identify-prod.sense360eng.com
 DOMAIN,quinoa-personal-identify-prod.sense360eng.com
 # [sentiance.com]
 DOMAIN,api.sentiance.com
+# [sentry.io]
+DOMAIN,sentry.io
 # [servebom.com]
 DOMAIN,servebom.com
 DOMAIN,ads2.servebom.com
@@ -14905,6 +14812,8 @@ DOMAIN,beacon.shazam.com
 DOMAIN,serverc.shoofle.tv
 # [shopee.vn]
 DOMAIN,userstats.shopee.vn
+# [sidearmsports.com]
+DOMAIN,statcollector.sidearmsports.com
 # [sift.co]
 DOMAIN,prod.sift.co
 DOMAIN,sgbid.prod.sift.co
@@ -15087,13 +14996,13 @@ DOMAIN,study.snapads.com
 # [snapchat.com]
 DOMAIN,ads.snapchat.com
 DOMAIN,adsapi.snapchat.com
+DOMAIN,tr.snapchat.com
+DOMAIN,tr6.snapchat.com
 # [snapdeal.com]
 DOMAIN,log.snapdeal.com
 # [snapmobile.asia]
 DOMAIN,snapmobile.asia
 DOMAIN,snap.snapmobile.asia
-DOMAIN,static.snapmobile.asia
-DOMAIN,vast.snapmobile.asia
 # [snplow.net]
 DOMAIN,collector.snplow.net
 DOMAIN,ca-lapresse-main.collector.snplow.net
@@ -15250,7 +15159,6 @@ DOMAIN,datplus.springserve.com
 DOMAIN,morgdog.springserve.com
 DOMAIN,update.morgdog.springserve.com
 DOMAIN,s.update.morgdog.springserve.com
-DOMAIN,t.update.morgdog.springserve.com
 DOMAIN,sps.springserve.com
 DOMAIN,sync.springserve.com
 DOMAIN,vid.springserve.com
@@ -15260,6 +15168,10 @@ DOMAIN,vid-io-sin.springserve.com
 DOMAIN,vpaid.springserve.com
 # [sprout-ad.com]
 DOMAIN,sprout-ad.com
+# [srmdata-us.com]
+DOMAIN,www.srmdata-us.com
+# [srmdata.com]
+DOMAIN,www.srmdata.com
 # [ssacdn.com]
 DOMAIN,cf.ssacdn.com
 DOMAIN,v.cf.ssacdn.com
@@ -15344,6 +15256,9 @@ DOMAIN,www.storygize.net
 # [strava.com]
 DOMAIN,analytics.strava.com
 DOMAIN,tracing-collector.strava.com
+# [streamguys1.com]
+DOMAIN,ad-im-cmg.streamguys1.com
+DOMAIN,cmg.streamguys1.com
 # [streamrail.com]
 DOMAIN,k.streamrail.com
 DOMAIN,sdk.streamrail.com
@@ -15354,6 +15269,8 @@ DOMAIN,ssp.streamrail.net
 DOMAIN,strikeiron.com
 # [subiz.com]
 DOMAIN,static.subiz.com
+# [summerhamster.com]
+DOMAIN,www.summerhamster.com
 # [sumome.com]
 DOMAIN,sumome.com
 DOMAIN,load.sumome.com
@@ -15408,7 +15325,6 @@ DOMAIN,1170.api.swrve.com
 DOMAIN,1188.api.swrve.com
 DOMAIN,1353.api.swrve.com
 DOMAIN,1456.api.swrve.com
-DOMAIN,2240.api.swrve.com
 DOMAIN,2359.api.swrve.com
 DOMAIN,2405.api.swrve.com
 DOMAIN,2578.api.swrve.com
@@ -15502,7 +15418,6 @@ DOMAIN,n.systemlog.me
 # [tabmo.io]
 DOMAIN,events.tabmo.io
 # [taboola.com]
-DOMAIN,actions-latb.taboola.com
 DOMAIN,am-match.taboola.com
 DOMAIN,am-sync.taboola.com
 DOMAIN,am-trc-events.taboola.com
@@ -15587,6 +15502,8 @@ DOMAIN,cdn.tagular.com
 DOMAIN,t.tailtarget.com
 DOMAIN,cm.t.tailtarget.com
 DOMAIN,tags.t.tailtarget.com
+# [talkable.com]
+DOMAIN,www.talkable.com
 # [talkingdata.net]
 DOMAIN,gaandroid.talkingdata.net
 DOMAIN,tdcv3.talkingdata.net
@@ -15594,13 +15511,13 @@ DOMAIN,tdcv3.talkingdata.net
 DOMAIN,snowplowcollector.talkspace.com
 # [tamedia.com.tw]
 DOMAIN,agent.tamedia.com.tw
+# [tamgrt.com]
 # [tango.me]
 DOMAIN,acme.tango.me
 # [tapad.app]
 DOMAIN,cdn-stg.tapad.app
 # [tapad.com]
 DOMAIN,assets.tapad.com
-DOMAIN,audience.tapad.com
 DOMAIN,pandg.tapad.com
 DOMAIN,pixel.tapad.com
 # [tapas.net]
@@ -15622,7 +15539,6 @@ DOMAIN,tracking.tapinfluence.com
 DOMAIN,bid.tapjoy.com
 DOMAIN,connect.tapjoy.com
 DOMAIN,content.tapjoy.com
-DOMAIN,events.tapjoy.com
 DOMAIN,placements.tapjoy.com
 DOMAIN,rpc.tapjoy.com
 DOMAIN,ws.tapjoy.com
@@ -15630,6 +15546,7 @@ DOMAIN,ws.tapjoy.com
 DOMAIN,tapjoyads.com
 DOMAIN,ws.tapjoyads.com
 # [taplytics.com]
+DOMAIN,6491480h9-capi.taplytics.com
 DOMAIN,api.taplytics.com
 DOMAIN,decision.taplytics.com
 DOMAIN,js.taplytics.com
@@ -15697,7 +15614,6 @@ DOMAIN,pc-humana-visitor-service-us-east-1.tealiumiq.com
 DOMAIN,pc-providence-collect.tealiumiq.com
 DOMAIN,pc-providence-collect-us-east-1.tealiumiq.com
 DOMAIN,pc-providence-visitor-service-us-east-1.tealiumiq.com
-DOMAIN,pc2-collect.tealiumiq.com
 DOMAIN,uconnect.tealiumiq.com
 DOMAIN,visitor-service.tealiumiq.com
 DOMAIN,visitor-service-ap-northeast-1.tealiumiq.com
@@ -15707,6 +15623,8 @@ DOMAIN,visitor-service-eu-west-1.tealiumiq.com
 DOMAIN,visitor-service-us-east-1.tealiumiq.com
 # [techcrunch.com]
 DOMAIN,ampmetrics.techcrunch.com
+# [techlab-cdn.com]
+DOMAIN,p11.techlab-cdn.com
 # [technoratimedia.com]
 DOMAIN,ad-cdn.technoratimedia.com
 DOMAIN,prebid.technoratimedia.com
@@ -15729,9 +15647,7 @@ DOMAIN,track.tenjin.io
 DOMAIN,control.teragence.net
 # [terraclicks.com]
 # [tf-cdn.net]
-DOMAIN,ondemand.tf-cdn.net
 DOMAIN,push.tf-cdn.net
-DOMAIN,static.tf-cdn.net
 # [tfgapps.com]
 DOMAIN,adspot.tfgapps.com
 # [tfgco.com]
@@ -15740,6 +15656,8 @@ DOMAIN,beacon.tfgco.com
 DOMAIN,cdn-adspot.tfgco.com
 # [theadex.com]
 DOMAIN,api.theadex.com
+# [thebrighttag.com]
+DOMAIN,s.thebrighttag.com
 # [themoneytizer.com]
 DOMAIN,ads.themoneytizer.com
 # [theoremreach.com]
@@ -15813,8 +15731,9 @@ DOMAIN,android-com-tfgco-games-sports-free-tennis-clash.topaz-analytics.com
 DOMAIN,android-com-wildlife-games-battle-royale-free-zooba.topaz-analytics.com
 DOMAIN,playtest-api.topaz-analytics.com
 DOMAIN,push-api.topaz-analytics.com
-# [touchcast.com]
-DOMAIN,sdk.touchcast.com
+# [torrenti.al]
+DOMAIN,m1.torrenti.al
+DOMAIN,m2.torrenti.al
 # [tout.com]
 DOMAIN,analytics.tout.com
 # [tpbid.com]
@@ -15824,7 +15743,6 @@ DOMAIN,gota.tpbid.com
 DOMAIN,gotu.tpbid.com
 # [tpctrust.com]
 DOMAIN,s.tpctrust.com
-DOMAIN,t.tpctrust.com
 # [trackingio.com]
 DOMAIN,log.trackingio.com
 DOMAIN,slog.trackingio.com
@@ -15837,6 +15755,9 @@ DOMAIN,hw-cdn-ap.trafficjunky.net
 DOMAIN,hw-cdn2.trafficjunky.net
 DOMAIN,media.trafficjunky.net
 DOMAIN,vz-cdn2.trafficjunky.net
+# [trafficmanager.net]
+DOMAIN,analytics-listener.trafficmanager.net
+DOMAIN,collector-main.trafficmanager.net
 # [trafmag.com]
 DOMAIN,t.trafmag.com
 # [traktum.com]
@@ -15902,7 +15823,6 @@ DOMAIN,slckg-kqe2e.ads.tremorhub.com
 DOMAIN,slckg-lyoc5.ads.tremorhub.com
 DOMAIN,slckg-nugvu.ads.tremorhub.com
 DOMAIN,slckg-qrmhc.ads.tremorhub.com
-DOMAIN,ufzua-051ht.ads.tremorhub.com
 DOMAIN,v4r9z-3jgr1.ads.tremorhub.com
 DOMAIN,v4r9z-fjydq.ads.tremorhub.com
 DOMAIN,vtrdn-wjdav.ads.tremorhub.com
@@ -15932,6 +15852,8 @@ DOMAIN,sdk.tresensa.com
 DOMAIN,trfmxt.com
 # [trialpay.com]
 DOMAIN,trialpay.com
+# [tribalfusion.com]
+DOMAIN,a.tribalfusion.com
 # [trinitymedia.ai]
 DOMAIN,depart.trinitymedia.ai
 # [triongames.com]
@@ -15939,7 +15861,6 @@ DOMAIN,ads.triongames.com
 # [trnox.com]
 DOMAIN,tracking.trnox.com
 DOMAIN,tracking-3-9f58.trnox.com
-DOMAIN,trcakingapp.trnox.com
 # [tru.am]
 DOMAIN,tru.am
 DOMAIN,beacon.tru.am
@@ -15947,14 +15868,22 @@ DOMAIN,beacon.tru.am
 DOMAIN,ads-router-noneu.truecaller.com
 DOMAIN,ads5-noneu.truecaller.com
 DOMAIN,pushid-noneu.truecaller.com
+# [trueleadid.com]
+DOMAIN,deviceid.trueleadid.com
 # [truex.com]
 DOMAIN,truex.com
 DOMAIN,ctv.truex.com
 # [truoptik.com]
 DOMAIN,truoptik.com
 DOMAIN,dmp.truoptik.com
+# [trustarc.com]
+DOMAIN,choices.trustarc.com
 # [truste.com]
 DOMAIN,choices.truste.com
+DOMAIN,preferences.truste.com
+DOMAIN,privacy-policy.truste.com
+# [trustwave.com]
+DOMAIN,sealserver.trustwave.com
 # [trustx.org]
 DOMAIN,sofia.trustx.org
 # [tsyndicate.com]
@@ -15985,15 +15914,13 @@ DOMAIN,syncf.tubemogul.com
 DOMAIN,ud.tubemogul.com
 # [tubi.io]
 DOMAIN,analytics-ingestion.production-public.tubi.io
-# [tuifish.com]
-DOMAIN,activity.tuifish.com
 # [tuitiger.com]
 DOMAIN,yun.tuitiger.com
+# [tumblr.com]
+DOMAIN,ls.srvcs.tumblr.com
 # [tune.com]
 DOMAIN,ma.tune.com
 DOMAIN,analytics.ma.tune.com
-# [tunity.com]
-DOMAIN,marketing.tunity.com
 # [turn.com]
 DOMAIN,turn.com
 DOMAIN,cdns.turn.com
@@ -16009,8 +15936,6 @@ DOMAIN,r.turn.com
 DOMAIN,sd.turn.com
 # [tusdk.com]
 DOMAIN,api.tusdk.com
-DOMAIN,m.tusdk.com
-DOMAIN,srv2.tusdk.com
 # [tutelatechnologies.com]
 DOMAIN,hail-reporting.tutelatechnologies.com
 DOMAIN,reporting.tutelatechnologies.com
@@ -16019,9 +15944,14 @@ DOMAIN,tutoads.tv
 DOMAIN,cdn.tutoads.tv
 DOMAIN,get.tutoads.tv
 DOMAIN,tracy.tutoads.tv
+# [tvadsync.com]
+DOMAIN,px.tvadsync.com
 # [tvpixel.com]
 DOMAIN,c.tvpixel.com
 DOMAIN,p.tvpixel.com
+# [tvsquared.com]
+DOMAIN,collector-9306.us.tvsquared.com
+DOMAIN,collectoru.us.tvsquared.com
 # [twilio.com]
 DOMAIN,sdkgw.us1.twilio.com
 # [twitter.com]
@@ -16029,8 +15959,8 @@ DOMAIN,ads.twitter.com
 DOMAIN,ads-api.twitter.com
 DOMAIN,ads-bidder-api.twitter.com
 DOMAIN,analytics.twitter.com
-# [u-ad.info]
-DOMAIN,u-ad.info
+# [typekit.net]
+DOMAIN,p.typekit.net
 # [ua.com]
 DOMAIN,lightstep-collector.api.ua.com
 # [uberads.com]
@@ -16040,8 +15970,6 @@ DOMAIN,serve.uberads.com
 DOMAIN,serve-prod1204.uberads.com
 # [uberinternal.com]
 DOMAIN,local-analytics.uberinternal.com
-# [ubermedia.com]
-DOMAIN,ubermedia.com
 # [ubimo.com]
 DOMAIN,reports.ubimo.com
 # [uc.cn]
@@ -16062,8 +15990,6 @@ DOMAIN,click.union.ucweb.com
 DOMAIN,www.ugdturner.com
 # [uimserv.net]
 DOMAIN,uimserv.net
-# [ulsee.com]
-DOMAIN,sdk-key.ulsee.com
 # [ultraadserver.com]
 DOMAIN,ultraadserver.com
 # [umbel.com]
@@ -16084,8 +16010,6 @@ DOMAIN,sec.umeng.com
 # [umengcloud.com]
 DOMAIN,umengcloud.com
 DOMAIN,alogs.umengcloud.com
-# [umenglog.com]
-DOMAIN,gf.umenglog.com
 # [umsns.com]
 # [umtrack.com]
 DOMAIN,umtrack.com
@@ -16101,8 +16025,6 @@ DOMAIN,hb.undertone.com
 DOMAIN,ops-cdn.undertone.com
 DOMAIN,origin-evt.undertone.com
 DOMAIN,usr.undertone.com
-# [unibiller.com]
-DOMAIN,stats.unibiller.com
 # [uniconsent.com]
 DOMAIN,cmp.uniconsent.com
 DOMAIN,edge.uniconsent.com
@@ -16110,7 +16032,6 @@ DOMAIN,edge.uniconsent.com
 DOMAIN,unimhk.com
 # [unionstatistics.com]
 DOMAIN,sa.unionstatistics.com
-DOMAIN,tag.unionstatistics.com
 # [unity3d.com]
 DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,perf-events.cloud.unity3d.com
@@ -16157,12 +16078,8 @@ DOMAIN,usermatch.targeting.unrulymedia.com
 DOMAIN,video.unrulymedia.com
 # [uodoo.com]
 DOMAIN,event.allnews.uodoo.com
-DOMAIN,api.videoadda.uodoo.com
 # [upalytics.com]
 DOMAIN,upalytics.com
-DOMAIN,fu-bf3749f2e0.upalytics.com
-# [updated.com]
-DOMAIN,updated.com
 # [upltv.com]
 DOMAIN,ads-sdk.upltv.com
 # [upqzfile.com]
@@ -16209,11 +16126,11 @@ DOMAIN,app-10d1b5add9b529e5.mobileapi.usebutton.com
 DOMAIN,app-67a1a4bb9dffba86.mobileapi.usebutton.com
 DOMAIN,app-6b7903104cffc647.mobileapi.usebutton.com
 DOMAIN,app-796db8a17c48a13b.mobileapi.usebutton.com
+# [usefomo.com]
+DOMAIN,www.usefomo.com
 # [useinsider.com]
 DOMAIN,segment.api.useinsider.com
 DOMAIN,mobileanalytics.useinsider.com
-# [usekahuna.com]
-DOMAIN,usekahuna.com
 # [userleap.com]
 DOMAIN,api.userleap.com
 # [utarget.ru]
@@ -16245,8 +16162,6 @@ DOMAIN,sessionapi.veinteractive.com
 DOMAIN,sessionapihk.veinteractive.com
 DOMAIN,veads.veinteractive.com
 DOMAIN,veads-tracking.veinteractive.com
-# [veirregnant.club]
-DOMAIN,veirregnant.club
 # [vendemore.com]
 DOMAIN,analytics.vendemore.com
 # [vendimob.pl]
@@ -16305,6 +16220,7 @@ DOMAIN,bisdr.vidazoo.com
 DOMAIN,inventory.vidazoo.com
 DOMAIN,pl.vidazoo.com
 DOMAIN,static.vidazoo.com
+DOMAIN,vroku-bis-1.vidazoo.com
 DOMAIN,wserver.vidazoo.com
 # [videoadex.com]
 DOMAIN,ads.videoadex.com
@@ -16316,7 +16232,6 @@ DOMAIN,videohub.tv
 DOMAIN,ads-secure.videohub.tv
 DOMAIN,adserver.videohub.tv
 DOMAIN,dt-secure.videohub.tv
-DOMAIN,nginx13.iad1.videohub.tv
 DOMAIN,l0-secure.videohub.tv
 DOMAIN,tp.videohub.tv
 # [videojj.com]
@@ -16338,7 +16253,6 @@ DOMAIN,a.vidora.com
 DOMAIN,api.vidora.com
 DOMAIN,assets.vidora.com
 DOMAIN,cortex.vidora.com
-DOMAIN,lb-us.vidora.com
 # [vidver.to]
 DOMAIN,ad.vidver.to
 # [vidverto.io]
@@ -16380,15 +16294,11 @@ DOMAIN,asia-pnrt-stsdk.vivoglobal.com
 DOMAIN,asia-prt-stsdk.vivoglobal.com
 DOMAIN,asia-stsdk.vivoglobal.com
 DOMAIN,onrt-stsdk.vivoglobal.com
-DOMAIN,ort-stsdk.vivoglobal.com
-DOMAIN,prt-stsdk.vivoglobal.com
 DOMAIN,stsdk.vivoglobal.com
 DOMAIN,onrt.stsdk.vivoglobal.com
 DOMAIN,ort.stsdk.vivoglobal.com
 DOMAIN,pnrt.stsdk.vivoglobal.com
 DOMAIN,prt.stsdk.vivoglobal.com
-# [vl1.mobi]
-DOMAIN,sdk.vl1.mobi
 # [vm5apis.com]
 DOMAIN,vm5apis.com
 # [vmweb.net]
@@ -16411,7 +16321,6 @@ DOMAIN,mt.voiceads.cn
 DOMAIN,post.voiceads.cn
 DOMAIN,rtb.voiceads.cn
 DOMAIN,sdk.voiceads.cn
-DOMAIN,sdkconfig.voiceads.cn
 # [voicefive.com]
 DOMAIN,sb.voicefive.com
 # [voodoo-ads.io]
@@ -16435,7 +16344,6 @@ DOMAIN,ids-dmp.vpadn.com
 DOMAIN,m.vpadn.com
 DOMAIN,tw-api.vpadn.com
 # [vpon.com]
-DOMAIN,tw.api.vpon.com
 DOMAIN,bts.vpon.com
 DOMAIN,m.vpon.com
 DOMAIN,tw-api.vpon.com
@@ -16469,6 +16377,8 @@ DOMAIN,kourier-tpat.eks-prod-1b.vungle.com
 DOMAIN,eks-prod-1c.vungle.com
 DOMAIN,kourier-tpat.eks-prod-1c.vungle.com
 DOMAIN,ingest.vungle.com
+# [vzw.com]
+DOMAIN,engage.vzw.com
 # [w3i.com]
 DOMAIN,w3i.com
 # [w55c.net]
@@ -16503,6 +16413,7 @@ DOMAIN,log-dbff2e04.us.v2.we-stats.com
 DOMAIN,airlytics.airlock.twcmobile.weather.com
 # [weatherbug.net]
 DOMAIN,and-ads.pulse.weatherbug.net
+DOMAIN,ios-ads.pulse.weatherbug.net
 # [webads.eu]
 DOMAIN,analytics.webads.eu
 # [webcontentassessor.com]
@@ -16526,15 +16437,16 @@ DOMAIN,s.webtrends.com
 DOMAIN,scs.webtrends.com
 # [wecloud.io]
 DOMAIN,goload.wecloud.io
-# [weibo.com]
-DOMAIN,alitui.weibo.com
-DOMAIN,game.weibo.com
 # [weplayer.cc]
 DOMAIN,ad.weplayer.cc
 DOMAIN,crosspromotion.weplayer.cc
 # [wesdk.co]
 DOMAIN,sdk.wesdk.co
 DOMAIN,track.wesdk.co
+# [wfxtriggers.com]
+DOMAIN,triggers.wfxtriggers.com
+# [wickedreports.com]
+DOMAIN,widget.wickedreports.com
 # [widespace.com]
 DOMAIN,widespace.com
 DOMAIN,engine.widespace.com
@@ -16547,10 +16459,14 @@ DOMAIN,exchange.wildlifestudios.com
 # [wildtangent.com]
 DOMAIN,analytics.wildtangent.com
 DOMAIN,mobile.analytics.wildtangent.com
+# [windows.net]
+DOMAIN,optanon.blob.core.windows.net
 # [winudf.com]
 DOMAIN,tracker.winudf.com
 # [wirelessregistry.com]
 DOMAIN,pie.wirelessregistry.com
+# [wknd.ai]
+DOMAIN,tag.wknd.ai
 # [wlanbanlv.com]
 DOMAIN,opensdk.wlanbanlv.com
 # [wonderpush.com]
@@ -16567,6 +16483,9 @@ DOMAIN,survey.wootric.com
 DOMAIN,wowanalytics.co.uk
 DOMAIN,lbal.wowanalytics.co.uk
 DOMAIN,t.wowanalytics.co.uk
+# [wp.com]
+DOMAIN,pixel.wp.com
+DOMAIN,stats.wp.com
 # [wpdigital.net]
 DOMAIN,usersegment.wpdigital.net
 # [wrating.com]
@@ -16595,8 +16514,6 @@ DOMAIN,cf.xad.com
 DOMAIN,display.xad.com
 # [xapads.com]
 DOMAIN,tracking.xapads.com
-# [xdn.vn]
-DOMAIN,s.baomoi.xdn.vn
 # [xdrig.com]
 DOMAIN,xdrig.com
 DOMAIN,adt.xdrig.com
@@ -16643,7 +16560,6 @@ DOMAIN,adspecs.yahoo.com
 DOMAIN,latam.adspecs.yahoo.com
 DOMAIN,ush.adspecs.yahoo.com
 DOMAIN,advertising.yahoo.com
-DOMAIN,in.advertising.yahoo.com
 DOMAIN,sea.advertising.yahoo.com
 DOMAIN,analytics.yahoo.com
 DOMAIN,opus.analytics.yahoo.com
@@ -16663,6 +16579,7 @@ DOMAIN,edge-mcdn-beacon.secure.yahoo.com
 DOMAIN,bats.video.yahoo.com
 DOMAIN,visit.webhosting.yahoo.com
 DOMAIN,m.yap.yahoo.com
+DOMAIN,pr-bh.ybp.yahoo.com
 DOMAIN,partnerads.ysm.yahoo.com
 # [yandex.com]
 DOMAIN,appmetrica.yandex.com
@@ -16720,7 +16637,6 @@ DOMAIN,sync-criteo.ads.yieldmo.com
 DOMAIN,sync-eb.ads.yieldmo.com
 DOMAIN,ap-southeast-1-ads.yieldmo.com
 DOMAIN,matchadsrvr.yieldmo.com
-DOMAIN,qa.yieldmo.com
 DOMAIN,rw.yieldmo.com
 DOMAIN,gdpr.rw.yieldmo.com
 DOMAIN,world.rw.yieldmo.com
@@ -16731,17 +16647,14 @@ DOMAIN,static.yieldmo.com
 DOMAIN,tas.yieldmo.com
 DOMAIN,update.tas.yieldmo.com
 DOMAIN,s.update.tas.yieldmo.com
-DOMAIN,t.update.tas.yieldmo.com
 DOMAIN,tkr.yieldmo.com
 DOMAIN,w.yieldmo.com
 # [yieldoptimizer.com]
 DOMAIN,ag.yieldoptimizer.com
 DOMAIN,cdnp1.yieldoptimizer.com
 DOMAIN,cs.yieldoptimizer.com
-DOMAIN,gtag.yieldoptimizer.com
 DOMAIN,mtag.yieldoptimizer.com
 DOMAIN,tag.yieldoptimizer.com
-# [yimg.com]
 # [yimg.jp]
 DOMAIN,yads.c.yimg.jp
 # [yinzcam.com]
@@ -16805,7 +16718,6 @@ DOMAIN,log.sdk.zadn.vn
 # [zaloapp.com]
 DOMAIN,log.api.zaloapp.com
 DOMAIN,events.zaloapp.com
-DOMAIN,static-ads.zaloapp.com
 # [zapps.vn]
 DOMAIN,zplayer.trk.zapps.vn
 # [zapr.in]
@@ -16840,6 +16752,8 @@ DOMAIN,tracking-server-prod-1.zenmxapps.com
 DOMAIN,bms.zeptolab.com
 # [zergnet.com]
 DOMAIN,www.zergnet.com
+# [zeronaught.com]
+DOMAIN,content.zeronaught.com
 # [zeustechnology.com]
 DOMAIN,audience.zeustechnology.com
 DOMAIN,insights.zeustechnology.com
@@ -16873,8 +16787,6 @@ DOMAIN,segment-data.zqtk.net
 DOMAIN,segment-data-us-east.zqtk.net
 # [ztgame.com]
 DOMAIN,beacon.ztgame.com
-# [zucks.co.jp]
-DOMAIN,zucks.co.jp
 # [zucks.net]
 DOMAIN,zucks.net
 # [zwaar.org]
