@@ -130,8 +130,8 @@ host, 6678888.xyz, Mainland
 ip-cidr, 203.107.1.1/24, reject
 
 #网易云登陆验证
-host, id6.me, direct
-host, o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
+HOST, id6.me, direct
+HOST, o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
 host-suffix, ndsopaapl.nudatasecurity.com, direct
 
 #百度输入法
@@ -154,31 +154,33 @@ HOST,mobads-pre-config.cdn.bcebos.com,reject
 HOST,nadvideo2.baidu.com,reject
 
 #YouTube 去底部广告
-host-suffix, ehg-youtube.hitbox.com, reject
+HOST-SUFFIX, ehg-youtube.hitbox.com, reject
 
 #Qcrane牛奶批发商（机场）
-host-suffix,bgpnode.com,direct
+HOST-SUFFIX,bgpnode.com,direct
 
-host-suffix,ossez.com,direct
+HOST-SUFFIX,ossez.com,direct
 
 #高德地图
-host,optimus-ads.amap.com,reject
+HOST,optimus-ads.amap.com,reject
 
 #索尼headphones
-host-suffix,sony.com,direct
-host-suffix,janraincapture.com,direct
-host-suffix,ndmdhs.com,direct
+HOST-SUFFIX,sony.com,direct
+HOST-SUFFIX,janraincapture.com,direct
+HOST-SUFFIX,ndmdhs.com,direct
 #育碧
-host-suffix,ubi.com,direct
-host,ubistatic2-a.akamaihd.net,direct
+HOST-SUFFIX,ubi.com,direct
+HOST,ubistatic2-a.akamaihd.net,direct
 #surge
-host-SUFFIX,nssurge.com,Outside
+HOST-SUFFIX,nssurge.com,Outside
 #米读
-host,bid.adview.cn,reject
-host-SUFFIX,afdback.ppsimg.com,reject
-host-SUFFIX,fanqianxs.com,direct
+HOST,bid.adview.cn,reject
+HOST-SUFFIX,afdback.ppsimg.com,reject
+HOST-SUFFIX,fanqianxs.com,direct
 #
-DOMAIN-SUFFIX,whitemoon.top,direct
+HOST-SUFFIX,whitemoon.top,direct
 IP-CIDR,10.0.0.12/32,direct
-DOMAIN-SUFFIX,push.apple.com,direct
-DOMAIN-SUFFIX,jddebug.com,reject
+HOST-SUFFIX,push.apple.com,direct
+HOST-SUFFIX,jddebug.com,reject
+#ios黑科技
+HOST-SUFFIX,ivapp.cn,Outside
