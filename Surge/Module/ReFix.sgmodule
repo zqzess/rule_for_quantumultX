@@ -37,7 +37,6 @@ DOMAIN,98.142.140.135,DIRECT
 DOMAIN,104.41.164.226,DIRECT
 ##
 DOMAIN-SUFFIX,toblog.ctobsnssdk.com,DIRECT
-DOMAIN-SUFFIX,6678888.xyz,DIRECT
 DOMAIN,tu.511.la,DIRECT
 ##
 DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
@@ -96,3 +95,4 @@ DOMAIN-SUFFIX,push.apple.com,DIRECT
 DOMAIN-SUFFIX,jddebug.com,REJECT
 #ios黑科技
 DOMAIN-SUFFIX,ivapp.cn,Outside
+DOMAIN-SUFFIX,6678888.xyz,Outside
