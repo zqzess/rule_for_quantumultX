@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-29 02:06:55
+# UPDATED: 2021-09-09 02:09:37
 # HOST: 50
-# HOST-SUFFIX: 33460
+# HOST-SUFFIX: 33461
 # USER-AGENT: 48
 # HOST-KEYWORD: 41
 # IP-CIDR: 128
 # IP6-CIDR: 3
-# TOTAL: 33730
+# TOTAL: 33731
 HOST,amp.akamaized.net,Global
 HOST,apple.com.akadns.net,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
@@ -13441,6 +13441,7 @@ HOST-SUFFIX,hexxeh.net,Global
 HOST-SUFFIX,heyav.tv,Global
 HOST-SUFFIX,heydoga.com,Global
 HOST-SUFFIX,heymiles.com,Global
+HOST-SUFFIX,heyuedi.com,Global
 HOST-SUFFIX,heywire.com,Global
 HOST-SUFFIX,heyzo.com,Global
 HOST-SUFFIX,hf-iphone.com,Global

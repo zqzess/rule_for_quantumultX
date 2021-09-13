@@ -8452,6 +8452,11 @@ HOST,ma85-r-analytics.akamaized.net,AdBlock
 HOST,abcd.mdc.akamaized.net,AdBlock
 HOST,speee-ad.akamaized.net,AdBlock
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,AdBlock
+# [akisinn.info]
+HOST,co.akisinn.info,AdBlock
+HOST,int.akisinn.info,AdBlock
+# [akisinn.site]
+HOST,int.akisinn.site,AdBlock
 # [alcmpn.com]
 HOST,p.alcmpn.com,AdBlock
 # [alexametrics.com]
@@ -9122,8 +9127,6 @@ HOST,as.y.atwola.com,AdBlock
 HOST,tw.as.y.atwola.com,AdBlock
 HOST,eu.y.atwola.com,AdBlock
 HOST,us.y.atwola.com,AdBlock
-# [audioboom.com]
-HOST,audioboom.com,AdBlock
 # [audioeye.com]
 HOST,ws.audioeye.com,AdBlock
 # [auditude.com]
@@ -10377,6 +10380,11 @@ HOST,cdn.destinilocators.com,AdBlock
 # [devtodev.com]
 HOST,balancer.devtodev.com,AdBlock
 HOST,statgw.devtodev.com,AdBlock
+# [dewrain.life]
+HOST,co.dewrain.life,AdBlock
+HOST,int.dewrain.life,AdBlock
+# [dewrain.site]
+HOST,int.dewrain.site,AdBlock
 # [dhgate.com]
 HOST,realstats.dhgate.com,AdBlock
 # [dice.com]
@@ -10837,7 +10845,6 @@ HOST,doubleverify.com.edgekey.net,AdBlock
 HOST,akacdn.doubleverify.com.edgekey.net,AdBlock
 HOST,evidon.com.edgekey.net,AdBlock
 HOST,wildcard.evidon.com.edgekey.net,AdBlock
-HOST,exacttarget.com.edgekey.net,AdBlock
 HOST,metrics.fidelity.com.edgekey.net,AdBlock
 HOST,flashtalking.com.edgekey.net,AdBlock
 HOST,cdn.flashtalking.com.edgekey.net,AdBlock
@@ -12366,10 +12373,13 @@ HOST,partner.knorex.com,AdBlock
 HOST,kochava.com,AdBlock
 HOST,api.kochava.com,AdBlock
 HOST,kvinit-prod.api.kochava.com,AdBlock
+HOST,token.api.kochava.com,AdBlock
 HOST,assets.kochava.com,AdBlock
 HOST,control.kochava.com,AdBlock
 HOST,imp.control.kochava.com,AdBlock
 HOST,web-sdk.control.kochava.com,AdBlock
+HOST,entitlements.kochava.com,AdBlock
+HOST,icm.kochava.com,AdBlock
 # [kongregate.io]
 HOST,analytics.kongregate.io,AdBlock
 # [kookong.com]
@@ -15332,8 +15342,6 @@ HOST,ios-quinoa-personal-identify-prod.sense360eng.com,AdBlock
 HOST,quinoa-personal-identify-prod.sense360eng.com,AdBlock
 # [sentiance.com]
 HOST,api.sentiance.com,AdBlock
-# [sentry.io]
-HOST,sentry.io,AdBlock
 # [servebom.com]
 HOST,servebom.com,AdBlock
 HOST,ads.servebom.com,AdBlock
@@ -15533,6 +15541,8 @@ HOST,ap.smardroid.com,AdBlock
 HOST,lg.smardroid.com,AdBlock
 HOST,sc.smardroid.com,AdBlock
 HOST,tkclick.smardroid.com,AdBlock
+# [smart.link]
+HOST,smart.link,AdBlock
 # [smartadserver.com]
 HOST,cdn1.smartadserver.com,AdBlock
 HOST,diff.smartadserver.com,AdBlock
@@ -16798,6 +16808,13 @@ HOST,utarget.ru,AdBlock
 HOST,log.apk.v-mate.mobi,AdBlock
 # [vads.net.vn]
 HOST,vads.net.vn,AdBlock
+# [vaicore.site]
+HOST,co.vaicore.site,AdBlock
+HOST,int.vaicore.site,AdBlock
+# [vaicore.xyz]
+HOST,vaicore.xyz,AdBlock
+HOST,co.vaicore.xyz,AdBlock
+HOST,int.vaicore.xyz,AdBlock
 # [valuepotion.com]
 HOST,analytics.valuepotion.com,AdBlock
 # [vamaker.com]

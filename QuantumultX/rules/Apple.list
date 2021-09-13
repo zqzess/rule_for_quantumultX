@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2021-09-06 01:39:27
+# Apple rules refresh time: 2021-09-13 01:35:43
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -91,6 +91,7 @@ HOST-SUFFIX,ios-icloud.com,Apple
 HOST-SUFFIX,itunes.com.edgekey.net,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
+HOST-SUFFIX,safebrowsing.apple,Apple
 HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple

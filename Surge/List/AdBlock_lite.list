@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-09-06 01:39:24
+# AdBlock rules refresh time: 2021-09-13 01:35:42
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -8111,6 +8111,11 @@ DOMAIN,ma85-r-analytics.akamaized.net
 DOMAIN,abcd.mdc.akamaized.net
 DOMAIN,speee-ad.akamaized.net
 DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
+# [akisinn.info]
+DOMAIN,co.akisinn.info
+DOMAIN,int.akisinn.info
+# [akisinn.site]
+DOMAIN,int.akisinn.site
 # [alcmpn.com]
 DOMAIN,p.alcmpn.com
 # [alexametrics.com]
@@ -8761,8 +8766,6 @@ DOMAIN,as.y.atwola.com
 DOMAIN,tw.as.y.atwola.com
 DOMAIN,eu.y.atwola.com
 DOMAIN,us.y.atwola.com
-# [audioboom.com]
-DOMAIN,audioboom.com
 # [audioeye.com]
 DOMAIN,ws.audioeye.com
 # [auditude.com]
@@ -9986,6 +9989,11 @@ DOMAIN,cdn.destinilocators.com
 # [devtodev.com]
 DOMAIN,balancer.devtodev.com
 DOMAIN,statgw.devtodev.com
+# [dewrain.life]
+DOMAIN,co.dewrain.life
+DOMAIN,int.dewrain.life
+# [dewrain.site]
+DOMAIN,int.dewrain.site
 # [dhgate.com]
 DOMAIN,realstats.dhgate.com
 # [dice.com]
@@ -10430,7 +10438,6 @@ DOMAIN,doubleverify.com.edgekey.net
 DOMAIN,akacdn.doubleverify.com.edgekey.net
 DOMAIN,evidon.com.edgekey.net
 DOMAIN,wildcard.evidon.com.edgekey.net
-DOMAIN,exacttarget.com.edgekey.net
 DOMAIN,metrics.fidelity.com.edgekey.net
 DOMAIN,flashtalking.com.edgekey.net
 DOMAIN,cdn.flashtalking.com.edgekey.net
@@ -11905,10 +11912,13 @@ DOMAIN,partner.knorex.com
 DOMAIN,kochava.com
 DOMAIN,api.kochava.com
 DOMAIN,kvinit-prod.api.kochava.com
+DOMAIN,token.api.kochava.com
 DOMAIN,assets.kochava.com
 DOMAIN,control.kochava.com
 DOMAIN,imp.control.kochava.com
 DOMAIN,web-sdk.control.kochava.com
+DOMAIN,entitlements.kochava.com
+DOMAIN,icm.kochava.com
 # [kongregate.io]
 DOMAIN,analytics.kongregate.io
 # [kookong.com]
@@ -14732,8 +14742,6 @@ DOMAIN,ios-quinoa-personal-identify-prod.sense360eng.com
 DOMAIN,quinoa-personal-identify-prod.sense360eng.com
 # [sentiance.com]
 DOMAIN,api.sentiance.com
-# [sentry.io]
-DOMAIN,sentry.io
 # [servebom.com]
 DOMAIN,servebom.com
 DOMAIN,ads2.servebom.com
@@ -14922,6 +14930,8 @@ DOMAIN,ap.smardroid.com
 DOMAIN,lg.smardroid.com
 DOMAIN,sc.smardroid.com
 DOMAIN,tkclick.smardroid.com
+# [smart.link]
+DOMAIN,smart.link
 # [smartadserver.com]
 DOMAIN,eqx-secure.smartadserver.com
 DOMAIN,eqx-tmk-geoloc.smartadserver.com
@@ -16139,6 +16149,13 @@ DOMAIN,utarget.ru
 DOMAIN,log.apk.v-mate.mobi
 # [vads.net.vn]
 DOMAIN,vads.net.vn
+# [vaicore.site]
+DOMAIN,co.vaicore.site
+DOMAIN,int.vaicore.site
+# [vaicore.xyz]
+DOMAIN,vaicore.xyz
+DOMAIN,co.vaicore.xyz
+DOMAIN,int.vaicore.xyz
 # [valuepotion.com]
 DOMAIN,analytics.valuepotion.com
 # [vamaker.com]
