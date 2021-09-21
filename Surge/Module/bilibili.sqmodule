@@ -37,4 +37,4 @@ BiliBili_我的页面处理 = type=http-response,requires-body=1,max-size=0,patt
 
 
 [MITM]
-hostname = %APPEND% api.bilibili.com,app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,manga.bilibili.com,ap?.bilibili.com
+hostname = %APPEND% api.bilibili.com,app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,manga.bilibili.com,ap?.bilibili.com,app.biliintl.com
