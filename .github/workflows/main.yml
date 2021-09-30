@@ -70,6 +70,7 @@ jobs:
       #微信推送更新信息
       - name: Send Failed Message
         if: failure()
-        run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新出错!
+        #run: wget https://sc.ftqq.com/${USER_KEY}.send?text=圈X配置文件更新出错!
+        run: wget https://sctapi.ftqq.com/${USER_KEY}.send?title=更新错误&desp=圈X配置文件更新出错
         env:
           USER_KEY: ${{secrets.USER_KEY}}
