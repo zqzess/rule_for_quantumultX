@@ -184,3 +184,12 @@ HOST-SUFFIX,push.apple.com,direct
 HOST-SUFFIX,jddebug.com,reject
 #ios黑科技
 HOST-SUFFIX,ivapp.cn,Outside
+
+##backiee广告屏蔽
+URL-REGEX,^https:\/\/www\.google\.com\.hk\/ads,reject
+HOST-SUFFIX,stats.g.doubleclick.net,reject
+HOST-SUFFIX,pagead2.googlesyndication.com,reject
+HOST-SUFFIX,googleads.g.doubleclick.net,reject
+HOST-SUFFIX,app-measurement.com,reject
+HOST-SUFFIX,ade.googlesyndication.com,reject
+HOST-SUFFIX,googleads4.g.doubleclick.net,reject

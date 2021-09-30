@@ -96,3 +96,7 @@ DOMAIN-SUFFIX,jddebug.com,REJECT
 #ios黑科技
 DOMAIN-SUFFIX,ivapp.cn,Outside
 DOMAIN-SUFFIX,6678888.xyz,Outside
+#uplay
+DOMAIN-KEYWORD,ubi.,DIRECT
+DOMAIN-KEYWORD,ubisoft,DIRECT
+DOMAIN-SUFFIX,ubisoft.com,DIRECT

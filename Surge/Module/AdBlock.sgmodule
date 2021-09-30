@@ -65,10 +65,8 @@ URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$,REJECT
 URL-REGEX,^https:\/\/apiwz\.midukanshu\.com\/config\/getAds$,REJECT
 DOMAIN,bid.adview.cn,REJECT
 
-
 # 京东开屏广告屏蔽
 URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
-
 
 # 优酷去片头广告(by Choler)
 # force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
@@ -76,6 +74,16 @@ URL-REGEX,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
 
 # 高德地图
 DOMAIN,optimus-ads.amap.com,REJECT
+
+#backiee
+URL-REGEX,^https:\/\/www\.google\.com\.hk\/ads,REJECT
+DOMAIN,stats.g.doubleclick.net,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,googleads.g.doubleclick.net,REJECT
+DOMAIN,app-measurement.com,REJECT
+DOMAIN,ade.googlesyndication.com,REJECT
+DOMAIN,googleads4.g.doubleclick.net,REJECT
+
 
 [URL Rewrite]
 # 有兔阅读(米兔)去羞耻的开屏广告图片
