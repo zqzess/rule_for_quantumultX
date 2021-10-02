@@ -16,5 +16,9 @@
 ^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
 ^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject-dict
 
-hostname = ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,weixin110.qq.com,api.m.jd.com,api.bjxkhc.com
+#spotify会员解锁部分(by app2smile)
+^https\:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
+
+hostname = ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,weixin110.qq.com,api.m.jd.com,api.bjxkhc.com,spclient.wg.spotify.com
 

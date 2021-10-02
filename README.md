@@ -79,6 +79,7 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin)
 - [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bodianMusic.plugin)
 - [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin)
+-[spotify会员解锁 by app2smile](https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin)
 
     -----------------
 ### Surge配置文件
@@ -102,7 +103,7 @@ surge搬运：
 - [BoxJs](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
 - [TextFight区域限制解除](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/TestFlightDownload.sgmodule)
 - [多个app广告屏蔽合集](https://github.com/app2smile/rules/blob/master/module/ad.sgmodule)
-
+- [spotify会员解锁](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module)
 ### 自制脚本
 
 - [目录地址-->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine)
