@@ -77,7 +77,6 @@ DOMAIN,optimus-ads.amap.com,REJECT
 DOMAIN,bid.adview.cn,REJECT
 
 #backiee广告屏蔽
-URL-REGEX,^https:\/\/www\.google\.com\.hk\/ads,REJECT
 DOMAIN,stats.g.doubleclick.net,REJECT
 DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,googleads.g.doubleclick.net,REJECT
@@ -190,6 +189,9 @@ http:\/\/analytics\.163\.com\/ntes - reject
 #hostname=gw.alicdn.com,heic.alicdn.com
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) _ reject-dict
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/.+\d{4}-\d{4}\.jpg_(9\d{2}|\d{4}) _ reject-dict
+
+#backiee
+^https:\/\/www\.google\.com\.hk\/ads _ reject
 
 [Script]
 #微信公众号广告屏蔽(By Choler)

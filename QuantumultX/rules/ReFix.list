@@ -186,7 +186,6 @@ HOST-SUFFIX,jddebug.com,reject
 HOST-SUFFIX,ivapp.cn,Outside
 
 ##backiee广告屏蔽
-URL-REGEX,^https:\/\/www\.google\.com\.hk\/ads,reject
 HOST-SUFFIX,stats.g.doubleclick.net,reject
 HOST-SUFFIX,pagead2.googlesyndication.com,reject
 HOST-SUFFIX,googleads.g.doubleclick.net,reject
