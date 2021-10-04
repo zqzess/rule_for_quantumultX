@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-09-27 01:36:00
+# Mainland rules refresh time: 2021-10-04 01:43:20
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -618,6 +618,7 @@ HOST-SUFFIX,takungpao.com,Mainland
 HOST-SUFFIX,tandfonline.com,Mainland
 HOST-SUFFIX,tawk.link,Mainland
 HOST-SUFFIX,tawk.to,Mainland
+HOST-SUFFIX,tencent-cloud.com,Mainland
 HOST-SUFFIX,tencent-cloud.net,Mainland
 HOST-SUFFIX,test-ipv4.com,Mainland
 HOST-SUFFIX,test-ipv6.com,Mainland
