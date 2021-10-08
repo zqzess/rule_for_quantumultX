@@ -1,0 +1,16 @@
+#Google搜索中国，香港，日本重定向
+
+#6月版
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^https:\/\/www\.google\.co\.jp url 302 https://www.google.com
+# 非强制跳转
+#^https:\/\/www\.google\.com\.hk\/.+ url 302 https://www.google.com/search
+# 强制跳转
+^https:\/\/www\.google\.com\.hk\/ url 302 https://www.google.com/search
+
+#^https:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+#^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+#^https:\/\/www\.google\.co\.jp url 302 https://www.google.com
+#^https:\/\/www\.google\.com\.hk url 302 https://www.google.com
+
+hostname = *.google.com.hk ,*.g.cn,*.google.cn ,*.google.co.jp
