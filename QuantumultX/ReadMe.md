@@ -174,6 +174,11 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyJsRewrite.conf, tag=zqzess自用搬运脚本, update-interval=604800, opt-parser=true, enabled=false
 ```
+- 谷歌重定向
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/googleRedirect.qxrewrite, tag=谷歌重定向, update-interval=86400, opt-parser=false, enabled=true
+```
 </details>
 
 ------------------------------------

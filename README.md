@@ -57,6 +57,11 @@ youtube 广告屏蔽单文件订阅，已修复短视频无法加载问题
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/youtube.qxrewrite, tag=youtube广告屏蔽, update-interval=86400, opt-parser=false, enabled=true
 ```
+谷歌重定向
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/googleRedirect.qxrewrite, tag=谷歌重定向, update-interval=86400, opt-parser=false, enabled=true
+```
 
 **完整配置文件**
 ```ruby

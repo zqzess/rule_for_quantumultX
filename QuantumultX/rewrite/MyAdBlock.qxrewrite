@@ -14,14 +14,6 @@
 
 ^http:\/\/app\.zhoudamozi\.com\/ad\/.+ url reject-200
 
-#Google搜索中国，香港，日本重定向
-^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-^https:\/\/www\.google\.co\.jp url 302 https://www.google.com
-# 非强制跳转
-#^https:\/\/www\.google\.com\.hk\/.+ url 302 https://www.google.com/search
-# 强制跳转
-^https:\/\/www\.google\.com\.hk\/ url 302 https://www.google.com/search
-
 #YouTuBe去广告
 #ctier=[A-Z] url 302 citer=A
 #^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject-200
@@ -131,4 +123,4 @@ http:\/\/analytics\.163\.com\/ntes url reject
 #backiee
 ^https:\/\/www\.google\.com\.hk\/ads url reject
 
-hostname = gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,appconf.mail.163.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,ma-adx.ctrip.com,m.ctrip.com,m.ads.8le8le.com,iadmusicmat.music.com,j-image.missfresh.cn,apiwz.midukanshu.com,*.google.com.hk ,*.g.cn,*.google.cn ,*.google.co.jp ,*.googlevideo.com ,youtubei.googleapis.com ,*.youtube.com ,premiumyva.appspot.com,img-tailor.11222.cn,api-access.pangolin-sdk-toutiao.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,img.alipaycashyuan.com
+hostname = gw.alicdn.com,heic.alicdn.com,mp.weixin.qq.com,api.m.jd.com,api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,appconf.mail.163.com,analytics.163.com,act.vip.iqiyi.com,*.iqiyipic.com, *.iqiyi.com,ma-adx.ctrip.com,m.ctrip.com,m.ads.8le8le.com,iadmusicmat.music.com,j-image.missfresh.cn,apiwz.midukanshu.com ,*.googlevideo.com ,youtubei.googleapis.com ,*.youtube.com ,premiumyva.appspot.com,img-tailor.11222.cn,api-access.pangolin-sdk-toutiao.com,ocean.shuqireader.com,mi.gdt.qq.com,mobads.baidu.com,sq.sljkj.com,img.alipaycashyuan.com
