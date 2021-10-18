@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-10-11 01:41:32
+# AdBlock rules refresh time: 2021-10-18 01:44:29
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -612,7 +612,6 @@ HOST-SUFFIX,code668.com,AdBlock
 HOST-SUFFIX,coin-have.com,AdBlock
 HOST-SUFFIX,coin-hive.com,AdBlock
 HOST-SUFFIX,coinerra.com,AdBlock
-HOST-SUFFIX,coinhive-manager.com,AdBlock
 HOST-SUFFIX,coinhive.com,AdBlock
 HOST-SUFFIX,comesgo.com,AdBlock
 HOST-SUFFIX,continuedsys.cn,AdBlock
@@ -2017,6 +2016,16 @@ HOST-SUFFIX,yoyi.tv,AdBlock
 HOST-SUFFIX,ypmob.com,AdBlock
 HOST-SUFFIX,yqgytx.com,AdBlock
 HOST-SUFFIX,yr023.com,AdBlock
+HOST-SUFFIX,yr29r.cn,AdBlock
+HOST-SUFFIX,ysgsq.cn,AdBlock
+HOST-SUFFIX,ytbnm.cn,AdBlock
+HOST-SUFFIX,ytmaitian.com,AdBlock
+HOST-SUFFIX,yttz113.com,AdBlock
+HOST-SUFFIX,ytunion.com,AdBlock
+HOST-SUFFIX,ytybl.com,AdBlock
+HOST-SUFFIX,yu0123456.com,AdBlock
+HOST-SUFFIX,yueba94.com,AdBlock
+HOST-SUFFIX,yueyetiyu.com,AdBlock
 HOST,t7z.cupid.iqiyi.com,AdBlock
 HOST,livew.l.qq.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
@@ -9050,6 +9059,8 @@ HOST,brainient.com,AdBlock
 HOST,tag.brainient.com,AdBlock
 # [braintreegateway.com]
 HOST,client-analytics.braintreegateway.com,AdBlock
+# [brandcdn.com]
+HOST,adservices.brandcdn.com,AdBlock
 # [branch.io]
 HOST,branch.io,AdBlock
 HOST,api.branch.io,AdBlock
@@ -14045,6 +14056,8 @@ HOST,playhaven.com,AdBlock
 HOST,stats.playrix.com,AdBlock
 # [playtem.com]
 HOST,sdk.playtem.com,AdBlock
+# [pluto.tv]
+HOST,service-ad-impression-proxy.clusters.pluto.tv,AdBlock
 # [pmc.com]
 HOST,iabusprivacy.pmc.com,AdBlock
 # [po.st]

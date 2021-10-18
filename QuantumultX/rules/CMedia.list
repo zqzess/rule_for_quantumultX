@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2021-10-11 01:41:32
+# CMedia rules refresh time: 2021-10-18 01:44:29
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -163,6 +163,11 @@ HOST-SUFFIX,bilibiligame.cn,CMedia
 HOST-SUFFIX,bilibiligame.net,CMedia
 HOST-SUFFIX,bilibilipay.cn,CMedia
 HOST-SUFFIX,bilibilipay.com,CMedia
+HOST-SUFFIX,bilicdn1.com,CMedia
+HOST-SUFFIX,bilicdn2.com,CMedia
+HOST-SUFFIX,bilicdn3.com,CMedia
+HOST-SUFFIX,bilicdn4.com,CMedia
+HOST-SUFFIX,bilicdn5.com,CMedia
 HOST-SUFFIX,biligame.cn,CMedia
 HOST-SUFFIX,biligo.com,CMedia
 HOST-SUFFIX,biliintl.com,CMedia
