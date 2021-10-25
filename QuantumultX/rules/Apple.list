@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2021-10-18 01:44:30
+# Apple rules refresh time: 2021-10-25 01:38:11
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -32,6 +32,7 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
 
+HOST,apple-events.akamaized.net,Apple
 HOST,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
@@ -45,12 +46,24 @@ HOST-SUFFIX,apple.com.mwcname.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
+HOST-SUFFIX,applemxicloud.com,Apple
 HOST-SUFFIX,appsto.re,Apple
+HOST-SUFFIX,cdn.applemapkit.com,Apple
+HOST-SUFFIX,cdn1.applemapkit.com,Apple
+HOST-SUFFIX,cdn2.applemapkit.com,Apple
+HOST-SUFFIX,cdn3.applemapkit.com,Apple
+HOST-SUFFIX,cdn4.applemapkit.com,Apple
+HOST-SUFFIX,cdncn1.applemapkit.com,Apple
+HOST-SUFFIX,cdncn2.applemapkit.com,Apple
+HOST-SUFFIX,cdncn3.applemapkit.com,Apple
+HOST-SUFFIX,cdncn4.applemapkit.com,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
+HOST-SUFFIX,gsp4cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
 HOST-SUFFIX,icloud-sandbox.com,Apple
+HOST-SUFFIX,icloud.cdnapple.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.de,Apple
 HOST-SUFFIX,icloud.ee,Apple
@@ -74,8 +87,10 @@ HOST-SUFFIX,icloudads.net,Apple
 HOST-SUFFIX,icloudapple.cn,Apple
 HOST-SUFFIX,icloudbox.net,Apple
 HOST-SUFFIX,icloudbrowser.net,Apple
+HOST-SUFFIX,icloudcontent.com,Apple
 HOST-SUFFIX,icloude.com,Apple
 HOST-SUFFIX,icloudhome.com,Apple
+HOST-SUFFIX,icloudisupport.com,Apple
 HOST-SUFFIX,icloudmail.net,Apple
 HOST-SUFFIX,icloudmusic.net,Apple
 HOST-SUFFIX,icloudnet.net,Apple
@@ -88,11 +103,15 @@ HOST-SUFFIX,icloudpay.net,Apple
 HOST-SUFFIX,icloudsecure.net,Apple
 HOST-SUFFIX,icloudsetup.com,Apple
 HOST-SUFFIX,ios-icloud.com,Apple
+HOST-SUFFIX,iosicloud.com,Apple
 HOST-SUFFIX,itunes.com.edgekey.net,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
 HOST-SUFFIX,safebrowsing.apple,Apple
 HOST-SUFFIX,store.apple.com.edgekey.net,Apple
+HOST-SUFFIX,store.storeimages.cdnapple.com,Apple
+HOST-SUFFIX,updates.cdnapple.com,Apple
+HOST-SUFFIX,updateshttp.cdnapple.com,Apple
 HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple

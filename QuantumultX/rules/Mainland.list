@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-10-18 01:44:30
+# Mainland rules refresh time: 2021-10-25 01:38:11
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -324,10 +324,8 @@ HOST,cdn.angruo.com,Mainland
 HOST,dl.google.com,Mainland
 HOST,download.jetbrains.com,Mainland
 HOST,file-igamecj.akamaized.net,Mainland
-HOST,images-cn.ssl-images-amazon.com,Mainland
 HOST,ip.istatmenus.app,Mainland
 HOST,mtalk.google.com,Mainland
-HOST,officecdn-microsoft-com.akamaized.net,Mainland
 HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
 HOST,steamcommunity-a.akamaihd.net,Mainland
@@ -357,7 +355,6 @@ HOST-SUFFIX,aip.org,Mainland
 HOST-SUFFIX,aixifan.com,Mainland
 HOST-SUFFIX,alibabausercontent.com,Mainland
 HOST-SUFFIX,alikunlun.com,Mainland
-HOST-SUFFIX,aliyuncs.com,Mainland
 HOST-SUFFIX,amd.com,Mainland
 HOST-SUFFIX,ams.org,Mainland
 HOST-SUFFIX,animebytes.tv,Mainland
@@ -373,9 +370,6 @@ HOST-SUFFIX,awesome-hd.me,Mainland
 HOST-SUFFIX,azure.cn,Mainland
 HOST-SUFFIX,b612.net,Mainland
 HOST-SUFFIX,baduziyuan.com,Mainland
-HOST-SUFFIX,baidubcr.com,Mainland
-HOST-SUFFIX,baidupan.com,Mainland
-HOST-SUFFIX,baidupcs.com,Mainland
 HOST-SUFFIX,bdatu.com,Mainland
 HOST-SUFFIX,beitaichufang.com,Mainland
 HOST-SUFFIX,biliapi.com,Mainland
@@ -400,6 +394,7 @@ HOST-SUFFIX,chua.pro,Mainland
 HOST-SUFFIX,chuimg.com,Mainland
 HOST-SUFFIX,chunyu.mobi,Mainland
 HOST-SUFFIX,chushou.tv,Mainland
+HOST-SUFFIX,cibntv.net,Mainland
 HOST-SUFFIX,clarivate.com,Mainland
 HOST-SUFFIX,classix-unlimited.co.uk,Mainland
 HOST-SUFFIX,cmbimg.com,Mainland
@@ -524,8 +519,6 @@ HOST-SUFFIX,meixincdn.com,Mainland
 HOST-SUFFIX,metatrader4.com,Mainland
 HOST-SUFFIX,metatrader5.com,Mainland
 HOST-SUFFIX,mgtv.com,Mainland
-HOST-SUFFIX,microsoft.com,Mainland
-HOST-SUFFIX,microsoftonline.com,Mainland
 HOST-SUFFIX,mls-cdn.com,Mainland
 HOST-SUFFIX,mobike.com,Mainland
 HOST-SUFFIX,morethan.tv,Mainland
@@ -540,7 +533,6 @@ HOST-SUFFIX,mzstatic.com,Mainland
 HOST-SUFFIX,nanyangpt.com,Mainland
 HOST-SUFFIX,nature.com,Mainland
 HOST-SUFFIX,ncore.cc,Mainland
-HOST-SUFFIX,nim-lang-cn.org,Mainland
 HOST-SUFFIX,novipnoad.com,Mainland
 HOST-SUFFIX,nssurge.com,Mainland
 HOST-SUFFIX,ntp.org,Mainland
@@ -581,7 +573,6 @@ HOST-SUFFIX,qyerstatic.com,Mainland
 HOST-SUFFIX,raychase.net,Mainland
 HOST-SUFFIX,ronghub.com,Mainland
 HOST-SUFFIX,rsc.org,Mainland
-HOST-SUFFIX,s-microsoft.com,Mainland
 HOST-SUFFIX,s-reader.com,Mainland
 HOST-SUFFIX,sagepub.com,Mainland
 HOST-SUFFIX,sankuai.com,Mainland
@@ -593,6 +584,7 @@ HOST-SUFFIX,seafile.com,Mainland
 HOST-SUFFIX,segmentfault.com,Mainland
 HOST-SUFFIX,servicewechat.com,Mainland
 HOST-SUFFIX,sharepoint.com,Mainland
+HOST-SUFFIX,shouqianba.com,Mainland
 HOST-SUFFIX,siam.org,Mainland
 HOST-SUFFIX,sina.com,Mainland
 HOST-SUFFIX,snapdrop.net,Mainland

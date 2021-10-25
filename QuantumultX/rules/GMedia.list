@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-10-18 01:44:29
+# GMedia rules refresh time: 2021-10-25 01:38:10
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -185,7 +185,6 @@ HOST,intl-rcd.iqiyi.com,GMedia
 HOST,intl-subscription.iqiyi.com,GMedia
 HOST,intl.iqiyi.com,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
-HOST,linear.tv.apple.com,GMedia
 HOST,mobileso.bz.mgtv.com,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
@@ -196,6 +195,7 @@ HOST,news-events.apple.com,GMedia
 HOST,p.bstarstatic.com,GMedia
 HOST,players.brightcove.net,GMedia
 HOST,rpg.pic-imges.com,GMedia
+HOST,uts-api.itunes.apple.com,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
@@ -308,7 +308,6 @@ HOST-SUFFIX,tik-tokapi.com,GMedia
 HOST-SUFFIX,tiktok.com,GMedia
 HOST-SUFFIX,tiktokcdn.com,GMedia
 HOST-SUFFIX,tiktokv.com,GMedia
-HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,tver.jp,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
@@ -320,7 +319,6 @@ HOST-SUFFIX,wetvinfo.com,GMedia
 HOST-SUFFIX,yahoo.co.jp,GMedia
 HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
-HOST-SUFFIX,youtube.com,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
 HOST-KEYWORD,.hbogoasia.,GMedia

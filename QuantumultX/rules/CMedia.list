@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2021-10-18 01:44:29
+# CMedia rules refresh time: 2021-10-25 01:38:09
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -146,7 +146,6 @@ HOST-SUFFIX,ads1.lfengmobile.com,CMedia
 HOST-SUFFIX,afp.pplive.com,CMedia
 HOST-SUFFIX,ai.xiaomi.com,CMedia
 HOST-SUFFIX,androidgo.duapp.com,CMedia
-HOST-SUFFIX,api.cupid.qiyi.com,CMedia
 HOST-SUFFIX,api.game.letvstore.com,CMedia
 HOST-SUFFIX,baka.im,CMedia
 HOST-SUFFIX,bigfun.cn,CMedia
@@ -155,14 +154,6 @@ HOST-SUFFIX,bili22.cn,CMedia
 HOST-SUFFIX,bili2233.cn,CMedia
 HOST-SUFFIX,bili23.cn,CMedia
 HOST-SUFFIX,bili33.cn,CMedia
-HOST-SUFFIX,bilibili.cc,CMedia
-HOST-SUFFIX,bilibili.cn,CMedia
-HOST-SUFFIX,bilibili.co,CMedia
-HOST-SUFFIX,bilibili.tv,CMedia
-HOST-SUFFIX,bilibiligame.cn,CMedia
-HOST-SUFFIX,bilibiligame.net,CMedia
-HOST-SUFFIX,bilibilipay.cn,CMedia
-HOST-SUFFIX,bilibilipay.com,CMedia
 HOST-SUFFIX,bilicdn1.com,CMedia
 HOST-SUFFIX,bilicdn2.com,CMedia
 HOST-SUFFIX,bilicdn3.com,CMedia
@@ -216,8 +207,6 @@ HOST-SUFFIX,livechina.cn,CMedia
 HOST-SUFFIX,livechina.com,CMedia
 HOST-SUFFIX,mcbbs.net,CMedia
 HOST-SUFFIX,mincdn.com,CMedia
-HOST-SUFFIX,msg.video.qiyi.com,CMedia
-HOST-SUFFIX,msg2.video.qiyi.com,CMedia
 HOST-SUFFIX,music.126.net,CMedia
 HOST-SUFFIX,music.163.com,CMedia
 HOST-SUFFIX,music.qq.com,CMedia

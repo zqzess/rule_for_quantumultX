@@ -1,12 +1,12 @@
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-13 10:18:24
+# UPDATED: 2021-10-23 02:11:07
 # IP-CIDR: 8
 # IP6-CIDR: 5
 # HOST-KEYWORD: 2
-# HOST-SUFFIX: 15
-# TOTAL: 30
+# HOST-SUFFIX: 10
+# TOTAL: 25
 HOST-SUFFIX,comments.app,Telegram
 HOST-SUFFIX,graph.org,Telegram
 HOST-SUFFIX,stel.com,Telegram
@@ -14,11 +14,6 @@ HOST-SUFFIX,t.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
 HOST-SUFFIX,telega.one,Telegram
 HOST-SUFFIX,telegra.ph,Telegram
-HOST-SUFFIX,telegram.dog,Telegram
-HOST-SUFFIX,telegram.me,Telegram
-HOST-SUFFIX,telegram.org,Telegram
-HOST-SUFFIX,telegram.space,Telegram
-HOST-SUFFIX,telegramdownload.com,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
 HOST-SUFFIX,tg.dev,Telegram
 HOST-SUFFIX,tx.me,Telegram
