@@ -25,13 +25,13 @@ DOMAIN-SUFFIX,amemv.com,DIRECT
 ##
 DOMAIN-SUFFIX,laiyifa.org,DIRECT
 # aaex加速器
-DOMAIN-SUFFIX,aaex.hk,Proxy
+DOMAIN-SUFFIX,aaex.hk,Outside
 # 村花
-DOMAIN-KEYWORD,cunhua,Proxy
+DOMAIN-KEYWORD,cunhua,Outside
 ##
-DOMAIN,www.v2rayssr.com,Proxy
-DOMAIN-SUFFIX,sakura.cat,Proxy
-DOMAIN-SUFFIX,sakura.cloud,Proxy
+DOMAIN,www.v2rayssr.com,Outside
+DOMAIN-SUFFIX,sakura.cat,Outside
+DOMAIN-SUFFIX,sakura.cloud,Outside
 DOMAIN,cmshow.gtimg.cn,DIRECT
 DOMAIN,98.142.140.135,DIRECT
 DOMAIN,104.41.164.226,DIRECT
