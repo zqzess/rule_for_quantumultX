@@ -865,7 +865,6 @@ HOST-SUFFIX,gma1.com,AdBlock
 HOST-SUFFIX,gnmbd.top,AdBlock
 HOST,go.hangzhou.com.cn,AdBlock
 HOST-SUFFIX,gongfanglong.cn,AdBlock
-HOST-SUFFIX,googleadservices.com,AdBlock
 HOST-SUFFIX,googlealiyun.cn,AdBlock
 HOST-SUFFIX,googlesyndication.com,AdBlock
 HOST-SUFFIX,goolpter.com,AdBlock
@@ -2024,6 +2023,7 @@ HOST-SUFFIX,ytybl.com,AdBlock
 HOST-SUFFIX,yu0123456.com,AdBlock
 HOST-SUFFIX,yueba94.com,AdBlock
 HOST-SUFFIX,yueyetiyu.com,AdBlock
+HOST-SUFFIX,yunanfuwuqi.com,AdBlock
 HOST,t7z.cupid.iqiyi.com,AdBlock
 HOST,livew.l.qq.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
@@ -11760,7 +11760,6 @@ HOST,iclickyou.com,AdBlock
 # [icloseli.com]
 HOST,ads.icloseli.com,AdBlock
 HOST,api.icloseli.com,AdBlock
-HOST,esd.icloseli.com,AdBlock
 HOST,relaycn.icloseli.com,AdBlock
 # [icloud.com]
 HOST,metrics.icloud.com,AdBlock
@@ -12582,8 +12581,6 @@ HOST,rp.liadm.com,AdBlock
 HOST,rp4.liadm.com,AdBlock
 # [licdn.com]
 HOST,snap.licdn.com,AdBlock
-# [licensebuttons.net]
-HOST,licensebuttons.net,AdBlock
 # [liftoff.io]
 HOST,adexp.liftoff.io,AdBlock
 HOST,build-cdn.liftoff.io,AdBlock
@@ -13926,7 +13923,6 @@ HOST,api.oneaudience.com,AdBlock
 HOST,static.onecms.io,AdBlock
 # [onecount.net]
 HOST,validate.onecount.net,AdBlock
-# [onedrive.com]
 # [onefeed.co.uk]
 HOST,tracking.onefeed.co.uk,AdBlock
 # [onelink.me]
@@ -17346,6 +17342,8 @@ HOST,share.yandex.ru,AdBlock
 # [yandexadexchange.net]
 HOST,yandexadexchange.net,AdBlock
 HOST,mobile.yandexadexchange.net,AdBlock
+# [yanosik.pl]
+HOST,mobi.yanosik.pl,AdBlock
 # [yemonisoni.com]
 HOST,yemonisoni.com,AdBlock
 # [yeshen.com]

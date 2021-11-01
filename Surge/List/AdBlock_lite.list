@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-10-25 01:38:09
+# AdBlock rules refresh time: 2021-11-01 01:37:25
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -866,7 +866,6 @@ DOMAIN-SUFFIX,gma1.com
 DOMAIN-SUFFIX,gnmbd.top
 DOMAIN,go.hangzhou.com.cn
 DOMAIN-SUFFIX,gongfanglong.cn
-DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlealiyun.cn
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,goolpter.com
@@ -2025,6 +2024,7 @@ DOMAIN-SUFFIX,ytybl.com
 DOMAIN-SUFFIX,yu0123456.com
 DOMAIN-SUFFIX,yueba94.com
 DOMAIN-SUFFIX,yueyetiyu.com
+DOMAIN-SUFFIX,yunanfuwuqi.com
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,livew.l.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -11327,7 +11327,6 @@ DOMAIN,iclickyou.com
 # [icloseli.com]
 DOMAIN,ads.icloseli.com
 DOMAIN,api.icloseli.com
-DOMAIN,esd.icloseli.com
 DOMAIN,relaycn.icloseli.com
 # [icloud.com]
 DOMAIN,metrics.icloud.com
@@ -12115,8 +12114,6 @@ DOMAIN,rp.liadm.com
 DOMAIN,rp4.liadm.com
 # [licdn.com]
 DOMAIN,snap.licdn.com
-# [licensebuttons.net]
-DOMAIN,licensebuttons.net
 # [liftoff.io]
 DOMAIN,adexp.liftoff.io
 DOMAIN,build-cdn.liftoff.io
@@ -13390,7 +13387,6 @@ DOMAIN,api.oneaudience.com
 DOMAIN,static.onecms.io
 # [onecount.net]
 DOMAIN,validate.onecount.net
-# [onedrive.com]
 # [onefeed.co.uk]
 DOMAIN,tracking.onefeed.co.uk
 # [onelink.me]
@@ -16640,6 +16636,8 @@ DOMAIN,share.yandex.ru
 # [yandexadexchange.net]
 DOMAIN,yandexadexchange.net
 DOMAIN,mobile.yandexadexchange.net
+# [yanosik.pl]
+DOMAIN,mobi.yanosik.pl
 # [yemonisoni.com]
 DOMAIN,yemonisoni.com
 # [yeshen.com]
