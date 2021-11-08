@@ -8528,53 +8528,6 @@ HOST,vaes.amazon-adsystem.com,AdBlock
 HOST,ws-eu.amazon-adsystem.com,AdBlock
 HOST,z-eu.amazon-adsystem.com,AdBlock
 HOST,z-na.amazon-adsystem.com,AdBlock
-# [amazon.ae]
-HOST,fls-eu.amazon.ae,AdBlock
-# [amazon.ca]
-HOST,fls-na.amazon.ca,AdBlock
-# [amazon.cn]
-HOST,fls-cn.amazon.cn,AdBlock
-# [amazon.co.jp]
-HOST,aan.amazon.co.jp,AdBlock
-HOST,advertising.amazon.co.jp,AdBlock
-HOST,fls-fe.amazon.co.jp,AdBlock
-# [amazon.co.uk]
-HOST,aan.amazon.co.uk,AdBlock
-HOST,advertising.amazon.co.uk,AdBlock
-HOST,fls-eu.amazon.co.uk,AdBlock
-# [amazon.com]
-HOST,aan.amazon.com,AdBlock
-HOST,aax-us-iad.amazon.com,AdBlock
-HOST,device-metrics-us.amazon.com,AdBlock
-HOST,device-metrics-us-2.amazon.com,AdBlock
-HOST,fls-eu.amazon.com,AdBlock
-HOST,fls-fe.amazon.com,AdBlock
-HOST,fls-na.amazon.com,AdBlock
-HOST,mads.amazon.com,AdBlock
-# [amazon.com.au]
-HOST,fls-fe.amazon.com.au,AdBlock
-# [amazon.com.br]
-HOST,fls-na.amazon.com.br,AdBlock
-# [amazon.com.mx]
-HOST,fls-na.amazon.com.mx,AdBlock
-# [amazon.de]
-HOST,fls-eu.amazon.de,AdBlock
-# [amazon.es]
-HOST,fls-eu.amazon.es,AdBlock
-# [amazon.fr]
-HOST,fls-eu.amazon.fr,AdBlock
-# [amazon.in]
-HOST,fls-eu.amazon.in,AdBlock
-# [amazon.it]
-HOST,fls-eu.amazon.it,AdBlock
-# [amazon.nl]
-HOST,fls-eu.amazon.nl,AdBlock
-# [amazon.sa]
-HOST,fls-eu.amazon.sa,AdBlock
-# [amazon.se]
-HOST,fls-eu.amazon.se,AdBlock
-# [amazon.sg]
-HOST,fls-fe.amazon.sg,AdBlock
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 HOST,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com,AdBlock
 # [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
@@ -10261,8 +10214,6 @@ HOST,d2cmedia.ca,AdBlock
 HOST,dable.io,AdBlock
 HOST,ad-hub.dable.io,AdBlock
 HOST,static.dable.io,AdBlock
-# [dartsearch.net]
-HOST,clickserve.dartsearch.net,AdBlock
 # [databerries.com]
 HOST,databerries.com,AdBlock
 # [databrain.com]

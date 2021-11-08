@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-11-01 01:37:25
+# AdBlock rules refresh time: 2021-11-08 01:34:30
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -8178,53 +8178,6 @@ DOMAIN,vaes.amazon-adsystem.com
 DOMAIN,ws-eu.amazon-adsystem.com
 DOMAIN,z-eu.amazon-adsystem.com
 DOMAIN,z-na.amazon-adsystem.com
-# [amazon.ae]
-DOMAIN,fls-eu.amazon.ae
-# [amazon.ca]
-DOMAIN,fls-na.amazon.ca
-# [amazon.cn]
-DOMAIN,fls-cn.amazon.cn
-# [amazon.co.jp]
-DOMAIN,aan.amazon.co.jp
-DOMAIN,advertising.amazon.co.jp
-DOMAIN,fls-fe.amazon.co.jp
-# [amazon.co.uk]
-DOMAIN,aan.amazon.co.uk
-DOMAIN,advertising.amazon.co.uk
-DOMAIN,fls-eu.amazon.co.uk
-# [amazon.com]
-DOMAIN,aan.amazon.com
-DOMAIN,aax-us-iad.amazon.com
-DOMAIN,device-metrics-us.amazon.com
-DOMAIN,device-metrics-us-2.amazon.com
-DOMAIN,fls-eu.amazon.com
-DOMAIN,fls-fe.amazon.com
-DOMAIN,fls-na.amazon.com
-DOMAIN,mads.amazon.com
-# [amazon.com.au]
-DOMAIN,fls-fe.amazon.com.au
-# [amazon.com.br]
-DOMAIN,fls-na.amazon.com.br
-# [amazon.com.mx]
-DOMAIN,fls-na.amazon.com.mx
-# [amazon.de]
-DOMAIN,fls-eu.amazon.de
-# [amazon.es]
-DOMAIN,fls-eu.amazon.es
-# [amazon.fr]
-DOMAIN,fls-eu.amazon.fr
-# [amazon.in]
-DOMAIN,fls-eu.amazon.in
-# [amazon.it]
-DOMAIN,fls-eu.amazon.it
-# [amazon.nl]
-DOMAIN,fls-eu.amazon.nl
-# [amazon.sa]
-DOMAIN,fls-eu.amazon.sa
-# [amazon.se]
-DOMAIN,fls-eu.amazon.se
-# [amazon.sg]
-DOMAIN,fls-fe.amazon.sg
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
 # [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
@@ -9874,7 +9827,6 @@ DOMAIN,d2cmedia.ca
 # [dable.io]
 DOMAIN,ad-hub.dable.io
 DOMAIN,static.dable.io
-# [dartsearch.net]
 # [databerries.com]
 DOMAIN,databerries.com
 # [databrain.com]

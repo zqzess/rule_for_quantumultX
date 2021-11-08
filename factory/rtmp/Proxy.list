@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-30 02:10:22
-# HOST: 19
-# HOST-SUFFIX: 34198
+# UPDATED: 2021-11-07 02:09:19
+# HOST: 20
+# HOST-SUFFIX: 34215
 # USER-AGENT: 11
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 34348
+# TOTAL: 34366
 HOST,api-p.videomarket.jp,Proxy
 HOST,apip.videomarket.jp,Proxy
 HOST,blizzard.nefficient.co.kr,Proxy
@@ -17,6 +17,7 @@ HOST,cisco.evergage.com,Proxy
 HOST,deutschewelle.h-cdn.com,Proxy
 HOST,deutschewelle.hcdn.com,Proxy
 HOST,elib.maruzen.co.jp,Proxy
+HOST,faronics.kayako.com,Proxy
 HOST,g.cn,Proxy
 HOST,hpstore.corpmerchandise.com,Proxy
 HOST,i.jeded.com,Proxy
@@ -7341,6 +7342,7 @@ HOST-SUFFIX,charticulator.com,Proxy
 HOST-SUFFIX,chartis,Proxy
 HOST-SUFFIX,chase,Proxy
 HOST-SUFFIX,chase.com,Proxy
+HOST-SUFFIX,chatango.com,Proxy
 HOST-SUFFIX,chaterbate.com,Proxy
 HOST-SUFFIX,chatnook.com,Proxy
 HOST-SUFFIX,chatr,Proxy
@@ -7828,6 +7830,7 @@ HOST-SUFFIX,cloudfare.com,Proxy
 HOST-SUFFIX,cloudfire.com,Proxy
 HOST-SUFFIX,cloudflare-dns.com,Proxy
 HOST-SUFFIX,cloudflare-ipfs.com,Proxy
+HOST-SUFFIX,cloudflare-quic.com,Proxy
 HOST-SUFFIX,cloudflare.com,Proxy
 HOST-SUFFIX,cloudflare.net,Proxy
 HOST-SUFFIX,cloudflareapps.com,Proxy
@@ -7837,6 +7840,7 @@ HOST-SUFFIX,cloudflaredns.com,Proxy
 HOST-SUFFIX,cloudflareinsights.com,Proxy
 HOST-SUFFIX,cloudflareipfs.com,Proxy
 HOST-SUFFIX,cloudflareok.com,Proxy
+HOST-SUFFIX,cloudflarequic.com,Proxy
 HOST-SUFFIX,cloudflareresolve.com,Proxy
 HOST-SUFFIX,cloudflaressl.com,Proxy
 HOST-SUFFIX,cloudflarestatus.com,Proxy
@@ -8922,6 +8926,9 @@ HOST-SUFFIX,deconversion.org,Proxy
 HOST-SUFFIX,dedelu.com,Proxy
 HOST-SUFFIX,deepcoin.vip,Proxy
 HOST-SUFFIX,deeper.com,Proxy
+HOST-SUFFIX,deepfreeze.com,Proxy
+HOST-SUFFIX,deepfreeze.net,Proxy
+HOST-SUFFIX,deepfreeze.tech,Proxy
 HOST-SUFFIX,deepl.com,Proxy
 HOST-SUFFIX,deepmind.com,Proxy
 HOST-SUFFIX,deepthroatfrenzy.com,Proxy
@@ -10738,6 +10745,7 @@ HOST-SUFFIX,expresswifi.com,Proxy
 HOST-SUFFIX,expxtv.com,Proxy
 HOST-SUFFIX,exrates.me,Proxy
 HOST-SUFFIX,ext-twitch.tv,Proxy
+HOST-SUFFIX,extensionworkshop.com,Proxy
 HOST-SUFFIX,extmatrix.com,Proxy
 HOST-SUFFIX,extra.voyantic.com,Proxy
 HOST-SUFFIX,extranet-logon-apac.sanofi.com,Proxy
@@ -11061,6 +11069,10 @@ HOST-SUFFIX,farfetchcontents.com,Proxy
 HOST-SUFFIX,farm.tanosecure.com.tw,Proxy
 HOST-SUFFIX,farmatotal.cl,Proxy
 HOST-SUFFIX,farmers,Proxy
+HOST-SUFFIX,faronics.com,Proxy
+HOST-SUFFIX,faronics.tech,Proxy
+HOST-SUFFIX,faronicslabs.com,Proxy
+HOST-SUFFIX,faronicswise.com,Proxy
 HOST-SUFFIX,farsipod101.com,Proxy
 HOST-SUFFIX,fartit.com,Proxy
 HOST-SUFFIX,farumradio.com,Proxy
@@ -15048,6 +15060,7 @@ HOST-SUFFIX,internepedia.tk,Proxy
 HOST-SUFFIX,internet.org,Proxy
 HOST-SUFFIX,internetarchive.org,Proxy
 HOST-SUFFIX,internetdefenseleague.org,Proxy
+HOST-SUFFIX,internetdownloadmanager.com,Proxy
 HOST-SUFFIX,internetexplorer.co,Proxy
 HOST-SUFFIX,internetexplorer.com,Proxy
 HOST-SUFFIX,internetfreedom.org,Proxy
@@ -15687,6 +15700,7 @@ HOST-SUFFIX,jesus-army.com,Proxy
 HOST-SUFFIX,jesusarmy.com,Proxy
 HOST-SUFFIX,jetbrains.com,Proxy
 HOST-SUFFIX,jetbrains.net,Proxy
+HOST-SUFFIX,jetbrains.team,Proxy
 HOST-SUFFIX,jetfuelapp.com,Proxy
 HOST-SUFFIX,jetfuelapps.com,Proxy
 HOST-SUFFIX,jetgames.cf,Proxy
@@ -22361,6 +22375,7 @@ HOST-SUFFIX,regionalwifi.net,Proxy
 HOST-SUFFIX,regiongold.com,Proxy
 HOST-SUFFIX,register.moex.gov.tw,Proxy
 HOST-SUFFIX,registerhulu.com,Proxy
+HOST-SUFFIX,registeridm.com,Proxy
 HOST-SUFFIX,rehabforum.org,Proxy
 HOST-SUFFIX,reimu.net,Proxy
 HOST-SUFFIX,reindeervpn.com,Proxy
@@ -25653,6 +25668,7 @@ HOST-SUFFIX,tomorrowland.com,Proxy
 HOST-SUFFIX,tomp2p.net,Proxy
 HOST-SUFFIX,tomshardware.com,Proxy
 HOST-SUFFIX,tonalla.com,Proxy
+HOST-SUFFIX,tonec.com,Proxy
 HOST-SUFFIX,tongil.or.kr,Proxy
 HOST-SUFFIX,tonni.cms4people.de,Proxy
 HOST-SUFFIX,tono-oka.jp,Proxy
@@ -33909,6 +33925,7 @@ HOST-SUFFIX,yzc91.com,Proxy
 HOST-SUFFIX,yzcbet.com,Proxy
 HOST-SUFFIX,yzys.tv,Proxy
 HOST-SUFFIX,yzzk.com,Proxy
+HOST-SUFFIX,z-lib.org,Proxy
 HOST-SUFFIX,z.com,Proxy
 HOST-SUFFIX,z2r7921695617528q7n48n6805r7594oqp11o0718.tf,Proxy
 HOST-SUFFIX,z3641.com,Proxy
@@ -34101,6 +34118,7 @@ HOST-SUFFIX,zkaip.com,Proxy
 HOST-SUFFIX,zkgsxf.com,Proxy
 HOST-SUFFIX,zkiz.com,Proxy
 HOST-SUFFIX,zl66.me,Proxy
+HOST-SUFFIX,zlib.org,Proxy
 HOST-SUFFIX,zm,Proxy
 HOST-SUFFIX,zmw.cn,Proxy
 HOST-SUFFIX,zndsk.com,Proxy
