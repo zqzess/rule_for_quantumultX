@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-07 02:09:19
+# UPDATED: 2021-11-09 02:09:48
 # HOST: 20
-# HOST-SUFFIX: 34215
+# HOST-SUFFIX: 34216
 # USER-AGENT: 11
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 34366
+# TOTAL: 34367
 HOST,api-p.videomarket.jp,Proxy
 HOST,apip.videomarket.jp,Proxy
 HOST,blizzard.nefficient.co.kr,Proxy
@@ -12885,6 +12885,7 @@ HOST-SUFFIX,goge.ml,Proxy
 HOST-SUFFIX,gogle.com,Proxy
 HOST-SUFFIX,gogo-load.com,Proxy
 HOST-SUFFIX,gogo2sex.com,Proxy
+HOST-SUFFIX,gogoanime.wiki,Proxy
 HOST-SUFFIX,gogocdn.net,Proxy
 HOST-SUFFIX,gogole.com,Proxy
 HOST-SUFFIX,gogoload.com,Proxy

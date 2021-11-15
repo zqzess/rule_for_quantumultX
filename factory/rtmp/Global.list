@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-07 02:09:20
+# UPDATED: 2021-11-11 02:08:59
 # HOST: 20
-# HOST-SUFFIX: 33965
+# HOST-SUFFIX: 33970
 # USER-AGENT: 48
 # HOST-KEYWORD: 41
 # IP-CIDR: 129
 # IP6-CIDR: 4
-# TOTAL: 34207
+# TOTAL: 34212
 HOST,api-p.videomarket.jp,Global
 HOST,apip.videomarket.jp,Global
 HOST,blizzard.nefficient.co.kr,Global
@@ -5422,6 +5422,7 @@ HOST-SUFFIX,binance.cc,Global
 HOST-SUFFIX,binance.charity,Global
 HOST-SUFFIX,binance.cloud,Global
 HOST-SUFFIX,binance.com,Global
+HOST-SUFFIX,binance.us,Global
 HOST-SUFFIX,binance.vision,Global
 HOST-SUFFIX,binancecn.com,Global
 HOST-SUFFIX,binancezh.com,Global
@@ -7988,6 +7989,7 @@ HOST-SUFFIX,coin2co.in,Global
 HOST-SUFFIX,coinbase.com,Global
 HOST-SUFFIX,coinbaxa.com,Global
 HOST-SUFFIX,coinbene.com,Global
+HOST-SUFFIX,coincheck.com,Global
 HOST-SUFFIX,coincola.com,Global
 HOST-SUFFIX,coinegg.com,Global
 HOST-SUFFIX,coinex.com,Global
@@ -7995,6 +7997,7 @@ HOST-SUFFIX,coinf.com.mx,Global
 HOST-SUFFIX,coingecko.com,Global
 HOST-SUFFIX,coingi.com,Global
 HOST-SUFFIX,coinmarketcap.com,Global
+HOST-SUFFIX,coinone.co.kr,Global
 HOST-SUFFIX,coinonecore.com,Global
 HOST-SUFFIX,coinonecorp.com,Global
 HOST-SUFFIX,coinrail.co.kr,Global
@@ -12467,6 +12470,7 @@ HOST-SUFFIX,gekikame.com,Global
 HOST-SUFFIX,gelbooru.com,Global
 HOST-SUFFIX,gemfire.net,Global
 HOST-SUFFIX,gemfury.com,Global
+HOST-SUFFIX,gemini.com,Global
 HOST-SUFFIX,gen.lib.rus.ec,Global
 HOST-SUFFIX,genashtim.com,Global
 HOST-SUFFIX,gendai.net,Global
@@ -12827,6 +12831,7 @@ HOST-SUFFIX,goge.ml,Global
 HOST-SUFFIX,gogle.com,Global
 HOST-SUFFIX,gogo-load.com,Global
 HOST-SUFFIX,gogo2sex.com,Global
+HOST-SUFFIX,gogoanime.wiki,Global
 HOST-SUFFIX,gogocdn.net,Global
 HOST-SUFFIX,gogole.com,Global
 HOST-SUFFIX,gogoload.com,Global
@@ -16219,6 +16224,7 @@ HOST-SUFFIX,kopfhorergunstigshop.com,Global
 HOST-SUFFIX,kopp-verlag.de,Global
 HOST-SUFFIX,koppverlag.de,Global
 HOST-SUFFIX,koranmandarin.com,Global
+HOST-SUFFIX,korbit.co.kr,Global
 HOST-SUFFIX,koreanfriendfinder.com,Global
 HOST-SUFFIX,korenan2.com,Global
 HOST-SUFFIX,korvenmaa.net,Global
@@ -30691,7 +30697,6 @@ HOST-SUFFIX,www.kobe-np.co.jp,Global
 HOST-SUFFIX,www.kobenp.co.jp,Global
 HOST-SUFFIX,www.kollect.com.tw,Global
 HOST-SUFFIX,www.koraspeak.com,Global
-HOST-SUFFIX,www.korbit.co.kr,Global
 HOST-SUFFIX,www.kore.com,Global
 HOST-SUFFIX,www.koreapas.com,Global
 HOST-SUFFIX,www.koryu.or.jp,Global

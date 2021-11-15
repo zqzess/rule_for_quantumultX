@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-11-08 01:34:30
+# AdBlock rules refresh time: 2021-11-15 01:34:33
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -7188,7 +7188,6 @@ DOMAIN,adformdsp.net
 # [adfox.net]
 DOMAIN,banners.adfox.net
 # [adfox.ru]
-DOMAIN,adfox.ru
 DOMAIN,ads.adfox.ru
 DOMAIN,banners.adfox.ru
 # [adfurikun.jp]
@@ -7274,25 +7273,8 @@ DOMAIN,fraud.adjoe.zone
 DOMAIN,prod.fraud.adjoe.zone
 DOMAIN,prod.adjoe.zone
 # [adjust.com]
-DOMAIN,adjust.com
-DOMAIN,app.adjust.com
 DOMAIN,s2s.adjust.com
 DOMAIN,ulink.adjust.com
-DOMAIN,39810146b3f05dad26eec7ad4727361a.ulink.adjust.com
-DOMAIN,53ac365e91086e608ae1345e075105e3.ulink.adjust.com
-DOMAIN,658473abd74bd979afcfe472c595ce93.ulink.adjust.com
-DOMAIN,a2c57fd7998a2d67d16e7bda91c7fd06.ulink.adjust.com
-DOMAIN,a94828c6a08d914296a1d178d1de5102.ulink.adjust.com
-DOMAIN,ac7aa69d96b75a55c5e0fe8035f45bce.ulink.adjust.com
-DOMAIN,e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com
-DOMAIN,view.adjust.com
-# [adjust.io]
-DOMAIN,adjust.io
-DOMAIN,app.adjust.io
-# [adjust.net.in]
-DOMAIN,app.adjust.net.in
-# [adjust.world]
-DOMAIN,app.adjust.world
 # [adkernel.com]
 DOMAIN,dsp-uswest.adkernel.com
 DOMAIN,static-rtb.adkernel.com
@@ -7682,40 +7664,6 @@ DOMAIN,adstune.com
 # [adsunflower.com]
 DOMAIN,folder.adsunflower.com
 DOMAIN,rebootv5.adsunflower.com
-# [adswizz.com]
-DOMAIN,adswizz.com
-DOMAIN,cdn.adswizz.com
-DOMAIN,cdn1-creatives.adswizz.com
-DOMAIN,delivery-cdn-cf.adswizz.com
-DOMAIN,deliveryengine.adswizz.com
-DOMAIN,accuradio.deliveryengine.adswizz.com
-DOMAIN,clearchannel.deliveryengine.adswizz.com
-DOMAIN,cox.deliveryengine.adswizz.com
-DOMAIN,deezer.deliveryengine.adswizz.com
-DOMAIN,di.deliveryengine.adswizz.com
-DOMAIN,ec2eu-de-1.deliveryengine.adswizz.com
-DOMAIN,ec2eu-de-1-vpc-20170223.deliveryengine.adswizz.com
-DOMAIN,ec2eu-de-2.deliveryengine.adswizz.com
-DOMAIN,npr.deliveryengine.adswizz.com
-DOMAIN,radioactive.deliveryengine.adswizz.com
-DOMAIN,reporting.deliveryengine.adswizz.com
-DOMAIN,streamguys.deliveryengine.adswizz.com
-DOMAIN,synchroscript.deliveryengine.adswizz.com
-DOMAIN,tunein.deliveryengine.adswizz.com
-DOMAIN,ec2eu.adswizz.com
-DOMAIN,pixelg.ec2eu.adswizz.com
-DOMAIN,synchrobox.ec2eu.adswizz.com
-DOMAIN,pixel.adswizz.com
-DOMAIN,pixelg.adswizz.com
-DOMAIN,randi.adswizz.com
-DOMAIN,pixelb.randi.adswizz.com
-DOMAIN,secondscreenindexer.adswizz.com
-DOMAIN,sonar.adswizz.com
-DOMAIN,streaming.adswizz.com
-DOMAIN,sdk.streaming.adswizz.com
-DOMAIN,synchrobox.adswizz.com
-DOMAIN,tunein.adswizz.com
-DOMAIN,zc.adswizz.com
 # [adsymptotic.com]
 DOMAIN,pinterest.adsymptotic.com
 DOMAIN,pixel-useast.adsymptotic.com
@@ -8313,7 +8261,6 @@ DOMAIN,amobee.com
 # [ampiri.com]
 DOMAIN,signals.ampiri.com
 # [amplitude.com]
-DOMAIN,analytics.amplitude.com
 DOMAIN,api.amplitude.com
 DOMAIN,api2.amplitude.com
 DOMAIN,cdn.amplitude.com
@@ -8623,17 +8570,6 @@ DOMAIN,appdiscovery.apptap.com
 DOMAIN,api.apptentive.com
 DOMAIN,app-icons.apptentive.com
 DOMAIN,sdk.apptentive.com
-# [apptimize.com]
-DOMAIN,brahe.apptimize.com
-DOMAIN,gcp-prod-md.apptimize.com
-DOMAIN,mapi.apptimize.com
-DOMAIN,md-a-c.apptimize.com
-DOMAIN,md-a-s.apptimize.com
-DOMAIN,md-hl.apptimize.com
-DOMAIN,md-i-c.apptimize.com
-DOMAIN,md-i-s.apptimize.com
-DOMAIN,md-ll.apptimize.com
-DOMAIN,tycho.apptimize.com
 # [apptornado.com]
 DOMAIN,apptornado.com
 DOMAIN,applift-a.apptornado.com
@@ -8736,8 +8672,6 @@ DOMAIN,eu.y.atwola.com
 DOMAIN,us.y.atwola.com
 # [audioeye.com]
 DOMAIN,ws.audioeye.com
-# [auditude.com]
-DOMAIN,auditude.com
 # [augur.io]
 DOMAIN,augur.io
 # [autoads.asia]
@@ -8895,8 +8829,6 @@ DOMAIN,bidsopt.com
 DOMAIN,gce-or.bidswitch.net
 DOMAIN,grid.bidswitch.net
 DOMAIN,sandbox.bidswitch.net
-# [bing.com]
-DOMAIN,bat.bing.com
 # [bitmango.com]
 DOMAIN,a.bitmango.com
 DOMAIN,api.bitmango.com
@@ -8976,8 +8908,6 @@ DOMAIN,blueserving.com
 DOMAIN,em.bm23.com
 DOMAIN,hosting-source.bm23.com
 DOMAIN,incoming.bm23.com
-# [bnc.lt]
-DOMAIN,bnc.lt
 # [bnmla.com]
 DOMAIN,bnmla.com
 # [bokecc.com]
@@ -9547,21 +9477,6 @@ DOMAIN,contineljs.com
 DOMAIN,cdn-3.convertexperiments.com
 # [conviva.com]
 DOMAIN,conviva.com
-DOMAIN,cws.conviva.com
-DOMAIN,133446f3fa16c4a2f02e9f45a1d9d640705b7b62.cws.conviva.com
-DOMAIN,268a2000018370f5f35b29272d1942aa2ff7b6a9.cws.conviva.com
-DOMAIN,28bbf0a3decf6d1165032bfd835d6e1844c5d44d.cws.conviva.com
-DOMAIN,47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com
-DOMAIN,4ae1981d8d1a370d08bf3d24f50f5baf47ef1b62.cws.conviva.com
-DOMAIN,7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com
-DOMAIN,87a6b28bc7823e67a5bb2a0a6728c702afcae78d.cws.conviva.com
-DOMAIN,a1521dca917ff0e871c935c9253afc0626587b2d.cws.conviva.com
-DOMAIN,a6709203f34992a5095d2bc7ceaf2ec504f651a8.cws.conviva.com
-DOMAIN,ad16a8c8b860d62e9d55b11a66f20c9e32f3e887.cws.conviva.com
-DOMAIN,d14bd151e5e8a2a2551514106f790db76ce3fa35.cws.conviva.com
-DOMAIN,e12872de91aaca7a39095801bdf5f168d87912fa.cws.conviva.com
-DOMAIN,fc8dbfdc5da519f576628f619306a357f31bd006.cws.conviva.com
-DOMAIN,ff84ae928c3b33064b76dec08f12500465e59a6f.cws.conviva.com
 DOMAIN,cws-eu.conviva.com
 DOMAIN,cws-hulu.conviva.com
 DOMAIN,cws-iad1.conviva.com
@@ -10026,176 +9941,6 @@ DOMAIN,magnetic.t.domdex.com
 DOMAIN,collector.doordash.com
 # [dotmetrics.net]
 DOMAIN,uk-script.dotmetrics.net
-# [dotomi.com]
-DOMAIN,dotomi.com
-DOMAIN,33across-match.dotomi.com
-DOMAIN,adobe-sync.dotomi.com
-DOMAIN,ads.dotomi.com
-DOMAIN,afp.dotomi.com
-DOMAIN,amazon-tam-match.dotomi.com
-DOMAIN,ams-usadmm.dotomi.com
-DOMAIN,ams01-convex.dotomi.com
-DOMAIN,ams01-login.dotomi.com
-DOMAIN,ams01-login-ds.dotomi.com
-DOMAIN,ams01-usadmm.dotomi.com
-DOMAIN,ams01-usadmm-ds.dotomi.com
-DOMAIN,ams02-convex.dotomi.com
-DOMAIN,ams02-login.dotomi.com
-DOMAIN,ams02-login-ds.dotomi.com
-DOMAIN,ams02-usadmm.dotomi.com
-DOMAIN,ams02-usadmm-ds.dotomi.com
-DOMAIN,ams03-convex.dotomi.com
-DOMAIN,ams03-login-ds.dotomi.com
-DOMAIN,ams03-usadmm-ds.dotomi.com
-DOMAIN,aol-match.dotomi.com
-DOMAIN,apnx-match.dotomi.com
-DOMAIN,bluekai-sync.dotomi.com
-DOMAIN,casale-match.dotomi.com
-DOMAIN,cj.dotomi.com
-DOMAIN,font.cj.dotomi.com
-DOMAIN,cpe.dotomi.com
-DOMAIN,ad.cpe.dotomi.com
-DOMAIN,direct.ad.cpe.dotomi.com
-DOMAIN,event.ad.cpe.dotomi.com
-DOMAIN,hb.ad.cpe.dotomi.com
-DOMAIN,web.hb.ad.cpe.dotomi.com
-DOMAIN,proc.ad.cpe.dotomi.com
-DOMAIN,sync.ad.cpe.dotomi.com
-DOMAIN,cookie.sync.ad.cpe.dotomi.com
-DOMAIN,match.sync.ad.cpe.dotomi.com
-DOMAIN,dclk-match.dotomi.com
-DOMAIN,districtm-match.dotomi.com
-DOMAIN,dp-sync.dotomi.com
-DOMAIN,ds-sync.dotomi.com
-DOMAIN,eyeota-match.dotomi.com
-DOMAIN,iad-usadmm.dotomi.com
-DOMAIN,iad-usadmm-ds.dotomi.com
-DOMAIN,iad01-convex.dotomi.com
-DOMAIN,iad01-login.dotomi.com
-DOMAIN,iad01-login-ds.dotomi.com
-DOMAIN,iad01-usadmm.dotomi.com
-DOMAIN,iad01-usadmm-ds.dotomi.com
-DOMAIN,iad02-convex.dotomi.com
-DOMAIN,iad02-login.dotomi.com
-DOMAIN,iad02-login-ds.dotomi.com
-DOMAIN,iad02-usadmm.dotomi.com
-DOMAIN,iad02-usadmm-ds.dotomi.com
-DOMAIN,iad03-convex.dotomi.com
-DOMAIN,iad03-login.dotomi.com
-DOMAIN,iad03-login-ds.dotomi.com
-DOMAIN,iad03-usadmm.dotomi.com
-DOMAIN,iad03-usadmm-ds.dotomi.com
-DOMAIN,iad04-convex.dotomi.com
-DOMAIN,iad04-login.dotomi.com
-DOMAIN,iad04-login-ds.dotomi.com
-DOMAIN,iad04-usadmm.dotomi.com
-DOMAIN,iad04-usadmm-ds.dotomi.com
-DOMAIN,iad05-convex.dotomi.com
-DOMAIN,iad05-login.dotomi.com
-DOMAIN,iad05-login-ds.dotomi.com
-DOMAIN,iad05-usadmm.dotomi.com
-DOMAIN,iad05-usadmm-ds.dotomi.com
-DOMAIN,iad06-convex.dotomi.com
-DOMAIN,iad06-login.dotomi.com
-DOMAIN,iad06-login-ds.dotomi.com
-DOMAIN,iad06-usadmm.dotomi.com
-DOMAIN,iad06-usadmm-ds.dotomi.com
-DOMAIN,iad07-convex.dotomi.com
-DOMAIN,iad07-login.dotomi.com
-DOMAIN,iad07-login-ds.dotomi.com
-DOMAIN,iad07-usadmm.dotomi.com
-DOMAIN,iad07-usadmm-ds.dotomi.com
-DOMAIN,iad08-convex.dotomi.com
-DOMAIN,iad08-login.dotomi.com
-DOMAIN,iad08-usadmm.dotomi.com
-DOMAIN,iad08-usadmm-ds.dotomi.com
-DOMAIN,iad09-convex.dotomi.com
-DOMAIN,iad09-login.dotomi.com
-DOMAIN,iad09-login-ds.dotomi.com
-DOMAIN,iad09-usadmm.dotomi.com
-DOMAIN,iad09-usadmm-ds.dotomi.com
-DOMAIN,iad10-convex.dotomi.com
-DOMAIN,iad10-login.dotomi.com
-DOMAIN,iad10-login-ds.dotomi.com
-DOMAIN,iad10-usadmm.dotomi.com
-DOMAIN,iad10-usadmm-ds.dotomi.com
-DOMAIN,iad11-convex.dotomi.com
-DOMAIN,iad11-login.dotomi.com
-DOMAIN,iad11-login-ds.dotomi.com
-DOMAIN,iad11-usadmm.dotomi.com
-DOMAIN,iad11-usadmm-ds.dotomi.com
-DOMAIN,iad12-convex.dotomi.com
-DOMAIN,iad12-login.dotomi.com
-DOMAIN,iad12-login-ds.dotomi.com
-DOMAIN,iad12-usadmm.dotomi.com
-DOMAIN,iad12-usadmm-ds.dotomi.com
-DOMAIN,iad13-convex.dotomi.com
-DOMAIN,iad13-usadmm.dotomi.com
-DOMAIN,iad13-usadmm-ds.dotomi.com
-DOMAIN,kargo-match.dotomi.com
-DOMAIN,login.dotomi.com
-DOMAIN,login-ds.dotomi.com
-DOMAIN,medianet-match.dotomi.com
-DOMAIN,mediaplex-match.dotomi.com
-DOMAIN,msg.dotomi.com
-DOMAIN,media.msg.dotomi.com
-DOMAIN,secure-media.msg.dotomi.com
-DOMAIN,openx2-match.dotomi.com
-DOMAIN,prebid-match.dotomi.com
-DOMAIN,pubmatic-match.dotomi.com
-DOMAIN,pulsepoint-match.dotomi.com
-DOMAIN,purch-match.dotomi.com
-DOMAIN,rubicon-match.dotomi.com
-DOMAIN,s-usweb.dotomi.com
-DOMAIN,sjc-usadmm.dotomi.com
-DOMAIN,sjc-usadmm-ds.dotomi.com
-DOMAIN,sjc01-convex.dotomi.com
-DOMAIN,sjc01-login.dotomi.com
-DOMAIN,sjc01-login-ds.dotomi.com
-DOMAIN,sjc01-usadmm.dotomi.com
-DOMAIN,sjc01-usadmm-ds.dotomi.com
-DOMAIN,sjc02-convex.dotomi.com
-DOMAIN,sjc02-login.dotomi.com
-DOMAIN,sjc02-login-ds.dotomi.com
-DOMAIN,sjc02-usadmm.dotomi.com
-DOMAIN,sjc02-usadmm-ds.dotomi.com
-DOMAIN,sjc03-convex.dotomi.com
-DOMAIN,sjc03-login.dotomi.com
-DOMAIN,sjc03-login-ds.dotomi.com
-DOMAIN,sjc03-usadmm.dotomi.com
-DOMAIN,sjc03-usadmm-ds.dotomi.com
-DOMAIN,sjc04-convex.dotomi.com
-DOMAIN,sjc04-login.dotomi.com
-DOMAIN,sjc04-login-ds.dotomi.com
-DOMAIN,sjc04-usadmm.dotomi.com
-DOMAIN,sjc04-usadmm-ds.dotomi.com
-DOMAIN,sjc05-convex.dotomi.com
-DOMAIN,sjc05-login.dotomi.com
-DOMAIN,sjc05-login-ds.dotomi.com
-DOMAIN,sjc05-usadmm.dotomi.com
-DOMAIN,sjc05-usadmm-ds.dotomi.com
-DOMAIN,sjc06-convex.dotomi.com
-DOMAIN,sjc06-login.dotomi.com
-DOMAIN,sjc06-login-ds.dotomi.com
-DOMAIN,sjc06-usadmm.dotomi.com
-DOMAIN,sjc06-usadmm-ds.dotomi.com
-DOMAIN,sjc07-convex.dotomi.com
-DOMAIN,sjc07-login.dotomi.com
-DOMAIN,sjc07-login-ds.dotomi.com
-DOMAIN,sjc07-usadmm.dotomi.com
-DOMAIN,sjc07-usadmm-ds.dotomi.com
-DOMAIN,smaato-match.dotomi.com
-DOMAIN,sortable-match.dotomi.com
-DOMAIN,spotx-match.dotomi.com
-DOMAIN,stx-match.dotomi.com
-DOMAIN,synacor-match.dotomi.com
-DOMAIN,tpt.dotomi.com
-DOMAIN,tremor-match.dotomi.com
-DOMAIN,triplelift-match.dotomi.com
-DOMAIN,tubemogul-sync.dotomi.com
-DOMAIN,usadmm.dotomi.com
-DOMAIN,usadmm-ds.dotomi.com
-DOMAIN,usweb.dotomi.com
 # [doubleclick.net]
 DOMAIN,accounts.doubleclick.net
 DOMAIN,ad-emea.doubleclick.net
@@ -10307,7 +10052,6 @@ DOMAIN,u.dxsvr.com
 # [dynad.net]
 DOMAIN,metrics.dynad.net
 # [dynamicyield.com]
-DOMAIN,dynamicyield.com
 DOMAIN,async-px.dynamicyield.com
 DOMAIN,async-px-eu.dynamicyield.com
 DOMAIN,cdn.dynamicyield.com
@@ -10427,9 +10171,6 @@ DOMAIN,stats.mediaforge.com.edgekey.net
 DOMAIN,moatads.com.edgekey.net
 DOMAIN,wildcard.moatads.com.edgekey.net
 DOMAIN,mookie1.com.edgekey.net
-DOMAIN,optimizely.com.edgekey.net
-DOMAIN,cdn.optimizely.com.edgekey.net
-DOMAIN,wildcard.cdn.optimizely.com.edgekey.net
 DOMAIN,outbrain.com.edgekey.net
 DOMAIN,wildcard.outbrain.com.edgekey.net
 DOMAIN,outbrainimg.com.edgekey.net
@@ -10437,8 +10178,6 @@ DOMAIN,wildcard.outbrainimg.com.edgekey.net
 DOMAIN,rubiconproject.com.edgekey.net
 DOMAIN,digicertwc.rubiconproject.com.edgekey.net
 DOMAIN,eus.rubiconproject.com.edgekey.net
-DOMAIN,scorecardresearch.com.edgekey.net
-DOMAIN,beacon.scorecardresearch.com.edgekey.net
 DOMAIN,serving-sys.com.edgekey.net
 DOMAIN,secure-ds.serving-sys.com.edgekey.net
 DOMAIN,sgsnssdk.com.edgekey.net
@@ -10620,33 +10359,6 @@ DOMAIN,l3.evidon.com
 DOMAIN,cdn-channels-pixel.ex.co
 # [exactag.com]
 DOMAIN,tp-emea.exactag.com
-# [exacttarget.com]
-DOMAIN,inbox.exacttarget.com
-DOMAIN,pixel.inbox.exacttarget.com
-DOMAIN,mc.exacttarget.com
-DOMAIN,mta.exacttarget.com
-DOMAIN,s1.exacttarget.com
-DOMAIN,pub.s1.exacttarget.com
-DOMAIN,s10.exacttarget.com
-DOMAIN,image.s10.exacttarget.com
-DOMAIN,mc.s10.exacttarget.com
-DOMAIN,pub.s10.exacttarget.com
-DOMAIN,virt.s10.exacttarget.com
-DOMAIN,click.virt.s10.exacttarget.com
-DOMAIN,s11.exacttarget.com
-DOMAIN,s4.exacttarget.com
-DOMAIN,pub.s4.exacttarget.com
-DOMAIN,s6.exacttarget.com
-DOMAIN,pub.s6.exacttarget.com
-DOMAIN,virt.s6.exacttarget.com
-DOMAIN,click.virt.s6.exacttarget.com
-DOMAIN,s7.exacttarget.com
-DOMAIN,image.s7.exacttarget.com
-DOMAIN,mc.s7.exacttarget.com
-DOMAIN,pub.s7.exacttarget.com
-DOMAIN,virt.s7.exacttarget.com
-DOMAIN,click.virt.s7.exacttarget.com
-DOMAIN,virt.exacttarget.com
 # [exacttargetapis.com]
 DOMAIN,exacttargetapis.com
 DOMAIN,consumer.exacttargetapis.com
@@ -10833,7 +10545,6 @@ DOMAIN,cdn.fqtag.com
 DOMAIN,new.fqtag.com
 DOMAIN,query.fqtag.com
 DOMAIN,s.fqtag.com
-# [freegeoip.net]
 # [ftstats.com]
 DOMAIN,c.ftstats.com
 # [funheroic.com]
@@ -10845,7 +10556,6 @@ DOMAIN,pokkt.fuse-ad.com
 # [fusetracking.com]
 DOMAIN,leanmobi.fusetracking.com
 # [fwmrm.net]
-DOMAIN,fwmrm.net
 DOMAIN,adm.fwmrm.net
 DOMAIN,ads.aws.fwmrm.net
 DOMAIN,prd.ads.aws.fwmrm.net
@@ -11027,33 +10737,10 @@ DOMAIN,log1.golfrival.net
 DOMAIN,owb101.goo.ne.jp
 # [gooddata.com]
 DOMAIN,secure.gooddata.com
-# [google-analytics.com]
 # [google.com]
-DOMAIN,ampcid.google.com
-DOMAIN,fundingchoices.google.com
 DOMAIN,crashlytics2.l.google.com
-DOMAIN,pagead-googlehosted.l.google.com
 DOMAIN,s0-2mdn-net.l.google.com
-# [google.com.tr]
-DOMAIN,adservice.google.com.tr
-# [google.com.ua]
-DOMAIN,adservice.google.com.ua
-# [google.com.vn]
-DOMAIN,adservice.google.com.vn
-# [google.de]
-DOMAIN,adservice.google.de
-# [google.ie]
-DOMAIN,adservice.google.ie
-# [google.nl]
-DOMAIN,adservice.google.nl
-# [googleadservices.com]
-DOMAIN,googleadservices.com
-DOMAIN,pagead2.googleadservices.com
 # [googleadsserving.cn]
-# [androidtvwatsonfe-pa.googleapis.com]
-DOMAIN,androidtvwatsonfe-pa.googleapis.com
-# [googlesyndication.com]
-DOMAIN,buttons.googlesyndication.com
 # [googleusercontent.com]
 DOMAIN,displayads-formats.googleusercontent.com
 # [gop1.co]
@@ -11902,29 +11589,8 @@ DOMAIN,consumer.krxd.net
 DOMAIN,jslog.krxd.net
 DOMAIN,link.krxd.net
 DOMAIN,wpp.krxd.net
-# [kryptosmobile.com]
-DOMAIN,kryptosda.kryptosmobile.com
-# [ksapisrv.com]
-DOMAIN,apissl.ksapisrv.com
-DOMAIN,gdfp.ksapisrv.com
-DOMAIN,live.ksapisrv.com
-DOMAIN,push.ksapisrv.com
-DOMAIN,ulog.ksapisrv.com
-DOMAIN,upload.ksapisrv.com
 # [kshwtj.com]
 DOMAIN,andmlb.kshwtj.com
-# [ksmobile.com]
-DOMAIN,beha.ksmobile.com
-DOMAIN,cb.ksmobile.com
-DOMAIN,cmdts.ksmobile.com
-DOMAIN,cfg.cml.ksmobile.com
-DOMAIN,gcm.ksmobile.com
-# [ksmobile.net]
-DOMAIN,batsavcdn.ksmobile.net
-DOMAIN,behacdn.ksmobile.net
-DOMAIN,p-behacdn.ksmobile.net
-DOMAIN,ups.ksmobile.net
-DOMAIN,ws.ksmobile.net
 # [kt.com]
 DOMAIN,freesam.kt.com
 DOMAIN,ilb.pns.kt.com
@@ -12128,9 +11794,6 @@ DOMAIN,parameter.lionmobi.com
 DOMAIN,updater.lionmobi.com
 # [listhub.net]
 DOMAIN,tracking.listhub.net
-# [litix.io]
-DOMAIN,litix.io
-DOMAIN,18lus0524edvcif1pa0hruc0e.litix.io
 # [live-video.net]
 DOMAIN,player.stats.live-video.net
 # [liveperson.net]
@@ -12248,10 +11911,6 @@ DOMAIN,c.lytics.io
 DOMAIN,m1-shop.ru
 # [m2appmonitor.com]
 DOMAIN,ingest.m2appmonitor.com
-# [macromill.com]
-DOMAIN,macromill.com
-# [macys.net]
-DOMAIN,metrics.macys.net
 # [madadsmedia.com]
 DOMAIN,madadsmedia.com
 # [madkudu.com]
@@ -13211,8 +12870,6 @@ DOMAIN,ccpa.psg.nexstardigital.net
 DOMAIN,segment.psg.nexstardigital.net
 # [nextclick.pl]
 DOMAIN,nextclick.pl
-# [ngtv.io]
-DOMAIN,geo.ngtv.io
 # [nicovideo.jp]
 DOMAIN,ads.nicovideo.jp
 # [nielsen.com]
@@ -13310,7 +12967,6 @@ DOMAIN,sc5.omniture.com
 # [omnivirt.com]
 DOMAIN,upload.omnivirt.com
 # [omtrdc.net]
-DOMAIN,omtrdc.net
 DOMAIN,espn.hb.omtrdc.net
 DOMAIN,foxnews.hb.omtrdc.net
 DOMAIN,gannett.hb.omtrdc.net
@@ -13342,7 +12998,6 @@ DOMAIN,validate.onecount.net
 # [onefeed.co.uk]
 DOMAIN,tracking.onefeed.co.uk
 # [onelink.me]
-DOMAIN,onelink.me
 DOMAIN,snssdk1233.onelink.me
 # [onelnk.com]
 DOMAIN,onelnk.com
@@ -13391,282 +13046,6 @@ DOMAIN,log.opentracker.net
 # [openx.com]
 DOMAIN,update.openx.com
 DOMAIN,s.update.openx.com
-# [openx.net]
-DOMAIN,33across-d.openx.net
-DOMAIN,accuradio-d.openx.net
-DOMAIN,adasia-d.openx.net
-DOMAIN,addkt-d.openx.net
-DOMAIN,adinplay-d.openx.net
-DOMAIN,adnimation-d.openx.net
-DOMAIN,adnimation1-d.openx.net
-DOMAIN,adnimation2-d.openx.net
-DOMAIN,adomega-d.openx.net
-DOMAIN,adopkorea-d.openx.net
-DOMAIN,adpone-d.openx.net
-DOMAIN,adpushup-d.openx.net
-DOMAIN,adtelligent-d.openx.net
-DOMAIN,amu-d.openx.net
-DOMAIN,aniview-d.openx.net
-DOMAIN,answers-d.openx.net
-DOMAIN,anyclip-d.openx.net
-DOMAIN,aol-bidout-d.openx.net
-DOMAIN,apacdigital-d.openx.net
-DOMAIN,apester-d.openx.net
-DOMAIN,arkadium-d.openx.net
-DOMAIN,ascendeum-d.openx.net
-DOMAIN,ask-d.openx.net
-DOMAIN,ask-media-group-d.openx.net
-DOMAIN,askfm-usd-d.openx.net
-DOMAIN,associatedpress-d.openx.net
-DOMAIN,automatad-d.openx.net
-DOMAIN,axel-springer-d.openx.net
-DOMAIN,bcm-d.openx.net
-DOMAIN,bizjournals-d.openx.net
-DOMAIN,bloggernetwork-d.openx.net
-DOMAIN,boldwin-d.openx.net
-DOMAIN,boredpanda-d.openx.net
-DOMAIN,boston-d.openx.net
-DOMAIN,brainyquote-d.openx.net
-DOMAIN,brandigic-d.openx.net
-DOMAIN,brightcom-d.openx.net
-DOMAIN,business-insider-d.openx.net
-DOMAIN,buysellads-d.openx.net
-DOMAIN,cafemedia-d.openx.net
-DOMAIN,carambola-d.openx.net
-DOMAIN,cbsi-d.openx.net
-DOMAIN,coed-d.openx.net
-DOMAIN,comcast-d.openx.net
-DOMAIN,concourse-d.openx.net
-DOMAIN,condenastus-d.openx.net
-DOMAIN,connatix-d.openx.net
-DOMAIN,cordlessmedia-d.openx.net
-DOMAIN,coxauto-d.openx.net
-DOMAIN,coxmediagroup-d.openx.net
-DOMAIN,cpmstar-d.openx.net
-DOMAIN,crunchmind-d.openx.net
-DOMAIN,dailymotionbo-d.openx.net
-DOMAIN,demandmedia-d.openx.net
-DOMAIN,didna-d.openx.net
-DOMAIN,digikulture-d.openx.net
-DOMAIN,digitalthrottle-d.openx.net
-DOMAIN,diply-d.openx.net
-DOMAIN,discovery-d.openx.net
-DOMAIN,disqus-d.openx.net
-DOMAIN,distractify-d.openx.net
-DOMAIN,distroscale-d.openx.net
-DOMAIN,dmv-org-d.openx.net
-DOMAIN,doodle-d.openx.net
-DOMAIN,dowjones-d.openx.net
-DOMAIN,dtnads-d.openx.net
-DOMAIN,durationmedia-d.openx.net
-DOMAIN,ebert-digital-d.openx.net
-DOMAIN,egami-tv-d.openx.net
-DOMAIN,egraffiti-d.openx.net
-DOMAIN,entercom-d.openx.net
-DOMAIN,enthusiast-gaming-d.openx.net
-DOMAIN,entravision-d.openx.net
-DOMAIN,epoch-times-d.openx.net
-DOMAIN,equibase-company-d.openx.net
-DOMAIN,eu-u.openx.net
-DOMAIN,exceljet-d.openx.net
-DOMAIN,ezoic-d.openx.net
-DOMAIN,farlex-d.openx.net
-DOMAIN,firstimpression-d.openx.net
-DOMAIN,forumcomm-d.openx.net
-DOMAIN,foxnews-d.openx.net
-DOMAIN,fptadtrue-d.openx.net
-DOMAIN,freepik-d.openx.net
-DOMAIN,funtomic-d.openx.net
-DOMAIN,futurenet-d.openx.net
-DOMAIN,gannett-d.openx.net
-DOMAIN,gatewaymedia-d.openx.net
-DOMAIN,genieeintl-d.openx.net
-DOMAIN,ggsoftware-d.openx.net
-DOMAIN,gift-connect-d.openx.net
-DOMAIN,granite-cubed-d.openx.net
-DOMAIN,guardian-d.openx.net
-DOMAIN,hashtaglabs-d.openx.net
-DOMAIN,healthline-d.openx.net
-DOMAIN,hive-d.openx.net
-DOMAIN,hometalk-d.openx.net
-DOMAIN,hornet-d.openx.net
-DOMAIN,hsw-d.openx.net
-DOMAIN,ibt-d.openx.net
-DOMAIN,idm-d.openx.net
-DOMAIN,imonomy-d.openx.net
-DOMAIN,innity-d.openx.net
-DOMAIN,inquirer-interactive-d.openx.net
-DOMAIN,insticator-d.openx.net
-DOMAIN,internetinnovation-d.openx.net
-DOMAIN,investing-channel-d.openx.net
-DOMAIN,ironsource-d.openx.net
-DOMAIN,jp-u.openx.net
-DOMAIN,justpremium-d.openx.net
-DOMAIN,kijiji-d.openx.net
-DOMAIN,kompascybermedia-d.openx.net
-DOMAIN,koreaboo2-d.openx.net
-DOMAIN,ksl-d.openx.net
-DOMAIN,latimes-d.openx.net
-DOMAIN,legacycst-d.openx.net
-DOMAIN,linewebtoon-d.openx.net
-DOMAIN,lovetk-d.openx.net
-DOMAIN,mansueto-d.openx.net
-DOMAIN,marfeel-d.openx.net
-DOMAIN,match-d.openx.net
-DOMAIN,mcclatchy-d.openx.net
-DOMAIN,mediadojo-d.openx.net
-DOMAIN,mediafire-d.openx.net
-DOMAIN,meredith-d.openx.net
-DOMAIN,meredithlocal-d.openx.net
-DOMAIN,merriamwebster-d.openx.net
-DOMAIN,microad-d.openx.net
-DOMAIN,mindtank-d.openx.net
-DOMAIN,minutemedia-d.openx.net
-DOMAIN,mobile-de-d.openx.net
-DOMAIN,mobile01-d.openx.net
-DOMAIN,mobileposse-d.openx.net
-DOMAIN,monetizemore-d.openx.net
-DOMAIN,motleyfool-d.openx.net
-DOMAIN,nascardm-d.openx.net
-DOMAIN,networkn-d.openx.net
-DOMAIN,ninegag-d.openx.net
-DOMAIN,nineto5mac-d.openx.net
-DOMAIN,oao-d.openx.net
-DOMAIN,ocmdigitalmedia-d.openx.net
-DOMAIN,olxpl-d.openx.net
-DOMAIN,omg-studio-d.openx.net
-DOMAIN,one-india-d.openx.net
-DOMAIN,oneadvertising-d.openx.net
-DOMAIN,onscroll-d.openx.net
-DOMAIN,ookla-d.openx.net
-DOMAIN,os4m-d.openx.net
-DOMAIN,outbrain-d.openx.net
-DOMAIN,patch-d.openx.net
-DOMAIN,pch-d.openx.net
-DOMAIN,pelmorex-d.openx.net
-DOMAIN,phone-arena-d.openx.net
-DOMAIN,pittpostgazette-d.openx.net
-DOMAIN,pixfuture-d.openx.net
-DOMAIN,pixfuture2-d.openx.net
-DOMAIN,playbuzzltd-d.openx.net
-DOMAIN,playwire-d.openx.net
-DOMAIN,pmc-d.openx.net
-DOMAIN,poki-d.openx.net
-DOMAIN,politico-d.openx.net
-DOMAIN,postmedia-d.openx.net
-DOMAIN,prebid.openx.net
-DOMAIN,prime-d.openx.net
-DOMAIN,primis-d.openx.net
-DOMAIN,projectagora-d.openx.net
-DOMAIN,propermedia-d.openx.net
-DOMAIN,proprofs-d.openx.net
-DOMAIN,pubgalaxy-d.openx.net
-DOMAIN,publift-d.openx.net
-DOMAIN,publir-d.openx.net
-DOMAIN,publisherdesk-d.openx.net
-DOMAIN,pubnative-d.openx.net
-DOMAIN,pubwise-d.openx.net
-DOMAIN,qaamgo-d.openx.net
-DOMAIN,quizlet-d.openx.net
-DOMAIN,ranker-d.openx.net
-DOMAIN,realtor-d.openx.net
-DOMAIN,researchgate-d.openx.net
-DOMAIN,retailmenot-d.openx.net
-DOMAIN,rock-you-d.openx.net
-DOMAIN,rogers-digital-media-d.openx.net
-DOMAIN,rtb.openx.net
-DOMAIN,rtb-asia-southeast1.openx.net
-DOMAIN,rtb-ca.openx.net
-DOMAIN,rtb-europe-west1.openx.net
-DOMAIN,rtbdemand-d.openx.net
-DOMAIN,rtkio-d.openx.net
-DOMAIN,ruptly-d.openx.net
-DOMAIN,salemwebnetworks-d.openx.net
-DOMAIN,saymedia-d.openx.net
-DOMAIN,sbnationbidder-d.openx.net
-DOMAIN,scmp-d.openx.net
-DOMAIN,sea-u.openx.net
-DOMAIN,seattle-times-d.openx.net
-DOMAIN,seccosquared-d.openx.net
-DOMAIN,select-d.openx.net
-DOMAIN,setupad-d.openx.net
-DOMAIN,sfg-d.openx.net
-DOMAIN,shareably-d.openx.net
-DOMAIN,shinez-u-d.openx.net
-DOMAIN,slickdeals-d.openx.net
-DOMAIN,sltrib-d.openx.net
-DOMAIN,smartermobi-d.openx.net
-DOMAIN,smartlify-d.openx.net
-DOMAIN,snapsort-d.openx.net
-DOMAIN,snigel-d.openx.net
-DOMAIN,spanishdict-d.openx.net
-DOMAIN,spiceworks-d.openx.net
-DOMAIN,spikemedia-d.openx.net
-DOMAIN,spinemedia-d.openx.net
-DOMAIN,spot-im-d.openx.net
-DOMAIN,stands4-d.openx.net
-DOMAIN,streamamp-d.openx.net
-DOMAIN,streamlyn-d.openx.net
-DOMAIN,studybreakmedia-d.openx.net
-DOMAIN,tabforacause-d.openx.net
-DOMAIN,taboola-d.openx.net
-DOMAIN,takoomi-d.openx.net
-DOMAIN,talkingpointsmemo-d.openx.net
-DOMAIN,teachingaids-d.openx.net
-DOMAIN,telegraph-d.openx.net
-DOMAIN,the-eighth-d.openx.net
-DOMAIN,theblaze2-d.openx.net
-DOMAIN,thedrive-d.openx.net
-DOMAIN,thehill-d.openx.net
-DOMAIN,timesinternet-d.openx.net
-DOMAIN,townhallmedia-d.openx.net
-DOMAIN,townsquaremedia-d.openx.net
-DOMAIN,traffective-d.openx.net
-DOMAIN,tribune-d.openx.net
-DOMAIN,tunein-d.openx.net
-DOMAIN,u-us.openx.net
-DOMAIN,udn-usd-d.openx.net
-DOMAIN,uk-ads.openx.net
-DOMAIN,ultimate-guitar-d.openx.net
-DOMAIN,underarmour-d.openx.net
-DOMAIN,underdogmedia-d.openx.net
-DOMAIN,uol-d.openx.net
-DOMAIN,upi-d.openx.net
-DOMAIN,ureka-d.openx.net
-DOMAIN,us-ads.openx.net
-DOMAIN,usatodaysports-d.openx.net
-DOMAIN,usnews-d.openx.net
-DOMAIN,vdoai-d.openx.net
-DOMAIN,venatusmedia-d.openx.net
-DOMAIN,verticalscope-d.openx.net
-DOMAIN,vidazoo-d.openx.net
-DOMAIN,vidcrunch-d.openx.net
-DOMAIN,videointelligence-d.openx.net
-DOMAIN,vidoomy-d.openx.net
-DOMAIN,viralize-d.openx.net
-DOMAIN,viumbe-d.openx.net
-DOMAIN,vuukle-d.openx.net
-DOMAIN,warnerbros-d.openx.net
-DOMAIN,washingtonpost-d.openx.net
-DOMAIN,waytogrow-d.openx.net
-DOMAIN,wazimo-d.openx.net
-DOMAIN,weatherus-d.openx.net
-DOMAIN,webfg-d.openx.net
-DOMAIN,wirtualn-d.openx.net
-DOMAIN,wordreference-d.openx.net
-DOMAIN,wuxiaworld-d.openx.net
-DOMAIN,yieldbird-d.openx.net
-DOMAIN,yieldlove-d.openx.net
-DOMAIN,yormedia-isr-gbp-d.openx.net
-DOMAIN,yoto-d.openx.net
-DOMAIN,zedo-d.openx.net
-DOMAIN,zergnet-d.openx.net
-DOMAIN,zerohedge-d.openx.net
-DOMAIN,ziffdavis-d.openx.net
-DOMAIN,zlifestyle-d.openx.net
-DOMAIN,zoopla-d.openx.net
-DOMAIN,zulily-d.openx.net
-DOMAIN,zynga-d.openx.net
 # [oppomobile.com]
 # [opstag.com]
 DOMAIN,cdn1.opstag.com
@@ -13684,72 +13063,7 @@ DOMAIN,bx01.optimix.asia
 # [optimizely.com]
 DOMAIN,api.optimizely.com
 DOMAIN,app.optimizely.com
-DOMAIN,cdn.optimizely.com
-DOMAIN,a10453949094.cdn.optimizely.com
-DOMAIN,a10681260716.cdn.optimizely.com
-DOMAIN,a10829270344.cdn.optimizely.com
-DOMAIN,a1096093.cdn.optimizely.com
-DOMAIN,a11000223989.cdn.optimizely.com
-DOMAIN,a11085769837.cdn.optimizely.com
-DOMAIN,a11179690159.cdn.optimizely.com
-DOMAIN,a11347113422.cdn.optimizely.com
-DOMAIN,a11391265293.cdn.optimizely.com
-DOMAIN,a125375509.cdn.optimizely.com
-DOMAIN,a12600010354.cdn.optimizely.com
-DOMAIN,a14069890047.cdn.optimizely.com
-DOMAIN,a14738960062.cdn.optimizely.com
-DOMAIN,a14932920627.cdn.optimizely.com
-DOMAIN,a16180790160.cdn.optimizely.com
-DOMAIN,a16488430484.cdn.optimizely.com
-DOMAIN,a166211981.cdn.optimizely.com
-DOMAIN,a166688199.cdn.optimizely.com
-DOMAIN,a1706490390.cdn.optimizely.com
-DOMAIN,a17126690382.cdn.optimizely.com
-DOMAIN,a1719570453.cdn.optimizely.com
-DOMAIN,a17571560121.cdn.optimizely.com
-DOMAIN,a17957420003.cdn.optimizely.com
-DOMAIN,a1859010085.cdn.optimizely.com
-DOMAIN,a2129670914.cdn.optimizely.com
-DOMAIN,a234628017.cdn.optimizely.com
-DOMAIN,a275532918.cdn.optimizely.com
-DOMAIN,a277026128.cdn.optimizely.com
-DOMAIN,a2972860641.cdn.optimizely.com
-DOMAIN,a3013110282.cdn.optimizely.com
-DOMAIN,a304207300.cdn.optimizely.com
-DOMAIN,a3567930175.cdn.optimizely.com
-DOMAIN,a3580442334.cdn.optimizely.com
-DOMAIN,a3698060313.cdn.optimizely.com
-DOMAIN,a400912536.cdn.optimizely.com
-DOMAIN,a4621041136.cdn.optimizely.com
-DOMAIN,a5090114122.cdn.optimizely.com
-DOMAIN,a523170811.cdn.optimizely.com
-DOMAIN,a553480116.cdn.optimizely.com
-DOMAIN,a6529002483.cdn.optimizely.com
-DOMAIN,a745050198.cdn.optimizely.com
-DOMAIN,a752092193.cdn.optimizely.com
-DOMAIN,a7544042.cdn.optimizely.com
-DOMAIN,a7871036.cdn.optimizely.com
-DOMAIN,a8209871389.cdn.optimizely.com
-DOMAIN,a8507201684.cdn.optimizely.com
-DOMAIN,a8571253058.cdn.optimizely.com
-DOMAIN,a989617545.cdn.optimizely.com
-DOMAIN,cdn-a2-ncl.optimizely.com
-DOMAIN,cdn-pci.optimizely.com
-DOMAIN,a11701662245.cdn-pci.optimizely.com
-DOMAIN,a8447843426.cdn-pci.optimizely.com
-DOMAIN,cdn-s-optional.optimizely.com
-DOMAIN,cdn3.optimizely.com
-DOMAIN,client.optimizely.com
-DOMAIN,errors.client.optimizely.com
-DOMAIN,log.optimizely.com
-DOMAIN,log3.optimizely.com
-DOMAIN,logx.optimizely.com
 DOMAIN,events.mobile.optimizely.com
-DOMAIN,odds.optimizely.com
-DOMAIN,rum.optimizely.com
-DOMAIN,tapi.optimizely.com
-DOMAIN,teams.optimizely.com
-DOMAIN,vis.optimizely.com
 # [optimost.io]
 DOMAIN,origin.optimost.io
 # [optimove.net]
@@ -13971,7 +13285,6 @@ DOMAIN,trackdat.pinsightmedia.com
 # [pinterest.com]
 DOMAIN,ads.pinterest.com
 DOMAIN,analytics.pinterest.com
-DOMAIN,ct.pinterest.com
 DOMAIN,log.pinterest.com
 DOMAIN,trk.pinterest.com
 # [pippio.com]
@@ -14615,7 +13928,6 @@ DOMAIN,config.samsungads.com
 # [sas.com]
 DOMAIN,execution-use.ci360.sas.com
 # [sascdn.com]
-DOMAIN,sascdn.com
 DOMAIN,ak-ns.sascdn.com
 # [saygames.io]
 DOMAIN,track.saygames.io
@@ -14641,7 +13953,6 @@ DOMAIN,register.collector.scopely.io
 DOMAIN,sdk.scopely.io
 DOMAIN,config.sdk.scopely.io
 # [scorecardresearch.com]
-DOMAIN,scorecardresearch.com
 DOMAIN,bs.scorecardresearch.com
 DOMAIN,end.scorecardresearch.com
 DOMAIN,udm.scorecardresearch.com
@@ -15860,8 +15171,6 @@ DOMAIN,choices.trustarc.com
 DOMAIN,choices.truste.com
 DOMAIN,preferences.truste.com
 DOMAIN,privacy-policy.truste.com
-# [trustwave.com]
-DOMAIN,sealserver.trustwave.com
 # [trustx.org]
 DOMAIN,sofia.trustx.org
 # [tsyndicate.com]
@@ -15936,7 +15245,6 @@ DOMAIN,sdkgw.us1.twilio.com
 DOMAIN,ads.twitter.com
 DOMAIN,ads-api.twitter.com
 DOMAIN,ads-bidder-api.twitter.com
-DOMAIN,analytics.twitter.com
 # [typekit.net]
 DOMAIN,p.typekit.net
 # [ua.com]
@@ -16224,8 +15532,6 @@ DOMAIN,sdkcdn.videojj.com
 # [videoplayerhub.com]
 DOMAIN,kinja-com.videoplayerhub.com
 DOMAIN,pmc-com.videoplayerhub.com
-# [videoplaza.tv]
-DOMAIN,videoplaza.tv
 # [videosecrets.com]
 DOMAIN,banners.videosecrets.com
 # [vidible.tv]
@@ -16475,8 +15781,6 @@ DOMAIN,stats.wp.com
 DOMAIN,usersegment.wpdigital.net
 # [wrating.com]
 DOMAIN,wrating.com
-# [wsj.com]
-DOMAIN,optimizely.wsj.com
 # [wsod.com]
 DOMAIN,wsod.com
 # [wzrkt.com]
@@ -16527,10 +15831,6 @@ DOMAIN,ximad.com
 DOMAIN,mjp-analytics.ximad.com
 DOMAIN,opt.ximad.com
 # [ximalaya.com]
-# [xiti.com]
-DOMAIN,xiti.com
-DOMAIN,logs.xiti.com
-DOMAIN,logs1202.xiti.com
 # [xtify.com]
 DOMAIN,sdk.ibm.xtify.com
 DOMAIN,sdk1.ibm.xtify.com
@@ -16566,25 +15866,6 @@ DOMAIN,visit.webhosting.yahoo.com
 DOMAIN,m.yap.yahoo.com
 DOMAIN,pr-bh.ybp.yahoo.com
 DOMAIN,partnerads.ysm.yahoo.com
-# [yandex.com]
-DOMAIN,appmetrica.yandex.com
-DOMAIN,redirect.appmetrica.yandex.com
-# [yandex.net]
-DOMAIN,report.appmetrica.yandex.net
-DOMAIN,startup.mobile.yandex.net
-# [yandex.ru]
-DOMAIN,adfox.yandex.ru
-DOMAIN,matchid.adfox.yandex.ru
-DOMAIN,an.yandex.ru
-DOMAIN,redirect.appmetrica.yandex.ru
-DOMAIN,awaps.yandex.ru
-DOMAIN,bs.yandex.ru
-DOMAIN,clck.yandex.ru
-DOMAIN,informer.yandex.ru
-DOMAIN,kiks.yandex.ru
-DOMAIN,grade.market.yandex.ru
-DOMAIN,metrika.yandex.ru
-DOMAIN,share.yandex.ru
 # [yandexadexchange.net]
 DOMAIN,yandexadexchange.net
 DOMAIN,mobile.yandexadexchange.net
