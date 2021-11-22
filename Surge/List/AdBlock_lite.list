@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-11-15 01:34:33
+# AdBlock rules refresh time: 2021-11-22 01:35:38
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -2024,7 +2024,6 @@ DOMAIN-SUFFIX,ytybl.com
 DOMAIN-SUFFIX,yu0123456.com
 DOMAIN-SUFFIX,yueba94.com
 DOMAIN-SUFFIX,yueyetiyu.com
-DOMAIN-SUFFIX,yunanfuwuqi.com
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,livew.l.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -11720,11 +11719,6 @@ DOMAIN,njinmobirtb.lfstmedia.com
 DOMAIN,scadxrtb.lfstmedia.com
 # [lg.com]
 DOMAIN,tracking.lg.com
-# [lgappstv.com]
-DOMAIN,us.ibs.lgappstv.com
-# [lgtvsdp.com]
-DOMAIN,us.rdx2.lgtvsdp.com
-DOMAIN,us.lgtvsdp.com
 # [liadm.com]
 DOMAIN,b-code.liadm.com
 DOMAIN,p.liadm.com
@@ -13913,11 +13907,6 @@ DOMAIN,tracker.samplicio.us
 # [samsung.com]
 DOMAIN,insights.samsung.com
 DOMAIN,nmetrics.samsung.com
-# [samsungacr.com]
-DOMAIN,samsungacr.com
-DOMAIN,log-config.samsungacr.com
-DOMAIN,log-ingestion.samsungacr.com
-DOMAIN,log-ingestion-eu.samsungacr.com
 # [samsungadhub.com]
 DOMAIN,ad.samsungadhub.com
 # [samsungads.com]
@@ -14049,9 +14038,6 @@ DOMAIN,ws.sessioncam.com
 DOMAIN,sessionm.com
 # [sgdmobile.com]
 DOMAIN,track.sgdmobile.com
-# [sgn.com]
-DOMAIN,cookie-jam.sgn.com
-DOMAIN,invenio.sgn.com
 # [shareaholic.com]
 DOMAIN,analytics.shareaholic.com
 DOMAIN,apps.shareaholic.com
@@ -14146,16 +14132,12 @@ DOMAIN,emarketing.sina.com.cn
 DOMAIN,pubstatus.sinaapp.com
 # [sinajs.cn]
 DOMAIN,newspush.sinajs.cn
-# [singlewire.com]
-DOMAIN,api.icmobile.singlewire.com
 # [singular.net]
 DOMAIN,singular.net
 DOMAIN,i.singular.net
 DOMAIN,sdk-api-v1.singular.net
 DOMAIN,t.singular.net
 # [sitemaji.com]
-# [sitescout.com]
-DOMAIN,sitescout.com
 # [skimresources.com]
 DOMAIN,assistjs.skimresources.com
 DOMAIN,go.skimresources.com
@@ -14170,8 +14152,6 @@ DOMAIN,t.skimresources.com
 DOMAIN,x.skimresources.com
 # [slack.com]
 DOMAIN,mparticle.slack.com
-# [slashdotmedia.com]
-DOMAIN,analytics.slashdotmedia.com
 # [slicktext.com]
 DOMAIN,slicktext.com
 # [smaato.com]

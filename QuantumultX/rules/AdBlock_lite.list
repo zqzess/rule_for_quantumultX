@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-11-15 01:34:33
+# AdBlock rules refresh time: 2021-11-22 01:35:38
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -2025,7 +2025,6 @@ HOST-SUFFIX,ytybl.com,AdBlock
 HOST-SUFFIX,yu0123456.com,AdBlock
 HOST-SUFFIX,yueba94.com,AdBlock
 HOST-SUFFIX,yueyetiyu.com,AdBlock
-HOST-SUFFIX,yunanfuwuqi.com,AdBlock
 HOST,t7z.cupid.iqiyi.com,AdBlock
 HOST,livew.l.qq.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
@@ -11723,11 +11722,6 @@ HOST,njinmobirtb.lfstmedia.com,AdBlock
 HOST,scadxrtb.lfstmedia.com,AdBlock
 # [lg.com]
 HOST,tracking.lg.com,AdBlock
-# [lgappstv.com]
-HOST,us.ibs.lgappstv.com,AdBlock
-# [lgtvsdp.com]
-HOST,us.rdx2.lgtvsdp.com,AdBlock
-HOST,us.lgtvsdp.com,AdBlock
 # [liadm.com]
 HOST,b-code.liadm.com,AdBlock
 HOST,p.liadm.com,AdBlock
@@ -13916,11 +13910,6 @@ HOST,tracker.samplicio.us,AdBlock
 # [samsung.com]
 HOST,insights.samsung.com,AdBlock
 HOST,nmetrics.samsung.com,AdBlock
-# [samsungacr.com]
-HOST,samsungacr.com,AdBlock
-HOST,log-config.samsungacr.com,AdBlock
-HOST,log-ingestion.samsungacr.com,AdBlock
-HOST,log-ingestion-eu.samsungacr.com,AdBlock
 # [samsungadhub.com]
 HOST,ad.samsungadhub.com,AdBlock
 # [samsungads.com]
@@ -14052,9 +14041,6 @@ HOST,ws.sessioncam.com,AdBlock
 HOST,sessionm.com,AdBlock
 # [sgdmobile.com]
 HOST,track.sgdmobile.com,AdBlock
-# [sgn.com]
-HOST,cookie-jam.sgn.com,AdBlock
-HOST,invenio.sgn.com,AdBlock
 # [shareaholic.com]
 HOST,analytics.shareaholic.com,AdBlock
 HOST,apps.shareaholic.com,AdBlock
@@ -14149,16 +14135,12 @@ HOST,emarketing.sina.com.cn,AdBlock
 HOST,pubstatus.sinaapp.com,AdBlock
 # [sinajs.cn]
 HOST,newspush.sinajs.cn,AdBlock
-# [singlewire.com]
-HOST,api.icmobile.singlewire.com,AdBlock
 # [singular.net]
 HOST,singular.net,AdBlock
 HOST,i.singular.net,AdBlock
 HOST,sdk-api-v1.singular.net,AdBlock
 HOST,t.singular.net,AdBlock
 # [sitemaji.com]
-# [sitescout.com]
-HOST,sitescout.com,AdBlock
 # [skimresources.com]
 HOST,assistjs.skimresources.com,AdBlock
 HOST,go.skimresources.com,AdBlock
@@ -14173,8 +14155,6 @@ HOST,t.skimresources.com,AdBlock
 HOST,x.skimresources.com,AdBlock
 # [slack.com]
 HOST,mparticle.slack.com,AdBlock
-# [slashdotmedia.com]
-HOST,analytics.slashdotmedia.com,AdBlock
 # [slicktext.com]
 HOST,slicktext.com,AdBlock
 # [smaato.com]

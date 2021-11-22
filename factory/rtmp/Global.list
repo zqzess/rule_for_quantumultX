@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-11 02:08:59
+# UPDATED: 2021-11-17 02:08:38
 # HOST: 20
-# HOST-SUFFIX: 33970
+# HOST-SUFFIX: 33971
 # USER-AGENT: 48
 # HOST-KEYWORD: 41
 # IP-CIDR: 129
 # IP6-CIDR: 4
-# TOTAL: 34212
+# TOTAL: 34213
 HOST,api-p.videomarket.jp,Global
 HOST,apip.videomarket.jp,Global
 HOST,blizzard.nefficient.co.kr,Global
@@ -4270,6 +4270,7 @@ HOST-SUFFIX,authorizeddns.net,Global
 HOST-SUFFIX,authorizeddns.org,Global
 HOST-SUFFIX,authorizeddns.us,Global
 HOST-SUFFIX,authorxml.com,Global
+HOST-SUFFIX,authy.com,Global
 HOST-SUFFIX,auto-aufladen.de,Global
 HOST-SUFFIX,auto.freev2.top,Global
 HOST-SUFFIX,auto0391.com,Global
