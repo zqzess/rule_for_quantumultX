@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2021-11-22 01:35:42
+# Mainland rules refresh time: 2021-11-29 01:35:16
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -326,9 +326,9 @@ HOST,download.jetbrains.com,Mainland
 HOST,file-igamecj.akamaized.net,Mainland
 HOST,ip.istatmenus.app,Mainland
 HOST,mtalk.google.com,Mainland
+HOST,none,Mainland
 HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
-HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST-SUFFIX,115.com,Mainland
 HOST-SUFFIX,12306.com,Mainland
 HOST-SUFFIX,126.com,Mainland
@@ -625,7 +625,6 @@ HOST-SUFFIX,uning.com,Mainland
 HOST-SUFFIX,unity3d.com,Mainland
 HOST-SUFFIX,v-56.com,Mainland
 HOST-SUFFIX,veryzhun.com,Mainland
-HOST-SUFFIX,vmware.com,Mainland
 HOST-SUFFIX,wangsu.com,Mainland
 HOST-SUFFIX,weather.com,Mainland
 HOST-SUFFIX,webofknowledge.com,Mainland
@@ -675,8 +674,8 @@ USER-AGENT,*Vainglory*,Mainland
 USER-AGENT,AdBlock*,Mainland
 USER-AGENT,Best%20Trace*,Mainland
 USER-AGENT,MegaWerewolf*,Mainland
+USER-AGENT,MicroMessenger Client*,Mainland
 USER-AGENT,MicroMessenger%20Client,Mainland
-USER-AGENT,MicroMessengerClient*,Mainland
 USER-AGENT,Moke*,Mainland
 USER-AGENT,NeteaseMusic*,Mainland
 USER-AGENT,PayPal*,Mainland

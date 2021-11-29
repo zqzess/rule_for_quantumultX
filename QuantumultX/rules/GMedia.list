@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-11-22 01:35:40
+# GMedia rules refresh time: 2021-11-29 01:35:15
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -162,7 +162,6 @@ HOST-SUFFIX,gvt2.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
-HOST,api.okzy.tv,GMedia
 HOST,apm-misaka.biliapi.net,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
@@ -192,10 +191,10 @@ HOST,netflix.com.edgesuite.net,GMedia
 HOST,news-client.apple.com,GMedia
 HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
+HOST,none,GMedia
 HOST,p.bstarstatic.com,GMedia
 HOST,players.brightcove.net,GMedia
 HOST,radio.itunes.apple.com,GMedia
-HOST,rpg.pic-imges.com,GMedia
 HOST,tv.applemusic.com,GMedia
 HOST,uts-api.itunes.apple.com,GMedia
 HOST-SUFFIX,5itv.tv,GMedia

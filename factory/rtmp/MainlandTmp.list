@@ -342,9 +342,9 @@ HOST,download.jetbrains.com,Mainland
 HOST,file-igamecj.akamaized.net,Mainland
 HOST,ip.istatmenus.app,Mainland
 HOST,mtalk.google.com,Mainland
+HOST,none,Mainland
 HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
-HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST-SUFFIX,10010.com,Mainland
 HOST-SUFFIX,10089.cn,Mainland
 HOST-SUFFIX,115.com,Mainland
@@ -885,7 +885,6 @@ HOST-SUFFIX,uxengine.net,Mainland
 HOST-SUFFIX,v-56.com,Mainland
 HOST-SUFFIX,veryzhun.com,Mainland
 HOST-SUFFIX,visualstudio.com,Mainland
-HOST-SUFFIX,vmware.com,Mainland
 HOST-SUFFIX,wandoujia.com,Mainland
 HOST-SUFFIX,wangsu.com,Mainland
 HOST-SUFFIX,weather.com,Mainland
@@ -979,9 +978,9 @@ USER-AGENT,*Vainglory*,Mainland
 USER-AGENT,AdBlock*,Mainland
 USER-AGENT,Best%20Trace*,Mainland
 USER-AGENT,MegaWerewolf*,Mainland
+USER-AGENT,MicroMessenger Client*,Mainland
 USER-AGENT,MicroMessenger%20Client,Mainland
 USER-AGENT,MicroMessenger*,Mainland
-USER-AGENT,MicroMessengerClient*,Mainland
 USER-AGENT,Microsoft*,Mainland
 USER-AGENT,Moke*,Mainland
 USER-AGENT,NeteaseMusic*,Mainland
