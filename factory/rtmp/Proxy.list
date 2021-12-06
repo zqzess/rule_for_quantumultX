@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-29 02:09:56
+# UPDATED: 2021-12-04 02:10:14
 # HOST: 32
-# HOST-SUFFIX: 32276
+# HOST-SUFFIX: 32296
 # USER-AGENT: 11
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 32439
+# TOTAL: 32459
 HOST,amp.akamaized.net,Proxy
 HOST,api-p.videomarket.jp,Proxy
 HOST,blizzard.nefficient.co.kr,Proxy
@@ -2537,6 +2537,8 @@ HOST-SUFFIX,9afa1.com,Proxy
 HOST-SUFFIX,9afd1.com,Proxy
 HOST-SUFFIX,9agz1.com,Proxy
 HOST-SUFFIX,9aje1.com,Proxy
+HOST-SUFFIX,9anime.id,Proxy
+HOST-SUFFIX,9anime.ws,Proxy
 HOST-SUFFIX,9bac1.com,Proxy
 HOST-SUFFIX,9bam1.com,Proxy
 HOST-SUFFIX,9bas1.com,Proxy
@@ -3494,6 +3496,7 @@ HOST-SUFFIX,anhqv.es,Proxy
 HOST-SUFFIX,anidom.com,Proxy
 HOST-SUFFIX,anime-sharing.com,Proxy
 HOST-SUFFIX,animecrazy.net,Proxy
+HOST-SUFFIX,animedao-tv.com,Proxy
 HOST-SUFFIX,animedreaming.tv,Proxy
 HOST-SUFFIX,animeshippuuden.com,Proxy
 HOST-SUFFIX,animezilla.com,Proxy
@@ -5875,6 +5878,7 @@ HOST-SUFFIX,boomss.cc,Proxy
 HOST-SUFFIX,boomssr.com,Proxy
 HOST-SUFFIX,boomtrain.com,Proxy
 HOST-SUFFIX,boostmobile.com,Proxy
+HOST-SUFFIX,booth.pm,Proxy
 HOST-SUFFIX,boots,Proxy
 HOST-SUFFIX,bootstrapcdn.com,Proxy
 HOST-SUFFIX,borderexperience.weebly.com,Proxy
@@ -6655,6 +6659,7 @@ HOST-SUFFIX,cashpassport.net,Proxy
 HOST-SUFFIX,cashpassportglobe.com,Proxy
 HOST-SUFFIX,cashwork.kangdi-pay.com,Proxy
 HOST-SUFFIX,casi998.com,Proxy
+HOST-SUFFIX,casimages.com,Proxy
 HOST-SUFFIX,casino.kto.asia,Proxy
 HOST-SUFFIX,casinobellini.com,Proxy
 HOST-SUFFIX,casinoking.com,Proxy
@@ -7420,6 +7425,8 @@ HOST-SUFFIX,cloudgarage.jp,Proxy
 HOST-SUFFIX,cloudhealthtech.com,Proxy
 HOST-SUFFIX,cloudimage.io,Proxy
 HOST-SUFFIX,cloudimg.io,Proxy
+HOST-SUFFIX,cloudinary.com,Proxy
+HOST-SUFFIX,cloudinary.net,Proxy
 HOST-SUFFIX,cloudinsights.com,Proxy
 HOST-SUFFIX,cloudlive.com,Proxy
 HOST-SUFFIX,cloudlock.com,Proxy
@@ -8733,6 +8740,7 @@ HOST-SUFFIX,dishworld.com,Proxy
 HOST-SUFFIX,disney-asia.com,Proxy
 HOST-SUFFIX,disney-discount.com,Proxy
 HOST-SUFFIX,disney-plus.net,Proxy
+HOST-SUFFIX,disney-portal.my.onetrust.com,Proxy
 HOST-SUFFIX,disney-studio.com,Proxy
 HOST-SUFFIX,disney-studio.net,Proxy
 HOST-SUFFIX,disney.asia,Proxy
@@ -8742,6 +8750,7 @@ HOST-SUFFIX,disney.com,Proxy
 HOST-SUFFIX,disney.id,Proxy
 HOST-SUFFIX,disney.io,Proxy
 HOST-SUFFIX,disney.it,Proxy
+HOST-SUFFIX,disney.my.sentry.io,Proxy
 HOST-SUFFIX,disney.pt,Proxy
 HOST-SUFFIX,disneyadsales.com,Proxy
 HOST-SUFFIX,disneyarena.com,Proxy
@@ -8768,6 +8777,7 @@ HOST-SUFFIX,disneymusicpromotion.com,Proxy
 HOST-SUFFIX,disneynewseries.com,Proxy
 HOST-SUFFIX,disneynow.com,Proxy
 HOST-SUFFIX,disneypeoplesurveys.com,Proxy
+HOST-SUFFIX,disneyplus.bn5x.net,Proxy
 HOST-SUFFIX,disneyplus.com,Proxy
 HOST-SUFFIX,disneyredirects.com,Proxy
 HOST-SUFFIX,disneysrivieraresort.com,Proxy
@@ -10370,6 +10380,7 @@ HOST-SUFFIX,famunion.com,Proxy
 HOST-SUFFIX,fan-qiang.com,Proxy
 HOST-SUFFIX,fanarchive.campfirenow.com,Proxy
 HOST-SUFFIX,fanatical.com,Proxy
+HOST-SUFFIX,fanbox.cc,Proxy
 HOST-SUFFIX,fancy7.com,Proxy
 HOST-SUFFIX,fandango.com,Proxy
 HOST-SUFFIX,fandom.com,Proxy
@@ -11447,6 +11458,7 @@ HOST-SUFFIX,funball78.com,Proxy
 HOST-SUFFIX,fundaiphone5s.com,Proxy
 HOST-SUFFIX,fundfire.com,Proxy
 HOST-SUFFIX,funf.tw,Proxy
+HOST-SUFFIX,funimation.com,Proxy
 HOST-SUFFIX,funkyimg.com,Proxy
 HOST-SUFFIX,funny-games.biz,Proxy
 HOST-SUFFIX,funnyordie.com,Proxy
@@ -12866,6 +12878,7 @@ HOST-SUFFIX,hidemytraxproxy.ca,Proxy
 HOST-SUFFIX,hidess.com,Proxy
 HOST-SUFFIX,hidester.com,Proxy
 HOST-SUFFIX,hidethisip.net,Proxy
+HOST-SUFFIX,hidive.com,Proxy
 HOST-SUFFIX,higfw.com,Proxy
 HOST-SUFFIX,higginbotham.name,Proxy
 HOST-SUFFIX,highbolt.net,Proxy
@@ -14130,6 +14143,9 @@ HOST-SUFFIX,intelinsight.com,Proxy
 HOST-SUFFIX,inteliotmarketplace.com,Proxy
 HOST-SUFFIX,intell.com,Proxy
 HOST-SUFFIX,intellearningseries.com,Proxy
+HOST-SUFFIX,intellij.com,Proxy
+HOST-SUFFIX,intellij.net,Proxy
+HOST-SUFFIX,intellij.org,Proxy
 HOST-SUFFIX,intellinuxgraphics.com,Proxy
 HOST-SUFFIX,intellinuxgraphics.net,Proxy
 HOST-SUFFIX,intellinuxwireless.net,Proxy
@@ -14737,6 +14753,7 @@ HOST-SUFFIX,jessewilkinson.com,Proxy
 HOST-SUFFIX,jesus-army.com,Proxy
 HOST-SUFFIX,jetbrains.com,Proxy
 HOST-SUFFIX,jetbrains.net,Proxy
+HOST-SUFFIX,jetbrains.space,Proxy
 HOST-SUFFIX,jetbrains.team,Proxy
 HOST-SUFFIX,jetfuelapp.com,Proxy
 HOST-SUFFIX,jetfuelapps.com,Proxy
@@ -20186,6 +20203,8 @@ HOST-SUFFIX,postadult.com,Proxy
 HOST-SUFFIX,postandcourier.com,Proxy
 HOST-SUFFIX,postgresql.org,Proxy
 HOST-SUFFIX,posthentai.com,Proxy
+HOST-SUFFIX,postimages.org,Proxy
+HOST-SUFFIX,postimg.cc,Proxy
 HOST-SUFFIX,postimg.org,Proxy
 HOST-SUFFIX,postini.com,Proxy
 HOST-SUFFIX,postnl.nl,Proxy
@@ -20312,6 +20331,7 @@ HOST-SUFFIX,privatix.com,Proxy
 HOST-SUFFIX,privatoria.net,Proxy
 HOST-SUFFIX,privein.com,Proxy
 HOST-SUFFIX,privnote.com,Proxy
+HOST-SUFFIX,privoxy.org,Proxy
 HOST-SUFFIX,prntube.com,Proxy
 HOST-SUFFIX,pro.eimi.vip,Proxy
 HOST-SUFFIX,pro.tribeofnoise.com,Proxy
@@ -25914,6 +25934,7 @@ HOST-SUFFIX,vrchat.net,Proxy
 HOST-SUFFIX,vrmtr.com,Proxy
 HOST-SUFFIX,vrsmash.com,Proxy
 HOST-SUFFIX,vrt.be,Proxy
+HOST-SUFFIX,vrv.co,Proxy
 HOST-SUFFIX,vs.com,Proxy
 HOST-SUFFIX,vs8866.com,Proxy
 HOST-SUFFIX,vs8989.com,Proxy
@@ -29847,7 +29868,6 @@ HOST-SUFFIX,www.president.gov.tw,Proxy
 HOST-SUFFIX,www.pressrepublican.com,Proxy
 HOST-SUFFIX,www.privatecams.com,Proxy
 HOST-SUFFIX,www.privatvpn.se,Proxy
-HOST-SUFFIX,www.privoxy.org,Proxy
 HOST-SUFFIX,www.prochan.com,Proxy
 HOST-SUFFIX,www.programthinkmirror.xyz,Proxy
 HOST-SUFFIX,www.projectfreetv.ch,Proxy

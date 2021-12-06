@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-29 02:09:56
+# UPDATED: 2021-12-04 02:10:14
 # HOST: 32
-# HOST-SUFFIX: 32058
+# HOST-SUFFIX: 32078
 # USER-AGENT: 48
 # HOST-KEYWORD: 41
 # IP-CIDR: 129
 # IP6-CIDR: 4
-# TOTAL: 32312
+# TOTAL: 32332
 HOST,amp.akamaized.net,Global
 HOST,api-p.videomarket.jp,Global
 HOST,blizzard.nefficient.co.kr,Global
@@ -2533,6 +2533,8 @@ HOST-SUFFIX,9afa1.com,Global
 HOST-SUFFIX,9afd1.com,Global
 HOST-SUFFIX,9agz1.com,Global
 HOST-SUFFIX,9aje1.com,Global
+HOST-SUFFIX,9anime.id,Global
+HOST-SUFFIX,9anime.ws,Global
 HOST-SUFFIX,9bac1.com,Global
 HOST-SUFFIX,9bam1.com,Global
 HOST-SUFFIX,9bas1.com,Global
@@ -3456,6 +3458,7 @@ HOST-SUFFIX,anhqv.es,Global
 HOST-SUFFIX,anidom.com,Global
 HOST-SUFFIX,anime-sharing.com,Global
 HOST-SUFFIX,animecrazy.net,Global
+HOST-SUFFIX,animedao-tv.com,Global
 HOST-SUFFIX,animedreaming.tv,Global
 HOST-SUFFIX,animeshippuuden.com,Global
 HOST-SUFFIX,animezilla.com,Global
@@ -5830,6 +5833,7 @@ HOST-SUFFIX,boomss.cc,Global
 HOST-SUFFIX,boomssr.com,Global
 HOST-SUFFIX,boomtrain.com,Global
 HOST-SUFFIX,boostmobile.com,Global
+HOST-SUFFIX,booth.pm,Global
 HOST-SUFFIX,boots,Global
 HOST-SUFFIX,bootstrapcdn.com,Global
 HOST-SUFFIX,borderlandindustry.ml,Global
@@ -6613,6 +6617,7 @@ HOST-SUFFIX,cashpassport.net,Global
 HOST-SUFFIX,cashpassportglobe.com,Global
 HOST-SUFFIX,cashwork.kangdi-pay.com,Global
 HOST-SUFFIX,casi998.com,Global
+HOST-SUFFIX,casimages.com,Global
 HOST-SUFFIX,casino.kto.asia,Global
 HOST-SUFFIX,casinobellini.com,Global
 HOST-SUFFIX,casinoking.com,Global
@@ -7376,6 +7381,8 @@ HOST-SUFFIX,cloudgarage.jp,Global
 HOST-SUFFIX,cloudhealthtech.com,Global
 HOST-SUFFIX,cloudimage.io,Global
 HOST-SUFFIX,cloudimg.io,Global
+HOST-SUFFIX,cloudinary.com,Global
+HOST-SUFFIX,cloudinary.net,Global
 HOST-SUFFIX,cloudinsights.com,Global
 HOST-SUFFIX,cloudlive.com,Global
 HOST-SUFFIX,cloudlock.com,Global
@@ -8689,6 +8696,7 @@ HOST-SUFFIX,dishworld.com,Global
 HOST-SUFFIX,disney-asia.com,Global
 HOST-SUFFIX,disney-discount.com,Global
 HOST-SUFFIX,disney-plus.net,Global
+HOST-SUFFIX,disney-portal.my.onetrust.com,Global
 HOST-SUFFIX,disney-studio.com,Global
 HOST-SUFFIX,disney-studio.net,Global
 HOST-SUFFIX,disney.asia,Global
@@ -8698,6 +8706,7 @@ HOST-SUFFIX,disney.com,Global
 HOST-SUFFIX,disney.id,Global
 HOST-SUFFIX,disney.io,Global
 HOST-SUFFIX,disney.it,Global
+HOST-SUFFIX,disney.my.sentry.io,Global
 HOST-SUFFIX,disney.pt,Global
 HOST-SUFFIX,disneyadsales.com,Global
 HOST-SUFFIX,disneyarena.com,Global
@@ -8724,6 +8733,7 @@ HOST-SUFFIX,disneymusicpromotion.com,Global
 HOST-SUFFIX,disneynewseries.com,Global
 HOST-SUFFIX,disneynow.com,Global
 HOST-SUFFIX,disneypeoplesurveys.com,Global
+HOST-SUFFIX,disneyplus.bn5x.net,Global
 HOST-SUFFIX,disneyplus.com,Global
 HOST-SUFFIX,disneyredirects.com,Global
 HOST-SUFFIX,disneysrivieraresort.com,Global
@@ -10330,6 +10340,7 @@ HOST-SUFFIX,famunion.com,Global
 HOST-SUFFIX,fan-qiang.com,Global
 HOST-SUFFIX,fanarchive.campfirenow.com,Global
 HOST-SUFFIX,fanatical.com,Global
+HOST-SUFFIX,fanbox.cc,Global
 HOST-SUFFIX,fancy7.com,Global
 HOST-SUFFIX,fandango.com,Global
 HOST-SUFFIX,fandom.com,Global
@@ -11405,6 +11416,7 @@ HOST-SUFFIX,funball78.com,Global
 HOST-SUFFIX,fundaiphone5s.com,Global
 HOST-SUFFIX,fundfire.com,Global
 HOST-SUFFIX,funf.tw,Global
+HOST-SUFFIX,funimation.com,Global
 HOST-SUFFIX,funkyimg.com,Global
 HOST-SUFFIX,funny-games.biz,Global
 HOST-SUFFIX,funnyordie.com,Global
@@ -12823,6 +12835,7 @@ HOST-SUFFIX,hidemytraxproxy.ca,Global
 HOST-SUFFIX,hidess.com,Global
 HOST-SUFFIX,hidester.com,Global
 HOST-SUFFIX,hidethisip.net,Global
+HOST-SUFFIX,hidive.com,Global
 HOST-SUFFIX,higfw.com,Global
 HOST-SUFFIX,higginbotham.name,Global
 HOST-SUFFIX,highbolt.net,Global
@@ -14084,6 +14097,9 @@ HOST-SUFFIX,intelinsight.com,Global
 HOST-SUFFIX,inteliotmarketplace.com,Global
 HOST-SUFFIX,intell.com,Global
 HOST-SUFFIX,intellearningseries.com,Global
+HOST-SUFFIX,intellij.com,Global
+HOST-SUFFIX,intellij.net,Global
+HOST-SUFFIX,intellij.org,Global
 HOST-SUFFIX,intellinuxgraphics.com,Global
 HOST-SUFFIX,intellinuxgraphics.net,Global
 HOST-SUFFIX,intellinuxwireless.net,Global
@@ -14606,6 +14622,7 @@ HOST-SUFFIX,jessewilkinson.com,Global
 HOST-SUFFIX,jesus-army.com,Global
 HOST-SUFFIX,jetbrains.com,Global
 HOST-SUFFIX,jetbrains.net,Global
+HOST-SUFFIX,jetbrains.space,Global
 HOST-SUFFIX,jetbrains.team,Global
 HOST-SUFFIX,jetfuelapp.com,Global
 HOST-SUFFIX,jetfuelapps.com,Global
@@ -20029,6 +20046,8 @@ HOST-SUFFIX,postadult.com,Global
 HOST-SUFFIX,postandcourier.com,Global
 HOST-SUFFIX,postgresql.org,Global
 HOST-SUFFIX,posthentai.com,Global
+HOST-SUFFIX,postimages.org,Global
+HOST-SUFFIX,postimg.cc,Global
 HOST-SUFFIX,postimg.org,Global
 HOST-SUFFIX,postini.com,Global
 HOST-SUFFIX,postnl.nl,Global
@@ -20155,6 +20174,7 @@ HOST-SUFFIX,privatix.com,Global
 HOST-SUFFIX,privatoria.net,Global
 HOST-SUFFIX,privein.com,Global
 HOST-SUFFIX,privnote.com,Global
+HOST-SUFFIX,privoxy.org,Global
 HOST-SUFFIX,prntube.com,Global
 HOST-SUFFIX,pro.eimi.vip,Global
 HOST-SUFFIX,pro.tribeofnoise.com,Global
@@ -25745,6 +25765,7 @@ HOST-SUFFIX,vrchat.net,Global
 HOST-SUFFIX,vrmtr.com,Global
 HOST-SUFFIX,vrsmash.com,Global
 HOST-SUFFIX,vrt.be,Global
+HOST-SUFFIX,vrv.co,Global
 HOST-SUFFIX,vs.com,Global
 HOST-SUFFIX,vs8866.com,Global
 HOST-SUFFIX,vs8989.com,Global
@@ -29633,7 +29654,6 @@ HOST-SUFFIX,www.president.gov.tw,Global
 HOST-SUFFIX,www.pressrepublican.com,Global
 HOST-SUFFIX,www.privatecams.com,Global
 HOST-SUFFIX,www.privatvpn.se,Global
-HOST-SUFFIX,www.privoxy.org,Global
 HOST-SUFFIX,www.prochan.com,Global
 HOST-SUFFIX,www.programthinkmirror.xyz,Global
 HOST-SUFFIX,www.projectfreetv.ch,Global
