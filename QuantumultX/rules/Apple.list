@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2021-12-06 01:38:31
+# Apple rules refresh time: 2021-12-13 01:37:55
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -33,7 +33,6 @@ HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
 
 HOST,apple.comscoreresearch.com,Apple
-HOST,none,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,akadns.net,Apple
 HOST-SUFFIX,apple-dns.net,Apple

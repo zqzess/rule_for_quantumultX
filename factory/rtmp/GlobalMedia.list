@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-25 17:41:52
-# HOST: 43
+# UPDATED: 2021-12-13 02:09:22
 # USER-AGENT: 65
 # HOST-SUFFIX: 204
 # HOST-KEYWORD: 22
+# HOST: 42
 # IP-CIDR: 863
-# TOTAL: 1197
+# TOTAL: 1196
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
@@ -41,7 +41,6 @@ HOST,netflix.com.edgesuite.net,GlobalMedia
 HOST,news-client.apple.com,GlobalMedia
 HOST,news-edge.apple.com,GlobalMedia
 HOST,news-events.apple.com,GlobalMedia
-HOST,none,GlobalMedia
 HOST,np-edge.itunes.apple.com,GlobalMedia
 HOST,p.bstarstatic.com,GlobalMedia
 HOST,play-edge.itunes.apple.com,GlobalMedia

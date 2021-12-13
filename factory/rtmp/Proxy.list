@@ -1,10 +1,10 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-04 02:10:14
-# HOST: 32
+# UPDATED: 2021-12-13 02:09:22
 # HOST-SUFFIX: 32296
 # USER-AGENT: 11
+# HOST: 32
 # HOST-KEYWORD: 29
 # IP-CIDR: 88
 # IP6-CIDR: 3
@@ -3609,7 +3609,6 @@ HOST-SUFFIX,api.ai,Proxy
 HOST-SUFFIX,api.arcadia.pncle8.com,Proxy
 HOST-SUFFIX,api.chess.com,Proxy
 HOST-SUFFIX,api.citizenvpn.com,Proxy
-HOST-SUFFIX,api.dmc.nico,Proxy
 HOST-SUFFIX,api.feedbin.com,Proxy
 HOST-SUFFIX,api.jomego.com,Proxy
 HOST-SUFFIX,api.lm1188.com,Proxy
@@ -8830,6 +8829,7 @@ HOST-SUFFIX,dlsite.com,Proxy
 HOST-SUFFIX,dlsite.jp,Proxy
 HOST-SUFFIX,dm530.net,Proxy
 HOST-SUFFIX,dmas.com.au,Proxy
+HOST-SUFFIX,dmc.nico,Proxy
 HOST-SUFFIX,dmcdn.net,Proxy
 HOST-SUFFIX,dmed.technology,Proxy
 HOST-SUFFIX,dmesg.app,Proxy

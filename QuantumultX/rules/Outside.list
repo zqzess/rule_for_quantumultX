@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2021-12-06 01:38:31
+# Outside rules refresh time: 2021-12-13 01:37:54
 
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Outside
 USER-AGENT,AwemeI18n*,Outside
@@ -4318,7 +4318,6 @@ HOST-SUFFIX,api.ai,Outside
 HOST-SUFFIX,api.arcadia.pncle8.com,Outside
 HOST-SUFFIX,api.chess.com,Outside
 HOST-SUFFIX,api.citizenvpn.com,Outside
-HOST-SUFFIX,api.dmc.nico,Outside
 HOST-SUFFIX,api.feedbin.com,Outside
 HOST-SUFFIX,api.jomego.com,Outside
 HOST-SUFFIX,api.lm1188.com,Outside
@@ -9441,6 +9440,7 @@ HOST-SUFFIX,dlsite.com,Outside
 HOST-SUFFIX,dlsite.jp,Outside
 HOST-SUFFIX,dm530.net,Outside
 HOST-SUFFIX,dmas.com.au,Outside
+HOST-SUFFIX,dmc.nico,Outside
 HOST-SUFFIX,dmcdn.net,Outside
 HOST-SUFFIX,dmed.technology,Outside
 HOST-SUFFIX,dmesg.app,Outside
