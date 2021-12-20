@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-12-13 01:37:53
+# AdBlock rules refresh time: 2021-12-20 01:41:02
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -6839,7 +6839,7 @@ DOMAIN,www.adspyglass.com
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-13 02:09:22
+# UPDATED: 2021-12-16 17:32:41
 # HOST: 4
 # IP-CIDR: 1
 # IP6-CIDR: 1
@@ -8267,6 +8267,8 @@ DOMAIN,prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
 DOMAIN,rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com
 # [wildcard-ads-448740142.us-west-2.elb.amazonaws.com]
 DOMAIN,wildcard-ads-448740142.us-west-2.elb.amazonaws.com
+# [elb.eu-west-1.amazonaws.com]
+DOMAIN,huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com
 # [admarvel.s3.amazonaws.com]
 # [advancelocal-adapter-image-uploads.s3.amazonaws.com]
 DOMAIN,advancelocal-adapter-image-uploads.s3.amazonaws.com
@@ -8292,6 +8294,8 @@ DOMAIN,later-analytics-reports.s3-accelerate.amazonaws.com
 DOMAIN,bin5y4muil.execute-api.us-east-1.amazonaws.com
 # [mobileanalytics.us-east-1.amazonaws.com]
 DOMAIN,mobileanalytics.us-east-1.amazonaws.com
+# [us-west-1.amazonaws.com]
+DOMAIN,huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com
 # [amoad.com]
 DOMAIN,amoad.com
 DOMAIN,m.amoad.com
@@ -9137,11 +9141,6 @@ DOMAIN,buzzcity.net
 DOMAIN,pixiedust.buzzfeed.com
 # [bypass.jp]
 DOMAIN,bypass.jp
-# [byteoversea.com]
-DOMAIN,mon-va.byteoversea.com
-DOMAIN,starling-va.byteoversea.com
-DOMAIN,vcs-va.byteoversea.com
-DOMAIN,verification-va.byteoversea.com
 # [c1exchange.com]
 DOMAIN,c1exchange.com
 # [c8.net.ua]
@@ -9218,6 +9217,9 @@ DOMAIN,cdnwidget.com
 DOMAIN,ids.cdnwidget.com
 DOMAIN,pixel.cdnwidget.com
 DOMAIN,u.cdnwidget.com
+# [cellrebel.com]
+DOMAIN,api.monedata.iomericreceiver.cellrebel.com
+DOMAIN,metricreceiver.cellrebel.com
 # [celltick.com]
 DOMAIN,celltick.com
 DOMAIN,contentapi.celltick.com
@@ -9568,6 +9570,8 @@ DOMAIN,monetize-api.coronalabs.com
 DOMAIN,stats.coronalabs.com
 # [count.ly]
 DOMAIN,count.ly
+# [coveo.com]
+DOMAIN,static.cloud.coveo.com
 # [cox.com]
 DOMAIN,smetrics.cox.com
 # [cpmstar.com]
@@ -10836,14 +10840,11 @@ DOMAIN,crashlytics2.l.google.com
 DOMAIN,s0-2mdn-net.l.google.com
 # [googleadservices.com]
 DOMAIN,googleadservices.com
+DOMAIN,pagead2.googleadservices.com
 # [googleadsserving.cn]
 # [crashlyticsreports-pa.googleapis.com]
 DOMAIN,crashlyticsreports-pa.googleapis.com
 # [googlesyndication.com]
-# [googletagmanager.com]
-DOMAIN,googletagmanager.com
-# [googletagservices.com]
-DOMAIN,www.googletagservices.com
 # [googleusercontent.com]
 DOMAIN,displayads-formats.googleusercontent.com
 # [gop1.co]
@@ -11025,6 +11026,9 @@ DOMAIN,t2.hulu.com
 # [humann.com]
 DOMAIN,segment.humann.com
 DOMAIN,segment-api.humann.com
+# [huq.io]
+DOMAIN,huq.io
+DOMAIN,api.huq.io
 # [huqindustries.co.uk]
 DOMAIN,api.huqindustries.co.uk
 DOMAIN,charles.huqindustries.co.uk
@@ -12279,6 +12283,8 @@ DOMAIN,track.mdrctr.com
 # [measuread.com]
 DOMAIN,measuread.com
 DOMAIN,b.measuread.com
+# [measurelib.com]
+DOMAIN,mobile.measurelib.com
 # [measurementapi.com]
 DOMAIN,measurementapi.com
 # [media.net]
@@ -12378,6 +12384,8 @@ DOMAIN,metrilo.com
 DOMAIN,p.metrilo.com
 DOMAIN,shoparty.metrilo.com
 DOMAIN,t.metrilo.com
+# [metrix.ir]
+DOMAIN,analytics.metrix.ir
 # [mfadsrvr.com]
 DOMAIN,rtb.mfadsrvr.com
 DOMAIN,rtb-use.mfadsrvr.com
@@ -12762,6 +12770,8 @@ DOMAIN,image.moengage.com
 DOMAIN,websdk.moengage.com
 # [mologiq.net]
 DOMAIN,mologiq.net
+# [monedata.io]
+DOMAIN,api.monedata.io
 # [monetate.net]
 DOMAIN,ad.monetate.net
 DOMAIN,af.monetate.net
@@ -13087,6 +13097,8 @@ DOMAIN,mgine.offerstrack.net
 DOMAIN,midoweb.offerstrack.net
 DOMAIN,mobfloral.offerstrack.net
 DOMAIN,mobnerve.offerstrack.net
+# [ogury.co]
+DOMAIN,sdk-monitoring.ogury.co
 # [ogury.io]
 DOMAIN,cloud.ogury.io
 DOMAIN,medias.cloud.ogury.io
@@ -13101,6 +13113,7 @@ DOMAIN,ms-data-collection.prod.cloud.ogury.io
 DOMAIN,wsback2b.prod.cloud.ogury.io
 DOMAIN,consent-manager-events.ogury.io
 DOMAIN,dsp-1.ogury.io
+DOMAIN,sdk-monitoring.ogury.io
 # [ojooo.com]
 DOMAIN,wad.ojooo.com
 # [okanjo.com]
@@ -14677,6 +14690,7 @@ DOMAIN,init.startappexchange.com
 # [startappservice.com]
 DOMAIN,startappservice.com
 DOMAIN,adimpression.startappservice.com
+DOMAIN,adsmetadata.startappservice.com
 DOMAIN,adwin.startappservice.com
 DOMAIN,click.startappservice.com
 DOMAIN,dts.startappservice.com
@@ -15031,6 +15045,9 @@ DOMAIN,imp.track.tappx.com
 DOMAIN,www.tapresearch.com
 # [taps.io]
 DOMAIN,api.taps.io
+# [tapsell.ir]
+DOMAIN,api.tapsell.ir
+DOMAIN,plus.tapsell.ir
 # [tapstream.com]
 DOMAIN,api.tapstream.com
 DOMAIN,reporting.tapstream.com
@@ -15106,6 +15123,8 @@ DOMAIN,metrics.ted.com
 DOMAIN,api.videometrics.ted.com
 # [teenvogue.com]
 DOMAIN,sstats.teenvogue.com
+# [telematicsdirect.com]
+DOMAIN,nav.telematicsdirect.com
 # [tencent-cloud.net]
 DOMAIN,beacon.sparta.mig.tencent-cloud.net
 # [tend.io]

@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-12-13 01:37:53
+# AdBlock rules refresh time: 2021-12-20 01:41:02
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -6840,7 +6840,7 @@ HOST,www.adspyglass.com,AdBlock
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-13 02:09:22
+# UPDATED: 2021-12-16 17:32:41
 # HOST: 4
 # IP-CIDR: 1
 # IP6-CIDR: 1
@@ -8270,6 +8270,8 @@ HOST,prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com,AdBlock
 HOST,rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com,AdBlock
 # [wildcard-ads-448740142.us-west-2.elb.amazonaws.com]
 HOST,wildcard-ads-448740142.us-west-2.elb.amazonaws.com,AdBlock
+# [elb.eu-west-1.amazonaws.com]
+HOST,huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com,AdBlock
 # [admarvel.s3.amazonaws.com]
 # [advancelocal-adapter-image-uploads.s3.amazonaws.com]
 HOST,advancelocal-adapter-image-uploads.s3.amazonaws.com,AdBlock
@@ -8295,6 +8297,8 @@ HOST,later-analytics-reports.s3-accelerate.amazonaws.com,AdBlock
 HOST,bin5y4muil.execute-api.us-east-1.amazonaws.com,AdBlock
 # [mobileanalytics.us-east-1.amazonaws.com]
 HOST,mobileanalytics.us-east-1.amazonaws.com,AdBlock
+# [us-west-1.amazonaws.com]
+HOST,huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com,AdBlock
 # [amoad.com]
 HOST,amoad.com,AdBlock
 HOST,m.amoad.com,AdBlock
@@ -9140,11 +9144,6 @@ HOST,buzzcity.net,AdBlock
 HOST,pixiedust.buzzfeed.com,AdBlock
 # [bypass.jp]
 HOST,bypass.jp,AdBlock
-# [byteoversea.com]
-HOST,mon-va.byteoversea.com,AdBlock
-HOST,starling-va.byteoversea.com,AdBlock
-HOST,vcs-va.byteoversea.com,AdBlock
-HOST,verification-va.byteoversea.com,AdBlock
 # [c1exchange.com]
 HOST,c1exchange.com,AdBlock
 # [c8.net.ua]
@@ -9221,6 +9220,9 @@ HOST,cdnwidget.com,AdBlock
 HOST,ids.cdnwidget.com,AdBlock
 HOST,pixel.cdnwidget.com,AdBlock
 HOST,u.cdnwidget.com,AdBlock
+# [cellrebel.com]
+HOST,api.monedata.iomericreceiver.cellrebel.com,AdBlock
+HOST,metricreceiver.cellrebel.com,AdBlock
 # [celltick.com]
 HOST,celltick.com,AdBlock
 HOST,contentapi.celltick.com,AdBlock
@@ -9571,6 +9573,8 @@ HOST,monetize-api.coronalabs.com,AdBlock
 HOST,stats.coronalabs.com,AdBlock
 # [count.ly]
 HOST,count.ly,AdBlock
+# [coveo.com]
+HOST,static.cloud.coveo.com,AdBlock
 # [cox.com]
 HOST,smetrics.cox.com,AdBlock
 # [cpmstar.com]
@@ -10839,14 +10843,11 @@ HOST,crashlytics2.l.google.com,AdBlock
 HOST,s0-2mdn-net.l.google.com,AdBlock
 # [googleadservices.com]
 HOST,googleadservices.com,AdBlock
+HOST,pagead2.googleadservices.com,AdBlock
 # [googleadsserving.cn]
 # [crashlyticsreports-pa.googleapis.com]
 HOST,crashlyticsreports-pa.googleapis.com,AdBlock
 # [googlesyndication.com]
-# [googletagmanager.com]
-HOST,googletagmanager.com,AdBlock
-# [googletagservices.com]
-HOST,www.googletagservices.com,AdBlock
 # [googleusercontent.com]
 HOST,displayads-formats.googleusercontent.com,AdBlock
 # [gop1.co]
@@ -11028,6 +11029,9 @@ HOST,t2.hulu.com,AdBlock
 # [humann.com]
 HOST,segment.humann.com,AdBlock
 HOST,segment-api.humann.com,AdBlock
+# [huq.io]
+HOST,huq.io,AdBlock
+HOST,api.huq.io,AdBlock
 # [huqindustries.co.uk]
 HOST,api.huqindustries.co.uk,AdBlock
 HOST,charles.huqindustries.co.uk,AdBlock
@@ -12282,6 +12286,8 @@ HOST,track.mdrctr.com,AdBlock
 # [measuread.com]
 HOST,measuread.com,AdBlock
 HOST,b.measuread.com,AdBlock
+# [measurelib.com]
+HOST,mobile.measurelib.com,AdBlock
 # [measurementapi.com]
 HOST,measurementapi.com,AdBlock
 # [media.net]
@@ -12381,6 +12387,8 @@ HOST,metrilo.com,AdBlock
 HOST,p.metrilo.com,AdBlock
 HOST,shoparty.metrilo.com,AdBlock
 HOST,t.metrilo.com,AdBlock
+# [metrix.ir]
+HOST,analytics.metrix.ir,AdBlock
 # [mfadsrvr.com]
 HOST,rtb.mfadsrvr.com,AdBlock
 HOST,rtb-use.mfadsrvr.com,AdBlock
@@ -12765,6 +12773,8 @@ HOST,image.moengage.com,AdBlock
 HOST,websdk.moengage.com,AdBlock
 # [mologiq.net]
 HOST,mologiq.net,AdBlock
+# [monedata.io]
+HOST,api.monedata.io,AdBlock
 # [monetate.net]
 HOST,ad.monetate.net,AdBlock
 HOST,af.monetate.net,AdBlock
@@ -13090,6 +13100,8 @@ HOST,mgine.offerstrack.net,AdBlock
 HOST,midoweb.offerstrack.net,AdBlock
 HOST,mobfloral.offerstrack.net,AdBlock
 HOST,mobnerve.offerstrack.net,AdBlock
+# [ogury.co]
+HOST,sdk-monitoring.ogury.co,AdBlock
 # [ogury.io]
 HOST,cloud.ogury.io,AdBlock
 HOST,medias.cloud.ogury.io,AdBlock
@@ -13104,6 +13116,7 @@ HOST,ms-data-collection.prod.cloud.ogury.io,AdBlock
 HOST,wsback2b.prod.cloud.ogury.io,AdBlock
 HOST,consent-manager-events.ogury.io,AdBlock
 HOST,dsp-1.ogury.io,AdBlock
+HOST,sdk-monitoring.ogury.io,AdBlock
 # [ojooo.com]
 HOST,wad.ojooo.com,AdBlock
 # [okanjo.com]
@@ -14680,6 +14693,7 @@ HOST,init.startappexchange.com,AdBlock
 # [startappservice.com]
 HOST,startappservice.com,AdBlock
 HOST,adimpression.startappservice.com,AdBlock
+HOST,adsmetadata.startappservice.com,AdBlock
 HOST,adwin.startappservice.com,AdBlock
 HOST,click.startappservice.com,AdBlock
 HOST,dts.startappservice.com,AdBlock
@@ -15034,6 +15048,9 @@ HOST,imp.track.tappx.com,AdBlock
 HOST,www.tapresearch.com,AdBlock
 # [taps.io]
 HOST,api.taps.io,AdBlock
+# [tapsell.ir]
+HOST,api.tapsell.ir,AdBlock
+HOST,plus.tapsell.ir,AdBlock
 # [tapstream.com]
 HOST,api.tapstream.com,AdBlock
 HOST,reporting.tapstream.com,AdBlock
@@ -15109,6 +15126,8 @@ HOST,metrics.ted.com,AdBlock
 HOST,api.videometrics.ted.com,AdBlock
 # [teenvogue.com]
 HOST,sstats.teenvogue.com,AdBlock
+# [telematicsdirect.com]
+HOST,nav.telematicsdirect.com,AdBlock
 # [tencent-cloud.net]
 HOST,beacon.sparta.mig.tencent-cloud.net,AdBlock
 # [tend.io]

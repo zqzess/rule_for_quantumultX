@@ -1,16 +1,16 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-13 02:09:22
+# UPDATED: 2021-12-16 17:32:40
+# HOST: 43
 # USER-AGENT: 65
-# HOST-SUFFIX: 204
-# HOST-KEYWORD: 22
-# HOST: 42
+# HOST-SUFFIX: 220
+# HOST-KEYWORD: 4
 # IP-CIDR: 863
-# TOTAL: 1196
+# TOTAL: 1195
+HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
-HOST,atv-ps.amazon.com,GlobalMedia
 HOST,atv-ps.amazon.com,GlobalMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GlobalMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GlobalMedia
@@ -19,7 +19,6 @@ HOST,cbsplaylistserver.aws.syncbak.com,GlobalMedia
 HOST,cbsservice.aws.syncbak.com,GlobalMedia
 HOST,content.jwplatform.com,GlobalMedia
 HOST,edge.api.brightcove.com,GlobalMedia
-HOST,fls-na.amazon.com,GlobalMedia
 HOST,fls-na.amazon.com,GlobalMedia
 HOST,gspe1-ssl.ls.apple.com,GlobalMedia
 HOST,hboasia1-i.akamaihd.net,GlobalMedia
@@ -46,9 +45,11 @@ HOST,p.bstarstatic.com,GlobalMedia
 HOST,play-edge.itunes.apple.com,GlobalMedia
 HOST,players.brightcove.net,GlobalMedia
 HOST,radio.itunes.apple.com,GlobalMedia
+HOST,rpg.pic-imges.com,GlobalMedia
 HOST,tv.applemusic.com,GlobalMedia
 HOST,uts-api.itunes.apple.com,GlobalMedia
 HOST,videos-f.jwpsrv.com,GlobalMedia
+HOST,youtubei.googleapis.com,GlobalMedia
 HOST,yt3.ggpht.com,GlobalMedia
 HOST-SUFFIX,5itv.tv,GlobalMedia
 HOST-SUFFIX,abema.io,GlobalMedia
@@ -124,6 +125,7 @@ HOST-SUFFIX,firebaseio.com,GlobalMedia
 HOST-SUFFIX,fox.com,GlobalMedia
 HOST-SUFFIX,foxdcg.com,GlobalMedia
 HOST-SUFFIX,foxplay.com,GlobalMedia
+HOST-SUFFIX,foxplus.com,GlobalMedia
 HOST-SUFFIX,gamer.com.tw,GlobalMedia
 HOST-SUFFIX,go.com,GlobalMedia
 HOST-SUFFIX,googlevideo.com,GlobalMedia
@@ -157,6 +159,14 @@ HOST-SUFFIX,ipstatp.com,GlobalMedia
 HOST-SUFFIX,iq.com,GlobalMedia
 HOST-SUFFIX,itv.com,GlobalMedia
 HOST-SUFFIX,itvstatic.com,GlobalMedia
+HOST-SUFFIX,japonx.com,GlobalMedia
+HOST-SUFFIX,japonx.net,GlobalMedia
+HOST-SUFFIX,japonx.tv,GlobalMedia
+HOST-SUFFIX,japonx.vip,GlobalMedia
+HOST-SUFFIX,japronx.com,GlobalMedia
+HOST-SUFFIX,japronx.net,GlobalMedia
+HOST-SUFFIX,japronx.tv,GlobalMedia
+HOST-SUFFIX,japronx.vip,GlobalMedia
 HOST-SUFFIX,joox.com,GlobalMedia
 HOST-SUFFIX,js-agent.newrelic.com,GlobalMedia
 HOST-SUFFIX,jtvnw.net,GlobalMedia
@@ -189,6 +199,11 @@ HOST-SUFFIX,netflixdnstest6.com,GlobalMedia
 HOST-SUFFIX,netflixdnstest7.com,GlobalMedia
 HOST-SUFFIX,netflixdnstest8.com,GlobalMedia
 HOST-SUFFIX,netflixdnstest9.com,GlobalMedia
+HOST-SUFFIX,nflxext.com,GlobalMedia
+HOST-SUFFIX,nflximg.com,GlobalMedia
+HOST-SUFFIX,nflximg.net,GlobalMedia
+HOST-SUFFIX,nflxso.net,GlobalMedia
+HOST-SUFFIX,nflxvideo.net,GlobalMedia
 HOST-SUFFIX,nicovideo.jp,GlobalMedia
 HOST-SUFFIX,nimg.jp,GlobalMedia
 HOST-SUFFIX,now.com,GlobalMedia
@@ -236,6 +251,7 @@ HOST-SUFFIX,tik-tokapi.com,GlobalMedia
 HOST-SUFFIX,tiktok.com,GlobalMedia
 HOST-SUFFIX,tiktokcdn.com,GlobalMedia
 HOST-SUFFIX,tiktokv.com,GlobalMedia
+HOST-SUFFIX,ttvnw.net,GlobalMedia
 HOST-SUFFIX,tv.apple.com,GlobalMedia
 HOST-SUFFIX,tvb.com,GlobalMedia
 HOST-SUFFIX,tver.jp,GlobalMedia
@@ -253,29 +269,12 @@ HOST-SUFFIX,yahoo.co.jp,GlobalMedia
 HOST-SUFFIX,yb.uncn.jp,GlobalMedia
 HOST-SUFFIX,youboranqs01.com,GlobalMedia
 HOST-SUFFIX,youtu.be,GlobalMedia
+HOST-SUFFIX,youtube.com,GlobalMedia
 HOST-SUFFIX,ytimg.com,GlobalMedia
-HOST-KEYWORD,-spotify-com,GlobalMedia
-HOST-KEYWORD,-tiktokcdn-com,GlobalMedia
-HOST-KEYWORD,.hbogoasia.,GlobalMedia
 HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
-HOST-KEYWORD,avoddashs,GlobalMedia
-HOST-KEYWORD,bbcfmt,GlobalMedia
 HOST-KEYWORD,dualstack.apiproxy-,GlobalMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GlobalMedia
-HOST-KEYWORD,foxplus,GlobalMedia
-HOST-KEYWORD,japonx,GlobalMedia
-HOST-KEYWORD,japronx,GlobalMedia
-HOST-KEYWORD,jooxweb-api,GlobalMedia
-HOST-KEYWORD,livedazn,GlobalMedia
-HOST-KEYWORD,nflx,GlobalMedia
-HOST-KEYWORD,nowtv100,GlobalMedia
-HOST-KEYWORD,rthklive,GlobalMedia
 HOST-KEYWORD,spotify.com,GlobalMedia
-HOST-KEYWORD,ttvnw,GlobalMedia
-HOST-KEYWORD,uk-live,GlobalMedia
-HOST-KEYWORD,vod2dazn,GlobalMedia
-HOST-KEYWORD,voddazn,GlobalMedia
-HOST-KEYWORD,youtube,GlobalMedia
 USER-AGENT,*PCCW*,GlobalMedia
 USER-AGENT,*Spotify*,GlobalMedia
 USER-AGENT,*YouTubeMusic*,GlobalMedia

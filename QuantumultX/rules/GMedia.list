@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-12-13 01:37:54
+# GMedia rules refresh time: 2021-12-20 01:41:03
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -162,6 +162,7 @@ HOST-SUFFIX,gvt2.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
 HOST,youtubei.googleapis.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
+HOST,api.okzy.tv,GMedia
 HOST,apm-misaka.biliapi.net,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
@@ -194,6 +195,7 @@ HOST,news-events.apple.com,GMedia
 HOST,p.bstarstatic.com,GMedia
 HOST,players.brightcove.net,GMedia
 HOST,radio.itunes.apple.com,GMedia
+HOST,rpg.pic-imges.com,GMedia
 HOST,tv.applemusic.com,GMedia
 HOST,uts-api.itunes.apple.com,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
@@ -308,6 +310,7 @@ HOST-SUFFIX,tik-tokapi.com,GMedia
 HOST-SUFFIX,tiktok.com,GMedia
 HOST-SUFFIX,tiktokcdn.com,GMedia
 HOST-SUFFIX,tiktokv.com,GMedia
+HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,tver.jp,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
@@ -319,24 +322,11 @@ HOST-SUFFIX,wetvinfo.com,GMedia
 HOST-SUFFIX,yahoo.co.jp,GMedia
 HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
-HOST-KEYWORD,-spotify-com,GMedia
-HOST-KEYWORD,-tiktokcdn-com,GMedia
-HOST-KEYWORD,.hbogoasia.,GMedia
+HOST-SUFFIX,youtube.com,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
-HOST-KEYWORD,avoddashs,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
-HOST-KEYWORD,foxplus,GMedia
-HOST-KEYWORD,jooxweb-api,GMedia
-HOST-KEYWORD,livedazn,GMedia
-HOST-KEYWORD,nflx,GMedia
-HOST-KEYWORD,nowtv100,GMedia
-HOST-KEYWORD,rthklive,GMedia
 HOST-KEYWORD,spotify.com,GMedia
-HOST-KEYWORD,ttvnw,GMedia
-HOST-KEYWORD,uk-live,GMedia
-HOST-KEYWORD,vod2dazn,GMedia
-HOST-KEYWORD,voddazn,GMedia
 USER-AGENT,*PCCW*,GMedia
 USER-AGENT,*nowe*,GMedia
 USER-AGENT,*pccw*,GMedia
