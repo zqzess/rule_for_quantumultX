@@ -1,0 +1,250 @@
+port: 7890
+socks-port: 7891
+# Transparent proxy server port for Linux and macOS (Redirect TCP and TProxy UDP)
+redir-port: 7892
+# HTTP(S) and SOCKS5 server on the same port
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+experimental:
+  ignore-resolve-fail: true # default value is true
+dns:
+  enable: true
+  enhanced-mode: redir-host # 或 fake-ip
+  nameserver:
+    - 'https://dns.alidns.com/dns-query'
+    - 223.5.5.5
+    - 'tls://dns.rubyfish.cn:853'
+    - 119.29.29.29
+    - 8.8.8.8
+    - 114.114.114.114
+  fallback:
+    - tls://8.8.8.8:853         # Google DNS over TLS 50ms
+    - tls://8.8.4.4:853         # cloudflare DNS over TLS 50ms
+    - https://1.1.1.1/dns-query # cloudflare DNS over HTTPS
+    - https://dns.google/dns-query # Google DNS over HTTPS
+tun:
+  enable: true
+  stack: system  #gvisor
+  dns-hijack:
+    - 198.18.0.2:53
+    - tcp://8.8.8.8:53
+    - 8.8.8.8:1053
+  auto-route: true
+  auto-detect-interface: true # 自动检测出口网卡
+  auto-route: true
+  auto-detect-interface: true # 自动检测出口网卡
+cfw-bypass:
+    - qq.com
+    - taobao.com
+    - music.163.com
+    - '*.music.126.net'
+    - localhost
+    - 127.*
+    - 10.*
+    - 172.16.*
+    - 172.17.*
+    - 172.18.*
+    - 172.19.*
+    - 172.20.*
+    - 172.21.*
+    - 172.22.*
+    - 172.23.*
+    - 172.24.*
+    - 172.25.*
+    - 172.26.*
+    - 172.27.*
+    - 172.28.*
+    - 172.29.*
+    - 172.30.*
+    - 172.31.*
+    - 192.168.*
+    - <local>
+cfw-latency-timeout: 5000
+proxies:
+  - name: "trojan-us"
+    type: trojan
+    server: example.com
+    port: 443
+    password: password
+    sni: example.com
+    udp: true
+  - name: "网易云路由器"
+    type: http
+    server: 192.168.1.1
+    port: 5200
+  - name: "网易云本地"
+    type: http
+    server: 127.0.0.1
+    port: 5200
+proxy-providers:
+  bityunscy:
+    type: http
+    url: "订阅转换地址"
+    interval: 3600
+    path: ./bityunscy.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    use:
+      - bityunscy
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择scy
+      - trojan-us
+  - name: ♻️ 自动选择scy
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - bityunscy
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择scy
+      - trojan-us
+  - name: 🎵 网易云音乐
+    type: select
+    proxies:
+      - DIRECT
+      - 网易云路由器
+      - 网易云本地
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🌍 全球加速
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择scy
+      - trojan-us
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择scy
+      - trojan-us
+  - name: 🚈 专业驾驶
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择scy
+  - name: 🐟 兜底规则
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🌍 全球加速
+# Premium only
+rule-providers:
+  direct:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+    interval: 3600
+    path: ./ruleset/direct.yaml
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+  apple:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    interval: 3600
+    path: ./ruleset/apple.yaml
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+  NeteaseMusic:
+    type: http
+    behavior: classical
+    path: ./ruleset/NeteaseMusic.yaml
+    url: https://cdn.jsdelivr.net/gh/DesperadoJ/Rules-for-UnblockNeteaseMusic/Clash/RuleSet/NeteaseMusic.yaml
+    interval: 86400
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+rules:
+  - RULE-SET,applications,DIRECT,🎯 全球直连
+  - DOMAIN,steamstore-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,steamcdn-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,api.steampowered.com,🎯 全球直连
+  - DOMAIN,store.steampowered.com,🎯 全球直连
+  - DOMAIN,clash.razord.top,🎯 全球直连
+  - DOMAIN,yacd.haishan.me,🎯 全球直连
+  - DOMAIN-SUFFIX,whitemoon.top,🎯 全球直连
+  - DOMAIN,files.bjango.com,🌍 全球加速
+  - DOMAIN-SUFFIX,appcenter.ms,🌍 全球加速
+  - DOMAIN-SUFFIX,facebook.com,🌍 全球加速
+  - DOMAIN,www.biqugeu.net,🚈 专业驾驶
+  - DOMAIN,www.cool18.com,🚈 专业驾驶
+  - DOMAIN-KEYWORD,diyibanzhu,🚈 专业驾驶
+  - DOMAIN-SUFFIX,cool18.com,🚈 专业驾驶
+  - DOMAIN-KEYWORD,cunhua,🚈 专业驾驶
+  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,icloud,🍎 苹果服务
+  - RULE-SET,NeteaseMusic,🎵 网易云音乐
+  - RULE-SET,lancidr,🎯 全球直连
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,tld-not-cn,🌍 全球加速
+  - RULE-SET,gfw,🌍 全球加速
+  - RULE-SET,greatfire,🌍 全球加速
+  - RULE-SET,telegramcidr,📲 电报信息
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 兜底规则

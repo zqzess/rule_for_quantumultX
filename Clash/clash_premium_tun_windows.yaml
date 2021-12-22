@@ -1,0 +1,203 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enable: true
+  enhanced-mode: fake-ip # 或 redir-host
+  #fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - 'dns.msftncsi.com'
+    - 'www.msftncsi.com'
+    - 'www.msftconnecttest.com'
+    - '+.qq.com'
+    - '+.music.163.com'
+    - '+.music.162.com'
+  nameserver:
+    - 223.5.5.5
+    - 'tls://dns.rubyfish.cn:853'
+    - 119.29.29.29
+    - 8.8.8.8
+    - 114.114.114.114
+  fallback:
+    - tls://8.8.8.8:853         # Google DNS over TLS 50ms
+    - tls://8.8.4.4:853         # cloudflare DNS over TLS 50ms
+    - https://1.1.1.1/dns-query # cloudflare DNS over HTTPS
+    - https://dns.google/dns-query # Google DNS over HTTPS
+tun:
+  enable: true
+  stack: system
+  #stack: gvisor
+  #dns-hijack:
+  #  - 198.18.0.2:53
+  auto-route: true
+  auto-detect-interface: true # 自动检测出口网卡
+cfw-bypass:
+    - qq.com
+    - taobao.com
+    - music.163.com
+    - '*.music.126.net'
+    - localhost
+    - 127.*
+    - 10.*
+    - 172.16.*
+    - 172.17.*
+    - 172.18.*
+    - 172.19.*
+    - 172.20.*
+    - 172.21.*
+    - 172.22.*
+    - 172.23.*
+    - 172.24.*
+    - 172.25.*
+    - 172.26.*
+    - 172.27.*
+    - 172.28.*
+    - 172.29.*
+    - 172.30.*
+    - 172.31.*
+    - 192.168.*
+    - <local>
+cfw-latency-timeout: 5000
+proxies:
+  - name: "trojan-us"
+    type: trojan
+    server: example.com
+    port: 443
+    password: password
+    sni: example.com
+proxy-providers:
+  bityun:
+    type: http
+    url: "订阅转换地址"
+    interval: 3600
+    path: ./bityun.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    use:
+      - bityun
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - trojan-us
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - bityun
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🌍 全球加速
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - trojan-us
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🚈 专业驾驶
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🐟 兜底规则
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🌍 全球加速
+# Premium only
+rule-providers:
+  direct:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+    interval: 3600
+    path: ./ruleset/direct.yaml
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+rules:
+  - PROCESS-NAME,v2ray,🎯 全球直连
+  - PROCESS-NAME,xray,🎯 全球直连
+  - PROCESS-NAME,naive,🎯 全球直连
+  - PROCESS-NAME,trojan,🎯 全球直连
+  - PROCESS-NAME,trojan-go,🎯 全球直连
+  - PROCESS-NAME,ss-local,🎯 全球直连
+  - PROCESS-NAME,privoxy,🎯 全球直连
+  - PROCESS-NAME,leaf,🎯 全球直连
+  - PROCESS-NAME,v2ray.exe,🎯 全球直连
+  - PROCESS-NAME,xray.exe,🎯 全球直连
+  - PROCESS-NAME,naive.exe,🎯 全球直连
+  - PROCESS-NAME,trojan.exe,🎯 全球直连
+  - PROCESS-NAME,trojan-go.exe,🎯 全球直连
+  - PROCESS-NAME,ss-local.exe,🎯 全球直连
+  - PROCESS-NAME,privoxy.exe,🎯 全球直连
+  - PROCESS-NAME,leaf.exe,🎯 全球直连
+  - PROCESS-NAME,Surge,🎯 全球直连
+  - PROCESS-NAME,Surge 2,🎯 全球直连
+  - PROCESS-NAME,Surge 3,🎯 全球直连
+  - PROCESS-NAME,Surge 4,🎯 全球直连
+  - PROCESS-NAME,Surge%202,🎯 全球直连
+  - PROCESS-NAME,Surge%203,🎯 全球直连
+  - PROCESS-NAME,Surge%204,🎯 全球直连
+  - PROCESS-NAME,Thunder,🎯 全球直连
+  - PROCESS-NAME,DownloadService,🎯 全球直连
+  - PROCESS-NAME,qBittorrent,🎯 全球直连
+  - PROCESS-NAME,Transmission,🎯 全球直连
+  - PROCESS-NAME,fdm,🎯 全球直连
+  - PROCESS-NAME,aria2c,🎯 全球直连
+  - PROCESS-NAME,Folx,🎯 全球直连
+  - PROCESS-NAME,NetTransport,🎯 全球直连
+  - PROCESS-NAME,uTorrent,🎯 全球直连
+  - PROCESS-NAME,WebTorrent,🎯 全球直连
+  - PROCESS-NAME,aria2c.exe,🎯 全球直连
+  - PROCESS-NAME,BitComet.exe,🎯 全球直连
+  - PROCESS-NAME,fdm.exe,🎯 全球直连
+  - PROCESS-NAME,NetTransport.exe,🎯 全球直连
+  - PROCESS-NAME,qbittorrent.exe,🎯 全球直连
+  - PROCESS-NAME,Thunder.exe,🎯 全球直连
+  - PROCESS-NAME,ThunderVIP.exe,🎯 全球直连
+  - PROCESS-NAME,transmission-daemon.exe,🎯 全球直连
+  - PROCESS-NAME,transmission-qt.exe,🎯 全球直连
+  - PROCESS-NAME,uTorrent.exe,🎯 全球直连
+  - PROCESS-NAME,WebTorrent.exe,🎯 全球直连
+  - DOMAIN,steamstore-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,steamcdn-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,api.steampowered.com,🎯 全球直连
+  - DOMAIN,store.steampowered.com,🎯 全球直连
+  - DOMAIN,clash.razord.top,🎯 全球直连
+  - DOMAIN,yacd.haishan.me,🎯 全球直连
+  - DOMAIN,www.biqugeu.net,🚈 专业驾驶
+  - DOMAIN,www.cool18.com,🚈 专业驾驶
+  - DOMAIN-KEYWORD,diyibanzhu,🚈 专业驾驶
+  - DOMAIN-SUFFIX,cool18.com,🚈 专业驾驶
+  - DOMAIN-KEYWORD,cunhua,🚈 专业驾驶
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,gfw,🌍 全球加速
+  - RULE-SET,telegramcidr,📲 电报信息
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 兜底规则

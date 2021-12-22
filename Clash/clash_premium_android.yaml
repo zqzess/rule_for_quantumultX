@@ -1,0 +1,182 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+cfw-bypass:
+    - qq.com
+    - taobao.com
+    - music.163.com
+    - '*.music.126.net'
+    - localhost
+    - 127.*
+    - 10.*
+    - 172.16.*
+    - 172.17.*
+    - 172.18.*
+    - 172.19.*
+    - 172.20.*
+    - 172.21.*
+    - 172.22.*
+    - 172.23.*
+    - 172.24.*
+    - 172.25.*
+    - 172.26.*
+    - 172.27.*
+    - 172.28.*
+    - 172.29.*
+    - 172.30.*
+    - 172.31.*
+    - 192.168.*
+    - <local>
+cfw-latency-timeout: 5000
+
+proxies:
+proxy-providers:
+  bityun:
+    type: http
+    url: "订阅转换地址"
+    interval: 3600
+    path: ./bityun.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    use:
+      - bityun
+    proxies:
+      - 🎯 全球直连
+      - ♻️ 自动选择
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - bityun
+  - name: 🛑 小说广告
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 📲电报信息
+    type: select
+    proxies:
+      -  节点选择
+      -  自动选择
+  - name: 🌍 全球加速
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🌍 全球加速
+# Premium only
+rule-providers:
+  adblock:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    interval: 3600
+    path: ./ruleset/adblock.yaml
+  apple:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    interval: 3600
+    path: ./ruleset/apple.yaml
+  Google:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
+    interval: 3600
+    path: ./ruleset/Google.yaml
+  outside:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+    interval: 3600
+    path: ./ruleset/outside.yaml
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  direct:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+    interval: 3600
+    path: ./ruleset/direct.yaml
+rules:
+ - DOMAIN-SUFFIX,local,🎯 全球直连
+ - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - DOMAIN,i.snssdk.com,🛑 小说广告
+ - DOMAIN,i-lq.snssdk.com,🛑 小说广告
+ - DOMAIN,dig.bdurl.net,🛑 小说广告
+ - DOMAIN,api-access.pangolin-sdk-toutiao.com,🛑 小说广告
+ - DOMAIN-SUFFIX,zijieapi.com,🛑 小说广告
+ - DOMAIN-SUFFIX,pglstatp-toutiao.com,🛑 小说广告
+ - DOMAIN-SUFFIX,pstatp.com,🛑 小说广告
+ - DOMAIN-SUFFIX,xwuad.com,🛑 小说广告
+ - DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,🛑 小说广告
+ - DOMAIN-SUFFIX,render.shuqireader.com,🛑 小说广告
+ - DOMAIN-SUFFIX,ali-stats.jpush.cn,🛑 小说广告
+ - DOMAIN-SUFFIX,toblog.ctobsnssdk.com,🛑 小说广告
+ - DOMAIN-SUFFIX,sdk.kaijia.com,🛑 小说广告
+ - DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com,🛑 小说广告
+ - DOMAIN-SUFFIX,amdc.m.taobao.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,iyes.youku.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,sq.sljkj.com,🛑 广告拦截
+ - DOMAIN-SUFFIX,s2s.adjust.com,🛑 广告拦截
+ - DOMAIN,app.zhoudamozi.com,DIRECT
+ - DOMAIN-SUFFIX,youzibank.com,DIRECT
+ - DOMAIN,book.jieshengdz.com,DIRECT
+ - DOMAIN,tttxt.douyinxiaocx.com,DIRECT
+ - DOMAIN,dm.bytedance.com,🛑 广告拦截
+ - DOMAIN,ap.cpatrk.net,🛑 广告拦截
+ - DOMAIN,is.snssdk.com,🛑 小说广告
+ - DOMAIN-SUFFIX,mituyuedu.com,DIRECT
+ - DOMAIN,img.allahall.com,DIRECT
+ - DOMAIN,img.dailmo.com,DIRECT
+ - DOMAIN,img.img.hbssdlcl.com,DIRECT
+ - DOMAIN,activation.crossutility.com,DIRECT
+ - DOMAIN,bid.adview.cn,🛑 广告拦截
+ - RULE-SET,adblock,🛑 广告拦截
+ - RULE-SET,apple,🍎 苹果服务
+ - RULE-SET,telegramcidr,📲电报信息
+ - RULE-SET,Google,🌍 全球加速
+ - RULE-SET,outside,🌍 全球加速
+ - RULE-SET,direct,🎯 全球直连
+ - GEOIP,CN,🎯 全球直连
+ - MATCH,🐟 漏网之鱼
