@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-19 02:10:27
-# HOST-SUFFIX: 26558
+# UPDATED: 2021-12-27 02:10:29
+# HOST-SUFFIX: 26559
 # USER-AGENT: 49
 # HOST: 28
 # IP-CIDR: 129
 # IP6-CIDR: 4
 # HOST-KEYWORD: 1
-# TOTAL: 26769
+# TOTAL: 26770
 HOST,amp-api.podcasts.apple.com,Global
 HOST,apple.comscoreresearch.com,Global
 HOST,appleid.apple.com,Global
@@ -2188,6 +2188,7 @@ HOST-SUFFIX,888bifa.com,Global
 HOST-SUFFIX,888dde.com,Global
 HOST-SUFFIX,888diao.com,Global
 HOST-SUFFIX,888funcity.net,Global
+HOST-SUFFIX,888poker.com,Global
 HOST-SUFFIX,888rch.com,Global
 HOST-SUFFIX,888xjs.net,Global
 HOST-SUFFIX,888ylg.com,Global
@@ -10906,6 +10907,7 @@ HOST-SUFFIX,impp.mn,Global
 HOST-SUFFIX,improv4business.com,Global
 HOST-SUFFIX,impulsoti.com,Global
 HOST-SUFFIX,imsystem.site,Global
+HOST-SUFFIX,imtoken.fans,Global
 HOST-SUFFIX,imxiqi.com,Global
 HOST-SUFFIX,in-disguise.com,Global
 HOST-SUFFIX,in-the-band.net,Global
@@ -13275,6 +13277,7 @@ HOST-SUFFIX,mediapart.fr,Global
 HOST-SUFFIX,mediapatra.com,Global
 HOST-SUFFIX,mediaplaynow.com,Global
 HOST-SUFFIX,mediawiki.org,Global
+HOST-SUFFIX,medibang.com,Global
 HOST-SUFFIX,medical-reference.net,Global
 HOST-SUFFIX,medicalcheckup.web.id,Global
 HOST-SUFFIX,medicalreference.net,Global
@@ -17226,7 +17229,6 @@ HOST-SUFFIX,simplexsolutionsinc.com,Global
 HOST-SUFFIX,simplydivinebakery.com,Global
 HOST-SUFFIX,simplydivinebakery.org,Global
 HOST-SUFFIX,simustation.com,Global
-HOST-SUFFIX,sina.com,Global
 HOST-SUFFIX,sina.com.hk,Global
 HOST-SUFFIX,sina.com.tw,Global
 HOST-SUFFIX,sinaapp.co,Global
@@ -26274,7 +26276,6 @@ HOST-SUFFIX,yun2133.com,Global
 HOST-SUFFIX,yun5888.com,Global
 HOST-SUFFIX,yunchao.net,Global
 HOST-SUFFIX,yunfan.pw,Global
-HOST-SUFFIX,yunpanjingling.com,Global
 HOST-SUFFIX,yuntipub.com,Global
 HOST-SUFFIX,yunyunchao.com,Global
 HOST-SUFFIX,yuren22.com,Global

@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:39
-# HOST-SUFFIX: 577
+# UPDATED: 2021-12-21 15:34:16
+# HOST-SUFFIX: 578
 # USER-AGENT: 31
 # HOST: 7
-# IP-CIDR: 14
+# IP-CIDR: 9
 # IP6-CIDR: 4
 # HOST-KEYWORD: 1
-# TOTAL: 634
+# TOTAL: 630
 HOST,analytics.strava.com,China
 HOST,client.amplifi.com,China
 HOST,download.jetbrains.com,China
@@ -453,6 +453,7 @@ HOST-SUFFIX,sf-express.com,China
 HOST-SUFFIX,sharepoint.com,China
 HOST-SUFFIX,shouqianba.com,China
 HOST-SUFFIX,siam.org,China
+HOST-SUFFIX,sina.com,China
 HOST-SUFFIX,sinaapp.com,China
 HOST-SUFFIX,sinaimg.cn,China
 HOST-SUFFIX,sinaimg.com,China
@@ -626,17 +627,12 @@ USER-AGENT,hearthstone*,China
 USER-AGENT,hide*,China
 USER-AGENT,ting_en,China
 IP-CIDR,1.255.62.0/24,China
-IP-CIDR,101.32.104.4/32,China
-IP-CIDR,101.32.104.41/32,China
-IP-CIDR,101.32.104.56/32,China
-IP-CIDR,101.32.118.25/32,China
-IP-CIDR,101.32.133.16/32,China
-IP-CIDR,101.32.133.209/32,China
-IP-CIDR,101.32.133.53/32,China
+IP-CIDR,101.32.118.0/23,China
+IP-CIDR,101.32.96.0/20,China
 IP-CIDR,119.28.28.28/32,China
-IP-CIDR,129.226.107.244/32,China
-IP-CIDR,129.226.3.47/32,China
+IP-CIDR,129.226.0.0/16,China
 IP-CIDR,182.254.116.0/24,China
+IP-CIDR,183.128.0.0/11,China
 IP-CIDR,185.188.32.0/22,China
 IP-CIDR,203.205.254.0/23,China
 IP6-CIDR,2a0b:b580::/48,China

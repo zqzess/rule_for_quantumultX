@@ -10529,9 +10529,6 @@ HOST,controller.duokanbox.com,AdBlock
 HOST,mobile.controller.duokanbox.com,AdBlock
 HOST,fm.duokanbox.com,AdBlock
 HOST,stat.duokanbox.com,AdBlock
-# [dwell.com]
-HOST,assets.dwell.com,AdBlock
-HOST,images.dwell.com,AdBlock
 # [dxsvr.com]
 HOST,ak.dxsvr.com,AdBlock
 HOST,nrc.dxsvr.com,AdBlock
@@ -13903,6 +13900,7 @@ HOST,tracking.pandoiq.com,AdBlock
 HOST,adserver.pandora.com,AdBlock
 # [pangle.io]
 HOST,pangle.io,AdBlock
+HOST,api16-access-gcp.pangle.io,AdBlock
 HOST,api16-access-sg.pangle.io,AdBlock
 # [panickycurtain.com]
 HOST,panickycurtain.com,AdBlock
@@ -16652,6 +16650,8 @@ HOST,engine.widespace.com,AdBlock
 HOST,tag.widespace.com,AdBlock
 # [wigetmedia.com]
 HOST,wigetmedia.com,AdBlock
+# [wikawika.xyz]
+HOST,ad-display.wikawika.xyz,AdBlock
 # [wildlifestudios.com]
 HOST,cads.wildlifestudios.com,AdBlock
 HOST,exchange.wildlifestudios.com,AdBlock

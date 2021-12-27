@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-12-20 01:41:02
+# AdBlock rules refresh time: 2021-12-27 01:40:39
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -10119,9 +10119,6 @@ DOMAIN,controller.duokanbox.com
 DOMAIN,mobile.controller.duokanbox.com
 DOMAIN,fm.duokanbox.com
 DOMAIN,stat.duokanbox.com
-# [dwell.com]
-DOMAIN,assets.dwell.com
-DOMAIN,images.dwell.com
 # [dxsvr.com]
 DOMAIN,ak.dxsvr.com
 DOMAIN,nrc.dxsvr.com
@@ -13354,6 +13351,7 @@ DOMAIN,tracking.pandoiq.com
 DOMAIN,adserver.pandora.com
 # [pangle.io]
 DOMAIN,pangle.io
+DOMAIN,api16-access-gcp.pangle.io
 DOMAIN,api16-access-sg.pangle.io
 # [panickycurtain.com]
 DOMAIN,panickycurtain.com
@@ -15960,6 +15958,8 @@ DOMAIN,engine.widespace.com
 DOMAIN,tag.widespace.com
 # [wigetmedia.com]
 DOMAIN,wigetmedia.com
+# [wikawika.xyz]
+DOMAIN,ad-display.wikawika.xyz
 # [wildlifestudios.com]
 DOMAIN,cads.wildlifestudios.com
 DOMAIN,exchange.wildlifestudios.com

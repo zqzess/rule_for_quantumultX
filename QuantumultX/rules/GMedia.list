@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2021-12-20 01:41:03
+# GMedia rules refresh time: 2021-12-27 01:40:40
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -185,6 +185,7 @@ HOST,intl-rcd.iqiyi.com,GMedia
 HOST,intl-subscription.iqiyi.com,GMedia
 HOST,intl.iqiyi.com,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
+HOST,ktpx.amazon.com,GMedia
 HOST,mobileso.bz.mgtv.com,GMedia
 HOST,mytvsuperlimited.hb.omtrdc.net,GMedia
 HOST,mytvsuperlimited.sc.omtrdc.net,GMedia
@@ -201,7 +202,6 @@ HOST,uts-api.itunes.apple.com,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
-HOST-SUFFIX,amplify.outbrain.com,GMedia
 HOST-SUFFIX,api.mgtv.com,GMedia
 HOST-SUFFIX,api.segment.io,GMedia
 HOST-SUFFIX,apple.news,GMedia
@@ -210,7 +210,6 @@ HOST-SUFFIX,bbc.net.uk,GMedia
 HOST-SUFFIX,bcbolthboa-a.akamaihd.net,GMedia
 HOST-SUFFIX,bidi.net.uk,GMedia
 HOST-SUFFIX,biliintl.com,GMedia
-HOST-SUFFIX,bluekai.com,GMedia
 HOST-SUFFIX,boltdns.net,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
 HOST-SUFFIX,c4assets.com,GMedia
@@ -220,7 +219,6 @@ HOST-SUFFIX,cbsivideo.com,GMedia
 HOST-SUFFIX,cdn.optimizely.com,GMedia
 HOST-SUFFIX,channel4.com,GMedia
 HOST-SUFFIX,channel5.com,GMedia
-HOST-SUFFIX,control.kochava.com,GMedia
 HOST-SUFFIX,d9.flashtalking.com,GMedia
 HOST-SUFFIX,deezer.com,GMedia
 HOST-SUFFIX,disco-api.com,GMedia
@@ -283,7 +281,6 @@ HOST-SUFFIX,overcast.fm,GMedia
 HOST-SUFFIX,p-cdn.us,GMedia
 HOST-SUFFIX,paramountplus.com,GMedia
 HOST-SUFFIX,peacocktv.com,GMedia
-HOST-SUFFIX,perfops.doracdn.com,GMedia
 HOST-SUFFIX,phncdn.com,GMedia
 HOST-SUFFIX,phprcdn.com,GMedia
 HOST-SUFFIX,pornhub.com,GMedia
@@ -292,10 +289,8 @@ HOST-SUFFIX,pplusstatic.com,GMedia
 HOST-SUFFIX,primevideo.com,GMedia
 HOST-SUFFIX,prod.hjholdings.tv,GMedia
 HOST-SUFFIX,profile.line-scdn.net,GMedia
+HOST-SUFFIX,pv-cdn.net,GMedia
 HOST-SUFFIX,qobuz.com,GMedia
-HOST-SUFFIX,s.llnwi.net,GMedia
-HOST-SUFFIX,s.yimg.jp,GMedia
-HOST-SUFFIX,secure.footprint.net,GMedia
 HOST-SUFFIX,segment.com,GMedia
 HOST-SUFFIX,sentry.io,GMedia
 HOST-SUFFIX,skyking.com.tw,GMedia
@@ -314,12 +309,9 @@ HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,tver.jp,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
-HOST-SUFFIX,urbanairship.com,GMedia
 HOST-SUFFIX,urlload.net,GMedia
-HOST-SUFFIX,vjs.zencdn.net,GMedia
 HOST-SUFFIX,wetv.vip,GMedia
 HOST-SUFFIX,wetvinfo.com,GMedia
-HOST-SUFFIX,yahoo.co.jp,GMedia
 HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
 HOST-SUFFIX,youtube.com,GMedia
