@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-27 02:10:29
-# HOST-SUFFIX: 26551
+# UPDATED: 2022-01-02 02:10:01
+# HOST-SUFFIX: 26562
 # USER-AGENT: 12
 # HOST: 5
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# TOTAL: 26659
+# TOTAL: 26670
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
 HOST,cvws.icloud-content.com,Proxy
 HOST,developer.apple.com,Proxy
@@ -4487,6 +4487,7 @@ HOST-SUFFIX,bloomfortune.com,Proxy
 HOST-SUFFIX,blpink.xyz,Proxy
 HOST-SUFFIX,blr335.com,Proxy
 HOST-SUFFIX,bls.gov,Proxy
+HOST-SUFFIX,blubrry.com,Proxy
 HOST-SUFFIX,blue9.com.au,Proxy
 HOST-SUFFIX,blueangellive.com,Proxy
 HOST-SUFFIX,bluecloud.pw,Proxy
@@ -7918,6 +7919,7 @@ HOST-SUFFIX,fangong.org,Proxy
 HOST-SUFFIX,fangongheike.com,Proxy
 HOST-SUFFIX,fanguangxin.com,Proxy
 HOST-SUFFIX,fanhaodang.com,Proxy
+HOST-SUFFIX,fanhaolou.com,Proxy
 HOST-SUFFIX,fanipa.com,Proxy
 HOST-SUFFIX,fanqiang.com,Proxy
 HOST-SUFFIX,fanqiang.network,Proxy
@@ -9160,6 +9162,7 @@ HOST-SUFFIX,gmail.roche.com,Proxy
 HOST-SUFFIX,gmail.ucar.edu,Proxy
 HOST-SUFFIX,gmbd.cn,Proxy
 HOST-SUFFIX,gmer.net,Proxy
+HOST-SUFFIX,gmgard.com,Proxy
 HOST-SUFFIX,gmhz.org,Proxy
 HOST-SUFFIX,gmial.com,Proxy
 HOST-SUFFIX,gmiddle.com,Proxy
@@ -11204,6 +11207,7 @@ HOST-SUFFIX,istockphoto.com,Proxy
 HOST-SUFFIX,isuberleet.com,Proxy
 HOST-SUFFIX,isunaffairs.com,Proxy
 HOST-SUFFIX,isuntv.com,Proxy
+HOST-SUFFIX,isupportuyghurs.org,Proxy
 HOST-SUFFIX,isux.com,Proxy
 HOST-SUFFIX,isverygood.org,Proxy
 HOST-SUFFIX,isverysweet.org,Proxy
@@ -15426,6 +15430,7 @@ HOST-SUFFIX,plasson.com.ar,Proxy
 HOST-SUFFIX,play-asia.com,Proxy
 HOST-SUFFIX,play.baleship2.xyz,Proxy
 HOST-SUFFIX,play.bst218.com,Proxy
+HOST-SUFFIX,playartifact.com,Proxy
 HOST-SUFFIX,playasia.com,Proxy
 HOST-SUFFIX,playboy.com,Proxy
 HOST-SUFFIX,playboyplus.com,Proxy
@@ -17409,6 +17414,7 @@ HOST-SUFFIX,soldier.ga,Proxy
 HOST-SUFFIX,solidaritetibet.org,Proxy
 HOST-SUFFIX,solidaritywithtibet.org,Proxy
 HOST-SUFFIX,solidfiles.com,Proxy
+HOST-SUFFIX,solv.finance,Proxy
 HOST-SUFFIX,soma.im,Proxy
 HOST-SUFFIX,somcloud.com,Proxy
 HOST-SUFFIX,somee.com,Proxy
@@ -18552,8 +18558,10 @@ HOST-SUFFIX,tibetanbuddhistinstitute.org,Proxy
 HOST-SUFFIX,tibetancommunity.org,Proxy
 HOST-SUFFIX,tibetancommunityuk.net,Proxy
 HOST-SUFFIX,tibetanculture.org,Proxy
+HOST-SUFFIX,tibetanentrepreneurs.org,Proxy
 HOST-SUFFIX,tibetanfeministcollective.org,Proxy
 HOST-SUFFIX,tibetangeeks.com,Proxy
+HOST-SUFFIX,tibetanhealth.org,Proxy
 HOST-SUFFIX,tibetanjournal.com,Proxy
 HOST-SUFFIX,tibetanlanguage.org,Proxy
 HOST-SUFFIX,tibetanliberation.org,Proxy
@@ -18930,6 +18938,7 @@ HOST-SUFFIX,trimondi.de,Proxy
 HOST-SUFFIX,trinita.tv,Proxy
 HOST-SUFFIX,trisla.com,Proxy
 HOST-SUFFIX,troktiko.eu,Proxy
+HOST-SUFFIX,tronscan.org,Proxy
 HOST-SUFFIX,trouw.nl,Proxy
 HOST-SUFFIX,trove.trionworlds.com,Proxy
 HOST-SUFFIX,trovigo.com,Proxy
@@ -19484,6 +19493,7 @@ HOST-SUFFIX,uncyclopedia.hk,Proxy
 HOST-SUFFIX,uncyclopedia.tw,Proxy
 HOST-SUFFIX,undergroundhacks.net,Proxy
 HOST-SUFFIX,underhentai.net,Proxy
+HOST-SUFFIX,underlords.com,Proxy
 HOST-SUFFIX,underwoodammo.com,Proxy
 HOST-SUFFIX,undofilters.com,Proxy
 HOST-SUFFIX,unfiltered.news,Proxy
@@ -19672,6 +19682,7 @@ HOST-SUFFIX,uy500.com,Proxy
 HOST-SUFFIX,uybbb.com,Proxy
 HOST-SUFFIX,uyghur-j.org,Proxy
 HOST-SUFFIX,uyghur.co.uk,Proxy
+HOST-SUFFIX,uyghuraa.org,Proxy
 HOST-SUFFIX,uyghuramerican.org,Proxy
 HOST-SUFFIX,uyghuraustralia.proboards.com,Proxy
 HOST-SUFFIX,uyghurbiz.org,Proxy
@@ -19730,6 +19741,7 @@ HOST-SUFFIX,valeriavidela.cl,Proxy
 HOST-SUFFIX,valeursactuelles.com,Proxy
 HOST-SUFFIX,vallen.asia,Proxy
 HOST-SUFFIX,valpak.com,Proxy
+HOST-SUFFIX,valvesoftware.com,Proxy
 HOST-SUFFIX,van001.com,Proxy
 HOST-SUFFIX,van698.com,Proxy
 HOST-SUFFIX,vanaja.com.au,Proxy
@@ -21840,7 +21852,6 @@ HOST-SUFFIX,www.blogger.idv.tw,Proxy
 HOST-SUFFIX,www.bloomberg.com.br,Proxy
 HOST-SUFFIX,www.bloomberglink.com,Proxy
 HOST-SUFFIX,www.bloombergsef.com,Proxy
-HOST-SUFFIX,www.blubrry.com,Proxy
 HOST-SUFFIX,www.bm1100.cc,Proxy
 HOST-SUFFIX,www.bm30000.com,Proxy
 HOST-SUFFIX,www.bm505.cc,Proxy

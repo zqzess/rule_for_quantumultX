@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2021-12-27 01:40:39
+# AdBlock rules refresh time: 2022-01-03 01:41:07
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -7135,6 +7135,7 @@ HOST,androidads20staging.adcolony.com,AdBlock
 HOST,androidads21.adcolony.com,AdBlock
 HOST,androidads23.adcolony.com,AdBlock
 HOST,androidads4-3.adcolony.com,AdBlock
+HOST,androidads4-5.adcolony.com,AdBlock
 HOST,c4d-cdn.adcolony.com,AdBlock
 HOST,c4dm.adcolony.com,AdBlock
 HOST,cpa.adcolony.com,AdBlock
@@ -9516,8 +9517,6 @@ HOST,cdn11.contentabc.com,AdBlock
 HOST,hw-cdn.contentabc.com,AdBlock
 HOST,hw-cdn2.contentabc.com,AdBlock
 HOST,vz-cdn2.contentabc.com,AdBlock
-# [contentful.com]
-HOST,graphql.contentful.com,AdBlock
 # [contentsquare.net]
 HOST,contentsquare.net,AdBlock
 HOST,t.contentsquare.net,AdBlock
