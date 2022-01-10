@@ -7110,13 +7110,12 @@ HOST,www.adspyglass.com,AdBlock
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-16 17:32:41
-# HOST: 4
+# UPDATED: 2022-01-07 23:09:26
 # IP-CIDR: 1
 # IP6-CIDR: 1
+# HOST: 3
 # USER-AGENT: 1
-# TOTAL: 7
-HOST,118.89.204.198,AdBlock
+# TOTAL: 6
 HOST,appcloud2.in.zhihu.com,AdBlock
 HOST,mqtt.zhihu.com,AdBlock
 HOST,sugar.zhihu.com,AdBlock
@@ -9948,8 +9947,6 @@ HOST,monetize-api.coronalabs.com,AdBlock
 HOST,stats.coronalabs.com,AdBlock
 # [count.ly]
 HOST,count.ly,AdBlock
-# [coveo.com]
-HOST,static.cloud.coveo.com,AdBlock
 # [cox.com]
 HOST,smetrics.cox.com,AdBlock
 # [cpmstar.com]
@@ -10392,10 +10389,6 @@ HOST,tag.divvit.com,AdBlock
 # [dmpxs.com]
 HOST,bob.dmpxs.com,AdBlock
 HOST,ciq.dmpxs.com,AdBlock
-# [docusign.com]
-HOST,postsign.docusign.com,AdBlock
-# [docusign.net]
-HOST,telemetry.docusign.net,AdBlock
 # [doesxyz.com]
 HOST,ufz.doesxyz.com,AdBlock
 # [dofunapps.com]
@@ -11363,8 +11356,6 @@ HOST,havasedge.com,AdBlock
 HOST,event.havasedge.com,AdBlock
 # [hbi-ingest.net]
 HOST,hbi-ingest.net,AdBlock
-# [healthgrades.com]
-HOST,www.healthgrades.com,AdBlock
 # [heapanalytics.com]
 HOST,cdn.heapanalytics.com,AdBlock
 # [herocraft.com]
@@ -11536,8 +11527,6 @@ HOST,game.idoing3d.com,AdBlock
 HOST,server.idreams.pl,AdBlock
 # [iesnare.com]
 HOST,mpsnare.iesnare.com,AdBlock
-# [ifengimg.com]
-HOST,d.ifengimg.com,AdBlock
 # [ifood.tv]
 HOST,adlog.ifood.tv,AdBlock
 HOST,log.ifood.tv,AdBlock
@@ -14494,8 +14483,6 @@ HOST,labs-cdn.revcontent.com,AdBlock
 HOST,media.revcontent.com,AdBlock
 HOST,publishers.revcontent.com,AdBlock
 HOST,trends.revcontent.com,AdBlock
-# [revenuecat.com]
-HOST,api.revenuecat.com,AdBlock
 # [revjet.com]
 HOST,ads.revjet.com,AdBlock
 HOST,cdn.revjet.com,AdBlock

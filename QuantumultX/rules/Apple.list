@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2022-01-03 01:41:10
+# Apple rules refresh time: 2022-01-10 01:42:08
 
 USER-AGENT,*com.apple.mobileme.fmip1,Apple
 USER-AGENT,*WeatherFoundation*,Apple
@@ -68,8 +68,6 @@ HOST-SUFFIX,cdncn3.applemapkit.com,Apple
 HOST-SUFFIX,cdncn4.applemapkit.com,Apple
 HOST-SUFFIX,digicert.com,Apple
 HOST-SUFFIX,eracom.com.tw,Apple
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net,Apple
-HOST-SUFFIX,gsp4cn.ls.apple.com.edgekey.net,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
 HOST-SUFFIX,icloud-sandbox.com,Apple
@@ -125,13 +123,13 @@ HOST-SUFFIX,nextmgz.com,Apple
 HOST-SUFFIX,nexttv.com.tw,Apple
 HOST-SUFFIX,safebrowsing.apple,Apple
 HOST-SUFFIX,sharpdaily.tw,Apple
-HOST-SUFFIX,store.apple.com.edgekey.net,Apple
 HOST-SUFFIX,store.storeimages.cdnapple.com,Apple
 HOST-SUFFIX,updates.cdnapple.com,Apple
 HOST-SUFFIX,updateshttp.cdnapple.com,Apple
-HOST-SUFFIX,www.apple.com.edgekey.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
+HOST-KEYWORD,apple-support.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
+HOST-KEYWORD,apple.com.edgekey.net,Apple
 USER-AGENT,AppleNews*,Apple
 USER-AGENT,AppleTV*,Apple
 USER-AGENT,Music*,Apple
