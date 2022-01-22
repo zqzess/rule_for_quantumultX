@@ -32,7 +32,7 @@
 
 # wb (微博)
 ^https:\/\/www\.baidu\.com/s\?wd=wb\+([^&]+) https://s.weibo.com/weibo/$1 302
-^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wb\+([^&]+) https://s.weibo.com/weibo/3 302
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wb\+([^&]+) https://s.weibo.com/weibo/$3 302
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wb%20([^&]+) https://s.weibo.com/weibo/$2 302
 
 # wx (微信)

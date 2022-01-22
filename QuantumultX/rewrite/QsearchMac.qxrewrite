@@ -27,7 +27,7 @@
 
 # wb (微博)
 ^https:\/\/www\.baidu\.com/s\?wd=wb\+([^&]+) url 302 https://s.weibo.com/weibo/$1
-^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wb\+([^&]+) url 302 https://s.weibo.com/weibo/3
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wb\+([^&]+) url 302 https://s.weibo.com/weibo/$3
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wb%20([^&]+) url 302 https://s.weibo.com/weibo/$2
 
 # wx (微信)
@@ -52,7 +52,7 @@
 
 # gg(Google)
 ^https:\/\/www\.baidu\.com/s\?wd=gg\+([^&]+) url 302 https://www.google.com/search?q=$1
-^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=gg\+([^&]+) https://www.google.com/search?q=$3
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=gg\+([^&]+) url 302 https://www.google.com/search?q=$3
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=gg%20([^&]+) url 302 https://www.google.com/search?q=$2
 
 # Chrome
