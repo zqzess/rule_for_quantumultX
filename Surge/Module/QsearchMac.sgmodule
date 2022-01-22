@@ -1,20 +1,21 @@
 #!name=聚合搜索mac版
-#!desc=全能搜索(需要把的搜索引擎设置为：百度)，搜索示例:gg 充电宝
+#!desc=全能搜索，适配多浏览器(需要把的搜索引擎设置为：百度)，搜索示例:gg 充电宝
 #!system=mac
 
 [URL Rewrite]
-#Safari Firefox Edge
-#wk (Wikipedia中文)
+# Safari Firefox Edge
+# Chrome->bd
+# wk (Wikipedia中文)
 ^https:\/\/www\.baidu\.com/s\?wd=wk\+([^&]+) https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wk\+([^&]+) https://zh.wikipedia.org/wiki/$3 302
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wk%20([^&]+) https://zh.wikipedia.org/wiki/$2 302
 
-#wiki (Wikipedia)
+# wiki (Wikipedia)
 ^https:\/\/www\.baidu\.com/s\?wd=wiki\+([^&]+) https://wikipedia.org/wiki/$1 302
 ^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wiki\+([^&]+) https://wikipedia.org/wiki/$3 302
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wiki%20([^&]+) https://wikipedia.org/wiki/$2 302
 
-#sof (Stack Overflow)
+# sof (Stack Overflow)
 ^https:\/\/www\.baidu\.com/s\?wd=sof\+([^&]+) https://stackoverflow.com/search?q=$1 302
 ^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=sof\+([^&]+) https://stackoverflow.com/search?q=$3 302
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=sof%20([^&]+) https://stackoverflow.com/search?q=$2 302
@@ -60,6 +61,9 @@
 ^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=gg\+([^&]+) https://www.google.com/search?q=$3 302
 ^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=gg%20([^&]+) https://www.google.com/search?q=$2 302
 
+# Chrome
+# bd(baidu)
+^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://www.baidu.com/s?ie=utf-8&wd=$1 302
 
 [MITM]
-hostname = %APPEND% www.baidu.com
+hostname = %APPEND% www.baidu.com,www.google.com

@@ -149,6 +149,11 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Qsearch.qxrewrite, tag=safari聚合搜索百度版, update-interval=604800, opt-parser=false, enabled=true
 ```
+- 聚合搜索mac版-适配多浏览器
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/QsearchMac.qxrewrite, tag=聚合搜索mac版, update-interval=604800, opt-parser=false, enabled=true
+```
 - 常规广告屏蔽
 ```
 [rewrite_remote]

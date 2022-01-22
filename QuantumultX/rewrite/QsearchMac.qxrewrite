@@ -1,0 +1,62 @@
+# Safari Firefox Edge
+# Chrome->bd
+# wk (Wikipedia中文)
+^https:\/\/www\.baidu\.com/s\?wd=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wk\+([^&]+) url 302 https://zh.wikipedia.org/wiki/$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wk%20([^&]+) url 302 https://zh.wikipedia.org/wiki/$2
+
+# wiki (Wikipedia)
+^https:\/\/www\.baidu\.com/s\?wd=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wiki\+([^&]+) url 302 https://wikipedia.org/wiki/$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wiki%20([^&]+) url 302 https://wikipedia.org/wiki/$2
+
+# sof (Stack Overflow)
+^https:\/\/www\.baidu\.com/s\?wd=sof\+([^&]+) url 302 https://stackoverflow.com/search?q=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=sof\+([^&]+) url 302 https://stackoverflow.com/search?q=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=sof%20([^&]+) url 302 https://stackoverflow.com/search?q=$2
+
+# yd  (有道词典)
+^https:\/\/www\.baidu\.com/s\?wd=yd\+([^&]+) url 302 https://dict.youdao.com/search?q=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=yd\+([^&]+) url 302 https://dict.youdao.com/search?q=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=yd%20([^&]+) url 302 https://dict.youdao.com/search?q=$2
+
+# gh (GitHub)
+^https:\/\/www\.baidu\.com/s\?wd=gh\+([^&]+) url 302 https://github.com/search?q=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=gh\+([^&]+) url 302 https://github.com/search?q=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=gh%20([^&]+) url 302 https://github.com/search?q=$2
+
+# wb (微博)
+^https:\/\/www\.baidu\.com/s\?wd=wb\+([^&]+) url 302 https://s.weibo.com/weibo/$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wb\+([^&]+) url 302 https://s.weibo.com/weibo/3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wb%20([^&]+) url 302 https://s.weibo.com/weibo/$2
+
+# wx (微信)
+^https:\/\/www\.baidu\.com/s\?wd=wx\+([^&]+) url 302 https://weixin.sogou.com/weixinwap?query=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=wx\+([^&]+) url 302 https://weixin.sogou.com/weixinwap?query=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=wx%20([^&]+) url 302 https://weixin.sogou.com/weixinwap?query=$2
+
+# ytb (YouTube)
+^https:\/\/www\.baidu\.com/s\?wd=ytb\+([^&]+) url 302 https://www.youtube.com/results?search_query=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=ytb\+([^&]+) url 302 https://www.youtube.com/results?search_query=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=ytb%20([^&]+) url 302 https://www.youtube.com/results?search_query=$2
+
+# bi (必应)
+^https:\/\/www\.baidu\.com/s\?wd=bi\+([^&]+) url 302 https://cn.bing.com/search?q=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=bi\+([^&]+) url 302 https://cn.bing.com/search?q=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=bi%20([^&]+) url 302 https://cn.bing.com/search?q=$2
+
+# ddg (DuckDuckGo)
+^https:\/\/www\.baidu\.com/s\?wd=ddg\+([^&]+) url 302 https://duckduckgo.com/?ia=about&q=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=ddg\+([^&]+) url 302 https://duckduckgo.com/?ia=about&q=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=ddg%20([^&]+) url 302 https://duckduckgo.com/?ia=about&q=$2
+
+# gg(Google)
+^https:\/\/www\.baidu\.com/s\?wd=gg\+([^&]+) url 302 https://www.google.com/search?q=$1
+^https:\/\/www\.baidu\.com\/baidu\?tn=(.+)&ie=(.+)&wd=gg\+([^&]+) https://www.google.com/search?q=$3
+^https:\/\/www\.baidu\.com\/s\?ie=(.+)&wd=gg%20([^&]+) url 302 https://www.google.com/search?q=$2
+
+# Chrome
+# bd(baidu)
+^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) url 302 https://www.baidu.com/s?ie=utf-8&wd=$1
+
+hostname = www.baidu.com,www.google.com
