@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-01-17 01:44:30
+# AdBlock rules refresh time: 2022-01-24 01:39:45
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -1798,6 +1798,7 @@ DOMAIN-SUFFIX,wcnmd.top
 DOMAIN-SUFFIX,weareqy.com
 DOMAIN-SUFFIX,weboser.com
 DOMAIN-SUFFIX,weddingeeos.com
+DOMAIN-SUFFIX,wegowan.com
 DOMAIN-SUFFIX,weixinfb.cn
 DOMAIN-SUFFIX,werpig.com
 DOMAIN-SUFFIX,wfhxssg.com
@@ -1813,6 +1814,7 @@ DOMAIN-SUFFIX,whpxy.com
 DOMAIN-SUFFIX,whxhhjx.com
 DOMAIN-SUFFIX,whytoss.com
 DOMAIN-SUFFIX,wikigifth.com
+DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,wjguc.com
 DOMAIN-SUFFIX,wjnpxk.com
 DOMAIN-SUFFIX,wka8.com
@@ -2023,8 +2025,6 @@ DOMAIN-SUFFIX,yttz113.com
 DOMAIN-SUFFIX,ytunion.com
 DOMAIN-SUFFIX,ytybl.com
 DOMAIN-SUFFIX,yu0123456.com
-DOMAIN-SUFFIX,yueba94.com
-DOMAIN-SUFFIX,yueyetiyu.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,pv.sohu.com
@@ -6578,7 +6578,7 @@ DOMAIN,www.adspyglass.com
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-07 23:09:26
+# UPDATED: 2022-01-18 23:33:30
 # IP-CIDR: 1
 # IP6-CIDR: 1
 # HOST: 3
@@ -9210,36 +9210,6 @@ DOMAIN,server.connecto.io
 # [connexity.com]
 DOMAIN,noclick.connexity.com
 # [connexity.net]
-# [consensu.org]
-DOMAIN,mgr.consensu.org
-DOMAIN,admiral.mgr.consensu.org
-DOMAIN,adroll.mgr.consensu.org
-DOMAIN,d.adroll.mgr.consensu.org
-DOMAIN,consentmanager.mgr.consensu.org
-DOMAIN,cdn.consentmanager.mgr.consensu.org
-DOMAIN,conversant.mgr.consensu.org
-DOMAIN,api.conversant.mgr.consensu.org
-DOMAIN,cdn.conversant.mgr.consensu.org
-DOMAIN,faktor.mgr.consensu.org
-DOMAIN,cmp.faktor.mgr.consensu.org
-DOMAIN,onetrust.mgr.consensu.org
-DOMAIN,cookies.onetrust.mgr.consensu.org
-DOMAIN,optad360.mgr.consensu.org
-DOMAIN,stat.optad360.mgr.consensu.org
-DOMAIN,quantcast.mgr.consensu.org
-DOMAIN,apis.quantcast.mgr.consensu.org
-DOMAIN,audit-tcfv2.quantcast.mgr.consensu.org
-DOMAIN,static.quantcast.mgr.consensu.org
-DOMAIN,test.quantcast.mgr.consensu.org
-DOMAIN,sharethis.mgr.consensu.org
-DOMAIN,c.sharethis.mgr.consensu.org
-DOMAIN,sourcepoint.mgr.consensu.org
-DOMAIN,teads.mgr.consensu.org
-DOMAIN,cmp.teads.mgr.consensu.org
-DOMAIN,trustarc.mgr.consensu.org
-DOMAIN,uniconsent.mgr.consensu.org
-DOMAIN,cmp.uniconsent.mgr.consensu.org
-DOMAIN,vendorlist.consensu.org
 # [consoliads.com]
 DOMAIN,sdk.consoliads.com
 # [content-ad.net]
@@ -10003,8 +9973,6 @@ DOMAIN,unityads.unity3d.com.edgekey.net
 DOMAIN,cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net
 DOMAIN,vungle.com.edgekey.net
 DOMAIN,api.vungle.com.edgekey.net
-DOMAIN,cookiebot.com-v1.edgekey.net
-DOMAIN,consentcdn.cookiebot.com-v1.edgekey.net
 DOMAIN,rubiconproject.com-v1.edgekey.net
 DOMAIN,video-ads.rubiconproject.com-v1.edgekey.net
 DOMAIN,v6analytics.htmedia.in.edgekey.net
@@ -11610,8 +11578,6 @@ DOMAIN,a-ssl.ligatus.com
 # [lightboxcdn.com]
 DOMAIN,s3.lightboxcdn.com
 DOMAIN,www.lightboxcdn.com
-# [liiift.io]
-DOMAIN,cs.liiift.io
 # [lijit.com]
 DOMAIN,pba.aws.lijit.com
 DOMAIN,ce.lijit.com
@@ -12807,11 +12773,6 @@ DOMAIN,a.et.nytimes.com
 DOMAIN,meter-svc.nytimes.com
 # [o333o.com]
 DOMAIN,cdn.o333o.com
-# [oath.cloud]
-DOMAIN,aws.oath.cloud
-# [oath.com]
-DOMAIN,consent.cmp.oath.com
-DOMAIN,service.cmp.oath.com
 # [oclaserver.com]
 DOMAIN,oclaserver.com
 # [oclasrv.com]
@@ -12915,10 +12876,6 @@ DOMAIN,api.onesignal.com
 DOMAIN,cdn.onesignal.com
 # [onetag-sys.com]
 DOMAIN,onetag-sys.com
-# [onetrust.com]
-DOMAIN,geolocation.onetrust.com
-DOMAIN,privacyportal.onetrust.com
-DOMAIN,privacyportal-de.onetrust.com
 # [online-metrix.net]
 DOMAIN,online-metrix.net
 DOMAIN,aa.online-metrix.net

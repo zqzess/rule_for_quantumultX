@@ -56,6 +56,12 @@ HOST-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
 HOST-SUFFIX,bbci.co,GMedia
 HOST-SUFFIX,bbci.co.uk,GMedia
 
+# > Curiosity Stream & Nebula
+HOST-SUFFIX,curiositystream.com,GMedia
+HOST-SUFFIX,nebula.app,GMedia
+HOST-SUFFIX,watchnebula.com,GMedia
+HOST-SUFFIX,zype.com,GMedia
+
 # > DAZN
 HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
 HOST-SUFFIX,dazn.com,GMedia
@@ -181,6 +187,9 @@ IP-CIDR,208.75.76.0/22,GMedia
 
 # > Pandora
 HOST-SUFFIX,pandora.com,GMedia
+
+# > Peacock
+HOST-SUFFIX,peacocktv.com,GMedia
 
 # > PBS
 USER-AGENT,PBS*,GMedia

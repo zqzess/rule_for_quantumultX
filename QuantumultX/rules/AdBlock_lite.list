@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-01-17 01:44:30
+# AdBlock rules refresh time: 2022-01-24 01:39:45
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -1799,6 +1799,7 @@ HOST-SUFFIX,wcnmd.top,AdBlock
 HOST-SUFFIX,weareqy.com,AdBlock
 HOST-SUFFIX,weboser.com,AdBlock
 HOST-SUFFIX,weddingeeos.com,AdBlock
+HOST-SUFFIX,wegowan.com,AdBlock
 HOST-SUFFIX,weixinfb.cn,AdBlock
 HOST-SUFFIX,werpig.com,AdBlock
 HOST-SUFFIX,wfhxssg.com,AdBlock
@@ -1814,6 +1815,7 @@ HOST-SUFFIX,whpxy.com,AdBlock
 HOST-SUFFIX,whxhhjx.com,AdBlock
 HOST-SUFFIX,whytoss.com,AdBlock
 HOST-SUFFIX,wikigifth.com,AdBlock
+HOST-SUFFIX,windows.net,AdBlock
 HOST-SUFFIX,wjguc.com,AdBlock
 HOST-SUFFIX,wjnpxk.com,AdBlock
 HOST-SUFFIX,wka8.com,AdBlock
@@ -2024,8 +2026,6 @@ HOST-SUFFIX,yttz113.com,AdBlock
 HOST-SUFFIX,ytunion.com,AdBlock
 HOST-SUFFIX,ytybl.com,AdBlock
 HOST-SUFFIX,yu0123456.com,AdBlock
-HOST-SUFFIX,yueba94.com,AdBlock
-HOST-SUFFIX,yueyetiyu.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,pv.sohu.com,AdBlock
@@ -6579,7 +6579,7 @@ HOST,www.adspyglass.com,AdBlock
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-07 23:09:26
+# UPDATED: 2022-01-18 23:33:30
 # IP-CIDR: 1
 # IP6-CIDR: 1
 # HOST: 3
@@ -9213,36 +9213,6 @@ HOST,server.connecto.io,AdBlock
 # [connexity.com]
 HOST,noclick.connexity.com,AdBlock
 # [connexity.net]
-# [consensu.org]
-HOST,mgr.consensu.org,AdBlock
-HOST,admiral.mgr.consensu.org,AdBlock
-HOST,adroll.mgr.consensu.org,AdBlock
-HOST,d.adroll.mgr.consensu.org,AdBlock
-HOST,consentmanager.mgr.consensu.org,AdBlock
-HOST,cdn.consentmanager.mgr.consensu.org,AdBlock
-HOST,conversant.mgr.consensu.org,AdBlock
-HOST,api.conversant.mgr.consensu.org,AdBlock
-HOST,cdn.conversant.mgr.consensu.org,AdBlock
-HOST,faktor.mgr.consensu.org,AdBlock
-HOST,cmp.faktor.mgr.consensu.org,AdBlock
-HOST,onetrust.mgr.consensu.org,AdBlock
-HOST,cookies.onetrust.mgr.consensu.org,AdBlock
-HOST,optad360.mgr.consensu.org,AdBlock
-HOST,stat.optad360.mgr.consensu.org,AdBlock
-HOST,quantcast.mgr.consensu.org,AdBlock
-HOST,apis.quantcast.mgr.consensu.org,AdBlock
-HOST,audit-tcfv2.quantcast.mgr.consensu.org,AdBlock
-HOST,static.quantcast.mgr.consensu.org,AdBlock
-HOST,test.quantcast.mgr.consensu.org,AdBlock
-HOST,sharethis.mgr.consensu.org,AdBlock
-HOST,c.sharethis.mgr.consensu.org,AdBlock
-HOST,sourcepoint.mgr.consensu.org,AdBlock
-HOST,teads.mgr.consensu.org,AdBlock
-HOST,cmp.teads.mgr.consensu.org,AdBlock
-HOST,trustarc.mgr.consensu.org,AdBlock
-HOST,uniconsent.mgr.consensu.org,AdBlock
-HOST,cmp.uniconsent.mgr.consensu.org,AdBlock
-HOST,vendorlist.consensu.org,AdBlock
 # [consoliads.com]
 HOST,sdk.consoliads.com,AdBlock
 # [content-ad.net]
@@ -10006,8 +9976,6 @@ HOST,unityads.unity3d.com.edgekey.net,AdBlock
 HOST,cdn-store-icons-akamai-prd.unityads.unity3d.com.edgekey.net,AdBlock
 HOST,vungle.com.edgekey.net,AdBlock
 HOST,api.vungle.com.edgekey.net,AdBlock
-HOST,cookiebot.com-v1.edgekey.net,AdBlock
-HOST,consentcdn.cookiebot.com-v1.edgekey.net,AdBlock
 HOST,rubiconproject.com-v1.edgekey.net,AdBlock
 HOST,video-ads.rubiconproject.com-v1.edgekey.net,AdBlock
 HOST,v6analytics.htmedia.in.edgekey.net,AdBlock
@@ -11613,8 +11581,6 @@ HOST,a-ssl.ligatus.com,AdBlock
 # [lightboxcdn.com]
 HOST,s3.lightboxcdn.com,AdBlock
 HOST,www.lightboxcdn.com,AdBlock
-# [liiift.io]
-HOST,cs.liiift.io,AdBlock
 # [lijit.com]
 HOST,pba.aws.lijit.com,AdBlock
 HOST,ce.lijit.com,AdBlock
@@ -12810,11 +12776,6 @@ HOST,a.et.nytimes.com,AdBlock
 HOST,meter-svc.nytimes.com,AdBlock
 # [o333o.com]
 HOST,cdn.o333o.com,AdBlock
-# [oath.cloud]
-HOST,aws.oath.cloud,AdBlock
-# [oath.com]
-HOST,consent.cmp.oath.com,AdBlock
-HOST,service.cmp.oath.com,AdBlock
 # [oclaserver.com]
 HOST,oclaserver.com,AdBlock
 # [oclasrv.com]
@@ -12918,10 +12879,6 @@ HOST,api.onesignal.com,AdBlock
 HOST,cdn.onesignal.com,AdBlock
 # [onetag-sys.com]
 HOST,onetag-sys.com,AdBlock
-# [onetrust.com]
-HOST,geolocation.onetrust.com,AdBlock
-HOST,privacyportal.onetrust.com,AdBlock
-HOST,privacyportal-de.onetrust.com,AdBlock
 # [online-metrix.net]
 HOST,online-metrix.net,AdBlock
 HOST,aa.online-metrix.net,AdBlock

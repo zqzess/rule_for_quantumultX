@@ -1,20 +1,19 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-12-21 15:34:16
-# HOST-SUFFIX: 578
+# UPDATED: 2022-01-23 17:40:22
+# HOST-SUFFIX: 563
 # USER-AGENT: 31
-# HOST: 7
-# IP-CIDR: 9
+# HOST: 6
+# IP-CIDR: 10
+# HOST-KEYWORD: 10
 # IP6-CIDR: 4
-# HOST-KEYWORD: 1
-# TOTAL: 630
+# TOTAL: 624
 HOST,analytics.strava.com,China
 HOST,client.amplifi.com,China
 HOST,download.jetbrains.com,China
 HOST,file-igamecj.akamaized.net,China
 HOST,ip.istatmenus.app,China
-HOST,officecdn-microsoft-com.akamaized.net,China
 HOST,sms.imagetasks.com,China
 HOST-SUFFIX,10010.com,China
 HOST-SUFFIX,10089.cn,China
@@ -64,12 +63,7 @@ HOST-SUFFIX,aliapp.org,China
 HOST-SUFFIX,alibaba.com,China
 HOST-SUFFIX,alibabacloud.com,China
 HOST-SUFFIX,alibabausercontent.com,China
-HOST-SUFFIX,alicdn.com,China
 HOST-SUFFIX,alikunlun.com,China
-HOST-SUFFIX,alipay.com,China
-HOST-SUFFIX,alipayobjects.com,China
-HOST-SUFFIX,aliyun.com,China
-HOST-SUFFIX,aliyuncs.com,China
 HOST-SUFFIX,alphassl.com,China
 HOST-SUFFIX,amap.com,China
 HOST-SUFFIX,amd.com,China
@@ -90,10 +84,6 @@ HOST-SUFFIX,azure.cn,China
 HOST-SUFFIX,b612.net,China
 HOST-SUFFIX,bababian.com,China
 HOST-SUFFIX,baduziyuan.com,China
-HOST-SUFFIX,baidu.com,China
-HOST-SUFFIX,baidubcr.com,China
-HOST-SUFFIX,baidupan.com,China
-HOST-SUFFIX,baidupcs.com,China
 HOST-SUFFIX,battle.net,China
 HOST-SUFFIX,battlenet.com,China
 HOST-SUFFIX,bdatu.com,China
@@ -196,7 +186,6 @@ HOST-SUFFIX,eclipse.org,China
 HOST-SUFFIX,edu.cn,China
 HOST-SUFFIX,ele.me,China
 HOST-SUFFIX,emerald.com,China
-HOST-SUFFIX,empornium.me,China
 HOST-SUFFIX,engineeringvillage.com,China
 HOST-SUFFIX,eudic.net,China
 HOST-SUFFIX,ewqcxz.com,China
@@ -220,7 +209,6 @@ HOST-SUFFIX,geilicdn.com,China
 HOST-SUFFIX,gifshow.com,China
 HOST-SUFFIX,godic.net,China
 HOST-SUFFIX,goodread.com,China
-HOST-SUFFIX,googletraveladservices.com,China
 HOST-SUFFIX,gtimg.com,China
 HOST-SUFFIX,haibian.com,China
 HOST-SUFFIX,hamreus.com,China
@@ -238,6 +226,7 @@ HOST-SUFFIX,hkserversolution.com,China
 HOST-SUFFIX,hollisterco.com,China
 HOST-SUFFIX,homeinns.com,China
 HOST-SUFFIX,hongxiu.com,China
+HOST-SUFFIX,hori-gz.com,China
 HOST-SUFFIX,hostbuf.com,China
 HOST-SUFFIX,hotmail.com,China
 HOST-SUFFIX,huxiucdn.com,China
@@ -320,6 +309,7 @@ HOST-SUFFIX,lucifr.com,China
 HOST-SUFFIX,luojilab.com,China
 HOST-SUFFIX,luoo.net,China
 HOST-SUFFIX,lxdns.com,China
+HOST-SUFFIX,lxjapp.com,China
 HOST-SUFFIX,madsrevolution.net,China
 HOST-SUFFIX,mai.tn,China
 HOST-SUFFIX,maoyan.com,China
@@ -340,8 +330,6 @@ HOST-SUFFIX,mgtv.com,China
 HOST-SUFFIX,mi-img.com,China
 HOST-SUFFIX,mi.com,China
 HOST-SUFFIX,miaopai.com,China
-HOST-SUFFIX,microsoft.com,China
-HOST-SUFFIX,microsoftonline.com,China
 HOST-SUFFIX,miui.com,China
 HOST-SUFFIX,miwifi.com,China
 HOST-SUFFIX,mls-cdn.com,China
@@ -371,7 +359,6 @@ HOST-SUFFIX,ncore.cc,China
 HOST-SUFFIX,netease.com,China
 HOST-SUFFIX,nfoservers.com,China
 HOST-SUFFIX,ngabbs.com,China
-HOST-SUFFIX,nim-lang-cn.org,China
 HOST-SUFFIX,novipnoad.com,China
 HOST-SUFFIX,ntp.org,China
 HOST-SUFFIX,nuomi.com,China
@@ -395,7 +382,6 @@ HOST-SUFFIX,oxfordbibliographies.com,China
 HOST-SUFFIX,oxfordmusiconline.com,China
 HOST-SUFFIX,p4pfile.com,China
 HOST-SUFFIX,passthepopcorn.me,China
-HOST-SUFFIX,paypal.me,China
 HOST-SUFFIX,pgyer.com,China
 HOST-SUFFIX,pingan.com,China
 HOST-SUFFIX,pingan.com.cn,China
@@ -438,7 +424,6 @@ HOST-SUFFIX,ronghub.com,China
 HOST-SUFFIX,rrmj.tv,China
 HOST-SUFFIX,rsc.org,China
 HOST-SUFFIX,ruguoapp.com,China
-HOST-SUFFIX,s-microsoft.com,China
 HOST-SUFFIX,s-reader.com,China
 HOST-SUFFIX,sagepub.com,China
 HOST-SUFFIX,sandai.net,China
@@ -491,7 +476,6 @@ HOST-SUFFIX,suning.com,China
 HOST-SUFFIX,t.tt,China
 HOST-SUFFIX,takungpao.com,China
 HOST-SUFFIX,tandfonline.com,China
-HOST-SUFFIX,taobao.com,China
 HOST-SUFFIX,tawk.link,China
 HOST-SUFFIX,tawk.to,China
 HOST-SUFFIX,tencent-cloud.com,China
@@ -594,7 +578,16 @@ HOST-SUFFIX,zmz2019.com,China
 HOST-SUFFIX,zmzapi.com,China
 HOST-SUFFIX,zmzapi.net,China
 HOST-SUFFIX,zmzfile.com,China
+HOST-KEYWORD,-cn,China
 HOST-KEYWORD,.tmall.com,China
+HOST-KEYWORD,alicdn,China
+HOST-KEYWORD,alipay,China
+HOST-KEYWORD,aliyun,China
+HOST-KEYWORD,baidu,China
+HOST-KEYWORD,beplay,China
+HOST-KEYWORD,microsoft,China
+HOST-KEYWORD,officecdn,China
+HOST-KEYWORD,taobao,China
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,China
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,China
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,China
@@ -634,6 +627,7 @@ IP-CIDR,129.226.0.0/16,China
 IP-CIDR,182.254.116.0/24,China
 IP-CIDR,183.128.0.0/11,China
 IP-CIDR,185.188.32.0/22,China
+IP-CIDR,203.205.238.0/23,China
 IP-CIDR,203.205.254.0/23,China
 IP6-CIDR,2a0b:b580::/48,China
 IP6-CIDR,2a0b:b581::/48,China

@@ -39,6 +39,11 @@ HOST-SUFFIX,bbcfmt.hs.llnwd.net,GMedia
 HOST-SUFFIX,bbci.co,GMedia
 HOST-SUFFIX,bbci.co.uk,GMedia
 
+HOST-SUFFIX,curiositystream.com,GMedia
+HOST-SUFFIX,nebula.app,GMedia
+HOST-SUFFIX,watchnebula.com,GMedia
+HOST-SUFFIX,zype.com,GMedia
+
 HOST-SUFFIX,d151l6v8er5bdm.cloudfront.net,GMedia
 HOST-SUFFIX,dazn.com,GMedia
 HOST-SUFFIX,dazn-api.com,GMedia
@@ -149,6 +154,8 @@ IP-CIDR,208.75.76.0/22,GMedia
 
 HOST-SUFFIX,pandora.com,GMedia
 
+HOST-SUFFIX,peacocktv.com,GMedia
+
 USER-AGENT,PBS*,GMedia
 HOST-SUFFIX,pbs.org,GMedia
 
@@ -231,7 +238,6 @@ HOST,rpg.pic-imges.com,GMedia
 HOST,tv.applemusic.com,GMedia
 HOST,uts-api.itunes.apple.com,GMedia
 HOST,videos-f.jwpsrv.com,GMedia
-HOST,youtubei.googleapis.com,GMedia
 HOST,yt3.ggpht.com,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,abema.io,GMedia
@@ -299,12 +305,12 @@ HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,emarsys.net,GMedia
 HOST-SUFFIX,emome.net,GMedia
 HOST-SUFFIX,encoretvb.com,GMedia
+HOST-SUFFIX,ext-twitch.tv,GMedia
 HOST-SUFFIX,fast.com,GMedia
 HOST-SUFFIX,firebaseio.com,GMedia
 HOST-SUFFIX,fox.com,GMedia
 HOST-SUFFIX,foxdcg.com,GMedia
 HOST-SUFFIX,foxplay.com,GMedia
-HOST-SUFFIX,foxplus.com,GMedia
 HOST-SUFFIX,gamer.com.tw,GMedia
 HOST-SUFFIX,go.com,GMedia
 HOST-SUFFIX,googlevideo.com,GMedia
@@ -314,8 +320,6 @@ HOST-SUFFIX,hayabusa.io,GMedia
 HOST-SUFFIX,hbo.com,GMedia
 HOST-SUFFIX,hboasia.com,GMedia
 HOST-SUFFIX,hbogo.com,GMedia
-HOST-SUFFIX,hbogoasia.com,GMedia
-HOST-SUFFIX,hbogoasia.hk,GMedia
 HOST-SUFFIX,hbomax.com,GMedia
 HOST-SUFFIX,hbomaxcdn.com,GMedia
 HOST-SUFFIX,hbonow.com,GMedia
@@ -338,14 +342,6 @@ HOST-SUFFIX,ipstatp.com,GMedia
 HOST-SUFFIX,iq.com,GMedia
 HOST-SUFFIX,itv.com,GMedia
 HOST-SUFFIX,itvstatic.com,GMedia
-HOST-SUFFIX,japonx.com,GMedia
-HOST-SUFFIX,japonx.net,GMedia
-HOST-SUFFIX,japonx.tv,GMedia
-HOST-SUFFIX,japonx.vip,GMedia
-HOST-SUFFIX,japronx.com,GMedia
-HOST-SUFFIX,japronx.net,GMedia
-HOST-SUFFIX,japronx.tv,GMedia
-HOST-SUFFIX,japronx.vip,GMedia
 HOST-SUFFIX,joox.com,GMedia
 HOST-SUFFIX,js-agent.newrelic.com,GMedia
 HOST-SUFFIX,jtvnw.net,GMedia
@@ -378,11 +374,6 @@ HOST-SUFFIX,netflixdnstest6.com,GMedia
 HOST-SUFFIX,netflixdnstest7.com,GMedia
 HOST-SUFFIX,netflixdnstest8.com,GMedia
 HOST-SUFFIX,netflixdnstest9.com,GMedia
-HOST-SUFFIX,nflxext.com,GMedia
-HOST-SUFFIX,nflximg.com,GMedia
-HOST-SUFFIX,nflximg.net,GMedia
-HOST-SUFFIX,nflxso.net,GMedia
-HOST-SUFFIX,nflxvideo.net,GMedia
 HOST-SUFFIX,nicovideo.jp,GMedia
 HOST-SUFFIX,nimg.jp,GMedia
 HOST-SUFFIX,now.com,GMedia
@@ -427,10 +418,10 @@ HOST-SUFFIX,tik-tokapi.com,GMedia
 HOST-SUFFIX,tiktok.com,GMedia
 HOST-SUFFIX,tiktokcdn.com,GMedia
 HOST-SUFFIX,tiktokv.com,GMedia
-HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,tv.apple.com,GMedia
 HOST-SUFFIX,tvb.com,GMedia
 HOST-SUFFIX,tver.jp,GMedia
+HOST-SUFFIX,twitch-ext.rootonline.de,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
 HOST-SUFFIX,uplynk.com,GMedia
@@ -442,12 +433,28 @@ HOST-SUFFIX,wetvinfo.com,GMedia
 HOST-SUFFIX,yb.uncn.jp,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
 HOST-SUFFIX,youtu.be,GMedia
-HOST-SUFFIX,youtube.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
+HOST-KEYWORD,-spotify-com,GMedia
+HOST-KEYWORD,-tiktokcdn-com,GMedia
+HOST-KEYWORD,.hbogoasia.,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
+HOST-KEYWORD,avoddashs,GMedia
+HOST-KEYWORD,bbcfmt,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
+HOST-KEYWORD,foxplus,GMedia
+HOST-KEYWORD,hbogoasia,GMedia
+HOST-KEYWORD,japonx,GMedia
+HOST-KEYWORD,japronx,GMedia
+HOST-KEYWORD,jooxweb-api,GMedia
+HOST-KEYWORD,nflx,GMedia
+HOST-KEYWORD,nowtv100,GMedia
+HOST-KEYWORD,rthklive,GMedia
 HOST-KEYWORD,spotify.com,GMedia
+HOST-KEYWORD,ttvnw,GMedia
+HOST-KEYWORD,uk-live,GMedia
+HOST-KEYWORD,voddazn,GMedia
+HOST-KEYWORD,youtube,GMedia
 USER-AGENT,*PCCW*,GMedia
 USER-AGENT,*Spotify*,GMedia
 USER-AGENT,*YouTubeMusic*,GMedia

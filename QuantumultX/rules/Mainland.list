@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2022-01-17 01:44:31
+# Mainland rules refresh time: 2022-01-24 01:39:47
 
 USER-AGENT,hide*,Mainland
 USER-AGENT,MicroMessenger*,Mainland
@@ -322,7 +322,6 @@ HOST,analytics.strava.com,Mainland
 HOST,download.jetbrains.com,Mainland
 HOST,file-igamecj.akamaized.net,Mainland
 HOST,ip.istatmenus.app,Mainland
-HOST,officecdn-microsoft-com.akamaized.net,Mainland
 HOST,sms.imagetasks.com,Mainland
 HOST-SUFFIX,115.com,Mainland
 HOST-SUFFIX,12306.com,Mainland
@@ -350,7 +349,6 @@ HOST-SUFFIX,aip.org,Mainland
 HOST-SUFFIX,aixifan.com,Mainland
 HOST-SUFFIX,alibabausercontent.com,Mainland
 HOST-SUFFIX,alikunlun.com,Mainland
-HOST-SUFFIX,aliyuncs.com,Mainland
 HOST-SUFFIX,amd.com,Mainland
 HOST-SUFFIX,ams.org,Mainland
 HOST-SUFFIX,animebytes.tv,Mainland
@@ -365,9 +363,6 @@ HOST-SUFFIX,awesome-hd.me,Mainland
 HOST-SUFFIX,azure.cn,Mainland
 HOST-SUFFIX,b612.net,Mainland
 HOST-SUFFIX,baduziyuan.com,Mainland
-HOST-SUFFIX,baidubcr.com,Mainland
-HOST-SUFFIX,baidupan.com,Mainland
-HOST-SUFFIX,baidupcs.com,Mainland
 HOST-SUFFIX,bdatu.com,Mainland
 HOST-SUFFIX,beitaichufang.com,Mainland
 HOST-SUFFIX,biliapi.com,Mainland
@@ -419,7 +414,6 @@ HOST-SUFFIX,eastmoney.com,Mainland
 HOST-SUFFIX,ebscohost.com,Mainland
 HOST-SUFFIX,ele.me,Mainland
 HOST-SUFFIX,emerald.com,Mainland
-HOST-SUFFIX,empornium.me,Mainland
 HOST-SUFFIX,engineeringvillage.com,Mainland
 HOST-SUFFIX,faceu.mobi,Mainland
 HOST-SUFFIX,feiliao.com,Mainland
@@ -433,7 +427,6 @@ HOST-SUFFIX,gandi.net,Mainland
 HOST-SUFFIX,gazellegames.net,Mainland
 HOST-SUFFIX,geilicdn.com,Mainland
 HOST-SUFFIX,gifshow.com,Mainland
-HOST-SUFFIX,googletraveladservices.com,Mainland
 HOST-SUFFIX,hamreus.com,Mainland
 HOST-SUFFIX,hdbits.org,Mainland
 HOST-SUFFIX,hddolby.com,Mainland
@@ -443,6 +436,7 @@ HOST-SUFFIX,heweather.net,Mainland
 HOST-SUFFIX,hicloud.com,Mainland
 HOST-SUFFIX,hitv.com,Mainland
 HOST-SUFFIX,hkserversolution.com,Mainland
+HOST-SUFFIX,hori-gz.com,Mainland
 HOST-SUFFIX,hostbuf.com,Mainland
 HOST-SUFFIX,huxiucdn.com,Mainland
 HOST-SUFFIX,huya.com,Mainland
@@ -492,6 +486,7 @@ HOST-SUFFIX,liyuans.com,Mainland
 HOST-SUFFIX,lofter.com,Mainland
 HOST-SUFFIX,loli.net,Mainland
 HOST-SUFFIX,luojilab.com,Mainland
+HOST-SUFFIX,lxjapp.com,Mainland
 HOST-SUFFIX,madsrevolution.net,Mainland
 HOST-SUFFIX,maoyan.com,Mainland
 HOST-SUFFIX,maoyun.tv,Mainland
@@ -506,8 +501,6 @@ HOST-SUFFIX,meixincdn.com,Mainland
 HOST-SUFFIX,metatrader4.com,Mainland
 HOST-SUFFIX,metatrader5.com,Mainland
 HOST-SUFFIX,mgtv.com,Mainland
-HOST-SUFFIX,microsoft.com,Mainland
-HOST-SUFFIX,microsoftonline.com,Mainland
 HOST-SUFFIX,mls-cdn.com,Mainland
 HOST-SUFFIX,mobike.com,Mainland
 HOST-SUFFIX,morethan.tv,Mainland
@@ -522,7 +515,6 @@ HOST-SUFFIX,mzstatic.com,Mainland
 HOST-SUFFIX,nanyangpt.com,Mainland
 HOST-SUFFIX,nature.com,Mainland
 HOST-SUFFIX,ncore.cc,Mainland
-HOST-SUFFIX,nim-lang-cn.org,Mainland
 HOST-SUFFIX,novipnoad.com,Mainland
 HOST-SUFFIX,ntp.org,Mainland
 HOST-SUFFIX,nvidia.com,Mainland
@@ -538,7 +530,6 @@ HOST-SUFFIX,oxfordartonline.com,Mainland
 HOST-SUFFIX,oxfordbibliographies.com,Mainland
 HOST-SUFFIX,oxfordmusiconline.com,Mainland
 HOST-SUFFIX,p4pfile.com,Mainland
-HOST-SUFFIX,paypal.me,Mainland
 HOST-SUFFIX,plex.tv,Mainland
 HOST-SUFFIX,pnas.org,Mainland
 HOST-SUFFIX,ppsimg.com,Mainland
@@ -555,7 +546,6 @@ HOST-SUFFIX,qyerstatic.com,Mainland
 HOST-SUFFIX,raychase.net,Mainland
 HOST-SUFFIX,ronghub.com,Mainland
 HOST-SUFFIX,rsc.org,Mainland
-HOST-SUFFIX,s-microsoft.com,Mainland
 HOST-SUFFIX,s-reader.com,Mainland
 HOST-SUFFIX,sagepub.com,Mainland
 HOST-SUFFIX,sankuai.com,Mainland
@@ -633,7 +623,14 @@ HOST-SUFFIX,zmz2019.com,Mainland
 HOST-SUFFIX,zmzapi.com,Mainland
 HOST-SUFFIX,zmzapi.net,Mainland
 HOST-SUFFIX,zmzfile.com,Mainland
+HOST-KEYWORD,-cn,Mainland
 HOST-KEYWORD,.tmall.com,Mainland
+HOST-KEYWORD,alicdn,Mainland
+HOST-KEYWORD,alipay,Mainland
+HOST-KEYWORD,aliyun,Mainland
+HOST-KEYWORD,baidu,Mainland
+HOST-KEYWORD,officecdn,Mainland
+HOST-KEYWORD,taobao,Mainland
 USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*,Mainland
 USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,Mainland
 USER-AGENT,%E4%BC%98%E9%85%B7*,Mainland
@@ -661,6 +658,7 @@ IP-CIDR,129.226.0.0/16,Mainland
 IP-CIDR,182.254.116.0/24,Mainland
 IP-CIDR,183.128.0.0/11,Mainland
 IP-CIDR,185.188.32.0/22,Mainland
+IP-CIDR,203.205.238.0/23,Mainland
 IP-CIDR,203.205.254.0/23,Mainland
 IP6-CIDR,2a0b:b580::/48,Mainland
 IP6-CIDR,2a0b:b581::/48,Mainland
