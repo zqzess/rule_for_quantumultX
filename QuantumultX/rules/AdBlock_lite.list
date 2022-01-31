@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-01-24 01:39:45
+# AdBlock rules refresh time: 2022-01-31 01:34:03
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -2025,7 +2025,6 @@ HOST-SUFFIX,ytmaitian.com,AdBlock
 HOST-SUFFIX,yttz113.com,AdBlock
 HOST-SUFFIX,ytunion.com,AdBlock
 HOST-SUFFIX,ytybl.com,AdBlock
-HOST-SUFFIX,yu0123456.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,pv.sohu.com,AdBlock
@@ -2084,7 +2083,6 @@ HOST,xiaomi.m.cn.miaozhen.com,AdBlock
 HOST,xiaomi-dtv.m.cn.miaozhen.com,AdBlock
 HOST,baiducdncmn3.inter.iqiyi.com,AdBlock
 HOST,nadvideo2.baidu.com,AdBlock
-HOST,cdn.cnbj1.fds.api.mi-img.com,AdBlock
 HOST,api.cupid.iqiyi.com,AdBlock
 HOST,api.yuedu.iqiyi.com,AdBlock
 HOST,c.uaa.iqiyi.com,AdBlock
@@ -6609,7 +6607,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,AdBlock
 HOST,analytics.163.com,AdBlock
 HOST,crash.163.com,AdBlock
 # [1mobile.com]
-HOST,ads.1mobile.com,AdBlock
 HOST,api4.1mobile.com,AdBlock
 # [1rx.io]
 HOST,sync.1rx.io,AdBlock
@@ -6640,7 +6637,6 @@ HOST,3gl.net,AdBlock
 HOST,g.3gl.net,AdBlock
 HOST,r.3gl.net,AdBlock
 # [3lift.com]
-HOST,as-dmpsync.3lift.com,AdBlock
 HOST,as-eb2.3lift.com,AdBlock
 HOST,as-tlx.3lift.com,AdBlock
 HOST,cdn.3lift.com,AdBlock
@@ -6650,7 +6646,6 @@ HOST,ib.3lift.com,AdBlock
 HOST,images.3lift.com,AdBlock
 HOST,img.3lift.com,AdBlock
 HOST,staging-tlx.3lift.com,AdBlock
-HOST,staging-us-east-tlx.3lift.com,AdBlock
 HOST,tlx.3lift.com,AdBlock
 HOST,update.3lift.com,AdBlock
 HOST,s.update.3lift.com,AdBlock
@@ -6699,7 +6694,6 @@ HOST,us-east-2.prod.pr.analytics.console.aws.a2z.com,AdBlock
 HOST,us-west-2.prod.pr.analytics.console.aws.a2z.com,AdBlock
 HOST,pw.analytics.console.aws.a2z.com,AdBlock
 HOST,prod.pw.analytics.console.aws.a2z.com,AdBlock
-HOST,us-east-1.prod.pw.analytics.console.aws.a2z.com,AdBlock
 HOST,metrics.client-eng.a2z.com,AdBlock
 HOST,global.telemetry.insights.video.a2z.com,AdBlock
 HOST,us-east-1.telemetry.insights.video.a2z.com,AdBlock
@@ -6713,8 +6707,6 @@ HOST,smetrics.aa.com,AdBlock
 HOST,aamapi.com,AdBlock
 # [aamsitecertifier.com]
 HOST,aamcf.aamsitecertifier.com,AdBlock
-# [aarki.com]
-HOST,aarki.com,AdBlock
 # [aarki.net]
 HOST,adx-asia.aarki.net,AdBlock
 HOST,adx-asia-imp.aarki.net,AdBlock
@@ -6739,22 +6731,21 @@ HOST,c.aaxads.com,AdBlock
 HOST,assets.abbi.io,AdBlock
 HOST,rtapi.abbi.io,AdBlock
 HOST,stats.abbi.io,AdBlock
+# [abc.com]
+HOST,sw88.abc.com,AdBlock
 # [abtasty.com]
 HOST,ariane.abtasty.com,AdBlock
-HOST,datacollect9.abtasty.com,AdBlock
 HOST,dcinfos-cache.abtasty.com,AdBlock
 HOST,heatmap-quota.abtasty.com,AdBlock
 HOST,sr-tag.abtasty.com,AdBlock
 # [accengage.com]
 HOST,api.accengage.com,AdBlock
-HOST,cdn.accengage.com,AdBlock
 HOST,pingapi.accengage.com,AdBlock
 # [accengage.net]
 HOST,api.accengage.net,AdBlock
 HOST,daraz-by.accengage.net,AdBlock
 # [accesstrade.vn]
 HOST,static.accesstrade.vn,AdBlock
-HOST,track.accesstrade.vn,AdBlock
 # [acmeaom.com]
 HOST,tags.acmeaom.com,AdBlock
 # [activemetering.com]
@@ -6763,7 +6754,6 @@ HOST,track.activemetering.com,AdBlock
 # [acuityplatform.com]
 HOST,ums.acuityplatform.com,AdBlock
 # [ad-brix.com]
-HOST,as.ad-brix.com,AdBlock
 HOST,campaign.ad-brix.com,AdBlock
 HOST,config.ad-brix.com,AdBlock
 HOST,cvr.ad-brix.com,AdBlock
@@ -6773,10 +6763,6 @@ HOST,tracking.ad-brix.com,AdBlock
 # [ad-maven.com]
 HOST,ad-maven.com,AdBlock
 HOST,static.ad-maven.com,AdBlock
-# [ad-move.jp]
-HOST,ad-move.jp,AdBlock
-# [ad-plus.cn]
-HOST,imp.ad-plus.cn,AdBlock
 # [ad-score.com]
 HOST,data.ad-score.com,AdBlock
 HOST,data2.ad-score.com,AdBlock
@@ -6809,9 +6795,6 @@ HOST,serving.ad.org.vn,AdBlock
 HOST,adlogs.ad2iction.com,AdBlock
 HOST,ads.ad2iction.com,AdBlock
 HOST,content.ad2iction.com,AdBlock
-# [ad4.com.cn]
-HOST,ad4.com.cn,AdBlock
-HOST,s.ad4.com.cn,AdBlock
 # [ad4game.com]
 HOST,ads.ad4game.com,AdBlock
 # [ad6media.fr]
@@ -6869,7 +6852,6 @@ HOST,adc3-assets.adcolony.com,AdBlock
 HOST,adc3-launch.adcolony.com,AdBlock
 HOST,ads30.adcolony.com,AdBlock
 HOST,androidads20.adcolony.com,AdBlock
-HOST,androidads20staging.adcolony.com,AdBlock
 HOST,androidads21.adcolony.com,AdBlock
 HOST,androidads23.adcolony.com,AdBlock
 HOST,androidads4-3.adcolony.com,AdBlock
@@ -6882,8 +6864,6 @@ HOST,events3alt.adcolony.com,AdBlock
 HOST,iosads24.adcolony.com,AdBlock
 HOST,rtb.adcolony.com,AdBlock
 HOST,wd.adcolony.com,AdBlock
-# [addapptr.com]
-HOST,addapptr.com,AdBlock
 # [addealsnetwork.com]
 HOST,adsinter1.addealsnetwork.com,AdBlock
 HOST,adsvideo1.addealsnetwork.com,AdBlock
@@ -6955,8 +6935,6 @@ HOST,clk.adgaterewards.com,AdBlock
 HOST,wall.adgaterewards.com,AdBlock
 # [adgear.com]
 HOST,adgear.com,AdBlock
-# [adgoji.com]
-HOST,berry-1001.adgoji.com,AdBlock
 # [adgrx.com]
 HOST,adgrx.com,AdBlock
 HOST,cdn.adgrx.com,AdBlock
@@ -6973,7 +6951,6 @@ HOST,openx.adhaven.com,AdBlock
 HOST,telaria.adhaven.com,AdBlock
 HOST,verizon.adhaven.com,AdBlock
 # [adhese.com]
-HOST,ads-ipm.adhese.com,AdBlock
 HOST,ads-mediafin.adhese.com,AdBlock
 HOST,pool-mediafin.adhese.com,AdBlock
 HOST,pool-pebblemedia.adhese.com,AdBlock
@@ -7029,6 +7006,7 @@ HOST,adjust.com,AdBlock
 HOST,app.adjust.com,AdBlock
 HOST,s2s.adjust.com,AdBlock
 HOST,ulink.adjust.com,AdBlock
+HOST,app.us.adjust.com,AdBlock
 HOST,view.adjust.com,AdBlock
 # [adjust.net.in]
 HOST,adjust.net.in,AdBlock
@@ -7038,7 +7016,6 @@ HOST,adjust.world,AdBlock
 HOST,app.adjust.world,AdBlock
 # [adkernel.com]
 HOST,dsp.adkernel.com,AdBlock
-HOST,dsp-uswest.adkernel.com,AdBlock
 HOST,static-rtb.adkernel.com,AdBlock
 HOST,sync.adkernel.com,AdBlock
 HOST,tag.adkernel.com,AdBlock
@@ -7046,7 +7023,6 @@ HOST,tag.adkernel.com,AdBlock
 HOST,bp.adkmob.com,AdBlock
 HOST,profile.adkmob.com,AdBlock
 HOST,ufs.adkmob.com,AdBlock
-HOST,unad.adkmob.com,AdBlock
 # [adleadevent.com]
 HOST,adtrack.adleadevent.com,AdBlock
 # [adledge.com]
@@ -7054,22 +7030,14 @@ HOST,epn.adledge.com,AdBlock
 HOST,rs.adledge.com,AdBlock
 HOST,rs2.adledge.com,AdBlock
 HOST,ser.adledge.com,AdBlock
-# [adlibr.com]
-HOST,gwx.adlibr.com,AdBlock
 # [adligature.com]
 HOST,cdn.adligature.com,AdBlock
 # [adlightning.com]
 HOST,tagan.adlightning.com,AdBlock
 # [adlooxtracking.com]
 HOST,am.adlooxtracking.com,AdBlock
-HOST,am04.adlooxtracking.com,AdBlock
 HOST,as.adlooxtracking.com,AdBlock
-HOST,data02.adlooxtracking.com,AdBlock
-HOST,data03.adlooxtracking.com,AdBlock
-HOST,data04.adlooxtracking.com,AdBlock
-HOST,data53.adlooxtracking.com,AdBlock
 HOST,datam16.adlooxtracking.com,AdBlock
-HOST,datas05.adlooxtracking.com,AdBlock
 HOST,js02.adlooxtracking.com,AdBlock
 HOST,js05.adlooxtracking.com,AdBlock
 HOST,js07.adlooxtracking.com,AdBlock
@@ -7094,13 +7062,10 @@ HOST,admarvel.com,AdBlock
 HOST,amp.admarvel.com,AdBlock
 HOST,base-cdn.admarvel.com,AdBlock
 HOST,omax.admarvel.com,AdBlock
-HOST,omax-apac.admarvel.com,AdBlock
 # [admaster.com.cn]
 HOST,admaster.com.cn,AdBlock
-HOST,adx.admaster.com.cn,AdBlock
 HOST,cm.admaster.com.cn,AdBlock
 HOST,iclick.cm.admaster.com.cn,AdBlock
-HOST,reachmax-cm.admaster.com.cn,AdBlock
 # [admatic.com.tr]
 HOST,cdn2.admatic.com.tr,AdBlock
 # [admedia.com]
@@ -7128,9 +7093,9 @@ HOST,admitad.com,AdBlock
 HOST,fonts.ad.admitad.com,AdBlock
 # [admixer.co.kr]
 HOST,admixer.co.kr,AdBlock
+HOST,adn.admixer.co.kr,AdBlock
 # [admixer.net]
 HOST,admixer.net,AdBlock
-HOST,bigosg-inv-eu.admixer.net,AdBlock
 HOST,inv-nets-eu.admixer.net,AdBlock
 # [admob.com]
 HOST,apps.admob.com,AdBlock
@@ -7167,7 +7132,6 @@ HOST,crcdn09.adnxs.com,AdBlock
 HOST,dcdn.adnxs.com,AdBlock
 HOST,update.ib.adnxs.com,AdBlock
 HOST,s.update.ib.adnxs.com,AdBlock
-HOST,iqzn-emea.adnxs.com,AdBlock
 HOST,iqzn-useast.adnxs.com,AdBlock
 HOST,lax1-ib.adnxs.com,AdBlock
 HOST,mediation.adnxs.com,AdBlock
@@ -7180,7 +7144,6 @@ HOST,yj.p.adnxs.com,AdBlock
 HOST,yj-a.p.adnxs.com,AdBlock
 HOST,prebid.adnxs.com,AdBlock
 HOST,rb.adnxs.com,AdBlock
-HOST,secure-lax.adnxs.com,AdBlock
 HOST,sharethrough.adnxs.com,AdBlock
 HOST,sin1-ib.adnxs.com,AdBlock
 HOST,sin3-ib.adnxs.com,AdBlock
@@ -7188,6 +7151,7 @@ HOST,thunder.adnxs.com,AdBlock
 HOST,vcdn.adnxs.com,AdBlock
 # [adobe.com]
 HOST,campaign.adobe.com,AdBlock
+HOST,mcd-mkt-prod31-lb.campaign.adobe.com,AdBlock
 HOST,pandoramedia-mkt-prod1-t.campaign.adobe.com,AdBlock
 HOST,wdpro-mkt-prod2-lb.campaign.adobe.com,AdBlock
 HOST,geo.adobe.com,AdBlock
@@ -7212,9 +7176,9 @@ HOST,adotube.com,AdBlock
 # [adperfect.com]
 HOST,casmp.adperfect.com,AdBlock
 # [adpia.vn]
-HOST,ac.adpia.vn,AdBlock
 HOST,click.adpia.vn,AdBlock
-HOST,front.adpia.vn,AdBlock
+# [adpies.com]
+HOST,adp.adpies.com,AdBlock
 # [adplex.co.kr]
 HOST,adplex.co.kr,AdBlock
 HOST,log.adplex.co.kr,AdBlock
@@ -7230,7 +7194,6 @@ HOST,app-log.adpushup.com,AdBlock
 HOST,cdn.adpushup.com,AdBlock
 HOST,geo.adpushup.com,AdBlock
 HOST,public-webservice.geo.adpushup.com,AdBlock
-HOST,mediation.adpushup.com,AdBlock
 HOST,vastdump-staging.adpushup.com,AdBlock
 # [adpxl.co]
 HOST,adpxl.co,AdBlock
@@ -7256,7 +7219,6 @@ HOST,index-winners-ap-southeast-1-rtb.adroll.com,AdBlock
 HOST,index-winners-eu-west-1-rtb.adroll.com,AdBlock
 HOST,index-winners-us-east-1-rtb.adroll.com,AdBlock
 HOST,index-winners-us-west-2-rtb.adroll.com,AdBlock
-HOST,opx-winners-ap-northeast-1-rtb.adroll.com,AdBlock
 HOST,opx-winners-eu-west-1-rtb.adroll.com,AdBlock
 HOST,opx-winners-us-east-1-rtb.adroll.com,AdBlock
 HOST,opx-winners-us-west-2-rtb.adroll.com,AdBlock
@@ -7264,11 +7226,9 @@ HOST,pubmatic-winners-ap-northeast-1-rtb.adroll.com,AdBlock
 HOST,pubmatic-winners-eu-west-1-rtb.adroll.com,AdBlock
 HOST,pubmatic-winners-us-east-1-rtb.adroll.com,AdBlock
 HOST,pubmatic-winners-us-west-2-rtb.adroll.com,AdBlock
-HOST,rub-winners-ap-northeast-1-rtb.adroll.com,AdBlock
 HOST,rub-winners-eu-west-1-rtb.adroll.com,AdBlock
 HOST,rub-winners-us-east-1-rtb.adroll.com,AdBlock
 HOST,rub-winners-us-west-2-rtb.adroll.com,AdBlock
-HOST,t.adroll.com,AdBlock
 HOST,yax-winners-ap-southeast-1-rtb.adroll.com,AdBlock
 HOST,yax-winners-eu-west-1-rtb.adroll.com,AdBlock
 HOST,yax-winners-us-east-1-rtb.adroll.com,AdBlock
@@ -7350,8 +7310,6 @@ HOST,cotads.adscale.de,AdBlock
 HOST,hb.adscale.de,AdBlock
 HOST,ih.adscale.de,AdBlock
 HOST,js.adscale.de,AdBlock
-# [adsee.jp]
-HOST,adsee.jp,AdBlock
 # [adsfast.com]
 HOST,track.adsfast.com,AdBlock
 # [adsimilate.com]
@@ -7381,11 +7339,9 @@ HOST,tagmans3.adsolutions.com,AdBlock
 HOST,sdk.adsongo.com,AdBlock
 # [adsoptimal.com]
 HOST,adsoptimal.com,AdBlock
-HOST,cdn.adsoptimal.com,AdBlock
 # [adsorb.com]
 HOST,collect.adsorb.com,AdBlock
 # [adspirit.de]
-HOST,askfm.adspirit.de,AdBlock
 HOST,cdn.adspirit.de,AdBlock
 # [adsplay.in]
 HOST,track.adsplay.in,AdBlock
@@ -7402,31 +7358,24 @@ HOST,queue.adspruce.com,AdBlock
 HOST,sdk.adspruce.com,AdBlock
 HOST,sync.adspruce.com,AdBlock
 HOST,track.adspruce.com,AdBlock
-HOST,vast.adspruce.com,AdBlock
-HOST,video.adspruce.com,AdBlock
 # [adsrvr.org]
 HOST,adsrvr.org,AdBlock
 HOST,a.adsrvr.org,AdBlock
 HOST,ad.adsrvr.org,AdBlock
-HOST,apa-sin.adsrvr.org,AdBlock
 HOST,ca4-bid.adsrvr.org,AdBlock
 HOST,data.adsrvr.org,AdBlock
 HOST,de1-bid.adsrvr.org,AdBlock
 HOST,direct.adsrvr.org,AdBlock
-HOST,eur-ukp.adsrvr.org,AdBlock
-HOST,fb.adsrvr.org,AdBlock
 HOST,html5.adsrvr.org,AdBlock
 HOST,jp1-bid.adsrvr.org,AdBlock
 HOST,jp1-bid-ga.adsrvr.org,AdBlock
 HOST,ny1-bid.adsrvr.org,AdBlock
 HOST,sg2-bid.adsrvr.org,AdBlock
-HOST,sindirect.adsrvr.org,AdBlock
 HOST,update.adsrvr.org,AdBlock
 HOST,s.update.adsrvr.org,AdBlock
 HOST,use-tor.adsrvr.org,AdBlock
 HOST,usedirect.adsrvr.org,AdBlock
 HOST,usw-ca2.adsrvr.org,AdBlock
-HOST,usw-lax.adsrvr.org,AdBlock
 HOST,uswdirect.adsrvr.org,AdBlock
 HOST,v.adsrvr.org,AdBlock
 HOST,va6-bid.adsrvr.org,AdBlock
@@ -7438,9 +7387,10 @@ HOST,adstune.com,AdBlock
 # [adsunflower.com]
 HOST,folder.adsunflower.com,AdBlock
 HOST,rebootv5.adsunflower.com,AdBlock
+# [adswizz.com]
+HOST,zc.adswizz.com,AdBlock
 # [adsymptotic.com]
 HOST,pinterest.adsymptotic.com,AdBlock
-HOST,pixel-useast.adsymptotic.com,AdBlock
 # [adtarget.com.tr]
 HOST,adtarget.com.tr,AdBlock
 HOST,console.adtarget.com.tr,AdBlock
@@ -7451,7 +7401,6 @@ HOST,ums.adtech.com,AdBlock
 # [adtech.de]
 HOST,aka-cdn.adtech.de,AdBlock
 HOST,aka-cdn-ns.adtech.de,AdBlock
-HOST,guce.adtech.de,AdBlock
 # [adtechjp.com]
 HOST,adserver.adtechjp.com,AdBlock
 HOST,adserver-toy.adtechjp.com,AdBlock
@@ -7493,10 +7442,7 @@ HOST,stc.adtima.vn,AdBlock
 HOST,adtimaserver.vn,AdBlock
 HOST,api.adtimaserver.vn,AdBlock
 HOST,log.adtimaserver.vn,AdBlock
-HOST,static2.adtimaserver.vn,AdBlock
 # [adtiming.com]
-HOST,apacrtb.adtiming.com,AdBlock
-HOST,azsgp.adtiming.com,AdBlock
 HOST,img.adtiming.com,AdBlock
 HOST,m.adtiming.com,AdBlock
 HOST,sdk.adtiming.com,AdBlock
@@ -7515,9 +7461,6 @@ HOST,api.adtrade.com,AdBlock
 HOST,adtrue.com,AdBlock
 HOST,cdn.adtrue.com,AdBlock
 HOST,exchange.adtrue.com,AdBlock
-HOST,static.adtrue.com,AdBlock
-HOST,track.adtrue.com,AdBlock
-HOST,v.adtrue.com,AdBlock
 # [adup-tech.com]
 HOST,rtb.d.adup-tech.com,AdBlock
 HOST,s.d.adup-tech.com,AdBlock
@@ -7538,13 +7481,10 @@ HOST,fota5p.adups.com,AdBlock
 HOST,fota5s.adups.com,AdBlock
 HOST,fota5t.adups.com,AdBlock
 HOST,fota5tbk.adups.com,AdBlock
-HOST,hb5t.adups.com,AdBlock
 HOST,ht.adups.com,AdBlock
 HOST,iotapi.adups.com,AdBlock
 HOST,ph5t.adups.com,AdBlock
 HOST,push5.adups.com,AdBlock
-# [aduwant.com]
-HOST,f.aduwant.com,AdBlock
 # [advangelists.com]
 HOST,nep.advangelists.com,AdBlock
 # [advanseads.com]
@@ -7573,7 +7513,6 @@ HOST,adversal.com,AdBlock
 HOST,advertica-cdn.com,AdBlock
 HOST,ylx-aff.advertica-cdn.com,AdBlock
 # [advertiserurl.com]
-HOST,cdn.advertiserurl.com,AdBlock
 HOST,syndication.advertiserurl.com,AdBlock
 # [advertising.com]
 HOST,advertising.com,AdBlock
@@ -7620,7 +7559,6 @@ HOST,worker73.advertnative.com,AdBlock
 # [advertserve.com]
 HOST,bidstream.advertserve.com,AdBlock
 HOST,cdn.advertserve.com,AdBlock
-HOST,dafabet.advertserve.com,AdBlock
 HOST,imagazine.advertserve.com,AdBlock
 HOST,roimedia.advertserve.com,AdBlock
 # [advertur.ru]
@@ -7639,8 +7577,6 @@ HOST,adview.pl,AdBlock
 HOST,advmob.cn,AdBlock
 HOST,folder.advmob.cn,AdBlock
 HOST,fota.advmob.cn,AdBlock
-# [advolution.de]
-HOST,advolution.de,AdBlock
 # [adx.io]
 HOST,d.adx.io,AdBlock
 HOST,s.adx.io,AdBlock
@@ -7656,8 +7592,6 @@ HOST,cf.adxcel.com,AdBlock
 # [adxcore.com]
 HOST,dispatcher.adxcore.com,AdBlock
 HOST,mtag.adxcore.com,AdBlock
-# [adxfactory.com]
-HOST,c.adxfactory.com,AdBlock
 # [adxpansion.com]
 # [adxpose.com]
 HOST,servedby.adxpose.com,AdBlock
@@ -7705,7 +7639,6 @@ HOST,pulse.svod.aetnd.com,AdBlock
 HOST,insights.vip.aetnd.com,AdBlock
 # [afcpatrk.com]
 # [affec.tv]
-HOST,cdn.go.affec.tv,AdBlock
 HOST,map.go.affec.tv,AdBlock
 # [affilae.com]
 HOST,lb.affilae.com,AdBlock
@@ -7734,8 +7667,6 @@ HOST,data.agkn.com,AdBlock
 HOST,js.agkn.com,AdBlock
 HOST,static.agkn.com,AdBlock
 # [agoop.net]
-HOST,ares.agoop.net,AdBlock
-HOST,aresssl.agoop.net,AdBlock
 HOST,latency.agoop.net,AdBlock
 HOST,log.agoop.net,AdBlock
 HOST,roundrobin-log.agoop.net,AdBlock
@@ -7748,23 +7679,22 @@ HOST,aimatch.com,AdBlock
 # [airpush.com]
 HOST,airpush.com,AdBlock
 HOST,apportal.airpush.com,AdBlock
-HOST,cdnap.airpush.com,AdBlock
 # [aiv-cdn.net]
 HOST,pop-iad-2.cf.dash.row.aiv-cdn.net,AdBlock
 HOST,s3-iad-2.cf.dash.row.aiv-cdn.net,AdBlock
 HOST,s3-iad-ww.cf.videorolls.row.aiv-cdn.net,AdBlock
 HOST,s3.ll.videorolls.row.aiv-cdn.net,AdBlock
+# [aiv-delivery.net]
+HOST,api.us-east-1.aiv-delivery.net,AdBlock
 # [akadns.net]
 HOST,innovid.com.akadns.net,AdBlock
 HOST,ag.innovid.com.akadns.net,AdBlock
-HOST,ag-5-split.ag.innovid.com.akadns.net,AdBlock
 HOST,aws-oreg-cali-virg.ag.innovid.com.akadns.net,AdBlock
 HOST,dts.innovid.com.akadns.net,AdBlock
 HOST,aws-oregon-california-virginia.dts.innovid.com.akadns.net,AdBlock
 HOST,dts-5-split-vohnu.dts.innovid.com.akadns.net,AdBlock
 HOST,rtr.innovid.com.akadns.net,AdBlock
 HOST,aws-oregon-jrtr.rtr.innovid.com.akadns.net,AdBlock
-HOST,rtr-5-split-vohnu.rtr.innovid.com.akadns.net,AdBlock
 HOST,s.innovid.com.akadns.net,AdBlock
 HOST,aws-oregon-ohio-virginia.s.innovid.com.akadns.net,AdBlock
 HOST,stats-5-split-vohnu.s.innovid.com.akadns.net,AdBlock
@@ -7785,38 +7715,19 @@ HOST,sync-usva.tidaltv.com.akadns.net,AdBlock
 HOST,turn.com.akadns.net,AdBlock
 HOST,ad.turn.com.akadns.net,AdBlock
 HOST,d.turn.com.akadns.net,AdBlock
-HOST,sd.turn.com.akadns.net,AdBlock
 HOST,beacon-cdn.walmart.com.akadns.net,AdBlock
 HOST,beacon-cdn-custom.walmart.com.akadns.net,AdBlock
 HOST,analytics.mobile-cdn.walmart.com.akadns.net,AdBlock
 HOST,weighted.com.akadns.net,AdBlock
 HOST,dotomi.weighted.com.akadns.net,AdBlock
-HOST,afp.dotomi.weighted.com.akadns.net,AdBlock
-HOST,legacy.dotomi.weighted.com.akadns.net,AdBlock
-HOST,afp.legacy.dotomi.weighted.com.akadns.net,AdBlock
-HOST,iad.legacy.dotomi.weighted.com.akadns.net,AdBlock
-HOST,us.iad.legacy.dotomi.weighted.com.akadns.net,AdBlock
-HOST,sjc.legacy.dotomi.weighted.com.akadns.net,AdBlock
-HOST,us.sjc.legacy.dotomi.weighted.com.akadns.net,AdBlock
-HOST,sjc.dotomi.weighted.com.akadns.net,AdBlock
-HOST,us.sjc.dotomi.weighted.com.akadns.net,AdBlock
-HOST,afp.us.sjc.dotomi.weighted.com.akadns.net,AdBlock
-HOST,us.dotomi.weighted.com.akadns.net,AdBlock
-HOST,afp.us.dotomi.weighted.com.akadns.net,AdBlock
-HOST,cpe.us.dotomi.weighted.com.akadns.net,AdBlock
-HOST,comscore.akadns.net,AdBlock
 HOST,dvgtm.akadns.net,AdBlock
 HOST,bs-geo.dvgtm.akadns.net,AdBlock
-HOST,bs-wlb-sg.dvgtm.akadns.net,AdBlock
 HOST,bs-wlb-uswest.dvgtm.akadns.net,AdBlock
 HOST,cacp-hlb.dvgtm.akadns.net,AdBlock
 HOST,nycp-hlb.dvgtm.akadns.net,AdBlock
-HOST,sgcp-hlb.dvgtm.akadns.net,AdBlock
 HOST,tps-wlb-uswest.dvgtm.akadns.net,AdBlock
 HOST,eyeblaster.akadns.net,AdBlock
 HOST,bs.eyeblaster.akadns.net,AdBlock
-HOST,bsla.eyeblaster.akadns.net,AdBlock
-HOST,bssg.eyeblaster.akadns.net,AdBlock
 HOST,adlanding.admarketplace.net.akadns.net,AdBlock
 HOST,rubiconproject.net.akadns.net,AdBlock
 HOST,beacon-nf.rubiconproject.net.akadns.net,AdBlock
@@ -7851,9 +7762,7 @@ HOST,ntvcld-a.akamaihd.net,AdBlock
 # [akamaized.net]
 HOST,appsflyer.com.akamaized.net,AdBlock
 HOST,fvalid.appsflyer.com.akamaized.net,AdBlock
-HOST,dyn-beacon.akamaized.net,AdBlock
 HOST,jioads.akamaized.net,AdBlock
-HOST,ma85-r-analytics.akamaized.net,AdBlock
 HOST,abcd.mdc.akamaized.net,AdBlock
 HOST,speee-ad.akamaized.net,AdBlock
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,AdBlock
@@ -7884,10 +7793,9 @@ HOST,ads.allaccess.com.ph,AdBlock
 # [allstarcluster.com]
 HOST,p102-clb.allstarcluster.com,AdBlock
 # [alphonso.tv]
-HOST,krishnaw223.alphonso.tv,AdBlock
-HOST,krishnaw224.alphonso.tv,AdBlock
+HOST,alphonso.tv,AdBlock
+HOST,prov-lg.alphonso.tv,AdBlock
 HOST,sync.alphonso.tv,AdBlock
-HOST,tr.alphonso.tv,AdBlock
 # [altamob.com]
 HOST,api.altamob.com,AdBlock
 # [altitude-arena.com]
@@ -7899,17 +7807,17 @@ HOST,altrooz.com,AdBlock
 HOST,am15.net,AdBlock
 # [amazon-adsystem.com]
 HOST,amazon-adsystem.com,AdBlock
-HOST,aan.amazon-adsystem.com,AdBlock
 HOST,aax-eu-retail-direct.amazon-adsystem.com,AdBlock
 HOST,aax-us.amazon-adsystem.com,AdBlock
 HOST,cdn-a.amazon-adsystem.com,AdBlock
 HOST,fls-eu.amazon-adsystem.com,AdBlock
 HOST,fls-fe.amazon-adsystem.com,AdBlock
 HOST,ir-na.amazon-adsystem.com,AdBlock
-HOST,vaes.amazon-adsystem.com,AdBlock
 HOST,ws-eu.amazon-adsystem.com,AdBlock
 HOST,z-eu.amazon-adsystem.com,AdBlock
 HOST,z-na.amazon-adsystem.com,AdBlock
+# [amazon.com]
+HOST,aan.amazon.com,AdBlock
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 HOST,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com,AdBlock
 # [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
@@ -7926,8 +7834,6 @@ HOST,ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com,AdBlock
 HOST,ads-816899299.ap-southeast-1.elb.amazonaws.com,AdBlock
 # [rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com]
 HOST,rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com,AdBlock
-# [tracking-1659963975.ap-southeast-1.elb.amazonaws.com]
-HOST,tracking-1659963975.ap-southeast-1.elb.amazonaws.com,AdBlock
 # [adserver-clarium-1405844056.eu-central-1.elb.amazonaws.com]
 HOST,adserver-clarium-1405844056.eu-central-1.elb.amazonaws.com,AdBlock
 # [admantx-cluster-nlb-eu-2071973585.eu-west-1.elb.amazonaws.com]
@@ -7962,8 +7868,6 @@ HOST,audience-164723144.us-east-1.elb.amazonaws.com,AdBlock
 HOST,log-collectors-73517960.us-east-1.elb.amazonaws.com,AdBlock
 # [lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com]
 HOST,lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com,AdBlock
-# [measure-vpc-1125642515.us-east-1.elb.amazonaws.com]
-HOST,measure-vpc-1125642515.us-east-1.elb.amazonaws.com,AdBlock
 # [nova-collector-1192479543.us-east-1.elb.amazonaws.com]
 HOST,nova-collector-1192479543.us-east-1.elb.amazonaws.com,AdBlock
 # [pixel-967319188.us-east-1.elb.amazonaws.com]
@@ -7974,12 +7878,8 @@ HOST,prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com,AdBlock
 HOST,rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com,AdBlock
 # [tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com]
 HOST,tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com,AdBlock
-# [tracker-sp-elb-1474841806.us-east-1.elb.amazonaws.com]
-HOST,tracker-sp-elb-1474841806.us-east-1.elb.amazonaws.com,AdBlock
 # [tracking-1611167402.us-east-1.elb.amazonaws.com]
 HOST,tracking-1611167402.us-east-1.elb.amazonaws.com,AdBlock
-# [vop-tracking-vpc-1741893498.us-east-1.elb.amazonaws.com]
-HOST,vop-tracking-vpc-1741893498.us-east-1.elb.amazonaws.com,AdBlock
 # [wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com]
 HOST,wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com,AdBlock
 # [ads-b-480313385.us-west-1.elb.amazonaws.com]
@@ -7998,14 +7898,10 @@ HOST,adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com,AdBlock
 HOST,adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com,AdBlock
 # [adtag-or2-697022674.us-west-2.elb.amazonaws.com]
 HOST,adtag-or2-697022674.us-west-2.elb.amazonaws.com,AdBlock
-# [adtrue-track-server-1082517350.us-west-2.elb.amazonaws.com]
-HOST,adtrue-track-server-1082517350.us-west-2.elb.amazonaws.com,AdBlock
 # [beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com]
 HOST,beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com,AdBlock
 # [dco-jads-727222375.us-west-2.elb.amazonaws.com]
 HOST,dco-jads-727222375.us-west-2.elb.amazonaws.com,AdBlock
-# [insight-1616140656.us-west-2.elb.amazonaws.com]
-HOST,insight-1616140656.us-west-2.elb.amazonaws.com,AdBlock
 # [prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com]
 HOST,prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com,AdBlock
 # [rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com]
@@ -8017,8 +7913,6 @@ HOST,huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com
 # [admarvel.s3.amazonaws.com]
 # [advancelocal-adapter-image-uploads.s3.amazonaws.com]
 HOST,advancelocal-adapter-image-uploads.s3.amazonaws.com,AdBlock
-# [btf-analytics.s3.amazonaws.com]
-HOST,btf-analytics.s3.amazonaws.com,AdBlock
 # [chartbeat-sdk.s3.amazonaws.com]
 HOST,chartbeat-sdk.s3.amazonaws.com,AdBlock
 # [chartiq-client-prod.s3.amazonaws.com]
@@ -8046,8 +7940,6 @@ HOST,amoad.com,AdBlock
 HOST,m.amoad.com,AdBlock
 # [amobee.com]
 HOST,amobee.com,AdBlock
-# [ampiri.com]
-HOST,signals.ampiri.com,AdBlock
 # [amplitude.com]
 HOST,amplitude.com,AdBlock
 HOST,api.amplitude.com,AdBlock
@@ -8060,7 +7952,6 @@ HOST,static.amplitude.com,AdBlock
 HOST,amung.us,AdBlock
 # [anagog.com]
 HOST,eapik.anagog.com,AdBlock
-HOST,eapip.anagog.com,AdBlock
 # [analysis.fi]
 HOST,ecdn.analysis.fi,AdBlock
 # [analysys.cn]
@@ -8071,8 +7962,6 @@ HOST,cloud-emea.analytics-egain.com,AdBlock
 HOST,cloud-us.analytics-egain.com,AdBlock
 # [andomedia.com]
 HOST,andomedia.com,AdBlock
-# [android-root-tool.com]
-HOST,api.android-root-tool.com,AdBlock
 # [aniview.com]
 HOST,go1.aniview.com,AdBlock
 HOST,gov.aniview.com,AdBlock
@@ -8117,7 +8006,6 @@ HOST,events.apester.com,AdBlock
 HOST,images.apester.com,AdBlock
 HOST,img.apester.com,AdBlock
 HOST,interaction.apester.com,AdBlock
-HOST,pulse.apester.com,AdBlock
 HOST,renderer.apester.com,AdBlock
 HOST,static.apester.com,AdBlock
 # [apis.com.br]
@@ -8125,7 +8013,6 @@ HOST,apis.com.br,AdBlock
 # [app-adforce.jp]
 HOST,app-adforce.jp,AdBlock
 HOST,analytics.app-adforce.jp,AdBlock
-# [app-measurement.com]
 # [appadhoc.com]
 HOST,cdn-api.appadhoc.com,AdBlock
 HOST,experiment.appadhoc.com,AdBlock
@@ -8136,8 +8023,6 @@ HOST,appads.com,AdBlock
 # [appbaqend.com]
 HOST,appbaqend.com,AdBlock
 HOST,a.appbaqend.com,AdBlock
-# [appbid.com]
-HOST,rtb.appbid.com,AdBlock
 # [appboy-images.com]
 HOST,appboy-images.com,AdBlock
 # [appboy.com]
@@ -8145,7 +8030,6 @@ HOST,appboy.com,AdBlock
 HOST,dev.appboy.com,AdBlock
 HOST,iad.appboy.com,AdBlock
 HOST,akar.iad.appboy.com,AdBlock
-HOST,andromeda.iad.appboy.com,AdBlock
 HOST,axion.iad.appboy.com,AdBlock
 HOST,carina.iad.appboy.com,AdBlock
 HOST,equuleus.iad.appboy.com,AdBlock
@@ -8167,14 +8051,12 @@ HOST,assets.appboycdn.com,AdBlock
 HOST,js.appboycdn.com,AdBlock
 # [appbrain.com]
 HOST,sdk.appbrain.com,AdBlock
-# [appchair.com]
-HOST,ads.appchair.com,AdBlock
 # [appchina.com]
 HOST,mobile.appchina.com,AdBlock
 # [appclick.co]
 HOST,appclick.co,AdBlock
-# [appcloudbox.net]
-HOST,api-scsdk.appcloudbox.net,AdBlock
+# [appdynamics.com]
+HOST,cdn.appdynamics.com,AdBlock
 # [apperol.com]
 HOST,trk.apperol.com,AdBlock
 # [appflood.com]
@@ -8184,7 +8066,6 @@ HOST,atracking-auto.appflood.com,AdBlock
 HOST,creative-cdn.appgrowth.com,AdBlock
 # [appia.com]
 HOST,appia.com,AdBlock
-HOST,ads.appia.com,AdBlock
 # [appier.net]
 HOST,ad.appier.net,AdBlock
 HOST,ad2.apx.appier.net,AdBlock
@@ -8197,7 +8078,6 @@ HOST,anylist.c.appier.net,AdBlock
 HOST,apn.c.appier.net,AdBlock
 HOST,arm.c.appier.net,AdBlock
 HOST,c.c.appier.net,AdBlock
-HOST,dync.c.appier.net,AdBlock
 HOST,g.c.appier.net,AdBlock
 HOST,gocm.c.appier.net,AdBlock
 HOST,rcp.c.appier.net,AdBlock
@@ -8221,7 +8101,6 @@ HOST,cf.iadsdk.apple.com,AdBlock
 HOST,news.iadsdk.apple.com,AdBlock
 HOST,tr.iadsdk.apple.com,AdBlock
 HOST,ut.iadsdk.apple.com,AdBlock
-HOST,banners.itunes.apple.com,AdBlock
 HOST,notes-analytics-events.apple.com,AdBlock
 HOST,stocks-analytics-events.apple.com,AdBlock
 HOST,weather-analytics-events.apple.com,AdBlock
@@ -8246,7 +8125,6 @@ HOST,stage-bid.applovin.com,AdBlock
 HOST,stage-img.applovin.com,AdBlock
 HOST,stage-ms.applovin.com,AdBlock
 HOST,stage-pdn.applovin.com,AdBlock
-HOST,vid.applovin.com,AdBlock
 # [applvn.com]
 HOST,applvn.com,AdBlock
 HOST,a.applvn.com,AdBlock
@@ -8270,8 +8148,6 @@ HOST,eu-central-1.appodeal.com,AdBlock
 # [appodealx.com]
 HOST,api.appodealx.com,AdBlock
 HOST,api-us.appodealx.com,AdBlock
-# [appota.com]
-HOST,api.appota.com,AdBlock
 # [apprissmobile.com]
 HOST,mobile-ws.apprissmobile.com,AdBlock
 # [apprope.com]
@@ -8285,12 +8161,6 @@ HOST,appsdt.com,AdBlock
 HOST,d.appsdt.com,AdBlock
 # [appsee.com]
 HOST,api.appsee.com,AdBlock
-# [appserver-ap.com]
-HOST,appserver-ap.com,AdBlock
-# [appserver-cp.com]
-HOST,appserver-cp.com,AdBlock
-# [appservestar.com]
-HOST,appservestar.com,AdBlock
 # [appsflyer.com]
 HOST,appsflyer.com,AdBlock
 HOST,adrevenue.appsflyer.com,AdBlock
@@ -8302,12 +8172,13 @@ HOST,banner.appsflyer.com,AdBlock
 HOST,cdn.appsflyer.com,AdBlock
 HOST,cdnappicons.appsflyer.com,AdBlock
 HOST,conversions.appsflyer.com,AdBlock
+HOST,dlsdk.appsflyer.com,AdBlock
 HOST,fvalid.appsflyer.com,AdBlock
+HOST,gcd-s2s.appsflyer.com,AdBlock
 HOST,gcdsdk.appsflyer.com,AdBlock
 HOST,hq1.appsflyer.com,AdBlock
 HOST,impression.appsflyer.com,AdBlock
 HOST,inapps.appsflyer.com,AdBlock
-HOST,monitorsdk.appsflyer.com,AdBlock
 HOST,onelink.appsflyer.com,AdBlock
 HOST,register.appsflyer.com,AdBlock
 HOST,sdk.appsflyer.com,AdBlock
@@ -8319,18 +8190,16 @@ HOST,wa.appsflyer.com,AdBlock
 HOST,websdk.appsflyer.com,AdBlock
 # [appsflyer.tk]
 HOST,sdk.appsflyer.tk,AdBlock
+# [appsflyersdk.com]
+HOST,cdn-settings.appsflyersdk.com,AdBlock
 # [appsgeyser.com]
 HOST,ads.appsgeyser.com,AdBlock
 HOST,config.appsgeyser.com,AdBlock
-HOST,files.appsgeyser.com,AdBlock
-HOST,frame.appsgeyser.com,AdBlock
 HOST,stat.appsgeyser.com,AdBlock
 # [adasiatagmanager.appspot.com]
 HOST,adasiatagmanager.appspot.com,AdBlock
 # [amp-error-reporting.appspot.com]
 HOST,amp-error-reporting.appspot.com,AdBlock
-# [bdg-analytics.appspot.com]
-HOST,bdg-analytics.appspot.com,AdBlock
 # [ga-beacon.appspot.com]
 HOST,ga-beacon.appspot.com,AdBlock
 # [geoapi123.appspot.com]
@@ -8341,8 +8210,6 @@ HOST,ima3vpaid.appspot.com,AdBlock
 HOST,is-tracking-pixel-api-prod.appspot.com,AdBlock
 # [musculahq.appspot.com]
 HOST,musculahq.appspot.com,AdBlock
-# [rs-xpromotion.appspot.com]
-HOST,rs-xpromotion.appspot.com,AdBlock
 # [sc-analytics.appspot.com]
 HOST,sc-analytics.appspot.com,AdBlock
 # [snapabug.appspot.com]
@@ -8370,14 +8237,11 @@ HOST,sdk-b.apptornado.com,AdBlock
 HOST,tracking.apptrackerlink.com,AdBlock
 # [apsalar.com]
 HOST,apsalar.com,AdBlock
-HOST,ad.apsalar.com,AdBlock
 HOST,api.apsalar.com,AdBlock
 HOST,e.apsalar.com,AdBlock
 HOST,e-ssl.apsalar.com,AdBlock
 # [apusapps.com]
 HOST,push.apusapps.com,AdBlock
-# [apxadtracking.net]
-HOST,clk.apxadtracking.net,AdBlock
 # [apxlv.com]
 HOST,lrpush.apxlv.com,AdBlock
 HOST,sovrn.apxlv.com,AdBlock
@@ -8390,7 +8254,6 @@ HOST,apac-tw-ad-track.aralego.com,AdBlock
 HOST,hb.aralego.com,AdBlock
 HOST,sync.aralego.com,AdBlock
 HOST,us-east-ad-track.aralego.com,AdBlock
-HOST,us-east-ads.aralego.com,AdBlock
 # [aralego.net]
 HOST,cdn.aralego.net,AdBlock
 # [arcsoft.com]
@@ -8407,6 +8270,10 @@ HOST,rcn.asapp.com,AdBlock
 HOST,sdk.asapp.com,AdBlock
 HOST,sprint.asapp.com,AdBlock
 HOST,sprint-srs-appopen.asapp.com,AdBlock
+# [asnapieu.com]
+HOST,combine.asnapieu.com,AdBlock
+HOST,device-api.asnapieu.com,AdBlock
+HOST,remote-data.asnapieu.com,AdBlock
 # [aspireclicks.com]
 HOST,images.aspireclicks.com,AdBlock
 # [aswpsdkus.com]
@@ -8436,8 +8303,6 @@ HOST,static.atgsvcs.com,AdBlock
 # [atlassbx.com]
 HOST,atlassbx.com,AdBlock
 HOST,geo.atlassbx.com,AdBlock
-# [ato.mx]
-HOST,ato.mx,AdBlock
 # [atom-data.io]
 HOST,track.atom-data.io,AdBlock
 # [atomex.net]
@@ -8451,7 +8316,6 @@ HOST,api.attentivemobile.com,AdBlock
 HOST,events.attentivemobile.com,AdBlock
 # [atwola.com]
 HOST,at.atwola.com,AdBlock
-HOST,jp.at.atwola.com,AdBlock
 HOST,tacoda.at.atwola.com,AdBlock
 HOST,uc.atwola.com,AdBlock
 HOST,cdn.uc.atwola.com,AdBlock
@@ -8462,6 +8326,8 @@ HOST,eu.y.atwola.com,AdBlock
 HOST,us.y.atwola.com,AdBlock
 # [audioeye.com]
 HOST,ws.audioeye.com,AdBlock
+# [auditude.com]
+HOST,ad.auditude.com,AdBlock
 # [augur.io]
 HOST,augur.io,AdBlock
 # [autoads.asia]
@@ -8480,19 +8346,14 @@ HOST,stats.avast.com,AdBlock
 # [avazunativeads.com]
 HOST,avazunativeads.com,AdBlock
 HOST,api.c.avazunativeads.com,AdBlock
-# [avazutracking.net]
-HOST,cdn.avazutracking.net,AdBlock
 # [avct.cloud]
 HOST,ads.avct.cloud,AdBlock
 # [avocarrot.com]
 HOST,avocarrot.com,AdBlock
 HOST,ads.avocarrot.com,AdBlock
 HOST,sdklogs.avocarrot.com,AdBlock
-# [avosapps.us]
-HOST,crosspromotion-us.avosapps.us,AdBlock
 # [axonix.com]
 HOST,axonix.com,AdBlock
-HOST,vektor-us-east-1.axonix.com,AdBlock
 # [ay.delivery]
 HOST,csxmhkahpy9y6cwwr.ay.delivery,AdBlock
 # [ayads.co]
@@ -8506,12 +8367,13 @@ HOST,optchk.ayads.co,AdBlock
 HOST,sac.ayads.co,AdBlock
 # [azureedge.net]
 HOST,masdpanalytics.azureedge.net,AdBlock
-HOST,opimedia.azureedge.net,AdBlock
 # [ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net]
 HOST,ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net,AdBlock
 # [b2c.com]
 HOST,b2c.com,AdBlock
 HOST,api.b2c.com,AdBlock
+# [banggood.com]
+HOST,dc.banggood.com,AdBlock
 # [bango.net]
 HOST,bango.net,AdBlock
 # [bannersnack.com]
@@ -8519,8 +8381,6 @@ HOST,bannersnack.com,AdBlock
 HOST,cdn.bannersnack.com,AdBlock
 HOST,live-tag.bannersnack.com,AdBlock
 HOST,stats.bannersnack.com,AdBlock
-# [basepush.com]
-HOST,basepush.com,AdBlock
 # [batch.com]
 HOST,via.batch.com,AdBlock
 HOST,ws.batch.com,AdBlock
@@ -8540,18 +8400,18 @@ HOST,sts.batmobi.net,AdBlock
 # [batmobil.net]
 HOST,batmobil.net,AdBlock
 HOST,dsp.batmobil.net,AdBlock
-# [bayctrk.com]
-HOST,bayctrk.com,AdBlock
 # [bazaarvoice.com]
 HOST,network.bazaarvoice.com,AdBlock
 HOST,apps.nexus.bazaarvoice.com,AdBlock
 HOST,analytics-static.ugc.bazaarvoice.com,AdBlock
+# [bbc.co.uk]
+HOST,a1.api.bbc.co.uk,AdBlock
+# [bbci.co.uk]
+HOST,mybbc-analytics.files.bbci.co.uk,AdBlock
 # [bbcverticals.com]
 HOST,flagpoles.gnl-live.bbcverticals.com,AdBlock
 # [beaconsinspace.com]
 HOST,api.beaconsinspace.com,AdBlock
-# [beaconstreetservices.com]
-HOST,api.beaconstreetservices.com,AdBlock
 # [beanstalkdata.com]
 HOST,t.beanstalkdata.com,AdBlock
 HOST,t2.beanstalkdata.com,AdBlock
@@ -8582,13 +8442,8 @@ HOST,reachms.bfmio.com,AdBlock
 HOST,sync.bfmio.com,AdBlock
 HOST,useast.bfmio.com,AdBlock
 HOST,uswest.bfmio.com,AdBlock
-# [bidadx.com]
-HOST,bidadx.com,AdBlock
-HOST,cdn.bidadx.com,AdBlock
 # [biddingx.com]
 HOST,biddingx.com,AdBlock
-HOST,cdn.biddingx.com,AdBlock
-HOST,hkbj.biddingx.com,AdBlock
 HOST,masky.biddingx.com,AdBlock
 HOST,ana.masky.biddingx.com,AdBlock
 HOST,cm.masky.biddingx.com,AdBlock
@@ -8624,7 +8479,6 @@ HOST,bidsopt.com,AdBlock
 HOST,gce-or.bidswitch.net,AdBlock
 HOST,gce-sc.bidswitch.net,AdBlock
 HOST,grid.bidswitch.net,AdBlock
-HOST,sandbox.bidswitch.net,AdBlock
 # [bing.com]
 HOST,bat.bing.com,AdBlock
 # [bitmango.com]
@@ -8690,6 +8544,9 @@ HOST,theatlantic.blueconic.net,AdBlock
 HOST,api.bluecore.com,AdBlock
 HOST,cdn.bluecore.com,AdBlock
 HOST,onsitestats.bluecore.com,AdBlock
+# [bluedot.io]
+HOST,globalconfig.bluedot.io,AdBlock
+HOST,us1-sdk.bluedot.io,AdBlock
 # [bluekai.com]
 HOST,bluekai.com,AdBlock
 HOST,analytics.bluekai.com,AdBlock
@@ -8765,7 +8622,6 @@ HOST,sdk.iad-02.braze.com,AdBlock
 HOST,iad-03.braze.com,AdBlock
 HOST,atlas.iad-03.braze.com,AdBlock
 HOST,belgikanst.iad-03.braze.com,AdBlock
-HOST,birigum.iad-03.braze.com,AdBlock
 HOST,blucher.iad-03.braze.com,AdBlock
 HOST,bond.iad-03.braze.com,AdBlock
 HOST,caesar.iad-03.braze.com,AdBlock
@@ -8775,7 +8631,6 @@ HOST,clair.iad-03.braze.com,AdBlock
 HOST,cursa.iad-03.braze.com,AdBlock
 HOST,customer.iad-03.braze.com,AdBlock
 HOST,daviik.iad-03.braze.com,AdBlock
-HOST,dialacrum.iad-03.braze.com,AdBlock
 HOST,gaspra.iad-03.braze.com,AdBlock
 HOST,hassaleh.iad-03.braze.com,AdBlock
 HOST,hiram.iad-03.braze.com,AdBlock
@@ -8783,24 +8638,18 @@ HOST,ibis.iad-03.braze.com,AdBlock
 HOST,inferna.iad-03.braze.com,AdBlock
 HOST,izar.iad-03.braze.com,AdBlock
 HOST,lalande.iad-03.braze.com,AdBlock
-HOST,mag.iad-03.braze.com,AdBlock
 HOST,phillateemis.iad-03.braze.com,AdBlock
-HOST,rastaban.iad-03.braze.com,AdBlock
 HOST,rest.iad-03.braze.com,AdBlock
-HOST,rhea.iad-03.braze.com,AdBlock
 HOST,rotanev.iad-03.braze.com,AdBlock
 HOST,sagan.iad-03.braze.com,AdBlock
 HOST,sargas.iad-03.braze.com,AdBlock
 HOST,sdk.iad-03.braze.com,AdBlock
 HOST,seginus.iad-03.braze.com,AdBlock
 HOST,sirius.iad-03.braze.com,AdBlock
-HOST,spica.iad-03.braze.com,AdBlock
 HOST,tali.iad-03.braze.com,AdBlock
-HOST,taukibreez.iad-03.braze.com,AdBlock
 HOST,timbol.iad-03.braze.com,AdBlock
 HOST,wahacondrax.iad-03.braze.com,AdBlock
 HOST,wurren.iad-03.braze.com,AdBlock
-HOST,xenon.iad-03.braze.com,AdBlock
 HOST,yildun.iad-03.braze.com,AdBlock
 HOST,iad-06.braze.com,AdBlock
 HOST,nashira.iad-06.braze.com,AdBlock
@@ -8810,6 +8659,7 @@ HOST,sdk.iad-08.braze.com,AdBlock
 # [braze.eu]
 HOST,cdn.braze.eu,AdBlock
 HOST,fra-01.braze.eu,AdBlock
+HOST,blink.fra-01.braze.eu,AdBlock
 HOST,clusava.fra-01.braze.eu,AdBlock
 HOST,sdk.fra-01.braze.eu,AdBlock
 # [brealtime.com]
@@ -8880,12 +8730,8 @@ HOST,stats.buysellads.com,AdBlock
 # [buysellads.net]
 HOST,cdn-s2s.buysellads.net,AdBlock
 HOST,cdn4.buysellads.net,AdBlock
-# [buzzcity.net]
-HOST,buzzcity.net,AdBlock
 # [buzzfeed.com]
 HOST,pixiedust.buzzfeed.com,AdBlock
-# [bypass.jp]
-HOST,bypass.jp,AdBlock
 # [c1exchange.com]
 HOST,c1exchange.com,AdBlock
 # [c8.net.ua]
@@ -8930,11 +8776,12 @@ HOST,as.casalemedia.com,AdBlock
 HOST,dsum.casalemedia.com,AdBlock
 HOST,dsum-sec.casalemedia.com,AdBlock
 HOST,htlb.casalemedia.com,AdBlock
-HOST,js.casalemedia.com,AdBlock
 HOST,r.casalemedia.com,AdBlock
 HOST,ssum.casalemedia.com,AdBlock
 # [castplatform.com]
 HOST,castplatform.com,AdBlock
+# [catchmedia.com]
+HOST,pa.wme.catchmedia.com,AdBlock
 # [cauly.co.kr]
 HOST,ad.cauly.co.kr,AdBlock
 # [cbsi.com]
@@ -8942,13 +8789,11 @@ HOST,production-cmp.isgprivacy.cbsi.com,AdBlock
 # [cbsivideo.com]
 HOST,doppler-reporting.cbsivideo.com,AdBlock
 # [cbsnews.com]
-HOST,bidbarrel.cbsnews.com,AdBlock
 HOST,tealium.cbsnews.com,AdBlock
 # [ccgateway.net]
 HOST,ccgateway.net,AdBlock
 HOST,ads.ccgateway.net,AdBlock
 HOST,analytics.ccgateway.net,AdBlock
-HOST,dp.ccgateway.net,AdBlock
 # [cdn-image.com]
 HOST,cdn-image.com,AdBlock
 # [cdn7.rocks]
@@ -8963,7 +8808,6 @@ HOST,ids.cdnwidget.com,AdBlock
 HOST,pixel.cdnwidget.com,AdBlock
 HOST,u.cdnwidget.com,AdBlock
 # [cellrebel.com]
-HOST,api.monedata.iomericreceiver.cellrebel.com,AdBlock
 HOST,metricreceiver.cellrebel.com,AdBlock
 # [celltick.com]
 HOST,celltick.com,AdBlock
@@ -8973,14 +8817,15 @@ HOST,celtra.com,AdBlock
 HOST,geo.celtra.com,AdBlock
 # [center.io]
 HOST,js.center.io,AdBlock
+# [centurygame.com]
+HOST,logagent-wf.centurygame.com,AdBlock
+HOST,ta-collector.centurygame.com,AdBlock
 # [chango.com]
 HOST,chango.com,AdBlock
 HOST,as.chango.com,AdBlock
 HOST,blackhole.chango.com,AdBlock
 # [chanret.com]
 HOST,track.chanret.com,AdBlock
-# [chargeads.com]
-HOST,ads.chargeads.com,AdBlock
 # [chartbeat.com]
 HOST,api.chartbeat.com,AdBlock
 HOST,dashapi.chartbeat.com,AdBlock
@@ -9008,6 +8853,8 @@ HOST,chartboosts.com,AdBlock
 HOST,ads.chartboosts.com,AdBlock
 HOST,analysis2.chartboosts.com,AdBlock
 HOST,remain.chartboosts.com,AdBlock
+# [chase.com]
+HOST,analytics.chase.com,AdBlock
 # [chrysler.com]
 HOST,smetrics.chrysler.com,AdBlock
 # [cinarra.com]
@@ -9028,13 +8875,13 @@ HOST,www.civicscience.com,AdBlock
 # [clarity.ms]
 HOST,www.clarity.ms,AdBlock
 # [claspws.tv]
+HOST,config.claspws.tv,AdBlock
 HOST,events.claspws.tv,AdBlock
 # [clean.gg]
 HOST,i.clean.gg,AdBlock
 # [cleverjp.com]
 HOST,net.cleverjp.com,AdBlock
 # [clevernt.com]
-HOST,report.clevernt.com,AdBlock
 HOST,sender.clevernt.com,AdBlock
 HOST,ui.clevernt.com,AdBlock
 # [cleverpush.com]
@@ -9082,11 +8929,8 @@ HOST,realtime.clinch.co,AdBlock
 HOST,trk.clinch.co,AdBlock
 # [clipbongda.info]
 HOST,clipbongda.info,AdBlock
-# [cliphub.net]
-HOST,an.cliphub.net,AdBlock
 # [clkdeals.com]
 HOST,clkdeals.com,AdBlock
-# [clksite.com]
 # [clmbtech.com]
 HOST,ade.clmbtech.com,AdBlock
 HOST,ase.clmbtech.com,AdBlock
@@ -9128,8 +8972,6 @@ HOST,cmcore.com,AdBlock
 # [cmgdigital.com]
 HOST,appconfig.cmgdigital.com,AdBlock
 HOST,cmgfeeds.cmgdigital.com,AdBlock
-# [id1.cn.com]
-HOST,id1.cn.com,AdBlock
 # [cnn.com]
 HOST,agility.cnn.com,AdBlock
 HOST,collector.cdp.cnn.com,AdBlock
@@ -9143,8 +8985,6 @@ HOST,smetrics.cnn.com,AdBlock
 HOST,cnt.my,AdBlock
 # [cobrowser.com]
 HOST,app.cobrowser.com,AdBlock
-# [cocamobile.com]
-HOST,msg.cocamobile.com,AdBlock
 # [cognitivlabs.com]
 HOST,lynx.cognitivlabs.com,AdBlock
 HOST,beacon.lynx.cognitivlabs.com,AdBlock
@@ -9167,9 +9007,6 @@ HOST,sync.commander1.com,AdBlock
 HOST,company-target.com,AdBlock
 HOST,api.company-target.com,AdBlock
 HOST,segments.company-target.com,AdBlock
-# [complementics.com]
-HOST,complementics.com,AdBlock
-HOST,sdk-as.complementics.com,AdBlock
 # [complex.com]
 HOST,media.complex.com,AdBlock
 # [comscore.com]
@@ -9184,6 +9021,8 @@ HOST,cdn.concert.io,AdBlock
 # [conductrics.com]
 HOST,cdn-cbc-v3.conductrics.com,AdBlock
 HOST,cdn-v3.conductrics.com,AdBlock
+# [confsettings.com]
+HOST,mobile.confsettings.com,AdBlock
 # [congstar.de]
 HOST,banner.congstar.de,AdBlock
 # [connatix.com]
@@ -9192,14 +9031,12 @@ HOST,capi.connatix.com,AdBlock
 HOST,cd.connatix.com,AdBlock
 HOST,cdm.connatix.com,AdBlock
 HOST,cdn.connatix.com,AdBlock
-HOST,cdns.connatix.com,AdBlock
 HOST,cds.connatix.com,AdBlock
 HOST,ck.connatix.com,AdBlock
 HOST,cks.connatix.com,AdBlock
 HOST,core.connatix.com,AdBlock
 HOST,i.connatix.com,AdBlock
 HOST,img.connatix.com,AdBlock
-HOST,rtb.connatix.com,AdBlock
 HOST,vid.connatix.com,AdBlock
 # [connectad.io]
 HOST,e.connectad.io,AdBlock
@@ -9210,8 +9047,6 @@ HOST,sync-eu.connectad.io,AdBlock
 HOST,api.connecto.io,AdBlock
 HOST,push.connecto.io,AdBlock
 HOST,server.connecto.io,AdBlock
-# [connexity.com]
-HOST,noclick.connexity.com,AdBlock
 # [connexity.net]
 # [consoliads.com]
 HOST,sdk.consoliads.com,AdBlock
@@ -9234,16 +9069,13 @@ HOST,t.contentsquare.net,AdBlock
 # [contentstream.pl]
 HOST,contentstream.pl,AdBlock
 # [contextweb.com]
-HOST,ads.contextweb.com,AdBlock
 HOST,bid.contextweb.com,AdBlock
 HOST,lga-bh.contextweb.com,AdBlock
 HOST,lga-bh-bgp.contextweb.com,AdBlock
 HOST,lga-tr.contextweb.com,AdBlock
 HOST,media-active.contextweb.com,AdBlock
 HOST,sjc-bh.contextweb.com,AdBlock
-HOST,sjc-bh-bgp.contextweb.com,AdBlock
 HOST,sjc-bid.contextweb.com,AdBlock
-HOST,sjc-bid-bgp.contextweb.com,AdBlock
 HOST,sjc-tr.contextweb.com,AdBlock
 HOST,sjc-tr-bgp.contextweb.com,AdBlock
 HOST,tag-st.contextweb.com,AdBlock
@@ -9253,6 +9085,8 @@ HOST,contineljs.com,AdBlock
 HOST,cdn-3.convertexperiments.com,AdBlock
 # [conviva.com]
 HOST,conviva.com,AdBlock
+HOST,47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com,AdBlock
+HOST,efcad85fded269f462c434c4c5f84654a17d4a77.cws.conviva.com,AdBlock
 HOST,cws-eu.conviva.com,AdBlock
 HOST,cws-hulu.conviva.com,AdBlock
 HOST,cws-iad1.conviva.com,AdBlock
@@ -9260,7 +9094,6 @@ HOST,cws-iad4.conviva.com,AdBlock
 HOST,cws-sjc2.conviva.com,AdBlock
 HOST,cws-us-east.conviva.com,AdBlock
 HOST,cws-usw2.conviva.com,AdBlock
-HOST,dl.conviva.com,AdBlock
 HOST,pings.conviva.com,AdBlock
 # [cookiepro.com]
 HOST,cookie-cdn.cookiepro.com,AdBlock
@@ -9271,6 +9104,9 @@ HOST,openrtb.cootlogix.com,AdBlock
 HOST,prebid.cootlogix.com,AdBlock
 # [coralogix.com]
 HOST,api.coralogix.com,AdBlock
+# [cordial.com]
+HOST,events-stream-svc.usw2.cordial.com,AdBlock
+HOST,message-hub-svc.usw2.cordial.com,AdBlock
 # [coremetrics.com]
 HOST,coremetrics.com,AdBlock
 HOST,data.coremetrics.com,AdBlock
@@ -9292,21 +9128,9 @@ HOST,ssl.cdne.cpmstar.com,AdBlock
 # [cpx.to]
 HOST,cpx.to,AdBlock
 HOST,s.cpx.to,AdBlock
-# [cr-nielsen.com]
-HOST,piq.cr-nielsen.com,AdBlock
-HOST,pmg.cr-nielsen.com,AdBlock
-HOST,t.cr-nielsen.com,AdBlock
 # [crasheye.cn]
 HOST,crasheye.cn,AdBlock
 HOST,rp.crasheye.cn,AdBlock
-# [crashlytics.com]
-HOST,crashlytics.com,AdBlock
-HOST,api.crashlytics.com,AdBlock
-HOST,e.crashlytics.com,AdBlock
-HOST,firebase-settings.crashlytics.com,AdBlock
-HOST,reports.crashlytics.com,AdBlock
-HOST,settings.crashlytics.com,AdBlock
-HOST,update.crashlytics.com,AdBlock
 # [crazyegg.com]
 HOST,sample-api-v2.crazyegg.com,AdBlock
 HOST,tracking.crazyegg.com,AdBlock
@@ -9399,7 +9223,6 @@ HOST,sslwidget.criteo.com,AdBlock
 HOST,static.criteo.com,AdBlock
 HOST,us.criteo.com,AdBlock
 HOST,ads.us.criteo.com,AdBlock
-HOST,cas.us.criteo.com,AdBlock
 HOST,d.us.criteo.com,AdBlock
 HOST,da.us.criteo.com,AdBlock
 HOST,cat.da.us.criteo.com,AdBlock
@@ -9428,8 +9251,6 @@ HOST,as.criteo.net,AdBlock
 HOST,csm.as.criteo.net,AdBlock
 HOST,hk.as.criteo.net,AdBlock
 HOST,csm.hk.as.criteo.net,AdBlock
-HOST,jp.as.criteo.net,AdBlock
-HOST,csm.jp.as.criteo.net,AdBlock
 HOST,pix.as.criteo.net,AdBlock
 HOST,eu.criteo.net,AdBlock
 HOST,csm.eu.criteo.net,AdBlock
@@ -9503,7 +9324,6 @@ HOST,track.customer.io,AdBlock
 # [cxense.com]
 HOST,api.cxense.com,AdBlock
 HOST,cdn.cxense.com,AdBlock
-HOST,clientstorage.cxense.com,AdBlock
 HOST,csyn.cxense.com,AdBlock
 HOST,csyn-r.cxense.com,AdBlock
 HOST,cxad.cxense.com,AdBlock
@@ -9528,9 +9348,11 @@ HOST,databerries.com,AdBlock
 HOST,tracker.databrain.com,AdBlock
 # [datadoghq.com]
 HOST,logs.datadoghq.com,AdBlock
+HOST,browser-http-intake.logs.datadoghq.com,AdBlock
+# [datadome.co]
+HOST,api-sdk.datadome.co,AdBlock
 # [datahc.com]
 HOST,media.datahc.com,AdBlock
-HOST,redirect.datahc.com,AdBlock
 # [datawrapper.de]
 HOST,stats.datawrapper.de,AdBlock
 # [dataxu.com]
@@ -9546,10 +9368,6 @@ HOST,keyword.ad.daum.net,AdBlock
 HOST,kyson.ad.daum.net,AdBlock
 HOST,wat.ad.daum.net,AdBlock
 HOST,webid.ad.daum.net,AdBlock
-HOST,ad.g.daum.net,AdBlock
-HOST,analytics.ad.g.daum.net,AdBlock
-HOST,display.ad.g.daum.net,AdBlock
-HOST,kyson.ad.g.daum.net,AdBlock
 HOST,track.tiara.daum.net,AdBlock
 # [daumcdn.net]
 # [dbankcloud.cn]
@@ -9585,13 +9403,11 @@ HOST,deloton.com,AdBlock
 # [deltadna.net]
 HOST,balanced-collect.deltadna.net,AdBlock
 HOST,balanced-engage.deltadna.net,AdBlock
-HOST,collect10665dd4kq.deltadna.net,AdBlock
 HOST,collect10791rllrc.deltadna.net,AdBlock
 HOST,collect10854wrdcr.deltadna.net,AdBlock
 HOST,collect11136gwntd.deltadna.net,AdBlock
 HOST,collect12348wrdvs.deltadna.net,AdBlock
 HOST,collect12981wrdfl.deltadna.net,AdBlock
-HOST,collect15099mrbll.deltadna.net,AdBlock
 HOST,collect17070dvntr.deltadna.net,AdBlock
 HOST,collect2585gmsfw.deltadna.net,AdBlock
 HOST,collect3515gvrnr.deltadna.net,AdBlock
@@ -9604,8 +9420,6 @@ HOST,engage11442ldybg.deltadna.net,AdBlock
 HOST,engage12348wrdvs.deltadna.net,AdBlock
 HOST,engage12981wrdfl.deltadna.net,AdBlock
 HOST,engage13764wrdst.deltadna.net,AdBlock
-HOST,engage14541skllg.deltadna.net,AdBlock
-HOST,engage15099mrbll.deltadna.net,AdBlock
 HOST,engage17070dvntr.deltadna.net,AdBlock
 HOST,engage3515gvrnr.deltadna.net,AdBlock
 HOST,engage5081wrdch.deltadna.net,AdBlock
@@ -9616,7 +9430,6 @@ HOST,deltago.com,AdBlock
 HOST,api.demandbase.com,AdBlock
 HOST,autocomplete.demandbase.com,AdBlock
 HOST,dsp.demandbase.com,AdBlock
-HOST,tracker.dsp.demandbase.com,AdBlock
 HOST,dsp-creative.demandbase.com,AdBlock
 HOST,scripts.demandbase.com,AdBlock
 HOST,tag.demandbase.com,AdBlock
@@ -9636,7 +9449,6 @@ HOST,fast.mtvn.demdex.net,AdBlock
 HOST,nbcu.demdex.net,AdBlock
 HOST,pepsico.demdex.net,AdBlock
 HOST,pythagore.demdex.net,AdBlock
-HOST,reuters.demdex.net,AdBlock
 HOST,swa.demdex.net,AdBlock
 HOST,tdameritrade.demdex.net,AdBlock
 HOST,vanguard.demdex.net,AdBlock
@@ -9647,11 +9459,7 @@ HOST,webmd.demdex.net,AdBlock
 HOST,assets.deployads.com,AdBlock
 HOST,c.deployads.com,AdBlock
 HOST,e.deployads.com,AdBlock
-HOST,search.deployads.com,AdBlock
-HOST,prod.search.deployads.com,AdBlock
 HOST,tags-cdn.deployads.com,AdBlock
-# [destinationrewards.com]
-HOST,api.destinationrewards.com,AdBlock
 # [destinilocators.com]
 HOST,cdn.destinilocators.com,AdBlock
 # [devtodev.com]
@@ -9664,13 +9472,13 @@ HOST,int.dewrain.life,AdBlock
 HOST,int.dewrain.site,AdBlock
 # [dewrain.world]
 HOST,int.dewrain.world,AdBlock
-# [dhgate.com]
-HOST,realstats.dhgate.com,AdBlock
 # [dice.com]
 HOST,insights.dice.com,AdBlock
 # [dickssportinggoods.com]
 HOST,smetrics.dickssportinggoods.com,AdBlock
 HOST,tag.dickssportinggoods.com,AdBlock
+# [dictionary.com]
+HOST,track.dictionary.com,AdBlock
 # [digital-metric.com]
 HOST,analytics.digital-metric.com,AdBlock
 HOST,tags.digital-metric.com,AdBlock
@@ -9698,8 +9506,6 @@ HOST,x.disq.us,AdBlock
 HOST,referrer.disqus.com,AdBlock
 HOST,glitter.services.disqus.com,AdBlock
 HOST,tempest.services.disqus.com,AdBlock
-# [disqusads.com]
-HOST,disqusads.com,AdBlock
 # [districtm.ca]
 HOST,cdn.districtm.ca,AdBlock
 HOST,prebid.districtm.ca,AdBlock
@@ -9720,9 +9526,7 @@ HOST,sdk.dofunapps.com,AdBlock
 HOST,ti.domainforlite.com,AdBlock
 # [domdex.com]
 HOST,t.domdex.com,AdBlock
-HOST,gourmetads-1.t.domdex.com,AdBlock
 HOST,magnetic.t.domdex.com,AdBlock
-# [domob.cn]
 # [doordash.com]
 HOST,collector.doordash.com,AdBlock
 # [dotmetrics.net]
@@ -9734,13 +9538,11 @@ HOST,ff.doubleclick.net,AdBlock
 HOST,fls.doubleclick.net,AdBlock
 HOST,3243857.fls.doubleclick.net,AdBlock
 HOST,8272590.fls.doubleclick.net,AdBlock
+HOST,8397396.fls.doubleclick.net,AdBlock
 HOST,g.doubleclick.net,AdBlock
 HOST,googleads4.g.doubleclick.net,AdBlock
 HOST,survey.g.doubleclick.net,AdBlock
-HOST,g0.doubleclick.net,AdBlock
 HOST,g1.doubleclick.net,AdBlock
-HOST,g2.doubleclick.net,AdBlock
-HOST,g3.doubleclick.net,AdBlock
 HOST,ads-bid.l.doubleclick.net,AdBlock
 HOST,dart.l.doubleclick.net,AdBlock
 HOST,partnerad.l.doubleclick.net,AdBlock
@@ -9756,20 +9558,9 @@ HOST,pub.doubleverify.com,AdBlock
 HOST,rtb0.doubleverify.com,AdBlock
 HOST,rtb2.doubleverify.com,AdBlock
 HOST,rtbcdn.doubleverify.com,AdBlock
-HOST,sgcp-hlb.doubleverify.com,AdBlock
 HOST,tps.doubleverify.com,AdBlock
 HOST,tps10232.doubleverify.com,AdBlock
-HOST,tps11003.doubleverify.com,AdBlock
-HOST,tps11005.doubleverify.com,AdBlock
-HOST,tps11009.doubleverify.com,AdBlock
-HOST,tps11031.doubleverify.com,AdBlock
-HOST,tps11046.doubleverify.com,AdBlock
-HOST,tps11054.doubleverify.com,AdBlock
-HOST,tps11055.doubleverify.com,AdBlock
 HOST,tps30.doubleverify.com,AdBlock
-HOST,tps703.doubleverify.com,AdBlock
-HOST,tps704.doubleverify.com,AdBlock
-HOST,tps707.doubleverify.com,AdBlock
 HOST,tps711.doubleverify.com,AdBlock
 HOST,vast.doubleverify.com,AdBlock
 HOST,vpaid.doubleverify.com,AdBlock
@@ -9795,19 +9586,15 @@ HOST,channel.api.duapp.com,AdBlock
 HOST,duapps.com,AdBlock
 HOST,common.duapps.com,AdBlock
 HOST,pasta.da.duapps.com,AdBlock
-HOST,nrc.dc.duapps.com,AdBlock
 HOST,pasta.dc.duapps.com,AdBlock
 HOST,gc.ds.duapps.com,AdBlock
-HOST,api.mobula.ds.duapps.com,AdBlock
 HOST,nrc.ds.duapps.com,AdBlock
 HOST,pasta.ds.duapps.com,AdBlock
-HOST,tls.ds.duapps.com,AdBlock
 HOST,u.ds.duapps.com,AdBlock
 HOST,pasta.durecorder.duapps.com,AdBlock
 HOST,pasta.esapplocker.duapps.com,AdBlock
 HOST,pasta.estrongspro.duapps.com,AdBlock
 HOST,api.gif.duapps.com,AdBlock
-HOST,pasta.pw.duapps.com,AdBlock
 HOST,s.duapps.com,AdBlock
 HOST,nrc.sd.duapps.com,AdBlock
 HOST,pasta.sd.duapps.com,AdBlock
@@ -9817,9 +9604,6 @@ HOST,ioslog.ssl2.duapps.com,AdBlock
 HOST,mblapi.ssl2.duapps.com,AdBlock
 HOST,motu-hk.ssl2.duapps.com,AdBlock
 HOST,rts.ssl2.duapps.com,AdBlock
-HOST,pasta.whosthat.duapps.com,AdBlock
-# [dui88.com]
-HOST,dui88.com,AdBlock
 # [duiba.com.cn]
 HOST,duiba.com.cn,AdBlock
 # [duokanbox.com]
@@ -9829,13 +9613,9 @@ HOST,fm.duokanbox.com,AdBlock
 HOST,stat.duokanbox.com,AdBlock
 # [dxsvr.com]
 HOST,ak.dxsvr.com,AdBlock
-HOST,nrc.dxsvr.com,AdBlock
 HOST,rc.dxsvr.com,AdBlock
-HOST,rts.dxsvr.com,AdBlock
 HOST,tls.dxsvr.com,AdBlock
 HOST,u.dxsvr.com,AdBlock
-# [dynad.net]
-HOST,metrics.dynad.net,AdBlock
 # [dynamicyield.com]
 HOST,async-px.dynamicyield.com,AdBlock
 HOST,async-px-eu.dynamicyield.com,AdBlock
@@ -9845,13 +9625,10 @@ HOST,em.dynamicyield.com,AdBlock
 HOST,px.dynamicyield.com,AdBlock
 HOST,rcom.dynamicyield.com,AdBlock
 HOST,rcom-eu.dynamicyield.com,AdBlock
-HOST,rcom-use.dynamicyield.com,AdBlock
 HOST,rest.dynamicyield.com,AdBlock
 HOST,st.dynamicyield.com,AdBlock
 HOST,st-eu.dynamicyield.com,AdBlock
 HOST,static.dynamicyield.com,AdBlock
-# [dynapis.info]
-HOST,beacon.rum.dynapis.info,AdBlock
 # [dynatrace-managed.com]
 HOST,dlt-beacon.dynatrace-managed.com,AdBlock
 # [dynatrace.com]
@@ -9861,10 +9638,7 @@ HOST,js-cdn.dynatrace.com,AdBlock
 HOST,cdn.n.dynstc.com,AdBlock
 # [dyntrk.com]
 HOST,dyntrk.com,AdBlock
-HOST,eu-level1.dyntrk.com,AdBlock
 HOST,gu.dyntrk.com,AdBlock
-HOST,us-level1.dyntrk.com,AdBlock
-HOST,us-tracking.dyntrk.com,AdBlock
 # [e-planning.net]
 HOST,ads.us.e-planning.net,AdBlock
 # [eacdn.com]
@@ -9882,6 +9656,7 @@ HOST,ffconf.ecbsn.com,AdBlock
 HOST,static.ecorebates.com,AdBlock
 # [edgekey.net]
 HOST,analytics.edgekey.net,AdBlock
+HOST,79423.analytics.edgekey.net,AdBlock
 HOST,ma1169-r.analytics.edgekey.net,AdBlock
 HOST,ma1275-r.analytics.edgekey.net,AdBlock
 HOST,ma1498-r.analytics.edgekey.net,AdBlock
@@ -9903,7 +9678,6 @@ HOST,ds-m.addthisedge.com.edgekey.net,AdBlock
 HOST,v1.addthisedge.com.edgekey.net,AdBlock
 HOST,adobetag.com.edgekey.net,AdBlock
 HOST,san-www.adobetag.com.edgekey.net,AdBlock
-HOST,adroll.com.edgekey.net,AdBlock
 HOST,api.agoda.com.edgekey.net,AdBlock
 HOST,aniview.com.edgekey.net,AdBlock
 HOST,wildcard.aniview.com.edgekey.net,AdBlock
@@ -9941,7 +9715,6 @@ HOST,flashtalking.com.edgekey.net,AdBlock
 HOST,cdn.flashtalking.com.edgekey.net,AdBlock
 HOST,secure.flashtalking.com.edgekey.net,AdBlock
 HOST,metrics.hackerrank.com.edgekey.net,AdBlock
-HOST,apis.ihg.com.edgekey.net,AdBlock
 HOST,innovid.com.edgekey.net,AdBlock
 HOST,s-static.innovid.com.edgekey.net,AdBlock
 HOST,insightexpressai.com.edgekey.net,AdBlock
@@ -9963,11 +9736,7 @@ HOST,wildcard.outbrainimg.com.edgekey.net,AdBlock
 HOST,rubiconproject.com.edgekey.net,AdBlock
 HOST,digicertwc.rubiconproject.com.edgekey.net,AdBlock
 HOST,eus.rubiconproject.com.edgekey.net,AdBlock
-HOST,serving-sys.com.edgekey.net,AdBlock
-HOST,secure-ds.serving-sys.com.edgekey.net,AdBlock
 HOST,sgsnssdk.com.edgekey.net,AdBlock
-HOST,hotapi.sgsnssdk.com.edgekey.net,AdBlock
-HOST,i16-tb.sgsnssdk.com.edgekey.net,AdBlock
 HOST,spotxcdn.com.edgekey.net,AdBlock
 HOST,cdn.spotxcdn.com.edgekey.net,AdBlock
 HOST,marketingassets.staples.com.edgekey.net,AdBlock
@@ -10017,7 +9786,6 @@ HOST,t.teads.tv.edgekey.net,AdBlock
 # [effectivemeasure.net]
 HOST,collector.effectivemeasure.net,AdBlock
 HOST,detect-survey.effectivemeasure.net,AdBlock
-HOST,id-ssl.effectivemeasure.net,AdBlock
 HOST,my-ssl.effectivemeasure.net,AdBlock
 HOST,s.effectivemeasure.net,AdBlock
 HOST,sg-ssl.effectivemeasure.net,AdBlock
@@ -10025,16 +9793,10 @@ HOST,t.effectivemeasure.net,AdBlock
 # [effiliation.com]
 HOST,mastertag.effiliation.com,AdBlock
 HOST,track.effiliation.com,AdBlock
-# [adbrix-cpn-was-prod.ap-northeast-1.elasticbeanstalk.com]
-HOST,adbrix-cpn-was-prod.ap-northeast-1.elasticbeanstalk.com,AdBlock
-# [adbrix-trk-was-prod.ap-northeast-1.elasticbeanstalk.com]
-HOST,adbrix-trk-was-prod.ap-northeast-1.elasticbeanstalk.com,AdBlock
 # [production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com]
 HOST,production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com,AdBlock
 # [ad-logging2.ap-northeast-2.elasticbeanstalk.com]
 HOST,ad-logging2.ap-northeast-2.elasticbeanstalk.com,AdBlock
-# [bejeweled-skies-prod.elasticbeanstalk.com]
-HOST,bejeweled-skies-prod.elasticbeanstalk.com,AdBlock
 # [bugsee-api-prod.elasticbeanstalk.com]
 HOST,bugsee-api-prod.elasticbeanstalk.com,AdBlock
 # [tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com]
@@ -10065,14 +9827,19 @@ HOST,ei-event-collector.us-east-1.elasticbeanstalk.com,AdBlock
 HOST,ts-tracker-env.us-east-1.elasticbeanstalk.com,AdBlock
 # [ts-tracker-env-2.us-east-1.elasticbeanstalk.com]
 HOST,ts-tracker-env-2.us-east-1.elasticbeanstalk.com,AdBlock
-# [user-event-tracker-prod.us-east-1.elasticbeanstalk.com]
-HOST,user-event-tracker-prod.us-east-1.elasticbeanstalk.com,AdBlock
 # [adlic.us-west-2.elasticbeanstalk.com]
 HOST,adlic.us-west-2.elasticbeanstalk.com,AdBlock
 # [api-gateway.us-west-2.elasticbeanstalk.com]
 HOST,api-gateway.us-west-2.elasticbeanstalk.com,AdBlock
 # [wpsconfig4svr.elasticbeanstalk.com]
 HOST,wpsconfig4svr.elasticbeanstalk.com,AdBlock
+# [emarsys.net]
+HOST,me-client.eservice.emarsys.net,AdBlock
+HOST,mobile-sdk-config.gservice.emarsys.net,AdBlock
+# [emb-api.com]
+HOST,config.emb-api.com,AdBlock
+HOST,data.emb-api.com,AdBlock
+HOST,images.emb-api.com,AdBlock
 # [emxdgt.com]
 HOST,emxdgt.com,AdBlock
 HOST,cs.emxdgt.com,AdBlock
@@ -10088,9 +9855,7 @@ HOST,vast.emxdgt.com,AdBlock
 # [en25.com]
 HOST,img.en25.com,AdBlock
 # [engageclick.com]
-HOST,serve2.engageclick.com,AdBlock
 HOST,tracker.engageclick.com,AdBlock
-HOST,turbo.engageclick.com,AdBlock
 # [engageya.com]
 HOST,engageya.com,AdBlock
 HOST,events.engageya.com,AdBlock
@@ -10105,8 +9870,6 @@ HOST,ensighten.com,AdBlock
 HOST,activate.ensighten.com,AdBlock
 HOST,nexus.ensighten.com,AdBlock
 HOST,scarf.ensighten.com,AdBlock
-# [entireweb.com]
-HOST,sa.entireweb.com,AdBlock
 # [epom.com]
 HOST,epom.com,AdBlock
 # [eqads.com]
@@ -10115,6 +9878,7 @@ HOST,ads3.eqads.com,AdBlock
 HOST,um2.eqads.com,AdBlock
 HOST,um3.eqads.com,AdBlock
 # [espn.com]
+HOST,log.espn.com,AdBlock
 HOST,sw88.espn.com,AdBlock
 # [estara.com]
 HOST,as00.estara.com,AdBlock
@@ -10145,6 +9909,7 @@ HOST,media.evolv.ai,AdBlock
 HOST,participants.evolv.ai,AdBlock
 # [ex.co]
 HOST,cdn-channels-pixel.ex.co,AdBlock
+HOST,prd-collector-anon.ex.co,AdBlock
 # [exactag.com]
 HOST,tp-emea.exactag.com,AdBlock
 # [exacttargetapis.com]
@@ -10186,16 +9951,10 @@ HOST,extreme-ip-lookup.com,AdBlock
 # [extremereach.io]
 HOST,extremereach.io,AdBlock
 HOST,beacons.extremereach.io,AdBlock
-HOST,beacons2.extremereach.io,AdBlock
 HOST,cdn1.extremereach.io,AdBlock
 HOST,cdn2.extremereach.io,AdBlock
 HOST,vast.extremereach.io,AdBlock
 # [eyeota.net]
-# [eyereturn.com]
-HOST,mcs.eyereturn.com,AdBlock
-HOST,orion.eyereturn.com,AdBlock
-HOST,p3.eyereturn.com,AdBlock
-HOST,quickresource.eyereturn.com,AdBlock
 # [eyeviewads.com]
 HOST,track.eyeviewads.com,AdBlock
 # [ezmob.com]
@@ -10216,8 +9975,6 @@ HOST,mparticle.map.fastly.net,AdBlock
 HOST,confiant-integrations.global.ssl.fastly.net,AdBlock
 # [fbcdn.net]
 HOST,sonar-iad.xx.fbcdn.net,AdBlock
-# [fc2.com]
-HOST,aimg.fc2.com,AdBlock
 # [fedex.com]
 HOST,metrics.fedex.com,AdBlock
 # [feedmob.com]
@@ -10235,13 +9992,10 @@ HOST,sdk.fiksu.com,AdBlock
 # [fingersoft.net]
 HOST,ads.fingersoft.net,AdBlock
 HOST,ads3.fingersoft.net,AdBlock
-# [firebaseio.com]
-HOST,famobi-01.firebaseio.com,AdBlock
 # [firstimpression.io]
 HOST,firstimpression.io,AdBlock
 HOST,cdn.firstimpression.io,AdBlock
 HOST,ecdn.firstimpression.io,AdBlock
-HOST,tracking1.firstimpression.io,AdBlock
 # [fishsticksgames.com]
 HOST,logging.fishsticksgames.com,AdBlock
 # [fitanalytics.com]
@@ -10286,6 +10040,8 @@ HOST,load.fomo.com,AdBlock
 HOST,king-contenido-prod.secure2.footprint.net,AdBlock
 # [footprintdns.com]
 HOST,footprintdns.com,AdBlock
+HOST,918a7a98a85c63f2244669a0f54e12ba.clo.footprintdns.com,AdBlock
+HOST,bdc10654944f452cbeefa3a612d5a3b4.clo.footprintdns.com,AdBlock
 # [forbes.com]
 HOST,fuse.forbes.com,AdBlock
 HOST,geolocation.forbes.com,AdBlock
@@ -10303,17 +10059,14 @@ HOST,events.foreseeresults.com,AdBlock
 # [formisimo.com]
 HOST,cdn-static.formisimo.com,AdBlock
 # [forter.com]
+HOST,9e97cf8b099a.cdn4.forter.com,AdBlock
+HOST,e44177b6b805.cdn4.forter.com,AdBlock
 HOST,fdfe4ed62699.cdn4.forter.com,AdBlock
 # [fosrv.com]
 HOST,analytics.fosrv.com,AdBlock
 # [fotoable.com]
-HOST,cdn.api.fotoable.com,AdBlock
-HOST,cdn.fotoable.com,AdBlock
 HOST,dl.fotoable.com,AdBlock
-HOST,log.fotoable.com,AdBlock
 # [fotoable.net]
-HOST,ads.fotoable.net,AdBlock
-HOST,cdn.ads.fotoable.net,AdBlock
 HOST,geoip.fotoable.net,AdBlock
 # [fout.jp]
 HOST,fout.jp,AdBlock
@@ -10329,6 +10082,8 @@ HOST,imp.rfp.fout.jp,AdBlock
 HOST,js.rfp.fout.jp,AdBlock
 HOST,sync.rfp.fout.jp,AdBlock
 HOST,sync.fout.jp,AdBlock
+# [fox.com]
+HOST,b.fox.com,AdBlock
 # [foxitcloud.com]
 HOST,adlog.foxitcloud.com,AdBlock
 HOST,logger.foxitcloud.com,AdBlock
@@ -10336,6 +10091,8 @@ HOST,logger.foxitcloud.com,AdBlock
 HOST,smetrics.foxnews.com,AdBlock
 # [foxpush.com]
 HOST,pushaction.foxpush.com,AdBlock
+# [foxsports.com]
+HOST,analytics.nova.foxsports.com,AdBlock
 # [fqtag.com]
 HOST,aux.fqtag.com,AdBlock
 HOST,c.fqtag.com,AdBlock
@@ -10349,7 +10106,6 @@ HOST,c.ftstats.com,AdBlock
 HOST,dat.funheroic.com,AdBlock
 # [funshion.com]
 # [fuse-ad.com]
-HOST,enjoynet.fuse-ad.com,AdBlock
 HOST,pokkt.fuse-ad.com,AdBlock
 # [fusetracking.com]
 HOST,leanmobi.fusetracking.com,AdBlock
@@ -10364,16 +10120,13 @@ HOST,v.fwmrm.net,AdBlock
 # [fyber.com]
 HOST,api.fyber.com,AdBlock
 HOST,api-rewarded-video.fyber.com,AdBlock
-HOST,banner.fyber.com,AdBlock
 HOST,dau.fyber.com,AdBlock
 HOST,engine.fyber.com,AdBlock
 HOST,fev.fyber.com,AdBlock
 HOST,interstitial.fyber.com,AdBlock
-HOST,aws.interstitial-broker.fyber.com,AdBlock
 HOST,mbe-cdn.fyber.com,AdBlock
 HOST,mediation.fyber.com,AdBlock
 HOST,offer.fyber.com,AdBlock
-HOST,ofw-client-cdn.fyber.com,AdBlock
 HOST,postimp-ofw.fyber.com,AdBlock
 HOST,update.postimp-ofw.fyber.com,AdBlock
 HOST,s.update.postimp-ofw.fyber.com,AdBlock
@@ -10392,7 +10145,6 @@ HOST,pushwoosh.g5e.com,AdBlock
 HOST,specialdeals.g5e.com,AdBlock
 HOST,xpromo.g5e.com,AdBlock
 # [game-insight.com]
-HOST,mobile.game-insight.com,AdBlock
 HOST,tribez.game-insight.com,AdBlock
 # [gameanalytics.com]
 HOST,gameanalytics.com,AdBlock
@@ -10419,7 +10171,6 @@ HOST,tag.gammaplatform.com,AdBlock
 # [gamooga.com]
 HOST,evbk.gamooga.com,AdBlock
 # [gannettdigital.com]
-HOST,adrev-ingress.ad-rev-dev-production-east.shared-gke-production-east-svc.gannettdigital.com,AdBlock
 HOST,traxex.gannettdigital.com,AdBlock
 # [gdeslon.ru]
 HOST,gdeslon.ru,AdBlock
@@ -10447,7 +10198,6 @@ HOST,www.geoplugin.net,AdBlock
 # [gepush.com]
 # [getclicky.com]
 HOST,in.getclicky.com,AdBlock
-HOST,pmetrics.getclicky.com,AdBlock
 HOST,static.getclicky.com,AdBlock
 # [getdrip.com]
 HOST,api.getdrip.com,AdBlock
@@ -10460,10 +10210,8 @@ HOST,analytics.getshogun.com,AdBlock
 # [getsocial.im]
 HOST,hades.getsocial.im,AdBlock
 # [getui.net]
-# [getwisdom.io]
-HOST,getwisdom.io,AdBlock
-# [ggsafe.com]
-HOST,sdkstat.ggsafe.com,AdBlock
+# [gigya.com]
+HOST,socialize.eu1.gigya.com,AdBlock
 # [gimbal.com]
 HOST,analytics-server.gimbal.com,AdBlock
 HOST,communicate.gimbal.com,AdBlock
@@ -10485,8 +10233,6 @@ HOST,us-1.gladly.com,AdBlock
 HOST,js.gleam.io,AdBlock
 # [glispa.com]
 HOST,glispa.com,AdBlock
-HOST,rd.glispa.com,AdBlock
-HOST,trk.glispa.com,AdBlock
 # [globalnetworkad.com]
 HOST,trans.globalnetworkad.com,AdBlock
 # [globalwebindex.net]
@@ -10503,10 +10249,14 @@ HOST,cdn.gmossp-sp.jp,AdBlock
 HOST,adn-d.sp.gmossp-sp.jp,AdBlock
 HOST,adn-i.sp.gmossp-sp.jp,AdBlock
 HOST,adn-j.sp.gmossp-sp.jp,AdBlock
+# [go-mpulse.net]
+HOST,s.go-mpulse.net,AdBlock
 # [go.com]
 HOST,log.go.com,AdBlock
 HOST,sw88.go.com,AdBlock
 HOST,tredir.go.com,AdBlock
+HOST,unid.go.com,AdBlock
+HOST,android.unid.go.com,AdBlock
 HOST,cdn.unid.go.com,AdBlock
 HOST,ios.unid.go.com,AdBlock
 # [go2cloud.org]
@@ -10539,20 +10289,16 @@ HOST,owb101.goo.ne.jp,AdBlock
 HOST,secure.gooddata.com,AdBlock
 # [google-analytics.com]
 # [google.com]
-HOST,crashlytics2.l.google.com,AdBlock
 HOST,s0-2mdn-net.l.google.com,AdBlock
 # [googleadservices.com]
 HOST,googleadservices.com,AdBlock
 HOST,pagead2.googleadservices.com,AdBlock
 # [googleadsserving.cn]
-# [crashlyticsreports-pa.googleapis.com]
-HOST,crashlyticsreports-pa.googleapis.com,AdBlock
 # [googlesyndication.com]
 # [googleusercontent.com]
 HOST,displayads-formats.googleusercontent.com,AdBlock
 # [gop1.co]
 HOST,gop1.co,AdBlock
-HOST,aos.gop1.co,AdBlock
 HOST,img.gop1.co,AdBlock
 # [gotoip55.com]
 HOST,gotoip55.com,AdBlock
@@ -10583,8 +10329,6 @@ HOST,api.growthbeat.com,AdBlock
 HOST,api.growthpush.com,AdBlock
 # [gscontxt.net]
 HOST,hearst.gscontxt.net,AdBlock
-# [gstatic.com]
-HOST,csi.gstatic.com,AdBlock
 # [gu-web.net]
 HOST,phar.gu-web.net,AdBlock
 # [guardianapps.co.uk]
@@ -10607,7 +10351,6 @@ HOST,s.update.wo.gumgum.com,AdBlock
 # [guoshipartners.com]
 # [gwallet.com]
 HOST,gwallet.com,AdBlock
-HOST,panel.gwallet.com,AdBlock
 # [h-cdn.com]
 HOST,perr.h-cdn.com,AdBlock
 # [h12-media.com]
@@ -10619,9 +10362,6 @@ HOST,sdk.hansel.io,AdBlock
 HOST,ujm.hansel.io,AdBlock
 # [hapyak.com]
 HOST,analytics-production.hapyak.com,AdBlock
-# [hariken.co]
-HOST,beacon.hariken.co,AdBlock
-HOST,sync.hariken.co,AdBlock
 # [hasmobi.net]
 HOST,hasmobi.net,AdBlock
 HOST,adx.hasmobi.net,AdBlock
@@ -10637,9 +10377,6 @@ HOST,hbi-ingest.net,AdBlock
 HOST,cdn.heapanalytics.com,AdBlock
 # [herocraft.com]
 HOST,adv.herocraft.com,AdBlock
-HOST,gamestats.herocraft.com,AdBlock
-# [collection-endpoint-prod.herokuapp.com]
-HOST,collection-endpoint-prod.herokuapp.com,AdBlock
 # [collection-endpoint-staging.herokuapp.com]
 HOST,collection-endpoint-staging.herokuapp.com,AdBlock
 # [evening-badlands-6215.herokuapp.com]
@@ -10651,17 +10388,10 @@ HOST,powr-counter.herokuapp.com,AdBlock
 # [wootric-eligibility.herokuapp.com]
 HOST,wootric-eligibility.herokuapp.com,AdBlock
 # [herokudns.com]
-HOST,analytics.readcube.com.herokudns.com,AdBlock
-HOST,sense360eng.com.herokudns.com,AdBlock
-HOST,android-quinoa-config-prod.sense360eng.com.herokudns.com,AdBlock
-HOST,ios-quinoa-config-prod.sense360eng.com.herokudns.com,AdBlock
-HOST,ios-quinoa-personal-identify-prod.sense360eng.com.herokudns.com,AdBlock
-HOST,quinoa-personal-identify-prod.sense360eng.com.herokudns.com,AdBlock
 HOST,embed.tagboard.com.herokudns.com,AdBlock
 HOST,event-logger.tagboard.com.herokudns.com,AdBlock
 HOST,api.wootric.com.herokudns.com,AdBlock
 HOST,production.wootric.com.herokudns.com,AdBlock
-HOST,app.yesware.com.herokudns.com,AdBlock
 HOST,analytics.yopify.com.herokudns.com,AdBlock
 # [hexagon-analytics.com]
 HOST,hexagon-analytics.com,AdBlock
@@ -10676,9 +10406,7 @@ HOST,cdn-cf-hc-banners.hgonline.net,AdBlock
 # [hiconversion.com]
 HOST,h30-deploy.hiconversion.com,AdBlock
 # [hiido.com]
-HOST,cdn.hiido.com,AdBlock
 HOST,config.hiido.com,AdBlock
-HOST,dlog.hiido.com,AdBlock
 HOST,hlog.hiido.com,AdBlock
 HOST,klog.hiido.com,AdBlock
 HOST,mlog.hiido.com,AdBlock
@@ -10688,15 +10416,12 @@ HOST,ylog.hiido.com,AdBlock
 HOST,s4i.histats.com,AdBlock
 # [hitsteps.com]
 HOST,log.hitsteps.com,AdBlock
-# [hmageo.com]
-HOST,mobile.api.hmageo.com,AdBlock
 # [holder.com.ua]
 HOST,holder.com.ua,AdBlock
 # [homify.com.mx]
 HOST,homify.com.mx,AdBlock
 # [hostyour.video]
 HOST,analytics.hostyour.video,AdBlock
-HOST,sdk.hostyour.video,AdBlock
 # [hot-mob.com]
 HOST,hot-mob.com,AdBlock
 HOST,ad.hot-mob.com,AdBlock
@@ -10732,16 +10457,13 @@ HOST,huq.io,AdBlock
 HOST,api.huq.io,AdBlock
 # [huqindustries.co.uk]
 HOST,api.huqindustries.co.uk,AdBlock
-HOST,charles.huqindustries.co.uk,AdBlock
 # [hutchgames.io]
 HOST,crosspromo.hutchgames.io,AdBlock
 # [huuuge.net]
 HOST,stats.huuuge.net,AdBlock
 # [hyprmx.com]
 HOST,live.hyprmx.com,AdBlock
-HOST,marketplace-android-b146.hyprmx.com,AdBlock
-HOST,marketplace-android-b185.hyprmx.com,AdBlock
-HOST,marketplace-android-b234.hyprmx.com,AdBlock
+HOST,marketplace-android-b235.hyprmx.com,AdBlock
 HOST,static.hyprmx.com,AdBlock
 # [i-mobile.co.jp]
 HOST,i-mobile.co.jp,AdBlock
@@ -10759,7 +10481,6 @@ HOST,lc.iadvize.com,AdBlock
 HOST,static.iadvize.com,AdBlock
 HOST,xmpp-ha-alb.iadvize.com,AdBlock
 # [iappgame.com]
-HOST,app.iappgame.com,AdBlock
 HOST,sdk.iappgame.com,AdBlock
 # [iappmobi.com]
 HOST,data.iappmobi.com,AdBlock
@@ -10776,8 +10497,6 @@ HOST,collector.tealeaf.ibmcloud.com,AdBlock
 HOST,uscollector.tealeaf.ibmcloud.com,AdBlock
 # [icecyber.org]
 HOST,stable.icecyber.org,AdBlock
-# [iclickyou.com]
-HOST,iclickyou.com,AdBlock
 # [icloseli.com]
 HOST,ads.icloseli.com,AdBlock
 # [icloud.com]
@@ -10794,8 +10513,6 @@ HOST,js.idio.co,AdBlock
 HOST,s.idio.co,AdBlock
 HOST,sales.idio.co,AdBlock
 HOST,ssl-s.idio.co,AdBlock
-# [idoing3d.com]
-HOST,game.idoing3d.com,AdBlock
 # [idreams.pl]
 HOST,server.idreams.pl,AdBlock
 # [iesnare.com]
@@ -10817,18 +10534,20 @@ HOST,open.talk.igexin.com,AdBlock
 HOST,sdk.open.talk.igexin.com,AdBlock
 # [igodigital.com]
 HOST,collect.igodigital.com,AdBlock
+HOST,100016075.collect.igodigital.com,AdBlock
 HOST,10870841.collect.igodigital.com,AdBlock
+HOST,7227272.collect.igodigital.com,AdBlock
+# [iheart.com]
+HOST,us-events.api.iheart.com,AdBlock
+HOST,smy.iheart.com,AdBlock
 # [ihsmarkit.com]
 HOST,wass.ihsmarkit.com,AdBlock
-# [ihuman.com]
-HOST,api.ihuman.com,AdBlock
 # [ijinshan.com]
 HOST,dcys.ijinshan.com,AdBlock
 HOST,zj.dcys.ijinshan.com,AdBlock
 HOST,cntj.zj.dcys.ijinshan.com,AdBlock
 HOST,did.ijinshan.com,AdBlock
 HOST,cmplay.did.ijinshan.com,AdBlock
-HOST,mlb.did.ijinshan.com,AdBlock
 HOST,img1.ijinshan.com,AdBlock
 HOST,keyserver.ijinshan.com,AdBlock
 HOST,kpns.ijinshan.com,AdBlock
@@ -10854,7 +10573,6 @@ HOST,amplify-com-mktg.imgix.net,AdBlock
 HOST,marketingweek.imgix.net,AdBlock
 HOST,moengagewebsdk.imgix.net,AdBlock
 # [imguol.com]
-HOST,bn.imguol.com,AdBlock
 HOST,e.imguol.com,AdBlock
 # [imhd.io]
 HOST,cdn.imhd.io,AdBlock
@@ -10864,7 +10582,6 @@ HOST,imimobile.com,AdBlock
 HOST,tracking.immobilienscout24.de,AdBlock
 # [immomo.com]
 HOST,api.immomo.com,AdBlock
-HOST,api-log.immomo.com,AdBlock
 HOST,connperf.immomo.com,AdBlock
 HOST,live-api.immomo.com,AdBlock
 HOST,paas-push-api.immomo.com,AdBlock
@@ -10908,7 +10625,6 @@ HOST,secure-sdk.imrworldwide.com,AdBlock
 HOST,secure-sg.imrworldwide.com,AdBlock
 HOST,secure-uk.imrworldwide.com,AdBlock
 HOST,secure-us.imrworldwide.com,AdBlock
-HOST,static.imrworldwide.com,AdBlock
 HOST,uaid-linkage.imrworldwide.com,AdBlock
 # [imtwjwoasak.com]
 HOST,imtwjwoasak.com,AdBlock
@@ -10957,7 +10673,6 @@ HOST,engagement.inmarket.com,AdBlock
 HOST,m2m-api.inmarket.com,AdBlock
 # [inmobi.cn]
 HOST,inmobi.cn,AdBlock
-HOST,config.inmobi.cn,AdBlock
 HOST,sdk.inmobi.cn,AdBlock
 HOST,telemetry.sdk.inmobi.cn,AdBlock
 HOST,w.inmobi.cn,AdBlock
@@ -10983,10 +10698,8 @@ HOST,content-prod3.glance-internal.inmobi.com,AdBlock
 HOST,imces.inmobi.com,AdBlock
 HOST,pulse.inmobi.com,AdBlock
 HOST,carpet.pulse.inmobi.com,AdBlock
-HOST,reaper.pulse.inmobi.com,AdBlock
 HOST,sdk.inmobi.com,AdBlock
 HOST,telemetry.sdk.inmobi.com,AdBlock
-HOST,ssp-prod-old-telemerty-eastus-appgwv2.inmobi.com,AdBlock
 HOST,ssp-prod-telemerty-eastus-appgwv2.inmobi.com,AdBlock
 HOST,trafficmanager.inmobi.com,AdBlock
 HOST,eastus.trafficmanager.inmobi.com,AdBlock
@@ -11002,8 +10715,6 @@ HOST,et-eus.w.inmobi.com,AdBlock
 HOST,js.w.inmobi.com,AdBlock
 HOST,sdktm.w.inmobi.com,AdBlock
 HOST,vast.w.inmobi.com,AdBlock
-# [inmobi.net]
-HOST,inmobi.net,AdBlock
 # [inmobicdn.net]
 HOST,inmobicdn.net,AdBlock
 HOST,l.inmobicdn.net,AdBlock
@@ -11036,8 +10747,6 @@ HOST,innity.net,AdBlock
 HOST,avd.innity.net,AdBlock
 HOST,vcdn.media.innity.net,AdBlock
 HOST,ssl-avd.innity.net,AdBlock
-# [innomdc.com]
-HOST,api.innomdc.com,AdBlock
 # [innovid.com]
 HOST,innovid.com,AdBlock
 HOST,ag.innovid.com,AdBlock
@@ -11051,12 +10760,8 @@ HOST,s-static.innovid.com,AdBlock
 HOST,s-video.innovid.com,AdBlock
 HOST,service.innovid.com,AdBlock
 HOST,static.innovid.com,AdBlock
-HOST,video.innovid.com,AdBlock
-HOST,x.innovid.com,AdBlock
 # [inshorts.com]
 HOST,analytics-events.inshorts.com,AdBlock
-# [insightexpress.com]
-HOST,cdn.insightexpress.com,AdBlock
 # [insightexpressai.com]
 HOST,insightexpressai.com,AdBlock
 HOST,secure.insightexpressai.com,AdBlock
@@ -11067,8 +10772,6 @@ HOST,cdn.insigit.com,AdBlock
 HOST,cdn.inskinad.com,AdBlock
 HOST,mfad.inskinad.com,AdBlock
 HOST,video.inskinad.com,AdBlock
-# [insmobi.com]
-HOST,api.insmobi.com,AdBlock
 # [inspectlet.com]
 HOST,cdn.inspectlet.com,AdBlock
 HOST,hn.inspectlet.com,AdBlock
@@ -11088,18 +10791,22 @@ HOST,static.intentarget.com,AdBlock
 HOST,ads.intentiq.com,AdBlock
 HOST,api.intentiq.com,AdBlock
 HOST,pe.intentiq.com,AdBlock
-HOST,pe-east.intentiq.com,AdBlock
 HOST,pe1.intentiq.com,AdBlock
 HOST,sync.intentiq.com,AdBlock
 HOST,sync1.intentiq.com,AdBlock
 # [intergi.com]
 HOST,cdn.intergi.com,AdBlock
+# [intergient.com]
+HOST,cdn.intergient.com,AdBlock
 # [intermarkets.net]
 HOST,intermarkets.net,AdBlock
 # [intowow.com]
 HOST,intowow.com,AdBlock
 HOST,adcfg.intowow.com,AdBlock
 HOST,geoinfo.intowow.com,AdBlock
+# [intuit.com]
+HOST,logging.api.intuit.com,AdBlock
+HOST,monitoring-sdk.experimentation.intuit.com,AdBlock
 # [inven.co.kr]
 HOST,ads.inven.co.kr,AdBlock
 # [invoca.net]
@@ -11118,7 +10825,6 @@ HOST,ads.iosappsworld.com,AdBlock
 HOST,ci-mpsnare.iovation.com,AdBlock
 HOST,first.iovation.com,AdBlock
 # [iperceptions.com]
-HOST,active.iperceptions.com,AdBlock
 HOST,api.iperceptions.com,AdBlock
 HOST,collect.iperceptions.com,AdBlock
 HOST,ips-img.iperceptions.com,AdBlock
@@ -11130,7 +10836,6 @@ HOST,ipinyou.com,AdBlock
 HOST,cm.ipinyou.com,AdBlock
 HOST,fm.ipinyou.com,AdBlock
 HOST,fms.ipinyou.com,AdBlock
-HOST,mdi.ipinyou.com,AdBlock
 HOST,stats.ipinyou.com,AdBlock
 # [iponweb.net]
 HOST,fastg8.pool.iponweb.net,AdBlock
@@ -11193,8 +10898,6 @@ HOST,open.isnssdk.com,AdBlock
 HOST,pangolin16.isnssdk.com,AdBlock
 HOST,tnc16-alisg.isnssdk.com,AdBlock
 HOST,tnc16-useast1a.isnssdk.com,AdBlock
-# [isoftmarketing.com]
-HOST,banners.isoftmarketing.com,AdBlock
 # [ispot.tv]
 HOST,ispot.tv,AdBlock
 HOST,pi.ispot.tv,AdBlock
@@ -11278,7 +10981,6 @@ HOST,nv-sdk.jumio.com,AdBlock
 HOST,ads.justpremium.com,AdBlock
 HOST,de.ads.justpremium.com,AdBlock
 HOST,es.ads.justpremium.com,AdBlock
-HOST,fr.ads.justpremium.com,AdBlock
 HOST,pre.ads.justpremium.com,AdBlock
 HOST,uk.ads.justpremium.com,AdBlock
 HOST,cdn.justpremium.com,AdBlock
@@ -11331,7 +11033,6 @@ HOST,cma.kargo.com,AdBlock
 HOST,crb.kargo.com,AdBlock
 HOST,kds-pixel.kargo.com,AdBlock
 HOST,klkstrm.kargo.com,AdBlock
-HOST,kraken.production.us-west-1.kops.kargo.com,AdBlock
 HOST,krk.kargo.com,AdBlock
 HOST,prg.kargo.com,AdBlock
 HOST,socialcanvas-cdn.kargo.com,AdBlock
@@ -11341,13 +11042,9 @@ HOST,api.keen.io,AdBlock
 HOST,kejet.net,AdBlock
 # [keymedia.com]
 HOST,au.res.keymedia.com,AdBlock
-# [keymob.com]
-HOST,tj.keymob.com,AdBlock
 # [keywee.co]
 HOST,cdn.keywee.co,AdBlock
 HOST,pixel.keywee.co,AdBlock
-# [kgrid.co.kr]
-HOST,log.kgrid.co.kr,AdBlock
 # [kidoz.net]
 HOST,analytics.kidoz.net,AdBlock
 # [kiip.me]
@@ -11361,7 +11058,6 @@ HOST,adtrack.king.com,AdBlock
 HOST,servicelayer.king.com,AdBlock
 # [kingoapp.com]
 HOST,analytics.kingoapp.com,AdBlock
-HOST,sdk.kingoapp.com,AdBlock
 HOST,service.kingoapp.com,AdBlock
 HOST,uts.kingoapp.com,AdBlock
 # [kingsoft-office-service.com]
@@ -11386,7 +11082,6 @@ HOST,trk.klclick2.com,AdBlock
 HOST,trk.klclick3.com,AdBlock
 # [kmpmedia.net]
 HOST,gplayer.kmpmedia.net,AdBlock
-HOST,player.kmpmedia.net,AdBlock
 HOST,update.kmpmedia.net,AdBlock
 # [kmsmep.com]
 HOST,brand-sdk.kmsmep.com,AdBlock
@@ -11423,17 +11118,12 @@ HOST,consumer.krxd.net,AdBlock
 HOST,jslog.krxd.net,AdBlock
 HOST,link.krxd.net,AdBlock
 HOST,wpp.krxd.net,AdBlock
-# [kshwtj.com]
-HOST,andmlb.kshwtj.com,AdBlock
 # [kt.com]
 HOST,freesam.kt.com,AdBlock
 HOST,ilb.pns.kt.com,AdBlock
 # [ktplay.com]
 HOST,dataapi.ktplay.com,AdBlock
 HOST,track.ktplay.com,AdBlock
-# [ktxtr.com]
-HOST,c.ktxtr.com,AdBlock
-HOST,t.ktxtr.com,AdBlock
 # [kumulos.com]
 HOST,events.kumulos.com,AdBlock
 HOST,stats.kumulos.com,AdBlock
@@ -11454,10 +11144,6 @@ HOST,lavanetwork.net,AdBlock
 HOST,delivery.lavanetwork.net,AdBlock
 HOST,libs.lavanetwork.net,AdBlock
 HOST,pub.lavanetwork.net,AdBlock
-# [lavasoft.com]
-HOST,wc-tracking.lavasoft.com,AdBlock
-# [lbdns-streamguys.com]
-HOST,ad-im-cmg.lbdns-streamguys.com,AdBlock
 # [lbesec.com]
 HOST,cc.lbesec.com,AdBlock
 # [lbesecapi.com]
@@ -11493,19 +11179,15 @@ HOST,t.leady.com,AdBlock
 # [leadzu.com]
 HOST,cname.leadzu.com,AdBlock
 HOST,ocio.leadzu.com,AdBlock
-HOST,r.leadzu.com,AdBlock
 # [leadzuaf.com]
 HOST,play.leadzuaf.com,AdBlock
 # [leanlab.co]
 HOST,track.leanlab.co,AdBlock
 # [leanplum.com]
 HOST,api.leanplum.com,AdBlock
-HOST,dev.leanplum.com,AdBlock
 HOST,prod.leanplum.com,AdBlock
 HOST,assets.prod.leanplum.com,AdBlock
 HOST,www.leanplum.com,AdBlock
-# [legolas-media.com]
-HOST,legolas-media.com,AdBlock
 # [lemonpi.io]
 HOST,log.lemonpi.io,AdBlock
 # [lengow.com]
@@ -11521,11 +11203,8 @@ HOST,servicer.lentainform.com,AdBlock
 # [lenzmx.com]
 HOST,next.lenzmx.com,AdBlock
 HOST,tracking.lenzmx.com,AdBlock
-# [letv.cn]
-HOST,g3.letv.cn,AdBlock
 # [letv.com]
 HOST,ark.letv.com,AdBlock
-HOST,dc.letv.com,AdBlock
 HOST,g3.letv.com,AdBlock
 HOST,api.hdtv.letv.com,AdBlock
 HOST,api.itv.letv.com,AdBlock
@@ -11537,12 +11216,9 @@ HOST,control.scloud.lfengmobile.com,AdBlock
 HOST,dnm.scloud.lfengmobile.com,AdBlock
 HOST,push.scloud.lfengmobile.com,AdBlock
 HOST,xfeedback.scloud.lfengmobile.com,AdBlock
-HOST,online.slb.lfengmobile.com,AdBlock
-HOST,online2.slb.lfengmobile.com,AdBlock
 # [lfstmedia.com]
 HOST,ads.lfstmedia.com,AdBlock
 HOST,cdn.lfstmedia.com,AdBlock
-HOST,cdn2.lfstmedia.com,AdBlock
 HOST,grtb-de.lfstmedia.com,AdBlock
 HOST,grtb-nj.lfstmedia.com,AdBlock
 HOST,grtb-sc.lfstmedia.com,AdBlock
@@ -11607,6 +11283,7 @@ HOST,vap6ewr1.lijit.com,AdBlock
 HOST,api.limbik.com,AdBlock
 # [linkedin.com]
 HOST,ads.linkedin.com,AdBlock
+HOST,px.ads.linkedin.com,AdBlock
 # [linkprice.com]
 HOST,ad.linkprice.com,AdBlock
 # [linksynergy.com]
@@ -11622,7 +11299,6 @@ HOST,ad.lionmobi.com,AdBlock
 HOST,analysis.lionmobi.com,AdBlock
 HOST,battery.lionmobi.com,AdBlock
 HOST,gamebooster.lionmobi.com,AdBlock
-HOST,material.lionmobi.com,AdBlock
 HOST,notification.lionmobi.com,AdBlock
 HOST,param.lionmobi.com,AdBlock
 HOST,parameter.lionmobi.com,AdBlock
@@ -11678,8 +11354,6 @@ HOST,sparkle.locationlabs.com,AdBlock
 # [locuslabs.com]
 HOST,api.locuslabs.com,AdBlock
 HOST,assets.locuslabs.com,AdBlock
-# [lodeo.io]
-HOST,cdn.lodeo.io,AdBlock
 # [loft.com]
 HOST,smetrics.loft.com,AdBlock
 # [logentries.com]
@@ -11693,14 +11367,12 @@ HOST,logs-01.loggly.com,AdBlock
 HOST,b.logly.co.jp,AdBlock
 HOST,cdn.logly.co.jp,AdBlock
 HOST,dsp.logly.co.jp,AdBlock
-HOST,insight.logly.co.jp,AdBlock
 # [logrocket.com]
 HOST,cdn.logrocket.com,AdBlock
 # [logrocket.io]
 HOST,cdn.logrocket.io,AdBlock
 # [logsss.com]
 HOST,analytics.logsss.com,AdBlock
-HOST,geshopimg.logsss.com,AdBlock
 HOST,glbgcl.logsss.com,AdBlock
 HOST,glsdk.logsss.com,AdBlock
 HOST,ma.logsss.com,AdBlock
@@ -11709,12 +11381,9 @@ HOST,s.logsss.com,AdBlock
 HOST,slapi-bts.logsss.com,AdBlock
 # [lomadee.com]
 HOST,secure.lomadee.com,AdBlock
-HOST,ssl.lomadee.com,AdBlock
 HOST,validator.lomadee.com,AdBlock
 # [lookbookhq.com]
 HOST,app.cdn.lookbookhq.com,AdBlock
-# [loopme.com]
-HOST,block-keywords.loopme.com,AdBlock
 # [loopme.me]
 HOST,loopme.me,AdBlock
 HOST,csync.loopme.me,AdBlock
@@ -11733,8 +11402,6 @@ HOST,conf.lsosad.com,AdBlock
 HOST,dc.lsosad.com,AdBlock
 # [lucidmedia.com]
 HOST,user.lucidmedia.com,AdBlock
-# [luckyforworlds.com]
-HOST,lg.luckyforworlds.com,AdBlock
 # [lululemon.com]
 HOST,smetrics.lululemon.com,AdBlock
 # [luminati.io]
@@ -11749,13 +11416,9 @@ HOST,ingest.m2appmonitor.com,AdBlock
 # [macromill.com]
 HOST,macromill.com,AdBlock
 HOST,img.macromill.com,AdBlock
-# [madadsmedia.com]
-HOST,madadsmedia.com,AdBlock
 # [madkudu.com]
 HOST,api.madkudu.com,AdBlock
 HOST,cdn.madkudu.com,AdBlock
-# [mads.ph]
-HOST,track.mads.ph,AdBlock
 # [magixite.com]
 HOST,acc.magixite.com,AdBlock
 # [magmamobile.com]
@@ -11769,8 +11432,6 @@ HOST,analytics.mailmunch.co,AdBlock
 HOST,mainadv.com,AdBlock
 # [malwarebytes.com]
 HOST,telemetry.malwarebytes.com,AdBlock
-# [manhuaren.com]
-HOST,euadsapi.manhuaren.com,AdBlock
 # [mantisadnetwork.com]
 HOST,assets.mantisadnetwork.com,AdBlock
 HOST,ecs.mantisadnetwork.com,AdBlock
@@ -11800,6 +11461,9 @@ HOST,marketgid.com,AdBlock
 HOST,jsc.marketgid.com,AdBlock
 # [marketingcloudapis.com]
 HOST,device.marketingcloudapis.com,AdBlock
+HOST,mc-kzgvx04-jk8n38gyn7s08m1d8.device.marketingcloudapis.com,AdBlock
+HOST,mcvsb5ngty4dzxx8jp80yt3q5614.device.marketingcloudapis.com,AdBlock
+HOST,mcy8q-n2f8ttyv729bcg5v83dsp4.device.marketingcloudapis.com,AdBlock
 # [marketo.com]
 HOST,ab-mknodepub.marketo.com,AdBlock
 HOST,abrtp1.marketo.com,AdBlock
@@ -11889,12 +11553,9 @@ HOST,app-sjqe.marketo.com,AdBlock
 HOST,app-sn01.marketo.com,AdBlock
 HOST,b2c-msm.marketo.com,AdBlock
 HOST,engage.marketo.com,AdBlock
-HOST,eu-lon03.marketo.com,AdBlock
-HOST,lon-mknodepub.marketo.com,AdBlock
 HOST,lonrtp1.marketo.com,AdBlock
 HOST,lonrtp1-cdn.marketo.com,AdBlock
 HOST,micro.marketo.com,AdBlock
-HOST,na-ab07.marketo.com,AdBlock
 HOST,na-ab19.marketo.com,AdBlock
 HOST,na-ab20.marketo.com,AdBlock
 HOST,na-ab25.marketo.com,AdBlock
@@ -11906,12 +11567,10 @@ HOST,na-ab33.marketo.com,AdBlock
 HOST,na-b.marketo.com,AdBlock
 HOST,na-g.marketo.com,AdBlock
 HOST,na-sj06.marketo.com,AdBlock
-HOST,na-sj11.marketo.com,AdBlock
 HOST,na-sj14.marketo.com,AdBlock
 HOST,na-sj23.marketo.com,AdBlock
 HOST,na-sj24.marketo.com,AdBlock
 HOST,nation.marketo.com,AdBlock
-HOST,resources.marketo.com,AdBlock
 HOST,rtp-static.marketo.com,AdBlock
 HOST,sj-mknodepub.marketo.com,AdBlock
 HOST,sjrtp-cdn.marketo.com,AdBlock
@@ -11953,9 +11612,7 @@ HOST,i.matheranalytics.com,AdBlock
 HOST,js.matheranalytics.com,AdBlock
 # [mathtag.com]
 HOST,mathtag.com,AdBlock
-HOST,akamai.mathtag.com,AdBlock
 HOST,mathid.mathtag.com,AdBlock
-HOST,mathid-origin.mathtag.com,AdBlock
 HOST,pixel.mathtag.com,AdBlock
 HOST,pixel-origin.mathtag.com,AdBlock
 HOST,pixel-s2s.mathtag.com,AdBlock
@@ -11998,7 +11655,6 @@ HOST,hblg.media.net,AdBlock
 HOST,hbx.media.net,AdBlock
 HOST,lg3.media.net,AdBlock
 HOST,mycdn.media.net,AdBlock
-HOST,oba.media.net,AdBlock
 HOST,prebid.media.net,AdBlock
 HOST,qsearch.media.net,AdBlock
 HOST,recommends.media.net,AdBlock
@@ -12010,12 +11666,10 @@ HOST,whitelabel.media.net,AdBlock
 HOST,idpix.media6degrees.com,AdBlock
 # [mediaforge.com]
 HOST,mediaforge.com,AdBlock
-HOST,amp.mediaforge.com,AdBlock
 HOST,consent.mediaforge.com,AdBlock
 HOST,jp-tags.mediaforge.com,AdBlock
 HOST,stats.mediaforge.com,AdBlock
 HOST,tags.mediaforge.com,AdBlock
-HOST,us-content.mediaforge.com,AdBlock
 # [mediaiqdigital.com]
 HOST,mediaiqdigital.com,AdBlock
 HOST,pixel.mediaiqdigital.com,AdBlock
@@ -12037,18 +11691,17 @@ HOST,show.3.mediav.com,AdBlock
 HOST,360fenxi.mediav.com,AdBlock
 HOST,api-ext.mediav.com,AdBlock
 HOST,cjhd.mediav.com,AdBlock
-HOST,f.mediav.com,AdBlock
-HOST,show.f.mediav.com,AdBlock
 HOST,guess.mediav.com,AdBlock
 HOST,imgx.mediav.com,AdBlock
 HOST,show-f.mediav.com,AdBlock
-HOST,tqgj.mediav.com,AdBlock
 HOST,xdssp.mediav.com,AdBlock
 # [mediavine.com]
 HOST,scripts.mediavine.com,AdBlock
 # [mediawayss.com]
 HOST,mediawayss.com,AdBlock
 HOST,ad.mediawayss.com,AdBlock
+# [medietall.no]
+HOST,log.medietall.no,AdBlock
 # [medio.com]
 HOST,medio.com,AdBlock
 # [megacool.co]
@@ -12062,8 +11715,6 @@ HOST,banners.mellowads.com,AdBlock
 # [meltwater.com]
 HOST,app.meltwater.com,AdBlock
 HOST,ins-services.meltwater.com,AdBlock
-# [memeglobal.com]
-HOST,memeglobal.com,AdBlock
 # [merchantadvantage.com]
 HOST,chanalytics.merchantadvantage.com,AdBlock
 HOST,secure.merchantadvantage.com,AdBlock
@@ -12109,7 +11760,6 @@ HOST,ads.cn.miaozhen.com,AdBlock
 HOST,pd.ads.cn.miaozhen.com,AdBlock
 HOST,monitor-tools.cn.miaozhen.com,AdBlock
 HOST,xiaomi-mipdx.cn.miaozhen.com,AdBlock
-HOST,g.jp.miaozhen.com,AdBlock
 # [micpn.com]
 HOST,micpn.com,AdBlock
 HOST,assets.micpn.com,AdBlock
@@ -12133,6 +11783,7 @@ HOST,ssp.send.microadinc.com,AdBlock
 # [microsoft.com]
 HOST,bingads.microsoft.com,AdBlock
 HOST,advertise.bingads.microsoft.com,AdBlock
+HOST,c1.microsoft.com,AdBlock
 # [midasplayer.com]
 HOST,adtrack1.midasplayer.com,AdBlock
 # [midosoo.com]
@@ -12204,7 +11855,6 @@ HOST,lb-adsmob.mng-ads.com,AdBlock
 HOST,mobile.mng-ads.com,AdBlock
 # [moat.com]
 HOST,moat.com,AdBlock
-HOST,assets.moat.com,AdBlock
 HOST,panel.moat.com,AdBlock
 # [moatads.com]
 HOST,moatads.com,AdBlock
@@ -12226,7 +11876,6 @@ HOST,px2m.moatads.com,AdBlock
 HOST,s-jsonp.moatads.com,AdBlock
 HOST,sejs.moatads.com,AdBlock
 HOST,svastx.moatads.com,AdBlock
-HOST,v4.moatads.com,AdBlock
 HOST,video.moatads.com,AdBlock
 HOST,z.moatads.com,AdBlock
 # [moatpixel.com]
@@ -12249,13 +11898,10 @@ HOST,exponentialjsint8023749877114.s.moatpixel.com,AdBlock
 HOST,financialtimesdfp415669142494.s.moatpixel.com,AdBlock
 HOST,forbes274355.s.moatpixel.com,AdBlock
 HOST,goodwaythetradedeskvideo910663478306.s.moatpixel.com,AdBlock
-HOST,groupmapacvideo325555417505.s.moatpixel.com,AdBlock
-HOST,heartsuaedcmdisplay455258716808.s.moatpixel.com,AdBlock
 HOST,inskinmedia689754970364.s.moatpixel.com,AdBlock
 HOST,kargodfpnew803390365855.s.moatpixel.com,AdBlock
 HOST,kargovideojstag.s.moatpixel.com,AdBlock
 HOST,kbbdfp963631743209.s.moatpixel.com,AdBlock
-HOST,kbbprebidheader788495884989.s.moatpixel.com,AdBlock
 HOST,maxpointimpression857454451729.s.moatpixel.com,AdBlock
 HOST,medscapedfp285029738901.s.moatpixel.com,AdBlock
 HOST,nbcudisplay.s.moatpixel.com,AdBlock
@@ -12269,13 +11915,10 @@ HOST,quantcast584928381.s.moatpixel.com,AdBlock
 HOST,quantcastvpaid04786010.s.moatpixel.com,AdBlock
 HOST,reutersdfpcw319687550988.s.moatpixel.com,AdBlock
 HOST,rubiconproject883925.s.moatpixel.com,AdBlock
-HOST,smgbacdcm963283424490.s.moatpixel.com,AdBlock
-HOST,smgbacflashtalking972483164724.s.moatpixel.com,AdBlock
 HOST,sparkusdiscoverdcm781744349491.s.moatpixel.com,AdBlock
 HOST,stackadaptdisplay515602019759.s.moatpixel.com,AdBlock
 HOST,teads245638586802.s.moatpixel.com,AdBlock
 HOST,terminusdisplay296618589072.s.moatpixel.com,AdBlock
-HOST,testtradedeskmve.s.moatpixel.com,AdBlock
 HOST,thetradedeskinnovidmaster582779829774.s.moatpixel.com,AdBlock
 HOST,thetradedeskv275874568748.s.moatpixel.com,AdBlock
 HOST,tubemogul154237275611.s.moatpixel.com,AdBlock
@@ -12298,9 +11941,6 @@ HOST,jp.l.gm.mob.com,AdBlock
 HOST,guard.mob.com,AdBlock
 HOST,mic.mob.com,AdBlock
 HOST,aw.mic.mob.com,AdBlock
-HOST,s.mic.mob.com,AdBlock
-HOST,moblink.mob.com,AdBlock
-HOST,api.moblink.mob.com,AdBlock
 HOST,push.mob.com,AdBlock
 HOST,sdk.push.mob.com,AdBlock
 HOST,tcp.push.mob.com,AdBlock
@@ -12309,33 +11949,25 @@ HOST,l.tcp.push.mob.com,AdBlock
 HOST,udp.push.mob.com,AdBlock
 HOST,share.mob.com,AdBlock
 HOST,jp.api.share.mob.com,AdBlock
-HOST,p.share.mob.com,AdBlock
 HOST,sms.mob.com,AdBlock
 HOST,init.sms.mob.com,AdBlock
 HOST,verify.mob.com,AdBlock
-# [mob193.com]
-HOST,track.mob193.com,AdBlock
 # [mobadvent.com]
 HOST,ads.mobadvent.com,AdBlock
-HOST,adx-api.mobadvent.com,AdBlock
 HOST,api.mobadvent.com,AdBlock
 HOST,ds.mobadvent.com,AdBlock
 HOST,et.mobadvent.com,AdBlock
 HOST,ssp-api.mobadvent.com,AdBlock
 HOST,tads.mobadvent.com,AdBlock
-HOST,tan.mobadvent.com,AdBlock
 # [mobagent.com]
 HOST,xmlserving.mobagent.com,AdBlock
 # [mobcells.com]
 HOST,api.mobcells.com,AdBlock
-HOST,h.mobcells.com,AdBlock
 # [mobclix.com]
 HOST,mobclix.com,AdBlock
 HOST,data.mobclix.com,AdBlock
 # [mobfox.com]
 HOST,mobfox.com,AdBlock
-# [mobidea.com]
-HOST,mobidea.com,AdBlock
 # [mobidia.com]
 HOST,mdmserver.mobidia.com,AdBlock
 HOST,narwhal.mobidia.com,AdBlock
@@ -12347,7 +11979,6 @@ HOST,cdn.mobify.com,AdBlock
 HOST,engagement-collector.mobify.net,AdBlock
 HOST,online.mobify.net,AdBlock
 # [mobile-bt.com]
-HOST,click.mobile-bt.com,AdBlock
 HOST,track.mobile-bt.com,AdBlock
 # [mobileadstrk.com]
 HOST,avowtech.mobileadstrk.com,AdBlock
@@ -12366,38 +11997,22 @@ HOST,deeplink.mobileapptracking.com,AdBlock
 HOST,7336.deeplink.mobileapptracking.com,AdBlock
 HOST,engine.mobileapptracking.com,AdBlock
 HOST,10148.engine.mobileapptracking.com,AdBlock
-HOST,159126.engine.mobileapptracking.com,AdBlock
 HOST,167126.engine.mobileapptracking.com,AdBlock
 HOST,167154.engine.mobileapptracking.com,AdBlock
-HOST,1681.engine.mobileapptracking.com,AdBlock
-HOST,16948.engine.mobileapptracking.com,AdBlock
 HOST,17058.engine.mobileapptracking.com,AdBlock
-HOST,175038.engine.mobileapptracking.com,AdBlock
-HOST,176232.engine.mobileapptracking.com,AdBlock
-HOST,1782.engine.mobileapptracking.com,AdBlock
 HOST,17908.engine.mobileapptracking.com,AdBlock
-HOST,180642.engine.mobileapptracking.com,AdBlock
-HOST,183704.engine.mobileapptracking.com,AdBlock
-HOST,185492.engine.mobileapptracking.com,AdBlock
-HOST,185536.engine.mobileapptracking.com,AdBlock
 HOST,189358.engine.mobileapptracking.com,AdBlock
 HOST,189904.engine.mobileapptracking.com,AdBlock
-HOST,189983.engine.mobileapptracking.com,AdBlock
 HOST,190107.engine.mobileapptracking.com,AdBlock
 HOST,190829.engine.mobileapptracking.com,AdBlock
-HOST,192569.engine.mobileapptracking.com,AdBlock
 HOST,194192.engine.mobileapptracking.com,AdBlock
-HOST,194792.engine.mobileapptracking.com,AdBlock
 HOST,194985.engine.mobileapptracking.com,AdBlock
 HOST,195724.engine.mobileapptracking.com,AdBlock
 HOST,199107.engine.mobileapptracking.com,AdBlock
 HOST,20298.engine.mobileapptracking.com,AdBlock
 HOST,22006.engine.mobileapptracking.com,AdBlock
-HOST,3612.engine.mobileapptracking.com,AdBlock
-HOST,4984.engine.mobileapptracking.com,AdBlock
 HOST,7336.engine.mobileapptracking.com,AdBlock
 HOST,8604.engine.mobileapptracking.com,AdBlock
-HOST,8696.engine.mobileapptracking.com,AdBlock
 HOST,943.engine.mobileapptracking.com,AdBlock
 HOST,9864.engine.mobileapptracking.com,AdBlock
 # [mobilebanner.ru]
@@ -12449,7 +12064,6 @@ HOST,upload.mobpowertech.com,AdBlock
 HOST,mobrand.net,AdBlock
 HOST,clicks.mobrand.net,AdBlock
 HOST,t.mobrand.net,AdBlock
-HOST,t1.mobrand.net,AdBlock
 # [mobsocmedia.com]
 HOST,cdn.mobsocmedia.com,AdBlock
 # [mobtrks.com]
@@ -12459,16 +12073,14 @@ HOST,3s-smart-rtb.mobvista.com,AdBlock
 HOST,3s-smart-rtb-cdn.mobvista.com,AdBlock
 HOST,smart.mobvista.com,AdBlock
 # [moengage.com]
-HOST,api.moengage.com,AdBlock
 HOST,apiv2.moengage.com,AdBlock
 HOST,apiv2eu.moengage.com,AdBlock
 HOST,cdn.moengage.com,AdBlock
 HOST,cfimage.moengage.com,AdBlock
 HOST,ec.moengage.com,AdBlock
 HOST,image.moengage.com,AdBlock
+HOST,sdk-02.moengage.com,AdBlock
 HOST,websdk.moengage.com,AdBlock
-# [mologiq.net]
-HOST,mologiq.net,AdBlock
 # [monedata.io]
 HOST,api.monedata.io,AdBlock
 # [monetate.net]
@@ -12477,7 +12089,6 @@ HOST,af.monetate.net,AdBlock
 HOST,api.monetate.net,AdBlock
 HOST,d.monetate.net,AdBlock
 HOST,engine.monetate.net,AdBlock
-HOST,mpx.monetate.net,AdBlock
 HOST,sb.monetate.net,AdBlock
 HOST,se.monetate.net,AdBlock
 # [mookie1.com]
@@ -12514,7 +12125,6 @@ HOST,ph-gmtdmp.mookie1.com,AdBlock
 HOST,pl-gmtdmp.mookie1.com,AdBlock
 HOST,pr-gmtdmp.mookie1.com,AdBlock
 HOST,pt-gmtdmp.mookie1.com,AdBlock
-HOST,qa-gmtdmp.mookie1.com,AdBlock
 HOST,ro-gmtdmp.mookie1.com,AdBlock
 HOST,se-gmtdmp.mookie1.com,AdBlock
 HOST,sg-gmtdmp.mookie1.com,AdBlock
@@ -12542,13 +12152,10 @@ HOST,b.r10.mopub.com,AdBlock
 HOST,c.r10.mopub.com,AdBlock
 HOST,d.r10.mopub.com,AdBlock
 HOST,s.mopub.com,AdBlock
-HOST,s2.mopub.com,AdBlock
 # [morgdm.ru]
 HOST,morgdm.ru,AdBlock
 # [motus.com]
 HOST,mobileapi.motus.com,AdBlock
-# [mousebirdconsulting.com]
-HOST,analytics.mousebirdconsulting.com,AdBlock
 # [moz.com]
 HOST,analytics.moz.com,AdBlock
 HOST,mozbar.moz.com,AdBlock
@@ -12577,6 +12184,7 @@ HOST,msads.net,AdBlock
 HOST,a.ads1.msn.com,AdBlock
 HOST,b.ads1.msn.com,AdBlock
 HOST,a.ads2.msn.com,AdBlock
+HOST,browser.events.data.msn.com,AdBlock
 HOST,rads.msn.com,AdBlock
 HOST,srtb.msn.com,AdBlock
 # [msstatic.com]
@@ -12585,8 +12193,6 @@ HOST,sdkconf.msstatic.com,AdBlock
 HOST,mtburn.com,AdBlock
 # [mtrcss.com]
 HOST,mtrcss.com,AdBlock
-# [muneris.io]
-HOST,api.muneris.io,AdBlock
 # [mxmcdn.net]
 HOST,adv.mxmcdn.net,AdBlock
 # [mxpnl.com]
@@ -12610,7 +12216,6 @@ HOST,api.myendpoint.io,AdBlock
 HOST,ad.myinstashot.com,AdBlock
 # [mynativeplatform.com]
 HOST,hb.mynativeplatform.com,AdBlock
-HOST,web-clients.mynativeplatform.com,AdBlock
 # [mythings.com]
 HOST,mythings.com,AdBlock
 HOST,bidi-geo.mythings.com,AdBlock
@@ -12621,8 +12226,6 @@ HOST,t.myvisualiq.net,AdBlock
 HOST,vt.myvisualiq.net,AdBlock
 # [mzbcdn.net]
 HOST,mzbcdn.net,AdBlock
-# [n1275adserv.xyz]
-HOST,n1275adserv.xyz,AdBlock
 # [naiadsystems.com]
 HOST,naiadsystems.com,AdBlock
 HOST,hybridclient.naiadsystems.com,AdBlock
@@ -12633,6 +12236,8 @@ HOST,sea1b-ls.naiadsystems.com,AdBlock
 HOST,nanigans.com,AdBlock
 HOST,api.nanigans.com,AdBlock
 HOST,cdn.nanigans.com,AdBlock
+# [nappyattack.com]
+HOST,nappyattack.com,AdBlock
 # [narrativ.com]
 HOST,static.narrativ.com,AdBlock
 # [narrative.io]
@@ -12664,7 +12269,6 @@ HOST,apinas.nct.vn,AdBlock
 HOST,sdk.stat.foreign.nearme.com.cn,AdBlock
 # [nend.net]
 HOST,nend.net,AdBlock
-HOST,output.nend.net,AdBlock
 HOST,vdapp.nend.net,AdBlock
 # [nervoussummer.com]
 HOST,nervoussummer.com,AdBlock
@@ -12701,6 +12305,7 @@ HOST,networld.hk,AdBlock
 HOST,wpm.neustar.biz,AdBlock
 HOST,rum-collector.wpm.neustar.biz,AdBlock
 # [newrelic.com]
+HOST,insights-collector.newrelic.com,AdBlock
 HOST,mobile-collector.newrelic.com,AdBlock
 # [newsbreak.com]
 HOST,www.newsbreak.com,AdBlock
@@ -12711,11 +12316,7 @@ HOST,nex8.net,AdBlock
 HOST,cs.nex8.net,AdBlock
 # [nexac.com]
 HOST,nexac.com,AdBlock
-HOST,gtm02.nexac.com,AdBlock
 HOST,gtm04.nexac.com,AdBlock
-HOST,gtm08.nexac.com,AdBlock
-HOST,gtm10.nexac.com,AdBlock
-HOST,gtm11.nexac.com,AdBlock
 # [nexage.com]
 HOST,ads.nexage.com,AdBlock
 HOST,pinger.ads.nexage.com,AdBlock
@@ -12727,12 +12328,13 @@ HOST,ccpa.psg.nexstardigital.net,AdBlock
 HOST,segment.psg.nexstardigital.net,AdBlock
 # [nextclick.pl]
 HOST,nextclick.pl,AdBlock
+# [nextdoor.com]
+HOST,us-tracking.nextdoor.com,AdBlock
 # [nicovideo.jp]
 HOST,ads.nicovideo.jp,AdBlock
 # [nielsen.com]
 HOST,apps.nielsen.com,AdBlock
 HOST,onsite-tag-logs.apps.nielsen.com,AdBlock
-HOST,mediaview.nielsen.com,AdBlock
 # [nike.com]
 HOST,analytics.nike.com,AdBlock
 # [nile.works]
@@ -12750,8 +12352,6 @@ HOST,stc-nas.nixcdn.com,AdBlock
 HOST,nmcdn.us,AdBlock
 # [nodle.io]
 HOST,dev.nodle.io,AdBlock
-# [nordcurrent.com]
-HOST,ads.nordcurrent.com,AdBlock
 # [npttech.com]
 HOST,www.npttech.com,AdBlock
 # [nr-data.net]
@@ -12760,18 +12360,16 @@ HOST,eu01.nr-data.net,AdBlock
 HOST,bam.eu01.nr-data.net,AdBlock
 # [ns1p.net]
 HOST,b.ns1p.net,AdBlock
-# [nspmotion.com]
-HOST,nspmotion.com,AdBlock
 # [ntv.io]
 HOST,s.ntv.io,AdBlock
 # [nuffnang.com.my]
 HOST,nuffnang.com.my,AdBlock
-HOST,synad2.nuffnang.com.my,AdBlock
 HOST,synad3.nuffnang.com.my,AdBlock
 # [nytimes.com]
 HOST,a-reporting.nytimes.com,AdBlock
 HOST,als-svc.nytimes.com,AdBlock
 HOST,dd.nytimes.com,AdBlock
+HOST,et.nytimes.com,AdBlock
 HOST,a.et.nytimes.com,AdBlock
 HOST,meter-svc.nytimes.com,AdBlock
 # [o333o.com]
@@ -12781,15 +12379,10 @@ HOST,oclaserver.com,AdBlock
 # [oclasrv.com]
 # [offerstrack.net]
 HOST,adcanopus.offerstrack.net,AdBlock
-HOST,admile.offerstrack.net,AdBlock
-HOST,adsmira.offerstrack.net,AdBlock
-HOST,adtube.offerstrack.net,AdBlock
 HOST,dopemobi.offerstrack.net,AdBlock
 HOST,fuzeclick.offerstrack.net,AdBlock
 HOST,heatmobi.offerstrack.net,AdBlock
-HOST,mgine.offerstrack.net,AdBlock
 HOST,midoweb.offerstrack.net,AdBlock
-HOST,mobfloral.offerstrack.net,AdBlock
 HOST,mobnerve.offerstrack.net,AdBlock
 # [ogury.co]
 HOST,sdk-monitoring.ogury.co,AdBlock
@@ -12797,19 +12390,13 @@ HOST,sdk-monitoring.ogury.co,AdBlock
 HOST,cloud.ogury.io,AdBlock
 HOST,medias.cloud.ogury.io,AdBlock
 HOST,prod.cloud.ogury.io,AdBlock
-HOST,bip.prod.cloud.ogury.io,AdBlock
 HOST,ext-inv-cdn.prod.cloud.ogury.io,AdBlock
 HOST,format.prod.cloud.ogury.io,AdBlock
-HOST,l-v1.prod.cloud.ogury.io,AdBlock
 HOST,mraid.prod.cloud.ogury.io,AdBlock
 HOST,ms-ads.prod.cloud.ogury.io,AdBlock
-HOST,ms-data-collection.prod.cloud.ogury.io,AdBlock
 HOST,wsback2b.prod.cloud.ogury.io,AdBlock
 HOST,consent-manager-events.ogury.io,AdBlock
 HOST,dsp-1.ogury.io,AdBlock
-HOST,sdk-monitoring.ogury.io,AdBlock
-# [ojooo.com]
-HOST,wad.ojooo.com,AdBlock
 # [okanjo.com]
 HOST,api2.okanjo.com,AdBlock
 HOST,cdn.okanjo.com,AdBlock
@@ -12825,32 +12412,40 @@ HOST,static.omnilocal.ai,AdBlock
 HOST,api.omniture.com,AdBlock
 HOST,appservice5.omniture.com,AdBlock
 HOST,sc5.omniture.com,AdBlock
-# [omnivirt.com]
-HOST,upload.omnivirt.com,AdBlock
 # [omtrdc.net]
 HOST,omtrdc.net,AdBlock
 HOST,hb.omtrdc.net,AdBlock
 HOST,espn.hb.omtrdc.net,AdBlock
 HOST,foxnews.hb.omtrdc.net,AdBlock
-HOST,gannett.hb.omtrdc.net,AdBlock
 HOST,hulu.hb.omtrdc.net,AdBlock
+HOST,nbcume.hb-api.omtrdc.net,AdBlock
 HOST,sc.omtrdc.net,AdBlock
 HOST,allstate.sc.omtrdc.net,AdBlock
 HOST,audible.sc.omtrdc.net,AdBlock
+HOST,bamtech.sc.omtrdc.net,AdBlock
+HOST,carfax.sc.omtrdc.net,AdBlock
 HOST,fox.com.ssl.d2.sc.omtrdc.net,AdBlock
 HOST,philipslighting.d3.sc.omtrdc.net,AdBlock
-HOST,dsg.sc.omtrdc.net,AdBlock
+HOST,kroger.sc.omtrdc.net,AdBlock
+HOST,nbcstreaming.sc.omtrdc.net,AdBlock
+HOST,nbcume.sc.omtrdc.net,AdBlock
+HOST,subwayfranchiseeadvertising.sc.omtrdc.net,AdBlock
+HOST,viacom.sc.omtrdc.net,AdBlock
 HOST,tt.omtrdc.net,AdBlock
 HOST,abcnews.tt.omtrdc.net,AdBlock
+HOST,aetv.tt.omtrdc.net,AdBlock
 HOST,allstate.tt.omtrdc.net,AdBlock
 HOST,audible.tt.omtrdc.net,AdBlock
+HOST,bamtech.tt.omtrdc.net,AdBlock
 HOST,cdn.tt.omtrdc.net,AdBlock
 HOST,consumerinfo.tt.omtrdc.net,AdBlock
 HOST,fcanafta.tt.omtrdc.net,AdBlock
 HOST,foxnews.tt.omtrdc.net,AdBlock
+HOST,homedepot.tt.omtrdc.net,AdBlock
 HOST,mboxedge17.tt.omtrdc.net,AdBlock
 HOST,mboxedge28.tt.omtrdc.net,AdBlock
 HOST,southwestairlines.tt.omtrdc.net,AdBlock
+HOST,subway2016.tt.omtrdc.net,AdBlock
 HOST,verizontelecom.tt.omtrdc.net,AdBlock
 # [onaudience.com]
 HOST,pixel.onaudience.com,AdBlock
@@ -12867,7 +12462,6 @@ HOST,snssdk1233.onelink.me,AdBlock
 # [onelnk.com]
 HOST,onelnk.com,AdBlock
 # [onelouder.com]
-HOST,ads-au.onelouder.com,AdBlock
 HOST,advrts.onelouder.com,AdBlock
 # [onemt.co]
 HOST,apicosdk.onemt.co,AdBlock
@@ -12879,6 +12473,8 @@ HOST,api.onesignal.com,AdBlock
 HOST,cdn.onesignal.com,AdBlock
 # [onetag-sys.com]
 HOST,onetag-sys.com,AdBlock
+# [onetrust.com]
+HOST,geolocation.onetrust.com,AdBlock
 # [online-metrix.net]
 HOST,online-metrix.net,AdBlock
 HOST,aa.online-metrix.net,AdBlock
@@ -12896,7 +12492,6 @@ HOST,as.v7.cdn.onthe.io,AdBlock
 HOST,na.v7.cdn.onthe.io,AdBlock
 HOST,i.onthe.io,AdBlock
 HOST,tt.onthe.io,AdBlock
-HOST,ttt.onthe.io,AdBlock
 # [ooyala.com]
 HOST,analytics.ooyala.com,AdBlock
 # [opecloud.com]
@@ -12912,6 +12507,8 @@ HOST,update.openx.com,AdBlock
 HOST,s.update.openx.com,AdBlock
 # [openx.net]
 HOST,rtb.openx.net,AdBlock
+# [opera.com]
+HOST,api-a.op-mobile.opera.com,AdBlock
 # [oppomobile.com]
 # [opstag.com]
 HOST,cdn1.opstag.com,AdBlock
@@ -12929,6 +12526,7 @@ HOST,bx01.optimix.asia,AdBlock
 # [optimizely.com]
 HOST,api.optimizely.com,AdBlock
 HOST,app.optimizely.com,AdBlock
+HOST,cdn.optimizely.com,AdBlock
 HOST,logx.optimizely.com,AdBlock
 HOST,events.mobile.optimizely.com,AdBlock
 # [optimost.io]
@@ -12958,7 +12556,6 @@ HOST,config.otherlevels.com,AdBlock
 HOST,events-api.otherlevels.com,AdBlock
 HOST,native-set-tags.otherlevels.com,AdBlock
 HOST,rich.otherlevels.com,AdBlock
-HOST,tags.otherlevels.com,AdBlock
 HOST,ws.otherlevels.com,AdBlock
 # [oto.com.vn]
 HOST,log.oto.com.vn,AdBlock
@@ -12968,8 +12565,6 @@ HOST,max-files.oupeng.com,AdBlock
 HOST,oumax.oupeng.com,AdBlock
 HOST,startup.oupeng.com,AdBlock
 HOST,turbo2sdk-push.oupeng.com,AdBlock
-# [ourplay.net]
-HOST,sdk.ourplay.net,AdBlock
 # [outbrain.com]
 HOST,alldcs.outbrain.com,AdBlock
 HOST,amplify.outbrain.com,AdBlock
@@ -13000,11 +12595,9 @@ HOST,widgetmonitor.outbrain.com,AdBlock
 # [outbrain.org]
 HOST,alldcs.outbrain.org,AdBlock
 HOST,chidc2.outbrain.org,AdBlock
-HOST,images.outbrain.org,AdBlock
 HOST,log.outbrain.org,AdBlock
 HOST,nychi2.outbrain.org,AdBlock
 HOST,sadc1.outbrain.org,AdBlock
-HOST,zemanta-ny.outbrain.org,AdBlock
 # [outbrainimg.com]
 HOST,images.outbrainimg.com,AdBlock
 HOST,log.outbrainimg.com,AdBlock
@@ -13046,8 +12639,6 @@ HOST,adserver.pandora.com,AdBlock
 HOST,pangle.io,AdBlock
 HOST,api16-access-gcp.pangle.io,AdBlock
 HOST,api16-access-sg.pangle.io,AdBlock
-# [panickycurtain.com]
-HOST,panickycurtain.com,AdBlock
 # [pardot.com]
 HOST,pi.pardot.com,AdBlock
 # [parrable.com]
@@ -13062,6 +12653,8 @@ HOST,p1.parsely.com,AdBlock
 HOST,pixel.parsely.com,AdBlock
 HOST,srv.pixel.parsely.com,AdBlock
 HOST,static.parsely.com,AdBlock
+# [particlenews.com]
+HOST,log.particlenews.com,AdBlock
 # [paypal.com]
 HOST,b.stats.paypal.com,AdBlock
 HOST,slc.stats.paypal.com,AdBlock
@@ -13079,7 +12672,6 @@ HOST,tag.perfectaudience.com,AdBlock
 # [perfectcorp.com]
 HOST,abtesting.perfectcorp.com,AdBlock
 HOST,appad-api-01.perfectcorp.com,AdBlock
-HOST,appad-api-02.perfectcorp.com,AdBlock
 HOST,clad.perfectcorp.com,AdBlock
 # [perfectionholic.com]
 HOST,featured.perfectionholic.com,AdBlock
@@ -13094,7 +12686,7 @@ HOST,ad.period-calendar.com,AdBlock
 # [perk0mean.com]
 HOST,secure.perk0mean.com,AdBlock
 # [permutive.app]
-HOST,af89dacd-4aec-4ac1-9d52-2a66ce5e4fb5.edge.permutive.app,AdBlock
+HOST,cdn.permutive.app,AdBlock
 # [permutive.com]
 HOST,permutive.com,AdBlock
 HOST,amp.permutive.com,AdBlock
@@ -13110,8 +12702,6 @@ HOST,pmc.amp.permutive.com,AdBlock
 HOST,vox.amp.permutive.com,AdBlock
 HOST,api.permutive.com,AdBlock
 HOST,cdn.permutive.com,AdBlock
-# [persona.ly]
-HOST,persona.ly,AdBlock
 # [personali.com]
 HOST,api.personali.com,AdBlock
 HOST,events.personali.com,AdBlock
@@ -13124,7 +12714,6 @@ HOST,count.personyze.com,AdBlock
 HOST,api.perzonalization.com,AdBlock
 HOST,cdn.perzonalization.com,AdBlock
 # [petametrics.com]
-HOST,api.petametrics.com,AdBlock
 HOST,cdn.petametrics.com,AdBlock
 HOST,query.petametrics.com,AdBlock
 HOST,query-us-east1.petametrics.com,AdBlock
@@ -13148,7 +12737,6 @@ HOST,ads.pinger.com,AdBlock
 HOST,cf-ads.pinger.com,AdBlock
 # [pinsightmedia.com]
 HOST,v8.analytics.pinsightmedia.com,AdBlock
-HOST,cm.pinsightmedia.com,AdBlock
 HOST,fusion-files-cf.pinsightmedia.com,AdBlock
 HOST,intelligence-head.pinsightmedia.com,AdBlock
 HOST,pushpin.pinsightmedia.com,AdBlock
@@ -13174,14 +12762,8 @@ HOST,ads.placeiq.com,AdBlock
 HOST,partner.ads.placeiq.com,AdBlock
 HOST,secure.ads.placeiq.com,AdBlock
 # [placelocal.com]
-HOST,3pt.placelocal.com,AdBlock
-HOST,adacus-cdn.placelocal.com,AdBlock
 HOST,ak-cdn.placelocal.com,AdBlock
-HOST,collector.placelocal.com,AdBlock
 HOST,tag.placelocal.com,AdBlock
-# [placer.io]
-HOST,api.placer.io,AdBlock
-HOST,conf.placer.io,AdBlock
 # [playhaven.com]
 HOST,playhaven.com,AdBlock
 # [playrix.com]
@@ -13193,7 +12775,6 @@ HOST,service-ad-impression-proxy.clusters.pluto.tv,AdBlock
 # [pmc.com]
 HOST,iabusprivacy.pmc.com,AdBlock
 # [po.st]
-HOST,analytics.po.st,AdBlock
 HOST,i.po.st,AdBlock
 HOST,p.po.st,AdBlock
 HOST,s.po.st,AdBlock
@@ -13203,8 +12784,6 @@ HOST,pocketmath.com,AdBlock
 HOST,ads.pof.com,AdBlock
 # [pointmediatracker.com]
 HOST,pixel.pointmediatracker.com,AdBlock
-# [pointroll.com]
-HOST,ads.pointroll.com,AdBlock
 # [pokki.com]
 HOST,analytics.pokki.com,AdBlock
 # [polarcdn-pentos.com]
@@ -13232,8 +12811,6 @@ HOST,api2.poperblocker.com,AdBlock
 # [popin.cc]
 HOST,a.popin.cc,AdBlock
 HOST,discoveryplus.popin.cc,AdBlock
-# [popjam.com]
-HOST,sdk.popjam.com,AdBlock
 # [postitial.com]
 HOST,postitial.com,AdBlock
 HOST,cdn-cf.postitial.com,AdBlock
@@ -13244,12 +12821,8 @@ HOST,api.postscript.io,AdBlock
 HOST,sdk.postscript.io,AdBlock
 # [powerad.ai]
 HOST,powerad.ai,AdBlock
-# [pp.cn]
-HOST,patriot.cs.pp.cn,AdBlock
 # [prebid.org]
 HOST,currency.prebid.org,AdBlock
-# [predic.io]
-HOST,sdk.predic.io,AdBlock
 # [premiumads.com.br]
 HOST,tags.premiumads.com.br,AdBlock
 # [presage.io]
@@ -13257,7 +12830,6 @@ HOST,presage.io,AdBlock
 HOST,ah-v1.presage.io,AdBlock
 HOST,bip.presage.io,AdBlock
 HOST,ext-inv-cdn.presage.io,AdBlock
-HOST,l-v1.presage.io,AdBlock
 HOST,medias.presage.io,AdBlock
 HOST,mraid.presage.io,AdBlock
 HOST,ms-ads.presage.io,AdBlock
@@ -13293,9 +12865,6 @@ HOST,static.privacytrck.com,AdBlock
 HOST,privy.com,AdBlock
 HOST,assets.privy.com,AdBlock
 HOST,events.privy.com,AdBlock
-# [prmtracking.com]
-# [prmutv.co]
-HOST,af89dacd-4aec-4ac1-9d52-2a66ce5e4fb5.prmutv.co,AdBlock
 # [pro-market.net]
 # [proba.ai]
 HOST,api.proba.ai,AdBlock
@@ -13303,14 +12872,11 @@ HOST,api.proba.ai,AdBlock
 HOST,att.productmadness.com,AdBlock
 # [programattik.com]
 HOST,ads.programattik.com,AdBlock
-# [promotionengine.com]
-HOST,promotionengine.com,AdBlock
 # [prooffactor.com]
 HOST,prooffactor.com,AdBlock
 HOST,api.prooffactor.com,AdBlock
 # [propellerads.com]
 HOST,ad.propellerads.com,AdBlock
-HOST,native.propellerads.com,AdBlock
 HOST,offers.propellerads.com,AdBlock
 HOST,promo.propellerads.com,AdBlock
 # [proper.io]
@@ -13358,10 +12924,7 @@ HOST,pubnative.info,AdBlock
 # [pubnative.net]
 HOST,pubnative.net,AdBlock
 HOST,api.pubnative.net,AdBlock
-# [pubocean.com]
-HOST,rta.pubocean.com,AdBlock
-# [puhtml.com]
-HOST,puhtml.com,AdBlock
+HOST,hbrc.pubnative.net,AdBlock
 # [pulsatehq.com]
 HOST,app.pulsatehq.com,AdBlock
 # [purch.com]
@@ -13370,8 +12933,6 @@ HOST,assets.purch.com,AdBlock
 HOST,app.push-ad.com,AdBlock
 # [push-notifs.com]
 HOST,ws.push-notifs.com,AdBlock
-# [push7.jp]
-HOST,sdk.push7.jp,AdBlock
 # [pushcrew.com]
 HOST,cdn.pushcrew.com,AdBlock
 HOST,dacdn.pushcrew.com,AdBlock
@@ -13380,18 +12941,15 @@ HOST,tracking.pushcrew.com,AdBlock
 HOST,anandabazar.pushengage.com,AdBlock
 HOST,clientcdn.pushengage.com,AdBlock
 HOST,clients-api.pushengage.com,AdBlock
-HOST,sw.pushengage.com,AdBlock
-HOST,theconstructor.pushengage.com,AdBlock
 # [pushnami.com]
 HOST,pushnami.com,AdBlock
 HOST,api.pushnami.com,AdBlock
 HOST,trc.pushnami.com,AdBlock
-# [pushspring.com]
-HOST,api.pushspring.com,AdBlock
 # [pushwoosh.com]
 HOST,api.pushwoosh.com,AdBlock
+HOST,0ce3c-1fd43.api.pushwoosh.com,AdBlock
+HOST,78901-8cf0d.api.pushwoosh.com,AdBlock
 HOST,bbumgames.pushwoosh.com,AdBlock
-HOST,cache-06.pushwoosh.com,AdBlock
 HOST,cache-07.pushwoosh.com,AdBlock
 HOST,cache-ha.pushwoosh.com,AdBlock
 HOST,cbcnewmedia.pushwoosh.com,AdBlock
@@ -13401,10 +12959,9 @@ HOST,dbs.pushwoosh.com,AdBlock
 HOST,ha.pushwoosh.com,AdBlock
 HOST,ha-api.pushwoosh.com,AdBlock
 HOST,haaretz.pushwoosh.com,AdBlock
-HOST,r1-front-06.pushwoosh.com,AdBlock
+HOST,post-log.pushwoosh.com,AdBlock
 HOST,rambler.pushwoosh.com,AdBlock
 HOST,richmedia.pushwoosh.com,AdBlock
-HOST,runtastic.pushwoosh.com,AdBlock
 HOST,sulake.pushwoosh.com,AdBlock
 HOST,uefa.pushwoosh.com,AdBlock
 HOST,wetter.pushwoosh.com,AdBlock
@@ -13414,8 +12971,6 @@ HOST,cf-us-popular.dash.pv-cdn.net,AdBlock
 HOST,collector-px8fcgygk4.px-cloud.net,AdBlock
 # [pxlad.io]
 HOST,api.pxlad.io,AdBlock
-# [pythonexample.com]
-HOST,api.pythonexample.com,AdBlock
 # [qbk1.com]
 HOST,c2.qbk1.com,AdBlock
 # [qccoccocmedia.vn]
@@ -13441,7 +12996,6 @@ HOST,logsdk.qq.com,AdBlock
 HOST,analytics.map.qq.com,AdBlock
 HOST,msdk.qq.com,AdBlock
 HOST,ssl.msdk.qq.com,AdBlock
-HOST,a.ssl.msdk.qq.com,AdBlock
 HOST,img.ssl.msdk.qq.com,AdBlock
 HOST,omgmta.qq.com,AdBlock
 HOST,pingfore.qq.com,AdBlock
@@ -13461,6 +13015,7 @@ HOST,log.wtlogin.qq.com,AdBlock
 HOST,ysdk.qq.com,AdBlock
 # [qualtrics.com]
 HOST,siteintercept.qualtrics.com,AdBlock
+HOST,zn42v6draxyafsjmv-homedepot.siteintercept.qualtrics.com,AdBlock
 # [quantcount.com]
 HOST,quantcount.com,AdBlock
 HOST,assets.quantcount.com,AdBlock
@@ -13477,7 +13032,6 @@ HOST,px.quantserve.com,AdBlock
 HOST,global.px.quantserve.com,AdBlock
 HOST,px2.px.quantserve.com,AdBlock
 HOST,qcx.quantserve.com,AdBlock
-HOST,ssl.quantserve.com,AdBlock
 HOST,us-west-notify-rtb.quantserve.com,AdBlock
 HOST,vast.quantserve.com,AdBlock
 # [quantumgraph.com]
@@ -13486,6 +13040,10 @@ HOST,config.quantumgraph.com,AdBlock
 HOST,users.quantumgraph.com,AdBlock
 # [quantummetric.com]
 HOST,cdn.quantummetric.com,AdBlock
+# [qubit.com]
+HOST,gong-eb.qubit.com,AdBlock
+HOST,lookup.qubit.com,AdBlock
+HOST,sse.qubit.com,AdBlock
 # [questionmarket.com]
 HOST,questionmarket.com,AdBlock
 # [qwapi.com]
@@ -13511,14 +13069,22 @@ HOST,analytics.rayjump.com,AdBlock
 HOST,cdn-adn.rayjump.com,AdBlock
 HOST,cdn-adn-https.rayjump.com,AdBlock
 HOST,cdn-adn-ws.rayjump.com,AdBlock
+HOST,check.rayjump.com,AdBlock
 HOST,configure.rayjump.com,AdBlock
 HOST,de01.rayjump.com,AdBlock
 HOST,detect.rayjump.com,AdBlock
 HOST,hb.rayjump.com,AdBlock
+HOST,lazy.rayjump.com,AdBlock
 HOST,net.rayjump.com,AdBlock
 HOST,play.rayjump.com,AdBlock
-HOST,se-new-hb.rayjump.com,AdBlock
+HOST,policy.rayjump.com,AdBlock
 HOST,setting.rayjump.com,AdBlock
+HOST,sg-new-ap-southeast-1a-hb.rayjump.com,AdBlock
+HOST,sg-new-ap-southeast-1b-hb.rayjump.com,AdBlock
+HOST,sg-new-ap-southeast-1c-hb.rayjump.com,AdBlock
+HOST,sg-new-cdn-ap-southeast-1a-hb.rayjump.com,AdBlock
+HOST,sg-new-cdn-ap-southeast-1b-hb.rayjump.com,AdBlock
+HOST,sg-new-cdn-ap-southeast-1c-hb.rayjump.com,AdBlock
 HOST,sg-setting.rayjump.com,AdBlock
 HOST,sg01.rayjump.com,AdBlock
 HOST,tknet.rayjump.com,AdBlock
@@ -13548,10 +13114,6 @@ HOST,go.redirectingat.com,AdBlock
 # [redretarget.com]
 HOST,app.redretarget.com,AdBlock
 HOST,trackifyx.redretarget.com,AdBlock
-# [redshell.io]
-HOST,api.redshell.io,AdBlock
-# [reembed.com]
-HOST,ads.reembed.com,AdBlock
 # [reftagger.com]
 HOST,api.reftagger.com,AdBlock
 # [reklamstore.com]
@@ -13572,7 +13134,6 @@ HOST,tag.researchnow.com,AdBlock
 # [reson8.com]
 HOST,ds.reson8.com,AdBlock
 HOST,idsync.reson8.com,AdBlock
-HOST,track.reson8.com,AdBlock
 # [responsys.net]
 HOST,static.cdn.responsys.net,AdBlock
 # [restartad.com]
@@ -13598,7 +13159,6 @@ HOST,cdn.revcontent.com,AdBlock
 HOST,html-img.revcontent.com,AdBlock
 HOST,images.revcontent.com,AdBlock
 HOST,img.revcontent.com,AdBlock
-HOST,labs.revcontent.com,AdBlock
 HOST,labs-cdn.revcontent.com,AdBlock
 HOST,media.revcontent.com,AdBlock
 HOST,publishers.revcontent.com,AdBlock
@@ -13633,8 +13193,6 @@ HOST,media.richrelevance.com,AdBlock
 HOST,rm.recs.richrelevance.com,AdBlock
 # [rightmoveanalytics.co.uk]
 HOST,rightmoveanalytics.co.uk,AdBlock
-# [ringrevenue.com]
-HOST,apollointeractive.ringrevenue.com,AdBlock
 # [riskified.com]
 HOST,beacon.riskified.com,AdBlock
 HOST,c.riskified.com,AdBlock
@@ -13668,6 +13226,7 @@ HOST,analytics.rogersmedia.com,AdBlock
 # [roku.com]
 HOST,p.ads.roku.com,AdBlock
 HOST,austin.logs.roku.com,AdBlock
+HOST,mobile.logs.roku.com,AdBlock
 HOST,scribe.logs.roku.com,AdBlock
 # [rotaban.ru]
 HOST,rotaban.ru,AdBlock
@@ -13681,15 +13240,12 @@ HOST,widget-cdn.rpxnow.com,AdBlock
 # [rqmob.com]
 HOST,adconf.rqmob.com,AdBlock
 HOST,adcs.rqmob.com,AdBlock
-HOST,amp-cdn.rqmob.com,AdBlock
 HOST,ap-adcs.rqmob.com,AdBlock
 HOST,api.rqmob.com,AdBlock
 HOST,appclick.rqmob.com,AdBlock
 HOST,ascribe.rqmob.com,AdBlock
 HOST,msdk.rqmob.com,AdBlock
-HOST,shareitcpi.rqmob.com,AdBlock
 HOST,static.rqmob.com,AdBlock
-HOST,tracker.rqmob.com,AdBlock
 # [rtbsrv.com]
 HOST,dmp.rtbsrv.com,AdBlock
 # [rtk.io]
@@ -13710,7 +13266,6 @@ HOST,exapi-us-west.rubiconproject.com,AdBlock
 HOST,fastlane-adv.rubiconproject.com,AdBlock
 HOST,flapi1.rubiconproject.com,AdBlock
 HOST,flapi2.rubiconproject.com,AdBlock
-HOST,mrp.rubiconproject.com,AdBlock
 HOST,optimized-by.rubiconproject.com,AdBlock
 HOST,optimized-by-1.rubiconproject.com,AdBlock
 HOST,optimized-by-2.rubiconproject.com,AdBlock
@@ -13752,7 +13307,6 @@ HOST,dfp-gateway.s-onetag.com,AdBlock
 HOST,geo-location.s-onetag.com,AdBlock
 HOST,get.s-onetag.com,AdBlock
 HOST,market-dev.s-onetag.com,AdBlock
-HOST,metrics-collector.s-onetag.com,AdBlock
 HOST,onetag-geo.s-onetag.com,AdBlock
 HOST,onetag-geo-grouping.s-onetag.com,AdBlock
 HOST,prebid.s-onetag.com,AdBlock
@@ -13784,12 +13338,9 @@ HOST,analytics.salmonads.com,AdBlock
 HOST,api.salmonads.com,AdBlock
 HOST,net.salmonads.com,AdBlock
 HOST,report.salmonads.com,AdBlock
-HOST,upload.salmonads.com,AdBlock
 # [sam4m.com]
 HOST,sam4m.com,AdBlock
-HOST,eu-analytics.sam4m.com,AdBlock
 HOST,eu-ma.sam4m.com,AdBlock
-HOST,sg-ma.sam4m.com,AdBlock
 HOST,us-ma.sam4m.com,AdBlock
 # [samba.tv]
 HOST,samba.tv,AdBlock
@@ -13801,7 +13352,6 @@ HOST,tag.mtrcs.samba.tv,AdBlock
 HOST,tracker.samplicio.us,AdBlock
 # [samsung.com]
 HOST,insights.samsung.com,AdBlock
-HOST,nmetrics.samsung.com,AdBlock
 # [samsungadhub.com]
 HOST,ad.samsungadhub.com,AdBlock
 # [samsungads.com]
@@ -13813,6 +13363,7 @@ HOST,config.samsungads.com,AdBlock
 HOST,execution-use.ci360.sas.com,AdBlock
 # [sascdn.com]
 HOST,ak-ns.sascdn.com,AdBlock
+HOST,mobileconfig.sascdn.com,AdBlock
 # [saygames.io]
 HOST,track.saygames.io,AdBlock
 # [saymedia.com]
@@ -13834,6 +13385,7 @@ HOST,collector.scopely.io,AdBlock
 HOST,event.collector.scopely.io,AdBlock
 HOST,489a19fa-d831-4954-858d-46436d5cdb20.event.collector.scopely.io,AdBlock
 HOST,register.collector.scopely.io,AdBlock
+HOST,4af7c20b-7646-4fb7-b64f-ae0a8c51c1f1.register.collector.scopely.io,AdBlock
 HOST,sdk.scopely.io,AdBlock
 HOST,config.sdk.scopely.io,AdBlock
 # [scorecardresearch.com]
@@ -13850,7 +13402,6 @@ HOST,api.sdkbox.com,AdBlock
 HOST,metrics.sdkbox.com,AdBlock
 HOST,update.sdkbox.com,AdBlock
 # [sdkconfig.site]
-HOST,cdn.sdkconfig.site,AdBlock
 HOST,cdns.sdkconfig.site,AdBlock
 # [seadform.net]
 HOST,asia.seadform.net,AdBlock
@@ -13876,7 +13427,6 @@ HOST,cdn.segment.com,AdBlock
 HOST,idsync.segment.com,AdBlock
 HOST,mobile-service.segment.com,AdBlock
 HOST,profiles.segment.com,AdBlock
-HOST,whitelabel-apricot.xid.segment.com,AdBlock
 # [segment.io]
 HOST,api.segment.io,AdBlock
 HOST,cdn.segment.io,AdBlock
@@ -13885,12 +13435,10 @@ HOST,segmentapis.com,AdBlock
 HOST,silver-fir.cd.segmentapis.com,AdBlock
 # [segmentify.com]
 HOST,cdn.segmentify.com,AdBlock
-HOST,dce1.segmentify.com,AdBlock
 HOST,dcetr4.segmentify.com,AdBlock
 HOST,dcetr8.segmentify.com,AdBlock
 # [sekindo.com]
 HOST,sekindo.com,AdBlock
-HOST,video.sekindo.com,AdBlock
 # [selectablemedia.com]
 HOST,cdn.selectablemedia.com,AdBlock
 # [sembox.it]
@@ -13906,23 +13454,16 @@ HOST,ios-quinoa-personal-identify-prod.sense360eng.com,AdBlock
 HOST,quinoa-personal-identify-prod.sense360eng.com,AdBlock
 # [sentiance.com]
 HOST,api.sentiance.com,AdBlock
-# [sentry.io]
-HOST,ingest.sentry.io,AdBlock
 # [servebom.com]
 HOST,servebom.com,AdBlock
 HOST,ads2.servebom.com,AdBlock
 HOST,pixel.servebom.com,AdBlock
 # [servedby-buysellads.com]
 HOST,m.servedby-buysellads.com,AdBlock
-# [servedbyopenx.com]
-HOST,slader.servedbyopenx.com,AdBlock
-HOST,ox-d.slader.servedbyopenx.com,AdBlock
 # [serverbid.com]
 HOST,e.serverbid.com,AdBlock
 # [serving-sys.com]
 HOST,serving-sys.com,AdBlock
-HOST,cd.serving-sys.com,AdBlock
-HOST,conv-blizzard-na.cd.serving-sys.com,AdBlock
 HOST,ds.serving-sys.com,AdBlock
 HOST,ds-vn.serving-sys.com,AdBlock
 HOST,gizmo.serving-sys.com,AdBlock
@@ -13932,8 +13473,6 @@ HOST,secure-ds.serving-sys.com,AdBlock
 HOST,services.serving-sys.com,AdBlock
 # [sessioncam.com]
 HOST,ws.sessioncam.com,AdBlock
-# [sessionm.com]
-HOST,sessionm.com,AdBlock
 # [sgdmobile.com]
 HOST,track.sgdmobile.com,AdBlock
 # [shareaholic.com]
@@ -13959,7 +13498,6 @@ HOST,seg.sharethis.com,AdBlock
 HOST,sync.sharethis.com,AdBlock
 HOST,t.sharethis.com,AdBlock
 HOST,w.sharethis.com,AdBlock
-HOST,wd.sharethis.com,AdBlock
 HOST,wd-edge.sharethis.com,AdBlock
 HOST,ws.sharethis.com,AdBlock
 # [sharethrough.com]
@@ -13972,7 +13510,6 @@ HOST,match.sharethrough.com,AdBlock
 HOST,match-ap-southeast-1-ecs.sharethrough.com,AdBlock
 HOST,match-us-west-1-ecs.sharethrough.com,AdBlock
 HOST,native.sharethrough.com,AdBlock
-HOST,platform-cdn.sharethrough.com,AdBlock
 HOST,sdk.sharethrough.com,AdBlock
 HOST,sfp-adserver-cdn.sharethrough.com,AdBlock
 HOST,static.sharethrough.com,AdBlock
@@ -13981,8 +13518,6 @@ HOST,stx-assets.sharethrough.com,AdBlock
 HOST,beacon.shazam.com,AdBlock
 # [shoofle.tv]
 HOST,serverc.shoofle.tv,AdBlock
-# [shopee.vn]
-HOST,userstats.shopee.vn,AdBlock
 # [sidearmsports.com]
 HOST,statcollector.sidearmsports.com,AdBlock
 # [sift.co]
@@ -14033,6 +13568,7 @@ HOST,newspush.sinajs.cn,AdBlock
 # [singular.net]
 HOST,singular.net,AdBlock
 HOST,i.singular.net,AdBlock
+HOST,s2s.singular.net,AdBlock
 HOST,sdk-api-v1.singular.net,AdBlock
 HOST,t.singular.net,AdBlock
 # [sitemaji.com]
@@ -14050,13 +13586,10 @@ HOST,r.skimresources.com,AdBlock
 HOST,s.skimresources.com,AdBlock
 HOST,t.skimresources.com,AdBlock
 HOST,x.skimresources.com,AdBlock
-# [slack.com]
-HOST,mparticle.slack.com,AdBlock
 # [slicktext.com]
 HOST,slicktext.com,AdBlock
 # [smaato.com]
 HOST,smaato.com,AdBlock
-HOST,ads.smaato.com,AdBlock
 HOST,creatives.smaato.com,AdBlock
 # [smaato.net]
 HOST,smaato.net,AdBlock
@@ -14093,7 +13626,6 @@ HOST,tkclick.smardroid.com,AdBlock
 HOST,smart.link,AdBlock
 # [smartadserver.com]
 HOST,eqx-secure.smartadserver.com,AdBlock
-HOST,eqx-tmk-geoloc.smartadserver.com,AdBlock
 HOST,geoced.smartadserver.com,AdBlock
 HOST,itx4.smartadserver.com,AdBlock
 HOST,itx4-secure.smartadserver.com,AdBlock
@@ -14121,9 +13653,6 @@ HOST,ssp-csync.smartadserver.com,AdBlock
 HOST,sync.smartadserver.com,AdBlock
 HOST,tagmanager.smartadserver.com,AdBlock
 HOST,tmk.smartadserver.com,AdBlock
-HOST,tmk-eqx-geoloc.smartadserver.com,AdBlock
-HOST,tmk-eqx-sgp-geoloc.smartadserver.com,AdBlock
-HOST,tmk-secure.smartadserver.com,AdBlock
 HOST,usw1.smartadserver.com,AdBlock
 HOST,ww1772.smartadserver.com,AdBlock
 HOST,ww2060.smartadserver.com,AdBlock
@@ -14160,7 +13689,6 @@ HOST,counter.snackly.co,AdBlock
 # [snapads.com]
 HOST,snapads.com,AdBlock
 HOST,adserver.snapads.com,AdBlock
-HOST,ase.adserver.snapads.com,AdBlock
 HOST,usc.adserver.snapads.com,AdBlock
 HOST,adserver.shadow.snapads.com,AdBlock
 HOST,study.snapads.com,AdBlock
@@ -14177,11 +13705,8 @@ HOST,snap.snapmobile.asia,AdBlock
 # [snplow.net]
 HOST,collector.snplow.net,AdBlock
 HOST,ca-lapresse-main.collector.snplow.net,AdBlock
-HOST,com-geckoboard-main.collector.snplow.net,AdBlock
 HOST,com-thebigwillow-prod1.collector.snplow.net,AdBlock
 HOST,com-upday-main.collector.snplow.net,AdBlock
-# [snssdk.com]
-HOST,analytics.snssdk.com,AdBlock
 # [socdm.com]
 HOST,socdm.com,AdBlock
 HOST,adgen.socdm.com,AdBlock
@@ -14197,10 +13722,6 @@ HOST,rubicon.socdm.com,AdBlock
 # [socialannex.com]
 HOST,c.socialannex.com,AdBlock
 HOST,cdn.socialannex.com,AdBlock
-# [socialbakers.com]
-HOST,cdn.socialbakers.com,AdBlock
-HOST,suite.socialbakers.com,AdBlock
-HOST,suite-builder.socialbakers.com,AdBlock
 # [socialquantum.com]
 HOST,mobile-stats.socialquantum.com,AdBlock
 # [socialquantum.ru]
@@ -14229,7 +13750,6 @@ HOST,go.sonobi.com,AdBlock
 HOST,ams-1.go.sonobi.com,AdBlock
 HOST,ams-1-apex.go.sonobi.com,AdBlock
 HOST,ams-1-sync.go.sonobi.com,AdBlock
-HOST,ap-southeast-sync.go.sonobi.com,AdBlock
 HOST,apex.go.sonobi.com,AdBlock
 HOST,iad-2.go.sonobi.com,AdBlock
 HOST,iad-2-apex.go.sonobi.com,AdBlock
@@ -14243,15 +13763,12 @@ HOST,lax-2.go.sonobi.com,AdBlock
 HOST,lax-2-apex.go.sonobi.com,AdBlock
 HOST,mtrx.go.sonobi.com,AdBlock
 HOST,purch-sync.go.sonobi.com,AdBlock
-HOST,syd-1-sync.go.sonobi.com,AdBlock
 HOST,sync.go.sonobi.com,AdBlock
 HOST,xcp.go.sonobi.com,AdBlock
 # [soom.la]
 HOST,assets.soom.la,AdBlock
 HOST,highway2.soom.la,AdBlock
 HOST,teleport.soom.la,AdBlock
-# [soperson.com]
-HOST,lead.soperson.com,AdBlock
 # [southwest.com]
 HOST,smetrics.southwest.com,AdBlock
 # [speedcurve.com]
@@ -14276,14 +13793,10 @@ HOST,events.split.io,AdBlock
 HOST,sdk.split.io,AdBlock
 # [splkmobile.com]
 HOST,api.splkmobile.com,AdBlock
-HOST,14dc69dd.api.splkmobile.com,AdBlock
 HOST,29627a66.api.splkmobile.com,AdBlock
 HOST,3581a62b.api.splkmobile.com,AdBlock
-HOST,959cad30.api.splkmobile.com,AdBlock
 HOST,9ed5f5b4.api.splkmobile.com,AdBlock
 HOST,e1345286.api.splkmobile.com,AdBlock
-HOST,eddd6b75.api.splkmobile.com,AdBlock
-HOST,fa0dcbd1.api.splkmobile.com,AdBlock
 HOST,ff1c0cc5.api.splkmobile.com,AdBlock
 # [sponsorpay.com]
 HOST,sponsorpay.com,AdBlock
@@ -14292,7 +13805,6 @@ HOST,be.sponsorpay.com,AdBlock
 HOST,engine.sponsorpay.com,AdBlock
 HOST,service.sponsorpay.com,AdBlock
 # [spot.im]
-HOST,ak-events-collector.spot.im,AdBlock
 HOST,api-2-0.spot.im,AdBlock
 HOST,direct-events-collector.spot.im,AdBlock
 HOST,events-collector.spot.im,AdBlock
@@ -14337,8 +13849,6 @@ HOST,vid-io.springserve.com,AdBlock
 HOST,vid-io-iad.springserve.com,AdBlock
 HOST,vid-io-sin.springserve.com,AdBlock
 HOST,vpaid.springserve.com,AdBlock
-# [sprout-ad.com]
-HOST,sprout-ad.com,AdBlock
 # [srmdata-us.com]
 HOST,www.srmdata-us.com,AdBlock
 # [srmdata.com]
@@ -14368,12 +13878,9 @@ HOST,tags.srv.stackadapt.com,AdBlock
 HOST,uw.srv.stackadapt.com,AdBlock
 # [stackpathdns.com]
 HOST,ads-lfi3olnec7fr.stackpathdns.com,AdBlock
-HOST,analytics-wildtangent-yfdbl8gzl.stackpathdns.com,AdBlock
-HOST,beacons-wxm0dh1cst4.stackpathdns.com,AdBlock
 HOST,sdk-assets-zy8pe3h4v8msjk6x2sq4.stackpathdns.com,AdBlock
 # [starbolt.io]
 HOST,alkutbay.starbolt.io,AdBlock
-HOST,dmp.starbolt.io,AdBlock
 HOST,sdk.starbolt.io,AdBlock
 # [startapp.com]
 HOST,startapp.com,AdBlock
@@ -14404,8 +13911,6 @@ HOST,ipla.hit.stat24.com,AdBlock
 HOST,beacon.statful.com,AdBlock
 # [stathat.com]
 HOST,api.stathat.com,AdBlock
-# [stats-locations.com]
-HOST,click.stats-locations.com,AdBlock
 # [steelhouse.com]
 HOST,steelhouse.com,AdBlock
 # [steelhousemedia.com]
@@ -14414,10 +13919,8 @@ HOST,c.steelhousemedia.com,AdBlock
 HOST,cookie-sync-service-prod.steelhousemedia.com,AdBlock
 HOST,delivery.steelhousemedia.com,AdBlock
 HOST,events.steelhousemedia.com,AdBlock
-HOST,t.steelhousemedia.com,AdBlock
 # [steepto.com]
 HOST,cdn.steepto.com,AdBlock
-HOST,mg.steepto.com,AdBlock
 HOST,s-img.steepto.com,AdBlock
 # [stickyadstv.com]
 HOST,update.stickyadstv.com,AdBlock
@@ -14492,7 +13995,6 @@ HOST,telemetry.api.swiftkey.com,AdBlock
 HOST,cc.swiftype.com,AdBlock
 # [swrve.com]
 HOST,swrve.com,AdBlock
-HOST,abt-prod-us-east-1-content-star.swrve.com,AdBlock
 HOST,api.swrve.com,AdBlock
 HOST,1170.api.swrve.com,AdBlock
 HOST,1188.api.swrve.com,AdBlock
@@ -14506,17 +14008,13 @@ HOST,30506.api.swrve.com,AdBlock
 HOST,30572.api.swrve.com,AdBlock
 HOST,30736.api.swrve.com,AdBlock
 HOST,30819.api.swrve.com,AdBlock
-HOST,31035.api.swrve.com,AdBlock
 HOST,3193.api.swrve.com,AdBlock
 HOST,3285.api.swrve.com,AdBlock
-HOST,3340.api.swrve.com,AdBlock
 HOST,3426.api.swrve.com,AdBlock
 HOST,3444.api.swrve.com,AdBlock
 HOST,3606.api.swrve.com,AdBlock
 HOST,3616.api.swrve.com,AdBlock
-HOST,3694.api.swrve.com,AdBlock
 HOST,3696.api.swrve.com,AdBlock
-HOST,3718.api.swrve.com,AdBlock
 HOST,3789.api.swrve.com,AdBlock
 HOST,3790.api.swrve.com,AdBlock
 HOST,3791.api.swrve.com,AdBlock
@@ -14539,7 +14037,6 @@ HOST,1170.content.swrve.com,AdBlock
 HOST,1188.content.swrve.com,AdBlock
 HOST,1353.content.swrve.com,AdBlock
 HOST,1456.content.swrve.com,AdBlock
-HOST,2240.content.swrve.com,AdBlock
 HOST,2359.content.swrve.com,AdBlock
 HOST,2405.content.swrve.com,AdBlock
 HOST,2578.content.swrve.com,AdBlock
@@ -14549,13 +14046,9 @@ HOST,30506.content.swrve.com,AdBlock
 HOST,30572.content.swrve.com,AdBlock
 HOST,30736.content.swrve.com,AdBlock
 HOST,30819.content.swrve.com,AdBlock
-HOST,31035.content.swrve.com,AdBlock
 HOST,3285.content.swrve.com,AdBlock
-HOST,3340.content.swrve.com,AdBlock
 HOST,3616.content.swrve.com,AdBlock
-HOST,3694.content.swrve.com,AdBlock
 HOST,3696.content.swrve.com,AdBlock
-HOST,3718.content.swrve.com,AdBlock
 HOST,3789.content.swrve.com,AdBlock
 HOST,3790.content.swrve.com,AdBlock
 HOST,409.content.swrve.com,AdBlock
@@ -14570,20 +14063,14 @@ HOST,4700.content.swrve.com,AdBlock
 HOST,4706.content.swrve.com,AdBlock
 HOST,4768.content.swrve.com,AdBlock
 HOST,758.content.swrve.com,AdBlock
-HOST,854.content.swrve.com,AdBlock
 HOST,content-cdn.swrve.com,AdBlock
 HOST,eu-api.swrve.com,AdBlock
 HOST,6379.eu-api.swrve.com,AdBlock
 HOST,6384.eu-api.swrve.com,AdBlock
-HOST,6674.eu-api.swrve.com,AdBlock
-HOST,6696.eu-api.swrve.com,AdBlock
 HOST,eu-content.swrve.com,AdBlock
 HOST,6379.eu-content.swrve.com,AdBlock
 HOST,6384.eu-content.swrve.com,AdBlock
-HOST,6674.eu-content.swrve.com,AdBlock
-HOST,6696.eu-content.swrve.com,AdBlock
 HOST,link.swrve.com,AdBlock
-HOST,sink-prod-us-east-1-star.swrve.com,AdBlock
 # [synergy-e.com]
 HOST,banner.synergy-e.com,AdBlock
 # [systemlog.me]
@@ -14616,7 +14103,6 @@ HOST,hk-vid-events.taboola.com,AdBlock
 HOST,hk-wf.taboola.com,AdBlock
 HOST,images.taboola.com,AdBlock
 HOST,images-dl.taboola.com,AdBlock
-HOST,images2.taboola.com,AdBlock
 HOST,impr.taboola.com,AdBlock
 HOST,imprammp.taboola.com,AdBlock
 HOST,imprchmp.taboola.com,AdBlock
@@ -14664,10 +14150,11 @@ HOST,tacoda.net,AdBlock
 HOST,adserver.tactilews.com,AdBlock
 HOST,analytics.tactilews.com,AdBlock
 HOST,analytics-eu.tactilews.com,AdBlock
-HOST,analytics-staging.tactilews.com,AdBlock
 # [tagcommander.com]
 HOST,cdn.tagcommander.com,AdBlock
 HOST,serverside4285.tagcommander.com,AdBlock
+# [tagdelivery.com]
+HOST,ad-thd-east.tagdelivery.com,AdBlock
 # [tagsrvcs.com]
 HOST,s.tagsrvcs.com,AdBlock
 # [tagular.com]
@@ -14679,7 +14166,6 @@ HOST,tags.t.tailtarget.com,AdBlock
 # [talkable.com]
 HOST,www.talkable.com,AdBlock
 # [talkingdata.net]
-HOST,gaandroid.talkingdata.net,AdBlock
 HOST,tdcv3.talkingdata.net,AdBlock
 # [talkspace.com]
 HOST,snowplowcollector.talkspace.com,AdBlock
@@ -14689,8 +14175,7 @@ HOST,agent.tamedia.com.tw,AdBlock
 # [tango.me]
 HOST,acme.tango.me,AdBlock
 # [taobao.com]
-# [tapad.app]
-HOST,cdn-stg.tapad.app,AdBlock
+HOST,adashx4ae.ut.taobao.com,AdBlock
 # [tapad.com]
 HOST,tapad.com,AdBlock
 HOST,assets.tapad.com,AdBlock
@@ -14698,7 +14183,6 @@ HOST,pandg.tapad.com,AdBlock
 HOST,pixel.tapad.com,AdBlock
 # [tapas.net]
 HOST,tapas.net,AdBlock
-HOST,ggimg.tapas.net,AdBlock
 HOST,nrc.tapas.net,AdBlock
 # [tapatalk.com]
 HOST,log.tapatalk.com,AdBlock
@@ -14761,7 +14245,6 @@ HOST,static.target2sell.com,AdBlock
 HOST,targetspot.com,AdBlock
 HOST,cdn.targetspot.com,AdBlock
 HOST,content.cdn.targetspot.com,AdBlock
-HOST,node.targetspot.com,AdBlock
 HOST,nodeny.targetspot.com,AdBlock
 # [tdameritrade.com]
 HOST,analytics.tdameritrade.com,AdBlock
@@ -14772,7 +14255,6 @@ HOST,cdn.teads.tv,AdBlock
 HOST,cdn2.teads.tv,AdBlock
 HOST,criteo-sync.teads.tv,AdBlock
 HOST,mp.teads.tv,AdBlock
-HOST,ot.teads.tv,AdBlock
 HOST,p.teads.tv,AdBlock
 HOST,r.teads.tv,AdBlock
 HOST,s8t.teads.tv,AdBlock
@@ -14815,6 +14297,8 @@ HOST,metrics.ted.com,AdBlock
 HOST,api.videometrics.ted.com,AdBlock
 # [teenvogue.com]
 HOST,sstats.teenvogue.com,AdBlock
+# [telematicsct.com]
+HOST,oneapi.telematicsct.com,AdBlock
 # [telematicsdirect.com]
 HOST,nav.telematicsdirect.com,AdBlock
 # [tencent-cloud.net]
@@ -14828,19 +14312,18 @@ HOST,track.tenjin.com,AdBlock
 HOST,track.tenjin.io,AdBlock
 # [teragence.net]
 HOST,control.teragence.net,AdBlock
-# [terraclicks.com]
 # [tf-cdn.net]
 HOST,push.tf-cdn.net,AdBlock
 # [tfgapps.com]
 HOST,adspot.tfgapps.com,AdBlock
 # [tfgco.com]
-HOST,adspot.tfgco.com,AdBlock
 HOST,beacon.tfgco.com,AdBlock
-HOST,cdn-adspot.tfgco.com,AdBlock
 # [theadex.com]
 HOST,api.theadex.com,AdBlock
 # [thebrighttag.com]
 HOST,s.thebrighttag.com,AdBlock
+# [theguardian.com]
+HOST,ophan.theguardian.com,AdBlock
 # [themoneytizer.com]
 HOST,ads.themoneytizer.com,AdBlock
 # [theoremreach.com]
@@ -14854,7 +14337,6 @@ HOST,trinity-player.thetimmedia.site,AdBlock
 # [thetrafficstat.net]
 HOST,thetrafficstat.net,AdBlock
 # [thinknearhub.com]
-HOST,mopub-server.thinknearhub.com,AdBlock
 HOST,openx-server.thinknearhub.com,AdBlock
 HOST,opera-server.thinknearhub.com,AdBlock
 HOST,smaato-server.thinknearhub.com,AdBlock
@@ -14896,29 +14378,24 @@ HOST,ap.tnkfactory.com,AdBlock
 HOST,ar.tns-counter.ru,AdBlock
 HOST,kz.tns-counter.ru,AdBlock
 HOST,www.tns-counter.ru,AdBlock
+# [tns-cs.net]
+HOST,ssl-nrk.tns-cs.net,AdBlock
 # [toast.com]
 HOST,ad-exchange.toast.com,AdBlock
 HOST,adlc-exchange.toast.com,AdBlock
 HOST,adx-exchange.toast.com,AdBlock
-HOST,api-log-analytics.cloud.toast.com,AdBlock
 HOST,tagmanager.toast.com,AdBlock
 HOST,static.tagmanager.toast.com,AdBlock
 # [today.com]
 HOST,aamt.today.com,AdBlock
-# [toecircle.com]
-HOST,toecircle.com,AdBlock
 # [tohsoft.com]
 HOST,adservice.tohsoft.com,AdBlock
 # [topaz-analytics.com]
-HOST,android-com-fungames-blockcraft.topaz-analytics.com,AdBlock
-HOST,android-com-fungames-sniper3d.topaz-analytics.com,AdBlock
-HOST,android-com-tfgco-games-sports-free-tennis-clash.topaz-analytics.com,AdBlock
 HOST,android-com-wildlife-games-battle-royale-free-zooba.topaz-analytics.com,AdBlock
 HOST,playtest-api.topaz-analytics.com,AdBlock
 HOST,push-api.topaz-analytics.com,AdBlock
 # [torrenti.al]
 HOST,m1.torrenti.al,AdBlock
-HOST,m2.torrenti.al,AdBlock
 # [tout.com]
 HOST,analytics.tout.com,AdBlock
 # [tpbid.com]
@@ -14947,8 +14424,6 @@ HOST,collector-main.trafficmanager.net,AdBlock
 HOST,t.trafmag.com,AdBlock
 # [traktum.com]
 HOST,traktum.com,AdBlock
-# [trckingbyte.com]
-HOST,static.trckingbyte.com,AdBlock
 # [treasuredata.com]
 HOST,cdp.in.treasuredata.com,AdBlock
 # [tremorhub.com]
@@ -14964,7 +14439,6 @@ HOST,6psex-fm1gy.ads.tremorhub.com,AdBlock
 HOST,6psex-sootr.ads.tremorhub.com,AdBlock
 HOST,bktr2-06hdl.ads.tremorhub.com,AdBlock
 HOST,cguke-9h64o.ads.tremorhub.com,AdBlock
-HOST,cguke-unxsc.ads.tremorhub.com,AdBlock
 HOST,eq97f-1j0az.ads.tremorhub.com,AdBlock
 HOST,eq97f-3ak3i.ads.tremorhub.com,AdBlock
 HOST,eq97f-d6025.ads.tremorhub.com,AdBlock
@@ -14980,17 +14454,14 @@ HOST,jzwjq.ads.tremorhub.com,AdBlock
 HOST,m7hdh-2damu.ads.tremorhub.com,AdBlock
 HOST,mb9eo-7w62j.ads.tremorhub.com,AdBlock
 HOST,mb9eo-nkrlx.ads.tremorhub.com,AdBlock
-HOST,noedw-0wabr.ads.tremorhub.com,AdBlock
 HOST,oryj8-jzbmc.ads.tremorhub.com,AdBlock
 HOST,p4dt2-0pwq8.ads.tremorhub.com,AdBlock
 HOST,p4dt2-4nrdw.ads.tremorhub.com,AdBlock
 HOST,p4dt2-8d2sv.ads.tremorhub.com,AdBlock
 HOST,p4dt2-980w2.ads.tremorhub.com,AdBlock
 HOST,p4dt2-9fzxj.ads.tremorhub.com,AdBlock
-HOST,p4dt2-eh3n2.ads.tremorhub.com,AdBlock
 HOST,p4dt2-hr9oj.ads.tremorhub.com,AdBlock
 HOST,p4dt2-uma55.ads.tremorhub.com,AdBlock
-HOST,p4dt2-weet1.ads.tremorhub.com,AdBlock
 HOST,pc031-edgup.ads.tremorhub.com,AdBlock
 HOST,pc051-k4snh.ads.tremorhub.com,AdBlock
 HOST,pc083-0qo9e.ads.tremorhub.com,AdBlock
@@ -14999,7 +14470,6 @@ HOST,pc083-ii06c.ads.tremorhub.com,AdBlock
 HOST,playbuzzmm.ads.tremorhub.com,AdBlock
 HOST,playbuzzmobileweb.ads.tremorhub.com,AdBlock
 HOST,px2ii-ufb66.ads.tremorhub.com,AdBlock
-HOST,q017o-0w9hi.ads.tremorhub.com,AdBlock
 HOST,q017o-d42by.ads.tremorhub.com,AdBlock
 HOST,q017o-jh7o1.ads.tremorhub.com,AdBlock
 HOST,regional.ads.tremorhub.com,AdBlock
@@ -15032,19 +14502,13 @@ HOST,videology-partners.tremorhub.com,AdBlock
 HOST,tremormedia.com,AdBlock
 # [tresensa.com]
 HOST,analytics.tresensa.com,AdBlock
-HOST,sdk.tresensa.com,AdBlock
-# [trfmxt.com]
-HOST,trfmxt.com,AdBlock
 # [trialpay.com]
 HOST,trialpay.com,AdBlock
 # [tribalfusion.com]
 HOST,a.tribalfusion.com,AdBlock
 # [trinitymedia.ai]
 HOST,depart.trinitymedia.ai,AdBlock
-# [triongames.com]
-HOST,ads.triongames.com,AdBlock
 # [trnox.com]
-HOST,tracking.trnox.com,AdBlock
 HOST,tracking-3-9f58.trnox.com,AdBlock
 # [tru.am]
 HOST,tru.am,AdBlock
@@ -15087,9 +14551,6 @@ HOST,cdn.geodns.tubemogul.com,AdBlock
 HOST,cmp.geodns.tubemogul.com,AdBlock
 HOST,lasteventf.tubemogul.com,AdBlock
 HOST,psi.tubemogul.com,AdBlock
-HOST,rtb-lb-event-sjc-1b.tubemogul.com,AdBlock
-HOST,rtb-lb-event-tm-hkg.tubemogul.com,AdBlock
-HOST,rtb-lb-tm-sjc-1b.tubemogul.com,AdBlock
 HOST,rtd.tubemogul.com,AdBlock
 HOST,statsf.tubemogul.com,AdBlock
 HOST,sync.tubemogul.com,AdBlock
@@ -15097,8 +14558,6 @@ HOST,syncf.tubemogul.com,AdBlock
 HOST,ud.tubemogul.com,AdBlock
 # [tubi.io]
 HOST,analytics-ingestion.production-public.tubi.io,AdBlock
-# [tuitiger.com]
-HOST,yun.tuitiger.com,AdBlock
 # [tumblr.com]
 HOST,ls.srvcs.tumblr.com,AdBlock
 # [tune.com]
@@ -15110,13 +14569,10 @@ HOST,cdns.turn.com,AdBlock
 HOST,ad2.cdns.turn.com,AdBlock
 HOST,img.cdns.turn.com,AdBlock
 HOST,d.turn.com,AdBlock
-HOST,d-sjc2.turn.com,AdBlock
 HOST,img.turn.com,AdBlock
 HOST,presentation-ams1.turn.com,AdBlock
 HOST,presentation-hkg1.turn.com,AdBlock
-HOST,presentation-sjc2.turn.com,AdBlock
 HOST,r.turn.com,AdBlock
-HOST,sd.turn.com,AdBlock
 # [tusdk.com]
 HOST,api.tusdk.com,AdBlock
 # [tutelatechnologies.com]
@@ -15167,6 +14623,7 @@ HOST,gjapplog.uc.cn,AdBlock
 HOST,mparticle.uc.cn,AdBlock
 HOST,track.uc.cn,AdBlock
 HOST,gj.track.uc.cn,AdBlock
+HOST,woodpecker.uc.cn,AdBlock
 # [ucweb.com]
 HOST,gjtrack.ucweb.com,AdBlock
 HOST,insight.ucweb.com,AdBlock
@@ -15178,8 +14635,8 @@ HOST,click.union.ucweb.com,AdBlock
 HOST,www.ugdturner.com,AdBlock
 # [uimserv.net]
 HOST,uimserv.net,AdBlock
-# [ultraadserver.com]
-HOST,ultraadserver.com,AdBlock
+# [ulta.com]
+HOST,sweb.ulta.com,AdBlock
 # [umbel.com]
 HOST,umbel.com,AdBlock
 HOST,api.umbel.com,AdBlock
@@ -15230,17 +14687,13 @@ HOST,config.uca.cloud.unity3d.com,AdBlock
 HOST,data-optout-service.uca.cloud.unity3d.com,AdBlock
 HOST,userreporting.cloud.unity3d.com,AdBlock
 HOST,ads.prd.ie.internal.unity3d.com,AdBlock
-HOST,ads-game-configuration-master.ads.prd.ie.internal.unity3d.com,AdBlock
 HOST,publisher-event.ads.prd.ie.internal.unity3d.com,AdBlock
 HOST,ads-privacy-api.prd.mz.internal.unity3d.com,AdBlock
-HOST,tracking.prd.mz.internal.unity3d.com,AdBlock
 HOST,stats.unity3d.com,AdBlock
 HOST,unityads.unity3d.com,AdBlock
 HOST,ads-brand-postback.unityads.unity3d.com,AdBlock
-HOST,ads-game-configuration.unityads.unity3d.com,AdBlock
 HOST,adserver.unityads.unity3d.com,AdBlock
 HOST,adsx.unityads.unity3d.com,AdBlock
-HOST,nginx-auction-prd-gcp.adsx.unityads.unity3d.com,AdBlock
 HOST,auction.unityads.unity3d.com,AdBlock
 HOST,auction-load.unityads.unity3d.com,AdBlock
 HOST,auiopt.unityads.unity3d.com,AdBlock
@@ -15258,7 +14711,6 @@ HOST,publisher-event.unityads.unity3d.com,AdBlock
 HOST,thind.unityads.unity3d.com,AdBlock
 HOST,webview.unityads.unity3d.com,AdBlock
 # [unrulymedia.com]
-HOST,optout-service.unrulymedia.com,AdBlock
 HOST,r53.unrulymedia.com,AdBlock
 HOST,stats3.r53.unrulymedia.com,AdBlock
 HOST,rx-stats3.unrulymedia.com,AdBlock
@@ -15314,9 +14766,13 @@ HOST,cdn.usebutton.com,AdBlock
 HOST,mobileapi.usebutton.com,AdBlock
 HOST,app-03c19ea7c9fd0c57.mobileapi.usebutton.com,AdBlock
 HOST,app-10d1b5add9b529e5.mobileapi.usebutton.com,AdBlock
+HOST,app-5f80612999bcf5c9.mobileapi.usebutton.com,AdBlock
 HOST,app-67a1a4bb9dffba86.mobileapi.usebutton.com,AdBlock
 HOST,app-6b7903104cffc647.mobileapi.usebutton.com,AdBlock
+HOST,app-7101fcd60945d6ec.mobileapi.usebutton.com,AdBlock
 HOST,app-796db8a17c48a13b.mobileapi.usebutton.com,AdBlock
+# [usefathom.com]
+HOST,cdn.usefathom.com,AdBlock
 # [usefomo.com]
 HOST,geocode.usefomo.com,AdBlock
 HOST,www.usefomo.com,AdBlock
@@ -15325,6 +14781,8 @@ HOST,segment.api.useinsider.com,AdBlock
 HOST,mobileanalytics.useinsider.com,AdBlock
 # [userleap.com]
 HOST,api.userleap.com,AdBlock
+# [userzoom.com]
+HOST,cdn4.userzoom.com,AdBlock
 # [utarget.ru]
 HOST,utarget.ru,AdBlock
 # [v-mate.mobi]
@@ -15340,8 +14798,6 @@ HOST,int.vaicore.store,AdBlock
 HOST,vaicore.xyz,AdBlock
 HOST,co.vaicore.xyz,AdBlock
 HOST,int.vaicore.xyz,AdBlock
-# [valuepotion.com]
-HOST,analytics.valuepotion.com,AdBlock
 # [vamaker.com]
 HOST,vamaker.com,AdBlock
 # [vcmedia.vn]
@@ -15352,8 +14808,6 @@ HOST,tracking.vcommission.com,AdBlock
 # [vdopia.com]
 HOST,vdopia.com,AdBlock
 HOST,cs.vdopia.com,AdBlock
-# [ve.com]
-HOST,veads-cdn-e1.ve.com,AdBlock
 # [veinteractive.com]
 HOST,cookiea1.veinteractive.com,AdBlock
 HOST,cookiee1.veinteractive.com,AdBlock
@@ -15362,7 +14816,6 @@ HOST,dtrchk.veinteractive.com,AdBlock
 HOST,sessionapi.veinteractive.com,AdBlock
 HOST,sessionapihk.veinteractive.com,AdBlock
 HOST,veads.veinteractive.com,AdBlock
-HOST,veads-tracking.veinteractive.com,AdBlock
 # [vendemore.com]
 HOST,analytics.vendemore.com,AdBlock
 # [vendimob.pl]
@@ -15391,19 +14844,21 @@ HOST,aux-log2-sh.vertamedia.com,AdBlock
 HOST,s.vertamedia.com,AdBlock
 HOST,sync.vertamedia.com,AdBlock
 # [verticalscope.com]
-HOST,ads.verticalscope.com,AdBlock
 HOST,api.verticalscope.com,AdBlock
 HOST,static.verticalscope.com,AdBlock
-# [vertoanalytics.com]
-HOST,panelist-api.vertoanalytics.com,AdBlock
 # [vervemobile.com]
 HOST,vervemobile.com,AdBlock
+# [vhx.tv]
+HOST,api.vhx.tv,AdBlock
+HOST,collector.vhx.tv,AdBlock
 # [vi-serve.com]
 HOST,vi-serve.com,AdBlock
 HOST,nv.vi-serve.com,AdBlock
 HOST,s.vi-serve.com,AdBlock
 HOST,t.vi-serve.com,AdBlock
 HOST,vis.vi-serve.com,AdBlock
+# [viacom.tech]
+HOST,events-collector-api.viacom.tech,AdBlock
 # [viafoura.co]
 HOST,api.viafoura.co,AdBlock
 HOST,realtimeeventfeeds.viafoura.co,AdBlock
@@ -15437,15 +14892,13 @@ HOST,adserver.videohub.tv,AdBlock
 HOST,dt-secure.videohub.tv,AdBlock
 HOST,l0-secure.videohub.tv,AdBlock
 HOST,tp.videohub.tv,AdBlock
-# [videojj.com]
-HOST,sdkcdn.videojj.com,AdBlock
 # [videoplayerhub.com]
 HOST,kinja-com.videoplayerhub.com,AdBlock
 HOST,pmc-com.videoplayerhub.com,AdBlock
 # [videosecrets.com]
 HOST,banners.videosecrets.com,AdBlock
 # [vidible.tv]
-HOST,omsdk.vidible.tv,AdBlock
+HOST,cdn.vidible.tv,AdBlock
 HOST,ads.use1.prod.vidible.tv,AdBlock
 HOST,trk.vidible.tv,AdBlock
 # [vidora.com]
@@ -15476,8 +14929,6 @@ HOST,api.vigo.ru,AdBlock
 HOST,static.vilynx.com,AdBlock
 # [vindicosuite.com]
 HOST,vindicosuite.com,AdBlock
-# [visitweb.com]
-HOST,visitweb.com,AdBlock
 # [visualrevenue.com]
 HOST,visualrevenue.com,AdBlock
 # [visualwebsiteoptimizer.com]
@@ -15497,8 +14948,6 @@ HOST,asia-stsdk.vivoglobal.com,AdBlock
 HOST,onrt-stsdk.vivoglobal.com,AdBlock
 HOST,stsdk.vivoglobal.com,AdBlock
 HOST,onrt.stsdk.vivoglobal.com,AdBlock
-HOST,ort.stsdk.vivoglobal.com,AdBlock
-HOST,pnrt.stsdk.vivoglobal.com,AdBlock
 HOST,prt.stsdk.vivoglobal.com,AdBlock
 # [vm5apis.com]
 HOST,vm5apis.com,AdBlock
@@ -15508,7 +14957,6 @@ HOST,lib.vmweb.net,AdBlock
 HOST,sync.vmweb.net,AdBlock
 # [vnet.cn]
 HOST,vnet.cn,AdBlock
-HOST,imsapi.vnet.cn,AdBlock
 HOST,zzhc.vnet.cn,AdBlock
 # [vntsm.com]
 HOST,vntsm.com,AdBlock
@@ -15518,10 +14966,6 @@ HOST,hb.vntsm.com,AdBlock
 HOST,ai.voiceads.cn,AdBlock
 HOST,api.voiceads.cn,AdBlock
 HOST,imp.voiceads.cn,AdBlock
-HOST,mt.voiceads.cn,AdBlock
-HOST,post.voiceads.cn,AdBlock
-HOST,rtb.voiceads.cn,AdBlock
-HOST,sdk.voiceads.cn,AdBlock
 # [voicefive.com]
 HOST,sb.voicefive.com,AdBlock
 # [voodoo-ads.io]
@@ -15552,8 +14996,6 @@ HOST,tw-img.vpon.com,AdBlock
 # [vrtcal.com]
 HOST,adplatform.vrtcal.com,AdBlock
 # [vrtzads.com]
-HOST,adm.vrtzads.com,AdBlock
-HOST,adm-cdn.vrtzads.com,AdBlock
 # [vrvm.com]
 HOST,ad.vrvm.com,AdBlock
 HOST,adcel.vrvm.com,AdBlock
@@ -15586,6 +15028,8 @@ HOST,w3i.com,AdBlock
 # [w55c.net]
 HOST,ads.w55c.net,AdBlock
 HOST,tags.w55c.net,AdBlock
+# [wafour.com]
+HOST,ads.wafour.com,AdBlock
 # [walgreens.com]
 HOST,smetrics.walgreens.com,AdBlock
 # [walmart.com]
@@ -15603,14 +15047,14 @@ HOST,t.wayfair.com,AdBlock
 HOST,ads-resources.waze.com,AdBlock
 HOST,ads-resources-legacy.waze.com,AdBlock
 HOST,adsassets.waze.com,AdBlock
-# [wcond.site]
-HOST,ads.wcond.site,AdBlock
 # [wdacashtrk.com]
 HOST,trk.wdacashtrk.com,AdBlock
 # [we-stats.com]
 HOST,bcdn-god.we-stats.com,AdBlock
 HOST,cfr.us.v2.we-stats.com,AdBlock
 HOST,log-dbff2e04.us.v2.we-stats.com,AdBlock
+# [weather-and-climate.com]
+HOST,compare-static.weather-and-climate.com,AdBlock
 # [weather.com]
 HOST,airlytics.airlock.twcmobile.weather.com,AdBlock
 # [weatherbug.net]
@@ -15652,14 +15096,10 @@ HOST,widget.wickedreports.com,AdBlock
 # [widespace.com]
 HOST,widespace.com,AdBlock
 HOST,engine.widespace.com,AdBlock
-HOST,tag.widespace.com,AdBlock
 # [wigetmedia.com]
 HOST,wigetmedia.com,AdBlock
 # [wikawika.xyz]
 HOST,ad-display.wikawika.xyz,AdBlock
-# [wildlifestudios.com]
-HOST,cads.wildlifestudios.com,AdBlock
-HOST,exchange.wildlifestudios.com,AdBlock
 # [wildtangent.com]
 HOST,analytics.wildtangent.com,AdBlock
 HOST,mobile.analytics.wildtangent.com,AdBlock
@@ -15673,6 +15113,9 @@ HOST,pie.wirelessregistry.com,AdBlock
 HOST,tag.wknd.ai,AdBlock
 # [wlanbanlv.com]
 HOST,opensdk.wlanbanlv.com,AdBlock
+# [wmcdp.io]
+HOST,identity.api.wmcdp.io,AdBlock
+HOST,logs.psm.wmcdp.io,AdBlock
 # [wonderpush.com]
 HOST,api.wonderpush.com,AdBlock
 # [woopra.com]
@@ -15722,7 +15165,6 @@ HOST,api.player.xcal.tv,AdBlock
 # [xdrig.com]
 HOST,xdrig.com,AdBlock
 HOST,adt.xdrig.com,AdBlock
-HOST,app.xdrig.com,AdBlock
 HOST,ga.xdrig.com,AdBlock
 HOST,gv1.xdrig.com,AdBlock
 HOST,pg.xdrig.com,AdBlock
@@ -15776,7 +15218,7 @@ HOST,pclick.yahoo.com,AdBlock
 HOST,analytics.query.yahoo.com,AdBlock
 HOST,geo.query.yahoo.com,AdBlock
 HOST,onepush.query.yahoo.com,AdBlock
-HOST,edge-mcdn-beacon.secure.yahoo.com,AdBlock
+HOST,app.ssp.yahoo.com,AdBlock
 HOST,bats.video.yahoo.com,AdBlock
 HOST,visit.webhosting.yahoo.com,AdBlock
 HOST,m.yap.yahoo.com,AdBlock
@@ -15785,14 +15227,10 @@ HOST,partnerads.ysm.yahoo.com,AdBlock
 # [yandexadexchange.net]
 HOST,yandexadexchange.net,AdBlock
 HOST,mobile.yandexadexchange.net,AdBlock
-# [yanosik.pl]
-HOST,mobi.yanosik.pl,AdBlock
 # [yemonisoni.com]
 HOST,yemonisoni.com,AdBlock
 # [yeshen.com]
 HOST,bi.yeshen.com,AdBlock
-# [yhmapi.com]
-HOST,ppsdk.yhmapi.com,AdBlock
 # [yicha.jp]
 HOST,yicha.jp,AdBlock
 # [yieldify-production.com]
@@ -15837,7 +15275,6 @@ HOST,w.yieldmo.com,AdBlock
 HOST,ag.yieldoptimizer.com,AdBlock
 HOST,cdnp1.yieldoptimizer.com,AdBlock
 HOST,cs.yieldoptimizer.com,AdBlock
-HOST,mtag.yieldoptimizer.com,AdBlock
 HOST,tag.yieldoptimizer.com,AdBlock
 # [yimg.jp]
 HOST,yads.c.yimg.jp,AdBlock
@@ -15855,7 +15292,6 @@ HOST,ymtracking.com,AdBlock
 HOST,global.ymtracking.com,AdBlock
 HOST,impr.ymtracking.com,AdBlock
 # [yodo1api.com]
-HOST,anti.yodo1api.com,AdBlock
 HOST,ocd.yodo1api.com,AdBlock
 HOST,olc.yodo1api.com,AdBlock
 HOST,payment.yodo1api.com,AdBlock
@@ -15871,7 +15307,6 @@ HOST,yomedia.vn,AdBlock
 HOST,analytics.yomedia.vn,AdBlock
 HOST,delivery.yomedia.vn,AdBlock
 HOST,ss.yomedia.vn,AdBlock
-HOST,static.yomedia.vn,AdBlock
 HOST,tracking.yomedia.vn,AdBlock
 # [yottos.com]
 HOST,rg.yottos.com,AdBlock
@@ -15894,7 +15329,6 @@ HOST,analytics.youramigo.com,AdBlock
 HOST,global.yyapi.net,AdBlock
 HOST,t.global.yyapi.net,AdBlock
 # [zadn.vn]
-HOST,adtima-media-td.zadn.vn,AdBlock
 HOST,adtima-static.zadn.vn,AdBlock
 HOST,sdk.zadn.vn,AdBlock
 HOST,api.sdk.zadn.vn,AdBlock
@@ -15914,7 +15348,6 @@ HOST,cdn.zarget.com,AdBlock
 # [zcoup.com]
 HOST,zcoup.com,AdBlock
 HOST,api.zcoup.com,AdBlock
-HOST,logger.zcoup.com,AdBlock
 # [zdbb.net]
 HOST,a.zdbb.net,AdBlock
 HOST,gurgle.zdbb.net,AdBlock
@@ -15942,6 +15375,7 @@ HOST,bms.zeptolab.com,AdBlock
 HOST,www.zergnet.com,AdBlock
 # [zeronaught.com]
 HOST,content.zeronaught.com,AdBlock
+HOST,us.dev.zeronaught.com,AdBlock
 # [zeustechnology.com]
 HOST,audience.zeustechnology.com,AdBlock
 HOST,insights.zeustechnology.com,AdBlock
@@ -15959,9 +15393,8 @@ HOST,static.ziffdavis.com,AdBlock
 # [ziftsolutions.com]
 HOST,analytics.ziftsolutions.com,AdBlock
 HOST,static.ziftsolutions.com,AdBlock
-# [zing.vn]
-HOST,logv2.mp3.zing.vn,AdBlock
-HOST,log.news.zing.vn,AdBlock
+# [zkcdn.net]
+HOST,s.zkcdn.net,AdBlock
 # [zmags.com]
 HOST,stats.zmags.com,AdBlock
 # [zoomanalytics.co]

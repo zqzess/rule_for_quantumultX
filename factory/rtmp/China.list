@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-23 17:40:22
-# HOST-SUFFIX: 563
-# USER-AGENT: 31
+# UPDATED: 2022-01-28 02:11:19
+# HOST-SUFFIX: 561
 # HOST: 6
-# IP-CIDR: 10
+# IP-CIDR: 6
+# USER-AGENT: 31
 # HOST-KEYWORD: 10
 # IP6-CIDR: 4
-# TOTAL: 624
+# TOTAL: 618
 HOST,analytics.strava.com,China
 HOST,client.amplifi.com,China
 HOST,download.jetbrains.com,China
@@ -96,7 +96,6 @@ HOST-SUFFIX,biliapi.net,China
 HOST-SUFFIX,bilibili.com,China
 HOST-SUFFIX,bilibili.tv,China
 HOST-SUFFIX,bilivideo.com,China
-HOST-SUFFIX,bitauto.com,China
 HOST-SUFFIX,bjango.com,China
 HOST-SUFFIX,blizzard.com,China
 HOST-SUFFIX,bmj.com,China
@@ -104,8 +103,6 @@ HOST-SUFFIX,boc.cn,China
 HOST-SUFFIX,booking.com,China
 HOST-SUFFIX,broadcasthe.net,China
 HOST-SUFFIX,bstatic.com,China
-HOST-SUFFIX,bthhotels.com,China
-HOST-SUFFIX,byteoversea.com,China
 HOST-SUFFIX,cailianpress.com,China
 HOST-SUFFIX,caiyunapp.com,China
 HOST-SUFFIX,cambridge.org,China
@@ -182,7 +179,6 @@ HOST-SUFFIX,eastmoney.com,China
 HOST-SUFFIX,ebscohost.com,China
 HOST-SUFFIX,ecitic.com,China
 HOST-SUFFIX,ecitic.net,China
-HOST-SUFFIX,eclipse.org,China
 HOST-SUFFIX,edu.cn,China
 HOST-SUFFIX,ele.me,China
 HOST-SUFFIX,emerald.com,China
@@ -196,6 +192,8 @@ HOST-SUFFIX,fengkongcloud.com,China
 HOST-SUFFIX,fir.im,China
 HOST-SUFFIX,firefox.com,China
 HOST-SUFFIX,fjhps.com,China
+HOST-SUFFIX,flyert.com,China
+HOST-SUFFIX,ford.com,China
 HOST-SUFFIX,frdic.com,China
 HOST-SUFFIX,fresh-ideas.cc,China
 HOST-SUFFIX,futu5.com,China
@@ -232,9 +230,7 @@ HOST-SUFFIX,hotmail.com,China
 HOST-SUFFIX,huxiucdn.com,China
 HOST-SUFFIX,huya.com,China
 HOST-SUFFIX,hxcdn.net,China
-HOST-SUFFIX,ibeta.me,China
 HOST-SUFFIX,ibm.com,China
-HOST-SUFFIX,ibytedtos.com,China
 HOST-SUFFIX,icbc.com.cn,China
 HOST-SUFFIX,icedropper.com,China
 HOST-SUFFIX,icetorrent.org,China
@@ -254,7 +250,6 @@ HOST-SUFFIX,infinitynewtab.com,China
 HOST-SUFFIX,iop.org,China
 HOST-SUFFIX,ip-cdn.com,China
 HOST-SUFFIX,ip.la,China
-HOST-SUFFIX,ipify.org,China
 HOST-SUFFIX,ipip.net,China
 HOST-SUFFIX,ipv6-test.com,China
 HOST-SUFFIX,iqiyi.com,China
@@ -287,8 +282,6 @@ HOST-SUFFIX,keepfrds.com,China
 HOST-SUFFIX,kkmh.com,China
 HOST-SUFFIX,knewone.com,China
 HOST-SUFFIX,ksosoft.com,China
-HOST-SUFFIX,ksyun.com,China
-HOST-SUFFIX,ksyunacc.cn,China
 HOST-SUFFIX,kuaidi100.com,China
 HOST-SUFFIX,kugou.com,China
 HOST-SUFFIX,kuyunbo.club,China
@@ -385,6 +378,9 @@ HOST-SUFFIX,passthepopcorn.me,China
 HOST-SUFFIX,pgyer.com,China
 HOST-SUFFIX,pingan.com,China
 HOST-SUFFIX,pingan.com.cn,China
+HOST-SUFFIX,playstation.com,China
+HOST-SUFFIX,playstation.net,China
+HOST-SUFFIX,playstationnetwork.com,China
 HOST-SUFFIX,plex.tv,China
 HOST-SUFFIX,pnas.org,China
 HOST-SUFFIX,pniao.com,China
@@ -446,7 +442,6 @@ HOST-SUFFIX,sm.ms,China
 HOST-SUFFIX,smartisan.com,China
 HOST-SUFFIX,smzdm.com,China
 HOST-SUFFIX,snapdrop.net,China
-HOST-SUFFIX,snssdk.com,China
 HOST-SUFFIX,snwx.com,China
 HOST-SUFFIX,so.com,China
 HOST-SUFFIX,sogo.com,China
@@ -456,6 +451,8 @@ HOST-SUFFIX,sohu-inc.com,China
 HOST-SUFFIX,sohu.com,China
 HOST-SUFFIX,sohucs.com,China
 HOST-SUFFIX,soku.com,China
+HOST-SUFFIX,sony.com,China
+HOST-SUFFIX,sonyentertainmentnetwork.com,China
 HOST-SUFFIX,soso.com,China
 HOST-SUFFIX,spiedigitallibrary.org,China
 HOST-SUFFIX,springer.com,China
@@ -566,6 +563,7 @@ HOST-SUFFIX,youku.com,China
 HOST-SUFFIX,yunjiasu-cdn.net,China
 HOST-SUFFIX,zealer.com,China
 HOST-SUFFIX,zgslb.net,China
+HOST-SUFFIX,zhangle.com,China
 HOST-SUFFIX,zhangzishi.cc,China
 HOST-SUFFIX,zhihu.com,China
 HOST-SUFFIX,zhihuishu.com,China
@@ -620,12 +618,8 @@ USER-AGENT,hearthstone*,China
 USER-AGENT,hide*,China
 USER-AGENT,ting_en,China
 IP-CIDR,1.255.62.0/24,China
-IP-CIDR,101.32.118.0/23,China
-IP-CIDR,101.32.96.0/20,China
 IP-CIDR,119.28.28.28/32,China
-IP-CIDR,129.226.0.0/16,China
 IP-CIDR,182.254.116.0/24,China
-IP-CIDR,183.128.0.0/11,China
 IP-CIDR,185.188.32.0/22,China
 IP-CIDR,203.205.238.0/23,China
 IP-CIDR,203.205.254.0/23,China

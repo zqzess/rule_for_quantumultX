@@ -1,17 +1,19 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-23 17:40:22
-# HOST-SUFFIX: 24459
-# USER-AGENT: 49
-# HOST: 26
-# HOST-KEYWORD: 41
-# IP-CIDR: 129
+# UPDATED: 2022-01-30 02:14:01
+# HOST-SUFFIX: 24463
+# USER-AGENT: 44
+# HOST: 28
+# HOST-KEYWORD: 44
+# IP-CIDR: 133
 # IP6-CIDR: 4
-# TOTAL: 24708
+# TOTAL: 24716
 HOST,amp-api.podcasts.apple.com,Global
+HOST,api.waqi.info,Global
 HOST,apple.comscoreresearch.com,Global
 HOST,appleid.apple.com,Global
+HOST,aqi.aqicn.org,Global
 HOST,assets-priconne-redive-us.akamaized.net,Global
 HOST,beta.music.apple.com,Global
 HOST,books.apple.com,Global
@@ -4712,6 +4714,7 @@ HOST-SUFFIX,byt404.com,Global
 HOST-SUFFIX,byt707.com,Global
 HOST-SUFFIX,byt909.com,Global
 HOST-SUFFIX,byte.co,Global
+HOST-SUFFIX,byteoversea.com,Global
 HOST-SUFFIX,bytes.com,Global
 HOST-SUFFIX,bytextv.com,Global
 HOST-SUFFIX,byyzgtapp.com,Global
@@ -6909,6 +6912,7 @@ HOST-SUFFIX,echo-balancer.org,Global
 HOST-SUFFIX,echofon.com,Global
 HOST-SUFFIX,ecimg.tw,Global
 HOST-SUFFIX,eckerd.com,Global
+HOST-SUFFIX,eclipse.org,Global
 HOST-SUFFIX,ecministry.net,Global
 HOST-SUFFIX,eco-visio.net,Global
 HOST-SUFFIX,ecoinbroker.com,Global
@@ -9762,6 +9766,8 @@ HOST-SUFFIX,ibook.idv.tw,Global
 HOST-SUFFIX,ibros.org,Global
 HOST-SUFFIX,ibtimes.com,Global
 HOST-SUFFIX,ibvpn.com,Global
+HOST-SUFFIX,ibytedtos.com,Global
+HOST-SUFFIX,ibyteimg.com,Global
 HOST-SUFFIX,icahn.mssm.edu,Global
 HOST-SUFFIX,icams.com,Global
 HOST-SUFFIX,icanstay.com,Global
@@ -10075,6 +10081,7 @@ HOST-SUFFIX,intouchweekly.com,Global
 HOST-SUFFIX,intrade.com,Global
 HOST-SUFFIX,intralot.it,Global
 HOST-SUFFIX,inversionesmatulic.cl,Global
+HOST-SUFFIX,investing.com,Global
 HOST-SUFFIX,invidio.us,Global
 HOST-SUFFIX,invidious.fdn.fr,Global
 HOST-SUFFIX,invidious.snopyta.org,Global
@@ -10124,6 +10131,7 @@ HOST-SUFFIX,ippotv.com,Global
 HOST-SUFFIX,ipredator.se,Global
 HOST-SUFFIX,iproxysite.com,Global
 HOST-SUFFIX,ipsnews.net,Global
+HOST-SUFFIX,ipstatp.com,Global
 HOST-SUFFIX,ipsur.org,Global
 HOST-SUFFIX,iptv.com.tw,Global
 HOST-SUFFIX,iptvbin.com,Global
@@ -11359,7 +11367,6 @@ HOST-SUFFIX,lhasapost.com,Global
 HOST-SUFFIX,lhasocialwork.org,Global
 HOST-SUFFIX,lhfbet.com,Global
 HOST-SUFFIX,lhfplay.com,Global
-HOST-SUFFIX,lhie1.com,Global
 HOST-SUFFIX,li-hongzhi-master.org,Global
 HOST-SUFFIX,li.t168.ml,Global
 HOST-SUFFIX,liangchenyun.io,Global
@@ -12474,6 +12481,7 @@ HOST-SUFFIX,moodle.stmartins.edu,Global
 HOST-SUFFIX,moodys.com,Global
 HOST-SUFFIX,moodyz.com,Global
 HOST-SUFFIX,moon.com,Global
+HOST-SUFFIX,moon.fm,Global
 HOST-SUFFIX,moonbbs.com,Global
 HOST-SUFFIX,moonbingo.com,Global
 HOST-SUFFIX,moonpoet.com,Global
@@ -12627,7 +12635,6 @@ HOST-SUFFIX,musemagazine.it,Global
 HOST-SUFFIX,musescore.com,Global
 HOST-SUFFIX,music.monstercat.com,Global
 HOST-SUFFIX,musicade.net,Global
-HOST-SUFFIX,musical.ly,Global
 HOST-SUFFIX,musictibet.com,Global
 HOST-SUFFIX,muslimmatters.org,Global
 HOST-SUFFIX,muslimvideo.com,Global
@@ -14176,10 +14183,7 @@ HOST-SUFFIX,playframework.org,Global
 HOST-SUFFIX,playno1.com,Global
 HOST-SUFFIX,playpcesor.com,Global
 HOST-SUFFIX,plays.com.tw,Global
-HOST-SUFFIX,playstation.com,Global
 HOST-SUFFIX,playstation.com.hk,Global
-HOST-SUFFIX,playstation.net,Global
-HOST-SUFFIX,playstationnetwork.com,Global
 HOST-SUFFIX,playtube.pk,Global
 HOST-SUFFIX,playvid.com,Global
 HOST-SUFFIX,playvpn.com,Global
@@ -14209,6 +14213,7 @@ HOST-SUFFIX,po88.cc,Global
 HOST-SUFFIX,pobieramy.top,Global
 HOST-SUFFIX,pocketmags.com,Global
 HOST-SUFFIX,podbean.com,Global
+HOST-SUFFIX,podcast.co,Global
 HOST-SUFFIX,podictionary.com,Global
 HOST-SUFFIX,podvpn9.com,Global
 HOST-SUFFIX,podzone.net,Global
@@ -15190,6 +15195,7 @@ HOST-SUFFIX,s.sami-lehtinen.net,Global
 HOST-SUFFIX,s.scss.pw,Global
 HOST-SUFFIX,s.sh22.us,Global
 HOST-SUFFIX,s.sne.jp,Global
+HOST-SUFFIX,s.team,Global
 HOST-SUFFIX,s.vos.io,Global
 HOST-SUFFIX,s.wxga.us,Global
 HOST-SUFFIX,s.ymk.im,Global
@@ -15590,6 +15596,7 @@ HOST-SUFFIX,sg9095.com,Global
 HOST-SUFFIX,sg9097.com,Global
 HOST-SUFFIX,sgforums.com,Global
 HOST-SUFFIX,sgod.ga,Global
+HOST-SUFFIX,sgpstatp.com,Global
 HOST-SUFFIX,sh223.cf,Global
 HOST-SUFFIX,sha0001.com,Global
 HOST-SUFFIX,shaaid.com,Global
@@ -15919,6 +15926,7 @@ HOST-SUFFIX,snl.no,Global
 HOST-SUFFIX,snowlionpub.com,Global
 HOST-SUFFIX,snowpear.com,Global
 HOST-SUFFIX,snowpick.co.il,Global
+HOST-SUFFIX,snssdk.com,Global
 HOST-SUFFIX,so-net.net.tw,Global
 HOST-SUFFIX,sobees.com,Global
 HOST-SUFFIX,soc.mil,Global
@@ -15983,9 +15991,7 @@ HOST-SUFFIX,soniavargas.cl,Global
 HOST-SUFFIX,sonicbbs.cc,Global
 HOST-SUFFIX,sonicresearch.com,Global
 HOST-SUFFIX,sonidodelaesperanza.org,Global
-HOST-SUFFIX,sony.com,Global
 HOST-SUFFIX,sony.com.hk,Global
-HOST-SUFFIX,sonyentertainmentnetwork.com,Global
 HOST-SUFFIX,soo.gd,Global
 HOST-SUFFIX,soompi.com,Global
 HOST-SUFFIX,soon.it,Global
@@ -17130,9 +17136,7 @@ HOST-SUFFIX,tigerchicken.com,Global
 HOST-SUFFIX,tigerdirect.com,Global
 HOST-SUFFIX,tigerpvp.ga,Global
 HOST-SUFFIX,tigervpn.com,Global
-HOST-SUFFIX,tiktok.com,Global
-HOST-SUFFIX,tiktokcdn.com,Global
-HOST-SUFFIX,tiktokv.com,Global
+HOST-SUFFIX,tik-tokapi.com,Global
 HOST-SUFFIX,tiltbrush.com,Global
 HOST-SUFFIX,timc.idv.tw,Global
 HOST-SUFFIX,timdir.com,Global
@@ -17721,6 +17725,7 @@ HOST-SUFFIX,twttr.com,Global
 HOST-SUFFIX,twurl.nl,Global
 HOST-SUFFIX,twyac.org,Global
 HOST-SUFFIX,twylah.com,Global
+HOST-SUFFIX,tx.me,Global
 HOST-SUFFIX,tx2600.net,Global
 HOST-SUFFIX,tx69.net,Global
 HOST-SUFFIX,tx8588.com,Global
@@ -18907,6 +18912,7 @@ HOST-SUFFIX,whatbrowser.org,Global
 HOST-SUFFIX,whatisscientology.org,Global
 HOST-SUFFIX,whatsonweibo.com,Global
 HOST-SUFFIX,wheatseeds.org,Global
+HOST-SUFFIX,wheel-size.cn,Global
 HOST-SUFFIX,wheelockslatin.com,Global
 HOST-SUFFIX,wheelpics.com,Global
 HOST-SUFFIX,whereiswerner.com,Global
@@ -24517,6 +24523,7 @@ HOST-KEYWORD,gmail,Global
 HOST-KEYWORD,google,Global
 HOST-KEYWORD,instagram,Global
 HOST-KEYWORD,jav,Global
+HOST-KEYWORD,musical.ly,Global
 HOST-KEYWORD,onedrive,Global
 HOST-KEYWORD,paypal,Global
 HOST-KEYWORD,pinterest,Global
@@ -24527,6 +24534,8 @@ HOST-KEYWORD,spotify,Global
 HOST-KEYWORD,spotify.com,Global
 HOST-KEYWORD,telegram,Global
 HOST-KEYWORD,tesla,Global
+HOST-KEYWORD,tiktok,Global
+HOST-KEYWORD,tiktokv,Global
 HOST-KEYWORD,ttvnw,Global
 HOST-KEYWORD,twimg,Global
 HOST-KEYWORD,twitter,Global
@@ -24535,14 +24544,11 @@ HOST-KEYWORD,voddazn,Global
 HOST-KEYWORD,whatsapp,Global
 HOST-KEYWORD,wikileaks,Global
 HOST-KEYWORD,youtube,Global
-USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,Global
 USER-AGENT,AbemaTV*,Global
 USER-AGENT,All4*,Global
 USER-AGENT,Anime*,Global
 USER-AGENT,Argo*,Global
-USER-AGENT,AwemeI18n*,Global
 USER-AGENT,BBCiPlayer*,Global
-USER-AGENT,Coinbase*,Global
 USER-AGENT,DAZN*,Global
 USER-AGENT,Deezer*,Global
 USER-AGENT,Disney+*,Global
@@ -24551,7 +24557,6 @@ USER-AGENT,HBO%20GO%20PROD%20HKG*,Global
 USER-AGENT,HBO%20NOW*,Global
 USER-AGENT,HWTVMobile*,Global
 USER-AGENT,ITV_Player*,Global
-USER-AGENT,Instagram*,Global
 USER-AGENT,InstantVideo.US*,Global
 USER-AGENT,JOOX*,Global
 USER-AGENT,KKTV*,Global
@@ -24563,7 +24568,6 @@ USER-AGENT,PBS*,Global
 USER-AGENT,Pandora*,Global
 USER-AGENT,PayPal*,Global
 USER-AGENT,Prime%20Video*,Global
-USER-AGENT,ResilioSync*,Global
 USER-AGENT,Roam*,Global
 USER-AGENT,SoundCloud*,Global
 USER-AGENT,Spotify*,Global
@@ -24585,6 +24589,8 @@ USER-AGENT,com.kktv.ios.kktv*,Global
 USER-AGENT,encoreTVB*,Global
 USER-AGENT,mytv*,Global
 IP-CIDR,1.201.0.0/24,Global
+IP-CIDR,101.32.118.0/23,Global
+IP-CIDR,101.32.96.0/20,Global
 IP-CIDR,103.102.166.0/24,Global
 IP-CIDR,103.2.28.0/22,Global
 IP-CIDR,103.246.56.0/22,Global
@@ -24612,6 +24618,7 @@ IP-CIDR,125.6.146.0/24,Global
 IP-CIDR,125.6.149.0/24,Global
 IP-CIDR,125.6.190.0/24,Global
 IP-CIDR,129.134.0.0/17,Global
+IP-CIDR,129.226.0.0/16,Global
 IP-CIDR,13.251.24.0/24,Global
 IP-CIDR,13.251.41.0/24,Global
 IP-CIDR,13.32.0.0/15,Global
@@ -24639,6 +24646,7 @@ IP-CIDR,180.163.150.162/32,Global
 IP-CIDR,180.163.150.34/32,Global
 IP-CIDR,180.163.151.162/32,Global
 IP-CIDR,180.163.151.34/32,Global
+IP-CIDR,183.128.0.0/11,Global
 IP-CIDR,184.173.128.0/17,Global
 IP-CIDR,185.15.56.0/22,Global
 IP-CIDR,185.60.216.0/22,Global

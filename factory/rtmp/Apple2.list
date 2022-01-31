@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-20 15:02:54
+# UPDATED: 2022-01-25 02:08:28
 # HOST: 3
 # HOST-SUFFIX: 85
 # HOST-KEYWORD: 6
-# USER-AGENT: 23
+# USER-AGENT: 7
 # IP-CIDR: 10
-# TOTAL: 127
+# TOTAL: 111
 HOST,api.smoot.apple.cn,Apple
 HOST,apple-events.akamaized.net,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -102,29 +102,13 @@ HOST-KEYWORD,apple.com.edgekey.net,Apple
 HOST-KEYWORD,icoudo,Apple
 HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple
-USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
-USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
-USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
-USER-AGENT,*WeatherFoundation*,Apple
-USER-AGENT,*com.apple.mobileme.fmip1,Apple
-USER-AGENT,AppStore*,Apple
 USER-AGENT,AppleNews*,Apple
 USER-AGENT,AppleTV*,Apple
-USER-AGENT,FMDClient*,Apple
-USER-AGENT,FMFD*,Apple
-USER-AGENT,FindMy*,Apple
-USER-AGENT,Maps*,Apple
 USER-AGENT,Music*,Apple
-USER-AGENT,TestFlight*,Apple
-USER-AGENT,com.apple.Maps,Apple
 USER-AGENT,com.apple.appstored*,Apple
-USER-AGENT,com.apple.geod*,Apple
 USER-AGENT,com.apple.news*,Apple
 USER-AGENT,com.apple.trustd*,Apple
 USER-AGENT,com.apple.tv*,Apple
-USER-AGENT,fmflocatord*,Apple
-USER-AGENT,geod*,Apple
-USER-AGENT,locationd*,Apple
 IP-CIDR,139.178.128.0/18,Apple
 IP-CIDR,144.178.0.0/19,Apple
 IP-CIDR,144.178.36.0/22,Apple

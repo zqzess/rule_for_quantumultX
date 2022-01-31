@@ -1,31 +1,14 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-18 23:33:29
-# HOST-SUFFIX: 25
+# UPDATED: 2022-01-25 02:08:28
+# HOST-SUFFIX: 8
 # USER-AGENT: 1
 # IP-CIDR: 57
-# HOST-KEYWORD: 3
+# HOST-KEYWORD: 4
 # IP6-CIDR: 4
-# TOTAL: 90
+# TOTAL: 74
 HOST-SUFFIX,fast.com,Netflix
-HOST-SUFFIX,netflix.ca,Netflix
-HOST-SUFFIX,netflix.com,Netflix
-HOST-SUFFIX,netflix.com.edgesuite.net,Netflix
-HOST-SUFFIX,netflix.net,Netflix
-HOST-SUFFIX,netflixdnstest0.com,Netflix
-HOST-SUFFIX,netflixdnstest1.com,Netflix
-HOST-SUFFIX,netflixdnstest10.com,Netflix
-HOST-SUFFIX,netflixdnstest2.com,Netflix
-HOST-SUFFIX,netflixdnstest3.com,Netflix
-HOST-SUFFIX,netflixdnstest4.com,Netflix
-HOST-SUFFIX,netflixdnstest5.com,Netflix
-HOST-SUFFIX,netflixdnstest6.com,Netflix
-HOST-SUFFIX,netflixdnstest7.com,Netflix
-HOST-SUFFIX,netflixdnstest8.com,Netflix
-HOST-SUFFIX,netflixdnstest9.com,Netflix
-HOST-SUFFIX,netflixinvestor.com,Netflix
-HOST-SUFFIX,netflixtechblog.com,Netflix
 HOST-SUFFIX,nflxext.com,Netflix
 HOST-SUFFIX,nflximg.com,Netflix
 HOST-SUFFIX,nflximg.net,Netflix
@@ -36,6 +19,7 @@ HOST-SUFFIX,us-west-2.amazonaws.com,Netflix
 HOST-KEYWORD,dualstack.apiproxy-,Netflix
 HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.ichnaea-web-,Netflix
+HOST-KEYWORD,netflix,Netflix
 USER-AGENT,Argo*,Netflix
 IP-CIDR,103.87.204.0/22,Netflix
 IP-CIDR,108.175.32.0/20,Netflix
