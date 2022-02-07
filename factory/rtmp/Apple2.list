@@ -1,13 +1,13 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-25 02:08:28
+# UPDATED: 2022-02-07 02:11:08
 # HOST: 3
-# HOST-SUFFIX: 85
-# HOST-KEYWORD: 6
+# HOST-SUFFIX: 86
+# HOST-KEYWORD: 7
 # USER-AGENT: 7
 # IP-CIDR: 10
-# TOTAL: 111
+# TOTAL: 113
 HOST,api.smoot.apple.cn,Apple
 HOST,apple-events.akamaized.net,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -33,6 +33,7 @@ HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,appstore.com,Apple
+HOST-SUFFIX,apzones.com,Apple
 HOST-SUFFIX,atnext.com,Apple
 HOST-SUFFIX,cdn-apple.com,Apple
 HOST-SUFFIX,crashlytics.com,Apple
@@ -99,6 +100,7 @@ HOST-SUFFIX,wwwicloud.com,Apple
 HOST-KEYWORD,apple-support.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,apple.com.edgekey.net,Apple
+HOST-KEYWORD,icloud.com.akadns.net,Apple
 HOST-KEYWORD,icoudo,Apple
 HOST-KEYWORD,icoudos,Apple
 HOST-KEYWORD,testflight,Apple

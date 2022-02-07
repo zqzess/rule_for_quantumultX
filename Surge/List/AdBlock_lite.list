@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-01-31 01:34:03
+# AdBlock rules refresh time: 2022-02-07 01:36:25
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -7620,8 +7620,6 @@ DOMAIN,adzmobi.com
 DOMAIN,mob.adzmobi.com
 # [adztec.com]
 DOMAIN,adztec.com
-# [aep-email.com]
-DOMAIN,click.aep-email.com
 # [aerserv.com]
 DOMAIN,aerserv.com
 DOMAIN,ads.aerserv.com
@@ -9099,8 +9097,6 @@ DOMAIN,geoip.cookieyes.com
 # [cootlogix.com]
 DOMAIN,openrtb.cootlogix.com
 DOMAIN,prebid.cootlogix.com
-# [coralogix.com]
-DOMAIN,api.coralogix.com
 # [cordial.com]
 DOMAIN,events-stream-svc.usw2.cordial.com
 DOMAIN,message-hub-svc.usw2.cordial.com
@@ -12655,7 +12651,6 @@ DOMAIN,log.particlenews.com
 # [paypal.com]
 DOMAIN,b.stats.paypal.com
 DOMAIN,slc.stats.paypal.com
-DOMAIN,t.paypal.com
 # [pcgamer.com]
 DOMAIN,hawk.pcgamer.com
 # [pdbarea.com]
@@ -14845,9 +14840,6 @@ DOMAIN,api.verticalscope.com
 DOMAIN,static.verticalscope.com
 # [vervemobile.com]
 DOMAIN,vervemobile.com
-# [vhx.tv]
-DOMAIN,api.vhx.tv
-DOMAIN,collector.vhx.tv
 # [vi-serve.com]
 DOMAIN,vi-serve.com
 DOMAIN,nv.vi-serve.com

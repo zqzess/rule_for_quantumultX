@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-30 02:14:00
-# HOST-SUFFIX: 24591
+# UPDATED: 2022-02-06 02:10:14
+# HOST-SUFFIX: 24602
 # USER-AGENT: 7
 # HOST: 7
 # HOST-KEYWORD: 32
 # IP-CIDR: 92
 # IP6-CIDR: 3
-# TOTAL: 24732
+# TOTAL: 24743
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -2667,6 +2667,7 @@ HOST-SUFFIX,adultkeep.net,Proxy
 HOST-SUFFIX,advanhost.con.hk,Proxy
 HOST-SUFFIX,advanscene.com,Proxy
 HOST-SUFFIX,adventist.org,Proxy
+HOST-SUFFIX,ae.hao123.com,Proxy
 HOST-SUFFIX,ae.org,Proxy
 HOST-SUFFIX,aebn.net,Proxy
 HOST-SUFFIX,aenhancers.com,Proxy
@@ -4415,6 +4416,7 @@ HOST-SUFFIX,boysmaster.com,Proxy
 HOST-SUFFIX,boyxv.com,Proxy
 HOST-SUFFIX,bp8nyohd6k.com,Proxy
 HOST-SUFFIX,bpd.com.do,Proxy
+HOST-SUFFIX,br.hao123.com,Proxy
 HOST-SUFFIX,br.st,Proxy
 HOST-SUFFIX,bradar.cl,Proxy
 HOST-SUFFIX,braghini.com.ar,Proxy
@@ -7062,6 +7064,7 @@ HOST-SUFFIX,emulefans.com,Proxy
 HOST-SUFFIX,emuparadise.me,Proxy
 HOST-SUFFIX,en.akinator.com,Proxy
 HOST-SUFFIX,en.altervista.org,Proxy
+HOST-SUFFIX,en.hao123.com,Proxy
 HOST-SUFFIX,en.howbbs.com,Proxy
 HOST-SUFFIX,en.ishadowx.net,Proxy
 HOST-SUFFIX,en.mwikipedia.org,Proxy
@@ -9011,8 +9014,6 @@ HOST-SUFFIX,hanunyi.com,Proxy
 HOST-SUFFIX,hanwitprecision.com,Proxy
 HOST-SUFFIX,hanyelove.weebly.com,Proxy
 HOST-SUFFIX,hao.news,Proxy
-HOST-SUFFIX,hao123.com,Proxy
-HOST-SUFFIX,hao123img.com,Proxy
 HOST-SUFFIX,hao8tv.com,Proxy
 HOST-SUFFIX,haodiao.org,Proxy
 HOST-SUFFIX,haoli747.com,Proxy
@@ -9349,6 +9350,7 @@ HOST-SUFFIX,hk.32-b.it,Proxy
 HOST-SUFFIX,hk.c.cloudss.pw,Proxy
 HOST-SUFFIX,hk.futu5.com,Proxy
 HOST-SUFFIX,hk.hacked.jp,Proxy
+HOST-SUFFIX,hk.hao123img.com,Proxy
 HOST-SUFFIX,hk.mssi.pw,Proxy
 HOST-SUFFIX,hk01.com,Proxy
 HOST-SUFFIX,hk1.pro.rixcloud.net,Proxy
@@ -9780,6 +9782,7 @@ HOST-SUFFIX,icps.com.ua,Proxy
 HOST-SUFFIX,icsin.org,Proxy
 HOST-SUFFIX,ictsupport.com.pe,Proxy
 HOST-SUFFIX,icu-project.org,Proxy
+HOST-SUFFIX,id.hao123.com,Proxy
 HOST-SUFFIX,id.t28.net,Proxy
 HOST-SUFFIX,idaili.club,Proxy
 HOST-SUFFIX,idaiwan.com,Proxy
@@ -10644,6 +10647,7 @@ HOST-SUFFIX,joymii.com,Proxy
 HOST-SUFFIX,joymiihub.com,Proxy
 HOST-SUFFIX,joys999.com,Proxy
 HOST-SUFFIX,jp-sex.com,Proxy
+HOST-SUFFIX,jp.hao123.com,Proxy
 HOST-SUFFIX,jp.moc.gov.tw,Proxy
 HOST-SUFFIX,jp.net,Proxy
 HOST-SUFFIX,jp01-28.ssv4.net,Proxy
@@ -11209,6 +11213,7 @@ HOST-SUFFIX,lbry.tv,Proxy
 HOST-SUFFIX,lc08s3713.friendbitter.com,Proxy
 HOST-SUFFIX,lcw580.com,Proxy
 HOST-SUFFIX,lcx.cc,Proxy
+HOST-SUFFIX,ld.hao123img.com,Proxy
 HOST-SUFFIX,ld091.com,Proxy
 HOST-SUFFIX,ld6.bet,Proxy
 HOST-SUFFIX,ld88.tv,Proxy
@@ -11876,6 +11881,7 @@ HOST-SUFFIX,m9777.com,Proxy
 HOST-SUFFIX,m989m989.com,Proxy
 HOST-SUFFIX,m9909.com,Proxy
 HOST-SUFFIX,m9955.com,Proxy
+HOST-SUFFIX,ma.hao123.com,Proxy
 HOST-SUFFIX,ma8009.com,Proxy
 HOST-SUFFIX,maasstadbv.com,Proxy
 HOST-SUFFIX,mab.mnd.gov.tw,Proxy
@@ -12698,6 +12704,7 @@ HOST-SUFFIX,mvp978.com,Proxy
 HOST-SUFFIX,mvpn.pro,Proxy
 HOST-SUFFIX,mvpxxtv.com,Proxy
 HOST-SUFFIX,mwds.co.za,Proxy
+HOST-SUFFIX,mx.hao123.com,Proxy
 HOST-SUFFIX,mx981.com,Proxy
 HOST-SUFFIX,mxhandroid.com,Proxy
 HOST-SUFFIX,mxihan.xyz,Proxy
@@ -15271,6 +15278,7 @@ HOST-SUFFIX,s8forum.com,Proxy
 HOST-SUFFIX,s99bet.com,Proxy
 HOST-SUFFIX,s99bet.net,Proxy
 HOST-SUFFIX,sa.com,Proxy
+HOST-SUFFIX,sa.hao123.com,Proxy
 HOST-SUFFIX,saalt.org,Proxy
 HOST-SUFFIX,saboom.com,Proxy
 HOST-SUFFIX,sacbee.com,Proxy
@@ -16878,6 +16886,7 @@ HOST-SUFFIX,tg9000.net,Proxy
 HOST-SUFFIX,tgpasia.com,Proxy
 HOST-SUFFIX,tgraph.io,Proxy
 HOST-SUFFIX,tgs.tca.org.tw,Proxy
+HOST-SUFFIX,th.hao123.com,Proxy
 HOST-SUFFIX,th.thaimazda2.com,Proxy
 HOST-SUFFIX,thaichix.com,Proxy
 HOST-SUFFIX,thaicn.com,Proxy
@@ -17653,6 +17662,7 @@ HOST-SUFFIX,tw-blog.com,Proxy
 HOST-SUFFIX,tw-npo.org,Proxy
 HOST-SUFFIX,tw.94funtv.com,Proxy
 HOST-SUFFIX,tw.daigobang.com,Proxy
+HOST-SUFFIX,tw.hao123.com,Proxy
 HOST-SUFFIX,tw.hotels.com,Proxy
 HOST-SUFFIX,tw.iqiyi.com,Proxy
 HOST-SUFFIX,tw.jzbet666.net,Proxy
@@ -18394,6 +18404,7 @@ HOST-SUFFIX,vmixcore.com,Proxy
 HOST-SUFFIX,vmpsoft.com,Proxy
 HOST-SUFFIX,vmwareitacademy.org,Proxy
 HOST-SUFFIX,vn-lm.jbo25.com,Proxy
+HOST-SUFFIX,vn.hao123.com,Proxy
 HOST-SUFFIX,vn0765.com,Proxy
 HOST-SUFFIX,vn4.net,Proxy
 HOST-SUFFIX,vn52888.com,Proxy

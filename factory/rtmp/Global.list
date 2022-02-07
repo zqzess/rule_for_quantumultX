@@ -1,7 +1,7 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-01-30 02:14:01
+# UPDATED: 2022-02-06 02:10:14
 # HOST-SUFFIX: 24463
 # USER-AGENT: 44
 # HOST: 28
@@ -9024,8 +9024,6 @@ HOST-SUFFIX,hanminzu.org,Global
 HOST-SUFFIX,hanunyi.com,Global
 HOST-SUFFIX,hanwitprecision.com,Global
 HOST-SUFFIX,hao.news,Global
-HOST-SUFFIX,hao123.com,Global
-HOST-SUFFIX,hao123img.com,Global
 HOST-SUFFIX,hao8tv.com,Global
 HOST-SUFFIX,haodiao.org,Global
 HOST-SUFFIX,haoli747.com,Global
@@ -9364,6 +9362,7 @@ HOST-SUFFIX,hk-pub.com,Global
 HOST-SUFFIX,hk.32-b.it,Global
 HOST-SUFFIX,hk.c.cloudss.pw,Global
 HOST-SUFFIX,hk.hacked.jp,Global
+HOST-SUFFIX,hk.hao123img.com,Global
 HOST-SUFFIX,hk.mssi.pw,Global
 HOST-SUFFIX,hk01.com,Global
 HOST-SUFFIX,hk1.pro.rixcloud.net,Global
@@ -11165,6 +11164,7 @@ HOST-SUFFIX,lbry.tv,Global
 HOST-SUFFIX,lc08s3713.friendbitter.com,Global
 HOST-SUFFIX,lcw580.com,Global
 HOST-SUFFIX,lcx.cc,Global
+HOST-SUFFIX,ld.hao123img.com,Global
 HOST-SUFFIX,ld091.com,Global
 HOST-SUFFIX,ld6.bet,Global
 HOST-SUFFIX,ld88.tv,Global

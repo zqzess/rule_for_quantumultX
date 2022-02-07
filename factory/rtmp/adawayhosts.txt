@@ -1332,9 +1332,6 @@
 # [adztec.com]
 127.0.0.1 adztec.com
 
-# [aep-email.com]
-127.0.0.1 click.aep-email.com
-
 # [aerserv.com]
 127.0.0.1 aerserv.com
 127.0.0.1 ads.aerserv.com
@@ -3269,9 +3266,6 @@
 # [cootlogix.com]
 127.0.0.1 openrtb.cootlogix.com
 127.0.0.1 prebid.cootlogix.com
-
-# [coralogix.com]
-127.0.0.1 api.coralogix.com
 
 # [cordial.com]
 127.0.0.1 events-stream-svc.usw2.cordial.com
@@ -7816,7 +7810,6 @@
 # [paypal.com]
 127.0.0.1 b.stats.paypal.com
 127.0.0.1 slc.stats.paypal.com
-127.0.0.1 t.paypal.com
 
 # [pcgamer.com]
 127.0.0.1 hawk.pcgamer.com
@@ -10628,10 +10621,6 @@
 
 # [vervemobile.com]
 127.0.0.1 vervemobile.com
-
-# [vhx.tv]
-127.0.0.1 api.vhx.tv
-127.0.0.1 collector.vhx.tv
 
 # [vi-serve.com]
 127.0.0.1 vi-serve.com
