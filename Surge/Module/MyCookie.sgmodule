@@ -8,11 +8,11 @@
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, requires-body=true
 中青看点浏览赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_start\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, requires-body=true
 中青看点看看赚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/Nameless\/adlickstart\.json,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, requires-body=true
-爱奇艺获取Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+爱奇艺获取Cookie = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 腾讯视频 = type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
 哔哩哔哩cookie=type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.? ,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
 彩云天气cookie = type=http-request,pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=259200
 获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 [MITM]
-hostname = %APPEND% kd.youth.cn, ios.baertt.com,ifac*.iqiyi.com,*.video.qq.com,*.bilibili.com,api.weather.com,weather-data.apple.com,ms.jr.jd.com, me-api.jd.com, api.m.jd.com
+hostname = %APPEND% kd.youth.cn, ios.baertt.com,passport.iqiyi.com,*.video.qq.com,*.bilibili.com,api.weather.com,weather-data.apple.com,ms.jr.jd.com, me-api.jd.com, api.m.jd.com
