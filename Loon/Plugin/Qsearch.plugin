@@ -60,6 +60,8 @@
 # gg(Google)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gg\+([^&]+) https://www.google.com/search?q=$2 302
 
+# Chrome  bd(baidu)
+^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) https://m.baidu.com/s?word=$1 302
 
 [MITM]
-hostname = m.baidu.com
+hostname = m.baidu.com,www.google.com

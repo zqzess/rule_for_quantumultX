@@ -58,4 +58,7 @@
 # gg(Google)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=gg\+([^&]+) url 302 https://www.google.com/search?q=$2
 
-hostname = m.baidu.com
+# Chrome  bd(baidu)
+^https:\/\/www\.google\.com\/search\?q=bd\+([^&]+) url 302 https://m.baidu.com/s?word=$1
+
+hostname = m.baidu.com,www.google.com
