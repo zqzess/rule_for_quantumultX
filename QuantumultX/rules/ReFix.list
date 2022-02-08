@@ -128,6 +128,7 @@ host, iqiyim.adtrack.enlightent.cn, AdBlock
 #
 host, tu.511.la, Mainland
 host, 6678888.xyz, Mainland
+
 #bilibili港澳台自动切换脚本
 ip-cidr, 203.107.1.1/24, reject
 
@@ -194,3 +195,13 @@ HOST-SUFFIX,googleads.g.doubleclick.net,reject
 HOST-SUFFIX,app-measurement.com,reject
 HOST-SUFFIX,ade.googlesyndication.com,reject
 HOST-SUFFIX,googleads4.g.doubleclick.net,reject
+
+# 知乎去广告，以下规则请放置在filter_local最顶部
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+HOST,118.89.204.198,REJECT
+# 知乎去广告，以下规则的位置越前方越好
+HOST,appcloud2.in.zhihu.com,REJECT
+HOST,mqtt.zhihu.com,reject
+HOST,sugar.zhihu.com,reject
+USER-AGENT,AVOS*,REJECT
