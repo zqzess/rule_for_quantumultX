@@ -1,5 +1,24 @@
-# Netflix rules refresh time: 2022-02-07 01:36:26
+# Netflix rules refresh time: 2022-02-14 01:34:57
+HOST,api.fast.com,Netflix
+HOST,netflix.com.edgesuite.net,Netflix
 HOST-SUFFIX,fast.com,Netflix
+HOST-SUFFIX,netflix.ca,Netflix
+HOST-SUFFIX,netflix.com,Netflix
+HOST-SUFFIX,netflix.com.edgesuite.net,Netflix
+HOST-SUFFIX,netflix.net,Netflix
+HOST-SUFFIX,netflixdnstest0.com,Netflix
+HOST-SUFFIX,netflixdnstest1.com,Netflix
+HOST-SUFFIX,netflixdnstest10.com,Netflix
+HOST-SUFFIX,netflixdnstest2.com,Netflix
+HOST-SUFFIX,netflixdnstest3.com,Netflix
+HOST-SUFFIX,netflixdnstest4.com,Netflix
+HOST-SUFFIX,netflixdnstest5.com,Netflix
+HOST-SUFFIX,netflixdnstest6.com,Netflix
+HOST-SUFFIX,netflixdnstest7.com,Netflix
+HOST-SUFFIX,netflixdnstest8.com,Netflix
+HOST-SUFFIX,netflixdnstest9.com,Netflix
+HOST-SUFFIX,netflixinvestor.com,Netflix
+HOST-SUFFIX,netflixtechblog.com,Netflix
 HOST-SUFFIX,nflxext.com,Netflix
 HOST-SUFFIX,nflximg.com,Netflix
 HOST-SUFFIX,nflximg.net,Netflix
@@ -7,6 +26,7 @@ HOST-SUFFIX,nflxsearch.net,Netflix
 HOST-SUFFIX,nflxso.net,Netflix
 HOST-SUFFIX,nflxvideo.net,Netflix
 HOST-SUFFIX,us-west-2.amazonaws.com,Netflix
+HOST-KEYWORD,apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.apiproxy-,Netflix
 HOST-KEYWORD,dualstack.apiproxy-device-prod-nlb-,Netflix
 HOST-KEYWORD,dualstack.ichnaea-web-,Netflix

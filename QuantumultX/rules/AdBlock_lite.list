@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-02-07 01:36:25
+# AdBlock rules refresh time: 2022-02-14 01:34:56
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -8497,9 +8497,6 @@ HOST,analytics.bkav.com.vn,AdBlock
 HOST,tags.bkrtx.com,AdBlock
 # [bksn.se]
 HOST,us.bksn.se,AdBlock
-# [blinkreceipt.com]
-HOST,licensing.blinkreceipt.com,AdBlock
-HOST,sdk-resources.blinkreceipt.com,AdBlock
 # [blismedia.com]
 HOST,tr.blismedia.com,AdBlock
 # [blisspointmedia.com]
@@ -14292,8 +14289,6 @@ HOST,metrics.ted.com,AdBlock
 HOST,api.videometrics.ted.com,AdBlock
 # [teenvogue.com]
 HOST,sstats.teenvogue.com,AdBlock
-# [telematicsct.com]
-HOST,oneapi.telematicsct.com,AdBlock
 # [telematicsdirect.com]
 HOST,nav.telematicsdirect.com,AdBlock
 # [tencent-cloud.net]

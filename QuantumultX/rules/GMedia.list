@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2022-02-07 01:36:26
+# GMedia rules refresh time: 2022-02-14 01:34:57
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -242,7 +242,6 @@ HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
 HOST,p.bstarstatic.com,GMedia
 HOST,players.brightcove.net,GMedia
-HOST,radio.itunes.apple.com,GMedia
 HOST,rpg.pic-imges.com,GMedia
 HOST,tv.applemusic.com,GMedia
 HOST,uts-api.itunes.apple.com,GMedia
@@ -282,6 +281,7 @@ HOST-SUFFIX,emome.net,GMedia
 HOST-SUFFIX,ext-twitch.tv,GMedia
 HOST-SUFFIX,fast.com,GMedia
 HOST-SUFFIX,foxplay.com,GMedia
+HOST-SUFFIX,hbogoasia.hk,GMedia
 HOST-SUFFIX,himalaya.com,GMedia
 HOST-SUFFIX,hinet.net,GMedia
 HOST-SUFFIX,hjholdings.jp,GMedia
@@ -330,6 +330,7 @@ HOST-SUFFIX,tik-tokapi.com,GMedia
 HOST-SUFFIX,tiktok.com,GMedia
 HOST-SUFFIX,tiktokcdn.com,GMedia
 HOST-SUFFIX,tiktokv.com,GMedia
+HOST-SUFFIX,ttvnw.net,GMedia
 HOST-SUFFIX,tver.jp,GMedia
 HOST-SUFFIX,twitch-ext.rootonline.de,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
@@ -337,11 +338,18 @@ HOST-SUFFIX,twitchcdn.net,GMedia
 HOST-SUFFIX,urlload.net,GMedia
 HOST-SUFFIX,wetv.vip,GMedia
 HOST-SUFFIX,wetvinfo.com,GMedia
+HOST-SUFFIX,withyoutube.com,GMedia
 HOST-SUFFIX,youboranqs01.com,GMedia
+HOST-SUFFIX,youtube-nocookie.com,GMedia
+HOST-SUFFIX,youtube.com,GMedia
+HOST-SUFFIX,youtubeeducation.com,GMedia
+HOST-SUFFIX,youtubegaming.com,GMedia
+HOST-SUFFIX,youtubekids.com,GMedia
 HOST-SUFFIX,yt.be,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
 HOST-KEYWORD,.hbogoasia.,GMedia
+HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
 HOST-KEYWORD,nflx,GMedia
