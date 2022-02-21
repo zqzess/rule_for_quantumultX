@@ -14,7 +14,8 @@ import GMedia
 import Outside
 import Mainland
 import Apple
-import ad_lite
+import check
+
 print("去广告工作开始")
 os.system('python ./ad.py')
 print("去广告精简版工作开始")
@@ -35,6 +36,6 @@ print("Mainland工作开始")
 Mainland.mainchange()
 print("Apple工作开始")
 Apple.mainchange()
-
-
+print("检查纠正工作开始")
+check.mainCheck()
 print("所有工作都完成")
