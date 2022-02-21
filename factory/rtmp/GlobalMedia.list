@@ -1,13 +1,13 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-14 02:10:25
+# UPDATED: 2022-02-16 02:10:54
 # HOST: 42
 # USER-AGENT: 65
 # HOST-SUFFIX: 225
-# HOST-KEYWORD: 23
+# HOST-KEYWORD: 24
 # IP-CIDR: 863
-# TOTAL: 1218
+# TOTAL: 1219
 HOST,api.okzy.tv,GlobalMedia
 HOST,apm-misaka.biliapi.net,GlobalMedia
 HOST,apple.comscoreresearch.com,GlobalMedia
@@ -294,6 +294,7 @@ HOST-KEYWORD,nflx,GlobalMedia
 HOST-KEYWORD,nowtv100,GlobalMedia
 HOST-KEYWORD,rthklive,GlobalMedia
 HOST-KEYWORD,spotify.com,GlobalMedia
+HOST-KEYWORD,tiktokcdn-,GlobalMedia
 HOST-KEYWORD,ttvnw,GlobalMedia
 HOST-KEYWORD,uk-live,GlobalMedia
 HOST-KEYWORD,voddazn,GlobalMedia

@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-02-14 01:34:56
+# AdBlock rules refresh time: 2022-02-21 01:38:37
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -2024,8 +2024,10 @@ DOMAIN-SUFFIX,ytmaitian.com
 DOMAIN-SUFFIX,yttz113.com
 DOMAIN-SUFFIX,ytunion.com
 DOMAIN-SUFFIX,ytybl.com
+DOMAIN,is.snssdk.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,adsmind.gdtimg.com
+DOMAIN,qzs.gdtimg.com
 DOMAIN,pv.sohu.com
 DOMAIN,gw.365you.com
 DOMAIN,mi.gdt.qq.com
@@ -2251,6 +2253,8 @@ DOMAIN,ad.cctv.com
 DOMAIN,d.cntv.cn
 DOMAIN,adguanggao.eee114.com
 DOMAIN,cctv.adsunion.com
+DOMAIN,adstore-1252524079.file.myqcloud.com
+DOMAIN,adstore-index-1252524079.file.myqcloud.com
 DOMAIN,aa0.pub.funshion.com
 DOMAIN,aa1.pub.funshion.com
 DOMAIN,adm.funshion.com
@@ -2273,9 +2277,13 @@ DOMAIN,rest.irs01.com
 DOMAIN,px.ucweb.com
 DOMAIN,huichuan.sm.cn
 DOMAIN,timeserver.cnzz.net
+DOMAIN,val.atm.youku.com
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,adxserver.ad.cmvideo.cn
 DOMAIN,openstorage.ad.cmvideo.cn
+DOMAIN,ggx01.miguvideo.com
+DOMAIN,ggx02.miguvideo.com
+DOMAIN,ggx10.miguvideo.com
 DOMAIN,at-img1.tdimg.com
 DOMAIN,at-img2.tdimg.com
 DOMAIN,at-img3.tdimg.com
@@ -2294,7 +2302,6 @@ DOMAIN,pole.6rooms.com
 DOMAIN,shrek.6.cn
 DOMAIN,simba.6.cn
 DOMAIN,union.6.cn
-DOMAIN,m.openv.tv
 DOMAIN,mcfg.sandai.net
 DOMAIN,biz5.sandai.net
 DOMAIN,3.iscrv.com
@@ -2426,9 +2433,11 @@ DOMAIN,bjuser.jpush.cn
 DOMAIN,admusicpic.music.126.net
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,clientlog3.music.163.com
+DOMAIN,iadmusicmatvideo.music.126.net
 DOMAIN,vs.biz.weibo.com
 DOMAIN,dp.im.weibo.cn
 DOMAIN,ad.us.sinaimg.cn
+DOMAIN,adstrategy.biz.weibo.com
 DOMAIN,sax.sina.com.cn
 DOMAIN,saxn.sina.com.cn
 DOMAIN,s3.pfp.sina.net
@@ -2565,7 +2574,9 @@ DOMAIN,dspwin.adsame.com
 DOMAIN,tr.adsame.com
 DOMAIN,dspimg.adsame.com
 DOMAIN,app-tj.adinall.com
-DOMAIN,pic.imgdb.cn
+DOMAIN,g.koowo.com
+DOMAIN,mobilead.kuwo.cn
+DOMAIN,splashimgbssdl.yun.kugou.com
 DOMAIN,img.xuwnz.cn
 DOMAIN,img.srxjz.cn
 DOMAIN,m.shilian168.cn
@@ -2689,6 +2700,50 @@ DOMAIN,sdk.open.talk.gepush.com
 DOMAIN,ddd.1sapp.com
 DOMAIN,trk1.17admob.com
 DOMAIN,a.tn.token-ad.com
+DOMAIN,adashx.ut.amap.com
+DOMAIN,x1.go.sohu.com
+DOMAIN,aads.shuzilm.cn
+DOMAIN,dsp.ads.umeng.com
+DOMAIN,sdk.open.talk.getui.com
+DOMAIN,st.appsad.cn
+DOMAIN,adx.timewit.cn
+DOMAIN,track.adx.adlefee.com
+DOMAIN,stats.xwuad.com
+DOMAIN,ad.api.youshiad.cn
+DOMAIN,adx-bid.tianzhuobj.com
+DOMAIN,platform.adwep.com
+DOMAIN,cdn.pyadx.com
+DOMAIN,js-ad.a.yximgs.com
+DOMAIN,tx-ad.a.yximgs.com
+DOMAIN,ana.masky.biddingx.com
+DOMAIN,ifs.tanx.com
+DOMAIN,ifsk2.tanx.com
+DOMAIN,adashx.ut.ele.me
+DOMAIN,h-adashx.ut.ele.me
+DOMAIN,e-ad-monitor.huya.com
+DOMAIN,adlaunch.qtfm.cn
+DOMAIN,fumiad.dxys.pro
+DOMAIN,talk.nz4.getui.com
+DOMAIN,c-gi.getui.com
+DOMAIN,gbfek.dfcfw.com
+DOMAIN,emdcadvise.eastmoney.com
+DOMAIN,emdcadvertise.eastmoney.com
+DOMAIN,empic.dfcfw.com
+DOMAIN,dfscdn.dfcfw.com
+DOMAIN,config.jpush.cn
+DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
+DOMAIN,config-junion.jpush.cn
+DOMAIN,report-stats.ad.jiguang.cn
+DOMAIN,stat2.openinstall.io
+DOMAIN,cdn-sdk-opt.getui.com
+DOMAIN,t.adbxb.com
+DOMAIN,tracking.v.tf.360.cn
+DOMAIN,adx.doumpaq.com
+DOMAIN,adx.kuaiyiad.com
+DOMAIN,search.mgc-games.com
+DOMAIN,adstats.mgc-games.com
+DOMAIN,api.snmi.cn
+DOMAIN,s.snmi.cn
 DOMAIN,ads.google.com
 DOMAIN,www.googleadservices.com
 DOMAIN,google-analytics.com
@@ -2912,7 +2967,6 @@ DOMAIN,crs.baidu.com
 DOMAIN,eclick.baidu.com
 DOMAIN,eiv.baidu.com
 DOMAIN,entry.baidu.com
-DOMAIN,hm.baidu.com
 DOMAIN,idm-su.baidu.com
 DOMAIN,idm.bce.baidu.com
 DOMAIN,mobads-logs.baidu.com
@@ -2956,11 +3010,12 @@ DOMAIN,adavideo.baidu.com
 DOMAIN,ada.baidu.com
 DOMAIN,tuijian.baidu.com
 DOMAIN,ucstat.baidu.com
-DOMAIN,union.baidu.com
-DOMAIN,unionimage.baidu.com
 DOMAIN,crab.baidu.com
 DOMAIN,api1.tuisong.baidu.com
-DOMAIN,hpd.baidu.com
+DOMAIN,baidu-mipdx.cn.miaozhen.com
+DOMAIN,api3.tuisong.baidu.com
+DOMAIN,api8.tuisong.baidu.com
+DOMAIN,sa8.tuisong.baidu.com
 DOMAIN,ad.qun.qq.com
 DOMAIN,adping.qq.com
 DOMAIN,adpm.app.qq.com
@@ -3014,6 +3069,7 @@ DOMAIN,masdk.3g.qq.com
 DOMAIN,ten.sngapm.qq.com
 DOMAIN,ads.privacy.qq.com
 DOMAIN,tdid.m.qq.com
+DOMAIN,h.trace.qq.com
 DOMAIN,adash.man.aliyuncs.com
 DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN,ynuf.aliapp.org
@@ -3024,6 +3080,7 @@ DOMAIN,ilce.alicdn.com
 DOMAIN,abtest.alibaba.com
 DOMAIN,proxy-mob-cld.alicdn.com
 DOMAIN,www.uyunad.com
+DOMAIN,ali-ad.a.yximgs.com
 DOMAIN,adashbc.m.taobao.com
 DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,adashx.m.taobao.com
@@ -3044,6 +3101,8 @@ DOMAIN,audid-api.taobao.com
 DOMAIN,adashx4yt.m.taobao.com
 DOMAIN,h-adashx4yt.ut.taobao.com
 DOMAIN,umdc.aliapp.org
+DOMAIN,gaode-acs.m.taobao.com
+DOMAIN,gaode-jmacs.m.taobao.com
 DOMAIN,iqiyi.irs01.com
 DOMAIN,letv.irs01.com
 DOMAIN,s9.irs03.com
@@ -3788,7 +3847,6 @@ DOMAIN,api1.dating.com
 DOMAIN,api2.dating.com
 DOMAIN,api2.tuisong.baidu.com
 DOMAIN,api3.dating.com
-DOMAIN,api3.tuisong.baidu.com
 DOMAIN,api4.dating.com
 DOMAIN,api4.tuisong.baidu.com
 DOMAIN,api5.dating.com
@@ -3798,7 +3856,6 @@ DOMAIN,api6.tuisong.baidu.com
 DOMAIN,api7.dating.com
 DOMAIN,api7.tuisong.baidu.com
 DOMAIN,api8.dating.com
-DOMAIN,api8.tuisong.baidu.com
 DOMAIN,api9.dating.com
 DOMAIN,api9.tuisong.baidu.com
 DOMAIN,apipool.youzu.com
@@ -4518,6 +4575,7 @@ DOMAIN,g.wq96f9.com
 DOMAIN,g.yccdn.com
 DOMAIN,g2.gumgum.com
 DOMAIN,g2.symcb.com
+DOMAIN,gads.pubmatic.com
 DOMAIN,gafxa.code.mytanwan.com
 DOMAIN,galaxy.sogoucdn.com
 DOMAIN,game.fire2333.com
@@ -4607,6 +4665,7 @@ DOMAIN,hjc1990.com
 DOMAIN,hk-cdn.effectivemeasure.net
 DOMAIN,hkcbeauty.com
 DOMAIN,hkdecoman.com
+DOMAIN,hm.baidu.com
 DOMAIN,hm2.cnzz.com
 DOMAIN,hm3.cnzz.com
 DOMAIN,hnj.m.xywxs.com
@@ -4623,6 +4682,7 @@ DOMAIN,hoplink.ksosoft.com
 DOMAIN,hot.m.shouji.360tpcdn.com
 DOMAIN,houxingfu.com
 DOMAIN,hp.myway.com
+DOMAIN,hpd.baidu.com
 DOMAIN,http.52dsj.com
 DOMAIN,hub5btmain.sandai.net
 DOMAIN,hub5emu.sandai.net
@@ -5439,6 +5499,7 @@ DOMAIN,sp.analytics.yahoo.com
 DOMAIN,sp.popcash.net
 DOMAIN,spacenine.genieesspv.jp
 DOMAIN,spcdnpc.i-mobile.co.jp
+DOMAIN,spclient.wg.spotify.com
 DOMAIN,spdtrk.com
 DOMAIN,speednetwork14.adk2x.com
 DOMAIN,spinfo.wps.cn
@@ -5605,7 +5666,6 @@ DOMAIN,trackadsb1.com
 DOMAIN,tracker.bang.com
 DOMAIN,tracker.ero-advertising.com
 DOMAIN,tracking.prmtracking.com
-DOMAIN,tracking.v.tf.360.cn
 DOMAIN,trackingclick.net
 DOMAIN,traffic.fstsrv.com
 DOMAIN,traktrafficflow.com
@@ -5639,6 +5699,7 @@ DOMAIN,ue.yeyoucdn.com
 DOMAIN,um.simpli.fi
 DOMAIN,um0592.com
 DOMAIN,union.baidustatic.guannin.com
+DOMAIN,unionimage.baidu.com
 DOMAIN,unionsug.baidu.com
 DOMAIN,unitworld.net
 DOMAIN,unjs.jfcdns.com
@@ -6100,6 +6161,7 @@ DOMAIN,www.adrunnr.com
 DOMAIN,www.adsco.re
 DOMAIN,www.adskeeper.co.uk
 DOMAIN,www.adsniper.ru
+DOMAIN,www.adspyglass.com
 DOMAIN,www.adsrvmedia.adk2x.com
 DOMAIN,www.adstract.adk2x.com
 DOMAIN,www.adsymptotic.com
@@ -6572,7 +6634,6 @@ DOMAIN,zz.isoo.cc
 DOMAIN,zz999350.com
 DOMAIN,zzcw.uuzham.com
 DOMAIN,zzxbn.com
-DOMAIN,www.adspyglass.com
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -8440,7 +8501,6 @@ DOMAIN,uswest.bfmio.com
 # [biddingx.com]
 DOMAIN,biddingx.com
 DOMAIN,masky.biddingx.com
-DOMAIN,ana.masky.biddingx.com
 DOMAIN,cm.masky.biddingx.com
 # [bidgear.com]
 DOMAIN,bidgear.com
@@ -10709,10 +10769,6 @@ DOMAIN,vast.w.inmobi.com
 DOMAIN,inmobicdn.net
 DOMAIN,l.inmobicdn.net
 DOMAIN,glance.l.inmobicdn.net
-# [inmoment.com]
-DOMAIN,dispawsusva.inmoment.com
-DOMAIN,intercept.inmoment.com
-DOMAIN,intercept-client.inmoment.com
 # [inner-active.mobi]
 DOMAIN,inner-active.mobi
 DOMAIN,ad-tag.inner-active.mobi
@@ -11098,7 +11154,6 @@ DOMAIN,analytics.kongregate.io
 # [kookong.com]
 DOMAIN,sdkapi.kookong.com
 # [koowo.com]
-DOMAIN,g.koowo.com
 # [krxd.net]
 DOMAIN,krxd.net
 DOMAIN,apiservices.krxd.net
@@ -11409,8 +11464,6 @@ DOMAIN,img.macromill.com
 # [madkudu.com]
 DOMAIN,api.madkudu.com
 DOMAIN,cdn.madkudu.com
-# [magixite.com]
-DOMAIN,acc.magixite.com
 # [magmamobile.com]
 DOMAIN,api.magmamobile.com
 # [mail.ru]
@@ -12441,8 +12494,6 @@ DOMAIN,verizontelecom.tt.omtrdc.net
 DOMAIN,pixel.onaudience.com
 # [oneaudience.com]
 DOMAIN,api.oneaudience.com
-# [onecms.io]
-DOMAIN,static.onecms.io
 # [onecount.net]
 DOMAIN,validate.onecount.net
 # [onefeed.co.uk]
@@ -12753,8 +12804,6 @@ DOMAIN,secure.ads.placeiq.com
 # [placelocal.com]
 DOMAIN,ak-cdn.placelocal.com
 DOMAIN,tag.placelocal.com
-# [playhaven.com]
-DOMAIN,playhaven.com
 # [playrix.com]
 DOMAIN,stats.playrix.com
 # [playtem.com]
@@ -12857,8 +12906,6 @@ DOMAIN,events.privy.com
 # [pro-market.net]
 # [proba.ai]
 DOMAIN,api.proba.ai
-# [productmadness.com]
-DOMAIN,att.productmadness.com
 # [programattik.com]
 DOMAIN,ads.programattik.com
 # [prooffactor.com]
@@ -12888,7 +12935,6 @@ DOMAIN,aktrack.pubmatic.com
 DOMAIN,apps.pubmatic.com
 DOMAIN,aud.pubmatic.com
 DOMAIN,clicktrack.pubmatic.com
-DOMAIN,gads.pubmatic.com
 DOMAIN,hbopenbid.pubmatic.com
 DOMAIN,hbopenbid-sg.pubmatic.com
 DOMAIN,hbopenbid-sgc.pubmatic.com
@@ -13363,8 +13409,6 @@ DOMAIN,api.saypromo.net
 # [sbbanner.com]
 DOMAIN,sbbanner.com
 # [sc-static.net]
-# [scanalert.com]
-DOMAIN,images.scanalert.com
 # [scarabresearch.com]
 # [scopely.io]
 DOMAIN,aprod.scopely.io
@@ -14355,9 +14399,6 @@ DOMAIN,sandbox.tinypass.com
 # [tiqcdn.com]
 DOMAIN,tags.tiqcdn.com
 DOMAIN,tags-eu.tiqcdn.com
-# [tllms.com]
-DOMAIN,api.tllms.com
-DOMAIN,marketing.tllms.com
 # [tnkfactory.com]
 DOMAIN,tnkfactory.com
 DOMAIN,ap.tnkfactory.com
@@ -14902,8 +14943,6 @@ DOMAIN,sync.viewdeos.com
 DOMAIN,sync.sync.viewdeos.com
 DOMAIN,tags.viewdeos.com
 DOMAIN,track.viewdeos.com
-# [viewpoint.com]
-DOMAIN,viewpoint.com
 # [viglink.com]
 DOMAIN,api.viglink.com
 DOMAIN,images.viglink.com
@@ -15037,8 +15076,6 @@ DOMAIN,trk.wdacashtrk.com
 DOMAIN,bcdn-god.we-stats.com
 DOMAIN,cfr.us.v2.we-stats.com
 DOMAIN,log-dbff2e04.us.v2.we-stats.com
-# [weather-and-climate.com]
-DOMAIN,compare-static.weather-and-climate.com
 # [weather.com]
 DOMAIN,airlytics.airlock.twcmobile.weather.com
 # [weatherbug.net]

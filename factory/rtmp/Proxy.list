@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-13 02:10:54
-# HOST-SUFFIX: 25435
+# UPDATED: 2022-02-14 10:59:40
+# HOST-SUFFIX: 25436
 # USER-AGENT: 7
 # HOST: 8
 # HOST-KEYWORD: 32
 # IP-CIDR: 92
 # IP6-CIDR: 3
-# TOTAL: 25577
+# TOTAL: 25578
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -1762,6 +1762,7 @@ HOST-SUFFIX,6parknews.com,Proxy
 HOST-SUFFIX,6up.bet,Proxy
 HOST-SUFFIX,6up.com,Proxy
 HOST-SUFFIX,6yhy.com,Proxy
+HOST-SUFFIX,7-zip.org,Proxy
 HOST-SUFFIX,7.buyu213.com,Proxy
 HOST-SUFFIX,7004202.com,Proxy
 HOST-SUFFIX,7009.cc,Proxy

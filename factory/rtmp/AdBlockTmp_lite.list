@@ -2023,8 +2023,10 @@ HOST-SUFFIX,ytmaitian.com,AdBlock
 HOST-SUFFIX,yttz113.com,AdBlock
 HOST-SUFFIX,ytunion.com,AdBlock
 HOST-SUFFIX,ytybl.com,AdBlock
+HOST,is.snssdk.com,AdBlock
 HOST,wxsnsdy.wxs.qq.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
+HOST,qzs.gdtimg.com,AdBlock
 HOST,pv.sohu.com,AdBlock
 HOST,gw.365you.com,AdBlock
 HOST,mi.gdt.qq.com,AdBlock
@@ -2260,6 +2262,8 @@ HOST,ad.cctv.com,AdBlock
 HOST,d.cntv.cn,AdBlock
 HOST,adguanggao.eee114.com,AdBlock
 HOST,cctv.adsunion.com,AdBlock
+HOST,adstore-1252524079.file.myqcloud.com,AdBlock
+HOST,adstore-index-1252524079.file.myqcloud.com,AdBlock
 HOST,aa0.pub.funshion.com,AdBlock
 HOST,aa1.pub.funshion.com,AdBlock
 HOST,adm.funshion.com,AdBlock
@@ -2282,9 +2286,13 @@ HOST,rest.irs01.com,AdBlock
 HOST,px.ucweb.com,AdBlock
 HOST,huichuan.sm.cn,AdBlock
 HOST,timeserver.cnzz.net,AdBlock
+HOST,val.atm.youku.com,AdBlock
 HOST,ggx.cmvideo.cn,AdBlock
 HOST,adxserver.ad.cmvideo.cn,AdBlock
 HOST,openstorage.ad.cmvideo.cn,AdBlock
+HOST,ggx01.miguvideo.com,AdBlock
+HOST,ggx02.miguvideo.com,AdBlock
+HOST,ggx10.miguvideo.com,AdBlock
 HOST,at-img1.tdimg.com,AdBlock
 HOST,at-img2.tdimg.com,AdBlock
 HOST,at-img3.tdimg.com,AdBlock
@@ -2303,7 +2311,6 @@ HOST,pole.6rooms.com,AdBlock
 HOST,shrek.6.cn,AdBlock
 HOST,simba.6.cn,AdBlock
 HOST,union.6.cn,AdBlock
-HOST,m.openv.tv,AdBlock
 HOST,mcfg.sandai.net,AdBlock
 HOST,biz5.sandai.net,AdBlock
 HOST,3.iscrv.com,AdBlock
@@ -2435,11 +2442,13 @@ HOST,bjuser.jpush.cn,AdBlock
 HOST,admusicpic.music.126.net,AdBlock
 HOST,iadmusicmat.music.126.net,AdBlock
 HOST,clientlog3.music.163.com,AdBlock
+HOST,iadmusicmatvideo.music.126.net,AdBlock
 HOST,sdkapp.mobile.sina.cn,AdBlock
 HOST,wbapp.mobile.sina.cn,AdBlock
 HOST,vs.biz.weibo.com,AdBlock
 HOST,dp.im.weibo.cn,AdBlock
 HOST,ad.us.sinaimg.cn,AdBlock
+HOST,adstrategy.biz.weibo.com,AdBlock
 HOST,sax.sina.com.cn,AdBlock
 HOST,saxn.sina.com.cn,AdBlock
 HOST,beacon.sina.com.cn,AdBlock
@@ -2578,7 +2587,9 @@ HOST,dspwin.adsame.com,AdBlock
 HOST,tr.adsame.com,AdBlock
 HOST,dspimg.adsame.com,AdBlock
 HOST,app-tj.adinall.com,AdBlock
-HOST,pic.imgdb.cn,AdBlock
+HOST,g.koowo.com,AdBlock
+HOST,mobilead.kuwo.cn,AdBlock
+HOST,splashimgbssdl.yun.kugou.com,AdBlock
 HOST,img.xuwnz.cn,AdBlock
 HOST,img.srxjz.cn,AdBlock
 HOST,m.shilian168.cn,AdBlock
@@ -2704,6 +2715,50 @@ HOST,sdk.open.talk.gepush.com,AdBlock
 HOST,ddd.1sapp.com,AdBlock
 HOST,trk1.17admob.com,AdBlock
 HOST,a.tn.token-ad.com,AdBlock
+HOST,adashx.ut.amap.com,AdBlock
+HOST,x1.go.sohu.com,AdBlock
+HOST,aads.shuzilm.cn,AdBlock
+HOST,dsp.ads.umeng.com,AdBlock
+HOST,sdk.open.talk.getui.com,AdBlock
+HOST,st.appsad.cn,AdBlock
+HOST,adx.timewit.cn,AdBlock
+HOST,track.adx.adlefee.com,AdBlock
+HOST,stats.xwuad.com,AdBlock
+HOST,ad.api.youshiad.cn,AdBlock
+HOST,adx-bid.tianzhuobj.com,AdBlock
+HOST,platform.adwep.com,AdBlock
+HOST,cdn.pyadx.com,AdBlock
+HOST,js-ad.a.yximgs.com,AdBlock
+HOST,tx-ad.a.yximgs.com,AdBlock
+HOST,ana.masky.biddingx.com,AdBlock
+HOST,ifs.tanx.com,AdBlock
+HOST,ifsk2.tanx.com,AdBlock
+HOST,adashx.ut.ele.me,AdBlock
+HOST,h-adashx.ut.ele.me,AdBlock
+HOST,e-ad-monitor.huya.com,AdBlock
+HOST,adlaunch.qtfm.cn,AdBlock
+HOST,fumiad.dxys.pro,AdBlock
+HOST,talk.nz4.getui.com,AdBlock
+HOST,c-gi.getui.com,AdBlock
+HOST,gbfek.dfcfw.com,AdBlock
+HOST,emdcadvise.eastmoney.com,AdBlock
+HOST,emdcadvertise.eastmoney.com,AdBlock
+HOST,empic.dfcfw.com,AdBlock
+HOST,dfscdn.dfcfw.com,AdBlock
+HOST,config.jpush.cn,AdBlock
+HOST,adash-emas.cn-hangzhou.aliyuncs.com,AdBlock
+HOST,config-junion.jpush.cn,AdBlock
+HOST,report-stats.ad.jiguang.cn,AdBlock
+HOST,stat2.openinstall.io,AdBlock
+HOST,cdn-sdk-opt.getui.com,AdBlock
+HOST,t.adbxb.com,AdBlock
+HOST,tracking.v.tf.360.cn,AdBlock
+HOST,adx.doumpaq.com,AdBlock
+HOST,adx.kuaiyiad.com,AdBlock
+HOST,search.mgc-games.com,AdBlock
+HOST,adstats.mgc-games.com,AdBlock
+HOST,api.snmi.cn,AdBlock
+HOST,s.snmi.cn,AdBlock
 HOST,ads.google.com,AdBlock
 HOST,www.googleadservices.com,AdBlock
 HOST,google-analytics.com,AdBlock
@@ -2934,7 +2989,6 @@ HOST,crs.baidu.com,AdBlock
 HOST,eclick.baidu.com,AdBlock
 HOST,eiv.baidu.com,AdBlock
 HOST,entry.baidu.com,AdBlock
-HOST,hm.baidu.com,AdBlock
 HOST,idm-su.baidu.com,AdBlock
 HOST,idm.bce.baidu.com,AdBlock
 HOST,mobads-logs.baidu.com,AdBlock
@@ -2980,11 +3034,14 @@ HOST,adavideo.baidu.com,AdBlock
 HOST,ada.baidu.com,AdBlock
 HOST,tuijian.baidu.com,AdBlock
 HOST,ucstat.baidu.com,AdBlock
-HOST,union.baidu.com,AdBlock
-HOST,unionimage.baidu.com,AdBlock
 HOST,crab.baidu.com,AdBlock
 HOST,api1.tuisong.baidu.com,AdBlock
-HOST,hpd.baidu.com,AdBlock
+HOST,baidu-mipdx.cn.miaozhen.com,AdBlock
+HOST,api3.tuisong.baidu.com,AdBlock
+HOST,api8.tuisong.baidu.com,AdBlock
+HOST,sa.tuisong.baidu.com,AdBlock
+HOST,api.tuisong.baidu.com,AdBlock
+HOST,sa8.tuisong.baidu.com,AdBlock
 HOST,ad.qun.qq.com,AdBlock
 HOST,adping.qq.com,AdBlock
 HOST,adpm.app.qq.com,AdBlock
@@ -3039,6 +3096,7 @@ HOST,masdk.3g.qq.com,AdBlock
 HOST,ten.sngapm.qq.com,AdBlock
 HOST,ads.privacy.qq.com,AdBlock
 HOST,tdid.m.qq.com,AdBlock
+HOST,h.trace.qq.com,AdBlock
 HOST,adash.man.aliyuncs.com,AdBlock
 HOST,cdn-ads.oss-cn-shanghai.aliyuncs.com,AdBlock
 HOST,ynuf.aliapp.org,AdBlock
@@ -3049,6 +3107,7 @@ HOST,ilce.alicdn.com,AdBlock
 HOST,abtest.alibaba.com,AdBlock
 HOST,proxy-mob-cld.alicdn.com,AdBlock
 HOST,www.uyunad.com,AdBlock
+HOST,ali-ad.a.yximgs.com,AdBlock
 HOST,adashbc.m.taobao.com,AdBlock
 HOST,adashbc.ut.taobao.com,AdBlock
 HOST,adashxgc.ut.taobao.com,AdBlock
@@ -3072,6 +3131,8 @@ HOST,audid-api.taobao.com,AdBlock
 HOST,adashx4yt.m.taobao.com,AdBlock
 HOST,h-adashx4yt.ut.taobao.com,AdBlock
 HOST,umdc.aliapp.org,AdBlock
+HOST,gaode-acs.m.taobao.com,AdBlock
+HOST,gaode-jmacs.m.taobao.com,AdBlock
 HOST,iqiyi.irs01.com,AdBlock
 HOST,letv.irs01.com,AdBlock
 HOST,s9.irs03.com,AdBlock
@@ -4664,6 +4725,7 @@ HOST,g1.163.com,AdBlock
 HOST,g1.tagtic.cn,AdBlock
 HOST,g2.gumgum.com,AdBlock
 HOST,g2.symcb.com,AdBlock
+HOST,gads.pubmatic.com,AdBlock
 HOST,gafxa.code.mytanwan.com,AdBlock
 HOST,galaxy.sogoucdn.com,AdBlock
 HOST,game.fire2333.com,AdBlock
@@ -5653,6 +5715,7 @@ HOST,sp.analytics.yahoo.com,AdBlock
 HOST,sp.popcash.net,AdBlock
 HOST,spacenine.genieesspv.jp,AdBlock
 HOST,spcdnpc.i-mobile.co.jp,AdBlock
+HOST,spclient.wg.spotify.com,AdBlock
 HOST,spdtrk.com,AdBlock
 HOST,speednetwork14.adk2x.com,AdBlock
 HOST,spinfo.wps.cn,AdBlock
@@ -6330,6 +6393,7 @@ HOST,www.adrunnr.com,AdBlock
 HOST,www.adsco.re,AdBlock
 HOST,www.adskeeper.co.uk,AdBlock
 HOST,www.adsniper.ru,AdBlock
+HOST,www.adspyglass.com,AdBlock
 HOST,www.adsrvmedia.adk2x.com,AdBlock
 HOST,www.adstract.adk2x.com,AdBlock
 HOST,www.adsymptotic.com,AdBlock
@@ -6835,7 +6899,6 @@ HOST,zz.isoo.cc,AdBlock
 HOST,zz999350.com,AdBlock
 HOST,zzcw.uuzham.com,AdBlock
 HOST,zzxbn.com,AdBlock
-HOST,www.adspyglass.com,AdBlock
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -11141,10 +11204,6 @@ HOST,inmobicdn.net,AdBlock
 HOST,l.inmobicdn.net,AdBlock
 HOST,glance.l.inmobicdn.net,AdBlock
 HOST,i.l.inmobicdn.net,AdBlock
-# [inmoment.com]
-HOST,dispawsusva.inmoment.com,AdBlock
-HOST,intercept.inmoment.com,AdBlock
-HOST,intercept-client.inmoment.com,AdBlock
 # [inner-active.mobi]
 HOST,inner-active.mobi,AdBlock
 HOST,ad-tag.inner-active.mobi,AdBlock
@@ -11859,8 +11918,6 @@ HOST,img.macromill.com,AdBlock
 # [madkudu.com]
 HOST,api.madkudu.com,AdBlock
 HOST,cdn.madkudu.com,AdBlock
-# [magixite.com]
-HOST,acc.magixite.com,AdBlock
 # [magmamobile.com]
 HOST,api.magmamobile.com,AdBlock
 # [mail.ru]
@@ -12955,8 +13012,6 @@ HOST,verizontelecom.tt.omtrdc.net,AdBlock
 HOST,pixel.onaudience.com,AdBlock
 # [oneaudience.com]
 HOST,api.oneaudience.com,AdBlock
-# [onecms.io]
-HOST,static.onecms.io,AdBlock
 # [onecount.net]
 HOST,validate.onecount.net,AdBlock
 # [onefeed.co.uk]
@@ -13277,8 +13332,6 @@ HOST,secure.ads.placeiq.com,AdBlock
 # [placelocal.com]
 HOST,ak-cdn.placelocal.com,AdBlock
 HOST,tag.placelocal.com,AdBlock
-# [playhaven.com]
-HOST,playhaven.com,AdBlock
 # [playrix.com]
 HOST,stats.playrix.com,AdBlock
 # [playtem.com]
@@ -13390,8 +13443,6 @@ HOST,events.privy.com,AdBlock
 HOST,ads.pro-market.net,AdBlock
 # [proba.ai]
 HOST,api.proba.ai,AdBlock
-# [productmadness.com]
-HOST,att.productmadness.com,AdBlock
 # [programattik.com]
 HOST,ads.programattik.com,AdBlock
 # [prooffactor.com]
@@ -13927,8 +13978,6 @@ HOST,api.saypromo.net,AdBlock
 HOST,sbbanner.com,AdBlock
 # [sc-static.net]
 HOST,sc-static.net,AdBlock
-# [scanalert.com]
-HOST,images.scanalert.com,AdBlock
 # [scarabresearch.com]
 HOST,recommender.scarabresearch.com,AdBlock
 # [scopely.io]
@@ -14956,9 +15005,6 @@ HOST,sandbox.tinypass.com,AdBlock
 # [tiqcdn.com]
 HOST,tags.tiqcdn.com,AdBlock
 HOST,tags-eu.tiqcdn.com,AdBlock
-# [tllms.com]
-HOST,api.tllms.com,AdBlock
-HOST,marketing.tllms.com,AdBlock
 # [tnkfactory.com]
 HOST,tnkfactory.com,AdBlock
 HOST,ap.tnkfactory.com,AdBlock
@@ -15529,8 +15575,6 @@ HOST,sync.viewdeos.com,AdBlock
 HOST,sync.sync.viewdeos.com,AdBlock
 HOST,tags.viewdeos.com,AdBlock
 HOST,track.viewdeos.com,AdBlock
-# [viewpoint.com]
-HOST,viewpoint.com,AdBlock
 # [viglink.com]
 HOST,api.viglink.com,AdBlock
 HOST,cdn.viglink.com,AdBlock
@@ -15690,8 +15734,6 @@ HOST,trk.wdacashtrk.com,AdBlock
 HOST,bcdn-god.we-stats.com,AdBlock
 HOST,cfr.us.v2.we-stats.com,AdBlock
 HOST,log-dbff2e04.us.v2.we-stats.com,AdBlock
-# [weather-and-climate.com]
-HOST,compare-static.weather-and-climate.com,AdBlock
 # [weather.com]
 HOST,airlytics.airlock.twcmobile.weather.com,AdBlock
 # [weatherbug.net]

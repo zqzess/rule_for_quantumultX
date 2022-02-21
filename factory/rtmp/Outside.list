@@ -89,7 +89,7 @@ IP-CIDR,183.131.48.0/20,Outside
 
 # > TikTok
 USER-AGENT,TikTok*,Outside
-HOST-KEYWORD,-tiktokcdn-com,Outside
+HOST-KEYWORD,tiktokcdn-,Outside
 HOST-KEYWORD,musical.ly,Outside
 HOST-KEYWORD,tiktok,Outside
 HOST-KEYWORD,tiktokv,Outside
@@ -100,7 +100,6 @@ HOST-SUFFIX,ibyteimg.com,Outside
 HOST-SUFFIX,ipstatp.com,Outside
 HOST-SUFFIX,muscdn.com,Outside
 HOST-SUFFIX,sgpstatp.com,Outside
-HOST-SUFFIX,snssdk.com,Outside
 HOST-SUFFIX,tik-tokapi.com,Outside
 
 # > WAQI
@@ -419,7 +418,7 @@ HOST-SUFFIX,nyt.com,Outside
 HOST-SUFFIX,nytimes.com,Outside
 HOST-SUFFIX,nytimg.com,Outside
 HOST-SUFFIX,nytstyle.com,Outside
-HOST-SUFFIX,office365.com,Outside
+HOST-SUFFIX,okx.com,Outside
 HOST-SUFFIX,omnigroup.com,Outside
 HOST-SUFFIX,onenote.com,Outside
 HOST-SUFFIX,ooyala.com,Outside
@@ -676,6 +675,7 @@ HOST-SUFFIX,xclient.info,Outside
 HOST-SUFFIX,xda-developers.com,Outside
 HOST-SUFFIX,xeeno.com,Outside
 HOST-SUFFIX,xiti.com,Outside
+HOST-SUFFIX,xn--ngstr-lra8j.com,Outside
 HOST-SUFFIX,xteko.com,Outside
 HOST-SUFFIX,xuite.net,Outside
 HOST-SUFFIX,xvideos.com,Outside

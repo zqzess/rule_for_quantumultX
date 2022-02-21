@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2022-02-14 01:34:58
+# Outside rules refresh time: 2022-02-21 01:38:39
 
 HOST,voice.telephony.goog,Outside
 
@@ -65,7 +65,7 @@ IP-CIDR,129.226.0.0/16,Outside
 IP-CIDR,183.128.0.0/11,Outside
 IP-CIDR,183.131.48.0/20,Outside
 USER-AGENT,TikTok*,Outside
-HOST-KEYWORD,-tiktokcdn-com,Outside
+HOST-KEYWORD,tiktokcdn-,Outside
 HOST-KEYWORD,musical.ly,Outside
 HOST-KEYWORD,tiktok,Outside
 HOST-KEYWORD,tiktokv,Outside
@@ -76,7 +76,6 @@ HOST-SUFFIX,ibyteimg.com,Outside
 HOST-SUFFIX,ipstatp.com,Outside
 HOST-SUFFIX,muscdn.com,Outside
 HOST-SUFFIX,sgpstatp.com,Outside
-HOST-SUFFIX,snssdk.com,Outside
 HOST-SUFFIX,tik-tokapi.com,Outside
 HOST,api.waqi.info,Outside
 HOST,aqi.aqicn.org,Outside
@@ -389,7 +388,7 @@ HOST-SUFFIX,nyt.com,Outside
 HOST-SUFFIX,nytimes.com,Outside
 HOST-SUFFIX,nytimg.com,Outside
 HOST-SUFFIX,nytstyle.com,Outside
-HOST-SUFFIX,office365.com,Outside
+HOST-SUFFIX,okx.com,Outside
 HOST-SUFFIX,omnigroup.com,Outside
 HOST-SUFFIX,onenote.com,Outside
 HOST-SUFFIX,ooyala.com,Outside
@@ -646,6 +645,7 @@ HOST-SUFFIX,xclient.info,Outside
 HOST-SUFFIX,xda-developers.com,Outside
 HOST-SUFFIX,xeeno.com,Outside
 HOST-SUFFIX,xiti.com,Outside
+HOST-SUFFIX,xn--ngstr-lra8j.com,Outside
 HOST-SUFFIX,xteko.com,Outside
 HOST-SUFFIX,xuite.net,Outside
 HOST-SUFFIX,xvideos.com,Outside
@@ -2535,6 +2535,7 @@ HOST-SUFFIX,6parknews.com,Outside
 HOST-SUFFIX,6up.bet,Outside
 HOST-SUFFIX,6up.com,Outside
 HOST-SUFFIX,6yhy.com,Outside
+HOST-SUFFIX,7-zip.org,Outside
 HOST-SUFFIX,7.buyu213.com,Outside
 HOST-SUFFIX,7004202.com,Outside
 HOST-SUFFIX,7009.cc,Outside
@@ -14460,6 +14461,7 @@ HOST-SUFFIX,odysee.com,Outside
 HOST-SUFFIX,oeea.org,Outside
 HOST-SUFFIX,oex.com,Outside
 HOST-SUFFIX,offbeatchina.com,Outside
+HOST-SUFFIX,office365.com,Outside
 HOST-SUFFIX,officemax.com,Outside
 HOST-SUFFIX,officeoftibet.com,Outside
 HOST-SUFFIX,officialwindowsmagazine.com,Outside
@@ -16962,6 +16964,7 @@ HOST-SUFFIX,snl.no,Outside
 HOST-SUFFIX,snowlionpub.com,Outside
 HOST-SUFFIX,snowpear.com,Outside
 HOST-SUFFIX,snowpick.co.il,Outside
+HOST-SUFFIX,snssdk.com,Outside
 HOST-SUFFIX,so-net.net.tw,Outside
 HOST-SUFFIX,sobees.com,Outside
 HOST-SUFFIX,soc.mil,Outside
@@ -24805,7 +24808,6 @@ HOST-SUFFIX,xn--czq75pvv1aj5c.org,Outside
 HOST-SUFFIX,xn--fiq681d48s.org,Outside
 HOST-SUFFIX,xn--i2ru8q2qg.com,Outside
 HOST-SUFFIX,xn--mgbtd2a1dpq.my,Outside
-HOST-SUFFIX,xn--ngstr-lra8j.com,Outside
 HOST-SUFFIX,xn--noss43i.com,Outside
 HOST-SUFFIX,xn--oiq.cc,Outside
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Outside
@@ -25581,6 +25583,7 @@ HOST-SUFFIX,zzy.healthsection.xyz,Outside
 HOST-SUFFIX,zzy.namedns.xyz,Outside
 HOST-SUFFIX,zzz.healthsection.xyz,Outside
 HOST-SUFFIX,zzz36.net,Outside
+HOST-KEYWORD,-tiktokcdn-com,Outside
 HOST-KEYWORD,1drv,Outside
 HOST-KEYWORD,1e100,Outside
 HOST-KEYWORD,abema,Outside
