@@ -8,6 +8,39 @@ DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,ads3-normal-lq.zijieapi.com,REJECT
 DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
+DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
+
+DOMAIN,mcs.snssdk.com,REJECT
+DOMAIN,tnc3-alisc1.snssdk.com,REJECT
+DOMAIN,security-lq.snssdk.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,is.snssdk.com,REJECT
+
+DOMAIN,*novelapp.ixigua.com,REJECT
+DOMAIN,msync-im1-vip6-std.easemob.com,REJECT
+
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
+DOMAIN,api.iegadp.qq.com,REJECT
+
+DOMAIN,sf3-ttcdn-tos.pstatp.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+# DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
+# DOMAIN,sf3-be-pack.pglstatp-toutiao.com,REJECT
+
+DOMAIN,*default.ixigua.com,REJECT
+# DOMAIN,v3-default.ixigua.com,REJECT
+# DOMAIN,v9-default.ixigua.com,REJECT
+# DOMAIN,v6-default.ixigua.com,REJECT
+
+IP-CIDR,49.71.37.101/32,REJECT,no-resolve
+IP-CIDR,117.71.105.23/32,REJECT,no-resolve
+IP-CIDR,218.94.207.205/32,REJECT,no-resolve
+IP-CIDR,117.92.229.188/32,REJECT,no-resolve
+IP-CIDR,101.36.166.16/32,REJECT,no-resolve
+IP-CIDR,180.96.2.114/32,REJECT,no-resolve
+
+URL-REGEX,*-default.ixigua.com,REJECT
+URL-REGEX,.+web\.business\.image,REJECT
 URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package,REJECT
 
 [URL Rewrite]
@@ -27,4 +60,4 @@ URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package,REJECT
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
 
 [MITM]
-hostname = %APPEND% *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*
+hostname = %APPEND% *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com

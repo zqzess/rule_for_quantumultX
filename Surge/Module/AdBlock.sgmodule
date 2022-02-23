@@ -84,6 +84,7 @@ DOMAIN,app-measurement.com,REJECT
 DOMAIN,ade.googlesyndication.com,REJECT
 DOMAIN,googleads4.g.doubleclick.net,REJECT
 
+DOMAIN,bymh26.com,REJECT
 
 [URL Rewrite]
 # 有兔阅读(米兔)去羞耻的开屏广告图片
