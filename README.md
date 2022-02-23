@@ -84,7 +84,7 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin)
 - [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bodianMusic.plugin)
 - [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin)
--[spotify会员解锁 by app2smile](https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin)
+- [spotify会员解锁 by app2smile](https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin)
 
     -----------------
 ### Surge配置文件
