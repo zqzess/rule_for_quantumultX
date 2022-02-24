@@ -43,7 +43,7 @@ IP-CIDR,180.96.2.114/32,REJECT,no-resolve
 ^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 _ reject
 ^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ _ reject
 ^http:\/\/.+\.byteimg\.com\/ad-app-package _ reject
-.+web\.business\.image _ reject
+# .+web\.business\.image _ reject
 
 # 下面两条来自他人,暂不知是哪个app
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
