@@ -2701,10 +2701,6 @@
 127.0.0.1 events.browsiprod.com
 127.0.0.1 yield-manager.browsiprod.com
 
-# [bskarn.com]
-127.0.0.1 cdn.bskarn.com
-127.0.0.1 loc.bskarn.com
-
 # [btloader.com]
 127.0.0.1 btloader.com
 
@@ -3138,9 +3134,6 @@
 127.0.0.1 company-target.com
 127.0.0.1 api.company-target.com
 127.0.0.1 segments.company-target.com
-
-# [complex.com]
-127.0.0.1 media.complex.com
 
 # [comscore.com]
 127.0.0.1 siterecruit.comscore.com

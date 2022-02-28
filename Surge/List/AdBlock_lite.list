@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-02-21 01:38:37
+# AdBlock rules refresh time: 2022-02-28 01:45:08
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -8735,9 +8735,6 @@ DOMAIN,px.britepool.com
 # [browsiprod.com]
 DOMAIN,events.browsiprod.com
 DOMAIN,yield-manager.browsiprod.com
-# [bskarn.com]
-DOMAIN,cdn.bskarn.com
-DOMAIN,loc.bskarn.com
 # [btloader.com]
 DOMAIN,btloader.com
 # [btncdn.com]
@@ -9058,8 +9055,6 @@ DOMAIN,sync.commander1.com
 DOMAIN,company-target.com
 DOMAIN,api.company-target.com
 DOMAIN,segments.company-target.com
-# [complex.com]
-DOMAIN,media.complex.com
 # [comscore.com]
 DOMAIN,siterecruit.comscore.com
 # [comscoreresearch.com]

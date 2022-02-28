@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-14 10:59:40
-# HOST-SUFFIX: 25551
+# UPDATED: 2022-02-25 02:12:32
+# HOST-SUFFIX: 25552
 # USER-AGENT: 44
 # HOST: 32
 # HOST-KEYWORD: 45
 # IP-CIDR: 110
 # IP6-CIDR: 4
-# TOTAL: 25786
+# TOTAL: 25787
 HOST,amp-api.podcasts.apple.com,Global
 HOST,api.waqi.info,Global
 HOST,apple.comscoreresearch.com,Global
@@ -4112,6 +4112,7 @@ HOST-SUFFIX,bilyoner.com,Global
 HOST-SUFFIX,binance-cn.com,Global
 HOST-SUFFIX,binance.cc,Global
 HOST-SUFFIX,binance.com,Global
+HOST-SUFFIX,binance.me,Global
 HOST-SUFFIX,binance.us,Global
 HOST-SUFFIX,binary.com,Global
 HOST-SUFFIX,bind2.com,Global
@@ -16742,7 +16743,6 @@ HOST-SUFFIX,snl.no,Global
 HOST-SUFFIX,snowlionpub.com,Global
 HOST-SUFFIX,snowpear.com,Global
 HOST-SUFFIX,snowpick.co.il,Global
-HOST-SUFFIX,snssdk.com,Global
 HOST-SUFFIX,so-net.net.tw,Global
 HOST-SUFFIX,sobees.com,Global
 HOST-SUFFIX,soc.mil,Global
@@ -18277,6 +18277,7 @@ HOST-SUFFIX,truth-out.org,Global
 HOST-SUFFIX,truth.atspace.eu,Global
 HOST-SUFFIX,truthontour.org,Global
 HOST-SUFFIX,truthortrust.com,Global
+HOST-SUFFIX,truthsocial.com,Global
 HOST-SUFFIX,truthtalkradio.net,Global
 HOST-SUFFIX,truveo.com,Global
 HOST-SUFFIX,tryheart.jp,Global
@@ -25593,7 +25594,6 @@ HOST-SUFFIX,zzy.namedns.xyz,Global
 HOST-SUFFIX,zzz.healthsection.xyz,Global
 HOST-SUFFIX,zzz36.net,Global
 HOST-KEYWORD,-spotify-com,Global
-HOST-KEYWORD,-tiktokcdn-com,Global
 HOST-KEYWORD,.blogspot.,Global
 HOST-KEYWORD,.facebook.,Global
 HOST-KEYWORD,.pinterest.,Global
@@ -25628,6 +25628,7 @@ HOST-KEYWORD,spotify.com,Global
 HOST-KEYWORD,telegram,Global
 HOST-KEYWORD,tesla,Global
 HOST-KEYWORD,tiktok,Global
+HOST-KEYWORD,tiktokcdn-,Global
 HOST-KEYWORD,tiktokv,Global
 HOST-KEYWORD,ttvnw,Global
 HOST-KEYWORD,twimg,Global

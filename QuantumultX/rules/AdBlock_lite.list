@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-02-21 01:38:37
+# AdBlock rules refresh time: 2022-02-28 01:45:08
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -8738,9 +8738,6 @@ HOST,px.britepool.com,AdBlock
 # [browsiprod.com]
 HOST,events.browsiprod.com,AdBlock
 HOST,yield-manager.browsiprod.com,AdBlock
-# [bskarn.com]
-HOST,cdn.bskarn.com,AdBlock
-HOST,loc.bskarn.com,AdBlock
 # [btloader.com]
 HOST,btloader.com,AdBlock
 # [btncdn.com]
@@ -9061,8 +9058,6 @@ HOST,sync.commander1.com,AdBlock
 HOST,company-target.com,AdBlock
 HOST,api.company-target.com,AdBlock
 HOST,segments.company-target.com,AdBlock
-# [complex.com]
-HOST,media.complex.com,AdBlock
 # [comscore.com]
 HOST,siterecruit.comscore.com,AdBlock
 # [comscoreresearch.com]
