@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-02-28 01:45:08
+# AdBlock rules refresh time: 2022-03-07 01:50:45
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -2024,12 +2024,12 @@ DOMAIN-SUFFIX,ytmaitian.com
 DOMAIN-SUFFIX,yttz113.com
 DOMAIN-SUFFIX,ytunion.com
 DOMAIN-SUFFIX,ytybl.com
+#----------------
 DOMAIN,is.snssdk.com
-DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,adsmind.gdtimg.com
-DOMAIN,qzs.gdtimg.com
 DOMAIN,pv.sohu.com
 DOMAIN,gw.365you.com
+DOMAIN,x.adnet.qq.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,c.gdt.qq.com
 DOMAIN,d.gdt.qq.com
@@ -2046,7 +2046,6 @@ DOMAIN,vr.gdt.qq.com
 DOMAIN,rpt.gdt.qq.com
 DOMAIN,win.gdt.qq.com
 DOMAIN,ipv4.gdt.qq.com
-DOMAIN,x.adnet.qq.com
 DOMAIN,video.market.xiaomi.com
 DOMAIN,t1.a.market.xiaomi.com
 DOMAIN,t2.a.market.xiaomi.com
@@ -2278,6 +2277,11 @@ DOMAIN,px.ucweb.com
 DOMAIN,huichuan.sm.cn
 DOMAIN,timeserver.cnzz.net
 DOMAIN,val.atm.youku.com
+DOMAIN,ykad-data.youku.com
+DOMAIN,yk-ssp.ad.youku.com
+DOMAIN,adashx.ut.youku.com
+DOMAIN,adx-open-service.youku.com
+DOMAIN,h-adashx.ut.youku.com
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,adxserver.ad.cmvideo.cn
 DOMAIN,openstorage.ad.cmvideo.cn
@@ -2577,6 +2581,9 @@ DOMAIN,app-tj.adinall.com
 DOMAIN,g.koowo.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,splashimgbssdl.yun.kugou.com
+DOMAIN,m1.ad.10010.com
+DOMAIN,glores2.taisantech.com
+DOMAIN,sanme2.taisantech.com
 DOMAIN,img.xuwnz.cn
 DOMAIN,img.srxjz.cn
 DOMAIN,m.shilian168.cn
@@ -2744,6 +2751,25 @@ DOMAIN,search.mgc-games.com
 DOMAIN,adstats.mgc-games.com
 DOMAIN,api.snmi.cn
 DOMAIN,s.snmi.cn
+DOMAIN,fms.ipinyou.com
+DOMAIN,ssp1.kfadx.tech
+DOMAIN,vapi.tiandi.com
+DOMAIN,s.adxvip.com
+DOMAIN,c-gtc.getui.net
+DOMAIN,b-gtc.gepush.com
+DOMAIN,b-gtc.getui.net
+DOMAIN,talk.nz4.gepush.com
+DOMAIN,talk.nz4.getui.net
+DOMAIN,advert.lx.netease.com
+DOMAIN,ma-adx.ctrip.com
+DOMAIN,gi.gepush.com
+DOMAIN,gi.getui.net
+DOMAIN,b-gi.gepush.com
+DOMAIN,b-gi.getui.net
+DOMAIN,s.trafficjam.cn
+DOMAIN,wkrd.tingyun.com
+DOMAIN,mon.ad.xelements.cn
+DOMAIN,imp.ad.xelements.cn
 DOMAIN,ads.google.com
 DOMAIN,www.googleadservices.com
 DOMAIN,google-analytics.com
@@ -3003,6 +3029,8 @@ DOMAIN,tcbox.baidu.com
 DOMAIN,browserkernel.baidu.com
 DOMAIN,hijack.baidu.com
 DOMAIN,feed-image.baidu.com
+DOMAIN,hpd.baidu.com
+DOMAIN,hm.baidu.com
 DOMAIN,ecma.bdimg.com
 DOMAIN,ecmb.bdimg.com
 DOMAIN,cdn-haokanapk.baidu.com
@@ -3016,6 +3044,7 @@ DOMAIN,baidu-mipdx.cn.miaozhen.com
 DOMAIN,api3.tuisong.baidu.com
 DOMAIN,api8.tuisong.baidu.com
 DOMAIN,sa8.tuisong.baidu.com
+DOMAIN,cpro.baidustatic.com
 DOMAIN,ad.qun.qq.com
 DOMAIN,adping.qq.com
 DOMAIN,adpm.app.qq.com
@@ -3031,6 +3060,11 @@ DOMAIN,adsview.qq.com
 DOMAIN,adsview2.qq.com
 DOMAIN,adv.app.qq.com
 DOMAIN,adver.qq.com
+DOMAIN,adfilter.imtt.qq.com
+DOMAIN,ad.qq.com
+DOMAIN,adsense.html5.qq.com
+DOMAIN,adsolution.imtt.qq.com
+DOMAIN,adsrich.qq.com
 DOMAIN,d3g.qq.com
 DOMAIN,jqmt.qq.com
 DOMAIN,jsqmt.qq.com
@@ -3042,8 +3076,6 @@ DOMAIN,sdk.e.qq.com
 DOMAIN,p.l.qq.com
 DOMAIN,dp3.qq.com
 DOMAIN,us.l.qq.com
-DOMAIN,commdata6.v.qq.com
-DOMAIN,sdksp6.video.qq.com
 DOMAIN,android.rqd.qq.com
 DOMAIN,android.bugly.qq.com
 DOMAIN,api.poll.aiseet.atianqi.com
@@ -3070,6 +3102,10 @@ DOMAIN,ten.sngapm.qq.com
 DOMAIN,ads.privacy.qq.com
 DOMAIN,tdid.m.qq.com
 DOMAIN,h.trace.qq.com
+DOMAIN,mtt.str.mdt.qq.com
+DOMAIN,tmeadcomm.y.qq.com
+DOMAIN,qzs.gdtimg.com
+DOMAIN,public.gdtimg.com
 DOMAIN,adash.man.aliyuncs.com
 DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN,ynuf.aliapp.org
@@ -3148,6 +3184,8 @@ DOMAIN,otf.msn.com
 DOMAIN,umeng.com
 DOMAIN,alog.umeng.com
 DOMAIN,alog.umengcloud.com
+DOMAIN,alogus.umeng.com
+DOMAIN,alogsus.umeng.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
 DOMAIN,plbslog.umeng.com
@@ -3163,6 +3201,8 @@ DOMAIN,utop.umengcloud.com
 DOMAIN,ar.umeng.com
 DOMAIN,oc.umeng.com
 DOMAIN,errlog.umeng.com
+DOMAIN,offmsg.umeng.com
+DOMAIN,aaid.umeng.com
 DOMAIN,api.so.lianmeng.360.cn
 DOMAIN,s.lianmeng.360.cn
 DOMAIN,s1.stat.lianmeng.360.cn
@@ -3422,7 +3462,6 @@ DOMAIN,ad-delivery.net
 DOMAIN,ad.dev.360.cn
 DOMAIN,ad.duapps.com
 DOMAIN,adeventtracker.spotify.com
-DOMAIN,adfilter.imtt.qq.com
 DOMAIN,adfuture.cn
 DOMAIN,ad.gamebox.360.cn
 DOMAIN,adgeo.163.com
@@ -3443,7 +3482,6 @@ DOMAIN,ad.netowl.jp
 DOMAIN,adn.insight.ucweb.com
 DOMAIN,a.dounanhuahui.com
 DOMAIN,adpublish.ydstatic.com
-DOMAIN,ad.qq.com
 DOMAIN,adres.myaora.net
 DOMAIN,ads1.msads.net
 DOMAIN,ads1.msn.com
@@ -3454,7 +3492,6 @@ DOMAIN,ads-a.juicyads.com
 DOMAIN,adsco.re
 DOMAIN,ads.creative-serving.com
 DOMAIN,adsence.sogou.com
-DOMAIN,adsense.html5.qq.com
 DOMAIN,adserve2.tom.com
 DOMAIN,adserver.adtech.de
 DOMAIN,adserver.adtechus.com
@@ -3468,10 +3505,8 @@ DOMAIN,ads.gmodules.com
 DOMAIN,ads.msn.com
 DOMAIN,ads.ninemsn.com.au
 DOMAIN,ad.sohu.com
-DOMAIN,adsolution.imtt.qq.com
 DOMAIN,ads.pubmatic.com
 DOMAIN,adsp.xunlei.com
-DOMAIN,adsrich.qq.com
 DOMAIN,ads.servebom.com
 DOMAIN,ads.service.kugou.com
 DOMAIN,ads.sina.com
@@ -4368,7 +4403,6 @@ DOMAIN,cp.jfcdns.com
 DOMAIN,cp.xz6.com
 DOMAIN,cp10com.com
 DOMAIN,cpc.click.alimama.com
-DOMAIN,cpro.baidustatic.com
 DOMAIN,cpro2.baidustatic.com
 DOMAIN,cpu-admin.baidu.com
 DOMAIN,cpu.baidu.com
@@ -4665,7 +4699,6 @@ DOMAIN,hjc1990.com
 DOMAIN,hk-cdn.effectivemeasure.net
 DOMAIN,hkcbeauty.com
 DOMAIN,hkdecoman.com
-DOMAIN,hm.baidu.com
 DOMAIN,hm2.cnzz.com
 DOMAIN,hm3.cnzz.com
 DOMAIN,hnj.m.xywxs.com
@@ -4682,7 +4715,6 @@ DOMAIN,hoplink.ksosoft.com
 DOMAIN,hot.m.shouji.360tpcdn.com
 DOMAIN,houxingfu.com
 DOMAIN,hp.myway.com
-DOMAIN,hpd.baidu.com
 DOMAIN,http.52dsj.com
 DOMAIN,hub5btmain.sandai.net
 DOMAIN,hub5emu.sandai.net
@@ -10875,7 +10907,6 @@ DOMAIN,universal.iperceptions.com
 DOMAIN,ipinyou.com
 DOMAIN,cm.ipinyou.com
 DOMAIN,fm.ipinyou.com
-DOMAIN,fms.ipinyou.com
 DOMAIN,stats.ipinyou.com
 # [iponweb.net]
 DOMAIN,fastg8.pool.iponweb.net
@@ -14312,8 +14343,6 @@ DOMAIN,visitor-service-eu-west-1.tealiumiq.com
 DOMAIN,visitor-service-us-east-1.tealiumiq.com
 # [techcrunch.com]
 DOMAIN,ampmetrics.techcrunch.com
-# [techlab-cdn.com]
-DOMAIN,p11.techlab-cdn.com
 # [technoratimedia.com]
 DOMAIN,ad-cdn.technoratimedia.com
 DOMAIN,prebid.technoratimedia.com
@@ -14671,8 +14700,6 @@ DOMAIN,oc.umeng.co
 # [umeng.com]
 DOMAIN,alog-default.umeng.com
 DOMAIN,alogs.umeng.com
-DOMAIN,alogsus.umeng.com
-DOMAIN,alogus.umeng.com
 DOMAIN,ocx.umeng.com
 DOMAIN,ouplog.umeng.com
 DOMAIN,sec.umeng.com

@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2022-02-28 01:45:09
+# GMedia rules refresh time: 2022-03-07 01:50:46
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -350,6 +350,7 @@ HOST-KEYWORD,-spotify-com,GMedia
 HOST-KEYWORD,-tiktokcdn-com,GMedia
 HOST-KEYWORD,.hbogoasia.,GMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
+HOST-KEYWORD,discovery.uplynk.com,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
 HOST-KEYWORD,netflixdnstest,GMedia
