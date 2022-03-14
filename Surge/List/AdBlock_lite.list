@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-03-07 01:50:45
+# AdBlock rules refresh time: 2022-03-14 01:52:14
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -2024,7 +2024,8 @@ DOMAIN-SUFFIX,ytmaitian.com
 DOMAIN-SUFFIX,yttz113.com
 DOMAIN-SUFFIX,ytunion.com
 DOMAIN-SUFFIX,ytybl.com
-#----------------
+#---------------------------------
+#----------------------------------
 DOMAIN,is.snssdk.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,pv.sohu.com
@@ -2046,6 +2047,7 @@ DOMAIN,vr.gdt.qq.com
 DOMAIN,rpt.gdt.qq.com
 DOMAIN,win.gdt.qq.com
 DOMAIN,ipv4.gdt.qq.com
+DOMAIN,v6ii.gdt.qq.com
 DOMAIN,video.market.xiaomi.com
 DOMAIN,t1.a.market.xiaomi.com
 DOMAIN,t2.a.market.xiaomi.com
@@ -2370,9 +2372,6 @@ DOMAIN,miniapp.qiluyidian.mobi
 DOMAIN,static.bshare.cn
 DOMAIN,launches.appsflyer.com
 DOMAIN,cl2.webterren.com
-DOMAIN,api-access.pangolin-sdk-toutiao.com
-DOMAIN,api-access.pangolin-sdk-toutiao-b.com
-DOMAIN,log-api.pangolin-sdk-toutiao.com
 DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN,test.adsp.xunlei.com
 DOMAIN,api-mcp.adsp.xunlei.com
@@ -2584,6 +2583,10 @@ DOMAIN,splashimgbssdl.yun.kugou.com
 DOMAIN,m1.ad.10010.com
 DOMAIN,glores2.taisantech.com
 DOMAIN,sanme2.taisantech.com
+DOMAIN,madeqr.com
+DOMAIN,api-access.pangolin-sdk-toutiao.com
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com
+DOMAIN,log-api.pangolin-sdk-toutiao.com
 DOMAIN,img.xuwnz.cn
 DOMAIN,img.srxjz.cn
 DOMAIN,m.shilian168.cn
@@ -2732,11 +2735,8 @@ DOMAIN,adlaunch.qtfm.cn
 DOMAIN,fumiad.dxys.pro
 DOMAIN,talk.nz4.getui.com
 DOMAIN,c-gi.getui.com
-DOMAIN,gbfek.dfcfw.com
 DOMAIN,emdcadvise.eastmoney.com
 DOMAIN,emdcadvertise.eastmoney.com
-DOMAIN,empic.dfcfw.com
-DOMAIN,dfscdn.dfcfw.com
 DOMAIN,config.jpush.cn
 DOMAIN,adash-emas.cn-hangzhou.aliyuncs.com
 DOMAIN,config-junion.jpush.cn
@@ -2770,6 +2770,15 @@ DOMAIN,s.trafficjam.cn
 DOMAIN,wkrd.tingyun.com
 DOMAIN,mon.ad.xelements.cn
 DOMAIN,imp.ad.xelements.cn
+DOMAIN,league1.maoyuncloud.cn
+DOMAIN,lupic.cdn.bcebos.com
+DOMAIN,androidads4-6.adcolony.com
+DOMAIN,adc3-launch.adcolony.com
+DOMAIN,wd.adcolony.com
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,adreport.adtianmai.com
+DOMAIN,adapi.izuiyou.com
+DOMAIN,adstat.izuiyou.com
 DOMAIN,ads.google.com
 DOMAIN,www.googleadservices.com
 DOMAIN,google-analytics.com
@@ -3091,7 +3100,6 @@ DOMAIN,raddus.bayescom.com
 DOMAIN,mtt.eve.mdt.qq.com
 DOMAIN,push.pgl.qq.com
 DOMAIN,rmpad.imtt.qq.com
-DOMAIN,isee.weishi.qq.com
 DOMAIN,tangram.e.qq.com
 DOMAIN,mig.str.mdt.qq.com
 DOMAIN,pms.mb.qq.com
@@ -3106,6 +3114,9 @@ DOMAIN,mtt.str.mdt.qq.com
 DOMAIN,tmeadcomm.y.qq.com
 DOMAIN,qzs.gdtimg.com
 DOMAIN,public.gdtimg.com
+DOMAIN,cmshow.gtimg.cn
+DOMAIN,qappcenterv6.3g.qq.com
+DOMAIN,aeventlog.beacon.qq.com
 DOMAIN,adash.man.aliyuncs.com
 DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com
 DOMAIN,ynuf.aliapp.org
@@ -6938,7 +6949,6 @@ DOMAIN,t.adcell.com
 # [adcolony.com]
 DOMAIN,adcolony.com
 DOMAIN,adc3-assets.adcolony.com
-DOMAIN,adc3-launch.adcolony.com
 DOMAIN,ads30.adcolony.com
 DOMAIN,androidads20.adcolony.com
 DOMAIN,androidads21.adcolony.com
@@ -6952,7 +6962,6 @@ DOMAIN,events3.adcolony.com
 DOMAIN,events3alt.adcolony.com
 DOMAIN,iosads24.adcolony.com
 DOMAIN,rtb.adcolony.com
-DOMAIN,wd.adcolony.com
 # [addealsnetwork.com]
 DOMAIN,adsinter1.addealsnetwork.com
 DOMAIN,adsvideo1.addealsnetwork.com
@@ -7477,6 +7486,13 @@ DOMAIN,adstune.com
 DOMAIN,folder.adsunflower.com
 DOMAIN,rebootv5.adsunflower.com
 # [adswizz.com]
+DOMAIN,cdn.adswizz.com
+DOMAIN,deliveryengine.cox.adswizz.com
+DOMAIN,delivery-cdn-cf.adswizz.com
+DOMAIN,cox.deliveryengine.adswizz.com
+DOMAIN,streamguys.deliveryengine.adswizz.com
+DOMAIN,synchroscript.deliveryengine.adswizz.com
+DOMAIN,synchrobox.adswizz.com
 DOMAIN,zc.adswizz.com
 # [adsymptotic.com]
 DOMAIN,pinterest.adsymptotic.com
@@ -7858,6 +7874,9 @@ DOMAIN,co.akisinn.info
 DOMAIN,int.akisinn.info
 # [akisinn.site]
 DOMAIN,int.akisinn.site
+# [akstat.io]
+DOMAIN,17de4c16.akstat.io
+DOMAIN,17de4c17.akstat.io
 # [alcmpn.com]
 DOMAIN,p.alcmpn.com
 # [alexametrics.com]
@@ -7905,6 +7924,7 @@ DOMAIN,z-eu.amazon-adsystem.com
 DOMAIN,z-na.amazon-adsystem.com
 # [amazon.com]
 DOMAIN,aan.amazon.com
+DOMAIN,fls-na.amazon.com
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
 # [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
@@ -8047,6 +8067,8 @@ DOMAIN,analysys.cn
 DOMAIN,analytics.analytics-egain.com
 DOMAIN,cloud-emea.analytics-egain.com
 DOMAIN,cloud-us.analytics-egain.com
+# [analyticssystems.net]
+DOMAIN,analyticssystems.net
 # [andomedia.com]
 DOMAIN,andomedia.com
 # [aniview.com]
@@ -8864,6 +8886,8 @@ DOMAIN,castplatform.com
 DOMAIN,pa.wme.catchmedia.com
 # [cauly.co.kr]
 DOMAIN,ad.cauly.co.kr
+# [cbsaavideo.com]
+DOMAIN,vod-gcs-cedexis.cbsaavideo.com
 # [cbsi.com]
 DOMAIN,production-cmp.isgprivacy.cbsi.com
 # [cbsivideo.com]
@@ -9164,6 +9188,7 @@ DOMAIN,cdn-3.convertexperiments.com
 # [conviva.com]
 DOMAIN,conviva.com
 DOMAIN,47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com
+DOMAIN,87a6b28bc7823e67a5bb2a0a6728c702afcae78d.cws.conviva.com
 DOMAIN,efcad85fded269f462c434c4c5f84654a17d4a77.cws.conviva.com
 DOMAIN,cws-eu.conviva.com
 DOMAIN,cws-hulu.conviva.com
@@ -9687,6 +9712,9 @@ DOMAIN,controller.duokanbox.com
 DOMAIN,mobile.controller.duokanbox.com
 DOMAIN,fm.duokanbox.com
 DOMAIN,stat.duokanbox.com
+# [durationmedia.net]
+DOMAIN,be.durationmedia.net
+DOMAIN,tag.durationmedia.net
 # [dxsvr.com]
 DOMAIN,ak.dxsvr.com
 DOMAIN,rc.dxsvr.com
@@ -10193,6 +10221,7 @@ DOMAIN,prd.ads.aws.fwmrm.net
 DOMAIN,g13v.prd.ads.aws.fwmrm.net
 DOMAIN,nbcu.prd.ads.aws.fwmrm.net
 DOMAIN,v.fwmrm.net
+DOMAIN,7f077.v.fwmrm.net
 # [fyber.com]
 DOMAIN,api.fyber.com
 DOMAIN,api-rewarded-video.fyber.com
@@ -11424,6 +11453,7 @@ DOMAIN,sparkle.locationlabs.com
 # [locuslabs.com]
 DOMAIN,api.locuslabs.com
 DOMAIN,assets.locuslabs.com
+DOMAIN,rest.locuslabs.com
 # [loft.com]
 DOMAIN,smetrics.loft.com
 # [logentries.com]
@@ -12246,6 +12276,8 @@ DOMAIN,mpnrs.com
 # [mradx.net]
 DOMAIN,r.mradx.net
 DOMAIN,r0.mradx.net
+# [mrtnsvr.com]
+DOMAIN,ad.mrtnsvr.com
 # [msads.net]
 DOMAIN,msads.net
 # [msn.com]
@@ -12483,6 +12515,7 @@ DOMAIN,sc5.omniture.com
 # [omtrdc.net]
 DOMAIN,omtrdc.net
 DOMAIN,hb.omtrdc.net
+DOMAIN,cbsinteractive.hb.omtrdc.net
 DOMAIN,espn.hb.omtrdc.net
 DOMAIN,foxnews.hb.omtrdc.net
 DOMAIN,hulu.hb.omtrdc.net
@@ -12492,6 +12525,7 @@ DOMAIN,allstate.sc.omtrdc.net
 DOMAIN,audible.sc.omtrdc.net
 DOMAIN,bamtech.sc.omtrdc.net
 DOMAIN,carfax.sc.omtrdc.net
+DOMAIN,coxcommunications.sc.omtrdc.net
 DOMAIN,fox.com.ssl.d2.sc.omtrdc.net
 DOMAIN,philipslighting.d3.sc.omtrdc.net
 DOMAIN,kroger.sc.omtrdc.net
@@ -13156,6 +13190,8 @@ DOMAIN,assets.rbl.ms
 DOMAIN,rbnt.org
 # [realclever.com]
 DOMAIN,realclever.com
+# [realvu.net]
+DOMAIN,ac.realvu.net
 # [rebel.ai]
 DOMAIN,cdn.rebel.ai
 # [recreativ.ru]
@@ -13194,6 +13230,8 @@ DOMAIN,tag.researchnow.com
 # [reson8.com]
 DOMAIN,ds.reson8.com
 DOMAIN,idsync.reson8.com
+# [resonate.com]
+DOMAIN,cdn.resonate.com
 # [responsys.net]
 DOMAIN,static.cdn.responsys.net
 # [restartad.com]
@@ -14066,6 +14104,7 @@ DOMAIN,30506.api.swrve.com
 DOMAIN,30572.api.swrve.com
 DOMAIN,30736.api.swrve.com
 DOMAIN,30819.api.swrve.com
+DOMAIN,31123.api.swrve.com
 DOMAIN,3193.api.swrve.com
 DOMAIN,3285.api.swrve.com
 DOMAIN,3426.api.swrve.com
@@ -14104,6 +14143,7 @@ DOMAIN,30506.content.swrve.com
 DOMAIN,30572.content.swrve.com
 DOMAIN,30736.content.swrve.com
 DOMAIN,30819.content.swrve.com
+DOMAIN,31123.content.swrve.com
 DOMAIN,3285.content.swrve.com
 DOMAIN,3616.content.swrve.com
 DOMAIN,3696.content.swrve.com
@@ -14128,6 +14168,7 @@ DOMAIN,6384.eu-api.swrve.com
 DOMAIN,eu-content.swrve.com
 DOMAIN,6379.eu-content.swrve.com
 DOMAIN,6384.eu-content.swrve.com
+DOMAIN,31123.identity.swrve.com
 DOMAIN,link.swrve.com
 # [synergy-e.com]
 DOMAIN,banner.synergy-e.com
@@ -15168,6 +15209,9 @@ DOMAIN,app.wootric.com
 DOMAIN,eligibility.wootric.com
 DOMAIN,production.wootric.com
 DOMAIN,survey.wootric.com
+# [worldnow.com]
+DOMAIN,content.worldnow.com
+DOMAIN,kake.images.worldnow.com
 # [wowanalytics.co.uk]
 DOMAIN,wowanalytics.co.uk
 DOMAIN,lbal.wowanalytics.co.uk
