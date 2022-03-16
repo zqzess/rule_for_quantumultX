@@ -1,12 +1,11 @@
 [URL Rewrite]
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
 
-#YouTube去广告,已修正短视频无法播放 -> *.googlevideo.com,s.youtube.com,www.youtube.com
-ctier=(?!SH)[\w-] citer=A 302
-^https?:\/\/[\w-]+\.googlevideo\.com\/((?!(dclk_video_ads|videoplayback)).)+&(oad|ctier) _ reject
-#^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier=(?!SH)[A-Z]) _ reject-img
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads _ reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) _ reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe?.*adformat= _ reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 
 [MITM]
-hostname = *.googlevideo.com,s.youtube.com,www.youtube.com
+hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com

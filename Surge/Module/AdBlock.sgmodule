@@ -86,6 +86,20 @@ DOMAIN,googleads4.g.doubleclick.net,REJECT
 
 DOMAIN,bymh26.com,REJECT
 
+# 下厨房
+DOMAIN,ulogs.umengcloud.com,REJECT
+DOMAIN,ulogs.umeng.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,sdk.open.talk.getui.net,REJECT
+DOMAIN,sdk.open.talk.getui.com,REJECT
+DOMAIN,errlog.umeng.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN,qzs.gdtimg.com,REJECT
+
 [URL Rewrite]
 # 有兔阅读(米兔)去羞耻的开屏广告图片
 ^http:\/\/img\.dailmo\.com\/img\/61\/23c7125bfe6166d69f3bff5b0ca4d31e\.jpg - reject
