@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2022-03-14 01:52:18
+# Mainland rules refresh time: 2022-03-21 02:07:36
 
 HOST-SUFFIX,abchina.com,Mainland
 
@@ -641,6 +641,7 @@ USER-AGENT,eusoft_ting_en_iphone,Mainland
 USER-AGENT,hide*,Mainland
 USER-AGENT,ting_en,Mainland
 IP-CIDR,119.28.28.28/32,Mainland
+IP-CIDR,183.128.0.0/11,Mainland
 IP-CIDR,185.188.32.0/22,Mainland
 IP-CIDR,203.205.238.0/23,Mainland
 IP-CIDR,203.205.254.0/23,Mainland

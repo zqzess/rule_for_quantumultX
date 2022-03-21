@@ -2850,14 +2850,8 @@
 # [cauly.co.kr]
 127.0.0.1 ad.cauly.co.kr
 
-# [cbsaavideo.com]
-127.0.0.1 vod-gcs-cedexis.cbsaavideo.com
-
 # [cbsi.com]
 127.0.0.1 production-cmp.isgprivacy.cbsi.com
-
-# [cbsivideo.com]
-127.0.0.1 doppler-reporting.cbsivideo.com
 
 # [cbsnews.com]
 127.0.0.1 tealium.cbsnews.com
@@ -4080,8 +4074,6 @@
 127.0.0.1 owneriq.net.edgekey.net
 127.0.0.1 wildcard.owneriq.net.edgekey.net
 127.0.0.1 yieldlab.net.edgekey.net
-127.0.0.1 typekit.net-v3.edgekey.net
-127.0.0.1 p.typekit.net-v3.edgekey.net
 127.0.0.1 pubmatic.edgekey.net
 127.0.0.1 aktrack.pubmatic.edgekey.net
 127.0.0.1 secure-adnxs.edgekey.net
@@ -7395,6 +7387,7 @@
 
 # [nextdoor.com]
 127.0.0.1 us-tracking.nextdoor.com
+127.0.0.1 uk-tracking.nextdoor.com
 
 # [nicovideo.jp]
 127.0.0.1 ads.nicovideo.jp
@@ -8985,9 +8978,6 @@
 # [simplesharebuttons.com]
 127.0.0.1 simplesharebuttons.com
 
-# [simpletexting.com]
-127.0.0.1 simpletexting.com
-
 # [simpli.fi]
 127.0.0.1 ads.simpli.fi
 127.0.0.1 east.ads.simpli.fi
@@ -10294,9 +10284,6 @@
 
 # [tynt.com]
 127.0.0.1 de.tynt.com
-
-# [typekit.net]
-127.0.0.1 p.typekit.net
 
 # [ua.com]
 127.0.0.1 lightstep-collector.api.ua.com

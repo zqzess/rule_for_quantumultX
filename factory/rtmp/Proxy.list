@@ -1,7 +1,7 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-03-14 02:11:01
+# UPDATED: 2022-03-20 02:11:55
 # HOST-SUFFIX: 25416
 # USER-AGENT: 7
 # HOST: 8
@@ -2509,7 +2509,6 @@ HOST-SUFFIX,a20309999.byethost9.com,Proxy
 HOST-SUFFIX,a2299.com,Proxy
 HOST-SUFFIX,a2646.com,Proxy
 HOST-SUFFIX,a2776.com,Proxy
-HOST-SUFFIX,a2zapk.com,Proxy
 HOST-SUFFIX,a3236.com,Proxy
 HOST-SUFFIX,a3285.com,Proxy
 HOST-SUFFIX,a33285.com,Proxy
@@ -4561,6 +4560,7 @@ HOST-SUFFIX,briefdream.com,Proxy
 HOST-SUFFIX,brightcove01.brightcove.com,Proxy
 HOST-SUFFIX,brightkite.com,Proxy
 HOST-SUFFIX,briian.com,Proxy
+HOST-SUFFIX,brill.com,Proxy
 HOST-SUFFIX,brilliantcode.com,Proxy
 HOST-SUFFIX,bringingtibethome.com,Proxy
 HOST-SUFFIX,brisalls.com,Proxy
@@ -25524,7 +25524,7 @@ IP-CIDR,180.163.150.162/32,Proxy
 IP-CIDR,180.163.150.34/32,Proxy
 IP-CIDR,180.163.151.162/32,Proxy
 IP-CIDR,180.163.151.34/32,Proxy
-IP-CIDR,183.128.0.0/11,Proxy
+IP-CIDR,183.131.48.0/20,Proxy
 IP-CIDR,184.173.128.0/17,Proxy
 IP-CIDR,185.60.216.0/22,Proxy
 IP-CIDR,203.104.103.0/24,Proxy
