@@ -89,6 +89,7 @@ HOST-SUFFIX,177tvbxs.com,AdBlock
 HOST-SUFFIX,178gg.com,AdBlock
 HOST-SUFFIX,1797wan.com,AdBlock
 HOST-SUFFIX,17leyi.com,AdBlock
+HOST-SUFFIX,17u.cn,AdBlock
 HOST-SUFFIX,181lm.net,AdBlock
 HOST-SUFFIX,181mob.com,AdBlock
 HOST,183.136.168.78,AdBlock
@@ -178,6 +179,7 @@ HOST-SUFFIX,3munion.net,AdBlock
 HOST-SUFFIX,3p-link.com,AdBlock
 HOST-SUFFIX,3shangyou.com,AdBlock
 HOST-SUFFIX,3ygww.com,AdBlock
+HOST-SUFFIX,40017.cn,AdBlock
 HOST-SUFFIX,4006825178.com,AdBlock
 HOST-SUFFIX,4009997658.com,AdBlock
 HOST,43.241.50.20,AdBlock
@@ -2010,8 +2012,6 @@ HOST-SUFFIX,yingkeduo.cn,AdBlock
 HOST-SUFFIX,yingkepj.cn,AdBlock
 HOST-SUFFIX,yinhaijuan.com,AdBlock
 HOST-SUFFIX,yinoo.cn,AdBlock
-HOST-SUFFIX,yinooo.com,AdBlock
-HOST-SUFFIX,yinyuehu.cn,AdBlock
 #------------------------------
 #-------------------------------
 HOST,is.snssdk.com,AdBlock
@@ -8774,8 +8774,6 @@ HOST,as.y.atwola.com,AdBlock
 HOST,tw.as.y.atwola.com,AdBlock
 HOST,eu.y.atwola.com,AdBlock
 HOST,us.y.atwola.com,AdBlock
-# [audioeye.com]
-HOST,ws.audioeye.com,AdBlock
 # [auditude.com]
 HOST,ad.auditude.com,AdBlock
 # [augur.io]
@@ -9298,6 +9296,7 @@ HOST,live.chartboost.com,AdBlock
 HOST,ssp-events.chartboost.com,AdBlock
 HOST,t.chartboost.com,AdBlock
 HOST,t2.chartboost.com,AdBlock
+HOST,v-ak.chartboost.com,AdBlock
 HOST,v2.chartboost.com,AdBlock
 HOST,www.chartboost.com,AdBlock
 # [chartboosts.com]
@@ -11176,6 +11175,9 @@ HOST,image.influenster.com,AdBlock
 HOST,images.informatm.com,AdBlock
 # [infra.systems]
 HOST,studcat.infra.systems,AdBlock
+# [inhousedsp.com]
+HOST,inhousedsp.com,AdBlock
+HOST,content.inhousedsp.com,AdBlock
 # [inlcorp.com]
 HOST,adapi.inlcorp.com,AdBlock
 # [inlocomedia.com]
@@ -11205,6 +11207,7 @@ HOST,config-ltvp.inmobi.com,AdBlock
 HOST,de.inmobi.com,AdBlock
 HOST,b.de.inmobi.com,AdBlock
 HOST,e.de.inmobi.com,AdBlock
+HOST,ic.de.inmobi.com,AdBlock
 HOST,glance.inmobi.com,AdBlock
 HOST,analytics.glance.inmobi.com,AdBlock
 HOST,id.analytics.glance.inmobi.com,AdBlock
@@ -11215,6 +11218,8 @@ HOST,in.api.glance.inmobi.com,AdBlock
 HOST,glance-internal.inmobi.com,AdBlock
 HOST,analytics-prod2.glance-internal.inmobi.com,AdBlock
 HOST,content-prod3.glance-internal.inmobi.com,AdBlock
+HOST,s.iff.inmobi.com,AdBlock
+HOST,dspbeacons.error.ihasdsp.inmobi.com,AdBlock
 HOST,imces.inmobi.com,AdBlock
 HOST,pulse.inmobi.com,AdBlock
 HOST,carpet.pulse.inmobi.com,AdBlock
@@ -11245,6 +11250,8 @@ HOST,inmobicdn.net,AdBlock
 HOST,l.inmobicdn.net,AdBlock
 HOST,glance.l.inmobicdn.net,AdBlock
 HOST,i.l.inmobicdn.net,AdBlock
+HOST,i.l-dsp.inmobicdn.net,AdBlock
+HOST,supply.inmobicdn.net,AdBlock
 # [inner-active.mobi]
 HOST,inner-active.mobi,AdBlock
 HOST,ad-tag.inner-active.mobi,AdBlock
@@ -11461,6 +11468,8 @@ HOST,err.izooto.com,AdBlock
 HOST,jampp.com,AdBlock
 HOST,cdn.jampp.com,AdBlock
 HOST,imgx.jampp.com,AdBlock
+HOST,imp-lb-us2.jampp.com,AdBlock
+HOST,static.jampp.com,AdBlock
 # [jdoqocy.com]
 HOST,jdoqocy.com,AdBlock
 HOST,www.jdoqocy.com,AdBlock
@@ -12748,8 +12757,6 @@ HOST,d.r10.mopub.com,AdBlock
 HOST,s.mopub.com,AdBlock
 # [morgdm.ru]
 HOST,morgdm.ru,AdBlock
-# [motus.com]
-HOST,mobileapi.motus.com,AdBlock
 # [moz.com]
 HOST,analytics.moz.com,AdBlock
 HOST,mozbar.moz.com,AdBlock
@@ -12932,8 +12939,8 @@ HOST,segment.psg.nexstardigital.net,AdBlock
 # [nextclick.pl]
 HOST,nextclick.pl,AdBlock
 # [nextdoor.com]
-HOST,us-tracking.nextdoor.com,AdBlock
 HOST,uk-tracking.nextdoor.com,AdBlock
+HOST,us-tracking.nextdoor.com,AdBlock
 # [nicovideo.jp]
 HOST,ads.nicovideo.jp,AdBlock
 # [nielsen.com]
@@ -13074,9 +13081,6 @@ HOST,apicosdk.onemt.co,AdBlock
 HOST,apicssdk.onemt.co,AdBlock
 # [oneplus.com]
 HOST,click.oneplus.com,AdBlock
-# [onesignal.com]
-HOST,api.onesignal.com,AdBlock
-HOST,cdn.onesignal.com,AdBlock
 # [onetag-sys.com]
 HOST,onetag-sys.com,AdBlock
 # [onetrust.com]
@@ -13732,6 +13736,9 @@ HOST,sg-setting.rayjump.com,AdBlock
 HOST,sg01.rayjump.com,AdBlock
 HOST,tknet.rayjump.com,AdBlock
 HOST,us01.rayjump.com,AdBlock
+HOST,vg-aws-us-east-1a-hb.rayjump.com,AdBlock
+HOST,vg-aws-us-east-1b-hb.rayjump.com,AdBlock
+HOST,vg-new-hb.rayjump.com,AdBlock
 HOST,vg-setting.rayjump.com,AdBlock
 # [rbl.ms]
 HOST,assets.rbl.ms,AdBlock
