@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2022-03-28 02:12:23
+# Mainland rules refresh time: 2022-04-04 02:16:12
 
 HOST-SUFFIX,abchina.com,Mainland
 
@@ -337,6 +337,7 @@ HOST,origin-a.akamaihd.ne,Mainland
 HOST,origin-a.akamaihd.net,Mainland
 HOST,safebrowsing.googleapis.com,Mainland
 HOST,sms.imagetasks.com,Mainland
+HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST-SUFFIX,126.com,Mainland
 HOST-SUFFIX,127.net,Mainland
 HOST-SUFFIX,163yun.com,Mainland
@@ -563,7 +564,6 @@ HOST-SUFFIX,springer.com,Mainland
 HOST-SUFFIX,springerlink.com,Mainland
 HOST-SUFFIX,springsunday.net,Mainland
 HOST-SUFFIX,staticdn.net,Mainland
-HOST-SUFFIX,steamcdn-a.akamaihd.net,Mainland
 HOST-SUFFIX,takungpao.com,Mainland
 HOST-SUFFIX,tandfonline.com,Mainland
 HOST-SUFFIX,tencent-cloud.net,Mainland

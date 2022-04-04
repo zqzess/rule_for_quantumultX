@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2022-03-28 02:12:21
+# CMedia rules refresh time: 2022-04-04 02:16:10
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -139,6 +139,10 @@ HOST,4go41hcjtgazdoctqge4o.ourdvsss.com,CMedia
 HOST,api.iplay.163.com,CMedia
 HOST,mam.netease.com,CMedia
 HOST,moo.qq.com,CMedia
+HOST,p-bstarstatic.akamaized.net,CMedia
+HOST,p.bstarstatic.com,CMedia
+HOST,upos-bstar-mirrorakam.akamaized.net,CMedia
+HOST,upos-bstar1-mirrorakam.akamaized.net,CMedia
 HOST-SUFFIX,1.letvlive.com,CMedia
 HOST-SUFFIX,2.letvlive.com,CMedia
 HOST-SUFFIX,56.com,CMedia

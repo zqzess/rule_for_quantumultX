@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-03-28 02:12:21
+# AdBlock rules refresh time: 2022-04-04 02:16:09
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -2014,8 +2014,8 @@ HOST-SUFFIX,yingkeduo.cn,AdBlock
 HOST-SUFFIX,yingkepj.cn,AdBlock
 HOST-SUFFIX,yinhaijuan.com,AdBlock
 HOST-SUFFIX,yinoo.cn,AdBlock
-#------------------------------
-#-------------------------------
+#----------------------------------------
+#-----------------------------------------
 HOST,is.snssdk.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,pv.sohu.com,AdBlock
@@ -2292,7 +2292,6 @@ HOST,bill.agent.v-56.com,AdBlock
 HOST,stat.56.com,AdBlock
 HOST,stat2.corp.56.com,AdBlock
 HOST,union.56.com,AdBlock
-HOST,uvimage.56.com,AdBlock
 HOST,v16.56.com,AdBlock
 HOST,pole.6rooms.com,AdBlock
 HOST,shrek.6.cn,AdBlock
@@ -2379,11 +2378,6 @@ HOST,adexpo.tencentmusic.com,AdBlock
 HOST,adclick.tencentmusic.com,AdBlock
 HOST,g1.163.com,AdBlock
 HOST,nex.163.com,AdBlock
-HOST,ali-stats.jpush.cn,AdBlock
-HOST,stats.jpush.cn,AdBlock
-HOST,gd-stats.jpush.cn,AdBlock
-HOST,tsis.jpush.cn,AdBlock
-HOST,bjuser.jpush.cn,AdBlock
 HOST,admusicpic.music.126.net,AdBlock
 HOST,iadmusicmat.music.126.net,AdBlock
 HOST,clientlog3.music.163.com,AdBlock
@@ -2603,7 +2597,6 @@ HOST,wkrd.tingyun.com,AdBlock
 HOST,mon.ad.xelements.cn,AdBlock
 HOST,imp.ad.xelements.cn,AdBlock
 HOST,league1.maoyuncloud.cn,AdBlock
-HOST,lupic.cdn.bcebos.com,AdBlock
 HOST,androidads4-6.adcolony.com,AdBlock
 HOST,adc3-launch.adcolony.com,AdBlock
 HOST,wd.adcolony.com,AdBlock
@@ -2638,7 +2631,6 @@ HOST,sdk.zsdfm.com,AdBlock
 HOST,adnew.wifi8.com,AdBlock
 HOST,ad.ikonke.com,AdBlock
 HOST,smart-789.kakamobi.cn,AdBlock
-HOST,smart-789.image.mucang.cn,AdBlock
 HOST,short-video.kakamobi.cn,AdBlock
 HOST,ad.quwin.cn,AdBlock
 HOST,ubmcmm.baidustatic.com,AdBlock
@@ -2768,6 +2760,21 @@ HOST,mobilead.kuwo.cn,AdBlock
 HOST,splashimgbssdl.yun.kugou.com,AdBlock
 HOST,m1.ad.10010.com,AdBlock
 HOST,config.unityads.unitychina.cn,AdBlock
+HOST,api.openinstall.io,AdBlock
+HOST,ads.oneway.mobi,AdBlock
+HOST,ads.oway.mobi,AdBlock
+HOST,owads.audioadx.com,AdBlock
+HOST,p3.adkwai.com,AdBlock
+HOST,ali-stats.jpush.cn,AdBlock
+HOST,stats.jpush.cn,AdBlock
+HOST,gd-stats.jpush.cn,AdBlock
+HOST,tsis.jpush.cn,AdBlock
+HOST,bjuser.jpush.cn,AdBlock
+HOST,s.jpush.cn,AdBlock
+HOST,nmobi.kuwo.cn,AdBlock
+HOST,ddt02.shenghao88.top,AdBlock
+HOST,qlaops3.jndxwl.com,AdBlock
+HOST,apid.feikaiwadingguan.com,AdBlock
 HOST,ads.google.com,AdBlock
 HOST,www.googleadservices.com,AdBlock
 HOST,google-analytics.com,AdBlock
@@ -2811,7 +2818,6 @@ HOST,ftpcontent.worldnow.com,AdBlock
 HOST,s0.2mdn.net,AdBlock
 HOST,bigmobileads.com,AdBlock
 HOST,ads.mopub.com,AdBlock
-HOST,images.mpression.net,AdBlock
 HOST,oasc04012.247realmedia.com,AdBlock
 HOST,assets.cntdy.mobi,AdBlock
 HOST,ad.leadboltapps.net,AdBlock
@@ -3026,7 +3032,6 @@ HOST,sofire.baidu.com,AdBlock
 HOST,tcbox.baidu.com,AdBlock
 HOST,browserkernel.baidu.com,AdBlock
 HOST,hijack.baidu.com,AdBlock
-HOST,feed-image.baidu.com,AdBlock
 HOST,hpd.baidu.com,AdBlock
 HOST,hm.baidu.com,AdBlock
 HOST,ecma.bdimg.com,AdBlock
@@ -3106,6 +3111,8 @@ HOST,public.gdtimg.com,AdBlock
 HOST,cmshow.gtimg.cn,AdBlock
 HOST,qappcenterv6.3g.qq.com,AdBlock
 HOST,aeventlog.beacon.qq.com,AdBlock
+HOST,cc.map.qq.com,AdBlock
+HOST,aegis.qq.com,AdBlock
 HOST,adash.man.aliyuncs.com,AdBlock
 HOST,cdn-ads.oss-cn-shanghai.aliyuncs.com,AdBlock
 HOST,ynuf.aliapp.org,AdBlock
@@ -3530,6 +3537,8 @@ HOST,adx.xiaodutv.com,AdBlock
 HOST,ad.gtbrowser.com,AdBlock
 HOST,www.admarket.mobi,AdBlock
 HOST,z.sora.yoyi.com.cn,AdBlock
+HOST,03.lzzncm.com,AdBlock
+HOST,04.lzzncm.com,AdBlock
 HOST,all.cnzz.com.danuoyi.tbcache.com,AdBlock
 HOST,z3.cnzz.com,AdBlock
 HOST,s4.cnzz.com,AdBlock
@@ -11058,7 +11067,6 @@ HOST,traffick.jivox.com,AdBlock
 HOST,ad.jorte.com,AdBlock
 # [jpush.cn]
 HOST,im64.jpush.cn,AdBlock
-HOST,s.jpush.cn,AdBlock
 # [jpush.io]
 HOST,sis.jpush.io,AdBlock
 # [jsrdn.com]
@@ -14830,7 +14838,6 @@ HOST,combine.urbanairship.com,AdBlock
 HOST,device-api.urbanairship.com,AdBlock
 HOST,remote-data.urbanairship.com,AdBlock
 HOST,sbux-dl.urbanairship.com,AdBlock
-HOST,wallet-api.urbanairship.com,AdBlock
 HOST,web-sdk.urbanairship.com,AdBlock
 # [usabilla.com]
 HOST,api.usabilla.com,AdBlock
