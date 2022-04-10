@@ -20,7 +20,6 @@ DOMAIN,tnc3-aliec2.snssdk.com,REJECT
 DOMAIN,is.snssdk.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
 
-DOMAIN,*novelapp.ixigua.com,REJECT
 DOMAIN,msync-im1-vip6-std.easemob.com,REJECT
 
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
@@ -33,6 +32,7 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 
 DOMAIN,*default.ixigua.com,REJECT
 DOMAIN,v6-novelapp.ixigua.com,REJECT
+DOMAIN,*novelapp.ixigua.com,REJECT
 # DOMAIN,v3-default.ixigua.com,REJECT
 # DOMAIN,v9-default.ixigua.com,REJECT
 # DOMAIN,v6-default.ixigua.com,REJECT
