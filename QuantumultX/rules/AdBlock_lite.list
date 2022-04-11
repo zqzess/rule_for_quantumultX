@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-04-04 02:16:09
+# AdBlock rules refresh time: 2022-04-11 02:21:49
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -7215,6 +7215,8 @@ HOST,track.adnetwork.vn,AdBlock
 # [adnium.com]
 HOST,adnium.com,AdBlock
 HOST,a.adnium.com,AdBlock
+# [adnsx.com]
+HOST,prebids.adnsx.com,AdBlock
 # [adnxs-simple.com]
 HOST,nym1-ib.adnxs-simple.com,AdBlock
 # [adnxs.com]
@@ -8171,6 +8173,8 @@ HOST,trk.apperol.com,AdBlock
 # [appflood.com]
 HOST,appflood.com,AdBlock
 HOST,atracking-auto.appflood.com,AdBlock
+# [appflyer.com]
+HOST,inapps.appflyer.com,AdBlock
 # [appgrowth.com]
 HOST,creative-cdn.appgrowth.com,AdBlock
 # [appia.com]
@@ -8336,6 +8340,9 @@ HOST,appdiscovery.apptap.com,AdBlock
 HOST,api.apptentive.com,AdBlock
 HOST,app-icons.apptentive.com,AdBlock
 HOST,sdk.apptentive.com,AdBlock
+# [apptimize.com]
+HOST,brahe.apptimize.com,AdBlock
+HOST,md-a-c.apptimize.com,AdBlock
 # [apptornado.com]
 HOST,apptornado.com,AdBlock
 HOST,applift-a.apptornado.com,AdBlock
@@ -8560,6 +8567,9 @@ HOST,imp-dsp.bidgear.com,AdBlock
 HOST,platform.bidgear.com,AdBlock
 HOST,source.bidgear.com,AdBlock
 HOST,vn-platform.bidgear.com,AdBlock
+# [bidmatrixdsp.com]
+HOST,cdn.bidmatrixdsp.com,AdBlock
+HOST,us-trk.bidmatrixdsp.com,AdBlock
 # [bidr.io]
 HOST,bidr.io,AdBlock
 HOST,media.bidr.io,AdBlock
@@ -10393,6 +10403,7 @@ HOST,googleadservices.com,AdBlock
 HOST,pagead2.googleadservices.com,AdBlock
 # [googleadsserving.cn]
 # [googlesyndication.com]
+HOST,pagead.googlesyndication.com,AdBlock
 # [googleusercontent.com]
 HOST,displayads-formats.googleusercontent.com,AdBlock
 # [gop1.co]
@@ -11033,9 +11044,6 @@ HOST,cdn.jampp.com,AdBlock
 HOST,imgx.jampp.com,AdBlock
 HOST,imp-lb-us2.jampp.com,AdBlock
 HOST,static.jampp.com,AdBlock
-# [jdoqocy.com]
-HOST,jdoqocy.com,AdBlock
-HOST,www.jdoqocy.com,AdBlock
 # [jeeng.com]
 HOST,api.jeeng.com,AdBlock
 HOST,users.api.jeeng.com,AdBlock
@@ -13708,6 +13716,7 @@ HOST,ets-eu-west-1.track.smaato.net,AdBlock
 HOST,ets-us-east-1.track.smaato.net,AdBlock
 HOST,vet-us-east-1.track.smaato.net,AdBlock
 # [smadex.com]
+HOST,smadex.com,AdBlock
 HOST,cm.smadex.com,AdBlock
 HOST,creatives.smadex.com,AdBlock
 HOST,geo-tracker.smadex.com,AdBlock
@@ -15198,6 +15207,8 @@ HOST,identity.api.wmcdp.io,AdBlock
 HOST,logs.psm.wmcdp.io,AdBlock
 # [wonderpush.com]
 HOST,api.wonderpush.com,AdBlock
+# [woobids.com]
+HOST,woobids.com,AdBlock
 # [woopra.com]
 HOST,static.woopra.com,AdBlock
 # [wootric.com]

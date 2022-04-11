@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-04-04 02:16:09
+# AdBlock rules refresh time: 2022-04-11 02:21:49
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -7212,6 +7212,8 @@ DOMAIN,track.adnetwork.vn
 # [adnium.com]
 DOMAIN,adnium.com
 DOMAIN,a.adnium.com
+# [adnsx.com]
+DOMAIN,prebids.adnsx.com
 # [adnxs-simple.com]
 DOMAIN,nym1-ib.adnxs-simple.com
 # [adnxs.com]
@@ -8168,6 +8170,8 @@ DOMAIN,trk.apperol.com
 # [appflood.com]
 DOMAIN,appflood.com
 DOMAIN,atracking-auto.appflood.com
+# [appflyer.com]
+DOMAIN,inapps.appflyer.com
 # [appgrowth.com]
 DOMAIN,creative-cdn.appgrowth.com
 # [appia.com]
@@ -8333,6 +8337,9 @@ DOMAIN,appdiscovery.apptap.com
 DOMAIN,api.apptentive.com
 DOMAIN,app-icons.apptentive.com
 DOMAIN,sdk.apptentive.com
+# [apptimize.com]
+DOMAIN,brahe.apptimize.com
+DOMAIN,md-a-c.apptimize.com
 # [apptornado.com]
 DOMAIN,apptornado.com
 DOMAIN,applift-a.apptornado.com
@@ -8557,6 +8564,9 @@ DOMAIN,imp-dsp.bidgear.com
 DOMAIN,platform.bidgear.com
 DOMAIN,source.bidgear.com
 DOMAIN,vn-platform.bidgear.com
+# [bidmatrixdsp.com]
+DOMAIN,cdn.bidmatrixdsp.com
+DOMAIN,us-trk.bidmatrixdsp.com
 # [bidr.io]
 DOMAIN,bidr.io
 DOMAIN,media.bidr.io
@@ -10390,6 +10400,7 @@ DOMAIN,googleadservices.com
 DOMAIN,pagead2.googleadservices.com
 # [googleadsserving.cn]
 # [googlesyndication.com]
+DOMAIN,pagead.googlesyndication.com
 # [googleusercontent.com]
 DOMAIN,displayads-formats.googleusercontent.com
 # [gop1.co]
@@ -11030,9 +11041,6 @@ DOMAIN,cdn.jampp.com
 DOMAIN,imgx.jampp.com
 DOMAIN,imp-lb-us2.jampp.com
 DOMAIN,static.jampp.com
-# [jdoqocy.com]
-DOMAIN,jdoqocy.com
-DOMAIN,www.jdoqocy.com
 # [jeeng.com]
 DOMAIN,api.jeeng.com
 DOMAIN,users.api.jeeng.com
@@ -13705,6 +13713,7 @@ DOMAIN,ets-eu-west-1.track.smaato.net
 DOMAIN,ets-us-east-1.track.smaato.net
 DOMAIN,vet-us-east-1.track.smaato.net
 # [smadex.com]
+DOMAIN,smadex.com
 DOMAIN,cm.smadex.com
 DOMAIN,creatives.smadex.com
 DOMAIN,geo-tracker.smadex.com
@@ -15195,6 +15204,8 @@ DOMAIN,identity.api.wmcdp.io
 DOMAIN,logs.psm.wmcdp.io
 # [wonderpush.com]
 DOMAIN,api.wonderpush.com
+# [woobids.com]
+DOMAIN,woobids.com
 # [woopra.com]
 DOMAIN,static.woopra.com
 # [wootric.com]
