@@ -8572,6 +8572,7 @@ HOST,d.applovin.com,AdBlock
 HOST,dash.applovin.com,AdBlock
 HOST,img.applovin.com,AdBlock
 HOST,ms.applovin.com,AdBlock
+HOST,ms4.applovin.com,AdBlock
 HOST,pdn.applovin.com,AdBlock
 HOST,prod-a.applovin.com,AdBlock
 HOST,prod-bid.applovin.com,AdBlock
@@ -9411,10 +9412,6 @@ HOST,mxase.clmbtech.com,AdBlock
 HOST,tml.clmbtech.com,AdBlock
 # [cloud-elements.com]
 HOST,g2c.cloud-elements.com,AdBlock
-# [ailoganalyticsportal-eus.cloudapp.net]
-HOST,ailoganalyticsportal-eus.cloudapp.net,AdBlock
-# [bi-analytics.cloudapp.net]
-HOST,bi-analytics.cloudapp.net,AdBlock
 # [clouddn.com]
 HOST,bkt.clouddn.com,AdBlock
 # [cloudflarebolt.com]
@@ -9423,8 +9420,6 @@ HOST,metrics.cloudflarebolt.com,AdBlock
 HOST,static.cloudflareinsights.com,AdBlock
 # [us-central1-adaptive-growth.cloudfunctions.net]
 HOST,us-central1-adaptive-growth.cloudfunctions.net,AdBlock
-# [us-central1-production-242307.cloudfunctions.net]
-HOST,us-central1-production-242307.cloudfunctions.net,AdBlock
 # [cloudmobi.net]
 HOST,cloudmobi.net,AdBlock
 HOST,api.cloudmobi.net,AdBlock
@@ -11635,10 +11630,6 @@ HOST,a.klaviyo.com,AdBlock
 HOST,fast.a.klaviyo.com,AdBlock
 HOST,static.klaviyo.com,AdBlock
 HOST,telemetrics.klaviyo.com,AdBlock
-# [klclick2.com]
-HOST,trk.klclick2.com,AdBlock
-# [klclick3.com]
-HOST,trk.klclick3.com,AdBlock
 # [kmpmedia.net]
 HOST,gplayer.kmpmedia.net,AdBlock
 HOST,update.kmpmedia.net,AdBlock
@@ -12378,7 +12369,6 @@ HOST,ssp.send.microadinc.com,AdBlock
 # [microsoft.com]
 HOST,bingads.microsoft.com,AdBlock
 HOST,advertise.bingads.microsoft.com,AdBlock
-HOST,c1.microsoft.com,AdBlock
 # [midasplayer.com]
 HOST,adtrack1.midasplayer.com,AdBlock
 # [midosoo.com]
@@ -12807,7 +12797,6 @@ HOST,b.ads1.msn.com,AdBlock
 HOST,ads2.msn.com,AdBlock
 HOST,a.ads2.msn.com,AdBlock
 HOST,c.msn.com,AdBlock
-HOST,browser.events.data.msn.com,AdBlock
 HOST,mobileads.msn.com,AdBlock
 HOST,rads.msn.com,AdBlock
 HOST,srtb.msn.com,AdBlock
@@ -15854,8 +15843,6 @@ HOST,ad-display.wikawika.xyz,AdBlock
 # [wildtangent.com]
 HOST,analytics.wildtangent.com,AdBlock
 HOST,mobile.analytics.wildtangent.com,AdBlock
-# [windows.net]
-HOST,optanon.blob.core.windows.net,AdBlock
 # [winudf.com]
 HOST,tracker.winudf.com,AdBlock
 # [wirelessregistry.com]

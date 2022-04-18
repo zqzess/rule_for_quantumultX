@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-04-11 02:21:49
+# AdBlock rules refresh time: 2022-04-18 02:31:26
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -8224,6 +8224,7 @@ DOMAIN,assets.applovin.com
 DOMAIN,dash.applovin.com
 DOMAIN,img.applovin.com
 DOMAIN,ms.applovin.com
+DOMAIN,ms4.applovin.com
 DOMAIN,prod-a.applovin.com
 DOMAIN,prod-bid.applovin.com
 DOMAIN,prod-ms.applovin.com
@@ -9046,10 +9047,6 @@ DOMAIN,mxase.clmbtech.com
 DOMAIN,tml.clmbtech.com
 # [cloud-elements.com]
 DOMAIN,g2c.cloud-elements.com
-# [ailoganalyticsportal-eus.cloudapp.net]
-DOMAIN,ailoganalyticsportal-eus.cloudapp.net
-# [bi-analytics.cloudapp.net]
-DOMAIN,bi-analytics.cloudapp.net
 # [clouddn.com]
 DOMAIN,bkt.clouddn.com
 # [cloudflarebolt.com]
@@ -9058,8 +9055,6 @@ DOMAIN,metrics.cloudflarebolt.com
 DOMAIN,static.cloudflareinsights.com
 # [us-central1-adaptive-growth.cloudfunctions.net]
 DOMAIN,us-central1-adaptive-growth.cloudfunctions.net
-# [us-central1-production-242307.cloudfunctions.net]
-DOMAIN,us-central1-production-242307.cloudfunctions.net
 # [cloudmobi.net]
 DOMAIN,cloudmobi.net
 DOMAIN,api.cloudmobi.net
@@ -11183,10 +11178,6 @@ DOMAIN,a.klaviyo.com
 DOMAIN,fast.a.klaviyo.com
 DOMAIN,static.klaviyo.com
 DOMAIN,telemetrics.klaviyo.com
-# [klclick2.com]
-DOMAIN,trk.klclick2.com
-# [klclick3.com]
-DOMAIN,trk.klclick3.com
 # [kmpmedia.net]
 DOMAIN,gplayer.kmpmedia.net
 DOMAIN,update.kmpmedia.net
@@ -11888,7 +11879,6 @@ DOMAIN,ssp.send.microadinc.com
 # [microsoft.com]
 DOMAIN,bingads.microsoft.com
 DOMAIN,advertise.bingads.microsoft.com
-DOMAIN,c1.microsoft.com
 # [midasplayer.com]
 DOMAIN,adtrack1.midasplayer.com
 # [midosoo.com]
@@ -12289,7 +12279,6 @@ DOMAIN,msads.net
 DOMAIN,a.ads1.msn.com
 DOMAIN,b.ads1.msn.com
 DOMAIN,a.ads2.msn.com
-DOMAIN,browser.events.data.msn.com
 DOMAIN,rads.msn.com
 DOMAIN,srtb.msn.com
 # [msstatic.com]
@@ -15189,8 +15178,6 @@ DOMAIN,ad-display.wikawika.xyz
 # [wildtangent.com]
 DOMAIN,analytics.wildtangent.com
 DOMAIN,mobile.analytics.wildtangent.com
-# [windows.net]
-DOMAIN,optanon.blob.core.windows.net
 # [winudf.com]
 DOMAIN,tracker.winudf.com
 # [wirelessregistry.com]
