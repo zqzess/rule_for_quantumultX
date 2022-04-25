@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-04-18 02:31:26
+# AdBlock rules refresh time: 2022-04-25 02:26:01
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -7867,7 +7867,6 @@ DOMAIN,fvalid.appsflyer.com.akamaized.net
 DOMAIN,jioads.akamaized.net
 DOMAIN,abcd.mdc.akamaized.net
 DOMAIN,speee-ad.akamaized.net
-DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
 # [akisinn.info]
 DOMAIN,co.akisinn.info
 DOMAIN,int.akisinn.info
@@ -14938,12 +14937,6 @@ DOMAIN,t.vi-serve.com
 DOMAIN,vis.vi-serve.com
 # [viacom.tech]
 DOMAIN,events-collector-api.viacom.tech
-# [viafoura.co]
-DOMAIN,api.viafoura.co
-DOMAIN,realtimeeventfeeds.viafoura.co
-DOMAIN,sub.viafoura.co
-# [viafoura.net]
-DOMAIN,cdn.viafoura.net
 # [viantsuite.com]
 DOMAIN,sdk.viantsuite.com
 # [viber.com]
