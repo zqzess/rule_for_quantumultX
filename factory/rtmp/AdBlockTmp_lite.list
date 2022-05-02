@@ -2012,8 +2012,8 @@ HOST-SUFFIX,yingkeduo.cn,AdBlock
 HOST-SUFFIX,yingkepj.cn,AdBlock
 HOST-SUFFIX,yinhaijuan.com,AdBlock
 HOST-SUFFIX,yinoo.cn,AdBlock
-#----------------------------------------
-#-----------------------------------------
+#---------------------------------------------
+#---------------------------------------------
 HOST,is.snssdk.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,pv.sohu.com,AdBlock
@@ -2288,9 +2288,6 @@ HOST,openstorage.ad.cmvideo.cn,AdBlock
 HOST,ggx01.miguvideo.com,AdBlock
 HOST,ggx02.miguvideo.com,AdBlock
 HOST,ggx10.miguvideo.com,AdBlock
-HOST,at-img1.tdimg.com,AdBlock
-HOST,at-img2.tdimg.com,AdBlock
-HOST,at-img3.tdimg.com,AdBlock
 HOST,dcads.sina.com.cn,AdBlock
 HOST,acs.56.com,AdBlock
 HOST,acs.agent.56.com,AdBlock
@@ -2461,8 +2458,6 @@ HOST,ort.stsdk.vivo.com.cn,AdBlock
 HOST,pnrt.stsdk.vivo.com.cn,AdBlock
 HOST,prt.stsdk.vivo.com.cn,AdBlock
 HOST,vcardsdkservice.vivo.com.cn,AdBlock
-HOST,img.xuwnz.cn,AdBlock
-HOST,img.srxjz.cn,AdBlock
 HOST,m.shilian168.cn,AdBlock
 HOST,m.zdjgj.cn,AdBlock
 HOST,ee.j5s9b.cn,AdBlock
@@ -2771,6 +2766,7 @@ HOST,dspimg.adsame.com,AdBlock
 HOST,app-tj.adinall.com,AdBlock
 HOST,g.koowo.com,AdBlock
 HOST,mobilead.kuwo.cn,AdBlock
+HOST,nmobi.kuwo.cn,AdBlock
 HOST,splashimgbssdl.yun.kugou.com,AdBlock
 HOST,m1.ad.10010.com,AdBlock
 HOST,config.unityads.unitychina.cn,AdBlock
@@ -2785,10 +2781,6 @@ HOST,gd-stats.jpush.cn,AdBlock
 HOST,tsis.jpush.cn,AdBlock
 HOST,bjuser.jpush.cn,AdBlock
 HOST,s.jpush.cn,AdBlock
-HOST,nmobi.kuwo.cn,AdBlock
-HOST,ddt02.shenghao88.top,AdBlock
-HOST,qlaops3.jndxwl.com,AdBlock
-HOST,apid.feikaiwadingguan.com,AdBlock
 HOST,ads.google.com,AdBlock
 HOST,www.googleadservices.com,AdBlock
 HOST,google-analytics.com,AdBlock
@@ -2796,8 +2788,10 @@ HOST,www.google-analytics.com,AdBlock
 HOST,www.googletagmanager.com,AdBlock
 HOST,googlesyndication.com,AdBlock
 HOST,pagead2.googlesyndication.com,AdBlock
+HOST,pagead2.googleadservices.com,AdBlock
 HOST,ade.googlesyndication.com,AdBlock
 HOST,adservice.google.com,AdBlock
+HOST,adservice.google.com.au,AdBlock
 HOST,ads.traffichunt.com,AdBlock
 HOST,googleads.g.doubleclick.net,AdBlock
 HOST,tpc.googlesyndication.com,AdBlock
@@ -3122,7 +3116,6 @@ HOST,android.bugly.qq.com,AdBlock
 HOST,api.poll.aiseet.atianqi.com,AdBlock
 HOST,btrace.qq.com,AdBlock
 HOST,otheve.beacon.qq.com,AdBlock
-HOST,log.tbs.qq.com,AdBlock
 HOST,tools.3g.qq.com,AdBlock
 HOST,oth.str.mdt.qq.com,AdBlock
 HOST,oth.eve.mdt.qq.com,AdBlock
@@ -3186,8 +3179,6 @@ HOST,audid-api.taobao.com,AdBlock
 HOST,adashx4yt.m.taobao.com,AdBlock
 HOST,h-adashx4yt.ut.taobao.com,AdBlock
 HOST,umdc.aliapp.org,AdBlock
-HOST,gaode-acs.m.taobao.com,AdBlock
-HOST,gaode-jmacs.m.taobao.com,AdBlock
 HOST,iqiyi.irs01.com,AdBlock
 HOST,letv.irs01.com,AdBlock
 HOST,s9.irs03.com,AdBlock
@@ -9924,6 +9915,7 @@ HOST,fandangollc.demdex.net,AdBlock
 HOST,foxnet.demdex.net,AdBlock
 HOST,foxnews.demdex.net,AdBlock
 HOST,gannett.demdex.net,AdBlock
+HOST,iqdigital.demdex.net,AdBlock
 HOST,fast.mtvn.demdex.net,AdBlock
 HOST,nbcu.demdex.net,AdBlock
 HOST,pepsico.demdex.net,AdBlock
@@ -13046,6 +13038,7 @@ HOST,carfax.sc.omtrdc.net,AdBlock
 HOST,coxcommunications.sc.omtrdc.net,AdBlock
 HOST,fox.com.ssl.d2.sc.omtrdc.net,AdBlock
 HOST,philipslighting.d3.sc.omtrdc.net,AdBlock
+HOST,deutschebahn.sc.omtrdc.net,AdBlock
 HOST,kroger.sc.omtrdc.net,AdBlock
 HOST,nbcstreaming.sc.omtrdc.net,AdBlock
 HOST,nbcume.sc.omtrdc.net,AdBlock
@@ -13879,9 +13872,6 @@ HOST,metric-android-am.road404.com,AdBlock
 # [roblox.com]
 HOST,ads.roblox.com,AdBlock
 HOST,metrics.roblox.com,AdBlock
-# [rocketreach.co]
-HOST,rocketreach.co,AdBlock
-HOST,static.rocketreach.co,AdBlock
 # [rogersmedia.com]
 HOST,analytics.rogersmedia.com,AdBlock
 # [roku.com]
@@ -13911,8 +13901,6 @@ HOST,static.rqmob.com,AdBlock
 HOST,dmp.rtbsrv.com,AdBlock
 # [rtk.io]
 HOST,bidder.rtk.io,AdBlock
-# [rtmark.net]
-HOST,my.rtmark.net,AdBlock
 # [rubiconproject.com]
 HOST,ads.rubiconproject.com,AdBlock
 HOST,aws.rubiconproject.com,AdBlock
@@ -13977,10 +13965,6 @@ HOST,onetag-geo-grouping.s-onetag.com,AdBlock
 HOST,prebid.s-onetag.com,AdBlock
 HOST,signal-beacon.s-onetag.com,AdBlock
 HOST,signal-metrics-collector-beta.s-onetag.com,AdBlock
-# [s3xified.com]
-HOST,pixel.s3xified.com,AdBlock
-# [sa-as.com]
-HOST,stats.sa-as.com,AdBlock
 # [safedk.com]
 HOST,api.safedk.com,AdBlock
 HOST,config.safedk.com,AdBlock
@@ -15922,6 +15906,7 @@ HOST,log.ad.xiaomi.com,AdBlock
 HOST,sdkconfig.ad.xiaomi.com,AdBlock
 HOST,track.ad.xiaomi.com,AdBlock
 HOST,zeus.ad.xiaomi.com,AdBlock
+HOST,sdkconfig.ad.india.xiaomi.com,AdBlock
 HOST,data.mistat.india.xiaomi.com,AdBlock
 HOST,api.ad.intl.xiaomi.com,AdBlock
 HOST,diagnosis.ad.intl.xiaomi.com,AdBlock

@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-04-25 02:26:01
+# AdBlock rules refresh time: 2022-05-02 02:54:48
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -2013,8 +2013,7 @@ DOMAIN-SUFFIX,yingkeduo.cn
 DOMAIN-SUFFIX,yingkepj.cn
 DOMAIN-SUFFIX,yinhaijuan.com
 DOMAIN-SUFFIX,yinoo.cn
-#----------------------------------------
-#-----------------------------------------
+#---------------------------------------------
 DOMAIN,is.snssdk.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,pv.sohu.com
@@ -2279,9 +2278,6 @@ DOMAIN,openstorage.ad.cmvideo.cn
 DOMAIN,ggx01.miguvideo.com
 DOMAIN,ggx02.miguvideo.com
 DOMAIN,ggx10.miguvideo.com
-DOMAIN,at-img1.tdimg.com
-DOMAIN,at-img2.tdimg.com
-DOMAIN,at-img3.tdimg.com
 DOMAIN,dcads.sina.com.cn
 DOMAIN,acs.56.com
 DOMAIN,acs.agent.56.com
@@ -2448,8 +2444,6 @@ DOMAIN,ort.stsdk.vivo.com.cn
 DOMAIN,pnrt.stsdk.vivo.com.cn
 DOMAIN,prt.stsdk.vivo.com.cn
 DOMAIN,vcardsdkservice.vivo.com.cn
-DOMAIN,img.xuwnz.cn
-DOMAIN,img.srxjz.cn
 DOMAIN,m.shilian168.cn
 DOMAIN,m.zdjgj.cn
 DOMAIN,ee.j5s9b.cn
@@ -2756,6 +2750,7 @@ DOMAIN,dspimg.adsame.com
 DOMAIN,app-tj.adinall.com
 DOMAIN,g.koowo.com
 DOMAIN,mobilead.kuwo.cn
+DOMAIN,nmobi.kuwo.cn
 DOMAIN,splashimgbssdl.yun.kugou.com
 DOMAIN,m1.ad.10010.com
 DOMAIN,config.unityads.unitychina.cn
@@ -2770,10 +2765,6 @@ DOMAIN,gd-stats.jpush.cn
 DOMAIN,tsis.jpush.cn
 DOMAIN,bjuser.jpush.cn
 DOMAIN,s.jpush.cn
-DOMAIN,nmobi.kuwo.cn
-DOMAIN,ddt02.shenghao88.top
-DOMAIN,qlaops3.jndxwl.com
-DOMAIN,apid.feikaiwadingguan.com
 DOMAIN,ads.google.com
 DOMAIN,www.googleadservices.com
 DOMAIN,google-analytics.com
@@ -2781,8 +2772,10 @@ DOMAIN,www.google-analytics.com
 DOMAIN,www.googletagmanager.com
 DOMAIN,googlesyndication.com
 DOMAIN,pagead2.googlesyndication.com
+DOMAIN,pagead2.googleadservices.com
 DOMAIN,ade.googlesyndication.com
 DOMAIN,adservice.google.com
+DOMAIN,adservice.google.com.au
 DOMAIN,ads.traffichunt.com
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,tpc.googlesyndication.com
@@ -3083,7 +3076,6 @@ DOMAIN,android.bugly.qq.com
 DOMAIN,api.poll.aiseet.atianqi.com
 DOMAIN,btrace.qq.com
 DOMAIN,otheve.beacon.qq.com
-DOMAIN,log.tbs.qq.com
 DOMAIN,tools.3g.qq.com
 DOMAIN,oth.str.mdt.qq.com
 DOMAIN,oth.eve.mdt.qq.com
@@ -3143,8 +3135,6 @@ DOMAIN,audid-api.taobao.com
 DOMAIN,adashx4yt.m.taobao.com
 DOMAIN,h-adashx4yt.ut.taobao.com
 DOMAIN,umdc.aliapp.org
-DOMAIN,gaode-acs.m.taobao.com
-DOMAIN,gaode-jmacs.m.taobao.com
 DOMAIN,iqiyi.irs01.com
 DOMAIN,letv.irs01.com
 DOMAIN,s9.irs03.com
@@ -9542,6 +9532,7 @@ DOMAIN,fandangollc.demdex.net
 DOMAIN,foxnet.demdex.net
 DOMAIN,foxnews.demdex.net
 DOMAIN,gannett.demdex.net
+DOMAIN,iqdigital.demdex.net
 DOMAIN,fast.mtvn.demdex.net
 DOMAIN,nbcu.demdex.net
 DOMAIN,pepsico.demdex.net
@@ -10391,7 +10382,6 @@ DOMAIN,secure.gooddata.com
 DOMAIN,s0-2mdn-net.l.google.com
 # [googleadservices.com]
 DOMAIN,googleadservices.com
-DOMAIN,pagead2.googleadservices.com
 # [googleadsserving.cn]
 # [googlesyndication.com]
 DOMAIN,pagead.googlesyndication.com
@@ -12522,6 +12512,7 @@ DOMAIN,carfax.sc.omtrdc.net
 DOMAIN,coxcommunications.sc.omtrdc.net
 DOMAIN,fox.com.ssl.d2.sc.omtrdc.net
 DOMAIN,philipslighting.d3.sc.omtrdc.net
+DOMAIN,deutschebahn.sc.omtrdc.net
 DOMAIN,kroger.sc.omtrdc.net
 DOMAIN,nbcstreaming.sc.omtrdc.net
 DOMAIN,nbcume.sc.omtrdc.net
@@ -13092,6 +13083,7 @@ DOMAIN,report.qq.com
 DOMAIN,rs1.qq.com
 DOMAIN,rs2.qq.com
 DOMAIN,tajs.qq.com
+DOMAIN,log.tbs.qq.com
 DOMAIN,tcss.qq.com
 DOMAIN,trace.qq.com
 DOMAIN,monitor.uu.qq.com
@@ -13310,9 +13302,6 @@ DOMAIN,metric-android-am.road404.com
 # [roblox.com]
 DOMAIN,ads.roblox.com
 DOMAIN,metrics.roblox.com
-# [rocketreach.co]
-DOMAIN,rocketreach.co
-DOMAIN,static.rocketreach.co
 # [rogersmedia.com]
 DOMAIN,analytics.rogersmedia.com
 # [roku.com]
@@ -13342,7 +13331,6 @@ DOMAIN,static.rqmob.com
 DOMAIN,dmp.rtbsrv.com
 # [rtk.io]
 DOMAIN,bidder.rtk.io
-# [rtmark.net]
 # [rubiconproject.com]
 DOMAIN,ads.rubiconproject.com
 DOMAIN,aws.rubiconproject.com
@@ -13404,10 +13392,6 @@ DOMAIN,onetag-geo-grouping.s-onetag.com
 DOMAIN,prebid.s-onetag.com
 DOMAIN,signal-beacon.s-onetag.com
 DOMAIN,signal-metrics-collector-beta.s-onetag.com
-# [s3xified.com]
-DOMAIN,pixel.s3xified.com
-# [sa-as.com]
-DOMAIN,stats.sa-as.com
 # [safedk.com]
 DOMAIN,api.safedk.com
 DOMAIN,config.safedk.com
@@ -15246,6 +15230,7 @@ DOMAIN,resources.xg4ken.com
 DOMAIN,collector.xhamster.com
 # [xiaomi.com]
 DOMAIN,track.ad.xiaomi.com
+DOMAIN,sdkconfig.ad.india.xiaomi.com
 DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,api.ad.intl.xiaomi.com
 DOMAIN,diagnosis.ad.intl.xiaomi.com
