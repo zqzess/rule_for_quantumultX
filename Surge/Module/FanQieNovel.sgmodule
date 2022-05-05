@@ -8,9 +8,10 @@ DOMAIN-SUFFIX,byteimg.com,DIRECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
-DOMAIN,ads3-normal-lq.zijieapi.com,REJECT
-DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
-DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
+DOMAIN-KEYWORD,zijieapi,REJECT
+# DOMAIN,ads3-normal-lq.zijieapi.com,REJECT
+# DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
+# DOMAIN,polaris3-normal-lq.zijieapi.com,REJECT
 DOMAIN,activity-ag.awemeughun.com,REJECT
 
 DOMAIN,mcs.snssdk.com,REJECT

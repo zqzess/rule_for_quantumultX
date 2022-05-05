@@ -78,9 +78,7 @@ host,p6-ad-sign.byteimg.com,reject
 host,p9-ad-sign.byteimg.com,reject
 host-suffix,byteimg.com,direct
 host,dig.bdurl.net,reject
-host,ads3-normal-lq.zijieapi.com,reject
-host,ads5-normal-lq.zijieapi.com,reject
-host,polaris3-normal-lq.zijieapi.com,reject
+host-keyword,zijieapi,reject
 host,mcs.snssdk.com,reject
 host,tnc3-alisc1.snssdk.com,reject
 host,security-lq.snssdk.com,reject
