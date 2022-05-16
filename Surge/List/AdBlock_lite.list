@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-05-09 02:32:21
+# AdBlock rules refresh time: 2022-05-16 02:15:47
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -7903,6 +7903,7 @@ DOMAIN,am15.net
 DOMAIN,amazon-adsystem.com
 DOMAIN,aax-eu-retail-direct.amazon-adsystem.com
 DOMAIN,aax-us.amazon-adsystem.com
+DOMAIN,aax-us-east-retail-direct.amazon-adsystem.com
 DOMAIN,cdn-a.amazon-adsystem.com
 DOMAIN,fls-eu.amazon-adsystem.com
 DOMAIN,fls-fe.amazon-adsystem.com
@@ -7912,6 +7913,7 @@ DOMAIN,z-eu.amazon-adsystem.com
 DOMAIN,z-na.amazon-adsystem.com
 # [amazon.com]
 DOMAIN,aan.amazon.com
+DOMAIN,aax-us-east-retail-direct.amazon.com
 DOMAIN,fls-na.amazon.com
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 DOMAIN,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
@@ -10870,8 +10872,6 @@ DOMAIN,video.inskinad.com
 DOMAIN,cdn.inspectlet.com
 DOMAIN,hn.inspectlet.com
 DOMAIN,ws.inspectlet.com
-# [instabug.com]
-DOMAIN,api.instabug.com
 # [instana.io]
 DOMAIN,eum-orange-saas.instana.io
 # [integromat.com]
@@ -10909,10 +10909,6 @@ DOMAIN,pnapi.invoca.net
 # [invocacdn.com]
 DOMAIN,invocacdn.com
 DOMAIN,solutions.invocacdn.com
-# [ioam.de]
-DOMAIN,config.ioam.de
-DOMAIN,irqs.ioam.de
-DOMAIN,script.ioam.de
 # [iosappsworld.com]
 DOMAIN,ads.iosappsworld.com
 # [iovation.com]
@@ -11524,8 +11520,6 @@ DOMAIN,resize.mantisadnetwork.com
 DOMAIN,resizer.mantisadnetwork.com
 # [manychat.com]
 DOMAIN,widget.manychat.com
-# [mapbox.com]
-DOMAIN,events.mapbox.com
 # [marfeel.com]
 DOMAIN,marfeel.com
 DOMAIN,bc.marfeel.com
@@ -12740,8 +12734,6 @@ DOMAIN,log.particlenews.com
 # [paypal.com]
 DOMAIN,b.stats.paypal.com
 DOMAIN,slc.stats.paypal.com
-# [pcgamer.com]
-DOMAIN,hawk.pcgamer.com
 # [pdbarea.com]
 DOMAIN,ads.pdbarea.com
 DOMAIN,api.pdbarea.com
@@ -15231,13 +15223,10 @@ DOMAIN,collector.xhamster.com
 # [xiaomi.com]
 DOMAIN,track.ad.xiaomi.com
 DOMAIN,sdkconfig.ad.india.xiaomi.com
-DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,api.ad.intl.xiaomi.com
 DOMAIN,diagnosis.ad.intl.xiaomi.com
 DOMAIN,sdkconfig.ad.intl.xiaomi.com
 DOMAIN,zeus.ad.intl.xiaomi.com
-DOMAIN,data.mistat.intl.xiaomi.com
-DOMAIN,data.mistat.rus.xiaomi.com
 # [xiaoying.co]
 DOMAIN,ad-sdk.altamob.xiaoying.co
 # [ximad.com]

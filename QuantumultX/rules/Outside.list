@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2022-05-09 02:32:22
+# Outside rules refresh time: 2022-05-16 02:15:49
 
 HOST,voice.telephony.goog,Outside
 
@@ -50,6 +50,7 @@ HOST-SUFFIX,tdesktop.com,Outside
 HOST-SUFFIX,telegra.ph,Outside
 HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
+HOST-SUFFIX,telegram-cdn.org,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
@@ -682,6 +683,8 @@ HOST-KEYWORD,instagram,Outside
 HOST-KEYWORD,twitter,Outside
 HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
+HOST-SUFFIX,google.cn,Outside
+HOST-SUFFIX,google.com,Outside
 HOST-SUFFIX,1e100.net,Outside
 HOST-SUFFIX,2mdn.net,Outside
 HOST-SUFFIX,abc.xyz,Outside
@@ -9510,7 +9513,6 @@ HOST-SUFFIX,google.ch,Outside
 HOST-SUFFIX,google.ci,Outside
 HOST-SUFFIX,google.cl,Outside
 HOST-SUFFIX,google.cm,Outside
-HOST-SUFFIX,google.cn,Outside
 HOST-SUFFIX,google.co.ao,Outside
 HOST-SUFFIX,google.co.bw,Outside
 HOST-SUFFIX,google.co.ck,Outside
@@ -9535,7 +9537,6 @@ HOST-SUFFIX,google.co.vi,Outside
 HOST-SUFFIX,google.co.za,Outside
 HOST-SUFFIX,google.co.zm,Outside
 HOST-SUFFIX,google.co.zw,Outside
-HOST-SUFFIX,google.com,Outside
 HOST-SUFFIX,google.com.af,Outside
 HOST-SUFFIX,google.com.ag,Outside
 HOST-SUFFIX,google.com.ai,Outside
@@ -10196,7 +10197,6 @@ HOST-SUFFIX,hentai.as,Outside
 HOST-SUFFIX,hentai.to,Outside
 HOST-SUFFIX,hentai.xxx,Outside
 HOST-SUFFIX,hentai4manga.com,Outside
-HOST-SUFFIX,hentaicloud.com,Outside
 HOST-SUFFIX,hentaifox.com,Outside
 HOST-SUFFIX,hentaigasm.com,Outside
 HOST-SUFFIX,hentaihaven.org,Outside
@@ -11561,7 +11561,6 @@ HOST-SUFFIX,jin321.com,Outside
 HOST-SUFFIX,jinbushe.org,Outside
 HOST-SUFFIX,jing1155.com,Outside
 HOST-SUFFIX,jing444444.com,Outside
-HOST-SUFFIX,jingbets.com,Outside
 HOST-SUFFIX,jingking.net,Outside
 HOST-SUFFIX,jingling.me,Outside
 HOST-SUFFIX,jingpin.org,Outside

@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-04-30 02:15:41
-# HOST-SUFFIX: 25574
+# UPDATED: 2022-05-13 02:13:56
+# HOST-SUFFIX: 25573
 # USER-AGENT: 44
-# HOST: 33
+# HOST: 32
 # HOST-KEYWORD: 45
 # IP-CIDR: 110
 # IP6-CIDR: 4
-# TOTAL: 25810
+# TOTAL: 25808
 HOST,addons.mozilla.org,Global
 HOST,amp-api.podcasts.apple.com,Global
 HOST,api.waqi.info,Global
@@ -28,7 +28,6 @@ HOST,devstreaming-cdn.apple.com,Global
 HOST,ds-linear-abematv.akamaized.net,Global
 HOST,ds-vod-abematv.akamaized.net,Global
 HOST,edge.api.brightcove.com,Global
-HOST,gateway.icloud.com,Global
 HOST,hamifans.emome.net,Global
 HOST,js-cdn.music.apple.com,Global
 HOST,kktv-theater.kk.stream,Global
@@ -9718,7 +9717,6 @@ HOST-SUFFIX,hentai.as,Global
 HOST-SUFFIX,hentai.to,Global
 HOST-SUFFIX,hentai.xxx,Global
 HOST-SUFFIX,hentai4manga.com,Global
-HOST-SUFFIX,hentaicloud.com,Global
 HOST-SUFFIX,hentaifox.com,Global
 HOST-SUFFIX,hentaigasm.com,Global
 HOST-SUFFIX,hentaihaven.org,Global
@@ -11130,7 +11128,6 @@ HOST-SUFFIX,jin321.com,Global
 HOST-SUFFIX,jinbushe.org,Global
 HOST-SUFFIX,jing1155.com,Global
 HOST-SUFFIX,jing444444.com,Global
-HOST-SUFFIX,jingbets.com,Global
 HOST-SUFFIX,jingking.net,Global
 HOST-SUFFIX,jingling.me,Global
 HOST-SUFFIX,jingpin.org,Global
@@ -17630,6 +17627,7 @@ HOST-SUFFIX,telecom-cafe.com,Global
 HOST-SUFFIX,telecomspace.com,Global
 HOST-SUFFIX,teleconomiser.com,Global
 HOST-SUFFIX,telegra.ph,Global
+HOST-SUFFIX,telegram-cdn.org,Global
 HOST-SUFFIX,telegram.dog,Global
 HOST-SUFFIX,telegram.me,Global
 HOST-SUFFIX,telegram.org,Global

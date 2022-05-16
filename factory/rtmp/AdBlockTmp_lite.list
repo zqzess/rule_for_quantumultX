@@ -8243,6 +8243,7 @@ HOST,aax-fe.amazon-adsystem.com,AdBlock
 HOST,aax-fe-sin.amazon-adsystem.com,AdBlock
 HOST,aax-us.amazon-adsystem.com,AdBlock
 HOST,aax-us-east.amazon-adsystem.com,AdBlock
+HOST,aax-us-east-retail-direct.amazon-adsystem.com,AdBlock
 HOST,c.amazon-adsystem.com,AdBlock
 HOST,cdn-a.amazon-adsystem.com,AdBlock
 HOST,fls-eu.amazon-adsystem.com,AdBlock
@@ -8256,6 +8257,7 @@ HOST,z-eu.amazon-adsystem.com,AdBlock
 HOST,z-na.amazon-adsystem.com,AdBlock
 # [amazon.com]
 HOST,aan.amazon.com,AdBlock
+HOST,aax-us-east-retail-direct.amazon.com,AdBlock
 HOST,fls-na.amazon.com,AdBlock
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 HOST,ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com,AdBlock
@@ -11318,8 +11320,6 @@ HOST,video.inskinad.com,AdBlock
 HOST,cdn.inspectlet.com,AdBlock
 HOST,hn.inspectlet.com,AdBlock
 HOST,ws.inspectlet.com,AdBlock
-# [instabug.com]
-HOST,api.instabug.com,AdBlock
 # [instana.io]
 HOST,eum-orange-saas.instana.io,AdBlock
 # [integromat.com]
@@ -11357,10 +11357,6 @@ HOST,pnapi.invoca.net,AdBlock
 # [invocacdn.com]
 HOST,invocacdn.com,AdBlock
 HOST,solutions.invocacdn.com,AdBlock
-# [ioam.de]
-HOST,config.ioam.de,AdBlock
-HOST,irqs.ioam.de,AdBlock
-HOST,script.ioam.de,AdBlock
 # [iosappsworld.com]
 HOST,ads.iosappsworld.com,AdBlock
 # [iovation.com]
@@ -11986,8 +11982,6 @@ HOST,resize.mantisadnetwork.com,AdBlock
 HOST,resizer.mantisadnetwork.com,AdBlock
 # [manychat.com]
 HOST,widget.manychat.com,AdBlock
-# [mapbox.com]
-HOST,events.mapbox.com,AdBlock
 # [marfeel.com]
 HOST,marfeel.com,AdBlock
 HOST,bc.marfeel.com,AdBlock
@@ -12377,7 +12371,6 @@ HOST,tracking.india.miui.com,AdBlock
 HOST,sa.api.intl.miui.com,AdBlock
 HOST,tracking.intl.miui.com,AdBlock
 HOST,tracking.rus.miui.com,AdBlock
-HOST,api.sec.miui.com,AdBlock
 HOST,logupdate.avlyun.sec.miui.com,AdBlock
 HOST,tracking.miui.com,AdBlock
 HOST,fcanr.tracking.miui.com,AdBlock
@@ -13273,8 +13266,6 @@ HOST,log.particlenews.com,AdBlock
 # [paypal.com]
 HOST,b.stats.paypal.com,AdBlock
 HOST,slc.stats.paypal.com,AdBlock
-# [pcgamer.com]
-HOST,hawk.pcgamer.com,AdBlock
 # [pdbarea.com]
 HOST,ads.pdbarea.com,AdBlock
 HOST,api.pdbarea.com,AdBlock
@@ -15907,13 +15898,10 @@ HOST,sdkconfig.ad.xiaomi.com,AdBlock
 HOST,track.ad.xiaomi.com,AdBlock
 HOST,zeus.ad.xiaomi.com,AdBlock
 HOST,sdkconfig.ad.india.xiaomi.com,AdBlock
-HOST,data.mistat.india.xiaomi.com,AdBlock
 HOST,api.ad.intl.xiaomi.com,AdBlock
 HOST,diagnosis.ad.intl.xiaomi.com,AdBlock
 HOST,sdkconfig.ad.intl.xiaomi.com,AdBlock
 HOST,zeus.ad.intl.xiaomi.com,AdBlock
-HOST,data.mistat.intl.xiaomi.com,AdBlock
-HOST,data.mistat.rus.xiaomi.com,AdBlock
 # [xiaoying.co]
 HOST,ad-sdk.altamob.xiaoying.co,AdBlock
 # [ximad.com]

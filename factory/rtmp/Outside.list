@@ -66,6 +66,7 @@ HOST-SUFFIX,tdesktop.com,Outside
 HOST-SUFFIX,telegra.ph,Outside
 HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
+HOST-SUFFIX,telegram-cdn.org,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
@@ -715,6 +716,8 @@ HOST-KEYWORD,instagram,Outside
 HOST-KEYWORD,twitter,Outside
 HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
+HOST-SUFFIX,google.cn,Outside
+HOST-SUFFIX,google.com,Outside
 HOST-SUFFIX,1e100.net,Outside
 HOST-SUFFIX,2mdn.net,Outside
 HOST-SUFFIX,abc.xyz,Outside
