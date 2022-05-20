@@ -58,14 +58,14 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.PUSH_TOKEN }}
       
-      #推送更新至gitee
-      - name: Mirror the Github organization repos to Gitee.
-        uses: wearerequired/git-mirror-action@master
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-        with:
-          source-repo: "git@github.com:zqzess/rule_for_quantumultX.git"
-          destination-repo: "git@gitee.com:zqzess/rule_for_quantumult-x.git"
+#      #推送更新至gitee
+#      - name: Mirror the Github organization repos to Gitee.
+#        uses: wearerequired/git-mirror-action@master
+#        env:
+#          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+#        with:
+#          source-repo: "git@github.com:zqzess/rule_for_quantumultX.git"
+#          destination-repo: "git@gitee.com:zqzess/rule_for_quantumult-x.git"
       
       #微信推送更新信息
       - name: Send Failed Message
