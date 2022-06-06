@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2022-05-30 02:41:43
+# GMedia rules refresh time: 2022-06-06 02:31:10
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -266,6 +266,7 @@ HOST-SUFFIX,channel5.com,GMedia
 HOST-SUFFIX,conviva.com,GMedia
 HOST-SUFFIX,deezer.com,GMedia
 HOST-SUFFIX,disco-api.com,GMedia
+HOST-SUFFIX,discovery.com,GMedia
 HOST-SUFFIX,discoveryplus.co.uk,GMedia
 HOST-SUFFIX,discoveryplus.com,GMedia
 HOST-SUFFIX,discoveryplus.in,GMedia
@@ -347,13 +348,10 @@ HOST-SUFFIX,youtubegaming.com,GMedia
 HOST-SUFFIX,youtubekids.com,GMedia
 HOST-SUFFIX,yt.be,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
-HOST-KEYWORD,-tiktokcdn-com,GMedia
-HOST-KEYWORD,.hbogoasia.,GMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,discovery.uplynk.com,GMedia
 HOST-KEYWORD,foxplus,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
-HOST-KEYWORD,netflixdnstest,GMedia
 HOST-KEYWORD,nflx,GMedia
 HOST-KEYWORD,spotify.com,GMedia
 HOST-KEYWORD,tiktokcdn-,GMedia

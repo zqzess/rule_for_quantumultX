@@ -332,6 +332,7 @@ HOST-SUFFIX,dazn.com,GMedia
 HOST-SUFFIX,dazndn.com,GMedia
 HOST-SUFFIX,deezer.com,GMedia
 HOST-SUFFIX,disco-api.com,GMedia
+HOST-SUFFIX,discovery.com,GMedia
 HOST-SUFFIX,discoveryplus.co.uk,GMedia
 HOST-SUFFIX,discoveryplus.com,GMedia
 HOST-SUFFIX,discoveryplus.in,GMedia
@@ -511,8 +512,6 @@ HOST-SUFFIX,yt.be,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
 HOST-SUFFIX,zype.com,GMedia
 HOST-KEYWORD,-spotify-com,GMedia
-HOST-KEYWORD,-tiktokcdn-com,GMedia
-HOST-KEYWORD,.hbogoasia.,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,avoddashs,GMedia
@@ -526,7 +525,6 @@ HOST-KEYWORD,japonx,GMedia
 HOST-KEYWORD,japronx,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
 HOST-KEYWORD,netflix,GMedia
-HOST-KEYWORD,netflixdnstest,GMedia
 HOST-KEYWORD,nflx,GMedia
 HOST-KEYWORD,nowtv100,GMedia
 HOST-KEYWORD,rthklive,GMedia
