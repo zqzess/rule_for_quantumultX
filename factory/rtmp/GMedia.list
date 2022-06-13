@@ -101,6 +101,16 @@ HOST-SUFFIX,encoretvb.com,GMedia
 HOST,content.jwplatform.com,GMedia
 HOST,videos-f.jwpsrv.com,GMedia
 
+# > F1 TV
+HOST,d2n9h2wits23hf.cloudfront.net,GMedia
+HOST,f1prodlive.akamaized.net,GMedia
+HOST,mobile-collector.newrelic.com,GMedia
+HOST-SUFFIX,bitmovin.com,GMedia
+HOST-SUFFIX,f1esports.com,GMedia
+HOST-SUFFIX,f1manager.com,GMedia
+HOST-SUFFIX,f1play.com,GMedia
+HOST-SUFFIX,formula1.com,GMedia
+
 # > Fox Now
 USER-AGENT,FOX%20NOW*,GMedia
 HOST-SUFFIX,fox.com,GMedia
@@ -188,37 +198,35 @@ HOST-SUFFIX,tvb.com,GMedia
 
 # > Netflix
 USER-AGENT,Argo*,GMedia
-HOST-KEYWORD,netflix,GMedia
+HOST-KEYWORD,netflixdnstest,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
+HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
 HOST,api.fast.com,GMedia
 HOST,netflix.com.edgesuite.net,GMedia
 HOST-SUFFIX,netflix.com,GMedia
 HOST-SUFFIX,netflix.net,GMedia
-HOST-SUFFIX,netflixdnstest0.com,GMedia
-HOST-SUFFIX,netflixdnstest1.com,GMedia
-HOST-SUFFIX,netflixdnstest2.com,GMedia
-HOST-SUFFIX,netflixdnstest3.com,GMedia
-HOST-SUFFIX,netflixdnstest4.com,GMedia
-HOST-SUFFIX,netflixdnstest5.com,GMedia
-HOST-SUFFIX,netflixdnstest6.com,GMedia
-HOST-SUFFIX,netflixdnstest7.com,GMedia
-HOST-SUFFIX,netflixdnstest8.com,GMedia
-HOST-SUFFIX,netflixdnstest9.com,GMedia
 HOST-SUFFIX,nflxext.com,GMedia
 HOST-SUFFIX,nflximg.com,GMedia
 HOST-SUFFIX,nflximg.net,GMedia
+HOST-SUFFIX,nflxsearch,GMedia
 HOST-SUFFIX,nflxso.net,GMedia
 HOST-SUFFIX,nflxvideo.net,GMedia
 IP-CIDR,23.246.0.0/18,GMedia
 IP-CIDR,37.77.184.0/21,GMedia
+IP-CIDR,38.72.126.0/24,GMedia
 IP-CIDR,45.57.0.0/17,GMedia
 IP-CIDR,64.120.128.0/17,GMedia
 IP-CIDR,66.197.128.0/17,GMedia
+IP-CIDR,69.53.224.0/19,GMedia
+IP-CIDR,103.87.204.0/22,GMedia
 IP-CIDR,108.175.32.0/20,GMedia
+IP-CIDR,185.2.220.0/22,GMedia
+IP-CIDR,185.9.188.0/22,GMedia
 IP-CIDR,192.173.64.0/18,GMedia
 IP-CIDR,198.38.96.0/19,GMedia
 IP-CIDR,198.45.48.0/20,GMedia
+IP-CIDR,208.75.76.0/22,GMedia
 IP-CIDR,34.210.42.111/32,GMedia
 IP-CIDR,52.89.124.203/32,GMedia
 IP-CIDR,54.148.37.5/32,GMedia
