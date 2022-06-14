@@ -1,0 +1,20 @@
+# 模块说明
+- **ReFix.sgmodule**  规则修正模块
+- **Rewrite.sgmodule** 谷歌重定向
+- **AdBlock.sgmodule** 通用广告屏蔽
+- **TunOnly.sgmodule** 兼容模式
+- **BaiduAdBlock.sgmodule** 百度系应用广告屏蔽
+- **bilibili.sgmodule**  哔哩哔哩增强脚本整合
+- **bilibili_lite.sgmodule**  哔哩哔哩增强脚本整合lite
+- **bilibili_adBlock.sgmodule** 哔哩哔哩广告屏蔽整合
+- **bodianMusic.sgmodule** 波点音乐短视频屏蔽
+- **FanQieNovel.sgmodule**  番茄小说广告屏蔽
+- **kuwo.sgmodule** 酷我会员解锁及广告屏蔽
+- **QMusicAd.sgmodule**  QQ音乐开屏广告屏蔽
+- **Qsearch.sgmodule**  聚合搜索 百度引擎
+- **Qsearchddg.sgmodule**  聚合搜索 DuckDuckGo引擎
+- **QearchMac.sgmodule** 聚合搜索 For Mac 百度引擎 适配多浏览器
+- **QzoneAdBlock.sgmodule** qq空间广告屏蔽
+- **YouTubeAd.sgmodule** YouTube广告屏蔽
+- **zhihu_lite.sgmodule**  知乎助手lite
+- **zhihu.sgmodule**  知乎助手

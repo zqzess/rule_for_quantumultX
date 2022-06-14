@@ -1,0 +1,29 @@
+#!name=哔哩哔哩广告屏蔽
+#!desc=只有哔哩哔哩广告屏蔽
+[Rule]
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+
+[URL Rewrite]
+# ～ BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
+^https://api.bilibili.com/pgc/season/player/cards url reject-dict
+
+[Script]
+# ～ BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
+应用开屏广告预加载 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js,script-update-interval=0
+
+# blackmatrix7
+推荐去广告(屏蔽会员购) = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,script-update-interval=0
+
+# blackmatrix7
+# 我的页面处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_动态去广告@bm7
+动态去广告 = type=http-response,pattern=^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_标籤页处理@ddgksf2013
+标签页处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js,script-update-interval=0
+
+# app2smile
+bili-proto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js,script-update-interval=0
+[MITM]
+hostname = %APPEND% api.bilibili.com, api.vc.bilibili.com, app.bilibili.com, grpc.biliapi.net

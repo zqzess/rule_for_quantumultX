@@ -75,3 +75,7 @@ DOMAIN-SUFFIX,push.apple.com,DIRECT
 DOMAIN-SUFFIX,jddebug.com,REJECT
 #ios黑科技
 DOMAIN-SUFFIX,ivapp.cn,PROXY
+#
+DOMAIN,adjd.scdsvdsczx.cn,REJECT
+DOMAIN,rr3---sn-ni57rn7d.gvt1.com,REJECT
+DOMAIN,pagead2.googleadservices.com,REJECT

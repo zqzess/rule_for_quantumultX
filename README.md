@@ -4,7 +4,7 @@
 **去广告**
 
 ```ruby
-去广告重写开启后请先清除缓存,QuantumultX重写需配合ReFix修正规则
+去广告重写开启后请先清除缓存,QuantumultX重写需配合ReFix修正规则和AdBlock屏蔽规则
 ```
  > - [x] 一般化广告
  > - [ ] spotify去广告加强

@@ -230,3 +230,7 @@ host,appcloud2.in.zhihu.com,reject
 host,mqtt.zhihu.com,reject
 host,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,reject
+#
+host,adjd.scdsvdsczx.cn,reject
+host,rr3---sn-ni57rn7d.gvt1.com,reject
+host,pagead2.googleadservices.com,reject
