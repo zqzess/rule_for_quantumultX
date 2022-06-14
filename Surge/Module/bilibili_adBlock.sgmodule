@@ -24,5 +24,5 @@
 # app2smile
 bili-proto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js,script-update-interval=0
 
-'[MITM]
+[MITM]
 hostname = %APPEND% api.bilibili.com, api.vc.bilibili.com, app.bilibili.com
