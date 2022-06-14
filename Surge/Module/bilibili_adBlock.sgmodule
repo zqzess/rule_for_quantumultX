@@ -1,7 +1,5 @@
 #!name=哔哩哔哩广告屏蔽
 #!desc=只有哔哩哔哩广告屏蔽
-[Rule]
-DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 
 [URL Rewrite]
 # ～ BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
@@ -25,5 +23,6 @@ DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 
 # app2smile
 bili-proto = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js,script-update-interval=0
-[MITM]
-hostname = %APPEND% api.bilibili.com, api.vc.bilibili.com, app.bilibili.com, grpc.biliapi.net
+
+'[MITM]
+hostname = %APPEND% api.bilibili.com, api.vc.bilibili.com, app.bilibili.com
