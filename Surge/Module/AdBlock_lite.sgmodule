@@ -1,0 +1,70 @@
+#!name=广告屏蔽lite
+#!desc=通用广告屏蔽lite
+
+[General]
+force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
+
+[Rule]
+# 百度移动广告联盟，可能误杀
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+
+# 京东开屏广告屏蔽
+URL-REGEX,https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+
+# 优酷去片头广告(by Choler)
+# force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net
+URL-REGEX,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
+
+# 高德地图
+DOMAIN,optimus-ads.amap.com,REJECT
+
+#backiee
+URL-REGEX,^https:\/\/www\.google\.com\.hk\/ads,REJECT
+DOMAIN,stats.g.doubleclick.net,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
+DOMAIN,googleads.g.doubleclick.net,REJECT
+DOMAIN,app-measurement.com,REJECT
+DOMAIN,ade.googlesyndication.com,REJECT
+DOMAIN,googleads4.g.doubleclick.net,REJECT
+
+DOMAIN,bymh26.com,REJECT
+
+# 下厨房
+DOMAIN,ulogs.umengcloud.com,REJECT
+DOMAIN,ulogs.umeng.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN,api-access.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,sdk.open.talk.getui.net,REJECT
+DOMAIN,sdk.open.talk.getui.com,REJECT
+DOMAIN,errlog.umeng.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN,qzs.gdtimg.com,REJECT
+
+[URL Rewrite]
+# 每日优鲜开屏广告->j-image.missfresh.cn
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ - reject
+^https:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ - reject
+
+# 高德地图广告
+^http:\/\/ems\.youku\.com\/imp\? - reject
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ - reject
+# 携程广告->ma-adx.ctrip.com,m.ctrip.com
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject
+^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds - reject
+^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$,REJECT
+
+^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject
+
+# 网易邮箱->appconf.mail.163.com,analytics.163.com
+https:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject
+http:\/\/analytics\.163\.com\/ntes - reject
+
+[Script]
+# 微信公众号广告屏蔽(By Choler)
+微信公众号广告屏蔽=type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+
+[MITM]
+hostname = %APPEND% appconf.mail.163.com,analytics.163.com,ma-adx.ctrip.com,m.ctrip.com,api.m.jd.com,mp.weixin.qq.com,j-image.missfresh.cn,mbd.baidu.com,www.google.com.hk

@@ -2,6 +2,7 @@
 - **ReFix.sgmodule**  规则修正模块
 - **Rewrite.sgmodule** 谷歌重定向
 - **AdBlock.sgmodule** 通用广告屏蔽
+- **AdBlock_lite.sgmodule** 通用广告屏蔽轻量版，只保留我自己想要的
 - **TunOnly.sgmodule** 兼容模式
 - **BaiduAdBlock.sgmodule** 百度系应用广告屏蔽
 - **bilibili.sgmodule**  哔哩哔哩增强脚本整合
