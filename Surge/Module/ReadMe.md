@@ -18,3 +18,4 @@
 - **YouTubeAd.sgmodule** YouTube广告屏蔽
 - **zhihu_lite.sgmodule**  知乎助手lite
 - **zhihu.sgmodule**  知乎助手
+- **skip-proxy**  跳过部分应用代理监测
