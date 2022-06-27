@@ -6933,7 +6933,7 @@ HOST,zzxbn.com,AdBlock
 # NAME: ZhihuAds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-06-14 16:53:19
+# UPDATED: 2022-06-23 17:33:16
 # HOST: 3
 # IP-CIDR: 1
 # IP6-CIDR: 1
@@ -10992,15 +10992,6 @@ HOST,i-mobile.co.jp,AdBlock
 HOST,i2ad.jp,AdBlock
 # [i2i.jp]
 HOST,i2i.jp,AdBlock
-# [iadvize.com]
-HOST,api.iadvize.com,AdBlock
-HOST,cdlc.iadvize.com,AdBlock
-HOST,cobrowsing-ha.iadvize.com,AdBlock
-HOST,fstatic.iadvize.com,AdBlock
-HOST,halc.iadvize.com,AdBlock
-HOST,lc.iadvize.com,AdBlock
-HOST,static.iadvize.com,AdBlock
-HOST,xmpp-ha-alb.iadvize.com,AdBlock
 # [iappgame.com]
 HOST,sdk.iappgame.com,AdBlock
 # [iappmobi.com]
