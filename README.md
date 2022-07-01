@@ -42,9 +42,14 @@
 - ->[参考](#参考)
   
     -------------------------------
+### Boxjs
+[--> 文档](https://github.com/chavyleung/boxjs-doc)
+
+[--> boxjs](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+
 ### QuantumultX配置文件
 
-[详细介绍--->](https://github.com/zqzess/rule_for_quantumultX/tree/master/QuantumultX)
+[详细介绍 --->](https://github.com/zqzess/rule_for_quantumultX/tree/master/QuantumultX)
 
 **重写规则合集订阅**
 
@@ -68,9 +73,9 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 两个版本配置文件均无定时任务
 ```
 
-- [简洁版-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess_lite.conf)
+- [简洁版 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess_lite.conf)
 
-- [策略组复杂带节点地区分类-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess.conf)
+- [策略组复杂带节点地区分类 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess.conf)
 
     --------------------
 ### Loon配置文件
@@ -102,7 +107,8 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 - [聚合搜索mac版-适配多浏览器](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/QsearchMac.sgmodule)
 - [Peng-YM油猴脚本转换器surge订阅修正版](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/GreasyFork.sgmodule)
 - [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/YouTubeAd.sgmodule)
- 
+- [南京工大学校园网自动登录](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/NjtechAutoLogin.sgmodule) 
+
 surge搬运：
 - [高级订阅管理工具-必装](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule)
 - [NetFlix显示IMDB评分](https://kinta.ma/surge/netflix_rating.sgmodule)
@@ -112,7 +118,7 @@ surge搬运：
 - [spotify会员解锁](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module)
 ### 自制脚本
 
-- [目录地址-->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine)
+- [目录地址 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine)
 
     ------------------
 ### 参考鸣谢
@@ -126,6 +132,7 @@ surge搬运：
 - [@TributePaulWalker](https://github.com/TributePaulWalker/Profiles)
 - [@Peng-YM](https://github.com/Peng-YM)
 - [@lhie1](https://github.com/lhie1/Rules)
+- [@chavyleung](https://github.com/chavyleung)
 
     -----------------
 ### 访问量
