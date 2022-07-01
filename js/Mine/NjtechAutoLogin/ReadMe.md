@@ -12,10 +12,12 @@
 **本地新建的脚本，可以之间把账户密码填写在脚本内**
 
 **模块安装的脚本需要借助boxjs填写或者在surge $persistentStore内添加字段**
-- > $persistentStore 添加字段njtechAutoLogin,填入 {"userid":"学号","userpwd":"密码","optionitem":"@telecom"}
+- > $persistentStore 添加字段njtechAutoLogin,填入 {"njtech_id":"学号","njtech_pwd":"密码","njtech_option":"@telecom"}
 - > [BoxJs模块](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
 - > boxjs模块开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
 - > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+
+[自动登录模块订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/NjtechAutoLogin.sgmodule)
 
 ```ini
 [Script]

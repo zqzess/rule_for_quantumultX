@@ -60,7 +60,7 @@
       ],
       "settings": [
         {
-          "id": "@njtechAutoLogin.userid",
+          "id": "@njtechAutoLogin.njtech_id",
           "name": "学号",
           "val": null,
           "type": "text",
@@ -69,7 +69,7 @@
           "desc": "填写学号"
         },
         {
-          "id": "@njtechAutoLogin.userpwd",
+          "id": "@njtechAutoLogin.njtech_pwd",
           "name": "密码",
           "val": null,
           "type": "text",
@@ -78,8 +78,8 @@
           "desc": "填写密码"
         },
         {
-          "id": "@njtechAutoLogin.optionitem",
-          "name": "运营商",
+          "id": "@njtechAutoLogin.njtech_option",
+          "name": "运营商(中国电信填写 @telecom ，中国移动填写 @cmcc， 默认中国电信)",
           "val": "@telecom",
           "type": "text",
           "autoGrow": false,

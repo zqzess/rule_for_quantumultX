@@ -49,7 +49,6 @@ $.optionitem = '@telecom';
 ```
 */
 const $ = new API("njtechAutoLogin", false);
-const ERR = MYERR();
 
 $.userid = $.read("njtech_id");
 $.userpwd = $.read("njtech_pwd");
@@ -58,6 +57,9 @@ $.optionitem = $.read("njtech_option");
 // $.userid = '学号';
 // $.userpwd = '密码';
 // $.optionitem = '@telecom';  //中国电信填写 @telecom ，中国移动填写 @cmcc
+
+let flag = $.userid !== "" && $.userid !== null && $.userid !== undefined && $.userpwd !== "" && $.userpwd !== null && $.userpwd !== undefined && $.optionitem !== "" && $.optionitem !== null && $.optionitem !== undefined;
+
 
 const getAddr = 'https://u.njtech.edu.cn/cas/login?service=https://u.njtech.edu.cn/oauth2/authorize?client_id=Oe7wtp9CAMW0FVygUasZ&response_type=code&state=njtech'
 const postAddr = 'https://u.njtech.edu.cn/cas/login?service=https%3A%2F%2Fu.njtech.edu.cn%2Foauth2%2Fauthorize%3Fclient_id%3DOe7wtp9CAMW0FVygUasZ%26response_type%3Dcode%26state%3Dnjtech%26s%3Df682b396da8eb53db80bb072f5745232'
@@ -70,45 +72,28 @@ const headers = {
 };
 
 !(async () => {
-    if ($.userid !== undefined && $.userpwd !== undefined && $.optionitem !== undefined) {
-        const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
-        if (isSurge) {
-            const network = $network.wifi.ssid;
-            $.info(network);
-            if (network === 'Njtech-Home')
-                await getLoginInfo();
-        }
-        if (isNode)
+    const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
+    let isStart = true;
+    if (isSurge) {
+        const network = $network.wifi.ssid;
+        $.info(network);
+        if (network === 'Njtech-Home') {
+            isStart = true;
+        } else
+            isStart = false;
+    }
+    if (isStart) {
+        if (flag)
             await getLoginInfo();
-    } else {
-        $.notify("Njtech-Home", "", "❌ 请先填写登录信息");
+        else
+            $.notify("Njtech-Home", "", "❌ 请先填写登录信息");
     }
 })()
     .catch((err) => {
-        if (err instanceof ERR.ParseError) {
-            $.notify("Njtech-Home", "❌ 解析数据出现错误", err.message);
-        } else {
-            $.notify(
-                "Njtech-Home",
-                "❌ 出现错误",
-                JSON.stringify(err, Object.getOwnPropertyNames(err))
-            );
-        }
+        $.error(err);
     })
     .finally(() => $.done());
 
-function MYERR() {
-    class ParseError extends Error {
-        constructor(message) {
-            super(message);
-            this.name = "ParseError";
-        }
-    }
-
-    return {
-        ParseError,
-    };
-}
 
 function getLoginInfo() {
     const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
