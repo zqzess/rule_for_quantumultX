@@ -54,9 +54,9 @@
       "id": "njtechAutoLogin",
       "name": "南京工业大学校园网自动登录",
       "keys": [
-        "@njtechAutoLogin.userid",
-        "@njtechAutoLogin.userpwd",
-        "@njtechAutoLogin.optionitem"
+        "@njtechAutoLogin.njtech_id",
+        "@njtechAutoLogin.njtech_pwd",
+        "@njtechAutoLogin.njtech_option"
       ],
       "settings": [
         {
@@ -79,7 +79,7 @@
         },
         {
           "id": "@njtechAutoLogin.njtech_option",
-          "name": "运营商(中国电信填写 @telecom ，中国移动填写 @cmcc， 默认中国电信)",
+          "name": "运营商(中国电信填写@telecom,中国移动填写@cmcc,默认中国电信)",
           "val": "@telecom",
           "type": "text",
           "autoGrow": false,
