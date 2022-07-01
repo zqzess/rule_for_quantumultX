@@ -19,22 +19,51 @@
 南京工业大学宿舍网 Njtech-Home 无线网自动登录
 
 【Surge】
+-----------------
+
 两种使用方法
 - 可以在将脚本内容复制，在本地新建脚本，类型选择event或cron，然后禁用，ios捷径新增自动化，选择当加入Njetch-Home Wi-Fi时 执行surg脚本，填入脚本名称，完成。**缺点：此捷径会弹出通知，需要手动点击运行**
 - 本地添加脚本(event类型，触发事件是network-changed)或者安装模块，每一次网络改变都会触发脚本，脚本内置Wi-Fi ssid识别,是Njtech-Home时会执行登录，其他忽略
 
-**本地新建的脚本，可以之间把账户密码填写在脚本内，boxjs模块开启后访问`http://boxjs.com`**
-
-- [BoxJs模块](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
-- [-->boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+**本地新建的脚本，可以之间把账户密码填写在脚本内**
 
 **模块安装的脚本需要借助boxjs填写或者在surge $persistentStore内添加字段**
+- > $persistentStore 添加字段njtechAutoLogin,填入 {"njtech_id":"学号","njtech_pwd":"密码","njtech_option":"@telecom"}
+- > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
+- > [BoxJs模块](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
+- > boxjs模块开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
+- > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
 
------------------
 [Script]
 NjetchAutologin = type=event,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js,event-name=network-changed,timeout=6
+
+########################
+
+【Quantumult X】
 -----------------
+
+需要配合捷径使用，捷径新增自动化，选择无线局域网，选取Njtech-Home，下一步搜索Quantumult X，运行js脚本，填入脚本路径(存在本地的脚本填入NjtechAutoLogin.js即可)
+
+QuantumultX的好处就是可以不用启动QuantumultX就可以运行脚本，但是同样，捷径会弹窗需要手动点击运行
+
+**本地存放脚本的可以把学号密码写死脚本内，远程的需要订阅boxjs配置文件填写账户密码**
+
+- > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
+- > [BoxJs重写订阅](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf)
+- > boxjs模块开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
+- > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+
+
+QuantumultX配置文件`[task_local]`   添加以下链接
+
+[task_local]
+0 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js, tag=南京工业大学校园网自动登录
+
+##########################
+
 【NodeJs】
+-----------------
+
 需要把脚本内
 ```
 $.userid = $.read("njtech_id");
@@ -48,7 +77,7 @@ $.userpwd = '密码';
 $.optionitem = '@telecom';
 ```
 */
-const $ = new API("njtechAutoLogin", false);
+const $ = new API("njtechAutoLogin", true);
 
 $.userid = $.read("njtech_id");
 $.userpwd = $.read("njtech_pwd");
@@ -71,8 +100,10 @@ const headers = {
     'Connection': 'keep-alive',
 };
 
+const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
+let loginInfo = {};
+
 !(async () => {
-    const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
     let isStart = true;
     if (isSurge) {
         const network = $network.wifi.ssid;
@@ -83,9 +114,10 @@ const headers = {
             isStart = false;
     }
     if (isStart) {
-        if (flag)
+        if (flag) {
             await getLoginInfo();
-        else
+            await startLogin();
+        } else
             $.notify("Njtech-Home", "", "❌ 请先填写登录信息");
     }
 })()
@@ -96,10 +128,10 @@ const headers = {
 
 
 function getLoginInfo() {
-    const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
-    if (isSurge)
+    if (isSurge || isQX)
         headers['Cookie'] = 'JSESSIONID=6E065A716A506E060241DBBBE7A60C6E.TomcatB;';
-    $.http.get({
+    $.log(headers)
+    return $.http.get({
         url: getAddr,
         headers
     }).then(resp => {
@@ -114,7 +146,7 @@ function getLoginInfo() {
             cookie2 = headers["set-cookie"][1];
             cookie2 = cookie2.replace('; path=/', '');
             cookie = cookie1 + ' ' + cookie2;
-        } else if (isSurge) {
+        } else if (isSurge || isQX) {
             cookie1 = headers["Set-Cookie"];
             cookie1 = cookie1.replace(' Path=/cas; HttpOnly,', '');
             cookie = cookie1.replace('; path=/', '');
@@ -126,15 +158,11 @@ function getLoginInfo() {
         $.log(lt_new);
         let execution_new = obj.match(/type="hidden" name="execution" value=\"(\S*)\" \/>/)[1];
         $.log(execution_new);
-        let loginInfo = {"cookie": cookie, "lt": lt_new, "execution": execution_new};
-        !(async () => {
-            await startLogin(loginInfo);
-        })().then(() => $.done());
+        loginInfo = {"cookie": cookie, "lt": lt_new, "execution": execution_new};
     })
 }
 
-function startLogin(loginInfo) {
-    const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
+function startLogin() {
     $.info(loginInfo);
     $.log("自动登录数据填充")
     let optionitem = '中国电信';
@@ -157,18 +185,18 @@ function startLogin(loginInfo) {
     headers['Cookie'] = loginInfo["cookie"];
     if (isNode)
         post_data = pre_data;
-    if (isSurge)
+    if (isSurge || isQX)
         post_data = pre_data;
     $.info(post_data);
     $.info(headers);
-    $.http.post({
+    return $.http.post({
         url: postAddr,
         body: post_data,
         headers: headers,
-    }).then(resp => {
+    }).then(async resp => {
         if (isNode) {
             if (resp.statusCode === 302) {
-                $.http.get({
+                await $.http.get({
                     url: "https://www.baidu.com",
                     timeout: 5000,
                     headers,
@@ -201,7 +229,7 @@ function startLogin(loginInfo) {
             }
         } else {
             if (resp.statusCode === 200) {
-                $.http.get({
+                await $.http.get({
                     url: "https://www.baidu.com",
                     headers
                 }).then(resp => {

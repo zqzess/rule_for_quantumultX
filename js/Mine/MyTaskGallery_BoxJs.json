@@ -1,206 +1,259 @@
 {
-    "id": "zqzess.app.sub",
-    "name": "zqzess 应用订阅",
-    "description": "自用定时任务、脚本、重写等，兼容BoxJs及QX Gallery",
-    "author": "@zqzess",
-    "icon": "https://avatars.githubusercontent.com/u/54464797?s=60&v=4",
-    "repo": "https://github.com/zqzess/rule_for_quantumultX",
-    "apps": [{
-            "id": "FlowBit",
-            "name": "机场流量查询-比特云优化版",
-            "keys": [
-                "@flowbit.subscriptions",
-                "@flowbit.email",
-                "@flowbit.pwd"
-            ],
-            "settings": [{
-                    "id": "@flowbit.subscriptions",
-                    "name": "机场订阅",
-                    "val": "[\n\t{\n\t\t\"link\": \"订阅地址1\",\n\t\t\"name\": \"取个名字1\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/pudding.png\"\n\t},\n\t{\n\t\t\"link\": \"订阅地址2\",\n\t\t\"name\": \"取个名字2\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/Nexitally.png\"\n\t}\n]",
-                    "type": "textarea",
-                    "autoGrow": true,
-                    "rows": 5,
-                    "desc": "机场订阅 (JSON 格式)"
-                },
-                {
-                    "id": "@flowbit.email",
-                    "name": "邮箱",
-                    "val": null,
-                    "type": "text",
-                    "autoGrow": false,
-                    "rows": 5,
-                    "desc": "比特云机场账户邮箱"
-                },
-                {
-                    "id": "@flowbit.pwd",
-                    "name": "密码",
-                    "val": null,
-                    "type": "text",
-                    "autoGrow": false,
-                    "rows": 5,
-                    "desc": "比特云机场账户密码"
-                }
-            ],
-            "author": "@zqzess",
-            "repo": "https://github.com/zqzess/rule_for_quantumultX",
-            "icons": [
-                "https://raw.githubusercontent.com/58xinian/icon/master/flow_mini.png",
-                "https://raw.githubusercontent.com/58xinian/icon/master/flow.png"
-            ],
-            "script": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/subInfo-bityun/subInfoForBY.js"
+  "id": "zqzess.app.sub",
+  "name": "zqzess 应用订阅",
+  "description": "自用定时任务、脚本、重写等，兼容BoxJs及QX Gallery",
+  "author": "@zqzess",
+  "icon": "https://avatars.githubusercontent.com/u/54464797?s=60&v=4",
+  "repo": "https://github.com/zqzess/rule_for_quantumultX",
+  "apps": [
+    {
+      "id": "FlowBit",
+      "name": "机场流量查询-比特云优化版",
+      "keys": [
+        "@flowbit.subscriptions",
+        "@flowbit.email",
+        "@flowbit.pwd"
+      ],
+      "settings": [
+        {
+          "id": "@flowbit.subscriptions",
+          "name": "机场订阅",
+          "val": "[\n\t{\n\t\t\"link\": \"订阅地址1\",\n\t\t\"name\": \"取个名字1\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/pudding.png\"\n\t},\n\t{\n\t\t\"link\": \"订阅地址2\",\n\t\t\"name\": \"取个名字2\",\n\t\t\"icon\": \"https://raw.githubusercontent.com/Orz-3/mini/master/Nexitally.png\"\n\t}\n]",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 5,
+          "desc": "机场订阅 (JSON 格式)"
         },
         {
-            "id": "Caiyun",
-            "name": "彩云天气",
-            "keys": [
-                "@caiyun.token.caiyun",
-                "@caiyun.token.tencent",
-                "@caiyun.display_location",
-                "@caiyun.location.latitude",
-                "@caiyun.location.longitude",
-                "@caiyun.address"
-            ],
-            "settings": [{
-                    "id": "@caiyun.token.caiyun",
-                    "name": "彩云天气API Token",
-                    "val": null,
-                    "type": "text",
-                    "autoGrow": false,
-                    "rows": 2,
-                    "desc": "彩云天气的Token，可以自行申请或者前往频道获取"
-                },
-                {
-                    "id": "@caiyun.token.tencent",
-                    "name": "腾讯地图API Token",
-                    "val": "AHEBZ-ASTWX-CIW4P-7TV7T-AWKLS-7CFWP",
-                    "type": "text",
-                    "rows": 1,
-                    "desc": ""
-                },
-                {
-                    "id": "@caiyun.display_location",
-                    "name": "是否在日志中显示经纬度",
-                    "val": false,
-                    "type": "boolean",
-                    "desc": ""
-                },
-                {
-                    "id": "@caiyun.location.latitude",
-                    "name": "纬度",
-                    "val": null,
-                    "type": "text",
-                    "desc": "纬度，可以关闭MITM获取位置，手动设置"
-                },
-                {
-                    "id": "@caiyun.location.longitude",
-                    "name": "经度",
-                    "val": null,
-                    "type": "text",
-                    "desc": "经度，可以关闭MITM获取位置，手动设置"
-                }
-            ],
-            "author": "@Peng-YM",
-            "repo": "https://github.com/Peng-YM/QuanX",
-            "icons": [
-                "https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png",
-                "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
-            ],
-            "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js"
+          "id": "@flowbit.email",
+          "name": "邮箱",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 5,
+          "desc": "比特云机场账户邮箱"
         },
         {
-            "id": "BiliRegion",
-            "name": "哔哩番剧自动地区",
-            "descs_html": [
-                "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js\">脚本注释</a></h4>"
-            ],
-            "keys": [
-                "BiliArea_Policy",
-                "BiliArea_CN",
-                "BiliArea_HK",
-                "BiliArea_TW"
-            ],
-            "settings": [{
-                    "id": "BiliAreaNotify",
-                    "name": "静默运行",
-                    "val": false,
-                    "type": "boolean",
-                    "desc": "开启后将不再发出切换策略通知"
-                },
-                {
-                    "id": "BiliDoubanRating",
-                    "name": "豆瓣评分",
-                    "val": true,
-                    "type": "boolean",
-                    "desc": "关闭后将不再查询豆瓣评分, 可显著提高相关页面载入速度"
-                },
-                {
-                    "id": "BiliArea_Policy",
-                    "name": "策略组名",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "哔哩哔哩分流的策略组名"
-                },
-                {
-                    "id": "BiliArea_CN",
-                    "name": "中国大陆-子策略名",
-                    "val": "DIRECT",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "哔哩哔哩分流策略组里的中国大陆子策略名"
-                },
-                {
-                    "id": "BiliArea_HK",
-                    "name": "中国香港-子策略名",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "哔哩哔哩分流策略组里的香港子策略名"
-                },
-                {
-                    "id": "BiliArea_TW",
-                    "name": "中国台湾-子策略名",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "哔哩哔哩分流策略组里的台湾子策略名"
-                }
-            ],
-            "author": "@NobyDa",
-            "repo": "https://github.com/NobyDa/Script/blob/master/Surge/JS/Bili_Auto_Regions.js",
-            "icons": [
-                "https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/bilibili.png",
-                "https://raw.githubusercontent.com/NobyDa/mini/master/Color/bilibili.png"
-            ]
+          "id": "@flowbit.pwd",
+          "name": "密码",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 5,
+          "desc": "比特云机场账户密码"
         }
-    ],
-    "task": [{
-            "config": "30 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/bilibili.png, tag=bilibili签到, enabled=true",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/flow_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/flow.png"
+      ],
+      "script": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/subInfo-bityun/subInfoForBY.js"
+    },
+    {
+      "id": "njtechAutoLogin",
+      "name": "南京工业大学校园网自动登录",
+      "keys": [
+        "@njtechAutoLogin.njtech_id",
+        "@njtechAutoLogin.njtech_pwd",
+        "@njtechAutoLogin.njtech_option"
+      ],
+      "settings": [
+        {
+          "id": "@njtechAutoLogin.njtech_id",
+          "name": "学号",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 5,
+          "desc": "填写学号"
         },
         {
-            "config": "35 5 0 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点, enabled=true",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+          "id": "@njtechAutoLogin.njtech_pwd",
+          "name": "密码",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 5,
+          "desc": "填写密码"
         },
         {
-            "config": "35 5 8 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点浏览赚, enabled=true",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
-        },
-        {
-            "config": "0 8 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/iQIYI.png, tag=爱奇艺会员签到, enabled=true",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
-        },
-        {
-            "config": "30 1 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png, tag=腾讯视频会员签到, enabled=true",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
-        },
-        {
-            "config": "10 7-19/3 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, tag=彩云天气, enabled=true",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
-        },
-        {
-            "config": "0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js, tag=不挂科签到拿爱奇艺, enabled=false",
-            "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+          "id": "@njtechAutoLogin.njtech_option",
+          "name": "运营商(中国电信填写@telecom,中国移动填写@cmcc,默认中国电信)",
+          "val": "@telecom",
+          "type": "text",
+          "autoGrow": false,
+          "rows": 5,
+          "desc": "中国电信填写 @telecom ，中国移动填写 @cmcc， 默认中国电信"
         }
-    ]
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/zqzess/pichouse/master/pic/njtech.png",
+        "https://raw.githubusercontent.com/zqzess/pichouse/master/pic/njtech.png"
+      ],
+      "script": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js"
+    },
+    {
+      "id": "Caiyun",
+      "name": "彩云天气",
+      "keys": [
+        "@caiyun.token.caiyun",
+        "@caiyun.token.tencent",
+        "@caiyun.display_location",
+        "@caiyun.location.latitude",
+        "@caiyun.location.longitude",
+        "@caiyun.address"
+      ],
+      "settings": [
+        {
+          "id": "@caiyun.token.caiyun",
+          "name": "彩云天气API Token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "desc": "彩云天气的Token，可以自行申请或者前往频道获取"
+        },
+        {
+          "id": "@caiyun.token.tencent",
+          "name": "腾讯地图API Token",
+          "val": "AHEBZ-ASTWX-CIW4P-7TV7T-AWKLS-7CFWP",
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.display_location",
+          "name": "是否在日志中显示经纬度",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.location.latitude",
+          "name": "纬度",
+          "val": null,
+          "type": "text",
+          "desc": "纬度，可以关闭MITM获取位置，手动设置"
+        },
+        {
+          "id": "@caiyun.location.longitude",
+          "name": "经度",
+          "val": null,
+          "type": "text",
+          "desc": "经度，可以关闭MITM获取位置，手动设置"
+        }
+      ],
+      "author": "@Peng-YM",
+      "repo": "https://github.com/Peng-YM/QuanX",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
+      ],
+      "script": "https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js"
+    },
+    {
+      "id": "BiliRegion",
+      "name": "哔哩番剧自动地区",
+      "descs_html": [
+        "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js\">脚本注释</a></h4>"
+      ],
+      "keys": [
+        "BiliArea_Policy",
+        "BiliArea_CN",
+        "BiliArea_HK",
+        "BiliArea_TW"
+      ],
+      "settings": [
+        {
+          "id": "BiliAreaNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "开启后将不再发出切换策略通知"
+        },
+        {
+          "id": "BiliDoubanRating",
+          "name": "豆瓣评分",
+          "val": true,
+          "type": "boolean",
+          "desc": "关闭后将不再查询豆瓣评分, 可显著提高相关页面载入速度"
+        },
+        {
+          "id": "BiliArea_Policy",
+          "name": "策略组名",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "哔哩哔哩分流的策略组名"
+        },
+        {
+          "id": "BiliArea_CN",
+          "name": "中国大陆-子策略名",
+          "val": "DIRECT",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "哔哩哔哩分流策略组里的中国大陆子策略名"
+        },
+        {
+          "id": "BiliArea_HK",
+          "name": "中国香港-子策略名",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "哔哩哔哩分流策略组里的香港子策略名"
+        },
+        {
+          "id": "BiliArea_TW",
+          "name": "中国台湾-子策略名",
+          "val": "",
+          "type": "text",
+          "placeholder": "(点击以展开说明)",
+          "desc": "哔哩哔哩分流策略组里的台湾子策略名"
+        }
+      ],
+      "author": "@NobyDa",
+      "repo": "https://github.com/NobyDa/Script/blob/master/Surge/JS/Bili_Auto_Regions.js",
+      "icons": [
+        "https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/bilibili.png",
+        "https://raw.githubusercontent.com/NobyDa/mini/master/Color/bilibili.png"
+      ]
+    }
+  ],
+  "task": [
+    {
+      "config": "30 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/bilibili.png, tag=bilibili签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "35 5 0 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "35 5 8 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, tag=中青看点浏览赚, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "0 8 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/iQIYI.png, tag=爱奇艺会员签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "30 1 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png, tag=腾讯视频会员签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "10 7-19/3 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/caiyun.png, tag=彩云天气, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/buguake/buguake.js, tag=不挂科签到拿爱奇艺, enabled=false",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Mycookie.conf,tag=自用cookie获取"
+    },
+    {
+      "config": "0 7 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js, img-url=https://raw.githubusercontent.com/zqzess/pichouse/master/pic/njtech.png, tag=南京工业大学校园网自动登录, enabled=false",
+    }
+  ]
 }
