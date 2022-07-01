@@ -77,7 +77,7 @@ $.userpwd = '密码';
 $.optionitem = '@telecom';
 ```
 */
-const $ = new API("njtechAutoLogin", true);
+const $ = new API("njtechAutoLogin", false);
 
 $.userid = $.read("njtech_id");
 $.userpwd = $.read("njtech_pwd");
