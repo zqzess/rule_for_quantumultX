@@ -8,7 +8,7 @@ Reject = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/f
 Paypal = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=Paypal
 Spotify = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=Spotify
 Outside = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=Outside
-Final = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#00FFFF&group=Final
+🧭Final = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#00FFFF&group=🧭Final
 
 
 [Panel]
@@ -18,4 +18,4 @@ Reject = script-name= Reject,update-interval=5
 Paypal = script-name= Paypal,update-interval=5
 Spotify = script-name= Spotify,update-interval=5
 Outside = script-name= Outside,update-interval=5
-Final = script-name= Final,update-interval=5
+🧭Final = script-name= 🧭Final,update-interval=5

@@ -5,5 +5,5 @@
 节假日倒计时 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/TimeCard.js
 
 [Panel]
-timecard = script-name=timecard,update-interval=3600
+节假日倒计时 = script-name=节假日倒计时,update-interval=3600
 
