@@ -1,0 +1,21 @@
+#!name=groupPanel
+#!desc=通过panel显示及控制策略组 只有手动更新情况下会切换策略组，因此你可以配置自动更新以防止数据与实际不一致 by @fishingworld
+
+[Script]
+节点选择 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/groupPanel.js,argument=icon=network&color=#3CB371&group=节点选择
+out_ssid = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=out_ssid
+Reject = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#DC143C&group=Reject
+Paypal = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=Paypal
+Spotify = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=Spotify
+Outside = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#86abee&group=Outside
+Final = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/groupPanel.js,argument=icon=network&color=#00FFFF&group=Final
+
+
+[Panel]
+节点选择 = script-name= 节点选择,update-interval=5
+out_ssid = script-name= out_ssid,update-interval=5
+Reject = script-name= Reject,update-interval=5
+Paypal = script-name= Paypal,update-interval=5
+Spotify = script-name= Spotify,update-interval=5
+Outside = script-name= Outside,update-interval=5
+Final = script-name= Final,update-interval=5

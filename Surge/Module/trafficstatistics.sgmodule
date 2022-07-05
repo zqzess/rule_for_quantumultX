@@ -1,0 +1,8 @@
+#!name=流量统计
+#!desc=信息面板 by @fishingworld
+
+[Script]
+TrafficStatistics = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/trafficstatistics.js
+
+[Panel]
+TrafficStatistics = script-name=timecard,update-interval=1
