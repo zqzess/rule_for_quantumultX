@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-07-04 02:56:20
+# AdBlock rules refresh time: 2022-07-11 02:40:24
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -7657,6 +7657,8 @@ DOMAIN,imagazine.advertserve.com
 DOMAIN,roimedia.advertserve.com
 # [advertur.ru]
 DOMAIN,advertur.ru
+# [adverty.com]
+DOMAIN,adserver.adverty.com
 # [adview.cn]
 DOMAIN,open.adview.cn
 DOMAIN,webfile.adview.cn
@@ -8094,6 +8096,16 @@ DOMAIN,t.ants.vn
 # [anvato.net]
 DOMAIN,analytics.anvato.net
 DOMAIN,rt.analytics.anvato.net
+# [anzu.io]
+DOMAIN,caps-server.anzu.io
+DOMAIN,l1-1.anzu.io
+# [anzuinfra.com]
+DOMAIN,assets.anzuinfra.com
+DOMAIN,dynamic-l1.anzuinfra.com
+DOMAIN,emqx.anzuinfra.com
+DOMAIN,events.anzuinfra.com
+DOMAIN,l3-2.anzuinfra.com
+DOMAIN,logic.anzuinfra.com
 # [aotter.net]
 DOMAIN,tkmftc.aotter.net
 DOMAIN,tkportal.aotter.net
@@ -8227,6 +8239,7 @@ DOMAIN,stage-bid.applovin.com
 DOMAIN,stage-img.applovin.com
 DOMAIN,stage-ms.applovin.com
 DOMAIN,stage-pdn.applovin.com
+DOMAIN,ue.applovin.com
 # [applvn.com]
 DOMAIN,applvn.com
 DOMAIN,a.applvn.com
@@ -10598,8 +10611,6 @@ DOMAIN,sales.idio.co
 DOMAIN,ssl-s.idio.co
 # [idreams.pl]
 DOMAIN,server.idreams.pl
-# [iesnare.com]
-DOMAIN,mpsnare.iesnare.com
 # [ifood.tv]
 DOMAIN,adlog.ifood.tv
 DOMAIN,log.ifood.tv
@@ -10902,9 +10913,6 @@ DOMAIN,invocacdn.com
 DOMAIN,solutions.invocacdn.com
 # [iosappsworld.com]
 DOMAIN,ads.iosappsworld.com
-# [iovation.com]
-DOMAIN,ci-mpsnare.iovation.com
-DOMAIN,first.iovation.com
 # [iperceptions.com]
 DOMAIN,api.iperceptions.com
 DOMAIN,collect.iperceptions.com
@@ -11154,6 +11162,8 @@ DOMAIN,a.klaviyo.com
 DOMAIN,fast.a.klaviyo.com
 DOMAIN,static.klaviyo.com
 DOMAIN,telemetrics.klaviyo.com
+# [klclick1.com]
+DOMAIN,trk.klclick1.com
 # [kmpmedia.net]
 DOMAIN,gplayer.kmpmedia.net
 DOMAIN,update.kmpmedia.net

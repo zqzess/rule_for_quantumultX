@@ -7985,6 +7985,8 @@ HOST,imagazine.advertserve.com,AdBlock
 HOST,roimedia.advertserve.com,AdBlock
 # [advertur.ru]
 HOST,advertur.ru,AdBlock
+# [adverty.com]
+HOST,adserver.adverty.com,AdBlock
 # [adview.cn]
 HOST,bid.adview.cn,AdBlock
 HOST,open.adview.cn,AdBlock
@@ -8441,6 +8443,16 @@ HOST,t.ants.vn,AdBlock
 # [anvato.net]
 HOST,analytics.anvato.net,AdBlock
 HOST,rt.analytics.anvato.net,AdBlock
+# [anzu.io]
+HOST,caps-server.anzu.io,AdBlock
+HOST,l1-1.anzu.io,AdBlock
+# [anzuinfra.com]
+HOST,assets.anzuinfra.com,AdBlock
+HOST,dynamic-l1.anzuinfra.com,AdBlock
+HOST,emqx.anzuinfra.com,AdBlock
+HOST,events.anzuinfra.com,AdBlock
+HOST,l3-2.anzuinfra.com,AdBlock
+HOST,logic.anzuinfra.com,AdBlock
 # [aotter.net]
 HOST,tkmftc.aotter.net,AdBlock
 HOST,tkportal.aotter.net,AdBlock
@@ -8577,6 +8589,7 @@ HOST,stage-bid.applovin.com,AdBlock
 HOST,stage-img.applovin.com,AdBlock
 HOST,stage-ms.applovin.com,AdBlock
 HOST,stage-pdn.applovin.com,AdBlock
+HOST,ue.applovin.com,AdBlock
 # [applvn.com]
 HOST,applvn.com,AdBlock
 HOST,a.applvn.com,AdBlock
@@ -11027,8 +11040,6 @@ HOST,sales.idio.co,AdBlock
 HOST,ssl-s.idio.co,AdBlock
 # [idreams.pl]
 HOST,server.idreams.pl,AdBlock
-# [iesnare.com]
-HOST,mpsnare.iesnare.com,AdBlock
 # [ifood.tv]
 HOST,adlog.ifood.tv,AdBlock
 HOST,log.ifood.tv,AdBlock
@@ -11350,9 +11361,6 @@ HOST,invocacdn.com,AdBlock
 HOST,solutions.invocacdn.com,AdBlock
 # [iosappsworld.com]
 HOST,ads.iosappsworld.com,AdBlock
-# [iovation.com]
-HOST,ci-mpsnare.iovation.com,AdBlock
-HOST,first.iovation.com,AdBlock
 # [iperceptions.com]
 HOST,api.iperceptions.com,AdBlock
 HOST,collect.iperceptions.com,AdBlock
@@ -11608,6 +11616,8 @@ HOST,a.klaviyo.com,AdBlock
 HOST,fast.a.klaviyo.com,AdBlock
 HOST,static.klaviyo.com,AdBlock
 HOST,telemetrics.klaviyo.com,AdBlock
+# [klclick1.com]
+HOST,trk.klclick1.com,AdBlock
 # [kmpmedia.net]
 HOST,gplayer.kmpmedia.net,AdBlock
 HOST,update.kmpmedia.net,AdBlock

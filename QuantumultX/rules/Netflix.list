@@ -1,4 +1,4 @@
-# Netflix rules refresh time: 2022-07-04 02:56:20
+# Netflix rules refresh time: 2022-07-11 02:40:25
 HOST,api.fast.com,Netflix
 HOST,netflix.com.edgesuite.net,Netflix
 HOST-SUFFIX,fast.com,Netflix
@@ -412,7 +412,6 @@ IP-CIDR,18.237.140.160/29,Netflix
 IP-CIDR,18.252.145.156/30,Netflix
 IP-CIDR,18.252.145.160/28,Netflix
 IP-CIDR,18.252.145.192/27,Netflix
-IP-CIDR,18.252.165.140/30,Netflix
 IP-CIDR,18.252.4.0/30,Netflix
 IP-CIDR,18.252.4.16/29,Netflix
 IP-CIDR,18.252.56.0/23,Netflix
