@@ -1,0 +1,207 @@
+!
+! Title: 电视广告屏蔽
+! Description: 从路由器端屏蔽电视广告
+! Homepage: https://github.com/zqzess/rule_for_quantumultX
+! Last modified: 2022-07-16T2:14
+!
+! Compiled by @zqzess
+!
+!
+
+127.0.0.1 ad.mi.com
+
+127.0.0.1 ad.xiaomi.com
+
+127.0.0.1 ad1.xiaomi.com
+
+127.0.0.1 tat.pandora.xiaomi.com
+
+127.0.0.1 api.ad.xiaomi.com
+
+127.0.0.1 t7z.cupid.ptqy.gitv.tv
+
+127.0.0.1 sdkconfig.ad.xiaomi.com
+
+127.0.0.1 stat.pandora.xiaomi.com
+
+127.0.0.1 upgrade.mishop.pandora.xiaomi.com
+
+127.0.0.1 logonext.tv.kuyun.com
+
+127.0.0.1 config.kuyun.com
+
+127.0.0.1 mishop.pandora.xiaomi.com
+
+127.0.0.1 dvb.pandora.xiaomi.com
+
+127.0.0.1 de.pandora.xiaomi.com
+
+127.0.0.1 data.mistat.xiaomi.com
+
+127.0.0.1 jellyfish.pandora.xiaomi.com
+
+127.0.0.1 gallery.pandora.xiaomi.com
+
+127.0.0.1 bss.pandora.xiaomi.com
+
+127.0.0.1 gvod.aiseejapp.atianqi.com
+
+127.0.0.1 sdkauth.hpplay.cn
+
+127.0.0.1 ad.hpplay.cn
+
+127.0.0.1 fix.hpplay.cn
+
+127.0.0.1 imdns.hpplay.cn
+
+127.0.0.1 vipauth.hpplay.cn
+
+127.0.0.1 sl.hpplay.cn
+
+127.0.0.1 519332DA.rtc.youme.im
+
+127.0.0.1 tvapp.hpplay.cn
+
+127.0.0.1 hpplay.cdn.cibn.cc
+
+127.0.0.1 image.hpplay.cn
+
+127.0.0.1 gslb.hpplay.cn
+
+127.0.0.1 rp.hpplay.cn
+
+127.0.0.1 cdn.hpplay.com.cn
+
+127.0.0.1 h5.hpplay.com.cn
+
+127.0.0.1 adeng.hpplay.cn
+
+127.0.0.1 conf.hpplay.cn
+
+127.0.0.1 adcdn.hpplay.cn
+
+127.0.0.1 g.dtv.cn.miaozhen.com
+
+127.0.0.1 android.bugly.qq.com
+
+127.0.0.1 alog.umeng.com
+
+127.0.0.1 hotupgrade.hpplay.cn
+
+127.0.0.1 pin.hpplay.cn
+
+---------------------------------------------------------------------------
+
+127.0.0.1 auth.api.gitv.tv
+
+127.0.0.1 tv.aiseet.atianqi.com
+
+127.0.0.1 vv.play.aiseet.atianqi.com
+
+127.0.0.1 o2o.api.xiaomi.com
+
+127.0.0.1 pandora.mi.com
+
+127.0.0.1 tvapi.kuyun.com
+
+127.0.0.1 assistant.pandora.xiaomi.com
+
+127.0.0.1 tracking.miui.com
+
+127.0.0.1 misc.pandora.xiaomi.com
+
+127.0.0.1 omgmta.play.aiseet.atianqi.com
+
+127.0.0.1 starfish.pandora.xiaomi.com
+
+127.0.0.1 misc.in.duokanbox.com
+
+127.0.0.1 86file.megajoy.com
+
+127.0.0.1 86get.joy.cn
+
+127.0.0.1 86log.joy.cn
+
+127.0.0.1 atm.youku.com
+
+127.0.0.1 Fvid.atm.youku.com
+
+127.0.0.1 html.atm.youku.com
+
+127.0.0.1 valb.atm.youku.com
+
+127.0.0.1 valf.atm.youku.com
+
+127.0.0.1 valo.atm.youku.com
+
+127.0.0.1 valp.atm.youku.com
+
+127.0.0.1 lstat.youku.com
+
+127.0.0.1 speed.lstat.youku.com
+
+127.0.0.1 urchin.lstat.youku.com
+
+127.0.0.1 stat.youku.com
+
+127.0.0.1 static.lstat.youku.com
+
+127.0.0.1 valc.atm.youku.com
+
+127.0.0.1 vid.atm.youku.com
+
+127.0.0.1 walp.atm.youku.com
+
+127.0.0.1 a.baidu.com
+
+127.0.0.1 baidutv.baidu.com
+
+127.0.0.1 bar.baidu.com
+
+127.0.0.1 c.baidu.com
+
+127.0.0.1 cjhq.baidu.com
+
+127.0.0.1 cpro.baidu.com
+
+127.0.0.1 drmcmm.baidu.com
+
+127.0.0.1 e.baidu.com
+
+127.0.0.1 eiv.baidu.com
+
+127.0.0.1 hc.baidu.com
+
+127.0.0.1 hm.baidu.com
+
+127.0.0.1 ma.baidu.com
+
+127.0.0.1 nsclick.baidu.com
+
+127.0.0.1 spcode.baidu.com
+
+127.0.0.1 tk.baidu.com
+
+127.0.0.1 union.baidu.com
+
+127.0.0.1 ucstat.baidu.com
+
+127.0.0.1 utility.baidu.com
+
+127.0.0.1 utk.baidu.com
+
+127.0.0.1 afp.qiyi.com
+
+127.0.0.1 focusbaiduafp.allyes.com
+
+127.0.0.1 a.cctv.com
+
+127.0.0.1 a.cntv.cn
+
+127.0.0.1 ad.cctv.com
+
+127.0.0.1 d.cntv.cn
+
+127.0.0.1 adguanggao.eee114.com
+
+127.0.0.1 cctv.adsunion.com
