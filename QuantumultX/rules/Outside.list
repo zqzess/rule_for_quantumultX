@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2022-07-11 02:40:26
+# Outside rules refresh time: 2022-07-18 02:46:40
 
 HOST,voice.telephony.goog,Outside
 
@@ -797,6 +797,7 @@ IP-CIDR,208.43.0.0/16,Outside
 HOST,assets-priconne-redive-us.akamaized.net,Outside
 HOST,cvws.icloud-content.com,Outside
 HOST,developer.apple.com,Outside
+HOST,services.googleapis.cn,Outside
 HOST-SUFFIX,00006801.com,Outside
 HOST-SUFFIX,00006805.com,Outside
 HOST-SUFFIX,00006807.com,Outside
@@ -13201,7 +13202,6 @@ HOST-SUFFIX,megworld.co.uk,Outside
 HOST-SUFFIX,mehide.org,Outside
 HOST-SUFFIX,meibath.com,Outside
 HOST-SUFFIX,meilizhongguo.biz,Outside
-HOST-SUFFIX,meirixiaochao.com,Outside
 HOST-SUFFIX,meizhong.blog,Outside
 HOST-SUFFIX,meizhong.report,Outside
 HOST-SUFFIX,meltdownintibet.com,Outside
