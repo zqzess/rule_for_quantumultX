@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-23 02:31:26
+# UPDATED: 2022-07-27 17:12:32
 # HOST: 9
 # HOST-KEYWORD: 30
-# HOST-SUFFIX: 25475
+# HOST-SUFFIX: 25470
 # IP-CIDR: 92
 # IP6-CIDR: 3
 # USER-AGENT: 7
-# TOTAL: 25616
+# TOTAL: 25611
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -3042,6 +3042,7 @@ HOST-SUFFIX,ampj60.com,Proxy
 HOST-SUFFIX,ampj662.com,Proxy
 HOST-SUFFIX,ampj665.com,Proxy
 HOST-SUFFIX,ampj90.com,Proxy
+HOST-SUFFIX,amplitude.com,Proxy
 HOST-SUFFIX,amplusmarketing.com,Proxy
 HOST-SUFFIX,ampproject.com,Proxy
 HOST-SUFFIX,ampproject.net,Proxy
@@ -3216,7 +3217,6 @@ HOST-SUFFIX,api-ds.kkbox.com.tw,Proxy
 HOST-SUFFIX,api-login.kkbox.com.tw,Proxy
 HOST-SUFFIX,api.a5188yes.com,Proxy
 HOST-SUFFIX,api.ai,Proxy
-HOST-SUFFIX,api.amplitude.com,Proxy
 HOST-SUFFIX,api.arcadia.pncle8.com,Proxy
 HOST-SUFFIX,api.chess.com,Proxy
 HOST-SUFFIX,api.citizenvpn.com,Proxy
@@ -8921,7 +8921,6 @@ HOST-SUFFIX,goodtv.org,Proxy
 HOST-SUFFIX,goodtv.tv,Proxy
 HOST-SUFFIX,goofind.com,Proxy
 HOST-SUFFIX,googl.com,Proxy
-HOST-SUFFIX,google-analytics.com,Proxy
 HOST-SUFFIX,google-melange.com,Proxy
 HOST-SUFFIX,google.ac,Proxy
 HOST-SUFFIX,google.ad,Proxy
@@ -9142,7 +9141,6 @@ HOST-SUFFIX,google.vg,Proxy
 HOST-SUFFIX,google.vn,Proxy
 HOST-SUFFIX,google.vu,Proxy
 HOST-SUFFIX,google.ws,Proxy
-HOST-SUFFIX,googleanalytics.com,Proxy
 HOST-SUFFIX,googleapis.cn,Proxy
 HOST-SUFFIX,googleapis.com,Proxy
 HOST-SUFFIX,googleapps.com,Proxy
@@ -12990,7 +12988,6 @@ HOST-SUFFIX,mmm26.net,Proxy
 HOST-SUFFIX,mmmca.com,Proxy
 HOST-SUFFIX,mmmglobal.org,Proxy
 HOST-SUFFIX,mmmoffice.com,Proxy
-HOST-SUFFIX,mmotraffic.com,Proxy
 HOST-SUFFIX,mms333.ga,Proxy
 HOST-SUFFIX,mms333.gq,Proxy
 HOST-SUFFIX,mmsishow.com,Proxy
@@ -18109,7 +18106,6 @@ HOST-SUFFIX,tra.tvbjjj.com,Proxy
 HOST-SUFFIX,trace.org,Proxy
 HOST-SUFFIX,tracfone.com,Proxy
 HOST-SUFFIX,tracking.rb88.com,Proxy
-HOST-SUFFIX,trackingclick.net,Proxy
 HOST-SUFFIX,trade.kgieworld.com,Proxy
 HOST-SUFFIX,trader.lcg.com,Proxy
 HOST-SUFFIX,trader711.com,Proxy
@@ -18117,7 +18113,6 @@ HOST-SUFFIX,tradiio.com,Proxy
 HOST-SUFFIX,trading212.com,Proxy
 HOST-SUFFIX,tradingview.com,Proxy
 HOST-SUFFIX,traeumtgerade.de,Proxy
-HOST-SUFFIX,traffichaus.com,Proxy
 HOST-SUFFIX,trakt.tv,Proxy
 HOST-SUFFIX,transferstudentcn.weebly.com,Proxy
 HOST-SUFFIX,translate.goog,Proxy

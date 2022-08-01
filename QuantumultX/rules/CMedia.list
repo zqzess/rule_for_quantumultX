@@ -1,4 +1,4 @@
-# CMedia rules refresh time: 2022-07-25 02:51:13
+# CMedia rules refresh time: 2022-08-01 03:07:10
 
 USER-AGENT,AcFun*,CMedia
 HOST-SUFFIX,acfun.cn,CMedia
@@ -273,6 +273,7 @@ HOST-SUFFIX,zmzfile.com,CMedia
 HOST-KEYWORD,bilibili,CMedia
 USER-AGENT,*bili*,CMedia
 USER-AGENT,Bilibili*,CMedia
+USER-AGENT,bili-inter*,CMedia
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,CMedia
 USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,CMedia
 USER-AGENT,PPStream*,CMedia

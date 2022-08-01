@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-07-23 02:31:21
+# UPDATED: 2022-07-27 17:12:28
 # HOST: 83
 # HOST-KEYWORD: 38
-# HOST-SUFFIX: 25587
+# HOST-SUFFIX: 25583
 # IP-CIDR: 110
 # IP6-CIDR: 4
 # USER-AGENT: 44
-# TOTAL: 25866
+# TOTAL: 25862
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Global
 HOST,a248.e.akamai.net,Global
 HOST,a771.dscq.akamai.net,Global
@@ -105,7 +105,6 @@ HOST-SUFFIX,aiv-delivery.net,Global
 HOST-SUFFIX,aka.ms,Global
 HOST-SUFFIX,amazonvideo.com,Global
 HOST-SUFFIX,ameba.jp,Global
-HOST-SUFFIX,amplitude.com,Global
 HOST-SUFFIX,apkfind.com,Global
 HOST-SUFFIX,apple.news,Global
 HOST-SUFFIX,arukas.io,Global
@@ -232,6 +231,7 @@ HOST-SUFFIX,telephony.goog,Global
 HOST-SUFFIX,theplatform.com,Global
 HOST-SUFFIX,tidal.com,Global
 HOST-SUFFIX,tinyurl.com,Global
+HOST-SUFFIX,traffichaus.com,Global
 HOST-SUFFIX,ubertags.com,Global
 HOST-SUFFIX,uniswap.org,Global
 HOST-SUFFIX,uplynk.com,Global
@@ -3267,6 +3267,7 @@ HOST-SUFFIX,ampj60.com,Global
 HOST-SUFFIX,ampj662.com,Global
 HOST-SUFFIX,ampj665.com,Global
 HOST-SUFFIX,ampj90.com,Global
+HOST-SUFFIX,amplitude.com,Global
 HOST-SUFFIX,amplusmarketing.com,Global
 HOST-SUFFIX,ampproject.com,Global
 HOST-SUFFIX,ampproject.net,Global
@@ -9130,7 +9131,6 @@ HOST-SUFFIX,goodtv.org,Global
 HOST-SUFFIX,goodtv.tv,Global
 HOST-SUFFIX,goofind.com,Global
 HOST-SUFFIX,googl.com,Global
-HOST-SUFFIX,google-analytics.com,Global
 HOST-SUFFIX,google-melange.com,Global
 HOST-SUFFIX,google.ac,Global
 HOST-SUFFIX,google.ad,Global
@@ -9351,7 +9351,6 @@ HOST-SUFFIX,google.vg,Global
 HOST-SUFFIX,google.vn,Global
 HOST-SUFFIX,google.vu,Global
 HOST-SUFFIX,google.ws,Global
-HOST-SUFFIX,googleanalytics.com,Global
 HOST-SUFFIX,googleapis.cn,Global
 HOST-SUFFIX,googleapis.com,Global
 HOST-SUFFIX,googleapps.com,Global
@@ -13194,7 +13193,6 @@ HOST-SUFFIX,mmm26.net,Global
 HOST-SUFFIX,mmmca.com,Global
 HOST-SUFFIX,mmmglobal.org,Global
 HOST-SUFFIX,mmmoffice.com,Global
-HOST-SUFFIX,mmotraffic.com,Global
 HOST-SUFFIX,mms333.ga,Global
 HOST-SUFFIX,mms333.gq,Global
 HOST-SUFFIX,mmsishow.com,Global
@@ -18307,7 +18305,6 @@ HOST-SUFFIX,tra.tvbjjj.com,Global
 HOST-SUFFIX,trace.org,Global
 HOST-SUFFIX,tracfone.com,Global
 HOST-SUFFIX,tracking.rb88.com,Global
-HOST-SUFFIX,trackingclick.net,Global
 HOST-SUFFIX,trade.kgieworld.com,Global
 HOST-SUFFIX,trader.lcg.com,Global
 HOST-SUFFIX,trader711.com,Global
@@ -18315,7 +18312,6 @@ HOST-SUFFIX,tradiio.com,Global
 HOST-SUFFIX,trading212.com,Global
 HOST-SUFFIX,tradingview.com,Global
 HOST-SUFFIX,traeumtgerade.de,Global
-HOST-SUFFIX,traffichaus.com,Global
 HOST-SUFFIX,trakt.tv,Global
 HOST-SUFFIX,transferstudentcn.weebly.com,Global
 HOST-SUFFIX,translate.goog,Global
