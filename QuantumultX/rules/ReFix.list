@@ -234,3 +234,6 @@ USER-AGENT,AVOS*,reject
 host,adjd.scdsvdsczx.cn,reject
 host,rr3---sn-ni57rn7d.gvt1.com,reject
 host,pagead2.googleadservices.com,reject
+
+#pikpak网盘
+host,access.mypikpak.com,Outside
