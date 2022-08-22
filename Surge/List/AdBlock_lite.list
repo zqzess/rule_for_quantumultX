@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-08-15 02:57:22
+# AdBlock rules refresh time: 2022-08-22 02:58:39
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -6706,6 +6706,7 @@ DOMAIN,247realmedia.com
 # [33across.com]
 DOMAIN,cms-xch-chicago.33across.com
 DOMAIN,ssc.33across.com
+DOMAIN,ssc-cms.33across.com
 # [360in.com]
 DOMAIN,360in.com
 DOMAIN,ad.360in.com
@@ -7202,6 +7203,7 @@ DOMAIN,a.adnium.com
 # [adnsx.com]
 DOMAIN,prebids.adnsx.com
 # [adnxs-simple.com]
+DOMAIN,acdn.adnxs-simple.com
 DOMAIN,nym1-ib.adnxs-simple.com
 # [adnxs.com]
 DOMAIN,adscale-emea.adnxs.com
@@ -8593,7 +8595,9 @@ DOMAIN,bidsopt.com
 # [bidswitch.net]
 DOMAIN,gce-or.bidswitch.net
 DOMAIN,gce-sc.bidswitch.net
+DOMAIN,ghent-gce-sc.bidswitch.net
 DOMAIN,grid.bidswitch.net
+DOMAIN,us-east-sync.bidswitch.net
 # [bing.com]
 DOMAIN,bat.bing.com
 # [bitmango.com]
@@ -8879,7 +8883,137 @@ DOMAIN,coremetrics.carrier.com
 # [carthook.com]
 DOMAIN,gcheck.carthook.com
 # [casalemedia.com]
+DOMAIN,a1000.casalemedia.com
+DOMAIN,a1015.casalemedia.com
+DOMAIN,a1020.casalemedia.com
+DOMAIN,a1222.casalemedia.com
+DOMAIN,a1223.casalemedia.com
+DOMAIN,a1232.casalemedia.com
+DOMAIN,a1233.casalemedia.com
+DOMAIN,a1234.casalemedia.com
+DOMAIN,a1235.casalemedia.com
+DOMAIN,a1238.casalemedia.com
+DOMAIN,a1243.casalemedia.com
+DOMAIN,a1246.casalemedia.com
+DOMAIN,a1247.casalemedia.com
+DOMAIN,a1249.casalemedia.com
+DOMAIN,a1261.casalemedia.com
+DOMAIN,a1263.casalemedia.com
+DOMAIN,a1264.casalemedia.com
+DOMAIN,a1269.casalemedia.com
+DOMAIN,a1273.casalemedia.com
+DOMAIN,a1276.casalemedia.com
+DOMAIN,a1277.casalemedia.com
+DOMAIN,a1278.casalemedia.com
+DOMAIN,a1279.casalemedia.com
+DOMAIN,a1287.casalemedia.com
+DOMAIN,a1289.casalemedia.com
+DOMAIN,a1297.casalemedia.com
+DOMAIN,a1312.casalemedia.com
+DOMAIN,a1313.casalemedia.com
+DOMAIN,a1317.casalemedia.com
+DOMAIN,a1319.casalemedia.com
+DOMAIN,a1327.casalemedia.com
+DOMAIN,a1329.casalemedia.com
+DOMAIN,a1333.casalemedia.com
+DOMAIN,a1341.casalemedia.com
+DOMAIN,a1344.casalemedia.com
+DOMAIN,a1351.casalemedia.com
+DOMAIN,a1352.casalemedia.com
+DOMAIN,a1359.casalemedia.com
+DOMAIN,a1365.casalemedia.com
+DOMAIN,a1366.casalemedia.com
+DOMAIN,a1369.casalemedia.com
+DOMAIN,a1370.casalemedia.com
+DOMAIN,a1372.casalemedia.com
+DOMAIN,a1382.casalemedia.com
+DOMAIN,a1394.casalemedia.com
+DOMAIN,a1396.casalemedia.com
+DOMAIN,a1408.casalemedia.com
+DOMAIN,a1410.casalemedia.com
+DOMAIN,a1411.casalemedia.com
+DOMAIN,a1413.casalemedia.com
+DOMAIN,a1416.casalemedia.com
+DOMAIN,a1420.casalemedia.com
+DOMAIN,a1423.casalemedia.com
+DOMAIN,a1424.casalemedia.com
+DOMAIN,a1430.casalemedia.com
+DOMAIN,a1440.casalemedia.com
+DOMAIN,a1441.casalemedia.com
+DOMAIN,a1442.casalemedia.com
+DOMAIN,a1444.casalemedia.com
+DOMAIN,a1447.casalemedia.com
+DOMAIN,a1451.casalemedia.com
+DOMAIN,a1453.casalemedia.com
+DOMAIN,a1457.casalemedia.com
 DOMAIN,a1726.casalemedia.com
+DOMAIN,a3409.casalemedia.com
+DOMAIN,a3426.casalemedia.com
+DOMAIN,a3427.casalemedia.com
+DOMAIN,a3428.casalemedia.com
+DOMAIN,a3435.casalemedia.com
+DOMAIN,a3448.casalemedia.com
+DOMAIN,a3449.casalemedia.com
+DOMAIN,a3453.casalemedia.com
+DOMAIN,a3457.casalemedia.com
+DOMAIN,a3468.casalemedia.com
+DOMAIN,a3473.casalemedia.com
+DOMAIN,a3485.casalemedia.com
+DOMAIN,a3489.casalemedia.com
+DOMAIN,a3493.casalemedia.com
+DOMAIN,a3495.casalemedia.com
+DOMAIN,a3514.casalemedia.com
+DOMAIN,a3518.casalemedia.com
+DOMAIN,a3536.casalemedia.com
+DOMAIN,a3543.casalemedia.com
+DOMAIN,a3559.casalemedia.com
+DOMAIN,a3560.casalemedia.com
+DOMAIN,a3561.casalemedia.com
+DOMAIN,a3571.casalemedia.com
+DOMAIN,a3585.casalemedia.com
+DOMAIN,a3586.casalemedia.com
+DOMAIN,a3587.casalemedia.com
+DOMAIN,a3595.casalemedia.com
+DOMAIN,a3610.casalemedia.com
+DOMAIN,a3614.casalemedia.com
+DOMAIN,a3618.casalemedia.com
+DOMAIN,a3623.casalemedia.com
+DOMAIN,a3630.casalemedia.com
+DOMAIN,a3653.casalemedia.com
+DOMAIN,a3670.casalemedia.com
+DOMAIN,a3680.casalemedia.com
+DOMAIN,a3686.casalemedia.com
+DOMAIN,a3689.casalemedia.com
+DOMAIN,a3700.casalemedia.com
+DOMAIN,a3718.casalemedia.com
+DOMAIN,a3719.casalemedia.com
+DOMAIN,a3727.casalemedia.com
+DOMAIN,a3729.casalemedia.com
+DOMAIN,a3791.casalemedia.com
+DOMAIN,a3793.casalemedia.com
+DOMAIN,a3795.casalemedia.com
+DOMAIN,a3796.casalemedia.com
+DOMAIN,a3800.casalemedia.com
+DOMAIN,a3806.casalemedia.com
+DOMAIN,a3811.casalemedia.com
+DOMAIN,a3828.casalemedia.com
+DOMAIN,a3835.casalemedia.com
+DOMAIN,a3859.casalemedia.com
+DOMAIN,a3862.casalemedia.com
+DOMAIN,a3863.casalemedia.com
+DOMAIN,a3865.casalemedia.com
+DOMAIN,a3868.casalemedia.com
+DOMAIN,a3871.casalemedia.com
+DOMAIN,a3880.casalemedia.com
+DOMAIN,a527.casalemedia.com
+DOMAIN,a531.casalemedia.com
+DOMAIN,a545.casalemedia.com
+DOMAIN,a546.casalemedia.com
+DOMAIN,a547.casalemedia.com
+DOMAIN,a556.casalemedia.com
+DOMAIN,a985.casalemedia.com
+DOMAIN,a987.casalemedia.com
+DOMAIN,a998.casalemedia.com
 DOMAIN,amp.casalemedia.com
 DOMAIN,as.casalemedia.com
 DOMAIN,dsum.casalemedia.com
@@ -9551,6 +9685,7 @@ DOMAIN,pepsico.demdex.net
 DOMAIN,pythagore.demdex.net
 DOMAIN,swa.demdex.net
 DOMAIN,tdameritrade.demdex.net
+DOMAIN,ups.demdex.net
 DOMAIN,vanguard.demdex.net
 DOMAIN,verizon.demdex.net
 DOMAIN,vivaki.demdex.net
@@ -9637,6 +9772,7 @@ DOMAIN,ad-emea.doubleclick.net
 DOMAIN,ff.doubleclick.net
 DOMAIN,fls.doubleclick.net
 DOMAIN,3243857.fls.doubleclick.net
+DOMAIN,4394967.fls.doubleclick.net
 DOMAIN,8272590.fls.doubleclick.net
 DOMAIN,8397396.fls.doubleclick.net
 DOMAIN,g.doubleclick.net
@@ -9998,6 +10134,7 @@ DOMAIN,dco-assets.everestads.net
 DOMAIN,everesttech.net
 DOMAIN,ads.everesttech.net
 DOMAIN,cm.everesttech.net
+DOMAIN,statsf-tm.everesttech.net
 # [evidon.com]
 DOMAIN,evidon.com
 DOMAIN,c.evidon.com
@@ -10219,6 +10356,7 @@ DOMAIN,g13v.prd.ads.aws.fwmrm.net
 DOMAIN,nbcu.prd.ads.aws.fwmrm.net
 DOMAIN,v.fwmrm.net
 DOMAIN,7f077.v.fwmrm.net
+DOMAIN,dsp.v.fwmrm.net
 # [fyber.com]
 DOMAIN,api.fyber.com
 DOMAIN,api-rewarded-video.fyber.com
@@ -10793,6 +10931,7 @@ DOMAIN,content-prod3.glance-internal.inmobi.com
 DOMAIN,s.iff.inmobi.com
 DOMAIN,dspbeacons.error.ihasdsp.inmobi.com
 DOMAIN,imces.inmobi.com
+DOMAIN,mcg-ads.inmobi.com
 DOMAIN,pulse.inmobi.com
 DOMAIN,carpet.pulse.inmobi.com
 DOMAIN,sdk.inmobi.com
@@ -11738,6 +11877,7 @@ DOMAIN,recommends.media.net
 DOMAIN,res.media.net
 DOMAIN,search.media.net
 DOMAIN,static.media.net
+DOMAIN,warp.media.net
 DOMAIN,whitelabel.media.net
 # [media6degrees.com]
 DOMAIN,idpix.media6degrees.com
@@ -12502,6 +12642,7 @@ DOMAIN,audible.sc.omtrdc.net
 DOMAIN,bamtech.sc.omtrdc.net
 DOMAIN,carfax.sc.omtrdc.net
 DOMAIN,coxcommunications.sc.omtrdc.net
+DOMAIN,amazoncustomerservice.d2.sc.omtrdc.net
 DOMAIN,fox.com.ssl.d2.sc.omtrdc.net
 DOMAIN,philipslighting.d3.sc.omtrdc.net
 DOMAIN,deutschebahn.sc.omtrdc.net
@@ -12509,9 +12650,11 @@ DOMAIN,kroger.sc.omtrdc.net
 DOMAIN,nbcstreaming.sc.omtrdc.net
 DOMAIN,nbcume.sc.omtrdc.net
 DOMAIN,subwayfranchiseeadvertising.sc.omtrdc.net
+DOMAIN,unitedparcelservice.sc.omtrdc.net
 DOMAIN,viacom.sc.omtrdc.net
 DOMAIN,tt.omtrdc.net
 DOMAIN,abcnews.tt.omtrdc.net
+DOMAIN,adobe.tt.omtrdc.net
 DOMAIN,aetv.tt.omtrdc.net
 DOMAIN,allstate.tt.omtrdc.net
 DOMAIN,audible.tt.omtrdc.net
@@ -12552,6 +12695,7 @@ DOMAIN,geolocation.onetrust.com
 # [online-metrix.net]
 DOMAIN,online-metrix.net
 DOMAIN,aa.online-metrix.net
+DOMAIN,h.online-metrix.net
 # [onscroll.com]
 DOMAIN,impl.onscroll.com
 DOMAIN,onetag-geo.onscroll.com
@@ -12581,6 +12725,7 @@ DOMAIN,update.openx.com
 DOMAIN,s.update.openx.com
 # [openx.net]
 DOMAIN,rtb.openx.net
+DOMAIN,samyonews-d.openx.net
 # [opera.com]
 DOMAIN,api-a.op-mobile.opera.com
 # [oppomobile.com]
@@ -12601,6 +12746,7 @@ DOMAIN,bx01.optimix.asia
 DOMAIN,api.optimizely.com
 DOMAIN,app.optimizely.com
 DOMAIN,cdn.optimizely.com
+DOMAIN,cdn3.optimizely.com
 DOMAIN,logx.optimizely.com
 DOMAIN,events.mobile.optimizely.com
 # [optimost.io]
@@ -12758,6 +12904,7 @@ DOMAIN,ad.period-calendar.com
 DOMAIN,secure.perk0mean.com
 # [permutive.app]
 DOMAIN,cdn.permutive.app
+DOMAIN,6093eccf-6734-4877-ac8b-83d6d0e27b46.edge.permutive.app
 # [permutive.com]
 DOMAIN,permutive.com
 DOMAIN,amp.permutive.com
@@ -13082,7 +13229,6 @@ DOMAIN,log.wtlogin.qq.com
 DOMAIN,ysdk.qq.com
 # [qualtrics.com]
 DOMAIN,siteintercept.qualtrics.com
-DOMAIN,zn42v6draxyafsjmv-homedepot.siteintercept.qualtrics.com
 # [quantcount.com]
 DOMAIN,quantcount.com
 DOMAIN,assets.quantcount.com
@@ -13326,6 +13472,8 @@ DOMAIN,ads.rubiconproject.com
 DOMAIN,aws.rubiconproject.com
 DOMAIN,stats.aws.rubiconproject.com
 DOMAIN,beacon-eu-ams3.rubiconproject.com
+DOMAIN,beacon-iad2.rubiconproject.com
+DOMAIN,beacon-iad3.rubiconproject.com
 DOMAIN,beacon-nf.rubiconproject.com
 DOMAIN,beacon-us-west.rubiconproject.com
 DOMAIN,cca-iad2.rubiconproject.com
@@ -13635,6 +13783,8 @@ DOMAIN,sdk-api-v1.singular.net
 DOMAIN,t.singular.net
 # [sitemaji.com]
 # [sitescout.com]
+DOMAIN,node-p2e-zii3oh.sitescout.com
+DOMAIN,pixel.sitescout.com
 DOMAIN,pixel-sync.sitescout.com
 # [skimresources.com]
 DOMAIN,assistjs.skimresources.com
@@ -14609,6 +14759,7 @@ DOMAIN,geodns.tubemogul.com
 DOMAIN,cdn.geodns.tubemogul.com
 DOMAIN,cmp.geodns.tubemogul.com
 DOMAIN,lasteventf.tubemogul.com
+DOMAIN,playtime.tubemogul.com
 DOMAIN,psi.tubemogul.com
 DOMAIN,rtd.tubemogul.com
 DOMAIN,statsf.tubemogul.com
@@ -14651,6 +14802,7 @@ DOMAIN,p.tvpixel.com
 # [tvsquared.com]
 DOMAIN,tvsquared.com
 DOMAIN,collector-12255.tvsquared.com
+DOMAIN,collector-6651.tvsquared.com
 DOMAIN,collector-9306.us.tvsquared.com
 DOMAIN,collectoru.us.tvsquared.com
 # [twilio.com]
@@ -14838,6 +14990,7 @@ DOMAIN,mobileanalytics.useinsider.com
 DOMAIN,api.userleap.com
 # [userzoom.com]
 DOMAIN,cdn4.userzoom.com
+DOMAIN,cdn5.userzoom.com
 # [utarget.ru]
 DOMAIN,utarget.ru
 # [v-mate.mobi]
@@ -15400,8 +15553,13 @@ DOMAIN,static.zdbb.net
 # [zdn.vn]
 DOMAIN,zplayer-trk.zdn.vn
 # [zemanta.com]
+DOMAIN,b1-chidc2.zemanta.com
+DOMAIN,b1-nydc1.zemanta.com
 DOMAIN,b1sync.zemanta.com
+DOMAIN,b1t-chidc2.zemanta.com
+DOMAIN,b1t-nydc1.zemanta.com
 DOMAIN,images2.zemanta.com
+DOMAIN,widgets.zemanta.com
 # [zendesk.com]
 DOMAIN,analytics.zendesk.com
 # [zenmxapps.com]

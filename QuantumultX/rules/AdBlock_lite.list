@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-08-15 02:57:22
+# AdBlock rules refresh time: 2022-08-22 02:58:39
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -6709,6 +6709,7 @@ HOST,247realmedia.com,AdBlock
 # [33across.com]
 HOST,cms-xch-chicago.33across.com,AdBlock
 HOST,ssc.33across.com,AdBlock
+HOST,ssc-cms.33across.com,AdBlock
 # [360in.com]
 HOST,360in.com,AdBlock
 HOST,ad.360in.com,AdBlock
@@ -7205,6 +7206,7 @@ HOST,a.adnium.com,AdBlock
 # [adnsx.com]
 HOST,prebids.adnsx.com,AdBlock
 # [adnxs-simple.com]
+HOST,acdn.adnxs-simple.com,AdBlock
 HOST,nym1-ib.adnxs-simple.com,AdBlock
 # [adnxs.com]
 HOST,adscale-emea.adnxs.com,AdBlock
@@ -8596,7 +8598,9 @@ HOST,bidsopt.com,AdBlock
 # [bidswitch.net]
 HOST,gce-or.bidswitch.net,AdBlock
 HOST,gce-sc.bidswitch.net,AdBlock
+HOST,ghent-gce-sc.bidswitch.net,AdBlock
 HOST,grid.bidswitch.net,AdBlock
+HOST,us-east-sync.bidswitch.net,AdBlock
 # [bing.com]
 HOST,bat.bing.com,AdBlock
 # [bitmango.com]
@@ -8882,7 +8886,137 @@ HOST,coremetrics.carrier.com,AdBlock
 # [carthook.com]
 HOST,gcheck.carthook.com,AdBlock
 # [casalemedia.com]
+HOST,a1000.casalemedia.com,AdBlock
+HOST,a1015.casalemedia.com,AdBlock
+HOST,a1020.casalemedia.com,AdBlock
+HOST,a1222.casalemedia.com,AdBlock
+HOST,a1223.casalemedia.com,AdBlock
+HOST,a1232.casalemedia.com,AdBlock
+HOST,a1233.casalemedia.com,AdBlock
+HOST,a1234.casalemedia.com,AdBlock
+HOST,a1235.casalemedia.com,AdBlock
+HOST,a1238.casalemedia.com,AdBlock
+HOST,a1243.casalemedia.com,AdBlock
+HOST,a1246.casalemedia.com,AdBlock
+HOST,a1247.casalemedia.com,AdBlock
+HOST,a1249.casalemedia.com,AdBlock
+HOST,a1261.casalemedia.com,AdBlock
+HOST,a1263.casalemedia.com,AdBlock
+HOST,a1264.casalemedia.com,AdBlock
+HOST,a1269.casalemedia.com,AdBlock
+HOST,a1273.casalemedia.com,AdBlock
+HOST,a1276.casalemedia.com,AdBlock
+HOST,a1277.casalemedia.com,AdBlock
+HOST,a1278.casalemedia.com,AdBlock
+HOST,a1279.casalemedia.com,AdBlock
+HOST,a1287.casalemedia.com,AdBlock
+HOST,a1289.casalemedia.com,AdBlock
+HOST,a1297.casalemedia.com,AdBlock
+HOST,a1312.casalemedia.com,AdBlock
+HOST,a1313.casalemedia.com,AdBlock
+HOST,a1317.casalemedia.com,AdBlock
+HOST,a1319.casalemedia.com,AdBlock
+HOST,a1327.casalemedia.com,AdBlock
+HOST,a1329.casalemedia.com,AdBlock
+HOST,a1333.casalemedia.com,AdBlock
+HOST,a1341.casalemedia.com,AdBlock
+HOST,a1344.casalemedia.com,AdBlock
+HOST,a1351.casalemedia.com,AdBlock
+HOST,a1352.casalemedia.com,AdBlock
+HOST,a1359.casalemedia.com,AdBlock
+HOST,a1365.casalemedia.com,AdBlock
+HOST,a1366.casalemedia.com,AdBlock
+HOST,a1369.casalemedia.com,AdBlock
+HOST,a1370.casalemedia.com,AdBlock
+HOST,a1372.casalemedia.com,AdBlock
+HOST,a1382.casalemedia.com,AdBlock
+HOST,a1394.casalemedia.com,AdBlock
+HOST,a1396.casalemedia.com,AdBlock
+HOST,a1408.casalemedia.com,AdBlock
+HOST,a1410.casalemedia.com,AdBlock
+HOST,a1411.casalemedia.com,AdBlock
+HOST,a1413.casalemedia.com,AdBlock
+HOST,a1416.casalemedia.com,AdBlock
+HOST,a1420.casalemedia.com,AdBlock
+HOST,a1423.casalemedia.com,AdBlock
+HOST,a1424.casalemedia.com,AdBlock
+HOST,a1430.casalemedia.com,AdBlock
+HOST,a1440.casalemedia.com,AdBlock
+HOST,a1441.casalemedia.com,AdBlock
+HOST,a1442.casalemedia.com,AdBlock
+HOST,a1444.casalemedia.com,AdBlock
+HOST,a1447.casalemedia.com,AdBlock
+HOST,a1451.casalemedia.com,AdBlock
+HOST,a1453.casalemedia.com,AdBlock
+HOST,a1457.casalemedia.com,AdBlock
 HOST,a1726.casalemedia.com,AdBlock
+HOST,a3409.casalemedia.com,AdBlock
+HOST,a3426.casalemedia.com,AdBlock
+HOST,a3427.casalemedia.com,AdBlock
+HOST,a3428.casalemedia.com,AdBlock
+HOST,a3435.casalemedia.com,AdBlock
+HOST,a3448.casalemedia.com,AdBlock
+HOST,a3449.casalemedia.com,AdBlock
+HOST,a3453.casalemedia.com,AdBlock
+HOST,a3457.casalemedia.com,AdBlock
+HOST,a3468.casalemedia.com,AdBlock
+HOST,a3473.casalemedia.com,AdBlock
+HOST,a3485.casalemedia.com,AdBlock
+HOST,a3489.casalemedia.com,AdBlock
+HOST,a3493.casalemedia.com,AdBlock
+HOST,a3495.casalemedia.com,AdBlock
+HOST,a3514.casalemedia.com,AdBlock
+HOST,a3518.casalemedia.com,AdBlock
+HOST,a3536.casalemedia.com,AdBlock
+HOST,a3543.casalemedia.com,AdBlock
+HOST,a3559.casalemedia.com,AdBlock
+HOST,a3560.casalemedia.com,AdBlock
+HOST,a3561.casalemedia.com,AdBlock
+HOST,a3571.casalemedia.com,AdBlock
+HOST,a3585.casalemedia.com,AdBlock
+HOST,a3586.casalemedia.com,AdBlock
+HOST,a3587.casalemedia.com,AdBlock
+HOST,a3595.casalemedia.com,AdBlock
+HOST,a3610.casalemedia.com,AdBlock
+HOST,a3614.casalemedia.com,AdBlock
+HOST,a3618.casalemedia.com,AdBlock
+HOST,a3623.casalemedia.com,AdBlock
+HOST,a3630.casalemedia.com,AdBlock
+HOST,a3653.casalemedia.com,AdBlock
+HOST,a3670.casalemedia.com,AdBlock
+HOST,a3680.casalemedia.com,AdBlock
+HOST,a3686.casalemedia.com,AdBlock
+HOST,a3689.casalemedia.com,AdBlock
+HOST,a3700.casalemedia.com,AdBlock
+HOST,a3718.casalemedia.com,AdBlock
+HOST,a3719.casalemedia.com,AdBlock
+HOST,a3727.casalemedia.com,AdBlock
+HOST,a3729.casalemedia.com,AdBlock
+HOST,a3791.casalemedia.com,AdBlock
+HOST,a3793.casalemedia.com,AdBlock
+HOST,a3795.casalemedia.com,AdBlock
+HOST,a3796.casalemedia.com,AdBlock
+HOST,a3800.casalemedia.com,AdBlock
+HOST,a3806.casalemedia.com,AdBlock
+HOST,a3811.casalemedia.com,AdBlock
+HOST,a3828.casalemedia.com,AdBlock
+HOST,a3835.casalemedia.com,AdBlock
+HOST,a3859.casalemedia.com,AdBlock
+HOST,a3862.casalemedia.com,AdBlock
+HOST,a3863.casalemedia.com,AdBlock
+HOST,a3865.casalemedia.com,AdBlock
+HOST,a3868.casalemedia.com,AdBlock
+HOST,a3871.casalemedia.com,AdBlock
+HOST,a3880.casalemedia.com,AdBlock
+HOST,a527.casalemedia.com,AdBlock
+HOST,a531.casalemedia.com,AdBlock
+HOST,a545.casalemedia.com,AdBlock
+HOST,a546.casalemedia.com,AdBlock
+HOST,a547.casalemedia.com,AdBlock
+HOST,a556.casalemedia.com,AdBlock
+HOST,a985.casalemedia.com,AdBlock
+HOST,a987.casalemedia.com,AdBlock
+HOST,a998.casalemedia.com,AdBlock
 HOST,amp.casalemedia.com,AdBlock
 HOST,as.casalemedia.com,AdBlock
 HOST,dsum.casalemedia.com,AdBlock
@@ -9554,6 +9688,7 @@ HOST,pepsico.demdex.net,AdBlock
 HOST,pythagore.demdex.net,AdBlock
 HOST,swa.demdex.net,AdBlock
 HOST,tdameritrade.demdex.net,AdBlock
+HOST,ups.demdex.net,AdBlock
 HOST,vanguard.demdex.net,AdBlock
 HOST,verizon.demdex.net,AdBlock
 HOST,vivaki.demdex.net,AdBlock
@@ -9640,6 +9775,7 @@ HOST,ad-emea.doubleclick.net,AdBlock
 HOST,ff.doubleclick.net,AdBlock
 HOST,fls.doubleclick.net,AdBlock
 HOST,3243857.fls.doubleclick.net,AdBlock
+HOST,4394967.fls.doubleclick.net,AdBlock
 HOST,8272590.fls.doubleclick.net,AdBlock
 HOST,8397396.fls.doubleclick.net,AdBlock
 HOST,g.doubleclick.net,AdBlock
@@ -10001,6 +10137,7 @@ HOST,dco-assets.everestads.net,AdBlock
 HOST,everesttech.net,AdBlock
 HOST,ads.everesttech.net,AdBlock
 HOST,cm.everesttech.net,AdBlock
+HOST,statsf-tm.everesttech.net,AdBlock
 # [evidon.com]
 HOST,evidon.com,AdBlock
 HOST,c.evidon.com,AdBlock
@@ -10222,6 +10359,7 @@ HOST,g13v.prd.ads.aws.fwmrm.net,AdBlock
 HOST,nbcu.prd.ads.aws.fwmrm.net,AdBlock
 HOST,v.fwmrm.net,AdBlock
 HOST,7f077.v.fwmrm.net,AdBlock
+HOST,dsp.v.fwmrm.net,AdBlock
 # [fyber.com]
 HOST,api.fyber.com,AdBlock
 HOST,api-rewarded-video.fyber.com,AdBlock
@@ -10796,6 +10934,7 @@ HOST,content-prod3.glance-internal.inmobi.com,AdBlock
 HOST,s.iff.inmobi.com,AdBlock
 HOST,dspbeacons.error.ihasdsp.inmobi.com,AdBlock
 HOST,imces.inmobi.com,AdBlock
+HOST,mcg-ads.inmobi.com,AdBlock
 HOST,pulse.inmobi.com,AdBlock
 HOST,carpet.pulse.inmobi.com,AdBlock
 HOST,sdk.inmobi.com,AdBlock
@@ -11741,6 +11880,7 @@ HOST,recommends.media.net,AdBlock
 HOST,res.media.net,AdBlock
 HOST,search.media.net,AdBlock
 HOST,static.media.net,AdBlock
+HOST,warp.media.net,AdBlock
 HOST,whitelabel.media.net,AdBlock
 # [media6degrees.com]
 HOST,idpix.media6degrees.com,AdBlock
@@ -12505,6 +12645,7 @@ HOST,audible.sc.omtrdc.net,AdBlock
 HOST,bamtech.sc.omtrdc.net,AdBlock
 HOST,carfax.sc.omtrdc.net,AdBlock
 HOST,coxcommunications.sc.omtrdc.net,AdBlock
+HOST,amazoncustomerservice.d2.sc.omtrdc.net,AdBlock
 HOST,fox.com.ssl.d2.sc.omtrdc.net,AdBlock
 HOST,philipslighting.d3.sc.omtrdc.net,AdBlock
 HOST,deutschebahn.sc.omtrdc.net,AdBlock
@@ -12512,9 +12653,11 @@ HOST,kroger.sc.omtrdc.net,AdBlock
 HOST,nbcstreaming.sc.omtrdc.net,AdBlock
 HOST,nbcume.sc.omtrdc.net,AdBlock
 HOST,subwayfranchiseeadvertising.sc.omtrdc.net,AdBlock
+HOST,unitedparcelservice.sc.omtrdc.net,AdBlock
 HOST,viacom.sc.omtrdc.net,AdBlock
 HOST,tt.omtrdc.net,AdBlock
 HOST,abcnews.tt.omtrdc.net,AdBlock
+HOST,adobe.tt.omtrdc.net,AdBlock
 HOST,aetv.tt.omtrdc.net,AdBlock
 HOST,allstate.tt.omtrdc.net,AdBlock
 HOST,audible.tt.omtrdc.net,AdBlock
@@ -12555,6 +12698,7 @@ HOST,geolocation.onetrust.com,AdBlock
 # [online-metrix.net]
 HOST,online-metrix.net,AdBlock
 HOST,aa.online-metrix.net,AdBlock
+HOST,h.online-metrix.net,AdBlock
 # [onscroll.com]
 HOST,impl.onscroll.com,AdBlock
 HOST,onetag-geo.onscroll.com,AdBlock
@@ -12584,6 +12728,7 @@ HOST,update.openx.com,AdBlock
 HOST,s.update.openx.com,AdBlock
 # [openx.net]
 HOST,rtb.openx.net,AdBlock
+HOST,samyonews-d.openx.net,AdBlock
 # [opera.com]
 HOST,api-a.op-mobile.opera.com,AdBlock
 # [oppomobile.com]
@@ -12604,6 +12749,7 @@ HOST,bx01.optimix.asia,AdBlock
 HOST,api.optimizely.com,AdBlock
 HOST,app.optimizely.com,AdBlock
 HOST,cdn.optimizely.com,AdBlock
+HOST,cdn3.optimizely.com,AdBlock
 HOST,logx.optimizely.com,AdBlock
 HOST,events.mobile.optimizely.com,AdBlock
 # [optimost.io]
@@ -12761,6 +12907,7 @@ HOST,ad.period-calendar.com,AdBlock
 HOST,secure.perk0mean.com,AdBlock
 # [permutive.app]
 HOST,cdn.permutive.app,AdBlock
+HOST,6093eccf-6734-4877-ac8b-83d6d0e27b46.edge.permutive.app,AdBlock
 # [permutive.com]
 HOST,permutive.com,AdBlock
 HOST,amp.permutive.com,AdBlock
@@ -13085,7 +13232,6 @@ HOST,log.wtlogin.qq.com,AdBlock
 HOST,ysdk.qq.com,AdBlock
 # [qualtrics.com]
 HOST,siteintercept.qualtrics.com,AdBlock
-HOST,zn42v6draxyafsjmv-homedepot.siteintercept.qualtrics.com,AdBlock
 # [quantcount.com]
 HOST,quantcount.com,AdBlock
 HOST,assets.quantcount.com,AdBlock
@@ -13329,6 +13475,8 @@ HOST,ads.rubiconproject.com,AdBlock
 HOST,aws.rubiconproject.com,AdBlock
 HOST,stats.aws.rubiconproject.com,AdBlock
 HOST,beacon-eu-ams3.rubiconproject.com,AdBlock
+HOST,beacon-iad2.rubiconproject.com,AdBlock
+HOST,beacon-iad3.rubiconproject.com,AdBlock
 HOST,beacon-nf.rubiconproject.com,AdBlock
 HOST,beacon-us-west.rubiconproject.com,AdBlock
 HOST,cca-iad2.rubiconproject.com,AdBlock
@@ -13638,6 +13786,8 @@ HOST,sdk-api-v1.singular.net,AdBlock
 HOST,t.singular.net,AdBlock
 # [sitemaji.com]
 # [sitescout.com]
+HOST,node-p2e-zii3oh.sitescout.com,AdBlock
+HOST,pixel.sitescout.com,AdBlock
 HOST,pixel-sync.sitescout.com,AdBlock
 # [skimresources.com]
 HOST,assistjs.skimresources.com,AdBlock
@@ -14612,6 +14762,7 @@ HOST,geodns.tubemogul.com,AdBlock
 HOST,cdn.geodns.tubemogul.com,AdBlock
 HOST,cmp.geodns.tubemogul.com,AdBlock
 HOST,lasteventf.tubemogul.com,AdBlock
+HOST,playtime.tubemogul.com,AdBlock
 HOST,psi.tubemogul.com,AdBlock
 HOST,rtd.tubemogul.com,AdBlock
 HOST,statsf.tubemogul.com,AdBlock
@@ -14654,6 +14805,7 @@ HOST,p.tvpixel.com,AdBlock
 # [tvsquared.com]
 HOST,tvsquared.com,AdBlock
 HOST,collector-12255.tvsquared.com,AdBlock
+HOST,collector-6651.tvsquared.com,AdBlock
 HOST,collector-9306.us.tvsquared.com,AdBlock
 HOST,collectoru.us.tvsquared.com,AdBlock
 # [twilio.com]
@@ -14841,6 +14993,7 @@ HOST,mobileanalytics.useinsider.com,AdBlock
 HOST,api.userleap.com,AdBlock
 # [userzoom.com]
 HOST,cdn4.userzoom.com,AdBlock
+HOST,cdn5.userzoom.com,AdBlock
 # [utarget.ru]
 HOST,utarget.ru,AdBlock
 # [v-mate.mobi]
@@ -15403,8 +15556,13 @@ HOST,static.zdbb.net,AdBlock
 # [zdn.vn]
 HOST,zplayer-trk.zdn.vn,AdBlock
 # [zemanta.com]
+HOST,b1-chidc2.zemanta.com,AdBlock
+HOST,b1-nydc1.zemanta.com,AdBlock
 HOST,b1sync.zemanta.com,AdBlock
+HOST,b1t-chidc2.zemanta.com,AdBlock
+HOST,b1t-nydc1.zemanta.com,AdBlock
 HOST,images2.zemanta.com,AdBlock
+HOST,widgets.zemanta.com,AdBlock
 # [zendesk.com]
 HOST,analytics.zendesk.com,AdBlock
 # [zenmxapps.com]

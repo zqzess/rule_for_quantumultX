@@ -1,7 +1,7 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:36:43
+# UPDATED: 2022-08-22 02:28:36
 # HOST: 9
 # HOST-KEYWORD: 30
 # HOST-SUFFIX: 25470
@@ -7853,6 +7853,7 @@ HOST-SUFFIX,firebase.com,Proxy
 HOST-SUFFIX,firebaseio.com,Proxy
 HOST-SUFFIX,firecams.com,Proxy
 HOST-SUFFIX,firech.at,Proxy
+HOST-SUFFIX,firefox.com,Proxy
 HOST-SUFFIX,firefoxfan.com,Proxy
 HOST-SUFFIX,fireofliberty.org,Proxy
 HOST-SUFFIX,firetell.net,Proxy
@@ -8005,7 +8006,6 @@ HOST-SUFFIX,fpmt-osel.org,Proxy
 HOST-SUFFIX,fpmt.org,Proxy
 HOST-SUFFIX,fpmt.tw,Proxy
 HOST-SUFFIX,fpmtmexico.org,Proxy
-HOST-SUFFIX,fpn.firefox.com,Proxy
 HOST-SUFFIX,fpraognet.xmx-134-1.com,Proxy
 HOST-SUFFIX,fpraognet.xmx-134.com,Proxy
 HOST-SUFFIX,fproxy.nl,Proxy
@@ -8458,6 +8458,7 @@ HOST-SUFFIX,ganbe.jp,Proxy
 HOST-SUFFIX,gandhidham.com,Proxy
 HOST-SUFFIX,ganetstudio.com,Proxy
 HOST-SUFFIX,ganges.com,Proxy
+HOST-SUFFIX,ganjingworld.com,Proxy
 HOST-SUFFIX,gaoloumi.cc,Proxy
 HOST-SUFFIX,gaoming.net,Proxy
 HOST-SUFFIX,gaopi.net,Proxy
@@ -14510,6 +14511,7 @@ HOST-SUFFIX,pastemagazine.com,Proxy
 HOST-SUFFIX,pastie.org,Proxy
 HOST-SUFFIX,patelbrothersusa.com,Proxy
 HOST-SUFFIX,pathtosharepoint.com,Proxy
+HOST-SUFFIX,patreon.com,Proxy
 HOST-SUFFIX,patriademarti.com,Proxy
 HOST-SUFFIX,patrickemaher.com,Proxy
 HOST-SUFFIX,patrulator.ro,Proxy
@@ -15089,6 +15091,7 @@ HOST-SUFFIX,propub.li,Proxy
 HOST-SUFFIX,prosiben.de,Proxy
 HOST-SUFFIX,proteinalactea.com,Proxy
 HOST-SUFFIX,protempproducts.com,Proxy
+HOST-SUFFIX,proton.me,Proxy
 HOST-SUFFIX,protonvpn.com,Proxy
 HOST-SUFFIX,protv.ro,Proxy
 HOST-SUFFIX,protvi.ro,Proxy
@@ -15634,7 +15637,6 @@ HOST-SUFFIX,rejecttheccp.com,Proxy
 HOST-SUFFIX,rejoiceatsameway.org.au,Proxy
 HOST-SUFFIX,relaxbbs.com,Proxy
 HOST-SUFFIX,relay.com.tw,Proxy
-HOST-SUFFIX,relay.firefox.com,Proxy
 HOST-SUFFIX,relearnings.com,Proxy
 HOST-SUFFIX,releaseinternational.org,Proxy
 HOST-SUFFIX,releenc.org,Proxy
@@ -16194,7 +16196,6 @@ HOST-SUFFIX,sellsyourhome.org,Proxy
 HOST-SUFFIX,seminar.shoplineapp.cn,Proxy
 HOST-SUFFIX,seminars.tca.org.tw,Proxy
 HOST-SUFFIX,semprot.com,Proxy
-HOST-SUFFIX,send.firefox.com,Proxy
 HOST-SUFFIX,send6.com,Proxy
 HOST-SUFFIX,sendlove.to,Proxy
 HOST-SUFFIX,sendsmtp.com,Proxy
@@ -17542,7 +17543,6 @@ HOST-SUFFIX,test.hao999.ml,Proxy
 HOST-SUFFIX,test.nadeo.com,Proxy
 HOST-SUFFIX,testapi.xinbet.net,Proxy
 HOST-SUFFIX,testmakeer.weebly.com,Proxy
-HOST-SUFFIX,testpilot.firefox.com,Proxy
 HOST-SUFFIX,tew.org,Proxy
 HOST-SUFFIX,texasartsacademics.org,Proxy
 HOST-SUFFIX,texasboyschoir.org,Proxy

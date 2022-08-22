@@ -15,21 +15,28 @@ HOST-KEYWORD,abematv.akamaized.net,GMedia
 USER-AGENT,InstantVideo.US*,GMedia
 USER-AGENT,Prime%20Video*,GMedia
 HOST-KEYWORD,avoddashs,GMedia
-HOST-SUFFIX,amazonvideo.com,GMedia
-HOST-SUFFIX,media-amazon.com,GMedia
-HOST-SUFFIX,pv-cdn.net,GMedia
 HOST-SUFFIX,aiv-cdn.net,GMedia
 HOST-SUFFIX,aiv-delivery.net,GMedia
+HOST-SUFFIX,amazonvideo.com,GMedia
+HOST-SUFFIX,amazonvideo.cc,GMedia
+HOST-SUFFIX,media-amazon.com,GMedia
+HOST-SUFFIX,primevideo.com,GMedia
+HOST-SUFFIX,prime-video.com,GMedia
+HOST-SUFFIX,primevideo.cc,GMedia
+HOST-SUFFIX,primevideo.info,GMedia
+HOST-SUFFIX,primevideo.org,GMedia
+HOST-SUFFIX,primevideo.tv,GMedia
+HOST-SUFFIX,amazonvideodirect.cc,GMedia
+HOST-SUFFIX,amazonprimevideos.com,GMedia
 HOST,atv-ps.amazon.com,GMedia
+HOST,fls-na.amazon.com,GMedia
 HOST,avodmp4s3ww-a.akamaihd.net,GMedia
 HOST,d1v5ir2lpwr8os.cloudfront.net,GMedia
-HOST,d1xfray82862hr.cloudfront.net,GMedia
 HOST,d22qjgkvxw22r6.cloudfront.net,GMedia
 HOST,d25xi40x97liuc.cloudfront.net,GMedia
-HOST,d27xxe7juh1us6.cloudfront.net,GMedia
-HOST,d3196yreox78o9.cloudfront.net,GMedia
 HOST,dmqdd6hw24ucf.cloudfront.net,GMedia
-HOST,ktpx.amazon.com,GMedia
+HOST,d27xxe7juh1us6.cloudfront.net,GMedia
+HOST,www.amazon.com,GMedia
 
 # > Apple TV
 HOST,np-edge.itunes.apple.com,GMedia

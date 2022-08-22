@@ -1,7 +1,7 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-08-05 22:36:40
+# UPDATED: 2022-08-22 02:28:33
 # HOST: 83
 # HOST-KEYWORD: 38
 # HOST-SUFFIX: 25583
@@ -8063,6 +8063,7 @@ HOST-SUFFIX,firebase.com,Global
 HOST-SUFFIX,firebaseio.com,Global
 HOST-SUFFIX,firecams.com,Global
 HOST-SUFFIX,firech.at,Global
+HOST-SUFFIX,firefox.com,Global
 HOST-SUFFIX,firefoxfan.com,Global
 HOST-SUFFIX,fireofliberty.org,Global
 HOST-SUFFIX,firetell.net,Global
@@ -8215,7 +8216,6 @@ HOST-SUFFIX,fpmt-osel.org,Global
 HOST-SUFFIX,fpmt.org,Global
 HOST-SUFFIX,fpmt.tw,Global
 HOST-SUFFIX,fpmtmexico.org,Global
-HOST-SUFFIX,fpn.firefox.com,Global
 HOST-SUFFIX,fpraognet.xmx-134-1.com,Global
 HOST-SUFFIX,fpraognet.xmx-134.com,Global
 HOST-SUFFIX,fproxy.nl,Global
@@ -8668,6 +8668,7 @@ HOST-SUFFIX,ganbe.jp,Global
 HOST-SUFFIX,gandhidham.com,Global
 HOST-SUFFIX,ganetstudio.com,Global
 HOST-SUFFIX,ganges.com,Global
+HOST-SUFFIX,ganjingworld.com,Global
 HOST-SUFFIX,gaoloumi.cc,Global
 HOST-SUFFIX,gaoming.net,Global
 HOST-SUFFIX,gaopi.net,Global
@@ -14711,6 +14712,7 @@ HOST-SUFFIX,pastemagazine.com,Global
 HOST-SUFFIX,pastie.org,Global
 HOST-SUFFIX,patelbrothersusa.com,Global
 HOST-SUFFIX,pathtosharepoint.com,Global
+HOST-SUFFIX,patreon.com,Global
 HOST-SUFFIX,patriademarti.com,Global
 HOST-SUFFIX,patrickemaher.com,Global
 HOST-SUFFIX,patrulator.ro,Global
@@ -15290,6 +15292,7 @@ HOST-SUFFIX,propub.li,Global
 HOST-SUFFIX,prosiben.de,Global
 HOST-SUFFIX,proteinalactea.com,Global
 HOST-SUFFIX,protempproducts.com,Global
+HOST-SUFFIX,proton.me,Global
 HOST-SUFFIX,protonvpn.com,Global
 HOST-SUFFIX,protv.ro,Global
 HOST-SUFFIX,protvi.ro,Global
@@ -15835,7 +15838,6 @@ HOST-SUFFIX,rejecttheccp.com,Global
 HOST-SUFFIX,rejoiceatsameway.org.au,Global
 HOST-SUFFIX,relaxbbs.com,Global
 HOST-SUFFIX,relay.com.tw,Global
-HOST-SUFFIX,relay.firefox.com,Global
 HOST-SUFFIX,relearnings.com,Global
 HOST-SUFFIX,releaseinternational.org,Global
 HOST-SUFFIX,releenc.org,Global
@@ -16395,7 +16397,6 @@ HOST-SUFFIX,sellsyourhome.org,Global
 HOST-SUFFIX,seminar.shoplineapp.cn,Global
 HOST-SUFFIX,seminars.tca.org.tw,Global
 HOST-SUFFIX,semprot.com,Global
-HOST-SUFFIX,send.firefox.com,Global
 HOST-SUFFIX,send6.com,Global
 HOST-SUFFIX,sendlove.to,Global
 HOST-SUFFIX,sendsmtp.com,Global
@@ -17741,7 +17742,6 @@ HOST-SUFFIX,test.hao999.ml,Global
 HOST-SUFFIX,test.nadeo.com,Global
 HOST-SUFFIX,testapi.xinbet.net,Global
 HOST-SUFFIX,testmakeer.weebly.com,Global
-HOST-SUFFIX,testpilot.firefox.com,Global
 HOST-SUFFIX,tew.org,Global
 HOST-SUFFIX,texasartsacademics.org,Global
 HOST-SUFFIX,texasboyschoir.org,Global
