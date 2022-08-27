@@ -1,6 +1,8 @@
 # rule_for_quantumultX
 自用圈X规则，GithubAction定期自动从上游拉取资源整合更新，部分手动维护
 
+[telegram频道](https://t.me/zqzessNews)
+
 **去广告**
 
 ```ruby
