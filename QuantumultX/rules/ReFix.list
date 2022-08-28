@@ -86,6 +86,22 @@ host,tnc3-aliec2.snssdk.com,reject
 host,i.snssdk.com,reject
 host,i-lq.snssdk.com,reject
 host,is.snssdk.com,reject
+
+# 番茄小说福利页
+host, lf-sourcecdn-tos.bytegecko.com, direct
+#
+# host, lf3-static.bytednsdoc.com, reject
+# host, ct-bjs-sgh-00001.oos-cn-180622.ctyunapi.cn, reject
+host, webcast5-open-lq.douyin.com, reject
+host-suffix, bytegecko.com, reject
+host, lf-webcast-sourcecdn-tos.bytegecko.com, reject
+host, mon3-misc-lq.fqnovel.com, reject
+host, tnc3-bjlgy.snssdk.com, reject
+host, mon11-misc-lq.fqnovel.com, reject
+host-suffix, bytemastatic.com, reject
+host, lf26-open-ma-pkg-sign.bytemastatic.com, reject
+host, is-lq.snssdk.com, reject
+
 host,v6-novelapp.ixigua.com,reject
 host,*novelapp.ixigua.com,reject
 host,msync-im1-vip6-std.easemob.com,reject
