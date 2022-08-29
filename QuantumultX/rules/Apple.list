@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2022-08-22 02:58:40
+# Apple rules refresh time: 2022-08-29 00:47:59
 
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
@@ -31,6 +31,7 @@ IP-CIDR,205.180.175.0/24,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -71,12 +72,10 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
-HOST,itunes.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -87,6 +86,7 @@ HOST,statici.icloud.com,Apple
 HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
 HOST,mask-api.icloud.com,Apple

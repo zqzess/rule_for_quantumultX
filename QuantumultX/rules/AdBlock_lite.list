@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-08-22 02:58:39
+# AdBlock rules refresh time: 2022-08-29 00:47:57
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -8335,8 +8335,6 @@ HOST,snapabug.appspot.com,AdBlock
 HOST,tap-nexus.appspot.com,AdBlock
 # [tc-bic.appspot.com]
 HOST,tc-bic.appspot.com,AdBlock
-# [triggeredmail.appspot.com]
-HOST,triggeredmail.appspot.com,AdBlock
 # [apptap.com]
 HOST,api.apptap.com,AdBlock
 HOST,appdiscovery.apptap.com,AdBlock
@@ -12898,9 +12896,6 @@ HOST,featured.perfectionholic.com,AdBlock
 HOST,newfeatureview.perfectionholic.com,AdBlock
 # [performancehorizon.com]
 HOST,performancehorizon.com,AdBlock
-# [perimeterx.net]
-HOST,collector-pxuarm9b04.perimeterx.net,AdBlock
-HOST,px-conf.perimeterx.net,AdBlock
 # [period-calendar.com]
 HOST,ad.period-calendar.com,AdBlock
 # [perk0mean.com]
