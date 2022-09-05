@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2022-08-29 00:47:59
+# Apple rules refresh time: 2022-09-05 00:48:23
 
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
@@ -31,7 +31,6 @@ IP-CIDR,205.180.175.0/24,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST,apps.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -73,6 +72,7 @@ HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple

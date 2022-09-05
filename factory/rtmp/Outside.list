@@ -1,4 +1,13 @@
+# > Discord
+HOST-SUFFIX,discord.com,Outside
+HOST-SUFFIX,discord.gg,Outside
+HOST-SUFFIX,discord.media,Outside
+HOST-SUFFIX,discordapp.com,Outside
+HOST-SUFFIX,discordapp.net,Outside
+HOST-SUFFIX,discordstatus.com,Outside
+
 # > Google Voice
+HOST,lens.l.google.com,Outside
 HOST,voice.telephony.goog,Outside
 
 # > Investing

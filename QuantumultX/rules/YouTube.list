@@ -1,13 +1,16 @@
-# YouTube rules refresh time: 2022-08-29 00:47:58
+# YouTube rules refresh time: 2022-09-05 00:48:21
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
 HOST-SUFFIX,ggpht.cn,YouTube
 HOST-SUFFIX,ggpht.com,YouTube
 HOST-SUFFIX,googlevideo.com,YouTube
+HOST-SUFFIX,gvt1.com,YouTube
 HOST-SUFFIX,gvt2.com,YouTube
+HOST-SUFFIX,video.google.com,YouTube
 HOST-SUFFIX,withyoutube.com,YouTube
 HOST-SUFFIX,youtu.be,YouTube
 HOST-SUFFIX,youtube-nocookie.com,YouTube
+HOST-SUFFIX,youtube-ui.l.google.com,YouTube
 HOST-SUFFIX,youtube.ae,YouTube
 HOST-SUFFIX,youtube.al,YouTube
 HOST-SUFFIX,youtube.am,YouTube
@@ -103,6 +106,7 @@ HOST-SUFFIX,youtube.es,YouTube
 HOST-SUFFIX,youtube.fi,YouTube
 HOST-SUFFIX,youtube.fr,YouTube
 HOST-SUFFIX,youtube.ge,YouTube
+HOST-SUFFIX,youtube.googleapis.com,YouTube
 HOST-SUFFIX,youtube.gr,YouTube
 HOST-SUFFIX,youtube.gt,YouTube
 HOST-SUFFIX,youtube.hk,YouTube
@@ -160,6 +164,7 @@ HOST-SUFFIX,youtube.ug,YouTube
 HOST-SUFFIX,youtube.uy,YouTube
 HOST-SUFFIX,youtube.vn,YouTube
 HOST-SUFFIX,youtubeeducation.com,YouTube
+HOST-SUFFIX,youtubeembeddedplayer.googleapis.com,YouTube
 HOST-SUFFIX,youtubefanfest.com,YouTube
 HOST-SUFFIX,youtubegaming.com,YouTube
 HOST-SUFFIX,youtubego.co.id,YouTube
@@ -173,6 +178,9 @@ HOST-SUFFIX,youtubekids.com,YouTube
 HOST-SUFFIX,youtubemobilesupport.com,YouTube
 HOST-SUFFIX,yt.be,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
+HOST-WILDCARD,youtube.*,YouTube
+HOST-WILDCARD,youtube.*.*,YouTube
+HOST-WILDCARD,youtube.com.*,YouTube
 HOST-KEYWORD,youtube,YouTube
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube

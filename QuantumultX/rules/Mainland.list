@@ -1,16 +1,17 @@
-# Mainland rules refresh time: 2022-08-29 00:47:59
+# Mainland rules refresh time: 2022-09-05 00:48:23
 
 HOST-SUFFIX,abchina.com,Mainland
 
 HOST-SUFFIX,boc.cn,Mainland
 HOST-SUFFIX,citicbank.com,Mainland
 HOST-SUFFIX,ecitic.com,Mainland
+HOST-SUFFIX,ecitic.net,Mainland
 HOST-SUFFIX,ccb.com,Mainland
 HOST-SUFFIX,ccb.com.cn,Mainland
 HOST-SUFFIX,cebbank.com,Mainland
 USER-AGENT,cmb*,Mainland
 HOST-SUFFIX,cmbchina.com,Mainland
-HOST-SUFFIX,cmbimg,Mainland
+HOST-SUFFIX,cmbimg.com,Mainland
 HOST-SUFFIX,cmbt.cn,Mainland
 HOST-SUFFIX,mbcloud.com,Mainland
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*,Mainland
@@ -70,7 +71,7 @@ IP6-CIDR,2a0b:b582::/48,Mainland
 IP6-CIDR,2a0b:b583::/48,Mainland
 IP-CIDR,182.254.116.0/24,Mainland
 HOST-SUFFIX,10010.com,Mainland
-HOST-SUFFIX,10089.cn,Mainland
+HOST-SUFFIX,10086.cn,Mainland
 HOST-SUFFIX,12306.cn,Mainland
 HOST-SUFFIX,12306.com,Mainland
 HOST-SUFFIX,126.net,Mainland
@@ -143,7 +144,6 @@ HOST-SUFFIX,duokan.com,Mainland
 HOST-SUFFIX,duoshuo.com,Mainland
 HOST-SUFFIX,dytt8.net,Mainland
 HOST-SUFFIX,easou.com,Mainland
-HOST-SUFFIX,ecitic.net,Mainland
 HOST-SUFFIX,eudic.net,Mainland
 HOST-SUFFIX,ewqcxz.com,Mainland
 HOST-SUFFIX,feng.com,Mainland
@@ -152,6 +152,7 @@ HOST-SUFFIX,ford.com,Mainland
 HOST-SUFFIX,frdic.com,Mainland
 HOST-SUFFIX,fresh-ideas.cc,Mainland
 HOST-SUFFIX,gameloft.com,Mainland
+HOST-SUFFIX,garmin.com,Mainland
 HOST-SUFFIX,geetest.com,Mainland
 HOST-SUFFIX,godic.net,Mainland
 HOST-SUFFIX,goodread.com,Mainland
@@ -323,9 +324,9 @@ HOST-SUFFIX,zhihu.com,Mainland
 HOST-SUFFIX,zhimg.com,Mainland
 HOST-SUFFIX,zimuzu.tv,Mainland
 HOST-SUFFIX,zmz002.com,Mainland
+HOST-SUFFIX,gov.cn,Mainland
 HOST-SUFFIX,cn,Mainland
 IP-CIDR,1.255.62.0/24,Mainland
-GEOIP,CN,Mainland
 HOST,analytics.strava.com,Mainland
 HOST,api.steampowered.com,Mainland
 HOST,blzddist1-a.akamaihd.net,Mainland
@@ -405,7 +406,6 @@ HOST-SUFFIX,chunyu.mobi,Mainland
 HOST-SUFFIX,chushou.tv,Mainland
 HOST-SUFFIX,clarivate.com,Mainland
 HOST-SUFFIX,classix-unlimited.co.uk,Mainland
-HOST-SUFFIX,cmbimg.com,Mainland
 HOST-SUFFIX,cn88.net,Mainland
 HOST-SUFFIX,com-hs-hkdy.com,Mainland
 HOST-SUFFIX,cootekservice.com,Mainland
@@ -435,7 +435,6 @@ HOST-SUFFIX,futu5.com,Mainland
 HOST-SUFFIX,futunn.com,Mainland
 HOST-SUFFIX,g-cores.com,Mainland
 HOST-SUFFIX,gandi.net,Mainland
-HOST-SUFFIX,garmin.com,Mainland
 HOST-SUFFIX,gazellegames.net,Mainland
 HOST-SUFFIX,geilicdn.com,Mainland
 HOST-SUFFIX,gifshow.com,Mainland

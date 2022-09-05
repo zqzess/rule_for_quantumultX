@@ -1,7 +1,14 @@
-# Outside rules refresh time: 2022-08-29 00:47:58
+# Outside rules refresh time: 2022-09-05 00:48:22
 
+HOST-SUFFIX,discord.com,Outside
+HOST-SUFFIX,discord.gg,Outside
+HOST-SUFFIX,discord.media,Outside
+HOST-SUFFIX,discordapp.com,Outside
+HOST-SUFFIX,discordapp.net,Outside
+HOST-SUFFIX,discordstatus.com,Outside
+
+HOST,lens.l.google.com,Outside
 HOST,voice.telephony.goog,Outside
-
 HOST-SUFFIX,investing.com,Outside
 HOST-SUFFIX,lin.ee,Outside
 HOST-SUFFIX,line.me,Outside
@@ -7216,11 +7223,6 @@ HOST-SUFFIX,dirpy.com,Outside
 HOST-SUFFIX,dirtymilfclub.com,Outside
 HOST-SUFFIX,discoins.com,Outside
 HOST-SUFFIX,discord.co,Outside
-HOST-SUFFIX,discord.com,Outside
-HOST-SUFFIX,discord.gg,Outside
-HOST-SUFFIX,discord.media,Outside
-HOST-SUFFIX,discordapp.com,Outside
-HOST-SUFFIX,discordapp.net,Outside
 HOST-SUFFIX,discreetmilf.com,Outside
 HOST-SUFFIX,discuss.com.hk,Outside
 HOST-SUFFIX,discuss4u.com,Outside
