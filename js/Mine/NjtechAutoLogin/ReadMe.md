@@ -22,7 +22,7 @@
 
 ```ini
 [Script]
-NjetchAutologin = type = event,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js,event-name=network-changed,timeout=6
+NjetchAutologin = type = event,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js,event-name=network-changed,timeout=10
 ```
 -----------------
 【NodeJs】
