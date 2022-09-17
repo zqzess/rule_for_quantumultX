@@ -106,20 +106,18 @@ let loginInfo = {};
 let notifyTitle = "Njtech-Home"
 
 !(async () => {
-    let isStart = true;
+    let isStart = false;
     if (isSurge) {
         const network = $network.wifi.ssid;
         $.info(network);
         if (network === 'Njtech-Home') {
             isStart = true;
-        } else
-            isStart = false;
+        }
         if ($.wifi2 !== "" && $.wifi2 !== null && $.wifi2 !== undefined) {
             if (network === $.wifi2) {
                 isStart = true;
                 notifyTitle = $.wifi2;
-            } else
-                isStart = false;
+            }
         }
     }
     if (isStart) {
