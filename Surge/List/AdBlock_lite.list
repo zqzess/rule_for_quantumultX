@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-09-12 00:47:15
+# AdBlock rules refresh time: 2022-09-19 00:48:45
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -2010,6 +2010,8 @@ DOMAIN-SUFFIX,yingkepj.cn
 DOMAIN-SUFFIX,yinhaijuan.com
 DOMAIN-SUFFIX,yinoo.cn
 DOMAIN-SUFFIX,yinooo.com
+DOMAIN-SUFFIX,yinyuehu.cn
+DOMAIN-SUFFIX,yinzantouzi.com
 #---------------------------------------------
 DOMAIN,is.snssdk.com
 DOMAIN,adsmind.gdtimg.com
@@ -7186,7 +7188,9 @@ DOMAIN,min.admicro.vn
 DOMAIN,sspapi.admicro.vn
 # [admitad.com]
 DOMAIN,admitad.com
+DOMAIN,ad.admitad.com
 DOMAIN,fonts.ad.admitad.com
+DOMAIN,cdn.admitad.com
 # [admixer.co.kr]
 DOMAIN,admixer.co.kr
 DOMAIN,adn.admixer.co.kr
@@ -7552,6 +7556,9 @@ DOMAIN,log.adtimaserver.vn
 # [adtiming.com]
 DOMAIN,img.adtiming.com
 DOMAIN,m.adtiming.com
+DOMAIN,ociasb.adtiming.com
+DOMAIN,rt.adtiming.com
+DOMAIN,rtb.adtiming.com
 DOMAIN,sdk.adtiming.com
 # [adtlgc.com]
 DOMAIN,admp-tc-sati.adtlgc.com
@@ -8228,6 +8235,9 @@ DOMAIN,ut.iadsdk.apple.com
 DOMAIN,notes-analytics-events.apple.com
 DOMAIN,stocks-analytics-events.apple.com
 DOMAIN,weather-analytics-events.apple.com
+# [appleads-trk.com]
+DOMAIN,appleads-trk.com
+DOMAIN,redirect.appleads-trk.com
 # [applicaster.com]
 DOMAIN,assets-secure.applicaster.com
 # [applifier.com]
@@ -9217,8 +9227,6 @@ DOMAIN,metrics.cloudflarebolt.com
 DOMAIN,static.cloudflareinsights.com
 # [us-central1-adaptive-growth.cloudfunctions.net]
 DOMAIN,us-central1-adaptive-growth.cloudfunctions.net
-# [cloudinary.com]
-DOMAIN,res.cloudinary.com
 # [cloudmobi.net]
 DOMAIN,cloudmobi.net
 DOMAIN,api.cloudmobi.net
@@ -10423,6 +10431,10 @@ DOMAIN,sdk-config.fyber.com
 DOMAIN,service.fyber.com
 DOMAIN,tracker.fyber.com
 DOMAIN,video.fyber.com
+# [g2afse.com]
+DOMAIN,appsclicks.g2afse.com
+DOMAIN,aterru.g2afse.com
+DOMAIN,tarsan.g2afse.com
 # [g5e.com]
 DOMAIN,cdn.g5e.com
 DOMAIN,ceg.g5e.com
@@ -10594,6 +10606,32 @@ DOMAIN,gop1.co
 DOMAIN,img.gop1.co
 # [gotoip55.com]
 DOMAIN,gotoip55.com
+# [gotrackier.com]
+DOMAIN,adapace.gotrackier.com
+DOMAIN,adjar.gotrackier.com
+DOMAIN,adsapp.gotrackier.com
+DOMAIN,adstacks.gotrackier.com
+DOMAIN,adstory.gotrackier.com
+DOMAIN,adyogis.gotrackier.com
+DOMAIN,affilsoft.gotrackier.com
+DOMAIN,appmontize.gotrackier.com
+DOMAIN,auctera.gotrackier.com
+DOMAIN,blendai.gotrackier.com
+DOMAIN,click2commission.gotrackier.com
+DOMAIN,conup.gotrackier.com
+DOMAIN,harvest.gotrackier.com
+DOMAIN,hyperads.gotrackier.com
+DOMAIN,inkrevenue.gotrackier.com
+DOMAIN,kormzi.gotrackier.com
+DOMAIN,mediaxpedia.gotrackier.com
+DOMAIN,mobisaturn.gotrackier.com
+DOMAIN,momentus.gotrackier.com
+DOMAIN,netsetgo.gotrackier.com
+DOMAIN,phono.gotrackier.com
+DOMAIN,playdigo.gotrackier.com
+DOMAIN,quickadsmedia.gotrackier.com
+DOMAIN,vihit.gotrackier.com
+DOMAIN,vytomi.gotrackier.com
 # [gotraffic.net]
 DOMAIN,cdn.gotraffic.net
 # [gowadogo.com]
@@ -11379,6 +11417,13 @@ DOMAIN,imp.control.kochava.com
 DOMAIN,web-sdk.control.kochava.com
 DOMAIN,entitlements.kochava.com
 DOMAIN,icm.kochava.com
+# [koneomobiledsp.com]
+DOMAIN,koneomobiledsp.com
+DOMAIN,inmobi.koneomobiledsp.com
+DOMAIN,eu.inmobi.koneomobiledsp.com
+DOMAIN,sg.inmobi.koneomobiledsp.com
+DOMAIN,us.inmobi.koneomobiledsp.com
+DOMAIN,js.koneomobiledsp.com
 # [kongregate.io]
 DOMAIN,analytics.kongregate.io
 # [kookong.com]
@@ -11411,9 +11456,6 @@ DOMAIN,ask.log.kuyun.com
 DOMAIN,api.lanistaads.com
 # [largosoft.co.kr]
 DOMAIN,largosoft.co.kr
-# [launchdarkly.com]
-DOMAIN,events.launchdarkly.com
-DOMAIN,mobile.launchdarkly.com
 # [lavanetwork.net]
 DOMAIN,lavanetwork.net
 DOMAIN,delivery.lavanetwork.net
@@ -11914,6 +11956,8 @@ DOMAIN,b.measuread.com
 DOMAIN,mobile.measurelib.com
 # [measurementapi.com]
 DOMAIN,measurementapi.com
+# [media-412.com]
+DOMAIN,tarsan.media-412.com
 # [media.net]
 DOMAIN,abd.media.net
 DOMAIN,adservetx.media.net
@@ -11988,6 +12032,9 @@ DOMAIN,banners.mellowads.com
 # [meltwater.com]
 DOMAIN,app.meltwater.com
 DOMAIN,ins-services.meltwater.com
+# [memob.com]
+DOMAIN,ads.memob.com
+DOMAIN,creatives.ads.memob.com
 # [merchantadvantage.com]
 DOMAIN,chanalytics.merchantadvantage.com
 DOMAIN,secure.merchantadvantage.com
@@ -12326,6 +12373,11 @@ DOMAIN,mobisla.com
 DOMAIN,go.mobisla.com
 # [mobitech-content.xyz]
 DOMAIN,api.mobitech-content.xyz
+# [mobiuspace.net]
+DOMAIN,ad.mobiuspace.net
+DOMAIN,api.ad.mobiuspace.net
+DOMAIN,creative-accelerate.ad.mobiuspace.net
+DOMAIN,api-ad-callback.mobiuspace.net
 # [mobivity.com]
 DOMAIN,mobivity.com
 # [mobpowertech.com]
@@ -12652,6 +12704,8 @@ DOMAIN,dd.nytimes.com
 DOMAIN,et.nytimes.com
 DOMAIN,a.et.nytimes.com
 DOMAIN,meter-svc.nytimes.com
+# [o18.click]
+DOMAIN,twotreymedia10001697.o18.click
 # [o333o.com]
 DOMAIN,cdn.o333o.com
 # [oclaserver.com]
