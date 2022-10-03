@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-09-26 00:47:28
+# AdBlock rules refresh time: 2022-10-03 00:47:12
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -10514,27 +10514,6 @@ DOMAIN,hades.getsocial.im
 # [getui.net]
 # [getwoohoo.com]
 DOMAIN,app.getwoohoo.com
-# [gigya.com]
-DOMAIN,au1.gigya.com
-DOMAIN,cdns.au1.gigya.com
-DOMAIN,lb.au1.gigya.com
-DOMAIN,cdn.gigya.com
-DOMAIN,cdns1.gigya.com
-DOMAIN,cdns2.gigya.com
-DOMAIN,cdns3.gigya.com
-DOMAIN,eu1.gigya.com
-DOMAIN,cdns.eu1.gigya.com
-DOMAIN,farm5.eu1.gigya.com
-DOMAIN,gscounters.eu1.gigya.com
-DOMAIN,lb.eu1.gigya.com
-DOMAIN,eu2.gigya.com
-DOMAIN,cdns.eu2.gigya.com
-DOMAIN,farm5.gigya.com
-DOMAIN,us1.gigya.com
-DOMAIN,cdns.us1.gigya.com
-DOMAIN,farm5.us1.gigya.com
-DOMAIN,gscounters.us1.gigya.com
-DOMAIN,lb-d.us1.gigya.com
 # [gimbal.com]
 DOMAIN,analytics-server.gimbal.com
 DOMAIN,communicate.gimbal.com
@@ -13462,8 +13441,6 @@ DOMAIN,realclever.com
 DOMAIN,ac.realvu.net
 # [rebel.ai]
 DOMAIN,cdn.rebel.ai
-# [rebuyengine.com]
-DOMAIN,cdn.rebuyengine.com
 # [recreativ.ru]
 DOMAIN,recreativ.ru
 DOMAIN,track.recreativ.ru

@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2022-09-26 00:47:28
+# AdBlock rules refresh time: 2022-10-03 00:47:12
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -10517,27 +10517,6 @@ HOST,hades.getsocial.im,AdBlock
 # [getui.net]
 # [getwoohoo.com]
 HOST,app.getwoohoo.com,AdBlock
-# [gigya.com]
-HOST,au1.gigya.com,AdBlock
-HOST,cdns.au1.gigya.com,AdBlock
-HOST,lb.au1.gigya.com,AdBlock
-HOST,cdn.gigya.com,AdBlock
-HOST,cdns1.gigya.com,AdBlock
-HOST,cdns2.gigya.com,AdBlock
-HOST,cdns3.gigya.com,AdBlock
-HOST,eu1.gigya.com,AdBlock
-HOST,cdns.eu1.gigya.com,AdBlock
-HOST,farm5.eu1.gigya.com,AdBlock
-HOST,gscounters.eu1.gigya.com,AdBlock
-HOST,lb.eu1.gigya.com,AdBlock
-HOST,eu2.gigya.com,AdBlock
-HOST,cdns.eu2.gigya.com,AdBlock
-HOST,farm5.gigya.com,AdBlock
-HOST,us1.gigya.com,AdBlock
-HOST,cdns.us1.gigya.com,AdBlock
-HOST,farm5.us1.gigya.com,AdBlock
-HOST,gscounters.us1.gigya.com,AdBlock
-HOST,lb-d.us1.gigya.com,AdBlock
 # [gimbal.com]
 HOST,analytics-server.gimbal.com,AdBlock
 HOST,communicate.gimbal.com,AdBlock
@@ -13465,8 +13444,6 @@ HOST,realclever.com,AdBlock
 HOST,ac.realvu.net,AdBlock
 # [rebel.ai]
 HOST,cdn.rebel.ai,AdBlock
-# [rebuyengine.com]
-HOST,cdn.rebuyengine.com,AdBlock
 # [recreativ.ru]
 HOST,recreativ.ru,AdBlock
 HOST,track.recreativ.ru,AdBlock
