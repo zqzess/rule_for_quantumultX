@@ -58,7 +58,7 @@ IP-CIDR,180.96.2.114/32,REJECT,no-resolve
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ _ reject
-^https?:\/\/adim\.pinduoduo\.com\/. _ reject
+^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ _ reject
 ^https?:\/\/v6-novelapp\.fqnovelvod\.com\/.+\/video\/.+ _ reject
 
 [MITM]

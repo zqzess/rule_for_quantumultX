@@ -19,7 +19,7 @@
 # .+web\.business\.image url reject
 
 ^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ url reject
-^https?:\/\/adim\.pinduoduo\.com\/. url reject
+^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ url reject
 ^https?:\/\/v6-novelapp\.fqnovelvod\.com\/.+\/video\/.+ url reject
 
 hostname = *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com
