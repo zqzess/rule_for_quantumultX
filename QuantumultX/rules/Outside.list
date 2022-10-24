@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2022-10-17 00:47:56
+# Outside rules refresh time: 2022-10-24 00:48:37
 
 HOST-SUFFIX,discord.com,Outside
 HOST-SUFFIX,discord.gg,Outside
@@ -7,6 +7,10 @@ HOST-SUFFIX,discordapp.com,Outside
 HOST-SUFFIX,discordapp.net,Outside
 HOST-SUFFIX,discordstatus.com,Outside
 
+USER-AGENT,Duolingo*,Outside
+HOST-KEYWORD,duolingo,Outside
+HOST-SUFFIX,duolingo.cn,Outside
+HOST-SUFFIX,duolingo.com,Outside
 HOST,lens.l.google.com,Outside
 HOST,voice.telephony.goog,Outside
 HOST-SUFFIX,investing.com,Outside
@@ -58,6 +62,7 @@ HOST-SUFFIX,telegra.ph,Outside
 HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
 HOST-SUFFIX,telegram-cdn.org,Outside
+HOST-SUFFIX,telesco.pe,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
@@ -129,7 +134,6 @@ HOST-SUFFIX,apk-dl.com,Outside
 HOST-SUFFIX,apkpure.com,Outside
 HOST-SUFFIX,appdownloader.net,Outside
 HOST-SUFFIX,apple-dns.net,Outside
-HOST-SUFFIX,app-measurement.com,Outside
 HOST-SUFFIX,appshopper.com,Outside
 HOST-SUFFIX,arcgis.com,Outside
 HOST-SUFFIX,archive.is,Outside
@@ -739,6 +743,8 @@ HOST-SUFFIX,waveprotocol.org,Outside
 HOST-SUFFIX,webmproject.org,Outside
 HOST-SUFFIX,webrtc.org,Outside
 HOST-KEYWORD,dlercloud,Outside
+HOST-SUFFIX,vikacg.com,Outside
+HOST-SUFFIX,picjs.xyz,Outside
 HOST-SUFFIX,wheel-size.cn,Outside
 HOST-SUFFIX,chalungu.cn,Outside
 IP-CIDR,13.32.0.0/16,Outside
@@ -11149,7 +11155,6 @@ HOST-SUFFIX,iphonehacks.com,Outside
 HOST-SUFFIX,iphonetaiwan.org,Outside
 HOST-SUFFIX,iphonix.fr,Outside
 HOST-SUFFIX,ipicture.ru,Outside
-HOST-SUFFIX,ipinfo.io,Outside
 HOST-SUFFIX,ipjetable.net,Outside
 HOST-SUFFIX,ipjlvpn.com,Outside
 HOST-SUFFIX,ipo-90.maaii.com,Outside
@@ -12468,7 +12473,6 @@ HOST-SUFFIX,libredd.it,Outside
 HOST-SUFFIX,libreswan.org,Outside
 HOST-SUFFIX,librox.co.za,Outside
 HOST-SUFFIX,liceosantaclara.cl,Outside
-HOST-SUFFIX,lidecheng.com,Outside
 HOST-SUFFIX,liecut.net,Outside
 HOST-SUFFIX,life.com.tw,Outside
 HOST-SUFFIX,life.different.idv.tw,Outside
@@ -15056,7 +15060,6 @@ HOST-SUFFIX,pewresearch.org,Outside
 HOST-SUFFIX,pewsocialtrends.org,Outside
 HOST-SUFFIX,pezblanco.cl,Outside
 HOST-SUFFIX,pf.anonplus.org,Outside
-HOST-SUFFIX,pfd.org.hk,Outside
 HOST-SUFFIX,pfdc89.com,Outside
 HOST-SUFFIX,pgafan.net,Outside
 HOST-SUFFIX,pgyl88888.com,Outside
@@ -15107,7 +15110,6 @@ HOST-SUFFIX,picacomiccn.com,Outside
 HOST-SUFFIX,picasa.com,Outside
 HOST-SUFFIX,pichunter.com,Outside
 HOST-SUFFIX,picidae.net,Outside
-HOST-SUFFIX,picjs.xyz,Outside
 HOST-SUFFIX,picnik.com,Outside
 HOST-SUFFIX,pictame.com,Outside
 HOST-SUFFIX,picturedip.com,Outside
@@ -17551,7 +17553,6 @@ HOST-SUFFIX,swarajyamag.com,Outside
 HOST-SUFFIX,swc5555.com,Outside
 HOST-SUFFIX,swc888.com,Outside
 HOST-SUFFIX,swdevelop.de,Outside
-HOST-SUFFIX,swebanalytics.acs.org,Outside
 HOST-SUFFIX,sweetkiss.me,Outside
 HOST-SUFFIX,sweetpacks-search.com,Outside
 HOST-SUFFIX,swell.cl,Outside
@@ -17814,7 +17815,6 @@ HOST-SUFFIX,telegramcn.org,Outside
 HOST-SUFFIX,telegramdownload.com,Outside
 HOST-SUFFIX,telegraph.co.uk,Outside
 HOST-SUFFIX,teleplus.in,Outside
-HOST-SUFFIX,telesco.pe,Outside
 HOST-SUFFIX,teleshow.org,Outside
 HOST-SUFFIX,teletrade-asia.com,Outside
 HOST-SUFFIX,telkom.co.id,Outside
@@ -19255,7 +19255,6 @@ HOST-SUFFIX,vietnamtophouse.com,Outside
 HOST-SUFFIX,vietsn.com,Outside
 HOST-SUFFIX,viewyoutube.net,Outside
 HOST-SUFFIX,vijayatemple.org,Outside
-HOST-SUFFIX,vikacg.com,Outside
 HOST-SUFFIX,vilavpn.com,Outside
 HOST-SUFFIX,vilavpn6.club,Outside
 HOST-SUFFIX,villa.incredib.link,Outside
@@ -23242,6 +23241,7 @@ HOST-SUFFIX,www.personalvpn.com,Outside
 HOST-SUFFIX,www.petaasia.cn,Outside
 HOST-SUFFIX,www.petergarner.net,Outside
 HOST-SUFFIX,www.pf266.com,Outside
+HOST-SUFFIX,www.pfd.org.hk,Outside
 HOST-SUFFIX,www.ph278.com,Outside
 HOST-SUFFIX,www.philenews.com,Outside
 HOST-SUFFIX,www.philipmorrisusa.com,Outside

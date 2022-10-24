@@ -6,6 +6,12 @@ HOST-SUFFIX,discordapp.com,Outside
 HOST-SUFFIX,discordapp.net,Outside
 HOST-SUFFIX,discordstatus.com,Outside
 
+# > Duolingo
+USER-AGENT,Duolingo*,Outside
+HOST-KEYWORD,duolingo,Outside
+HOST-SUFFIX,duolingo.cn,Outside
+HOST-SUFFIX,duolingo.com,Outside
+
 # > Google Voice
 HOST,lens.l.google.com,Outside
 HOST,voice.telephony.goog,Outside
@@ -76,6 +82,7 @@ HOST-SUFFIX,telegra.ph,Outside
 HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
 HOST-SUFFIX,telegram-cdn.org,Outside
+HOST-SUFFIX,telesco.pe,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
@@ -161,7 +168,6 @@ HOST-SUFFIX,apk-dl.com,Outside
 HOST-SUFFIX,apkpure.com,Outside
 HOST-SUFFIX,appdownloader.net,Outside
 HOST-SUFFIX,apple-dns.net,Outside
-HOST-SUFFIX,app-measurement.com,Outside
 HOST-SUFFIX,appshopper.com,Outside
 HOST-SUFFIX,arcgis.com,Outside
 HOST-SUFFIX,archive.is,Outside
@@ -775,6 +781,10 @@ HOST-SUFFIX,webmproject.org,Outside
 HOST-SUFFIX,webrtc.org,Outside
 
 HOST-KEYWORD,dlercloud,Outside
+
+# > VikACG
+HOST-SUFFIX,vikacg.com,Outside
+HOST-SUFFIX,picjs.xyz,Outside
 
 # > exception
 HOST-SUFFIX,wheel-size.cn,Outside

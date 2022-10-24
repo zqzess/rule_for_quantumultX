@@ -47,7 +47,6 @@ HOST,d25xi40x97liuc.cloudfront.net,GMedia
 HOST,dmqdd6hw24ucf.cloudfront.net,GMedia
 HOST,d27xxe7juh1us6.cloudfront.net,GMedia
 HOST,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com,GMedia
-HOST,www.amazon.com,GMedia
 
 # > Apple TV
 HOST-SUFFIX,tv.apple.com,GMedia
@@ -252,10 +251,14 @@ HOST-SUFFIX,nflxso.net,GMedia
 HOST-SUFFIX,nflxvideo.net,GMedia
 HOST,e13252.dscg.akamaiedge.net,GMedia
 HOST,h-netflix.online-metrix.net,GMedia
+HOST,netflix.com.edgesuite.net,GMedia
 IP-CIDR,23.246.0.0/18,GMedia
+IP-CIDR,34.210.42.111/32,GMedia
 IP-CIDR,37.77.184.0/21,GMedia
 IP-CIDR,38.72.126.0/24,GMedia
 IP-CIDR,45.57.0.0/17,GMedia
+IP-CIDR,52.89.124.203/32,GMedia
+IP-CIDR,54.148.37.5/32,GMedia
 IP-CIDR,64.120.128.0/17,GMedia
 IP-CIDR,66.197.128.0/17,GMedia
 IP-CIDR,69.53.224.0/19,GMedia
@@ -267,9 +270,20 @@ IP-CIDR,192.173.64.0/18,GMedia
 IP-CIDR,198.38.96.0/19,GMedia
 IP-CIDR,198.45.48.0/20,GMedia
 IP-CIDR,208.75.76.0/22,GMedia
-IP-CIDR,34.210.42.111/32,GMedia
-IP-CIDR,52.89.124.203/32,GMedia
-IP-CIDR,54.148.37.5/32,GMedia
+IP6-CIDR,2607:fb10::/32,GMedia
+IP6-CIDR,2620:10c:7000::/44,GMedia
+IP6-CIDR,2a00:86c0::/32,GMedia
+IP6-CIDR,2a03:5640::/32,GMedia
+
+# > Niconico
+HOST-SUFFIX,dmc.nico,GMedia
+HOST-SUFFIX,nicovideo.jp,GMedia
+HOST-SUFFIX,nicodic.jp,GMedia
+HOST-SUFFIX,nicomanga.jp,GMedia
+HOST-SUFFIX,niconico.com,GMedia
+HOST-SUFFIX,nicoseiga.jp,GMedia
+HOST-SUFFIX,nimg.jp,GMedia
+HOST-SUFFIX,simg.jp,GMedia
 
 # > Pandora
 HOST-SUFFIX,pandora.com,GMedia

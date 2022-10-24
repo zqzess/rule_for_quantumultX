@@ -1,10 +1,10 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-10-14 02:37:36
-# HOST: 29
+# UPDATED: 2022-10-24 02:34:38
+# HOST: 28
 # HOST-KEYWORD: 21
-# HOST-SUFFIX: 1065
+# HOST-SUFFIX: 1066
 # HOST-WILDCARD: 8
 # IP-CIDR: 918
 # IP6-CIDR: 6
@@ -38,7 +38,6 @@ HOST,rpg.pic-imges.com,GlobalMedia
 HOST,rthklive2-lh.akamaihd.net,GlobalMedia
 HOST,tv.applemusic.com,GlobalMedia
 HOST,uts-api.itunes.apple.com,GlobalMedia
-HOST,www.amazon.com,GlobalMedia
 HOST-SUFFIX,112263.com,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.au,GlobalMedia
 HOST-SUFFIX,20thcenturystudios.com.br,GlobalMedia
@@ -64,6 +63,7 @@ HOST-SUFFIX,amazonaws.com,GlobalMedia
 HOST-SUFFIX,amazonprimevideo.cn,GlobalMedia
 HOST-SUFFIX,amazonprimevideo.com.cn,GlobalMedia
 HOST-SUFFIX,amazonprimevideos.com,GlobalMedia
+HOST-SUFFIX,amazonuniversity.jobs,GlobalMedia
 HOST-SUFFIX,amazonvideo.cc,GlobalMedia
 HOST-SUFFIX,amazonvideo.com,GlobalMedia
 HOST-SUFFIX,amazonvideodirect.cc,GlobalMedia
