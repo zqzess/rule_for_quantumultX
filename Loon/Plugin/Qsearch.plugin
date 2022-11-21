@@ -1,5 +1,11 @@
-[URL Rewrite]
+#!name=Safari聚合搜索
+#!desc=默认百度引擎即可，地址栏输入:gg 充电宝 ,即可切换为谷歌搜索
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
 
+[URL Rewrite]
 #wk (Wikipedia中文)
 ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) https://zh.wikipedia.org/wiki/$2 302
 

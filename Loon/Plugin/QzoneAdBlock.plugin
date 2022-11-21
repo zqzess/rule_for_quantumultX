@@ -1,3 +1,9 @@
+#!name=qq空间广告屏蔽
+#!desc=屏蔽qq空间广告，但是广告位仍存在
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
 [Rule]
 DOMAIN,d3g.qq.com,REJECT
 DOMAIN,bsrv.qq.com,REJECT

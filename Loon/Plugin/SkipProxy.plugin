@@ -1,0 +1,10 @@
+#!name=SkipProxy
+#!desc=跳过部分应用的代理检测，网上国网、多看阅读、建行生活等应用,插件开启后需要重启Loon才会生效
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
+[General]
+# www.baidu.com：网上国网、多看阅读、顺丰金融、广东农信、丰云行
+# yunbusiness.ccb.com：建行生活
+skip-proxy = www.baidu.com,yunbusiness.ccb.com

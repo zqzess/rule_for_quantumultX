@@ -1,3 +1,9 @@
+#!name=百度系app广告屏蔽
+#!desc=屏蔽如百度输入法，百度网盘，百度地图等app广告
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
 [Rule]
 #百度输入法
 DOMAIN-KEYWORD,jomodns,REJECT

@@ -74,58 +74,39 @@ host-suffix,ddns.to,direct
 host-suffix,ddnsto.com,direct
 
 # 番茄小说
-host,p6-ad-sign.byteimg.com,reject
-host,p9-ad-sign.byteimg.com,reject
-host-suffix,byteimg.com,direct
-host,dig.bdurl.net,reject
-host-keyword,zijieapi,reject
-host,mcs.snssdk.com,reject
-host,tnc3-alisc1.snssdk.com,reject
-host,security-lq.snssdk.com,reject
-host,tnc3-aliec2.snssdk.com,reject
-host,i.snssdk.com,reject
-host,i-lq.snssdk.com,reject
-host,is.snssdk.com,reject
-
+host, p6-ad-sign.byteimg.com, reject
+host, p9-ad-sign.byteimg.com, reject
+host-suffix, byteimg.com, direct
+host, i.snssdk.com, reject
+host, i-lq.snssdk.com, reject
+host, dig.bdurl.net, reject
+host-suffix, zijieapi.com, reject
+host, activity-ag.awemeughun.com, reject
+host, mcs.snssdk.com, reject
+host, tnc3-alisc1.snssdk.com, reject
+host, security-lq.snssdk.com, reject
+host, tnc3-aliec2.snssdk.com, reject
+host, is.snssdk.com, reject
+host, msync-im1-vip6-std.easemob.com, reject
+host, apd-pcdnwxlogin.teg.tencent-cloud.net, reject
+host, api.iegadp.qq.com, reject
+host, sf3-ttcdn-tos.pstatp.com, reject
+host-suffix, pglstatp-toutiao.com, reject
+host, *default.ixigua.com, reject
+host, v6-novelapp.ixigua.com, reject
+host, *novelapp.ixigua.com, reject
+host-suffix, byteorge.com, reject
+host-suffix, bytegoofy.com, reject
+host-suffix, bytedance.com, reject
+ip-cidr, 49.71.37.101/32, reject
+ip-cidr, 117.71.105.23/32, reject
+ip-cidr, 218.94.207.205/32, reject
+ip-cidr, 117.92.229.188/32, reject
+ip-cidr, 101.36.166.16/32, reject
+ip-cidr, 180.96.2.114/32, reject
 # 番茄小说福利页
 host, lf-sourcecdn-tos.bytegecko.com, direct
-#
-# host, lf3-static.bytednsdoc.com, reject
-# host, ct-bjs-sgh-00001.oos-cn-180622.ctyunapi.cn, reject
-host, webcast5-open-lq.douyin.com, reject
-host-suffix, bytegecko.com, reject
-host, lf-webcast-sourcecdn-tos.bytegecko.com, reject
-host, mon3-misc-lq.fqnovel.com, reject
-host, tnc3-bjlgy.snssdk.com, reject
-host, mon11-misc-lq.fqnovel.com, reject
-host-suffix, bytemastatic.com, reject
-host, lf26-open-ma-pkg-sign.bytemastatic.com, reject
-host, is-lq.snssdk.com, reject
 
-host,v6-novelapp.ixigua.com,reject
-host,*novelapp.ixigua.com,reject
-host,msync-im1-vip6-std.easemob.com,reject
-host,apd-pcdnwxlogin.teg.tencent-cloud.net,reject
-host,api.iegadp.qq.com,reject
-host,sf3-ttcdn-tos.pstatp.com,reject
-host-suffix,pglstatp-toutiao.com,reject
-host,*default.ixigua.com,reject
-host,activity-ag.awemeughun.com,reject
-host-suffix,byteorge.com,reject
-host-suffix,bytegoofy.com,reject
-host-suffix,bytedance.com,reject
-ip-cidr,49.71.37.101/32,reject,no-resolve
-ip-cidr,117.71.105.23/32,reject,no-resolve
-ip-cidr,218.94.207.205/32,reject,no-resolve
-ip-cidr,117.92.229.188/32,reject,no-resolve
-ip-cidr,101.36.166.16/32,reject,no-resolve
-ip-cidr,180.96.2.114/32,reject,no-resolve
-#host,ad.data.lianjia.com,reject
-#host,i.snssdk.com,reject
-#host,imp-toutiao-data.37.com.cn,reject
-#host,reading-hl.snssdk.com,reject
-#host,i-hl.snssdk.com,reject
-#host,mon-lq.snssdk.com,reject
 
 # clubhouse
 ip-cidr,164.52.102.0/24,direct

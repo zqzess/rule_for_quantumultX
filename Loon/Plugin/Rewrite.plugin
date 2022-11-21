@@ -1,6 +1,10 @@
-
+#!name=GoogleRewrite
+#!desc=谷歌搜索重定向，将google.cn,google.h等重定向至google.com
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
 [URL Rewrite]
-#谷歌搜索重定向
 #hostname=*.google.com.hk ,*.g.cn,*.google.cn ,*.google.co.jp
 
 #^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302

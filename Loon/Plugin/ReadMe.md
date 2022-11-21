@@ -13,3 +13,4 @@
 - **QzoneAdBlock.plugin** qq空间广告屏蔽
 - **YouTubeAd.plugin** YouTube广告屏蔽
 - **zhihu.plugin**  知乎助手
+- **SkipProxy.plugin** 跳过代理检测
