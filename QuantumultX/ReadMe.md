@@ -48,8 +48,9 @@ static=Others, Outside, direct, ♻️ 自动选择,🔮 负载均衡,🚀 手�
 [filter_remote]
 #规则分流修复
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/ReFix.list, tag=ReFix规则修正, update-interval=86400, opt-parser=false, enabled=true
-#自定义
+#广告屏蔽
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list, force-policy=AdBlock,tag=AdBlock , enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/FanQieNovel.list, tag=番茄小说广告, update-interval=86400, enabled=true
 #苹果服务
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list, force-policy=Apple,tag=Apple , enabled=true
 #苹果ios更新屏蔽
@@ -161,6 +162,10 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 ```
 - 番茄小说广告屏蔽
 ```
+[filter_remote]
+# ReFix.list与FanQieNovel.list两个任选一个即可，ReFix.list包含FanQieNovel.list
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/ReFix.list, tag=ReFix规则修正, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/FanQieNovel.list, update-interval=86400, tag=番茄小说广告, enabled=true
 [rewrite_remote]
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite, tag=番茄小说广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
 ```
