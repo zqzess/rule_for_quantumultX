@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-10 02:30:44
-# HOST: 439
+# UPDATED: 2022-11-21 02:08:15
+# HOST: 440
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 37621
+# HOST-SUFFIX: 37629
 # IP-CIDR: 110
 # IP6-CIDR: 4
 # USER-AGENT: 45
-# TOTAL: 38258
+# TOTAL: 38267
 HOST,265.com,Global
 HOST,2mdn-cn.net,Global
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Global
@@ -153,6 +153,7 @@ HOST,ebay-25-assets.s3-us-west-1.amazonaws.com,Global
 HOST,ecapi-pchome.cdn.hinet.net,Global
 HOST,edge.api.brightcove.com,Global
 HOST,elib.maruzen.co.jp,Global
+HOST,espn.api.edge.bamgrid.com,Global
 HOST,espn.hb.omtrdc.net,Global
 HOST,espndotcom.tt.omtrdc.net,Global
 HOST,fandom.zendesk.com,Global
@@ -617,6 +618,7 @@ HOST-SUFFIX,53worldsweeps.com,Global
 HOST-SUFFIX,54647.global,Global
 HOST-SUFFIX,54647.online,Global
 HOST-SUFFIX,54647.org,Global
+HOST-SUFFIX,55dndn.com,Global
 HOST-SUFFIX,58avgo.com,Global
 HOST-SUFFIX,592r.com,Global
 HOST-SUFFIX,59mvmv.com,Global
@@ -662,6 +664,7 @@ HOST-SUFFIX,7tb.cc,Global
 HOST-SUFFIX,8008206616.com,Global
 HOST-SUFFIX,8111y.top,Global
 HOST-SUFFIX,81jia.tv,Global
+HOST-SUFFIX,82mvmv.com,Global
 HOST-SUFFIX,85tube.com,Global
 HOST-SUFFIX,88gals.com,Global
 HOST-SUFFIX,88kkn.com,Global
@@ -736,6 +739,7 @@ HOST-SUFFIX,accountpaypal.com,Global
 HOST-SUFFIX,accountpaypal.net,Global
 HOST-SUFFIX,accountpaypal.org,Global
 HOST-SUFFIX,accounts.googlers.com,Global
+HOST-SUFFIX,accuweather.com,Global
 HOST-SUFFIX,acebooik.com,Global
 HOST-SUFFIX,acer-group.com,Global
 HOST-SUFFIX,acer.com,Global
@@ -3549,6 +3553,7 @@ HOST-SUFFIX,dazn.com,Global
 HOST-SUFFIX,dazndn.com,Global
 HOST-SUFFIX,dcard.io,Global
 HOST-SUFFIX,dcard.link,Global
+HOST-SUFFIX,dcocsp.cn,Global
 HOST-SUFFIX,dctbeatsbydre.com,Global
 HOST-SUFFIX,dd-cdn.origin-apple.com.akadns.net,Global
 HOST-SUFFIX,ddd-smart.net,Global
@@ -4521,6 +4526,7 @@ HOST-SUFFIX,faacebook.com,Global
 HOST-SUFFIX,faasbook.com,Global
 HOST-SUFFIX,fabhairypussy.com,Global
 HOST-SUFFIX,fabric.io,Global
+HOST-SUFFIX,fabuye.top,Global
 HOST-SUFFIX,fabuyemian.com,Global
 HOST-SUFFIX,facbebook.com,Global
 HOST-SUFFIX,facbeok.com,Global
@@ -8699,6 +8705,7 @@ HOST-SUFFIX,nintendoswitchtogether.com,Global
 HOST-SUFFIX,nintendowii.com,Global
 HOST-SUFFIX,niosii.com,Global
 HOST-SUFFIX,niosii.net,Global
+HOST-SUFFIX,nivod.tv,Global
 HOST-SUFFIX,nixos.org,Global
 HOST-SUFFIX,niziero.info,Global
 HOST-SUFFIX,nke6.com,Global
@@ -8938,7 +8945,6 @@ HOST-SUFFIX,opensourceinsights.dev,Global
 HOST-SUFFIX,openssl.org,Global
 HOST-SUFFIX,openstreetmap.com,Global
 HOST-SUFFIX,openstreetmap.net,Global
-HOST-SUFFIX,openstreetmap.org,Global
 HOST-SUFFIX,openstreetmaps.org,Global
 HOST-SUFFIX,opensuse.org,Global
 HOST-SUFFIX,opentgc.com,Global
@@ -11025,6 +11031,7 @@ HOST-SUFFIX,talksport.com,Global
 HOST-SUFFIX,tandberg-china.com,Global
 HOST-SUFFIX,tandberg.com,Global
 HOST-SUFFIX,tanflix.com,Global
+HOST-SUFFIX,taose.tv,Global
 HOST-SUFFIX,taptotokyo.com,Global
 HOST-SUFFIX,taradinhos.com,Global
 HOST-SUFFIX,targetimg1.com,Global
@@ -12320,6 +12327,7 @@ HOST-SUFFIX,xgaytube.com,Global
 HOST-SUFFIX,xgaytube.tv,Global
 HOST-SUFFIX,xgirls.webcam,Global
 HOST-SUFFIX,xgroovy.com,Global
+HOST-SUFFIX,xgsp.tv,Global
 HOST-SUFFIX,xh-porn.com,Global
 HOST-SUFFIX,xhamster.desi,Global
 HOST-SUFFIX,xhot.pro,Global
@@ -26968,6 +26976,7 @@ HOST-SUFFIX,openmine.cl,Global
 HOST-SUFFIX,openproxy.co.uk,Global
 HOST-SUFFIX,opensea.io,Global
 HOST-SUFFIX,opensource.google,Global
+HOST-SUFFIX,openstreetmap.org,Global
 HOST-SUFFIX,opensur.cl,Global
 HOST-SUFFIX,opentable.com,Global
 HOST-SUFFIX,opentech.fund,Global

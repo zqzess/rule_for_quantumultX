@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2022-11-14 00:48:14
+# Mainland rules refresh time: 2022-11-21 00:47:05
 
 HOST-SUFFIX,abchina.com,Mainland
 HOST-SUFFIX,abchina.com.cn,Mainland
@@ -648,7 +648,6 @@ HOST-SUFFIX,acadn.cn,Mainland
 HOST-SUFFIX,acadn.com,Mainland
 HOST-SUFFIX,acctdns.com,Mainland
 HOST-SUFFIX,acctdns.net,Mainland
-HOST-SUFFIX,accuweather.com,Mainland
 HOST-SUFFIX,acetaffy.club,Mainland
 HOST-SUFFIX,acfun.cn,Mainland
 HOST-SUFFIX,acfun.tv,Mainland
@@ -734,8 +733,10 @@ HOST-SUFFIX,alimei.com,Mainland
 HOST-SUFFIX,alios.cn,Mainland
 HOST-SUFFIX,alipay.cn,Mainland
 HOST-SUFFIX,alipay.com.cn,Mainland
+HOST-SUFFIX,alipay.hk,Mainland
 HOST-SUFFIX,alipaydns.com,Mainland
 HOST-SUFFIX,alipaylog.com,Mainland
+HOST-SUFFIX,alipaymo.com,Mainland
 HOST-SUFFIX,alipayplus.com,Mainland
 HOST-SUFFIX,aliplus.com,Mainland
 HOST-SUFFIX,aliresearch.com,Mainland
@@ -995,9 +996,13 @@ HOST-SUFFIX,bytedance.com,Mainland
 HOST-SUFFIX,bytedance.net,Mainland
 HOST-SUFFIX,bytedanceapi.com,Mainland
 HOST-SUFFIX,bytedns.net,Mainland
+HOST-SUFFIX,bytedns1.com,Mainland
 HOST-SUFFIX,bytednsdoc.com,Mainland
+HOST-SUFFIX,bytefcdn.com,Mainland
 HOST-SUFFIX,bytegoofy.com,Mainland
+HOST-SUFFIX,bytegslb.com,Mainland
 HOST-SUFFIX,byteimg.com,Mainland
+HOST-SUFFIX,bytelb.net,Mainland
 HOST-SUFFIX,bytescm.com,Mainland
 HOST-SUFFIX,bytetcc.com,Mainland
 HOST-SUFFIX,bytetos.com,Mainland
@@ -1628,6 +1633,8 @@ HOST-SUFFIX,doticloud.com,Mainland
 HOST-SUFFIX,douban.fm,Mainland
 HOST-SUFFIX,douding.cn,Mainland
 HOST-SUFFIX,douxie.com,Mainland
+HOST-SUFFIX,douyincdn.com,Mainland
+HOST-SUFFIX,douyinliving.com,Mainland
 HOST-SUFFIX,douyinpic.com,Mainland
 HOST-SUFFIX,douyinstatic.com,Mainland
 HOST-SUFFIX,douyinvod.com,Mainland
@@ -3641,6 +3648,7 @@ HOST-SUFFIX,toutiaoimg.com,Mainland
 HOST-SUFFIX,toutiaoimg.net,Mainland
 HOST-SUFFIX,toutiaopage.com,Mainland
 HOST-SUFFIX,toutiaostatic.com,Mainland
+HOST-SUFFIX,toutiaovod.com,Mainland
 HOST-SUFFIX,touzid.com,Mainland
 HOST-SUFFIX,tpyzq.com,Mainland
 HOST-SUFFIX,tracup.com,Mainland

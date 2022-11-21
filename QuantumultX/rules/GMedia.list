@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2022-11-14 00:47:51
+# GMedia rules refresh time: 2022-11-21 00:47:04
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -318,6 +318,7 @@ HOST-SUFFIX,20thcenturystudios.jp,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,abc-studios.com,GMedia
 HOST-SUFFIX,abc.com,GMedia
+HOST-SUFFIX,abema-tv.com,GMedia
 HOST-SUFFIX,aboutamazon.com,GMedia
 HOST-SUFFIX,adventuresbydisney.com,GMedia
 HOST-SUFFIX,adx.promo,GMedia
@@ -1207,6 +1208,7 @@ HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,discovery.uplynk.com,GMedia
 HOST-KEYWORD,dualstack.apiproxy-,GMedia
 HOST-KEYWORD,dualstack.ichnaea-web-,GMedia
+HOST-KEYWORD,hamivideo.cdn.hinet.net,GMedia
 HOST-KEYWORD,jooxweb-api,GMedia
 HOST-KEYWORD,netflixdnstest,GMedia
 HOST-KEYWORD,spotify.com,GMedia
