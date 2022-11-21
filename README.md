@@ -3,6 +3,18 @@
 
 [telegram频道](https://t.me/zqzessNews)
 
+**关于番茄小说广告**
+```ruby
+圈x需要重写和分流配合即 FanQieNovel.qxrewrite 和 FanQieNovel.list
+Loon只需要 FanQieNovel.plugin
+Surge也只需要 FanQieNovel.plugin
+```
+**关于safari聚合搜索**
+```ruby
+Qsearch是百度搜索的，Safari默认的百度搜索就可以用
+Qsearchddg是DuckDuckgo的，需要更改为DuckDuckgo搜索
+推荐使用Qsearch
+```
 **去广告**
 
 ```ruby
