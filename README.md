@@ -8,6 +8,7 @@
 圈x需要重写和分流配合即 FanQieNovel.qxrewrite 和 FanQieNovel.list
 Loon只需要 FanQieNovel.plugin
 Surge也只需要 FanQieNovel.plugin
+该规则同样对番茄听书有效
 ```
 **关于safari聚合搜索**
 ```ruby
