@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-11-16 02:29:08
+# UPDATED: 2022-11-27 02:08:06
 # HOST: 10
 # HOST-KEYWORD: 31
-# HOST-SUFFIX: 25475
+# HOST-SUFFIX: 25474
 # IP-CIDR: 92
 # IP6-CIDR: 3
 # USER-AGENT: 8
-# TOTAL: 25619
+# TOTAL: 25618
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -4661,7 +4661,6 @@ HOST-SUFFIX,buddhanet.idv.tw,Proxy
 HOST-SUFFIX,buddhism-controversy-blog.com,Proxy
 HOST-SUFFIX,buddhism.about.com,Proxy
 HOST-SUFFIX,buddhismnow.com,Proxy
-HOST-SUFFIX,buddhistchannel.tv,Proxy
 HOST-SUFFIX,bufalopedia.ch,Proxy
 HOST-SUFFIX,bufalopedia.com,Proxy
 HOST-SUFFIX,bufalopedia.net,Proxy
