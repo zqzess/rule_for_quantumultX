@@ -7,19 +7,17 @@
  * 定时任务添加： 0 7,10 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js
  * surge panel面板添加详情见仓库
  * loon 插件添加详情见仓库
- * 转载改写请注明出处或作者
  */
 const $ = API("covid19", true); // 打开debug环境，打开所有log输出
 const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();
 
 $.city = $.read("covid19_city");
 $.isNotify = $.read("covid19_isNotify");
-
 let cityyq = '南京疫情'
 if ($.city !== "" && $.city !== null && $.city !== undefined)
     cityyq = $.city.replace('市', '') + '疫情'
 if ($.isNotify === undefined)
-    $.isNotify = true
+    $.isNotify = 'true'
 let cityencode = encodeURIComponent(cityyq)
 let url = 'https://opendata.baidu.com/data/inner?resource_id=5653&query='
 let info = []
@@ -52,7 +50,7 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
         $.log('\n' + newsTime)
         $.log('\n' + notifyContent)
         $.log('\n' + newsUrl)
-        if ($.isNotify)
+        if ($.isNotify==='true')
             $.notify('📢COVID-19', '😷' + cityyq, notifyContent, {"open-url": newsUrl})
         body = {
             title: '😷' + cityyq,
@@ -63,7 +61,7 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
     } else {
         $.log('省份或城市错误，没有获取到信息')
         notifyContent = '省份或城市错误，没有获取到信息!'
-        if ($.isNotify)
+        if ($.isNotify==='true')
             $.notify('📢COVID-19', '❌错误', notifyContent)
         body = {
             title: '😷' + cityyq,

@@ -1,5 +1,10 @@
 # rule_for_quantumultX
-自用圈X规则，GithubAction定期自动从上游拉取资源整合更新，部分手动维护
+### 📢 最近更新 
+[新增疫情信息监控脚本 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/covid19)
+
+番茄小说规则更新
+
+---
 
 [telegram频道](https://t.me/zqzessNews)
 
