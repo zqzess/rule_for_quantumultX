@@ -4,4 +4,4 @@
 [Script]
 covid19 = type = generic,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js,timeout=10
 [Panel]
-COVID-19 = script-name=covid19,title=疫情信息,content=请刷新,style=info,update-interval=7200
+COVID-19 = script-name=covid19,title=疫情信息,content=请刷新,style=info,update-interval=14400
