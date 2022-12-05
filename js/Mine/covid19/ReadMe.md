@@ -67,3 +67,6 @@ QuantumultX配置文件`[task_local]`   添加以下链接
 cron "0 7,10 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js, tag=疫情信息监控, img-url=https://raw.githubusercontent.com/zqzess/pichouse/master/pic/covid-19.jpg
 enable = true
 ```
+---------
+【Scriptable】
+---------

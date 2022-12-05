@@ -1,5 +1,5 @@
 /*
- * 本脚本旨在获取某个城市最新疫情信息，支持surge(panel,cron),QuantumultX,Loon,Nodejs
+ * 本脚本旨在获取某个城市最新疫情信息，支持surge(panel,cron),QuantumultX,Loon,Nodejs,Scriptable
  * @author: zqzess
  * 仓库地址：https://github.com/zqzess/rule_for_quantumultX
  * 点击通知可以跳转最新新闻网页，通过boxjs切换城市
