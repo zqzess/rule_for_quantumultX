@@ -32,6 +32,7 @@ HOST-SUFFIX,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,apple.news,Apple
 
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,api.smoot.apple.cn,Apple
 HOST,appldnld.apple.com,Apple
 HOST,apple-events.akamaized.net,Apple
@@ -72,11 +73,10 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -459,7 +459,6 @@ HOST-SUFFIX,ukipad.com,Apple
 HOST-SUFFIX,wwwipodlounge.com,Apple
 HOST-SUFFIX,wwwmacbookair.com,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
-HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,appleenews.com,Apple
 HOST-SUFFIX,applemusic.berlin,Apple
 HOST-SUFFIX,applemusic.co,Apple
@@ -496,6 +495,7 @@ HOST-SUFFIX,iphoto.wang,Apple
 HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
 HOST-SUFFIX,applemusic.com,Apple
+HOST-SUFFIX,apple.news,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,appsto.re,Apple
 HOST-SUFFIX,digicert.com,Apple
