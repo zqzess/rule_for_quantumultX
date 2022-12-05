@@ -104,6 +104,49 @@
         "https://raw.githubusercontent.com/zqzess/pichouse/master/pic/njtech.png"
       ],
       "script": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/NjtechAutoLogin/NjtechAutoLogin.js"
+    },
+    {
+      "id": "covid19",
+      "name": "疫情信息监控",
+      "keys": [
+        "@covid19.covid19_city",
+        "@covid19.covid19_isNotify"
+      ],
+      "settings": [
+        {
+          "id": "@covid19.covid19_city",
+          "name": "城市",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 5,
+          "desc": "填写地级城市名称，如无锡，不填默认南京"
+        },
+        {
+          "id": "@covid19.covid19_isNotify",
+          "name": "开启通知",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开始，surge模块是panel，所以可以选择是否开启通知"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/zqzess/pichouse/master/pic/njtech.png",
+        "https://raw.githubusercontent.com/zqzess/pichouse/master/pic/njtech.png"
+      ],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon": "loon://import?plugin=https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
     }
   ]
 }
