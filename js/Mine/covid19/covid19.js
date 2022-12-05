@@ -7,6 +7,7 @@
  * 定时任务添加： 0 7,10 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js
  * surge panel面板添加详情见仓库
  * loon 插件添加详情见仓库
+ * 转载改写请注明出处或作者
  */
 const $ = API("covid19", true); // 打开debug环境，打开所有log输出
 const {isQX, isLoon, isSurge, isScriptable, isNode} = ENV();

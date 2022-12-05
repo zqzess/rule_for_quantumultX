@@ -61,4 +61,9 @@ QuantumultX配置文件`[task_local]`   添加以下链接
 - > boxjs插件开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
 - > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
 
+[covid19插件订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/COVID19.plugin)
 ### 配置文件手动添加
+```ini
+cron "0 7,10 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js, tag=疫情信息监控, img-url=https://raw.githubusercontent.com/zqzess/pichouse/master/pic/covid-19.jpg
+enable = true
+```

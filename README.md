@@ -3,6 +3,8 @@
 
 [telegram频道](https://t.me/zqzessNews)
 
+[脚本 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine)
+
 **关于番茄小说广告**
 ```ruby
 圈x需要重写和分流配合即 FanQieNovel.qxrewrite 和 FanQieNovel.list
@@ -105,6 +107,7 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 - [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bodianMusic.plugin)
 - [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/YouTubeAd.plugin)
 - [spotify会员解锁 by app2smile](https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin)
+- [covid19插件订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/COVID19.plugin)
 
     -----------------
 ### Surge配置文件
@@ -122,6 +125,7 @@ https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX
 - [聚合搜索mac版-适配多浏览器](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/QsearchMac.sgmodule)
 - [youtube广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/YouTubeAd.sgmodule)
 - [南京工大学校园网自动登录](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/NjtechAutoLogin.sgmodule) 
+- [covid19模块订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Surge/Module/COVID19.sgmodule)
 
 surge搬运：
 - [高级订阅管理工具-必装](https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule)
