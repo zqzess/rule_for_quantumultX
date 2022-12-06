@@ -1,5 +1,5 @@
 /*
- * 本脚本旨在获取某个城市最新疫情信息，支持surge(panel,cron),QuantumultX,Loon,Nodejs,Scriptable
+ * 本脚本旨在获取某个城市最新疫情信息，支持surge(panel,cron),QuantumultX,Loon,Nodejs,,Scriptable
  * @author: zqzess
  * 仓库地址：https://github.com/zqzess/rule_for_quantumultX
  * 点击通知可以跳转最新新闻网页，通过boxjs切换城市
@@ -15,16 +15,19 @@ if(!isScriptable)
     $.city = $.read('covid19_city')
     $.isNotify = $.read('covid19_isNotify')
 }
-let cityyq = '南京疫情'
+//
+// 修改城市👇
+let city = '南京'
 if ($.city !== "" && $.city !== null && $.city !== undefined)
-    cityyq = $.city.replace('市', '') + '疫情'
+    city = $.city + '疫情'
 if ($.isNotify === undefined)
     $.isNotify = 'true'
-let cityencode = encodeURIComponent(cityyq)
+city = city.match('疫情') ? city : city + '疫情'
+let cityencode = encodeURIComponent(city)
 let url = 'https://opendata.baidu.com/data/inner?resource_id=5653&query='
 let info = []
 let body = {}
-$.log(cityyq)
+$.log(city)
 $.log('通知开启: ' + $.isNotify)
 $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
     let obj = resp.body
@@ -53,9 +56,9 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
         $.log('\n' + notifyContent)
         $.log('\n' + newsUrl)
         if ($.isNotify==='true')
-            $.notify('📢COVID-19', '😷' + cityyq, notifyContent, {"open-url": newsUrl})
+            $.notify('📢COVID-19', '😷' + city, notifyContent, {"open-url": newsUrl})
         body = {
-            title: '😷' + cityyq,
+            title: '😷' + city,
             content: notifyContent,
             icon: 'cross.circle',
             'icon-color': '#ff0000'
@@ -66,22 +69,31 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
         if ($.isNotify==='true')
             $.notify('📢COVID-19', '❌错误', notifyContent)
         body = {
-            title: '😷' + cityyq,
+            title: '😷' + city,
             content: '❌错误\n' + notifyContent,
             icon: 'cross.circle',
             'icon-color': '#ff0000'
         }
     }
     if (isScriptable) {
+        let isDark = Device.isUsingDarkAppearance()
         const w = new ListWidget()
         const bgColor = new LinearGradient()
         bgColor.colors = [new Color("#99CCFF"), new Color("#CCFFFF")]
+        if(isDark)
+        {
+            bgColor.colors = [new Color("#1c1c1c"), new Color("#29323c")]
+        }
         bgColor.locations = [0.0, 1.0]
         w.backgroundGradient = bgColor
-        let firstLine = w.addText('😷' + cityyq)
+        let firstLine = w.addText('😷' + city)
         firstLine.font = Font.boldSystemFont(18)
         firstLine.textColor = Color.black()
-        firstLine.textOpacity = 0.7
+        if(isDark)
+        {
+            firstLine.textColor = Color.white()
+            firstLine.textOpacity = 0.8
+        }
         w.addSpacer()
         w.spacing = 1
         let contentList = notifyContent.split('\n')
@@ -90,6 +102,7 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
             const content = w.addText(i)
             content.textColor = new Color("#CC3300")
             content.font = Font.mediumSystemFont(12)
+            content.minimumScaleFactor = 0.5
             if(index === contentList.length-2)
             {
                 w.addSpacer()
@@ -98,7 +111,12 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
             if(index === contentList.length-1)
             {
                 content.textColor = Color.black()
-                content.font = Font.mediumSystemFont(13)
+                if(isDark)
+                {
+                    content.textColor = Color.white()
+                    content.textOpacity = 0.8
+                }
+                content.font = Font.regularSystemFont(14)
             }
             if(index === contentList.length)
             {
@@ -106,6 +124,7 @@ $.http.get(url + cityencode + '&alr=1&is_opendata=1').then(resp => {
             }
             index ++
         })
+        w.url=newsUrl
         //w.presentSmall();
         w.presentMedium()
         Script.setWidget(w)
