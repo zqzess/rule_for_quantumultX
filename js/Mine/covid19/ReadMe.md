@@ -69,5 +69,12 @@ enable = true
 ```
 ---------
 【Scriptable】
-待更新
+-------
+
+使用方法，倒入脚本至app，修改脚本内的城市名称
+
+[点击倒入模块](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Scriptable/covid19/Covid-19.scriptable)
+
+[点击倒入脚本](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js)
+
 ---------
