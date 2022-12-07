@@ -47,5 +47,5 @@ http:
     - ^https?:\/\/.+\.pstatp\.com\/bytecom\/resource\/track-log\/src\/.+ - reject
     - ^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 - reject
     - ^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ - reject
-    - URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package - reject
-    - URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image - reject
+    - ^http:\/\/.+\.byteimg\.com\/ad-app-package - reject
+    - ^http:\/\/.+\.byteimg\.com\/web\.business\.image - reject
