@@ -8,7 +8,7 @@
 - Panel面板展示
 - Cron定时执行提醒
 
-**需要BoxJs配合修改城市**
+**需要BoxJs配合修改城市或省份**
 
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs模块](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
@@ -39,7 +39,8 @@ covid19 = type = cron, cronexp=0 7,10 * * *, script-path=https://raw.githubuserc
 【Quantumult X】
 ---------
 只能用定时任务
-**需要BoxJs配合修改城市**
+
+**需要BoxJs配合修改城市或省份**
  
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs重写订阅](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf)
@@ -55,9 +56,10 @@ QuantumultX配置文件`[task_local]`   添加以下链接
 【Loon】
 ---------
 只能用定时任务
-**需要BoxJs配合修改城市**
+
+**需要BoxJs配合修改城市或省份**
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
-- > [BoxJs重写订阅](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin)
+- > [BoxJs插件](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin)
 - > boxjs插件开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
 - > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
 
@@ -78,3 +80,18 @@ enable = true
 [点击倒入脚本](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js)
 
 ---------
+
+【Stash】
+---
+
+**需要BoxJs配合修改城市或省份**
+
+- > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
+- > [BoxJs复写](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.stash.stoverride)
+- > boxjs模块开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
+- > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+
+
+支持Tiles(Stash 2.0+)
+
+[复制链接倒入复写](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Stash/override/COVID19.stoverride)

@@ -12,8 +12,8 @@ const $ = new Env("covid19",true)
 
 //
 //默认城市南京，优先从BoxJs获取数据
-$.city = $.getdata('covid19_city')
-$.isNotify = $.getdata('covid19_isNotify')
+$.city = $.getdata('@covid19.covid19_city')
+$.isNotify = $.getdata('@covid19.covid19_isNotify')
 
 //
 // 修改城市或省👇
