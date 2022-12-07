@@ -1,4 +1,4 @@
-# NAME: FanQieNovel
+# NAME: FanQieNovel Classical
 payload:
   - DOMAIN,p6-ad-sign.byteimg.com
   - DOMAIN,p9-ad-sign.byteimg.com
@@ -18,7 +18,6 @@ payload:
   - DOMAIN,v6-novelapp.ixigua.com
   - DOMAIN-KEYWORD,zijieapi
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
-  - DOMAIN-SUFFIX,byteimg.com,DIRECT
   - DOMAIN-SUFFIX,byteorge.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,bytedance.com

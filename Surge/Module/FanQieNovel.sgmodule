@@ -4,7 +4,7 @@
 # 番茄小说
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
 DOMAIN,p9-ad-sign.byteimg.com,REJECT
-DOMAIN-SUFFIX,byteimg.com,DIRECT
+# DOMAIN-SUFFIX,byteimg.com,DIRECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT

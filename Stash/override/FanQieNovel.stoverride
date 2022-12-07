@@ -20,7 +20,6 @@ rules:
  - DOMAIN,v6-novelapp.ixigua.com,REJECT
  - DOMAIN-KEYWORD,zijieapi,REJECT
  - DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
- - DOMAIN-SUFFIX,byteimg.com,DIRECT
  - DOMAIN-SUFFIX,byteorge.com,REJECT
  - DOMAIN-SUFFIX,bytegoofy.com,REJECT
  - DOMAIN-SUFFIX,bytedance.com,REJECT
