@@ -1,0 +1,13 @@
+name: 谷歌重定向 @zqzess
+desc: 用于将谷歌中国谷歌香港谷歌日本重定向至google.com
+
+http:
+  mitm:
+    - '*.google.com.hk'
+    - '*.g.cn'
+    - '*.google.co.jp'
+    - '*.google.cn'
+  url-rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+    - ^https:\/\/www\.google\.co\.jp https://www.google.com 302
+    - ^https:\/\/www\.google\.com\.hk\/ https://www.google.com/ncr 302
