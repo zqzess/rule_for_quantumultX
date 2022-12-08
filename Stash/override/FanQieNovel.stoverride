@@ -1,28 +1,14 @@
 name: 番茄小说广告屏蔽 @zqzess
 desc: 用于屏蔽番茄小说app广告
 
+rule-providers:
+  FanQieNovel:
+    behavior: domain
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Stash/ruleList/FanQieNovel.yaml
+    interval: 86400
+
 rules:
- - DOMAIN,p6-ad-sign.byteimg.com,REJECT
- - DOMAIN,p9-ad-sign.byteimg.com,REJECT
- - DOMAIN,i.snssdk.com,REJECT
- - DOMAIN,i-lq.snssdk.com,REJECT
- - DOMAIN,dig.bdurl.net,REJECT
- - DOMAIN,activity-ag.awemeughun.com,REJECT
- - DOMAIN,mcs.snssdk.com,REJECT
- - DOMAIN,tnc3-alisc1.snssdk.com,REJECT
- - DOMAIN,security-lq.snssdk.com,REJECT
- - DOMAIN,tnc3-aliec2.snssdk.com,REJECT
- - DOMAIN,is.snssdk.com,REJECT
- - DOMAIN,msync-im1-vip6-std.easemob.com,REJECT
- - DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
- - DOMAIN,api.iegadp.qq.com,REJECT
- - DOMAIN,sf3-ttcdn-tos.pstatp.com,REJECT
- - DOMAIN,v6-novelapp.ixigua.com,REJECT
- - DOMAIN-KEYWORD,zijieapi,REJECT
- - DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
- - DOMAIN-SUFFIX,byteorge.com,REJECT
- - DOMAIN-SUFFIX,bytegoofy.com,REJECT
- - DOMAIN-SUFFIX,bytedance.com,REJECT
+ - RULE-SET,FanQieNovel,REJECT
 
 http:
   mitm:

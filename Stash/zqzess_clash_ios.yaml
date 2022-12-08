@@ -1,81 +1,102 @@
 dns:
   default-nameserver:
-  - 223.5.5.5
-  - 114.114.114.114
-  - system
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+    - system
+  fake-ip-filter:
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - 'lens.l.google.com'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - system
+  nameserver-policy:
+    'www.baidu.com': 114.114.114.114
 log-level: info
 mode: rule
 proxies:
-- name: 本地代理节点示例
-  password: pwd
-  port: 443
-  server: example.com
-  type: trojan
+  - name: 本地代理节点示例
+    password: pwd
+    port: 443
+    server: example.com
+    type: trojan
 proxy-groups:
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Static.png
-  name: 切换节点
-  proxies:
-  - 本地节点
-  - 自动选择
-  - 直连
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
-  name: 本地节点
-  proxies:
-  - 本地代理节点示例
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spark.png
-  name: 订阅节点
-  proxies: []
-  type: select
-  use:
-  - jichang1
-  - jichang2
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
-  name: 自动选择
-  proxies: []
-  type: url-test
-  url: http://cp.cloudflare.com/generate_204
-  use:
-  - jichang1
-  - jichang2
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
-  name: 直连
-  proxies:
-  - DIRECT
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png
-  name: 拒绝
-  proxies:
-  - REJECT
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
-  name: Spotify
-  proxies:
-  - 直连
-  - 本地节点
-  - 切换节点
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
-  name: PayPal
-  proxies:
-  - 直连
-  - 本地节点
-  - 切换节点
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
-  name: 代理
-  proxies:
-  - 切换节点
-  - 自动选择
-  - 本地节点
-  type: select
-- icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
-  name: 其它
-  proxies:
-  - 直连
-  - 代理
-  type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Static.png
+    name: 切换节点
+    proxies:
+      - 本地节点
+      - 订阅节点
+      - 自动选择
+      - 直连
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+    name: 本地节点
+    proxies:
+      - 本地代理节点示例
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spark.png
+    name: 订阅节点
+    proxies: [ ]
+    type: select
+    use:
+      - jichang1
+      - jichang2
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+    name: 自动选择
+    proxies: [ ]
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    use:
+      - jichang1
+      - jichang2
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
+    name: 直连
+    proxies:
+      - DIRECT
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png
+    name: 拒绝
+    proxies:
+      - REJECT
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+    name: Spotify
+    proxies:
+      - 直连
+      - 本地节点
+      - 切换节点
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
+    name: PayPal
+    proxies:
+      - 直连
+      - 本地节点
+      - 切换节点
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+    name: 代理
+    proxies:
+      - 切换节点
+      - 自动选择
+      - 本地节点
+    type: select
+  - icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    name: 其它
+    proxies:
+      - 直连
+      - 代理
+    type: select
 proxy-providers:
   jichang1:
     interval: 86400
@@ -84,45 +105,41 @@ proxy-providers:
     interval: 86400
     url: https://jichang1.com/此处url填写自己的机场订阅链接
 rule-providers:
+  GitHub:
+    behavior: domain
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/zqzess/rule_for_quantumultX@master/Stash/ruleList/Github.yaml
+  PayPal:
+    behavior: domain
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/zqzess/rule_for_quantumultX@master/Stash/ruleList/Paypal.yaml
+  Spotify:
+    behavior: domain
+    interval: 86400
+    url: https://cdn.jsdelivr.net/gh/zqzess/rule_for_quantumultX@master/Stash/ruleList/Spotify.yaml
   cnip:
     behavior: ipcidr-text
     interval: 86400
     url: https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt
-  github:
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Semporia/Clash-X@master/Filter/GitHub.yaml
   lancidr:
-    behavior: domain-text
+    behavior: ipcidr
     interval: 86400
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-  paypal:
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Semporia/Clash-X@master/Filter/PayPal.yaml
   proxy:
     behavior: domain-text
     interval: 86400
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/proxy.txt
-  spotify:
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Semporia/Clash-X@master/Filter/Spotify.yaml
-  telegram:
-    behavior: classical
-    interval: 86400
-    url: https://cdn.jsdelivr.net/gh/Semporia/Clash-X@master/Filter/Telegram.yaml
   telegramcidr:
-    behavior: ipcidr-text
+    behavior: ipcidr
     interval: 86400
     url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
 rules:
-- RULE-SET,paypal,PayPal
-- RULE-SET,github,代理
-- RULE-SET,spotify,Spotify
-- RULE-SET,telegram,代理
-- RULE-SET,proxy,代理
-- RULE-SET,lancidr,直连
-- RULE-SET,cnip,直连
-- GEOIP,CN,DIRECT
-- MATCH,其它
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,GitHub,代理
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,telegramcidr,代理
+  - RULE-SET,proxy,代理
+  - RULE-SET,lancidr,直连
+  - RULE-SET,cnip,直连
+  - GEOIP,CN,DIRECT
+  - MATCH,其它
