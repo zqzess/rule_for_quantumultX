@@ -1,9 +1,10 @@
 name: Qsearch @zqzess
-desc: 聚合搜索，使用默认百度搜索。使用示例：在地址栏输入"gg 充电宝",可切换至谷歌搜索充电宝。不需要把默认搜索切换为DuckDuckGo
+desc: Safari聚合搜索，使用默认百度搜索。使用示例：在地址栏输入"gg 充电宝",可切换至谷歌搜索充电宝。不需要把默认搜索切换为DuckDuckGo。支持Chrome使用bd切换为百度搜索
 
 http:
   mitm:
     - 'm.baidu.com'
+    - 'www.google.com'
   url-rewrite:
     #wk (Wikipedia中文)
     - ^https:\/\/m\.baidu\.com/s\?from=(.+)&word=wk\+([^&]+) https://zh.wikipedia.org/wiki/$2 302

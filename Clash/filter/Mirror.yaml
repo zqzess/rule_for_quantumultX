@@ -10,3 +10,7 @@ payload:
   - DOMAIN-SUFFIX, production.cloudflare.docker.com
   # qt
   - DOMAIN-SUFFIX, download.qt.io
+  # npm
+  - DOMAIN-SUFFIX, npmjs.com
+  - DOMAIN-SUFFIX, npmjs.org
+  - DOMAIN_SUFFIX, npm.community
