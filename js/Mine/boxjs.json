@@ -127,7 +127,14 @@
           "name": "开启通知",
           "val": true,
           "type": "boolean",
-          "desc": "默认开始，surge模块是panel，所以可以选择是否开启通知"
+          "desc": "默认开启，surge模块是panel，所以可以选择是否开启通知"
+        },
+        {
+          "id": "@covid19.covid19_isShowInfo",
+          "name": "开启百度搜索数据显示",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开启，关闭后可显示更多疫情新闻"
         }
       ],
       "author": "@zqzess",
