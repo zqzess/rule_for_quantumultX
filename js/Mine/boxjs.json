@@ -110,7 +110,8 @@
       "name": "疫情信息监控",
       "keys": [
         "@covid19.covid19_city",
-        "@covid19.covid19_isNotify"
+        "@covid19.covid19_isNotify",
+        "@covid19.covid19_isShowInfo"
       ],
       "settings": [
         {
