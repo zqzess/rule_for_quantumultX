@@ -1,20 +1,16 @@
-# Quantumult X  
-**去广告**
+# Quantumult X 配置说明
+
+ **去广告**
 ```ruby
 去广告重写开启后请先清除缓存,QuantumultX重写需配合对应的.snippet文件
 ```
 
-## 目录说明
-rewrite 重写
+***ps:***
+-->[详细广告屏蔽列表](https://github.com/zqzess/rule_for_quantumultX/blob/master/AdBlockList.md)
 
-rules 分流规则，每周自动更新
+--------------------------------
 
-snippet 部分细分广告分流规则，手动维护
-
-task 脚本定时任务
-
----
-### 分流规则手动添加
+### 分流规则添加
 
 <details>
 
@@ -50,6 +46,8 @@ static=Others, Outside, direct, ♻️ 自动选择,🔮 负载均衡,🚀 手�
 ```
 ```
 [filter_remote]
+#规则分流修复
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/ReFix.list, tag=ReFix规则修正, update-interval=86400, opt-parser=false, enabled=true
 #广告屏蔽
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list, force-policy=AdBlock,tag=AdBlock , enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/FanQieNovel.list, tag=番茄小说广告, update-interval=86400, enabled=true
@@ -90,29 +88,112 @@ final, Others
 ```
 </details>
 
------
-### 重写订阅
-- 番茄小说广告屏蔽
-  + 分流: [FanQieNovel.snippet]()
-  + 重写: [FanQieNovel.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite)
-  + 说明: 两者配合使用
-- Safari聚合搜索百度版
-  + 重写: [Qsearch.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Qsearch.qxrewrite)
-  + 说明: 
-- Safari聚合搜索Mac平台
-  + 重写: [QsearchMac](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/QsearchMac.qxrewrite)
-  + 说明: 
-- 谷歌搜索重定向
-  + 重写: [googleRedirect.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/googleRedirect.qxrewrite)
-  + 说明: 
-- 百度系app广告屏蔽
-  + 分流: [baiduApp.snippet]()
-  + 重写: [baiduAd.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/baiduAd.qxrewrite)
-  + 说明: 两者配合使用
+--------------------------------
 
-**其他未列出请详见仓库**
-----
-### 完整配置文件参考示例
+### 重写规则
+
+<details>
+
+自用的重写规则
+
+</br>**功能**:
+- 有兔(米兔)阅读羞耻的开屏广告图片
+- Google搜索中国，香港，日本重定向
+- YouTuBe跳广告
+- 书旗小说去广告(规则与重写较多,可能误杀)
+- 番茄小说去章末广告(且用且珍惜)
+- 每日优鲜、百度地图开屏广告屏蔽(不起作用先清缓存)
+- 部分规则通用，经测试，今日头条小说与米读小说章内广告也能屏蔽
+- 百度云盘广告屏蔽(会员与非会员广告开屏不同，测试的是会员，可能需要重装app)
+。。。。。
+
+**搬运**:
+ - 抖音去广告 (By Choler)
+ - 去微信公众号广告 (By Choler)
+ - 酷我音乐SVIP (By yxiaocai)
+ - 爱美剧Vip (by huihui）(官网：app.meiju2018.com)
+ - 京东淘宝比价 (by yichahucha)
+ - 香蕉视频VIP (by NobyDa)
+ - 91短视频 (by NobyDa)
+ - PicsArt美易 pro (by NobyDa)
+ - 哔哩哔哩番剧开启1080P+ （by NobyDa）
+ - spotify会员解锁 (by app2smile)
+
+</details>
+
+**重写合集订阅**
+
+包含广告屏蔽与fakevip
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyRewrite.conf, tag=zqzess自用rewrite, update-interval=86400, opt-parser=false, enabled=true
+```
+
+**单文件订阅**
+
+<details>
+
+- youtube广告屏蔽，已修复短视频无法加载
+
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/youtube.qxrewrite, tag=youtube广告屏蔽, update-interval=86400, opt-parser=false, enabled=true
+```
+
+- 百度系app广告屏蔽
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/baiduAd.qxrewrite, tag=百度系广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
+```
+- Safari聚合搜索百度引擎版
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/Qsearch.qxrewrite, tag=safari聚合搜索百度版, update-interval=604800, opt-parser=false, enabled=true
+```
+- 聚合搜索mac版-适配多浏览器
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/QsearchMac.qxrewrite, tag=聚合搜索mac版, update-interval=604800, opt-parser=false, enabled=true
+```
+- 常规广告屏蔽
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyAdBlock.qxrewrite, tag=zqzess常规广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
+```
+- 番茄小说广告屏蔽
+```
+[filter_remote]
+# ReFix.list与FanQieNovel.list两个任选一个即可，ReFix.list包含FanQieNovel.list
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/ReFix.list, tag=ReFix规则修正, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/FanQieNovel.list, update-interval=86400, tag=番茄小说广告, enabled=true
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite, tag=番茄小说广告屏蔽, update-interval=604800, opt-parser=false, enabled=true
+```
+- 哔哩哔哩重写合集
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/bilibili.qxrewrite, tag=哔哩哔哩重写合集, update-interval=604800, opt-parser=false, enabled=true
+```
+- 酷我音乐vip解锁及广告屏蔽
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/kuwo.qxrewrite, tag=酷我音乐增强重写, update-interval=604800, opt-parser=false, enabled=true
+```
+- fake vip脚本搬运合集
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/MyJsRewrite.conf, tag=zqzess自用搬运脚本, update-interval=604800, opt-parser=true, enabled=false
+```
+- 谷歌重定向
+```
+[rewrite_remote]
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/googleRedirect.qxrewrite, tag=谷歌重定向, update-interval=86400, opt-parser=false, enabled=true
+```
+</details>
+
+------------------------------------
+
+### 完整配置文件
 
 **两个版本配置文件均无定时任务**
 - [简洁版-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/zqzess_lite.conf)

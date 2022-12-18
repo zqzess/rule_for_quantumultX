@@ -1,0 +1,73 @@
+# 分流规则配置片段包含若干条分流规则；可通过资源引用的方式使用。
+# 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+# 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet
+;host, www.example.com, direct
+
+; 常规广告
+
+; 书旗广告域名,这广告实在太多了，可能误杀
+host-suffix,pangolin-sdk-toutiao.com,reject
+host-suffix,xwuad.com,reject
+host-suffix,tobapplog.ctobsnssdk.com,reject
+host-suffix,pangolin-sdk-toutiao.com,reject
+host-suffix,render.shuqireader.com,reject
+host-suffix,ali-stats.jpush.cn,reject
+host-suffix,toblog.ctobsnssdk.com,reject
+host-suffix,sdk.kaijia.com,reject
+host-suffix,tobapplog.ctobsnssdk.com,reject
+host-suffix,amdc.m.taobao.com,reject
+host-suffix,iyes.youku.com,reject
+host-suffix,sq.sljkj.com,reject
+host-suffix,s2s.adjust.com,reject
+
+; 腾讯广告联盟，可能误杀
+host-suffix,mi.gdt.qq.com,reject
+host-suffix,jcollection.shuqireader.com,reject
+host-suffix,stats.jpush.cn,reject
+host-suffix,sdk.kaijiawan.com,reject
+
+; qq空间广告屏蔽
+host,d3g.qq.com,reject
+host,bsrv.qq.com,reject
+host,sq.bls.mdt.qq.com,reject
+host,adsmind.gdtimg.com,reject
+host,xj-landing.gdtimg.com,reject
+
+; 腾讯视频广告
+host-suffix, tetrack.qq.com, reject
+host-suffix, tpns.tencent.com, reject
+host-suffix, api.poll.video.qq.com, reject
+host-suffix, static-res.qq.com, reject
+host-suffix, stat.tpns.tencent.com, reject
+host, h.trace.qq.com, reject
+host, h.trace.qq.com, reject
+
+; 爱奇艺广告
+host, cr-status.iqiyi.com, reject
+host-suffix, cupid.iqiyi.com, reject
+host, f74f7f7765f8a2f6.ngaa.net.cn, reject
+host, ef-dongfeng.tanx.com, reject
+host, iqiyim.adtrack.enlightent.cn, reject
+
+; 知乎去广告，以下规则请放置在filter_local最顶部
+IP-CIDR,118.89.204.198/32,reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,reject
+host,118.89.204.198,reject
+
+; 知乎去广告，以下规则的位置越前方越好
+host,appcloud2.in.zhihu.com,reject
+host,mqtt.zhihu.com,reject
+host,sugar.zhihu.com,reject
+USER-AGENT,AVOS*,reject
+;
+host,adjd.scdsvdsczx.cn,reject
+host,rr3---sn-ni57rn7d.gvt1.com,reject
+host,pagead2.googleadservices.com,reject
+
+; 米读
+host,bid.adview.cn,reject
+host-suffix,afdback.ppsimg.com,reject
+
+; 高德地图
+host,optimus-ads.amap.com,reject
+
