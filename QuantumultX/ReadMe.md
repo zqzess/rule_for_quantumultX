@@ -9,7 +9,7 @@ rewrite 重写
 
 rules 分流规则，每周自动更新
 
-snippet 部分细分广告分流规则，手动维护
+snippet 部分细分广告分流片段，手动维护
 
 task 脚本定时任务
 
@@ -91,9 +91,9 @@ final, Others
 </details>
 
 -----
-### 重写订阅
+### 订阅
 - 番茄小说广告屏蔽
-  + 分流: [FanQieNovel.snippet]()
+  + 分流片段: [FanQieNovel.snippet](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/snippet/FanQieNovel.snippet)
   + 重写: [FanQieNovel.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite)
   + 说明: 两者配合使用
 - Safari聚合搜索百度版
@@ -106,12 +106,25 @@ final, Others
   + 重写: [googleRedirect.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/googleRedirect.qxrewrite)
   + 说明: 
 - 百度系app广告屏蔽
-  + 分流: [baiduApp.snippet]()
+  + 分流片段: [baiduApp.snippet](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/snippet/baiduApp.snippet)
   + 重写: [baiduAd.qxrewrite](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/baiduAd.qxrewrite)
   + 说明: 两者配合使用
+- QQ音乐开屏广告
+  + 分流片段: [QMusic.snippet](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/snippet/QMusicAd.snippet)
+- backiee壁纸广告
+  + 分流片段: [backiee.snippet](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/snippet/backiee.snippet)
 
 **其他未列出请详见仓库**
 ----
+### 定时任务
+使用方法：
+1. 打开QuantumultX，点击右下角风车
+2. 向下滑动，找到 工具&分析 下的HTTP请求
+3. 点击 HTTP请求，顶部一共有5个按钮，从左往右，第一个是返回，第二个是任务库，第三个是持久化数据，第四个开关定时任务，第五个新增
+4. 从左往右，点击第二个按钮，点击顶部右边+号按钮
+5. 第一次使用，弹出的窗口会默认填充app作者的示例仓库，点击 好的 添加。(内置示例仓库可添加可不添加)
+6. 复制 [任务仓库]() 链接并倒入app
+
 ### 完整配置文件参考示例
 
 **两个版本配置文件均无定时任务**
