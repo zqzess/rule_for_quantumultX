@@ -63,6 +63,8 @@ QuantumultX配置文件`[task_local]`   添加以下链接
 - > boxjs插件开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
 - > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
 
+只支持定时任务，通知推送信息
+
 [covid19插件订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/COVID19.plugin)
 ### 配置文件手动添加
 ```ini
@@ -95,3 +97,19 @@ enable = true
 支持Tiles(Stash 2.0+)
 
 [复制链接倒入复写](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Stash/override/COVID19.stoverride)
+
+-----
+
+【Shadowrocket】
+---
+
+**需要BoxJs配合修改城市或省份**
+
+- > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
+- > [BoxJs复写](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
+- > boxjs模块开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
+- > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+
+只支持定时任务，通知推送信息
+
+[covid19模块 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Shadowrocket/module/COVID19.module)
