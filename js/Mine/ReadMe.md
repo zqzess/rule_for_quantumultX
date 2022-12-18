@@ -5,9 +5,9 @@ boxjs订阅地址
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json
 ```
 
-圈X Gallery及boxjs通用订阅地址
+圈X Gallery 订阅地址
 ```
-https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json
+https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/task/zqzess_taskgallery.json
 ```
 
 ### 脚本列表

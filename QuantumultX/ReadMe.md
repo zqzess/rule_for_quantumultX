@@ -123,7 +123,7 @@ final, Others
 3. 点击 HTTP请求，顶部一共有5个按钮，从左往右，第一个是返回，第二个是任务库，第三个是持久化数据，第四个开关定时任务，第五个新增
 4. 从左往右，点击第二个按钮，点击顶部右边+号按钮
 5. 第一次使用，弹出的窗口会默认填充app作者的示例仓库，点击 好的 添加。(内置示例仓库可添加可不添加)
-6. 复制 [任务仓库]() 链接并倒入app
+6. 复制 [任务仓库](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/task/zqzess_taskgallery.json) 链接并倒入app
 
 ### 完整配置文件参考示例
 
