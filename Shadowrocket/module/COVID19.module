@@ -1,0 +1,5 @@
+#!name=COVID-19疫情信息 @zqzess
+#!desc=新冠疫情信息监控面板, 切换城市或省需要boxjs, 详情见 https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/covid19
+
+[Script]
+cron "0 8,20 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js,tag=疫情信息监控
