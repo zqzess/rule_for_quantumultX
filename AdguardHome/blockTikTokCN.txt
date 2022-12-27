@@ -1,0 +1,20 @@
+!
+! Title: 抖音屏蔽
+! Description: 从路由器端屏蔽抖音
+! Homepage: https://github.com/zqzess/rule_for_quantumultX
+! Last modified: 2022-12-27T14:02
+!
+! Compiled by @zqzess
+!
+!
+||douyin.com^$important
+||douyincdn.com^$important
+||toutiao.com^$important
+||snssdk.com^$important
+||ixigua.com^$important
+||amemv.com^$important
+||bytedance.net^$important
+||bdurl.net^$important
+||douyincdn.com^$important
+||yximgs.com^$important
+||zijieapi.com^$important
