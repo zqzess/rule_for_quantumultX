@@ -22,6 +22,7 @@ import ad_quanX
 
 import YTAdBlockFunc
 import ad_surge
+import ad_clash
 
 rules_url = [
     # EasyList China
@@ -167,4 +168,6 @@ print("添加youtube去广告")
 # YTAdBlockFunc.YTAdBlockFun()
 print("Surge广告屏蔽转换开始")
 ad_surge.SurgeAdChange()
+print("Clash广告屏蔽转换开始")
+ad_clash.ClashAdChange()
 print("工作结束")
