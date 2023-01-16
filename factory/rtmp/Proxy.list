@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-01-09 02:10:07
+# UPDATED: 2023-01-11 02:10:05
 # HOST: 10
 # HOST-KEYWORD: 31
-# HOST-SUFFIX: 25483
+# HOST-SUFFIX: 25493
 # IP-CIDR: 88
 # IP6-CIDR: 3
 # USER-AGENT: 8
-# TOTAL: 25623
+# TOTAL: 25633
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -3729,6 +3729,7 @@ HOST-SUFFIX,baixetudofree.comuv.com,Proxy
 HOST-SUFFIX,baixing.me,Proxy
 HOST-SUFFIX,baixn.xyz,Proxy
 HOST-SUFFIX,baiyun.net,Proxy
+HOST-SUFFIX,baizhi.org,Proxy
 HOST-SUFFIX,bakaproxy.moe,Proxy
 HOST-SUFFIX,bakerpr.com.au,Proxy
 HOST-SUFFIX,bakerssecret.com,Proxy
@@ -4683,6 +4684,7 @@ HOST-SUFFIX,bullog.org,Proxy
 HOST-SUFFIX,bullogger.com,Proxy
 HOST-SUFFIX,bullogs.com,Proxy
 HOST-SUFFIX,bullvpn.com,Proxy
+HOST-SUFFIX,bumingbai.net,Proxy
 HOST-SUFFIX,bunbunhk.com,Proxy
 HOST-SUFFIX,bundesliga.de,Proxy
 HOST-SUFFIX,bungzhu.web.id,Proxy
@@ -5265,7 +5267,6 @@ HOST-SUFFIX,chaikair.cc,Proxy
 HOST-SUFFIX,chain.net,Proxy
 HOST-SUFFIX,chalungu.cn,Proxy
 HOST-SUFFIX,chamirris.com,Proxy
-HOST-SUFFIX,chan.sankakucomplex.com,Proxy
 HOST-SUFFIX,changchengremit.com,Proxy
 HOST-SUFFIX,change.org,Proxy
 HOST-SUFFIX,changeip.name,Proxy
@@ -6803,6 +6804,7 @@ HOST-SUFFIX,doubiyunbackup.com,Proxy
 HOST-SUFFIX,doublechins.ca,Proxy
 HOST-SUFFIX,doublehop.me,Proxy
 HOST-SUFFIX,doublemoney.site,Proxy
+HOST-SUFFIX,doublethinklab.org,Proxy
 HOST-SUFFIX,doubmirror.cf,Proxy
 HOST-SUFFIX,dougscripts.com,Proxy
 HOST-SUFFIX,douhokanko.net,Proxy
@@ -8464,6 +8466,7 @@ HOST-SUFFIX,ganbe.jp,Proxy
 HOST-SUFFIX,gandhidham.com,Proxy
 HOST-SUFFIX,ganetstudio.com,Proxy
 HOST-SUFFIX,ganges.com,Proxy
+HOST-SUFFIX,ganjing.com,Proxy
 HOST-SUFFIX,ganjingworld.com,Proxy
 HOST-SUFFIX,gaoloumi.cc,Proxy
 HOST-SUFFIX,gaoming.net,Proxy
@@ -10037,6 +10040,7 @@ HOST-SUFFIX,hotav.tv,Proxy
 HOST-SUFFIX,hotbak.net,Proxy
 HOST-SUFFIX,hotbox.com,Proxy
 HOST-SUFFIX,hotclaudia.de,Proxy
+HOST-SUFFIX,hotcoin.com,Proxy
 HOST-SUFFIX,hotdh.xyz,Proxy
 HOST-SUFFIX,hoteljen.com,Proxy
 HOST-SUFFIX,hotels.cn,Proxy
@@ -10159,6 +10163,7 @@ HOST-SUFFIX,humanevents.com,Proxy
 HOST-SUFFIX,humanharvestmovie.com,Proxy
 HOST-SUFFIX,humanrightsfoundation.org,Proxy
 HOST-SUFFIX,humanrightshouse.org,Proxy
+HOST-SUFFIX,humanrightspressawards.org,Proxy
 HOST-SUFFIX,humansofnewyork.com,Proxy
 HOST-SUFFIX,humblebundle.com,Proxy
 HOST-SUFFIX,hung-ya.com,Proxy
@@ -11552,6 +11557,7 @@ HOST-SUFFIX,kqes.net,Proxy
 HOST-SUFFIX,kr.neoz.club,Proxy
 HOST-SUFFIX,kr1.hkts.win,Proxy
 HOST-SUFFIX,krabbenspringen.de,Proxy
+HOST-SUFFIX,kraken.com,Proxy
 HOST-SUFFIX,kralin.su,Proxy
 HOST-SUFFIX,kreyness.com,Proxy
 HOST-SUFFIX,kripaludrummers.com,Proxy
@@ -13075,6 +13081,7 @@ HOST-SUFFIX,monitorware.com,Proxy
 HOST-SUFFIX,monkeywerks.net,Proxy
 HOST-SUFFIX,monlamit.org,Proxy
 HOST-SUFFIX,monocloud.com.au,Proxy
+HOST-SUFFIX,monocloud.me,Proxy
 HOST-SUFFIX,monova.org,Proxy
 HOST-SUFFIX,monoworks.com,Proxy
 HOST-SUFFIX,monster.com,Proxy
@@ -13608,6 +13615,7 @@ HOST-SUFFIX,newlandmagazine.com.au,Proxy
 HOST-SUFFIX,newline.fi,Proxy
 HOST-SUFFIX,newmediarights.org,Proxy
 HOST-SUFFIX,newmexico.gov,Proxy
+HOST-SUFFIX,newmitbbs.com,Proxy
 HOST-SUFFIX,newmoon.com,Proxy
 HOST-SUFFIX,newnews.ca,Proxy
 HOST-SUFFIX,newpipe.net,Proxy
@@ -16000,6 +16008,7 @@ HOST-SUFFIX,sandscotaicentral.com,Proxy
 HOST-SUFFIX,sangunia.webuda.com,Proxy
 HOST-SUFFIX,sanhebfb.com,Proxy
 HOST-SUFFIX,sankaku.o.asakuraotome.com,Proxy
+HOST-SUFFIX,sankakucomplex.com,Proxy
 HOST-SUFFIX,sankei.com,Proxy
 HOST-SUFFIX,sanmin.com.tw,Proxy
 HOST-SUFFIX,sans.edu,Proxy
@@ -19621,6 +19630,7 @@ HOST-SUFFIX,weboas.is,Proxy
 HOST-SUFFIX,webok.tw,Proxy
 HOST-SUFFIX,weboproxy.com,Proxy
 HOST-SUFFIX,webpack.de,Proxy
+HOST-SUFFIX,webpkgcache.com,Proxy
 HOST-SUFFIX,webproxy-service.de,Proxy
 HOST-SUFFIX,webproxy.ca,Proxy
 HOST-SUFFIX,webproxy.ru,Proxy
