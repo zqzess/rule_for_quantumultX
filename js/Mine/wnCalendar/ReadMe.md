@@ -2,6 +2,21 @@
 ```ruby
 surge和stash支持面板和通知双显示，其他仅支持通知显示(定时任务)
 ```
+## 导航
+--> [surge](#surge)
+
+--> [nodejs](#nodejs)
+
+--> [quantumultx](#quantumult-x)
+
+--> [loon](#loon)
+
+--> [scriptable](#scriptable)
+
+--> [stash](#stash)
+
+--> [shadowrocket](#shadowrocket)
+
 【Surge】
 -----------------
 两种使用方法
