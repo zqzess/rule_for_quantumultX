@@ -4,6 +4,10 @@
     {
       "config": "0 8,20 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/covid19/covid19.js, img-url=https://raw.githubusercontent.com/zqzess/pichouse/master/pic/covid-19.jpg, tag=疫情信息监控, enabled=true",
       "addons": ""
+    },
+    {
+      "config": "0 9 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js, img-url=https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/synology-calendar.png, tag=今日黄历, enabled=true",
+      "addons": ""
     }
   ],
   "description": "作者@zqzess"

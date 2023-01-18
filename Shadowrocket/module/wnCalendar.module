@@ -1,0 +1,5 @@
+#!name=今日黄历 @zqzess
+#!desc=显示今日宜忌、节日等信息, 详情见 https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar
+
+[Script]
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js,tag=今日黄历

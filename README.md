@@ -1,8 +1,10 @@
 # rule_for_quantumultX
 ## 📢 最近更新 
-- [疫情信息监控脚本更新 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/covid19)
+- [新增今日黄历脚本 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
 
-- 番茄小说规则更新
+- [~~疫情信息监控脚本更新~~](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/covid19)
+
+- ~~番茄小说规则更新~~
 
 ---
 

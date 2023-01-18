@@ -1,0 +1,9 @@
+#!name=今日黄历
+#!desc=显示今日宜忌、节日等信息
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar
+#!icon=https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/synology-calendar.png
+
+[Script]
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js, tag=今日黄历

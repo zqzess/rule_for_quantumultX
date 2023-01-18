@@ -1,0 +1,15 @@
+name: 黄历面板 @zqzess
+desc: 显示今日宜忌、节日等信息, 详情见 https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar
+
+tiles:
+  - name: wnCalendar
+    interval: 43200
+    title: '今日黄历'
+    content: '没有从脚本获取到数据，脚本可能运行出错'
+    icon: 'calendar'
+    backgroundColor: '#9999FF'
+
+script-providers:
+  wnCalendar:
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js
+    interval: 86400
