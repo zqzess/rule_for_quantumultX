@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2023-01-23 00:46:42
+# Mainland rules refresh time: 2023-01-30 00:46:27
 
 HOST-SUFFIX,abchina.com,Mainland
 HOST-SUFFIX,abchina.com.cn,Mainland
@@ -334,16 +334,24 @@ HOST,blzddist1-a.akamaihd.net,Mainland
 HOST,cdn.angruo.com,Mainland
 HOST,dl.google.com,Mainland
 HOST,download.jetbrains.com,Mainland
+HOST,download.microsoft.com,Mainland
+HOST,file-igamecj.akamaized.net,Mainland
+HOST,geetest.datasink.sensorsdata.cn,Mainland
 HOST,images-cn.ssl-images-amazon.com,Mainland
 HOST,ip.istatmenus.app,Mainland
 HOST,kc.kexinshe.com,Mainland
+HOST,moocs.unipus.cn,Mainland
 HOST,mtalk.google.com,Mainland
+HOST,ntservicepack.microsoft.com,Mainland
+HOST,officecdn-microsoft-com.akamaized.net,Mainland
 HOST,origin-a.akamaihd.ne,Mainland
 HOST,origin-a.akamaihd.net,Mainland
 HOST,outlook.office365.com,Mainland
 HOST,sms.imagetasks.com,Mainland
+HOST,smtp-mail.outlook.com,Mainland
 HOST,smtp.office365.com,Mainland
-HOST,steamcommunity-a.akamaihd.net,Mainland
+HOST,upos-hz-mirrorakam.akamaized.net,Mainland
+HOST,wustat.windows.com,Mainland
 HOST,www.libvideo.com,Mainland
 HOST-SUFFIX,00cdn.com,Mainland
 HOST-SUFFIX,0123456789.com,Mainland
@@ -2486,7 +2494,6 @@ HOST-SUFFIX,mubu.com,Mainland
 HOST-SUFFIX,mukewang.com,Mainland
 HOST-SUFFIX,mumayi.com,Mainland
 HOST-SUFFIX,muomou.com,Mainland
-HOST-SUFFIX,musical.ly,Mainland
 HOST-SUFFIX,muwai.com,Mainland
 HOST-SUFFIX,muyewx.com,Mainland
 HOST-SUFFIX,muzhiwan.com,Mainland
@@ -2618,9 +2625,7 @@ HOST-SUFFIX,paipaibang.com,Mainland
 HOST-SUFFIX,paopaoche.net,Mainland
 HOST-SUFFIX,papocket.com,Mainland
 HOST-SUFFIX,paypal-mktg.com,Mainland
-HOST-SUFFIX,paypal.com,Mainland
 HOST-SUFFIX,paypal.me,Mainland
-HOST-SUFFIX,paypalobjects.com,Mainland
 HOST-SUFFIX,pc6.com,Mainland
 HOST-SUFFIX,pcbeta.com,Mainland
 HOST-SUFFIX,pchome.net,Mainland
@@ -3641,11 +3646,12 @@ USER-AGENT,cmblife*,Mainland
 USER-AGENT,eusoft_ting_en_iphone,Mainland
 USER-AGENT,hide*,Mainland
 USER-AGENT,ting_en,Mainland
+IP-CIDR,101.32.104.0/21,Mainland
 IP-CIDR,101.32.118.0/23,Mainland
 IP-CIDR,101.32.96.0/20,Mainland
 IP-CIDR,119.28.28.28/32,Mainland
 IP-CIDR,129.226.0.0/16,Mainland
 IP-CIDR,183.128.0.0/11,Mainland
-IP-CIDR,185.188.32.0/22,Mainland
+IP-CIDR,183.131.48.0/20,Mainland
 IP-CIDR,203.205.238.0/23,Mainland
 IP-CIDR,203.205.254.0/23,Mainland
