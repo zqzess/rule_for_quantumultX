@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 # ～ BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
-^https://api.bilibili.com/pgc/season/player/cards url reject-dict
+^https://api.bilibili.com/pgc/season/player/cards - reject
 
 [Script]
 # ～ BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
