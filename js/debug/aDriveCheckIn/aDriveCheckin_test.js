@@ -1,110 +1,129 @@
-let $zqzess = nobyda()
+let $zqzess = zqzess()
 
-let authorization = $zqzess.read("@ADrive.authorization")
-let authUA = $zqzess.read("@ADrive.authUA")
-let xua = $zqzess.read("@ADrive.xua")
-let xcanary = $zqzess.read("@ADrive.xcanary")
-let xumt = $zqzess.read("@ADrive.xumt")
-let authUrl = $zqzess.read("@ADrive.authUrl")
+let refresh_token_body = $zqzess.read('@ADrive.refresh_token_body')
+refresh_token_body = JSON.parse(refresh_token_body)
+let headers = $zqzess.read('@ADrive.headers')
+headers = JSON.parse(headers)
+let authUrl = 'https://auth.aliyundrive.com/v2/account/token'
+let checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
 
 let title = '🔔阿里云盘签到'
 
-if ($zqzess.isRequest && $request.url === 'https://member.aliyundrive.com/v1/activity/sign_in_list') {
-    console.log('🤖获取cookie')
-    GetCookie()
+if ($zqzess.isRequest) {
+    if ($request.method !== 'OPTIONS') {
+        if ($request.url !== 'http://www.apple.com/') {
+            console.log('🤖获取cookie')
+            GetRefresh_token()
+        } else {
+            console.log('🤖签到操作')
+            getAuthorizationKey()
+        }
+    }
 } else {
     console.log('🤖签到操作')
-    signCheckin()
+    getAuthorizationKey()
 }
 
-function GetCookie() {
-    let authorization = $request.headers["authorization"]
-    let authUrl = $request.url
-    let authUA = $request.headers["user-agent"]
-    let xua = $request.headers["x-ua"]
-    let xcanary = $request.headers["x-canary"]
-    let xumt = $request.headers["x-umt"]
-    if (authorization) {
-        if ($zqzess.read("@ADrive.authorization") !== undefined) {
-            if ($zqzess.read("@ADrive.authorization") !== authorization) {
-                if (authorization.indexOf("Bearer") !== -1) {
-                    let cookie = $zqzess.write(authorization, "@ADrive.authorization")
-                    $zqzess.write(authUA, "@ADrive.authUA")
-                    $zqzess.write(xua, "@ADrive.xua")
-                    $zqzess.write(xcanary, "@ADrive.xcanary")
-                    $zqzess.write(xumt, "@ADrive.xumt")
-                    $zqzess.write(authUrl, "@ADrive.authUrl")
-                    if (!cookie) {
-                        $zqzess.notify("更新阿里网盘验证key失败‼️", "", "")
-                    } else {
-                        $zqzess.notify("更新阿里网盘验证key成功 🎉", "", "")
-                    }
+function GetRefresh_token() {
+    let body = JSON.parse($request.body)
+    let xcanary = $request.headers['x-canary']
+    let authUA = $request.headers['user-agent']
+    let xdeviceid = $request.headers['x-device-id']
+    let cookies = $request.headers['cookie']
+    let headers = {'x-canary': xcanary, 'user-agent': authUA, 'x-device-id': xdeviceid, 'cookie': cookies}
+    let refresh_token = body.refresh_token
+    console.log('refresh_token: ' + refresh_token)
+    if (refresh_token) {
+        if ($zqzess.read('@ADrive.refresh_token')) {
+            if ($zqzess.read('@ADrive.refresh_token') !== refresh_token) {
+                let t = $zqzess.write(JSON.stringify(body), '@ADrive.refresh_token_body')
+                let t2 = $zqzess.write(refresh_token, '@ADrive.refresh_token')
+                let t3 = $zqzess.write(JSON.stringify(headers), '@ADrive.headers')
+                if (t && t2 && t3) {
+                    $zqzess.notify('更新阿里网盘refresh_token成功 🎉', '', '')
+                } else {
+                    $zqzess.notify('更新阿里网盘refresh_token失败‼️', '', '')
                 }
             }
         } else {
-            if (authorization.indexOf("Bearer") !== -1) {
-                let cookie = $zqzess.write(authorization, "@ADrive.authorization")
-                $zqzess.write(authUA, "@ADrive.authUA")
-                $zqzess.write(xua, "@ADrive.xua")
-                $zqzess.write(xcanary, "@ADrive.xcanary")
-                $zqzess.write(xumt, "@ADrive.xumt")
-                $zqzess.write(authUrl, "@ADrive.authUrl")
-                if (!cookie) {
-                    $zqzess.notify("首次阿里网盘验证key失败‼️", "", "")
-                } else {
-                    $zqzess.notify("首次阿里网盘验证key成功 🎉", "", "")
-                }
+            let t = $zqzess.write(JSON.stringify(body), '@ADrive.refresh_token_body')
+            let t2 = $zqzess.write(refresh_token, '@ADrive.refresh_token')
+            let t3 = $zqzess.write(JSON.stringify(headers), '@ADrive.headers')
+            if (t && t2 && t3) {
+                $zqzess.notify('首次写入阿里网盘refresh_token成功 🎉', '', '')
+            } else {
+                $zqzess.notify('首次写入阿里网盘refresh_token失败‼️', '', '')
             }
         }
-        console.log(authorization)
-        console.log('\n')
-        console.log(authUrl)
-        console.log('\n')
-        console.log(authUA)
-        console.log('\n')
-        console.log(xua)
-        console.log('\n')
-        console.log(xcanary)
-        console.log('\n')
-        console.log(xumt)
-        console.log('\n')
     }
     $zqzess.done()
 }
 
-function signCheckin() {
-    if (!authorization) {
-        $zqzess.notify(title, "❌签到失败", "请先获取authorization");
-        return $zqzess.done()
-    }
-    let date = new Date()
-    let timeStamp = Date.parse(date)
-    let xumtArray = xumt.split("@@")
-    xumt = xumtArray[0] + '@@' + xumtArray[1] + '@@' + timeStamp
-    let xuaArray = xua.split("@@")
-    xua = xuaArray[0] + '@@' + xuaArray[1] + '@@' + timeStamp
-    let url_fetch_sign = {
+function getAuthorizationKey() {
+    let option = {
         url: authUrl,
         headers: {
-            ":authority": "member.aliyundrive.com",
-            "accept": "application/json, text/plain, */*",
-            "authorization": authorization,
-            "x-canary": xcanary,
-            "x-umt": xumt,
-            "origin": "https://pages.aliyundrive.com",
-            "x-ua": xua,
-            "user-agent": authUA,
-            "referer": "https://pages.aliyundrive.com/"
+            'content-type': 'application/json charset=UTF-8',
+            'accept': '*/*',
+            'accept-language': 'zh-CN,zh-Hansq=0.9',
+            'x-canary': headers['x-canary'],
+            'x-device-id': headers['x-device-id'],
+            'cookie': headers['cookie'],
+            'user-agent': headers['user-agent']
+        },
+        body: refresh_token_body
+    }
+    $zqzess.post(option, function (error, response, data) {
+        if (error) {
+            console.log('错误原因：' + error)
+            $zqzess.notify(title, '❌签到失败', '刷新authorization失败')
+            return $zqzess.done()
+        } else {
+            let body = JSON.parse(data)
+            let refresh_token = body.refresh_token
+            let accessKey = 'Bearer ' + body.access_token
+            if (refresh_token) {
+                refresh_token_body.refresh_token = refresh_token
+                let t = $zqzess.write(JSON.stringify(refresh_token_body), '@ADrive.refresh_token_body')
+                let t2 = $zqzess.write(refresh_token, '@ADrive.refresh_token')
+                if (t && t2) {
+                    // $zqzess.notify('刷新阿里网盘refresh_token成功 🎉', '', '')
+                    console.log('刷新阿里网盘refresh_token成功 🎉')
+                } else {
+                    $zqzess.notify('刷新阿里网盘refresh_token失败‼️', '', '')
+                }
+            }
+            signCheckin(accessKey)
+        }
+    })
+}
+
+function signCheckin(authorization) {
+    let date = new Date()
+    let timeStamp = Date.parse(date)
+    let xumt = 'defaultFY1_fyjs_not_loaded@@https://pages.aliyundrive.com/mobile-page/web/dailycheck.html@@' + timeStamp
+    let url_fetch_sign = {
+        url: checkInUrl,
+        headers: {
+            ':authority': 'member.aliyundrive.com',
+            'accept': 'application/json, text/plain, */*',
+            'authorization': authorization,
+            'x-canary': headers['x-canary'],
+            'x-umt': xumt,
+            'origin': 'https://pages.aliyundrive.com',
+            'x-ua': xumt,
+            'user-agent': headers['user-agent'],
+            'referer': 'https://pages.aliyundrive.com/'
         },
         body: {}
     }
     $zqzess.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             console.log('错误：' + error)
-            $zqzess.notify(title, "❌签到失败", "无法签到，请手动签到");
+            $zqzess.notify(title, '❌签到失败', '无法签到，请手动签到')
             $zqzess.done()
         } else {
-            let body = JSON.parse(data);
+            let body = JSON.parse(data)
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
             let stitle = '🎉' + body.result.title + ' 签到成功'
@@ -112,30 +131,25 @@ function signCheckin() {
             console.log('签到天数: ' + signInCount)
             let reward = ''
             signInLogs.forEach(function (i) {
-                if(Number(i.day) === signInCount)
-                {
-                    if(i.notice === '8TB超级会员体验卡')
-                    {
-                        reward = ' 第' + signInCount + '天奖励，' + i.notice + i.reward.description.replace('体验卡','')
-                    }else
-                    {
+                if (Number(i.day) === signInCount) {
+                    if (i.notice === '8TB超级会员体验卡') {
+                        reward = ' 第' + signInCount + '天奖励，' + i.notice + i.reward.description.replace('体验卡', '')
+                    } else {
                         reward = ' 第' + signInCount + '天奖励，' + i.notice
                     }
                 }
             })
             console.log('签到奖励：' + reward)
-            if(isReward)
-            {
-                $zqzess.notify(title, stitle, reward);
-            }else
-            {
-                $zqzess.notify(title, '⚠️已经签到过了', reward);
+            if (isReward) {
+                $zqzess.notify(title, stitle, reward)
+            } else {
+                $zqzess.notify(title, '⚠️已经签到过了', reward)
             }
-            // currentDay = body.data.dayList.currentDay;
-            // console.log("签到天数:" + currentDay);
-            // msg = GetReward(currentDay);
-            // console.log("\n签到奖励:" + msg);
-            // $zqzess.notify("🔔不挂科签到", "签到第" + currentDay + "天", msg);
+            // currentDay = body.data.dayList.currentDay
+            // console.log('签到天数:' + currentDay)
+            // msg = GetReward(currentDay)
+            // console.log('\n签到奖励:' + msg)
+            // $zqzess.notify('🔔不挂科签到', '签到第' + currentDay + '天', msg)
             $zqzess.done()
         }
     })
@@ -146,20 +160,20 @@ function signCheckin() {
  * ********************************
  */
 // Modified from yichahucha
-function nobyda() {
+function zqzess() {
     const start = Date.now()
-    const isRequest = typeof $request != "undefined"
-    const isSurge = typeof $httpClient != "undefined"
-    const isQuanX = typeof $task != "undefined"
-    const isLoon = typeof $loon != "undefined"
-    const isJSBox = typeof $app != "undefined" && typeof $http != "undefined"
-    const isNode = typeof require == "function" && !isJSBox
+    const isRequest = typeof $request != 'undefined'
+    const isSurge = typeof $httpClient != 'undefined'
+    const isQuanX = typeof $task != 'undefined'
+    const isLoon = typeof $loon != 'undefined'
+    const isJSBox = typeof $app != 'undefined' && typeof $http != 'undefined'
+    const isNode = typeof require == 'function' && !isJSBox
     const NodeSet = 'CookieSet.json'
     const node = (() => {
         if (isNode) {
             const request = require('request')
-            const fs = require("fs")
-            const path = require("path")
+            const fs = require('fs')
+            const path = require('path')
             return ({
                 request,
                 fs,
@@ -211,7 +225,7 @@ function nobyda() {
         if (isSurge) $notification.post(title, subtitle, message, Opts(rawopts))
         if (isJSBox) $push.schedule({
             title: title,
-            body: subtitle ? subtitle + "\n" + message : message
+            body: subtitle ? subtitle + '\n' + message : message
         })
     }
     const write = (value, key) => {
@@ -259,9 +273,9 @@ function nobyda() {
     const adapterStatus = (response) => {
         if (response) {
             if (response.status) {
-                response["statusCode"] = response.status
+                response['statusCode'] = response.status
             } else if (response.statusCode) {
-                response["status"] = response.statusCode
+                response['status'] = response.statusCode
             }
         }
         return response
@@ -269,12 +283,12 @@ function nobyda() {
     const get = (options, callback) => {
         options.headers['User-Agent'] = 'JD4iPhone/167169 (iPhone iOS 13.4.1 Scale/3.00)'
         if (isQuanX) {
-            if (typeof options == "string") options = {
+            if (typeof options == 'string') options = {
                 url: options
             }
-            options["method"] = "GET"
-            //options["opts"] = {
-            //  "hints": false
+            options['method'] = 'GET'
+            //options['opts'] = {
+            //  'hints': false
             //}
             $task.fetch(options).then(response => {
                 callback(null, adapterStatus(response), response.body)
@@ -292,30 +306,37 @@ function nobyda() {
             })
         }
         if (isJSBox) {
-            if (typeof options == "string") options = {
+            if (typeof options == 'string') options = {
                 url: options
             }
-            options["header"] = options["headers"]
-            options["handler"] = function (resp) {
+            options['header'] = options['headers']
+            options['handler'] = function (resp) {
                 let error = resp.error
                 if (error) error = JSON.stringify(resp.error)
                 let body = resp.data
-                if (typeof body == "object") body = JSON.stringify(resp.data)
+                if (typeof body == 'object') body = JSON.stringify(resp.data)
                 callback(error, adapterStatus(resp.response), body)
             }
             $http.get(options)
         }
     }
+    // Modified by zqzess
     const post = (options, callback) => {
-        options.headers['User-Agent'] = 'JD4iPhone/167169 (iPhone iOS 13.4.1 Scale/3.00)'
-        if (options.body) options.headers['Content-Type'] = 'application/x-www-form-urlencoded'
+        if (!options.headers['User-Agent'] && !options.headers['user-agent']) {
+            options.headers['User-Agent'] = 'JD4iPhone/167169 (iPhone iOS 13.4.1 Scale/3.00)'
+        }
+        if (options.body) {
+            if (!options.headers['Content-Type'] && !options.headers['content-type']) {
+                options.headers['Content-Type'] = 'application/x-www-form-urlencoded'
+            }
+        }
         if (isQuanX) {
-            if (typeof options == "string") options = {
+            if (typeof options == 'string') options = {
                 url: options
             }
-            options["method"] = "POST"
-            //options["opts"] = {
-            //  "hints": false
+            options['method'] = 'POST'
+            //options['opts'] = {
+            //  'hints': false
             //}
             $task.fetch(options).then(response => {
                 callback(null, adapterStatus(response), response.body)
@@ -333,22 +354,22 @@ function nobyda() {
             })
         }
         if (isJSBox) {
-            if (typeof options == "string") options = {
+            if (typeof options == 'string') options = {
                 url: options
             }
-            options["header"] = options["headers"]
-            options["handler"] = function (resp) {
+            options['header'] = options['headers']
+            options['handler'] = function (resp) {
                 let error = resp.error
                 if (error) error = JSON.stringify(resp.error)
                 let body = resp.data
-                if (typeof body == "object") body = JSON.stringify(resp.data)
+                if (typeof body == 'object') body = JSON.stringify(resp.data)
                 callback(error, adapterStatus(resp.response), body)
             }
             $http.post(options)
         }
     }
     const AnError = (name, keyname, er, resp, body) => {
-        if (typeof (merge) != "undefined" && keyname) {
+        if (typeof (merge) != 'undefined' && keyname) {
             if (!merge[keyname].notify) {
                 merge[keyname].notify = `${name}: 异常, 已输出日志 ‼️`
             } else {
@@ -356,7 +377,7 @@ function nobyda() {
             }
             merge[keyname].error = 1
         }
-        return console.log(`\n‼️${name}发生错误\n‼️名称: ${er.name}\n‼️描述: ${er.message}${JSON.stringify(er).match(/\"line\"/) ? `\n‼️行列: ${JSON.stringify(er)}` : ``}${resp && resp.status ? `\n‼️状态: ${resp.status}` : ``}${body ? `\n‼️响应: ${resp && resp.status != 503 ? body : `Omit.`}` : ``}`)
+        return console.log(`\n‼️${name}发生错误\n‼️名称: ${er.name}\n‼️描述: ${er.message}${JSON.stringify(er).match(/\'line\'/) ? `\n‼️行列: ${JSON.stringify(er)}` : ``}${resp && resp.status ? `\n‼️状态: ${resp.status}` : ``}${body ? `\n‼️响应: ${resp && resp.status != 503 ? body : `Omit.`}` : ``}`)
     }
     const time = () => {
         const end = ((Date.now() - start) / 1000).toFixed(2)
