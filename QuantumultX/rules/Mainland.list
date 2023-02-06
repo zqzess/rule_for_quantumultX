@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2023-01-30 00:46:27
+# Mainland rules refresh time: 2023-02-06 00:47:00
 
 HOST-SUFFIX,abchina.com,Mainland
 HOST-SUFFIX,abchina.com.cn,Mainland
@@ -334,24 +334,16 @@ HOST,blzddist1-a.akamaihd.net,Mainland
 HOST,cdn.angruo.com,Mainland
 HOST,dl.google.com,Mainland
 HOST,download.jetbrains.com,Mainland
-HOST,download.microsoft.com,Mainland
-HOST,file-igamecj.akamaized.net,Mainland
-HOST,geetest.datasink.sensorsdata.cn,Mainland
 HOST,images-cn.ssl-images-amazon.com,Mainland
 HOST,ip.istatmenus.app,Mainland
 HOST,kc.kexinshe.com,Mainland
-HOST,moocs.unipus.cn,Mainland
 HOST,mtalk.google.com,Mainland
-HOST,ntservicepack.microsoft.com,Mainland
-HOST,officecdn-microsoft-com.akamaized.net,Mainland
 HOST,origin-a.akamaihd.ne,Mainland
 HOST,origin-a.akamaihd.net,Mainland
 HOST,outlook.office365.com,Mainland
 HOST,sms.imagetasks.com,Mainland
-HOST,smtp-mail.outlook.com,Mainland
 HOST,smtp.office365.com,Mainland
-HOST,upos-hz-mirrorakam.akamaized.net,Mainland
-HOST,wustat.windows.com,Mainland
+HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST,www.libvideo.com,Mainland
 HOST-SUFFIX,00cdn.com,Mainland
 HOST-SUFFIX,0123456789.com,Mainland
@@ -759,6 +751,7 @@ HOST-SUFFIX,api.crisp.chat,Mainland
 HOST-SUFFIX,apigwtencent.com,Mainland
 HOST-SUFFIX,apk3.com,Mainland
 HOST-SUFFIX,apk8.com,Mainland
+HOST-SUFFIX,aplaybox.com,Mainland
 HOST-SUFFIX,apollo.auto,Mainland
 HOST-SUFFIX,appchina.com,Mainland
 HOST-SUFFIX,appeeres.com,Mainland
@@ -1022,6 +1015,12 @@ HOST-SUFFIX,cecdc.com,Mainland
 HOST-SUFFIX,cecport.com,Mainland
 HOST-SUFFIX,centanet.com,Mainland
 HOST-SUFFIX,cerambath.org,Mainland
+HOST-SUFFIX,cf-ns.com,Mainland
+HOST-SUFFIX,cf-ns.net,Mainland
+HOST-SUFFIX,cf-ns.site,Mainland
+HOST-SUFFIX,cf-ns.tech,Mainland
+HOST-SUFFIX,cftest7.com,Mainland
+HOST-SUFFIX,cftest8.com,Mainland
 HOST-SUFFIX,cfund108.com,Mainland
 HOST-SUFFIX,cfzq.com,Mainland
 HOST-SUFFIX,cgws.com,Mainland
@@ -1143,6 +1142,12 @@ HOST-SUFFIX,cloudczs.com,Mainland
 HOST-SUFFIX,clouddalian.com,Mainland
 HOST-SUFFIX,clouddatong.com,Mainland
 HOST-SUFFIX,clouddongying.com,Mainland
+HOST-SUFFIX,cloudflare-cn.com,Mainland
+HOST-SUFFIX,cloudflarecn.net,Mainland
+HOST-SUFFIX,cloudflareinsights-cn.com,Mainland
+HOST-SUFFIX,cloudflareprod.com,Mainland
+HOST-SUFFIX,cloudflarestaging.com,Mainland
+HOST-SUFFIX,cloudflarestoragegw.com,Mainland
 HOST-SUFFIX,cloudfoshan.com,Mainland
 HOST-SUFFIX,cloudfront-cn.net,Mainland
 HOST-SUFFIX,cloudfuqing.com,Mainland
@@ -1361,6 +1366,7 @@ HOST-SUFFIX,dfcfw.com,Mainland
 HOST-SUFFIX,dfham.com,Mainland
 HOST-SUFFIX,dfkhgj.com,Mainland
 HOST-SUFFIX,dginfo.com,Mainland
+HOST-SUFFIX,dgjy.net,Mainland
 HOST-SUFFIX,dgphospital.com,Mainland
 HOST-SUFFIX,dgtle.com,Mainland
 HOST-SUFFIX,dianchacha.com,Mainland
@@ -1521,6 +1527,7 @@ HOST-SUFFIX,fanli.com,Mainland
 HOST-SUFFIX,fanxian.com,Mainland
 HOST-SUFFIX,fastapi.net,Mainland
 HOST-SUFFIX,fastcdn.com,Mainland
+HOST-SUFFIX,fdcyun.com,Mainland
 HOST-SUFFIX,feihuo.com,Mainland
 HOST-SUFFIX,feiliao.com,Mainland
 HOST-SUFFIX,feiniaomy.com,Mainland
@@ -2448,6 +2455,7 @@ HOST-SUFFIX,mijisou.com,Mainland
 HOST-SUFFIX,mikecrm.com,Mainland
 HOST-SUFFIX,minapp.com,Mainland
 HOST-SUFFIX,mincdn.com,Mainland
+HOST-SUFFIX,mingyuanyun.com,Mainland
 HOST-SUFFIX,minhangshi.com,Mainland
 HOST-SUFFIX,minitiao.com,Mainland
 HOST-SUFFIX,mipcdn.com,Mainland
@@ -2494,6 +2502,7 @@ HOST-SUFFIX,mubu.com,Mainland
 HOST-SUFFIX,mukewang.com,Mainland
 HOST-SUFFIX,mumayi.com,Mainland
 HOST-SUFFIX,muomou.com,Mainland
+HOST-SUFFIX,musical.ly,Mainland
 HOST-SUFFIX,muwai.com,Mainland
 HOST-SUFFIX,muyewx.com,Mainland
 HOST-SUFFIX,muzhiwan.com,Mainland
@@ -2512,6 +2521,7 @@ HOST-SUFFIX,myhwclouds.com,Mainland
 HOST-SUFFIX,myilibrary.com,Mainland
 HOST-SUFFIX,myip.la,Mainland
 HOST-SUFFIX,myoppo.com,Mainland
+HOST-SUFFIX,mypaas.com,Mainland
 HOST-SUFFIX,myshow360.net,Mainland
 HOST-SUFFIX,mysiteres.com,Mainland
 HOST-SUFFIX,myyx618.com,Mainland
@@ -2625,7 +2635,9 @@ HOST-SUFFIX,paipaibang.com,Mainland
 HOST-SUFFIX,paopaoche.net,Mainland
 HOST-SUFFIX,papocket.com,Mainland
 HOST-SUFFIX,paypal-mktg.com,Mainland
+HOST-SUFFIX,paypal.com,Mainland
 HOST-SUFFIX,paypal.me,Mainland
+HOST-SUFFIX,paypalobjects.com,Mainland
 HOST-SUFFIX,pc6.com,Mainland
 HOST-SUFFIX,pcbeta.com,Mainland
 HOST-SUFFIX,pchome.net,Mainland
@@ -3646,12 +3658,11 @@ USER-AGENT,cmblife*,Mainland
 USER-AGENT,eusoft_ting_en_iphone,Mainland
 USER-AGENT,hide*,Mainland
 USER-AGENT,ting_en,Mainland
-IP-CIDR,101.32.104.0/21,Mainland
 IP-CIDR,101.32.118.0/23,Mainland
 IP-CIDR,101.32.96.0/20,Mainland
 IP-CIDR,119.28.28.28/32,Mainland
 IP-CIDR,129.226.0.0/16,Mainland
 IP-CIDR,183.128.0.0/11,Mainland
-IP-CIDR,183.131.48.0/20,Mainland
+IP-CIDR,185.188.32.0/22,Mainland
 IP-CIDR,203.205.238.0/23,Mainland
 IP-CIDR,203.205.254.0/23,Mainland
