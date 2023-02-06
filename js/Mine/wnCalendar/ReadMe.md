@@ -99,6 +99,7 @@ QuantumultX配置文件`[task_local]`   添加以下链接
 只支持定时任务，通知推送信息
 
 [今日黄历插件订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/wnCalendar.plugin)
+
 [倒数日-->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin)
 ### 配置文件手动添加
 ```ini
