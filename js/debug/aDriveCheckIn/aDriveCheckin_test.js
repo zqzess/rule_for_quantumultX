@@ -4,9 +4,9 @@ let refresh_token_body = $zqzess.read('@ADrive.refresh_token_body')
 refresh_token_body = JSON.parse(refresh_token_body)
 let headers = $zqzess.read('@ADrive.headers')
 headers = JSON.parse(headers)
+let refresh_token = $zqzess.read('@ADrive.refresh_token') // 备用
 let authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 let checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
-
 let title = '🔔阿里云盘签到'
 
 if ($zqzess.isRequest) {
@@ -31,13 +31,13 @@ function GetRefresh_token() {
     let xdeviceid = $request.headers['x-device-id']
     let cookies = $request.headers['cookie']
     let headers = {'x-canary': xcanary, 'user-agent': authUA, 'x-device-id': xdeviceid, 'cookie': cookies}
-    let refresh_token = body.refresh_token
-    console.log('refresh_token: ' + refresh_token)
-    if (refresh_token) {
+    let refresh_token2 = body.refresh_token
+    console.log('refresh_token: ' + refresh_token2)
+    if (refresh_token2) {
         if ($zqzess.read('@ADrive.refresh_token')) {
-            if ($zqzess.read('@ADrive.refresh_token') !== refresh_token) {
+            if ($zqzess.read('@ADrive.refresh_token') !== refresh_token2) {
                 let t = $zqzess.write(JSON.stringify(body), '@ADrive.refresh_token_body')
-                let t2 = $zqzess.write(refresh_token, '@ADrive.refresh_token')
+                let t2 = $zqzess.write(refresh_token2, '@ADrive.refresh_token')
                 let t3 = $zqzess.write(JSON.stringify(headers), '@ADrive.headers')
                 if (t && t2 && t3) {
                     $zqzess.notify('更新阿里网盘refresh_token成功 🎉', '', '')
@@ -47,7 +47,7 @@ function GetRefresh_token() {
             }
         } else {
             let t = $zqzess.write(JSON.stringify(body), '@ADrive.refresh_token_body')
-            let t2 = $zqzess.write(refresh_token, '@ADrive.refresh_token')
+            let t2 = $zqzess.write(refresh_token2, '@ADrive.refresh_token')
             let t3 = $zqzess.write(JSON.stringify(headers), '@ADrive.headers')
             if (t && t2 && t3) {
                 $zqzess.notify('首次写入阿里网盘refresh_token成功 🎉', '', '')
@@ -80,12 +80,12 @@ function getAuthorizationKey() {
             return $zqzess.done()
         } else {
             let body = JSON.parse(data)
-            let refresh_token = body.refresh_token
+            let refresh_token2 = body.refresh_token
             let accessKey = 'Bearer ' + body.access_token
-            if (refresh_token) {
-                refresh_token_body.refresh_token = refresh_token
+            if (refresh_token2) {
+                refresh_token_body.refresh_token = refresh_token2
                 let t = $zqzess.write(JSON.stringify(refresh_token_body), '@ADrive.refresh_token_body')
-                let t2 = $zqzess.write(refresh_token, '@ADrive.refresh_token')
+                let t2 = $zqzess.write(refresh_token2, '@ADrive.refresh_token')
                 if (t && t2) {
                     // $zqzess.notify('刷新阿里网盘refresh_token成功 🎉', '', '')
                     console.log('刷新阿里网盘refresh_token成功 🎉')
