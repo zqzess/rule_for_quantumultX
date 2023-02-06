@@ -1,10 +1,10 @@
 let $zqzess = zqzess()
 
 let refresh_token_body = $zqzess.read('@ADrive.refresh_token_body')
-if(refresh_token_body)
+if (refresh_token_body)
     refresh_token_body = JSON.parse(refresh_token_body)
 let headers = $zqzess.read('@ADrive.headers')
-if(headers)
+if (headers)
     headers = JSON.parse(headers)
 let refresh_token = $zqzess.read('@ADrive.refresh_token') // 备用
 let authUrl = 'https://auth.aliyundrive.com/v2/account/token'
@@ -18,18 +18,26 @@ if ($zqzess.isRequest) {
             GetRefresh_token()
         } else {
             console.log('🤖签到操作')
-            if(refresh_token_body && headers)
+            if (refresh_token_body && headers)
+            {
                 getAuthorizationKey()
-            else
+            }
+            else {
                 $zqzess.notify(title, '❌请先获取token', '')
+                $zqzess.done()
+            }
         }
     }
 } else {
     console.log('🤖签到操作')
-    if(refresh_token_body && headers)
+    if (refresh_token_body && headers)
+    {
         getAuthorizationKey()
-    else
+    }
+    else {
         $zqzess.notify(title, '❌请先获取token', '')
+        $zqzess.done()
+    }
 }
 
 function GetRefresh_token() {
@@ -71,7 +79,7 @@ function getAuthorizationKey() {
     let option = {
         url: authUrl,
         headers: {
-            'content-type': 'application/json charset=UTF-8',
+            'content-type': 'application/json',
             'accept': '*/*',
             'accept-language': 'zh-CN,zh-Hansq=0.9',
             'x-canary': headers['x-canary'],
@@ -79,8 +87,9 @@ function getAuthorizationKey() {
             'cookie': headers['cookie'],
             'user-agent': headers['user-agent']
         },
-        body: refresh_token_body
+        body: JSON.stringify(refresh_token_body)
     }
+    console.log('获取authorization')
     $zqzess.post(option, function (error, response, data) {
         if (error) {
             console.log('错误原因：' + error)
@@ -114,6 +123,7 @@ function signCheckin(authorization) {
         url: checkInUrl,
         headers: {
             ':authority': 'member.aliyundrive.com',
+            'content-type': 'application/json',
             'accept': 'application/json, text/plain, */*',
             'authorization': authorization,
             'x-canary': headers['x-canary'],
@@ -123,8 +133,9 @@ function signCheckin(authorization) {
             'user-agent': headers['user-agent'],
             'referer': 'https://pages.aliyundrive.com/'
         },
-        body: {}
+        body: JSON.stringify({})
     }
+    console.log('签到开始')
     $zqzess.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             console.log('错误：' + error)
@@ -132,6 +143,8 @@ function signCheckin(authorization) {
             $zqzess.done()
         } else {
             let body = JSON.parse(data)
+            if(body.message!==null)
+                $zqzess.done()
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
             let stitle = '🎉' + body.result.title + ' 签到成功'
@@ -153,11 +166,7 @@ function signCheckin(authorization) {
             } else {
                 $zqzess.notify(title, '⚠️已经签到过了', reward)
             }
-            // currentDay = body.data.dayList.currentDay
-            // console.log('签到天数:' + currentDay)
-            // msg = GetReward(currentDay)
-            // console.log('\n签到奖励:' + msg)
-            // $zqzess.notify('🔔不挂科签到', '签到第' + currentDay + '天', msg)
+            console.log('签到完成')
             $zqzess.done()
         }
     })
