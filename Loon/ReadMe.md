@@ -3,9 +3,11 @@
 ## 配置文件
 - [完整配置文件示例](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/zqzess_Loon.conf)
 ## 插件
+- [倒数日](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin)
+- [今日黄历](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/wnCalendar.plugin)
 - [QQ音乐开屏广告](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/QMusicAd.plugin)
 - [番茄小说广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/FanQieNovel.plugin)
-- [covid19疫情信息监控插件](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/COVID19.plugin)
+- [~~covid19疫情信息监控插件~~](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/COVID19.plugin)
 - [Safari聚合搜索](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/Qsearch.plugin)
 - [百度系广告屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/BaiduAdBlock.plugin) 
 - [波点音乐mv屏蔽](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/bodianMusic.plugin)
