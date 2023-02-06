@@ -160,14 +160,14 @@
       "id": "DaysMatter",
       "name": "倒数日",
       "keys": [
-        "userDays",
-        "userDaysName",
-        "userDays2",
-        "userDaysName2"
+        "@DaysMatter.userDays",
+        "@DaysMatter.userDaysName",
+        "@DaysMatter.userDays2",
+        "@DaysMatter.userDaysName2"
       ],
       "settings": [
         {
-          "id": "userDays",
+          "id": "@DaysMatter.userDays",
           "name": "固定日期",
           "val": null,
           "type": "text",
@@ -176,7 +176,7 @@
           "desc": "填写如国庆节此类固定日期，示例：10-1,1-1"
         },
         {
-          "id": "userDaysName",
+          "id": "@DaysMatter.userDaysName",
           "name": "固定日期名称",
           "val": null,
           "type": "text",
@@ -185,7 +185,7 @@
           "desc": "填写如国庆节此类固定日期的名称，示例：国庆节,元旦"
         },
         {
-          "id": "userDays2",
+          "id": "@DaysMatter.userDays2",
           "name": "浮动日期",
           "val": null,
           "type": "text",
@@ -194,7 +194,7 @@
           "desc": "填写如母亲节此类浮动日期，示例：2022-5-8,2023-5-14"
         },
         {
-          "id": "userDaysName2",
+          "id": "@DaysMatter.userDaysName2",
           "name": "浮动日期名称",
           "val": null,
           "type": "text",

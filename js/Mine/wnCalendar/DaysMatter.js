@@ -16,13 +16,13 @@ let option = {
 let nowDate = new Date().toLocaleDateString()
 let year = nowDate.split('/')[0]
 // 各日期区分开方便日后区分放假通知与倒数日通知
-let holidayData = $.getjson('holidayData', null) // 法定节假日，放假的那种
+let holidayData = $.getjson('@DaysMatter.holidayData', null) // 法定节假日，放假的那种
 let daysData = [] // 节日集合，包含法定节假日，内置假日，用户假日（固定+浮动）
-let userDays = $.getdata('userDays') // 用户固定假日
-let userDaysName = $.getdata('userDaysName')
-let userDays2 = $.getdata('userDays2') // 用户浮动假日
-let userDaysName2 = $.getdata('userDaysName2')
-let userDaysData = $.getjson('userDaysData', {'list': []}) // 备用变量
+let userDays = $.getdata('@DaysMatter.userDays') // 用户固定假日
+let userDaysName = $.getdata('@DaysMatter.userDaysName')
+let userDays2 = $.getdata('@DaysMatter.userDays2') // 用户浮动假日
+let userDaysName2 = $.getdata('@DaysMatter.userDaysName2')
+let userDaysData = $.getjson('@DaysMatter.userDaysData', {'list': []}) // 备用变量
 let defaultDaysData =
     [{'date': '2023-2-05', 'name': '元宵'},
     {'date': '2023-5-14', 'name': '母亲节'},
@@ -60,7 +60,7 @@ async function setHoliDayData() {
             result.forEach(function (i) {
                 if (i.year === year) {
                     holidayData = i
-                    $.setjson(i, 'holidayData')
+                    $.setjson(i, '@DaysMatter.holidayData')
                 }
             })
         })
@@ -87,7 +87,7 @@ async function setHoliDayData() {
                     userDaysData.push({'date': year + '-' + userDaysArray[i], 'name': userDaysNameArray[i]}) // 此变量备用
                 }
             }
-            $.setjson(userDaysData, 'userDaysData')
+            $.setjson(userDaysData, '@DaysMatter.userDaysData')
             clearFlag = true
         }
     }
@@ -111,7 +111,7 @@ async function setHoliDayData() {
                     userDaysData.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]}) // 此变量备用
                 }
             }
-            $.setjson(userDaysData, 'userDaysData')
+            $.setjson(userDaysData, '@DaysMatter.userDaysData')
         }
     }
     if (defaultDaysData.length > 0) {
@@ -213,10 +213,10 @@ function today(day) {
 }
 
 function datenotice() {
-    if ($.getdata("DaysMatterPushed") !== dateDiffArray[0].date && tnow.getHours() >= 6) {
-        $.setdata(dateDiffArray[0].date, "DaysMatterPushed");
+    if ($.getdata("@DaysMatter.DaysMatterPushed") !== dateDiffArray[0].date && tnow.getHours() >= 6) {
+        $.setdata(dateDiffArray[0].date, "@DaysMatter.DaysMatterPushed");
         $.msg("假日祝福", "", "今天是" + dateDiffArray[0].date + "日 " + dateDiffArray[0].name + "   🎉")
-    } else if ($.getdata("DaysMatterPushed") === dateDiffArray[0].date) {
+    } else if ($.getdata("@DaysMatter.DaysMatterPushed") === dateDiffArray[0].date) {
         //console.log("当日已通知");
     }
 }
