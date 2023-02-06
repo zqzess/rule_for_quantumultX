@@ -1,9 +1,11 @@
 let $zqzess = zqzess()
 
 let refresh_token_body = $zqzess.read('@ADrive.refresh_token_body')
-refresh_token_body = JSON.parse(refresh_token_body)
+if(refresh_token_body)
+    refresh_token_body = JSON.parse(refresh_token_body)
 let headers = $zqzess.read('@ADrive.headers')
-headers = JSON.parse(headers)
+if(headers)
+    headers = JSON.parse(headers)
 let refresh_token = $zqzess.read('@ADrive.refresh_token') // 备用
 let authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 let checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
@@ -16,12 +18,18 @@ if ($zqzess.isRequest) {
             GetRefresh_token()
         } else {
             console.log('🤖签到操作')
-            getAuthorizationKey()
+            if(refresh_token_body && headers)
+                getAuthorizationKey()
+            else
+                $zqzess.notify(title, '❌请先获取token', '')
         }
     }
 } else {
     console.log('🤖签到操作')
-    getAuthorizationKey()
+    if(refresh_token_body && headers)
+        getAuthorizationKey()
+    else
+        $zqzess.notify(title, '❌请先获取token', '')
 }
 
 function GetRefresh_token() {
