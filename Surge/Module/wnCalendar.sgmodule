@@ -4,4 +4,4 @@
 [Script]
 wnCalendar = type = generic,script-path= https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js,timeout=10
 [Panel]
-wnCalendar = script-name= wnCalendar,title=今日黄历,content=请刷新,style=info,update-interval=43200
+wnCalendar = script-name= wnCalendar,title=今日黄历,content=请刷新,style=info,update-interval=28800

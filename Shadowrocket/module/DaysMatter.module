@@ -1,0 +1,5 @@
+#!name=倒数日 @zqzess
+#!desc=通过panel显示节假日倒计时，节日当天早上有提醒。 详情见 https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar
+
+[Script]
+cron "30 8 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js,tag=倒数日

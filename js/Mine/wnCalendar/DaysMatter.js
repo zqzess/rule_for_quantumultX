@@ -42,11 +42,11 @@ async function startWork() {
     $.log('距离最近的节日：' + holidayData.list[nowlist].name)
     let notifyContent = dateDiffArray[0].name + ":" + today(tnumcount(0)) + "," + dateDiffArray[Number(0) + Number(1)].name + ":" + tnumcount(Number(0) + Number(1)) + "天," + dateDiffArray[Number(0) + Number(2)].name + ":" + tnumcount(Number(0) + Number(2)) + "天"
     $.isSurge() ? body = {
-        title: title,
+        title: title_random(tnumcount(Number(0))),
         content: notifyContent,
         icon: icon_now(tnumcount(Number(0))),
         'icon-color': '#339900'
-    } : body = {title: title, content: notifyContent, icon: icon_now(tnumcount(Number(0))), backgroundColor: '#339900'}
+    } : body = {title: title_random(tnumcount(Number(0))), content: notifyContent, icon: icon_now(tnumcount(Number(0))), backgroundColor: '#339900'}
     $.log('\n面板显示内容：\n' + notifyContent)
     // $.msg(title, '', notifyContent)
     $.isSurge || $.isStash ? $.done(body) : $.done()

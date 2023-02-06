@@ -1,0 +1,15 @@
+name: 倒数日 @zqzess
+desc: 通过panel显示节假日倒计时，节日当天早上有提醒。 详情见 https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar
+
+tiles:
+  - name: DaysMatter
+    interval: 28800
+    title: '倒数日'
+    content: '没有从脚本获取到数据，脚本可能运行出错'
+    icon: 'calendar'
+    backgroundColor: '#9999FF'
+
+script-providers:
+  DaysMatter:
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js
+    interval: 86400

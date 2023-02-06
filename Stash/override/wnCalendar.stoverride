@@ -3,7 +3,7 @@ desc: 显示今日宜忌、节日等信息, 详情见 https://github.com/zqzess/
 
 tiles:
   - name: wnCalendar
-    interval: 43200
+    interval: 28800
     title: '今日黄历'
     content: '没有从脚本获取到数据，脚本可能运行出错'
     icon: 'calendar'
