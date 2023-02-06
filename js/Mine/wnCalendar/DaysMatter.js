@@ -39,7 +39,7 @@ startWork()
 async function startWork() {
     await setHoliDayData()
     let nowlist = now();
-    $.log('距离最近的节日：' + holidayData.list[nowlist].name)
+    $.log('距离最近的节日：' + daysData[nowlist].name)
     let notifyContent = dateDiffArray[0].name + ":" + today(tnumcount(0)) + "," + dateDiffArray[Number(0) + Number(1)].name + ":" + tnumcount(Number(0) + Number(1)) + "天," + dateDiffArray[Number(0) + Number(2)].name + ":" + tnumcount(Number(0) + Number(2)) + "天"
     $.isSurge() ? body = {
         title: title_random(tnumcount(Number(0))),
