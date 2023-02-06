@@ -1,5 +1,5 @@
-#!name=节假日倒计时
-#!desc=通过panel显示节假日倒计时，节日当天早上有提醒。by @smartmimi
+#!name=阿里网盘签到测试
+#!desc=阿里网盘签到测试
 
 [Script]
 aDriveCheckIn_cookie_test = type=http-request,pattern=^https:\/\/member\.aliyundrive\.com\/v1\/activity\/sign_in_list,requires-body=0,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCheckIn/aDriveCheckIn_test.js
