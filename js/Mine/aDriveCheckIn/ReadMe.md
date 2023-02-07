@@ -11,6 +11,7 @@
 
 --> [stash](#stash)
 
+--> [Shadowrocket](#shadowrocket)
 
 【Surge】
 -----------------
@@ -109,3 +110,17 @@ hostname = auth.aliyundrive.com
 [签到复写](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.stoverride)
 
 -----
+
+【Shadowrocket】
+---
+
+**BoxJs可查看refresh_token**
+
+- > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
+- > [BoxJs复写](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
+- > boxjs模块开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
+- > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
+
+只支持定时任务，通知推送信息
+
+[签到及token获取模块](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.module)
