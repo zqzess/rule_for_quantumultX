@@ -1,4 +1,8 @@
 # rule_for_quantumultX
+![GitHub last commit](https://img.shields.io/github/last-commit/zqzess/rule_for_quantumultX)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zqzess/rule_for_quantumultX)
+![GitHub repo size](https://img.shields.io/github/repo-size/zqzess/rule_for_quantumultX)
+
 ## 📢 最近更新 
 - [新增阿里云盘签到](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/aDriveCheckIn)
 - [新增倒数日脚本](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
