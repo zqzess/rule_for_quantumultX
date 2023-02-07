@@ -23,7 +23,7 @@ surge和stash支持面板和通知双显示，其他仅支持通知显示(定时
 - Panel面板展示
 - Cron定时执行提醒
 
-**需要BoxJs配合修改城市或省份**
+**需要BoxJs配合填写自定义日期**
 
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs模块](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
@@ -69,7 +69,7 @@ DaysMatter = type = cron, cronexp=30 8 * * *, script-path=https://raw.githubuser
 ---------
 只能用定时任务
 
-**需要BoxJs配合修改城市或省份**
+**需要BoxJs配合填写自定义日期**
  
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs重写订阅](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf)
@@ -90,7 +90,7 @@ QuantumultX配置文件`[task_local]`   添加以下链接
 ---------
 只能用定时任务
 
-**需要BoxJs配合修改城市或省份**
+**需要BoxJs配合填写自定义日期**
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs插件](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin)
 - > boxjs插件开启后访问`http://boxjs.com`,添加下面的链接订阅boxjs应用
@@ -120,7 +120,7 @@ enable = true
 【Stash】
 ---
 
-**需要BoxJs配合修改城市或省份**
+**需要BoxJs配合填写自定义日期**
 
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs复写](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.stash.stoverride)
@@ -139,7 +139,7 @@ enable = true
 【Shadowrocket】
 ---
 
-**需要BoxJs配合修改城市或省份**
+**需要BoxJs配合填写自定义日期**
 
 - > [BoxJs说明文档](https://github.com/chavyleung/boxjs-doc)
 - > [BoxJs复写](https://github.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule)
