@@ -1,23 +1,18 @@
 # rule_for_quantumultX
-![GitHub last commit](https://img.shields.io/github/last-commit/zqzess/rule_for_quantumultX)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zqzess/rule_for_quantumultX)
-![GitHub repo size](https://img.shields.io/github/repo-size/zqzess/rule_for_quantumultX)
 
 ## 📢 最近更新 
 - [新增阿里云盘签到](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/aDriveCheckIn)
 - [新增倒数日脚本](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
 - [新增今日黄历脚本](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
 
-- [~~疫情信息监控脚本更新~~](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/covid19)
-
-- ~~番茄小说规则更新~~
-
 ---
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/zqzess_Channel)
 [![Telegram](https://img.shields.io/badge/Telegram-Group-33A8E3)](https://t.me/+Pas9ik7B-RYyM2Q9)
+---
 
-[![](https://img.shields.io/github/followers/zqzess?label=follow&style=social)](https://github.com/zqzess)
-
+![GitHub last commit](https://img.shields.io/github/last-commit/zqzess/rule_for_quantumultX)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zqzess/rule_for_quantumultX)
+![GitHub repo size](https://img.shields.io/github/repo-size/zqzess/rule_for_quantumultX)
 -------
 ## ⚠️注意
 **关于番茄小说广告**
