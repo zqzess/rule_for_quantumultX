@@ -9,8 +9,10 @@
 - ~~番茄小说规则更新~~
 
 ---
+[![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/zqzess_Channel)
+[![Telegram](https://img.shields.io/badge/Telegram-Group-33A8E3)](https://t.me/+Pas9ik7B-RYyM2Q9)
 
-[telegram频道](https://t.me/zqzessNews)
+[![](https://img.shields.io/github/followers/zqzess?label=follow&style=social)](https://github.com/zqzess)
 
 -------
 ## ⚠️注意
