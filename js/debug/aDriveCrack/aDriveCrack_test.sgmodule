@@ -1,0 +1,8 @@
+#!name=阿里网盘crack 测试
+#!desc=阿里网盘fake vip 测试
+
+[Script]
+阿里网盘crack = type=http-response,pattern=^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js
+
+[MITM]
+hostname = %APPEND% api.aliyundrive.com, member.aliyundrive.com
