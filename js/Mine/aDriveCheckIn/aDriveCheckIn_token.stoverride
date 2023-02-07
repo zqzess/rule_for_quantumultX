@@ -1,4 +1,4 @@
-name: 阿里网盘签到token获取 @zqzess
+name: 阿里网盘token获取 @zqzess
 desc: 打开阿里网盘，等待token获取通知，如果没有token获取通知，请先关闭阿里网盘，等待几秒重新开启阿里网盘。详情见仓库
 
 http:
