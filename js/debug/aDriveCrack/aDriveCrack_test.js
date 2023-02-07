@@ -8,7 +8,7 @@
  hostname = api.aliyundrive.com , member.aliyundrive.com
  正则表达式: ^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails)
  脚本：https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js
- 
+
  */
 let $zqzess = zqzess(true)
 let Premium = $response.body

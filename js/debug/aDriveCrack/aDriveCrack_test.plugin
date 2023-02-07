@@ -1,0 +1,10 @@
+#!name=阿里网盘crack 测试
+#!desc=阿里网盘虚假vip测试
+#!author=zqzess
+#!icon=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png
+
+[Script]
+http-response ^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails) script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js, requires-body=true, timeout=10, enabled=true, tag=阿里网盘crack测试
+
+[MITM]
+hostname = api.aliyundrive.com, member.aliyundrive.com
