@@ -4,7 +4,7 @@ desc: 打开阿里网盘，等待token获取通知，如果没有token获取通�
 http:
   script:
     - match: ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token
-      name: aDriveCheckIn_cookie_test
+      name: aDriveCheckIn_cookie
       type: request # request / response
       require-body: true
       timeout: 20
@@ -15,6 +15,6 @@ http:
     - "auth.aliyundrive.com"
 
 script-providers:
-  aDriveCheckIn_cookie_test:
+  aDriveCheckIn_cookie:
     url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
     interval: 86400
