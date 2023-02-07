@@ -52,7 +52,7 @@ hostname = %APPEND% auth.aliyundrive.com
 - > [boxjs内订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json)
 
 [token获取重写订阅](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn_token.qxrewrite)
-[定时任务gallery订阅(HTTP请求)]()
+[定时任务gallery订阅(HTTP请求)](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/task/zqzess_taskgallery.json)
 ### 配置文件手动添加
 QuantumultX配置文件`[task_local]`   添加以下链接
 ```editorconfig
