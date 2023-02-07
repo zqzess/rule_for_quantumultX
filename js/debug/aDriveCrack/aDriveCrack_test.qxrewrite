@@ -1,0 +1,5 @@
+# 阿里云盘crack 测试 @zqzess
+
+^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails) url script-response-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js
+
+hostname = api.aliyundrive.com, member.aliyundrive.com
