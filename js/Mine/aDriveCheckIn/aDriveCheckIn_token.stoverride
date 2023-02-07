@@ -1,6 +1,5 @@
-name: 阿里网盘签到cookie测试 @zqzess
-desc: 测试
-
+name: 阿里网盘签到token获取 @zqzess
+desc: 打开阿里网盘，等待token获取通知，如果没有token获取通知，请先关闭阿里网盘，等待几秒重新开启阿里网盘。详情见仓库
 
 http:
   script:
@@ -17,5 +16,5 @@ http:
 
 script-providers:
   aDriveCheckIn_cookie_test:
-    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCheckIn/aDriveCheckin_test.js
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
     interval: 86400

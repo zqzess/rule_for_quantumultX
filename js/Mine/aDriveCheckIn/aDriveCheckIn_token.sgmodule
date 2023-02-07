@@ -1,0 +1,8 @@
+#!name=阿里网盘签到cookie获取测试
+#!desc=阿里网盘签到cookie获取测试
+
+[Script]
+阿里网盘token获取 = type=http-request,pattern=^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
+
+[MITM]
+hostname = %APPEND% auth.aliyundrive.com

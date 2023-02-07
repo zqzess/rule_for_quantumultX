@@ -172,7 +172,7 @@
           "val": null,
           "type": "text",
           "autoGrow": false,
-          "rows": 5,
+          "rows": 10,
           "desc": "填写如国庆节此类固定日期，示例：10-1,1-1"
         },
         {
@@ -181,7 +181,7 @@
           "val": null,
           "type": "text",
           "autoGrow": false,
-          "rows": 5,
+          "rows": 10,
           "desc": "填写如国庆节此类固定日期的名称，示例：国庆节,元旦"
         },
         {
@@ -190,7 +190,7 @@
           "val": null,
           "type": "text",
           "autoGrow": false,
-          "rows": 5,
+          "rows": 10,
           "desc": "填写如母亲节此类浮动日期，示例：2022-5-8,2023-5-14"
         },
         {
@@ -199,7 +199,7 @@
           "val": null,
           "type": "text",
           "autoGrow": false,
-          "rows": 5,
+          "rows": 10,
           "desc": "填写如母亲节此类浮动日期的名称，示例：2022母亲节,2023母亲节"
         }
       ],
@@ -216,6 +216,42 @@
           "Surge": "",
           "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
           "Loon": "loon://import?plugin=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Loon/Plugin/DaysMatter.plugin",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
+    },
+    {
+      "id": "aDriveCheckIn",
+      "name": "阿里云盘自动签到",
+      "keys": [
+        "@ADrive.refresh_token_body",
+        "@ADrive.headers",
+        "@ADrive.refresh_token"
+      ],
+      "settings": [
+        {
+          "id": "@ADrive.refresh_token",
+          "name": "refresh_token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 1,
+          "desc": "阿里云盘refresh_token"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png",
+      "https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png"],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon": "",
           "Shadowrocket": "",
           "Stash": ""
         }

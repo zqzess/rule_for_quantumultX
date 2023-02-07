@@ -1,0 +1,21 @@
+name: 阿里网盘签到token测试 @zqzess
+desc: 测试
+
+
+http:
+  script:
+    - match: ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token
+      name: aDriveCheckIn_cookie_test
+      type: request # request / response
+      require-body: true
+      timeout: 20
+      argument: ''
+      binary-mode: false
+      max-size: 2097152 # 2MB
+  mitm:
+    - "auth.aliyundrive.com"
+
+script-providers:
+  aDriveCheckIn_cookie_test:
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCheckIn/aDriveCheckin_test.js
+    interval: 86400

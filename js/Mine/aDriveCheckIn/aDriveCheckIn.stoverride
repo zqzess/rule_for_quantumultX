@@ -1,0 +1,14 @@
+name: 阿里网盘签到 @zqzess
+desc: 阿里网盘签到定时任务，详情见仓库
+
+cron:
+  script:
+    - name: aDriveCheckIn
+      cron: '10 0 * * *' # at 00:10
+      argument: '{ "key": false }' # optional
+      timeout: 10 # optional
+
+script-providers:
+  aDriveCheckIn:
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
+    interval: 86400

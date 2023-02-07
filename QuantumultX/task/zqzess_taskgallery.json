@@ -12,7 +12,11 @@
     {
       "config": "30 8 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/DaysMatter.js, img-url=https://cdn.jsdelivr.net/gh/zqzess/pichouse@master/pic/202302061207406.jpg, tag=倒数日, enabled=true",
       "addons": ""
+    },
+    {
+      "config": "10 0 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, img-url=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png, tag=阿里网盘签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn_token.qxrewrite"
     }
   ],
-  "description": "作者@zqzess"
+  "description": "定时任务 作者@zqzess"
 }
