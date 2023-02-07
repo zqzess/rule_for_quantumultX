@@ -1,10 +1,14 @@
 /*
+
  阿里云盘虚假vip，解锁60fps，4倍速播放等vip功能，空间容量增加到40Tb(能否正常使用暂未测试)
  目前仅测试surge
  作者@zqzess
  本脚本仅供学习，请下载后24小时内删除
+
  hostname = api.aliyundrive.com , member.aliyundrive.com
  正则表达式: ^https:\/\/(api|member)\.aliyundrive\.com\/(adrive|v1|v2|business|databox)\/.+\/(me|vip|feature|info|get_personal_info|driveCapacityDetails)
+ 脚本：https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/debug/aDriveCrack/aDriveCrack_test.js
+ 
  */
 let $zqzess = zqzess(true)
 let Premium = $response.body
