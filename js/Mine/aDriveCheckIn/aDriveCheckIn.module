@@ -2,7 +2,7 @@
 #!desc=打开阿里盘获取token，获取后可把token获取最后的enable=false来关闭token获取
 
 [Script]
-阿里网盘签到 = type=cron,script-path=阿里网盘签到,cronexpr="10 0 * * *",timeout=10,script-update-interval=43200,enable=true
+阿里网盘签到 = type=cron,script-path=阿里网盘签到,cronexpr="12 0 * * *",timeout=10,script-update-interval=43200,enable=true
 阿里网盘token获取 = type=http-request,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js,pattern=^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token,max-size=0,requires-body=true,timeout=10,script-update-interval=0,enable=true
 
 [MITM]

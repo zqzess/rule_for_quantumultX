@@ -14,7 +14,7 @@
       "addons": ""
     },
     {
-      "config": "10 0 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, img-url=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png, tag=阿里网盘签到, enabled=true",
+      "config": "12 0 * * * https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, img-url=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png, tag=阿里网盘签到, enabled=true",
       "addons": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn_token.qxrewrite, tag=阿里网盘token获取, update-interval=86400, opt-parser=false, enabled=true"
     }
   ],
