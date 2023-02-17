@@ -163,10 +163,12 @@ function signCheckin(authorization) {
             let reward = ''
             signInLogs.forEach(function (i) {
                 if (Number(i.day) === signInCount) {
-                    if (i.notice === '8TB超级会员体验卡') {
-                        reward = ' 第' + signInCount + '天奖励，' + i.notice + i.reward.description.replace('体验卡', '')
-                    } else {
-                        reward = ' 第' + signInCount + '天奖励，' + i.notice
+                    if(i.isReward)
+                    {
+                        reward = ' 第' + signInCount + '天奖励，' + i.reward.name + i.reward.description
+                    }else
+                    {
+                        reward = i.poster.reason + '\n' + i.poster.name
                     }
                 }
             })
@@ -174,7 +176,8 @@ function signCheckin(authorization) {
             if (isReward) {
                 $zqzess.notify(title, stitle, reward)
             } else {
-                $zqzess.notify(title, '⚠️已经签到过了', reward)
+                stitle = '⚠️今天已经签到过了'
+                $zqzess.notify(title, stitle, reward)
             }
             console.log('签到完成')
             $zqzess.done()
