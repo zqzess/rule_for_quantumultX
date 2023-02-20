@@ -1,4 +1,4 @@
-# Netflix rules refresh time: 2023-02-13 00:47:02
+# Netflix rules refresh time: 2023-02-20 00:47:24
 HOST,e13252.dscg.akamaiedge.net,Netflix
 HOST,h-netflix.online-metrix.net,Netflix
 HOST,netflix.com.edgesuite.net,Netflix
@@ -686,6 +686,9 @@ IP-CIDR,3.28.63.128/25,Netflix
 IP-CIDR,3.28.65.0/26,Netflix
 IP-CIDR,3.28.70.48/28,Netflix
 IP-CIDR,3.28.70.96/27,Netflix
+IP-CIDR,3.29.40.128/25,Netflix
+IP-CIDR,3.29.40.64/26,Netflix
+IP-CIDR,3.29.57.0/26,Netflix
 IP-CIDR,3.30.129.0/24,Netflix
 IP-CIDR,3.30.130.0/23,Netflix
 IP-CIDR,3.30.204.0/24,Netflix
@@ -850,6 +853,9 @@ IP-CIDR,35.92.26.0/24,Netflix
 IP-CIDR,35.93.124.0/22,Netflix
 IP-CIDR,37.77.184.0/21,Netflix
 IP-CIDR,38.72.126.0/24,Netflix
+IP-CIDR,43.218.56.128/25,Netflix
+IP-CIDR,43.218.56.64/26,Netflix
+IP-CIDR,43.218.71.0/26,Netflix
 IP-CIDR,44.192.134.240/28,Netflix
 IP-CIDR,44.192.135.0/24,Netflix
 IP-CIDR,44.192.140.112/28,Netflix
