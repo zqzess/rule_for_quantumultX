@@ -6,8 +6,4 @@
 #!icon=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png
 
 [Script]
-http-request ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, requires-body=true, timeout=10, enabled=false, tag=阿里网盘token获取
 cron "12 0 * * *" script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, tag=阿里网盘签到
-
-[MITM]
-hostname = auth.aliyundrive.com
