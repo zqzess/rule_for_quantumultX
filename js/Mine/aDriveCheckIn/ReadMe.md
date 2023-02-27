@@ -76,7 +76,9 @@ hostname = auth.aliyundrive.com
 
 token获取后可前往插件关闭token获取
 
-[签到与token获取插件订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.plugin)
+[签到插件订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.plugin)
+
+[token获取订阅 -->](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn_token.plugin)
 
 ### 配置文件手动添加
 ```ini
