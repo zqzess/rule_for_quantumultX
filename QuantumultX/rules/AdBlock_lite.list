@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2023-02-27 00:46:51
+# AdBlock rules refresh time: 2023-03-06 00:46:58
 
 HOST-SUFFIX,00oo00.com,AdBlock
 HOST-SUFFIX,010xk.com,AdBlock
@@ -718,7 +718,6 @@ HOST-SUFFIX,dleke.com,AdBlock
 HOST-SUFFIX,dlkjgjmy.com,AdBlock
 HOST-SUFFIX,dlrijiaele.com,AdBlock
 HOST-SUFFIX,dmtrck.com,AdBlock
-HOST-SUFFIX,dmvbdfblevxvx.com,AdBlock
 HOST-SUFFIX,dnaoe.com,AdBlock
 HOST-SUFFIX,dnaxddnc.com,AdBlock
 HOST-SUFFIX,dnlmt.com,AdBlock
@@ -890,7 +889,6 @@ HOST-SUFFIX,greenhouseglobal.cn,AdBlock
 HOST-SUFFIX,grepr.com,AdBlock
 HOST-SUFFIX,gs307.com,AdBlock
 HOST,gsd52.www.shuqu8.com,AdBlock
-HOST-SUFFIX,gshtrl.top,AdBlock
 HOST-SUFFIX,gso0.com,AdBlock
 HOST-SUFFIX,gt1n.com,AdBlock
 HOST-SUFFIX,gtiou.com,AdBlock
@@ -942,7 +940,6 @@ HOST-SUFFIX,hbyyzm.com,AdBlock
 HOST-SUFFIX,hdswgc.com,AdBlock
 HOST-SUFFIX,hdysed.com,AdBlock
 HOST-SUFFIX,he2d.com,AdBlock
-HOST,he2d.comhnjls.com.cn,AdBlock
 HOST-SUFFIX,hebzycw.com,AdBlock
 HOST-SUFFIX,hechaocheng.cn,AdBlock
 HOST-SUFFIX,hefan365.com,AdBlock
@@ -1011,7 +1008,6 @@ HOST-SUFFIX,i92xue.com,AdBlock
 HOST-SUFFIX,iamqqo85467.cn,AdBlock
 HOST-SUFFIX,ibeiling.cn,AdBlock
 HOST-SUFFIX,icast.cn,AdBlock
-HOST-SUFFIX,iclickcdn.com,AdBlock
 HOST-SUFFIX,iconworkshop.cn,AdBlock
 HOST-SUFFIX,idasui.cn,AdBlock
 HOST-SUFFIX,idcot.com,AdBlock
@@ -1456,7 +1452,6 @@ HOST-SUFFIX,pxblmj.com,AdBlock
 HOST-SUFFIX,pxl2015x1.com,AdBlock
 HOST-SUFFIX,pyhuiyu.com,AdBlock
 HOST-SUFFIX,pyzjhd.com,AdBlock
-HOST-SUFFIX,q1qfc323.com,AdBlock
 HOST-SUFFIX,qaqact.cn,AdBlock
 HOST-SUFFIX,qcgkd322.vip,AdBlock
 HOST,qd.js.sanjiangge.com,AdBlock
@@ -1824,7 +1819,6 @@ HOST-SUFFIX,wcnmd.top,AdBlock
 HOST-SUFFIX,weareqy.com,AdBlock
 HOST-SUFFIX,weboser.com,AdBlock
 HOST-SUFFIX,weddingeeos.com,AdBlock
-HOST-SUFFIX,wegowan.com,AdBlock
 HOST-SUFFIX,weixinfb.cn,AdBlock
 HOST-SUFFIX,werpig.com,AdBlock
 HOST-SUFFIX,wfhxssg.com,AdBlock
@@ -2015,7 +2009,14 @@ HOST-SUFFIX,yinooo.com,AdBlock
 HOST-SUFFIX,yinyuehu.cn,AdBlock
 HOST-SUFFIX,yinzantouzi.com,AdBlock
 HOST-SUFFIX,yiqiwin.com,AdBlock
-#---------------------------------------------
+HOST-SUFFIX,yiranxian.cn,AdBlock
+HOST-SUFFIX,yisloda.com,AdBlock
+HOST-SUFFIX,yiwuds.com,AdBlock
+HOST-SUFFIX,yjhas.net,AdBlock
+HOST-SUFFIX,yjkyj.cn,AdBlock
+HOST-SUFFIX,ykbei.com,AdBlock
+HOST-SUFFIX,ykjmy.com,AdBlock
+#------------------------------------------
 HOST,is.snssdk.com,AdBlock
 HOST,adsmind.gdtimg.com,AdBlock
 HOST,pv.sohu.com,AdBlock
@@ -2778,6 +2779,38 @@ HOST,engine.liandaomobi.com,AdBlock
 HOST,api.yidaomobi.com,AdBlock
 HOST,adtrack.e.kuaishou.com,AdBlock
 HOST,open.e.kuaishou.cn,AdBlock
+HOST,jnn-pa.googleapis.com,AdBlock
+HOST,adcs-ue.myappsget.com,AdBlock
+HOST,api.myadsget.com,AdBlock
+HOST,midas-tracker.hellay.net,AdBlock
+HOST,adcs-ap.myappsget.com,AdBlock
+HOST,adx-tk.rayjump.com,AdBlock
+HOST,events.ads.vungle.com,AdBlock
+HOST,app.appsflyer.com,AdBlock
+HOST,adx.apiok.net,AdBlock
+HOST,ads.api.vungle.com,AdBlock
+HOST,net.rayjump.com,AdBlock
+HOST,svibeacon.onezapp.com,AdBlock
+HOST,data.flurry.com,AdBlock
+HOST,ms.applovin.com,AdBlock
+HOST,rt.applovin.com,AdBlock
+HOST,d.applvn.com,AdBlock
+HOST,telemetry.sdk.inmobi.com,AdBlock
+HOST,ms.applvn.com,AdBlock
+HOST,rt.applvn.com,AdBlock
+HOST,api.youngle.tech,AdBlock
+HOST,publisher-config.unityads.unity3d.com,AdBlock
+HOST,httpkafka.unityads.unity3d.com,AdBlock
+HOST,configv2.unityads.unity3d.com,AdBlock
+HOST,cdn.appnext.com,AdBlock
+HOST,imasdk.googleapis.com,AdBlock
+HOST,events.mz.unity3d.com,AdBlock
+HOST,umeng.com.gds.alibabadns.com,AdBlock
+HOST,errnewlog.umeng.com,AdBlock
+HOST,auction-load.unityads.unity3d.com,AdBlock
+HOST,cdp.cloud.unity3d.com,AdBlock
+HOST,app-measurement.com,AdBlock
+HOST,beacons.gcp.gvt2.com,AdBlock
 HOST,ads.google.com,AdBlock
 HOST,www.googleadservices.com,AdBlock
 HOST,google-analytics.com,AdBlock
@@ -3907,7 +3940,6 @@ HOST,api9.tuisong.baidu.com,AdBlock
 HOST,apipool.youzu.com,AdBlock
 HOST,apk.zsyj.com.cn,AdBlock
 HOST,aplay.wan.panda.tv,AdBlock
-HOST,app-measurement.com,AdBlock
 HOST,app.cdn.youquqp.com,AdBlock
 HOST,app.clickmobi.cn,AdBlock
 HOST,app.perfectgirls.net,AdBlock
@@ -8259,13 +8291,11 @@ HOST,a4.applovin.com,AdBlock
 HOST,assets.applovin.com,AdBlock
 HOST,dash.applovin.com,AdBlock
 HOST,img.applovin.com,AdBlock
-HOST,ms.applovin.com,AdBlock
 HOST,ms4.applovin.com,AdBlock
 HOST,prod-a.applovin.com,AdBlock
 HOST,prod-bid.applovin.com,AdBlock
 HOST,prod-ms.applovin.com,AdBlock
 HOST,res1.applovin.com,AdBlock
-HOST,rt.applovin.com,AdBlock
 HOST,stage-a.applovin.com,AdBlock
 HOST,stage-assets.applovin.com,AdBlock
 HOST,stage-bid.applovin.com,AdBlock
@@ -8276,12 +8306,8 @@ HOST,ue.applovin.com,AdBlock
 # [applvn.com]
 HOST,applvn.com,AdBlock
 HOST,a.applvn.com,AdBlock
-HOST,d.applvn.com,AdBlock
-HOST,ms.applvn.com,AdBlock
-HOST,rt.applvn.com,AdBlock
 # [appnext.com]
 HOST,admin.appnext.com,AdBlock
-HOST,cdn.appnext.com,AdBlock
 HOST,global.appnext.com,AdBlock
 HOST,si.appnext.com,AdBlock
 # [appnexus.com]
@@ -8314,7 +8340,6 @@ HOST,appsflyer.com,AdBlock
 HOST,adrevenue.appsflyer.com,AdBlock
 HOST,api.appsflyer.com,AdBlock
 HOST,api2.appsflyer.com,AdBlock
-HOST,app.appsflyer.com,AdBlock
 HOST,attr.appsflyer.com,AdBlock
 HOST,banner.appsflyer.com,AdBlock
 HOST,cdn.appsflyer.com,AdBlock
@@ -10340,7 +10365,6 @@ HOST,beacon.flow.io,AdBlock
 # [flurry.com]
 HOST,flurry.com,AdBlock
 HOST,cfg.flurry.com,AdBlock
-HOST,data.flurry.com,AdBlock
 HOST,gw.flurry.com,AdBlock
 HOST,proton.flurry.com,AdBlock
 # [flyermobi.com]
@@ -11058,7 +11082,6 @@ HOST,mcg-ads.inmobi.com,AdBlock
 HOST,pulse.inmobi.com,AdBlock
 HOST,carpet.pulse.inmobi.com,AdBlock
 HOST,sdk.inmobi.com,AdBlock
-HOST,telemetry.sdk.inmobi.com,AdBlock
 HOST,ssp-prod-telemerty-eastus-appgwv2.inmobi.com,AdBlock
 HOST,trafficmanager.inmobi.com,AdBlock
 HOST,eastus.trafficmanager.inmobi.com,AdBlock
@@ -13445,7 +13468,6 @@ HOST,display.ravm.tv,AdBlock
 HOST,hb-t5u9.raps.ravm.tv,AdBlock
 # [rayjump.com]
 HOST,rayjump.com,AdBlock
-HOST,adx-tk.rayjump.com,AdBlock
 HOST,analytics.rayjump.com,AdBlock
 HOST,cdn-adn.rayjump.com,AdBlock
 HOST,cdn-adn-https.rayjump.com,AdBlock
@@ -13456,7 +13478,6 @@ HOST,de01.rayjump.com,AdBlock
 HOST,detect.rayjump.com,AdBlock
 HOST,hb.rayjump.com,AdBlock
 HOST,lazy.rayjump.com,AdBlock
-HOST,net.rayjump.com,AdBlock
 HOST,play.rayjump.com,AdBlock
 HOST,policy.rayjump.com,AdBlock
 HOST,setting.rayjump.com,AdBlock
@@ -15098,7 +15119,6 @@ HOST,unimhk.com,AdBlock
 # [unionstatistics.com]
 HOST,sa.unionstatistics.com,AdBlock
 # [unity3d.com]
-HOST,cdp.cloud.unity3d.com,AdBlock
 HOST,perf-events.cloud.unity3d.com,AdBlock
 HOST,config.uca.cloud.unity3d.com,AdBlock
 HOST,data-optout-service.uca.cloud.unity3d.com,AdBlock
@@ -15113,19 +15133,15 @@ HOST,adserver.unityads.unity3d.com,AdBlock
 HOST,adsx.unityads.unity3d.com,AdBlock
 HOST,auction.unityads.unity3d.com,AdBlock
 HOST,auction-banner.unityads.unity3d.com,AdBlock
-HOST,auction-load.unityads.unity3d.com,AdBlock
 HOST,auiopt.unityads.unity3d.com,AdBlock
 HOST,cdn.unityads.unity3d.com,AdBlock
 HOST,cdn-creatives-highwinds-prd.unityads.unity3d.com,AdBlock
 HOST,cdn-webview-pge.unityads.unity3d.com,AdBlock
 HOST,config.unityads.unity3d.com,AdBlock
-HOST,configv2.unityads.unity3d.com,AdBlock
 HOST,dsp-tracking.unityads.unity3d.com,AdBlock
 HOST,dsp-vast.unityads.unity3d.com,AdBlock
 HOST,geocdn.unityads.unity3d.com,AdBlock
-HOST,httpkafka.unityads.unity3d.com,AdBlock
 HOST,pge.unityads.unity3d.com,AdBlock
-HOST,publisher-config.unityads.unity3d.com,AdBlock
 HOST,publisher-event.unityads.unity3d.com,AdBlock
 HOST,thind.unityads.unity3d.com,AdBlock
 HOST,webview.unityads.unity3d.com,AdBlock
@@ -15435,7 +15451,6 @@ HOST,vserv.mobi,AdBlock
 # [vungle.com]
 HOST,vungle.com,AdBlock
 HOST,api.vungle.com,AdBlock
-HOST,ads.api.vungle.com,AdBlock
 HOST,dsp.api.vungle.com,AdBlock
 HOST,events.api.vungle.com,AdBlock
 HOST,tpat.api.vungle.com,AdBlock

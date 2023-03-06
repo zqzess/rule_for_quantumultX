@@ -1,4 +1,4 @@
-# AdBlock rules refresh time: 2023-02-27 00:46:51
+# AdBlock rules refresh time: 2023-03-06 00:46:58
 DOMAIN-SUFFIX,00oo00.com
 DOMAIN-SUFFIX,010xk.com
 DOMAIN-SUFFIX,0123kjz.com
@@ -717,7 +717,6 @@ DOMAIN-SUFFIX,dleke.com
 DOMAIN-SUFFIX,dlkjgjmy.com
 DOMAIN-SUFFIX,dlrijiaele.com
 DOMAIN-SUFFIX,dmtrck.com
-DOMAIN-SUFFIX,dmvbdfblevxvx.com
 DOMAIN-SUFFIX,dnaoe.com
 DOMAIN-SUFFIX,dnaxddnc.com
 DOMAIN-SUFFIX,dnlmt.com
@@ -889,7 +888,6 @@ DOMAIN-SUFFIX,greenhouseglobal.cn
 DOMAIN-SUFFIX,grepr.com
 DOMAIN-SUFFIX,gs307.com
 DOMAIN,gsd52.www.shuqu8.com
-DOMAIN-SUFFIX,gshtrl.top
 DOMAIN-SUFFIX,gso0.com
 DOMAIN-SUFFIX,gt1n.com
 DOMAIN-SUFFIX,gtiou.com
@@ -941,7 +939,6 @@ DOMAIN-SUFFIX,hbyyzm.com
 DOMAIN-SUFFIX,hdswgc.com
 DOMAIN-SUFFIX,hdysed.com
 DOMAIN-SUFFIX,he2d.com
-DOMAIN,he2d.comhnjls.com.cn
 DOMAIN-SUFFIX,hebzycw.com
 DOMAIN-SUFFIX,hechaocheng.cn
 DOMAIN-SUFFIX,hefan365.com
@@ -1010,7 +1007,6 @@ DOMAIN-SUFFIX,i92xue.com
 DOMAIN-SUFFIX,iamqqo85467.cn
 DOMAIN-SUFFIX,ibeiling.cn
 DOMAIN-SUFFIX,icast.cn
-DOMAIN-SUFFIX,iclickcdn.com
 DOMAIN-SUFFIX,iconworkshop.cn
 DOMAIN-SUFFIX,idasui.cn
 DOMAIN-SUFFIX,idcot.com
@@ -1455,7 +1451,6 @@ DOMAIN-SUFFIX,pxblmj.com
 DOMAIN-SUFFIX,pxl2015x1.com
 DOMAIN-SUFFIX,pyhuiyu.com
 DOMAIN-SUFFIX,pyzjhd.com
-DOMAIN-SUFFIX,q1qfc323.com
 DOMAIN-SUFFIX,qaqact.cn
 DOMAIN-SUFFIX,qcgkd322.vip
 DOMAIN,qd.js.sanjiangge.com
@@ -1823,7 +1818,6 @@ DOMAIN-SUFFIX,wcnmd.top
 DOMAIN-SUFFIX,weareqy.com
 DOMAIN-SUFFIX,weboser.com
 DOMAIN-SUFFIX,weddingeeos.com
-DOMAIN-SUFFIX,wegowan.com
 DOMAIN-SUFFIX,weixinfb.cn
 DOMAIN-SUFFIX,werpig.com
 DOMAIN-SUFFIX,wfhxssg.com
@@ -2014,7 +2008,14 @@ DOMAIN-SUFFIX,yinooo.com
 DOMAIN-SUFFIX,yinyuehu.cn
 DOMAIN-SUFFIX,yinzantouzi.com
 DOMAIN-SUFFIX,yiqiwin.com
-#---------------------------------------------
+DOMAIN-SUFFIX,yiranxian.cn
+DOMAIN-SUFFIX,yisloda.com
+DOMAIN-SUFFIX,yiwuds.com
+DOMAIN-SUFFIX,yjhas.net
+DOMAIN-SUFFIX,yjkyj.cn
+DOMAIN-SUFFIX,ykbei.com
+DOMAIN-SUFFIX,ykjmy.com
+#------------------------------------------
 DOMAIN,is.snssdk.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,pv.sohu.com
@@ -2777,6 +2778,38 @@ DOMAIN,engine.liandaomobi.com
 DOMAIN,api.yidaomobi.com
 DOMAIN,adtrack.e.kuaishou.com
 DOMAIN,open.e.kuaishou.cn
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,adcs-ue.myappsget.com
+DOMAIN,api.myadsget.com
+DOMAIN,midas-tracker.hellay.net
+DOMAIN,adcs-ap.myappsget.com
+DOMAIN,adx-tk.rayjump.com
+DOMAIN,events.ads.vungle.com
+DOMAIN,app.appsflyer.com
+DOMAIN,adx.apiok.net
+DOMAIN,ads.api.vungle.com
+DOMAIN,net.rayjump.com
+DOMAIN,svibeacon.onezapp.com
+DOMAIN,data.flurry.com
+DOMAIN,ms.applovin.com
+DOMAIN,rt.applovin.com
+DOMAIN,d.applvn.com
+DOMAIN,telemetry.sdk.inmobi.com
+DOMAIN,ms.applvn.com
+DOMAIN,rt.applvn.com
+DOMAIN,api.youngle.tech
+DOMAIN,publisher-config.unityads.unity3d.com
+DOMAIN,httpkafka.unityads.unity3d.com
+DOMAIN,configv2.unityads.unity3d.com
+DOMAIN,cdn.appnext.com
+DOMAIN,imasdk.googleapis.com
+DOMAIN,events.mz.unity3d.com
+DOMAIN,umeng.com.gds.alibabadns.com
+DOMAIN,errnewlog.umeng.com
+DOMAIN,auction-load.unityads.unity3d.com
+DOMAIN,cdp.cloud.unity3d.com
+DOMAIN,app-measurement.com
+DOMAIN,beacons.gcp.gvt2.com
 DOMAIN,ads.google.com
 DOMAIN,www.googleadservices.com
 DOMAIN,google-analytics.com
@@ -3906,7 +3939,6 @@ DOMAIN,api9.tuisong.baidu.com
 DOMAIN,apipool.youzu.com
 DOMAIN,apk.zsyj.com.cn
 DOMAIN,aplay.wan.panda.tv
-DOMAIN,app-measurement.com
 DOMAIN,app.cdn.youquqp.com
 DOMAIN,app.clickmobi.cn
 DOMAIN,app.perfectgirls.net
@@ -8256,13 +8288,11 @@ DOMAIN,a4.applovin.com
 DOMAIN,assets.applovin.com
 DOMAIN,dash.applovin.com
 DOMAIN,img.applovin.com
-DOMAIN,ms.applovin.com
 DOMAIN,ms4.applovin.com
 DOMAIN,prod-a.applovin.com
 DOMAIN,prod-bid.applovin.com
 DOMAIN,prod-ms.applovin.com
 DOMAIN,res1.applovin.com
-DOMAIN,rt.applovin.com
 DOMAIN,stage-a.applovin.com
 DOMAIN,stage-assets.applovin.com
 DOMAIN,stage-bid.applovin.com
@@ -8273,12 +8303,8 @@ DOMAIN,ue.applovin.com
 # [applvn.com]
 DOMAIN,applvn.com
 DOMAIN,a.applvn.com
-DOMAIN,d.applvn.com
-DOMAIN,ms.applvn.com
-DOMAIN,rt.applvn.com
 # [appnext.com]
 DOMAIN,admin.appnext.com
-DOMAIN,cdn.appnext.com
 DOMAIN,global.appnext.com
 DOMAIN,si.appnext.com
 # [appnexus.com]
@@ -8311,7 +8337,6 @@ DOMAIN,appsflyer.com
 DOMAIN,adrevenue.appsflyer.com
 DOMAIN,api.appsflyer.com
 DOMAIN,api2.appsflyer.com
-DOMAIN,app.appsflyer.com
 DOMAIN,attr.appsflyer.com
 DOMAIN,banner.appsflyer.com
 DOMAIN,cdn.appsflyer.com
@@ -10337,7 +10362,6 @@ DOMAIN,beacon.flow.io
 # [flurry.com]
 DOMAIN,flurry.com
 DOMAIN,cfg.flurry.com
-DOMAIN,data.flurry.com
 DOMAIN,gw.flurry.com
 DOMAIN,proton.flurry.com
 # [flyermobi.com]
@@ -11055,7 +11079,6 @@ DOMAIN,mcg-ads.inmobi.com
 DOMAIN,pulse.inmobi.com
 DOMAIN,carpet.pulse.inmobi.com
 DOMAIN,sdk.inmobi.com
-DOMAIN,telemetry.sdk.inmobi.com
 DOMAIN,ssp-prod-telemerty-eastus-appgwv2.inmobi.com
 DOMAIN,trafficmanager.inmobi.com
 DOMAIN,eastus.trafficmanager.inmobi.com
@@ -13442,7 +13465,6 @@ DOMAIN,display.ravm.tv
 DOMAIN,hb-t5u9.raps.ravm.tv
 # [rayjump.com]
 DOMAIN,rayjump.com
-DOMAIN,adx-tk.rayjump.com
 DOMAIN,analytics.rayjump.com
 DOMAIN,cdn-adn.rayjump.com
 DOMAIN,cdn-adn-https.rayjump.com
@@ -13453,7 +13475,6 @@ DOMAIN,de01.rayjump.com
 DOMAIN,detect.rayjump.com
 DOMAIN,hb.rayjump.com
 DOMAIN,lazy.rayjump.com
-DOMAIN,net.rayjump.com
 DOMAIN,play.rayjump.com
 DOMAIN,policy.rayjump.com
 DOMAIN,setting.rayjump.com
@@ -15095,7 +15116,6 @@ DOMAIN,unimhk.com
 # [unionstatistics.com]
 DOMAIN,sa.unionstatistics.com
 # [unity3d.com]
-DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,perf-events.cloud.unity3d.com
 DOMAIN,config.uca.cloud.unity3d.com
 DOMAIN,data-optout-service.uca.cloud.unity3d.com
@@ -15110,19 +15130,15 @@ DOMAIN,adserver.unityads.unity3d.com
 DOMAIN,adsx.unityads.unity3d.com
 DOMAIN,auction.unityads.unity3d.com
 DOMAIN,auction-banner.unityads.unity3d.com
-DOMAIN,auction-load.unityads.unity3d.com
 DOMAIN,auiopt.unityads.unity3d.com
 DOMAIN,cdn.unityads.unity3d.com
 DOMAIN,cdn-creatives-highwinds-prd.unityads.unity3d.com
 DOMAIN,cdn-webview-pge.unityads.unity3d.com
 DOMAIN,config.unityads.unity3d.com
-DOMAIN,configv2.unityads.unity3d.com
 DOMAIN,dsp-tracking.unityads.unity3d.com
 DOMAIN,dsp-vast.unityads.unity3d.com
 DOMAIN,geocdn.unityads.unity3d.com
-DOMAIN,httpkafka.unityads.unity3d.com
 DOMAIN,pge.unityads.unity3d.com
-DOMAIN,publisher-config.unityads.unity3d.com
 DOMAIN,publisher-event.unityads.unity3d.com
 DOMAIN,thind.unityads.unity3d.com
 DOMAIN,webview.unityads.unity3d.com
@@ -15432,7 +15448,6 @@ DOMAIN,vserv.mobi
 # [vungle.com]
 DOMAIN,vungle.com
 DOMAIN,api.vungle.com
-DOMAIN,ads.api.vungle.com
 DOMAIN,dsp.api.vungle.com
 DOMAIN,events.api.vungle.com
 DOMAIN,tpat.api.vungle.com

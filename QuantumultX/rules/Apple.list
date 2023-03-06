@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2023-02-27 00:46:55
+# Apple rules refresh time: 2023-03-06 00:47:02
 
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
@@ -31,6 +31,7 @@ IP-CIDR,205.180.175.0/24,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
 HOST,a3.mzstatic.com,Apple
@@ -235,12 +236,10 @@ HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,books.itunes.apple.com,Apple
 HOST,cvws.icloud-content.com,Apple
 HOST,developer.apple.com,Apple
-HOST,hls.itunes.apple.com,Apple
-HOST,itunes.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
+HOST,hls.itunes.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,tv.applemusic.com,Apple
@@ -252,6 +251,7 @@ HOST,amp-api.fitness.apple.com,Apple
 HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
 HOST,mask-api.icloud.com,Apple
@@ -1786,6 +1786,13 @@ HOST-SUFFIX,musickit.net,Apple
 HOST-SUFFIX,wwwapplemusic.com,Apple
 HOST-SUFFIX,apple-dns.net,Apple
 HOST-SUFFIX,digicert.com,Apple
+HOST-WILDCARD,apple.*,Apple
+HOST-WILDCARD,apple.com.*,Apple
+HOST-WILDCARD,appleworldwidedeveloper.*.net,Apple
+HOST-WILDCARD,imac.*,Apple
+HOST-WILDCARD,iphone.*,Apple
+HOST-WILDCARD,ipod.*,Apple
+HOST-WILDCARD,macbook.*,Apple
 HOST-KEYWORD,apple-support.akadns.net,Apple
 HOST-KEYWORD,apple.com.edgekey.net,Apple
 HOST-KEYWORD,testflight,Apple
