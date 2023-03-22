@@ -6,6 +6,10 @@
 - [新增倒数日脚本](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
 - [新增今日黄历脚本](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
 
+**推荐阅读**
+----
+[自建代理转换站点(Sub-Store)](https://www.whitemoon.top/2022/09/18/zi-jian-de-dai-li-jie-dian-zhuan-huan-zhan-dian/)
+
 ---
 [![Telegram](https://img.shields.io/badge/Telegram-Channel-33A8E3)](https://t.me/zqzess_Channel)
 [![Telegram](https://img.shields.io/badge/Telegram-Group-33A8E3)](https://t.me/+Pas9ik7B-RYyM2Q9)
