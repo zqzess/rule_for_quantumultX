@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2023-03-20 00:47:02
+# GMedia rules refresh time: 2023-03-27 00:47:34
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -6,7 +6,6 @@ HOST-SUFFIX,go.com,GMedia
 USER-AGENT,AbemaTV*,GMedia
 HOST-SUFFIX,abema.io,GMedia
 HOST-SUFFIX,abema.tv,GMedia
-HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,hayabusa.io,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
@@ -71,22 +70,15 @@ HOST-SUFFIX,nebula.app,GMedia
 HOST-SUFFIX,watchnebula.com,GMedia
 HOST-SUFFIX,zype.com,GMedia
 USER-AGENT,DAZN*,GMedia
-HOST-KEYWORD,voddazn,GMedia
-HOST-SUFFIX,dazn.com,GMedia
+HOST-WILDCARD,dc?livedazn.akamaized.net,GMedia
+HOST-WILDCARD,dc?voddazn.akamaized.net,GMedia
 HOST-SUFFIX,dazn-api.com,GMedia
+HOST-SUFFIX,dazn.com,GMedia
 HOST-SUFFIX,dazndn.com,GMedia
-HOST-SUFFIX,daznedge.net,GMedia
-HOST-SUFFIX,daznfeeds.com,GMedia
-HOST-SUFFIX,daznservices.com,GMedia
 HOST-SUFFIX,indazn.com,GMedia
 HOST-SUFFIX,indaznlab.com,GMedia
-HOST,daznfeeds.com.edgekey.net,GMedia
-HOST,dca-lm-livedazn.secure.footprint.net,GMedia
-HOST,h-dazn.online-metrix.net,GMedia
-HOST,images-daznservices-com.cdn.ampproject.org,GMedia
-HOST,d151l6v8er5bdm.cloudfront.net,GMedia
-IP-CIDR,185.42.236.0/24,GMedia
-IP-CIDR,185.42.238.0/24,GMedia
+HOST-SUFFIX,dc1live2lindazn.akamaized.net,GMedia
+HOST-SUFFIX,dc1-lm-live2dazn.secure.footprint.net,GMedia
 USER-AGENT,Disney*,GMedia
 HOST-SUFFIX,adobedtm.com,GMedia
 HOST-SUFFIX,bam.nr-date.net,GMedia
@@ -120,6 +112,7 @@ HOST-SUFFIX,fox.com,GMedia
 HOST-SUFFIX,foxdcg.com,GMedia
 HOST-SUFFIX,uplynk.com,GMedia
 USER-AGENT,FOXPlus*,GMedia
+HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,foxplus.com,GMedia
 HOST-SUFFIX,theplatform.com,GMedia
 USER-AGENT,HBOMAX*,GMedia
@@ -298,9 +291,13 @@ HOST,api.okzy.tv,GMedia
 HOST,apm-misaka.biliapi.net,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GMedia
+HOST,daznfeeds.com.edgekey.net,GMedia
+HOST,dca-lm-livedazn.secure.footprint.net,GMedia
 HOST,edge.cwtv-vod-ext.top.comcast.net,GMedia
 HOST,gspe1-ssl.ls.apple.com,GMedia
+HOST,h-dazn.online-metrix.net,GMedia
 HOST,hamifans.emome.net,GMedia
+HOST,images-daznservices-com.cdn.ampproject.org,GMedia
 HOST,itvpnpmobile-a.akamaihd.net,GMedia
 HOST,ktpx.amazon.com,GMedia
 HOST,news-client.apple.com,GMedia
@@ -432,6 +429,9 @@ HOST-SUFFIX,daum.net,GMedia
 HOST-SUFFIX,daumcdn.net,GMedia
 HOST-SUFFIX,daumkakao.io,GMedia
 HOST-SUFFIX,daumpotplayer.com,GMedia
+HOST-SUFFIX,daznedge.net,GMedia
+HOST-SUFFIX,daznfeeds.com,GMedia
+HOST-SUFFIX,daznservices.com,GMedia
 HOST-SUFFIX,dc2-vodhls-perform.secure.footprint.net,GMedia
 HOST-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,GMedia
 HOST-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,GMedia
@@ -1235,6 +1235,7 @@ HOST-KEYWORD,spotify.com,GMedia
 HOST-KEYWORD,tiktokcdn-,GMedia
 HOST-KEYWORD,ttvnw,GMedia
 HOST-KEYWORD,uk-live,GMedia
+HOST-KEYWORD,voddazn,GMedia
 HOST-KEYWORD,youtube,GMedia
 USER-AGENT,All4*,GMedia
 USER-AGENT,Argo*,GMedia
@@ -1509,6 +1510,8 @@ IP-CIDR,184.150.15.97/32,GMedia
 IP-CIDR,184.150.15.99/32,GMedia
 IP-CIDR,184.175.190.38/32,GMedia
 IP-CIDR,184.51.102.0/24,GMedia
+IP-CIDR,185.42.236.0/24,GMedia
+IP-CIDR,185.42.238.0/24,GMedia
 IP-CIDR,185.43.181.232/32,GMedia
 IP-CIDR,185.43.181.234/32,GMedia
 IP-CIDR,185.43.181.236/32,GMedia

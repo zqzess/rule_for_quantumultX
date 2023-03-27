@@ -1,4 +1,10 @@
-# Outside rules refresh time: 2023-03-20 00:47:03
+# Outside rules refresh time: 2023-03-27 00:47:36
+
+USER-AGENT,hearthstone*,Outside
+HOST,cdp.cloud.unity3d.com,Outside
+HOST-SUFFIX,battle.net,Outside
+HOST-SUFFIX,battlenet.com,Outside
+HOST-SUFFIX,blizzard.com,Outside
 
 HOST-SUFFIX,discord.com,Outside
 HOST-SUFFIX,discord.gg,Outside
@@ -6,7 +12,6 @@ HOST-SUFFIX,discord.media,Outside
 HOST-SUFFIX,discordapp.com,Outside
 HOST-SUFFIX,discordapp.net,Outside
 HOST-SUFFIX,discordstatus.com,Outside
-
 USER-AGENT,Duolingo*,Outside
 HOST-KEYWORD,duolingo,Outside
 HOST-SUFFIX,duolingo.cn,Outside
@@ -23,10 +28,14 @@ HOST-SUFFIX,line-scdn.net,Outside
 HOST-SUFFIX,nhncorp.jp,Outside
 USER-AGENT,OneDrive*,Outside
 HOST-KEYWORD,onedrive,Outside
+HOST-SUFFIX,bing.com,Outside
+HOST-SUFFIX,bing.net,Outside
 HOST-SUFFIX,onedrive.com,Outside
 HOST-SUFFIX,skype.com,Outside
 HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
+HOST-SUFFIX,ai.com,Outside
+HOST-SUFFIX,openai.com,Outside
 USER-AGENT,PayPal*,Outside
 HOST-KEYWORD,paypal,Outside
 HOST-SUFFIX,paypal.com,Outside
@@ -154,8 +163,6 @@ HOST-SUFFIX,bbtoystore.com,Outside
 HOST-SUFFIX,bet365.com,Outside
 HOST-SUFFIX,betvictor.com,Outside
 HOST-SUFFIX,bigsound.org,Outside
-HOST-SUFFIX,bing.com,Outside
-HOST-SUFFIX,bing.net,Outside
 HOST-SUFFIX,bintray.com,Outside
 HOST-SUFFIX,bit.com,Outside
 HOST-SUFFIX,bit.do,Outside
@@ -381,6 +388,7 @@ HOST-SUFFIX,mp3buscador.com,Outside
 HOST-SUFFIX,msedge.net,Outside
 HOST-SUFFIX,mycnnews.com,Outside
 HOST-SUFFIX,myfontastic.com,Outside
+HOST-SUFFIX,mypikpak.com,Outside
 HOST-SUFFIX,name.com,Outside
 HOST-SUFFIX,nasa.gov,Outside
 HOST-SUFFIX,ndr.de,Outside
@@ -1687,7 +1695,6 @@ HOST-SUFFIX,2tu.cc,Outside
 HOST-SUFFIX,2waky.com,Outside
 HOST-SUFFIX,2zrdc.com,Outside
 HOST-SUFFIX,3-a.net,Outside
-HOST-SUFFIX,3.32.ddns.name,Outside
 HOST-SUFFIX,3.32top.xyz,Outside
 HOST-SUFFIX,3.aa1122.ws,Outside
 HOST-SUFFIX,3.cr.rs,Outside
@@ -3583,7 +3590,6 @@ HOST-SUFFIX,ahri.xyz,Outside
 HOST-SUFFIX,ahri8.com,Outside
 HOST-SUFFIX,ai-kan.net,Outside
 HOST-SUFFIX,ai-wen.net,Outside
-HOST-SUFFIX,ai.com,Outside
 HOST-SUFFIX,ai.google,Outside
 HOST-SUFFIX,ai780.com,Outside
 HOST-SUFFIX,aikeji.tk,Outside
@@ -4039,7 +4045,6 @@ HOST-SUFFIX,app-sdylqipai3917.com,Outside
 HOST-SUFFIX,app.arukas.io,Outside
 HOST-SUFFIX,app.asso.st,Outside
 HOST-SUFFIX,app.e8777.com,Outside
-HOST-SUFFIX,app.gd.ddns.name,Outside
 HOST-SUFFIX,app.leg.wa.gov,Outside
 HOST-SUFFIX,app.staging.nuorder.com,Outside
 HOST-SUFFIX,app.tv333.us,Outside
@@ -4229,9 +4234,6 @@ HOST-SUFFIX,austinjardinera.com,Outside
 HOST-SUFFIX,australiachinarelations.org,Outside
 HOST-SUFFIX,australiaplus.com,Outside
 HOST-SUFFIX,auth.docker.io,Outside
-HOST-SUFFIX,authorizeddns.net,Outside
-HOST-SUFFIX,authorizeddns.org,Outside
-HOST-SUFFIX,authorizeddns.us,Outside
 HOST-SUFFIX,auto-aufladen.de,Outside
 HOST-SUFFIX,auto.freev2.top,Outside
 HOST-SUFFIX,auto0391.com,Outside
@@ -5531,7 +5533,6 @@ HOST-SUFFIX,bx.in.th,Outside
 HOST-SUFFIX,bx.tl,Outside
 HOST-SUFFIX,bxwx.net,Outside
 HOST-SUFFIX,by.bnaz.org,Outside
-HOST-SUFFIX,by.ddns.name,Outside
 HOST-SUFFIX,byb8.app,Outside
 HOST-SUFFIX,bybit.com,Outside
 HOST-SUFFIX,byedon.com,Outside
@@ -6495,7 +6496,6 @@ HOST-SUFFIX,compython.net,Outside
 HOST-SUFFIX,comunio.de,Outside
 HOST-SUFFIX,comunitatibetana.org,Outside
 HOST-SUFFIX,config.getiantem.org,Outside
-HOST-SUFFIX,conn23.ddns.me,Outside
 HOST-SUFFIX,connectify.asia,Outside
 HOST-SUFFIX,connectionless.net,Outside
 HOST-SUFFIX,connectssr.com,Outside
@@ -7064,15 +7064,6 @@ HOST-SUFFIX,ddhw.info,Outside
 HOST-SUFFIX,dditscdn.com,Outside
 HOST-SUFFIX,ddjv18.com,Outside
 HOST-SUFFIX,ddnete.com,Outside
-HOST-SUFFIX,ddns.info,Outside
-HOST-SUFFIX,ddns.me.uk,Outside
-HOST-SUFFIX,ddns.mobi,Outside
-HOST-SUFFIX,ddns.ms,Outside
-HOST-SUFFIX,ddns.net,Outside
-HOST-SUFFIX,ddns.us,Outside
-HOST-SUFFIX,ddnsfree.com,Outside
-HOST-SUFFIX,ddnsgeek.com,Outside
-HOST-SUFFIX,ddnsking.com,Outside
 HOST-SUFFIX,ddockslounge.com,Outside
 HOST-SUFFIX,ddownr.com,Outside
 HOST-SUFFIX,ddxzp.com,Outside
@@ -7589,7 +7580,6 @@ HOST-SUFFIX,dx3303.com,Outside
 HOST-SUFFIX,dx7711.com,Outside
 HOST-SUFFIX,dx7722.com,Outside
 HOST-SUFFIX,dxiong.com,Outside
-HOST-SUFFIX,dy.ddns.name,Outside
 HOST-SUFFIX,dy606.com,Outside
 HOST-SUFFIX,dy9910.com,Outside
 HOST-SUFFIX,dy9950.com,Outside
@@ -8665,8 +8655,6 @@ HOST-SUFFIX,freechina.tech.blog,Outside
 HOST-SUFFIX,freechinaforum.org,Outside
 HOST-SUFFIX,freechinaradio.com,Outside
 HOST-SUFFIX,freechinaweibo.com,Outside
-HOST-SUFFIX,freeddns.com,Outside
-HOST-SUFFIX,freeddns.org,Outside
 HOST-SUFFIX,freedns.controld.com,Outside
 HOST-SUFFIX,freedns.org,Outside
 HOST-SUFFIX,freedom-ip.com,Outside
@@ -9480,8 +9468,6 @@ HOST-SUFFIX,goo.jp,Outside
 HOST-SUFFIX,goo.ne.jp,Outside
 HOST-SUFFIX,goodav17.com,Outside
 HOST-SUFFIX,gooday.xyz,Outside
-HOST-SUFFIX,gooddns.info,Outside
-HOST-SUFFIX,gooddns.xyz,Outside
 HOST-SUFFIX,goodhope.school,Outside
 HOST-SUFFIX,goodnews.good-tutor.net,Outside
 HOST-SUFFIX,goodssh.com,Outside
@@ -9812,7 +9798,6 @@ HOST-SUFFIX,greatproxies.com,Outside
 HOST-SUFFIX,greatroc.org,Outside
 HOST-SUFFIX,greatroc.tw,Outside
 HOST-SUFFIX,greatzhonghua.org,Outside
-HOST-SUFFIX,gree.ddns.name,Outside
 HOST-SUFFIX,green960.com,Outside
 HOST-SUFFIX,greenbed.com,Outside
 HOST-SUFFIX,greenfieldbookstore.com.hk,Outside
@@ -11124,7 +11109,6 @@ HOST-SUFFIX,inyt.com,Outside
 HOST-SUFFIX,io.freess.org,Outside
 HOST-SUFFIX,ioasgo.com.ar,Outside
 HOST-SUFFIX,ionic.cf,Outside
-HOST-SUFFIX,ios.gd.ddns.name,Outside
 HOST-SUFFIX,iownyour.biz,Outside
 HOST-SUFFIX,iownyour.org,Outside
 HOST-SUFFIX,ioxoxi.club,Outside
@@ -13773,7 +13757,6 @@ HOST-SUFFIX,mycp233.com,Outside
 HOST-SUFFIX,mydad.info,Outside
 HOST-SUFFIX,mydati.com,Outside
 HOST-SUFFIX,myday.cn,Outside
-HOST-SUFFIX,myddns.com,Outside
 HOST-SUFFIX,myeasytv.com,Outside
 HOST-SUFFIX,myeclipseide.com,Outside
 HOST-SUFFIX,myexternalip.com,Outside
@@ -13816,7 +13799,6 @@ HOST-SUFFIX,mypaper.sg,Outside
 HOST-SUFFIX,myparagliding.com,Outside
 HOST-SUFFIX,mypets.ws,Outside
 HOST-SUFFIX,mypicture.info,Outside
-HOST-SUFFIX,mypikpak.com,Outside
 HOST-SUFFIX,myplan.powayusd.com,Outside
 HOST-SUFFIX,mypop3.net,Outside
 HOST-SUFFIX,mypop3.org,Outside
@@ -13877,7 +13859,6 @@ HOST-SUFFIX,n888ff.com,Outside
 HOST-SUFFIX,n888qq.com,Outside
 HOST-SUFFIX,n8photos.com,Outside
 HOST-SUFFIX,n9919.com,Outside
-HOST-SUFFIX,na.ddns.name,Outside
 HOST-SUFFIX,na.kalone.net,Outside
 HOST-SUFFIX,naacoalition.org,Outside
 HOST-SUFFIX,nabble.com,Outside
@@ -14632,7 +14613,6 @@ HOST-SUFFIX,oovpn.com,Outside
 HOST-SUFFIX,ope99.com,Outside
 HOST-SUFFIX,open.com.hk,Outside
 HOST-SUFFIX,open.firstory.me,Outside
-HOST-SUFFIX,openai.com,Outside
 HOST-SUFFIX,openaked.com,Outside
 HOST-SUFFIX,openallweb.com,Outside
 HOST-SUFFIX,opendemocracy.net,Outside
@@ -18792,7 +18772,6 @@ HOST-SUFFIX,ub0.cc,Outside
 HOST-SUFFIX,ub66.com,Outside
 HOST-SUFFIX,ub66.net,Outside
 HOST-SUFFIX,ub8play.com,Outside
-HOST-SUFFIX,ubddns.org,Outside
 HOST-SUFFIX,uberproxy.net,Outside
 HOST-SUFFIX,ubf.kr,Outside
 HOST-SUFFIX,ubint.net,Outside
@@ -18999,7 +18978,6 @@ HOST-SUFFIX,us-central1-ripple-3dc2d.cloudfunctions.net,Outside
 HOST-SUFFIX,us-central1.cloudfunctions.net,Outside
 HOST-SUFFIX,us.32bit.top,Outside
 HOST-SUFFIX,us.44.14.iamallama.com,Outside
-HOST-SUFFIX,us.ddns.me,Outside
 HOST-SUFFIX,us.hk303.c8763.com,Outside
 HOST-SUFFIX,us.ishadowx.net,Outside
 HOST-SUFFIX,us.net2cn.tk,Outside

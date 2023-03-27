@@ -1,4 +1,4 @@
-# Microsoft rules refresh time: 2023-03-20 00:47:02
+# Microsoft rules refresh time: 2023-03-27 00:47:34
 HOST,bg.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bg4.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bj1.api.bing.com,Microsoft
@@ -362,6 +362,7 @@ HOST-SUFFIX,microsoftadvertisingregionalawards.com,Microsoft
 HOST-SUFFIX,microsoftaffiliates.com,Microsoft
 HOST-SUFFIX,microsoftapp.net,Microsoft
 HOST-SUFFIX,microsoftazuread-sso.com,Microsoft
+HOST-SUFFIX,microsoftazuresponsorships.com,Microsoft
 HOST-SUFFIX,microsoftazurestatus.cn,Microsoft
 HOST-SUFFIX,microsoftcloud.com,Microsoft
 HOST-SUFFIX,microsoftcloudsummit.com,Microsoft

@@ -37,19 +37,10 @@ HOST-SUFFIX,pingan.com.cn,Mainland
 # > Beplay
 HOST-KEYWORD,beplay,Mainland
 
-# > Blizzard
-USER-AGENT,hearthstone*,Mainland
-HOST,cdp.cloud.unity3d.com,Mainland
-HOST-SUFFIX,battle.net,Mainland
-HOST-SUFFIX,battlenet.com,Mainland
-HOST-SUFFIX,blizzard.com,Mainland
-
 # > Microsoft
 USER-AGENT,Microsoft*,Mainland
 HOST-KEYWORD,microsoft,Mainland
-HOST-SUFFIX,ms,Mainland
-HOST-SUFFIX,bing.com,Mainland
-HOST-SUFFIX,bing.net,Mainland
+HOST-WILDCARD,windows-*.net,Mainland
 HOST-SUFFIX,hotmail.com,Mainland
 HOST-SUFFIX,live.com,Mainland
 HOST-SUFFIX,live.net,Mainland
@@ -70,6 +61,7 @@ HOST-SUFFIX,windows.com,Mainland
 HOST-SUFFIX,windows.net,Mainland
 HOST-SUFFIX,xbox.com,Mainland
 HOST-SUFFIX,xboxlive.com,Mainland
+HOST-SUFFIX,ms,Mainland
 
 # > Prior
 HOST,client.amplifi.com,Mainland
@@ -121,6 +113,7 @@ HOST-SUFFIX,8686c.com,Mainland
 HOST-SUFFIX,95516.com,Mainland
 HOST-SUFFIX,abercrombie.com,Mainland
 HOST-SUFFIX,adobesc.com,Mainland
+HOST-SUFFIX,aiaa.org,Mainland
 HOST-SUFFIX,air-matters.com,Mainland
 HOST-SUFFIX,air-matters.io,Mainland
 HOST-SUFFIX,airhotels.cn,Mainland
@@ -152,7 +145,6 @@ HOST-SUFFIX,chinacache.net,Mainland
 HOST-SUFFIX,chinaz.com,Mainland
 HOST-SUFFIX,chunbo.com,Mainland
 HOST-SUFFIX,chunboimg.com,Mainland
-HOST-SUFFIX,clashroyaleapp.com,Mainland
 HOST-SUFFIX,clouddn.com,Mainland
 HOST-SUFFIX,cloudsigma.com,Mainland
 HOST-SUFFIX,cloudxns.net,Mainland

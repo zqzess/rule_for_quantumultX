@@ -26,17 +26,9 @@ HOST-SUFFIX,pingan.com.cn,Mainland
 
 HOST-KEYWORD,beplay,Mainland
 
-USER-AGENT,hearthstone*,Mainland
-HOST,cdp.cloud.unity3d.com,Mainland
-HOST-SUFFIX,battle.net,Mainland
-HOST-SUFFIX,battlenet.com,Mainland
-HOST-SUFFIX,blizzard.com,Mainland
-
 USER-AGENT,Microsoft*,Mainland
 HOST-KEYWORD,microsoft,Mainland
-HOST-SUFFIX,ms,Mainland
-HOST-SUFFIX,bing.com,Mainland
-HOST-SUFFIX,bing.net,Mainland
+HOST-WILDCARD,windows-*.net,Mainland
 HOST-SUFFIX,hotmail.com,Mainland
 HOST-SUFFIX,live.com,Mainland
 HOST-SUFFIX,live.net,Mainland
@@ -57,6 +49,7 @@ HOST-SUFFIX,windows.com,Mainland
 HOST-SUFFIX,windows.net,Mainland
 HOST-SUFFIX,xbox.com,Mainland
 HOST-SUFFIX,xboxlive.com,Mainland
+HOST-SUFFIX,ms,Mainland
 
 HOST,client.amplifi.com,Mainland
 HOST,ip.bjango.com,Mainland
@@ -102,6 +95,7 @@ HOST-SUFFIX,8686c.com,Mainland
 HOST-SUFFIX,95516.com,Mainland
 HOST-SUFFIX,abercrombie.com,Mainland
 HOST-SUFFIX,adobesc.com,Mainland
+HOST-SUFFIX,aiaa.org,Mainland
 HOST-SUFFIX,air-matters.com,Mainland
 HOST-SUFFIX,air-matters.io,Mainland
 HOST-SUFFIX,airhotels.cn,Mainland
@@ -133,7 +127,6 @@ HOST-SUFFIX,chinacache.net,Mainland
 HOST-SUFFIX,chinaz.com,Mainland
 HOST-SUFFIX,chunbo.com,Mainland
 HOST-SUFFIX,chunboimg.com,Mainland
-HOST-SUFFIX,clashroyaleapp.com,Mainland
 HOST-SUFFIX,clouddn.com,Mainland
 HOST-SUFFIX,cloudsigma.com,Mainland
 HOST-SUFFIX,cloudxns.net,Mainland
@@ -361,6 +354,7 @@ HOST,sms.imagetasks.com,Mainland
 HOST,smtp.office365.com,Mainland
 HOST,steamcommunity-a.akamaihd.net,Mainland
 HOST,www.libvideo.com,Mainland
+HOST,www.yxssp.com,Mainland
 HOST-SUFFIX,00cdn.com,Mainland
 HOST-SUFFIX,0123456789.com,Mainland
 HOST-SUFFIX,0379home.com,Mainland
@@ -849,9 +843,7 @@ HOST-SUFFIX,banmaaike.com,Mainland
 HOST-SUFFIX,baofeng.com,Mainland
 HOST-SUFFIX,baomitu.com,Mainland
 HOST-SUFFIX,baoxianshichang.com,Mainland
-HOST-SUFFIX,battle.net,Mainland
 HOST-SUFFIX,battlecare.net,Mainland
-HOST-SUFFIX,battlenet.com,Mainland
 HOST-SUFFIX,baydn.com,Mainland
 HOST-SUFFIX,bazai.com,Mainland
 HOST-SUFFIX,bbbcdns.com,Mainland
@@ -926,7 +918,6 @@ HOST-SUFFIX,bkapps.com,Mainland
 HOST-SUFFIX,bkclouds.cc,Mainland
 HOST-SUFFIX,bktencent.com,Mainland
 HOST-SUFFIX,blackdragon.com,Mainland
-HOST-SUFFIX,blizzard.com,Mainland
 HOST-SUFFIX,blogjava.net,Mainland
 HOST-SUFFIX,blyun.com,Mainland
 HOST-SUFFIX,bmj.com,Mainland
@@ -1542,6 +1533,7 @@ HOST-SUFFIX,duitang.com,Mainland
 HOST-SUFFIX,duoduocdn.com,Mainland
 HOST-SUFFIX,duokan.com,Mainland
 HOST-SUFFIX,duokanbox.com,Mainland
+HOST-SUFFIX,duolabao.com,Mainland
 HOST-SUFFIX,duomai.com,Mainland
 HOST-SUFFIX,duoshuo.com,Mainland
 HOST-SUFFIX,duote.com,Mainland
@@ -1770,6 +1762,7 @@ HOST-SUFFIX,goodread.com,Mainland
 HOST-SUFFIX,goofish.com,Mainland
 HOST-SUFFIX,googletraveladservices.com,Mainland
 HOST-SUFFIX,goosail.com,Mainland
+HOST-SUFFIX,goproxy.io,Mainland
 HOST-SUFFIX,goselling.com,Mainland
 HOST-SUFFIX,goto-game.com,Mainland
 HOST-SUFFIX,goto-game.mobi,Mainland
@@ -1850,6 +1843,7 @@ HOST-SUFFIX,hdhome.org,Mainland
 HOST-SUFFIX,hdslb.com,Mainland
 HOST-SUFFIX,hdslb.org,Mainland
 HOST-SUFFIX,hdyxgame.com,Mainland
+HOST-SUFFIX,healthjd.com,Mainland
 HOST-SUFFIX,heavenlywind.cc,Mainland
 HOST-SUFFIX,hefei.cc,Mainland
 HOST-SUFFIX,heisha.net,Mainland
@@ -2218,6 +2212,7 @@ HOST-SUFFIX,jdemall.com,Mainland
 HOST-SUFFIX,jdfw1.com,Mainland
 HOST-SUFFIX,jdgslb.com,Mainland
 HOST-SUFFIX,jdgslb.net,Mainland
+HOST-SUFFIX,jdh.com,Mainland
 HOST-SUFFIX,jdjinrong.com,Mainland
 HOST-SUFFIX,jdl.com,Mainland
 HOST-SUFFIX,jdpay.com,Mainland
@@ -3529,6 +3524,8 @@ HOST-SUFFIX,vijos.org,Mainland
 HOST-SUFFIX,vip.com,Mainland
 HOST-SUFFIX,vipdlt.com,Mainland
 HOST-SUFFIX,vipexam.org,Mainland
+HOST-SUFFIX,vipmro.com,Mainland
+HOST-SUFFIX,vipmro.net,Mainland
 HOST-SUFFIX,visualstudio.com,Mainland
 HOST-SUFFIX,vmall.com,Mainland
 HOST-SUFFIX,vmallres.com,Mainland
@@ -3955,6 +3952,7 @@ HOST-SUFFIX,zuoyebang.com,Mainland
 HOST-SUFFIX,zybang.com,Mainland
 HOST-SUFFIX,zyh365.com,Mainland
 HOST-SUFFIX,zzdtec.com,Mainland
+HOST-WILDCARD,windows-*.net,Mainland
 HOST-KEYWORD,.tmall.com,Mainland
 HOST-KEYWORD,alicdn,Mainland
 HOST-KEYWORD,alipay,Mainland

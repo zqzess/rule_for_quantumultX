@@ -6,7 +6,6 @@ HOST-SUFFIX,go.com,GMedia
 USER-AGENT,AbemaTV*,GMedia
 HOST-SUFFIX,abema.io,GMedia
 HOST-SUFFIX,abema.tv,GMedia
-HOST-SUFFIX,akamaized.net,GMedia
 HOST-SUFFIX,ameba.jp,GMedia
 HOST-SUFFIX,hayabusa.io,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
@@ -83,22 +82,15 @@ HOST-SUFFIX,zype.com,GMedia
 
 # > DAZN
 USER-AGENT,DAZN*,GMedia
-HOST-KEYWORD,voddazn,GMedia
-HOST-SUFFIX,dazn.com,GMedia
+HOST-WILDCARD,dc?livedazn.akamaized.net,GMedia
+HOST-WILDCARD,dc?voddazn.akamaized.net,GMedia
 HOST-SUFFIX,dazn-api.com,GMedia
+HOST-SUFFIX,dazn.com,GMedia
 HOST-SUFFIX,dazndn.com,GMedia
-HOST-SUFFIX,daznedge.net,GMedia
-HOST-SUFFIX,daznfeeds.com,GMedia
-HOST-SUFFIX,daznservices.com,GMedia
 HOST-SUFFIX,indazn.com,GMedia
 HOST-SUFFIX,indaznlab.com,GMedia
-HOST,daznfeeds.com.edgekey.net,GMedia
-HOST,dca-lm-livedazn.secure.footprint.net,GMedia
-HOST,h-dazn.online-metrix.net,GMedia
-HOST,images-daznservices-com.cdn.ampproject.org,GMedia
-HOST,d151l6v8er5bdm.cloudfront.net,GMedia
-IP-CIDR,185.42.236.0/24,GMedia
-IP-CIDR,185.42.238.0/24,GMedia
+HOST-SUFFIX,dc1live2lindazn.akamaized.net,GMedia
+HOST-SUFFIX,dc1-lm-live2dazn.secure.footprint.net,GMedia
 
 # > Disney Plus
 USER-AGENT,Disney*,GMedia

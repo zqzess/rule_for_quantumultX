@@ -1,17 +1,18 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-03-13 02:15:24
-# HOST: 10
+# UPDATED: 2023-03-26 02:13:27
+# HOST: 11
 # HOST-KEYWORD: 31
-# HOST-SUFFIX: 25440
+# HOST-SUFFIX: 25416
 # IP-CIDR: 88
 # IP6-CIDR: 3
-# USER-AGENT: 8
-# TOTAL: 25580
+# USER-AGENT: 9
+# TOTAL: 25558
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
+HOST,cdp.cloud.unity3d.com,Proxy
 HOST,cvws.icloud-content.com,Proxy
 HOST,developer.apple.com,Proxy
 HOST,lens.l.google.com,Proxy
@@ -896,7 +897,6 @@ HOST-SUFFIX,2tu.cc,Proxy
 HOST-SUFFIX,2waky.com,Proxy
 HOST-SUFFIX,2zrdc.com,Proxy
 HOST-SUFFIX,3-a.net,Proxy
-HOST-SUFFIX,3.32.ddns.name,Proxy
 HOST-SUFFIX,3.32top.xyz,Proxy
 HOST-SUFFIX,3.aa1122.ws,Proxy
 HOST-SUFFIX,3.cr.rs,Proxy
@@ -3286,7 +3286,6 @@ HOST-SUFFIX,app-sdylqipai3917.com,Proxy
 HOST-SUFFIX,app.arukas.io,Proxy
 HOST-SUFFIX,app.asso.st,Proxy
 HOST-SUFFIX,app.e8777.com,Proxy
-HOST-SUFFIX,app.gd.ddns.name,Proxy
 HOST-SUFFIX,app.leg.wa.gov,Proxy
 HOST-SUFFIX,app.staging.nuorder.com,Proxy
 HOST-SUFFIX,app.tv333.us,Proxy
@@ -3488,9 +3487,6 @@ HOST-SUFFIX,austinjardinera.com,Proxy
 HOST-SUFFIX,australiachinarelations.org,Proxy
 HOST-SUFFIX,australiaplus.com,Proxy
 HOST-SUFFIX,auth.docker.io,Proxy
-HOST-SUFFIX,authorizeddns.net,Proxy
-HOST-SUFFIX,authorizeddns.org,Proxy
-HOST-SUFFIX,authorizeddns.us,Proxy
 HOST-SUFFIX,auto-aufladen.de,Proxy
 HOST-SUFFIX,auto.freev2.top,Proxy
 HOST-SUFFIX,auto0391.com,Proxy
@@ -3787,7 +3783,9 @@ HOST-SUFFIX,basketbawful.com,Proxy
 HOST-SUFFIX,bastillepost.com,Proxy
 HOST-SUFFIX,bat.me,Proxy
 HOST-SUFFIX,battle.gtasia777.com,Proxy
+HOST-SUFFIX,battle.net,Proxy
 HOST-SUFFIX,battle1.gtasia777.com,Proxy
+HOST-SUFFIX,battlenet.com,Proxy
 HOST-SUFFIX,bawimydzieci.pl,Proxy
 HOST-SUFFIX,baxyy.com,Proxy
 HOST-SUFFIX,bayescapital.com,Proxy
@@ -4198,6 +4196,7 @@ HOST-SUFFIX,blinkx.com,Proxy
 HOST-SUFFIX,blinw.com,Proxy
 HOST-SUFFIX,blip.tv,Proxy
 HOST-SUFFIX,bliporn.com,Proxy
+HOST-SUFFIX,blizzard.com,Proxy
 HOST-SUFFIX,blm1.app,Proxy
 HOST-SUFFIX,blm2.app,Proxy
 HOST-SUFFIX,blm234.net,Proxy
@@ -4826,7 +4825,6 @@ HOST-SUFFIX,bx.in.th,Proxy
 HOST-SUFFIX,bx.tl,Proxy
 HOST-SUFFIX,bxwx.net,Proxy
 HOST-SUFFIX,by.bnaz.org,Proxy
-HOST-SUFFIX,by.ddns.name,Proxy
 HOST-SUFFIX,byb8.app,Proxy
 HOST-SUFFIX,bybit.com,Proxy
 HOST-SUFFIX,byedon.com,Proxy
@@ -5819,7 +5817,6 @@ HOST-SUFFIX,compython.net,Proxy
 HOST-SUFFIX,comunio.de,Proxy
 HOST-SUFFIX,comunitatibetana.org,Proxy
 HOST-SUFFIX,config.getiantem.org,Proxy
-HOST-SUFFIX,conn23.ddns.me,Proxy
 HOST-SUFFIX,connectify.asia,Proxy
 HOST-SUFFIX,connectionless.net,Proxy
 HOST-SUFFIX,connectssr.com,Proxy
@@ -6403,15 +6400,6 @@ HOST-SUFFIX,ddhw.info,Proxy
 HOST-SUFFIX,dditscdn.com,Proxy
 HOST-SUFFIX,ddjv18.com,Proxy
 HOST-SUFFIX,ddnete.com,Proxy
-HOST-SUFFIX,ddns.info,Proxy
-HOST-SUFFIX,ddns.me.uk,Proxy
-HOST-SUFFIX,ddns.mobi,Proxy
-HOST-SUFFIX,ddns.ms,Proxy
-HOST-SUFFIX,ddns.net,Proxy
-HOST-SUFFIX,ddns.us,Proxy
-HOST-SUFFIX,ddnsfree.com,Proxy
-HOST-SUFFIX,ddnsgeek.com,Proxy
-HOST-SUFFIX,ddnsking.com,Proxy
 HOST-SUFFIX,ddockslounge.com,Proxy
 HOST-SUFFIX,ddownr.com,Proxy
 HOST-SUFFIX,ddxzp.com,Proxy
@@ -6953,7 +6941,6 @@ HOST-SUFFIX,dx3303.com,Proxy
 HOST-SUFFIX,dx7711.com,Proxy
 HOST-SUFFIX,dx7722.com,Proxy
 HOST-SUFFIX,dxiong.com,Proxy
-HOST-SUFFIX,dy.ddns.name,Proxy
 HOST-SUFFIX,dy606.com,Proxy
 HOST-SUFFIX,dy9910.com,Proxy
 HOST-SUFFIX,dy9950.com,Proxy
@@ -8058,8 +8045,6 @@ HOST-SUFFIX,freechina.tech.blog,Proxy
 HOST-SUFFIX,freechinaforum.org,Proxy
 HOST-SUFFIX,freechinaradio.com,Proxy
 HOST-SUFFIX,freechinaweibo.com,Proxy
-HOST-SUFFIX,freeddns.com,Proxy
-HOST-SUFFIX,freeddns.org,Proxy
 HOST-SUFFIX,freedns.controld.com,Proxy
 HOST-SUFFIX,freedns.org,Proxy
 HOST-SUFFIX,freedom-ip.com,Proxy
@@ -8902,8 +8887,6 @@ HOST-SUFFIX,goo.jp,Proxy
 HOST-SUFFIX,goo.ne.jp,Proxy
 HOST-SUFFIX,goodav17.com,Proxy
 HOST-SUFFIX,gooday.xyz,Proxy
-HOST-SUFFIX,gooddns.info,Proxy
-HOST-SUFFIX,gooddns.xyz,Proxy
 HOST-SUFFIX,goodhope.school,Proxy
 HOST-SUFFIX,goodnews.good-tutor.net,Proxy
 HOST-SUFFIX,goodreaders.com,Proxy
@@ -9240,7 +9223,6 @@ HOST-SUFFIX,greatproxies.com,Proxy
 HOST-SUFFIX,greatroc.org,Proxy
 HOST-SUFFIX,greatroc.tw,Proxy
 HOST-SUFFIX,greatzhonghua.org,Proxy
-HOST-SUFFIX,gree.ddns.name,Proxy
 HOST-SUFFIX,green960.com,Proxy
 HOST-SUFFIX,greenbed.com,Proxy
 HOST-SUFFIX,greenfieldbookstore.com.hk,Proxy
@@ -10588,7 +10570,6 @@ HOST-SUFFIX,io.freess.org,Proxy
 HOST-SUFFIX,io.io,Proxy
 HOST-SUFFIX,ioasgo.com.ar,Proxy
 HOST-SUFFIX,ionic.cf,Proxy
-HOST-SUFFIX,ios.gd.ddns.name,Proxy
 HOST-SUFFIX,iownyour.biz,Proxy
 HOST-SUFFIX,iownyour.org,Proxy
 HOST-SUFFIX,ioxoxi.club,Proxy
@@ -13308,7 +13289,6 @@ HOST-SUFFIX,mycp233.com,Proxy
 HOST-SUFFIX,mydad.info,Proxy
 HOST-SUFFIX,mydati.com,Proxy
 HOST-SUFFIX,myday.cn,Proxy
-HOST-SUFFIX,myddns.com,Proxy
 HOST-SUFFIX,myeasytv.com,Proxy
 HOST-SUFFIX,myeclipseide.com,Proxy
 HOST-SUFFIX,myexternalip.com,Proxy
@@ -13413,7 +13393,6 @@ HOST-SUFFIX,n888ff.com,Proxy
 HOST-SUFFIX,n888qq.com,Proxy
 HOST-SUFFIX,n8photos.com,Proxy
 HOST-SUFFIX,n9919.com,Proxy
-HOST-SUFFIX,na.ddns.name,Proxy
 HOST-SUFFIX,na.kalone.net,Proxy
 HOST-SUFFIX,naacoalition.org,Proxy
 HOST-SUFFIX,nabble.com,Proxy
@@ -18540,7 +18519,6 @@ HOST-SUFFIX,ub0.cc,Proxy
 HOST-SUFFIX,ub66.com,Proxy
 HOST-SUFFIX,ub66.net,Proxy
 HOST-SUFFIX,ub8play.com,Proxy
-HOST-SUFFIX,ubddns.org,Proxy
 HOST-SUFFIX,uberproxy.net,Proxy
 HOST-SUFFIX,ubf.kr,Proxy
 HOST-SUFFIX,ubint.net,Proxy
@@ -18765,7 +18743,6 @@ HOST-SUFFIX,us-central1-ripple-3dc2d.cloudfunctions.net,Proxy
 HOST-SUFFIX,us-central1.cloudfunctions.net,Proxy
 HOST-SUFFIX,us.32bit.top,Proxy
 HOST-SUFFIX,us.44.14.iamallama.com,Proxy
-HOST-SUFFIX,us.ddns.me,Proxy
 HOST-SUFFIX,us.hk303.c8763.com,Proxy
 HOST-SUFFIX,us.ishadowx.net,Proxy
 HOST-SUFFIX,us.net2cn.tk,Proxy
@@ -25498,6 +25475,7 @@ USER-AGENT,TikTok*,Proxy
 USER-AGENT,WhatsApp*,Proxy
 USER-AGENT,battleroyale*,Proxy
 USER-AGENT,com.apple.trustd*,Proxy
+USER-AGENT,hearthstone*,Proxy
 IP-CIDR,1.201.0.0/24,Proxy
 IP-CIDR,101.32.118.0/23,Proxy
 IP-CIDR,101.32.96.0/20,Proxy

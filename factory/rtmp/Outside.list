@@ -1,3 +1,10 @@
+# > Blizzard
+USER-AGENT,hearthstone*,Outside
+HOST,cdp.cloud.unity3d.com,Outside
+HOST-SUFFIX,battle.net,Outside
+HOST-SUFFIX,battlenet.com,Outside
+HOST-SUFFIX,blizzard.com,Outside
+
 # > Discord
 HOST-SUFFIX,discord.com,Outside
 HOST-SUFFIX,discord.gg,Outside
@@ -31,10 +38,16 @@ HOST-SUFFIX,nhncorp.jp,Outside
 # > Microsoft Proxy
 USER-AGENT,OneDrive*,Outside
 HOST-KEYWORD,onedrive,Outside
+HOST-SUFFIX,bing.com,Outside
+HOST-SUFFIX,bing.net,Outside
 HOST-SUFFIX,onedrive.com,Outside
 HOST-SUFFIX,skype.com,Outside
 HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
+
+# > OpenAI
+HOST-SUFFIX,ai.com,Outside
+HOST-SUFFIX,openai.com,Outside
 
 # > PayPal
 USER-AGENT,PayPal*,Outside
@@ -415,6 +428,7 @@ HOST-SUFFIX,mp3buscador.com,Outside
 HOST-SUFFIX,msedge.net,Outside
 HOST-SUFFIX,mycnnews.com,Outside
 HOST-SUFFIX,myfontastic.com,Outside
+HOST-SUFFIX,mypikpak.com,Outside
 HOST-SUFFIX,name.com,Outside
 HOST-SUFFIX,nasa.gov,Outside
 HOST-SUFFIX,ndr.de,Outside
