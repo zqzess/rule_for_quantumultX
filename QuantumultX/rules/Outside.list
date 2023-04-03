@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2023-03-27 00:47:36
+# Outside rules refresh time: 2023-04-03 00:46:47
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -3911,6 +3911,7 @@ HOST-SUFFIX,annoyer.com,Outside
 HOST-SUFFIX,anobii.com,Outside
 HOST-SUFFIX,anon-v.com,Outside
 HOST-SUFFIX,anonasurf.com,Outside
+HOST-SUFFIX,anonfiles.com,Outside
 HOST-SUFFIX,anonproxy.eu,Outside
 HOST-SUFFIX,anontext.com,Outside
 HOST-SUFFIX,anonymise.us,Outside
@@ -4146,7 +4147,6 @@ HOST-SUFFIX,ashpazonline.com,Outside
 HOST-SUFFIX,ashtrono.my,Outside
 HOST-SUFFIX,asia-api.yikyakapi.net,Outside
 HOST-SUFFIX,asia-gaming.com,Outside
-HOST-SUFFIX,asia-northeast1-saluton.cloudfunctions.net,Outside
 HOST-SUFFIX,asia.dnscepat.id,Outside
 HOST-SUFFIX,asia.playstation.com,Outside
 HOST-SUFFIX,asiabet168.com,Outside
@@ -6300,6 +6300,7 @@ HOST-SUFFIX,cloudflare-dns.com,Outside
 HOST-SUFFIX,cloudflare-ipfs.com,Outside
 HOST-SUFFIX,cloudfoundry.com,Outside
 HOST-SUFFIX,cloudfront.glb.cellopoint.com,Outside
+HOST-SUFFIX,cloudfunctions.net,Outside
 HOST-SUFFIX,cloudmosa.com,Outside
 HOST-SUFFIX,cloudtv.bz,Outside
 HOST-SUFFIX,cloudup.com,Outside
@@ -8023,7 +8024,6 @@ HOST-SUFFIX,europa.eu,Outside
 HOST-SUFFIX,europages.lv,Outside
 HOST-SUFFIX,europalace.com,Outside
 HOST-SUFFIX,europapress.es,Outside
-HOST-SUFFIX,europe-west1-mth-web.cloudfunctions.net,Outside
 HOST-SUFFIX,europornstar.com,Outside
 HOST-SUFFIX,europroxy.eu,Outside
 HOST-SUFFIX,eurorgb.com,Outside
@@ -11271,6 +11271,7 @@ HOST-SUFFIX,itcamefromtheradio.com,Outside
 HOST-SUFFIX,iteke.ml,Outside
 HOST-SUFFIX,iteke.tk,Outside
 HOST-SUFFIX,itemdb.com,Outside
+HOST-SUFFIX,itemfix.com,Outside
 HOST-SUFFIX,ithome.com.tw,Outside
 HOST-SUFFIX,itm-tracker.witron.de,Outside
 HOST-SUFFIX,itopcup.com,Outside
@@ -12274,6 +12275,7 @@ HOST-SUFFIX,leaver.me,Outside
 HOST-SUFFIX,lebtimnetz.de,Outside
 HOST-SUFFIX,lecanardenchaine.fr,Outside
 HOST-SUFFIX,lecloud.net,Outside
+HOST-SUFFIX,ledger.com,Outside
 HOST-SUFFIX,ledongzhibo111.com,Outside
 HOST-SUFFIX,ledongzhibo1111.com,Outside
 HOST-SUFFIX,ledongzhibo222.com,Outside
@@ -14522,6 +14524,7 @@ HOST-SUFFIX,oldertube.com,Outside
 HOST-SUFFIX,oldgoesyoung.com,Outside
 HOST-SUFFIX,oldpiratebay.org,Outside
 HOST-SUFFIX,ole777.com,Outside
+HOST-SUFFIX,olehdtv.com,Outside
 HOST-SUFFIX,olevod.com,Outside
 HOST-SUFFIX,olicobrokers.com,Outside
 HOST-SUFFIX,olimptrade.com.br,Outside
@@ -17804,7 +17807,6 @@ HOST-SUFFIX,tesco.co.uk,Outside
 HOST-SUFFIX,tesco.com,Outside
 HOST-SUFFIX,test-idc-3.fjla37itnf5dpsen.com,Outside
 HOST-SUFFIX,test-wiki-01.site88.net,Outside
-HOST-SUFFIX,test.cloudfunctions.net,Outside
 HOST-SUFFIX,test.domain888.pw,Outside
 HOST-SUFFIX,test.freepac.pw,Outside
 HOST-SUFFIX,test.hao999.ml,Outside
@@ -18944,7 +18946,6 @@ HOST-SUFFIX,upmextv.com,Outside
 HOST-SUFFIX,uporn.net,Outside
 HOST-SUFFIX,upornia.com,Outside
 HOST-SUFFIX,uproxy.org,Outside
-HOST-SUFFIX,uproxysite.cloudfunctions.net,Outside
 HOST-SUFFIX,upsc.co.uk,Outside
 HOST-SUFFIX,uptodown.com,Outside
 HOST-SUFFIX,uptown.pw,Outside
@@ -18969,13 +18970,6 @@ HOST-SUFFIX,urlgalleries.net,Outside
 HOST-SUFFIX,uryoutube.com,Outside
 HOST-SUFFIX,uryu.com.br,Outside
 HOST-SUFFIX,us-189-255-4.fri-gate.biz,Outside
-HOST-SUFFIX,us-central1-celebrity-voice.cloudfunctions.net,Outside
-HOST-SUFFIX,us-central1-ecai2020-prod.cloudfunctions.net,Outside
-HOST-SUFFIX,us-central1-invue-live.cloudfunctions.net,Outside
-HOST-SUFFIX,us-central1-kirichilli-cart.cloudfunctions.net,Outside
-HOST-SUFFIX,us-central1-metronaut-dev-fa32c.cloudfunctions.net,Outside
-HOST-SUFFIX,us-central1-ripple-3dc2d.cloudfunctions.net,Outside
-HOST-SUFFIX,us-central1.cloudfunctions.net,Outside
 HOST-SUFFIX,us.32bit.top,Outside
 HOST-SUFFIX,us.44.14.iamallama.com,Outside
 HOST-SUFFIX,us.hk303.c8763.com,Outside
