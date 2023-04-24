@@ -13,7 +13,7 @@
 let title = '🔔阿里云盘签到'
 const keyName = 'ADriveCheckIn'
 const $ = new Env(title, true)
-let ADrivreInfo = {
+let ADrivre = {
     authUA: '',
     xua: '',
     refresh_token_body: '',
@@ -21,7 +21,7 @@ let ADrivreInfo = {
     refresh_token: '',
     isAutoGetReword: true
 }
-ADrivreInfo = $.getjson(keyName) || ''
+ADrivreInfo = $.getjson(keyName) || ADrivre
 const authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 const checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
 const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
@@ -31,7 +31,7 @@ if (typeof $request !== 'undefined') {
 } else if (!ADrivreInfo.refresh_token_body && !ADrivreInfo.headers) {
     if($.getdata('@ADrive.refresh_token'))
     {
-        $.msg($.name, `脚本近期已更新，请重新获取token`, `请更新boxjs选择是否关闭自动领取奖励，默认开启`);
+        $.msg($.name, `脚本近期已更新，请重新获取token`, `请先更新boxjs选择是否关闭自动领取奖励，默认开启`);
     }else{
         $.msg($.name, ``, `token失效/未获取 ⚠️`);
     }
@@ -69,9 +69,9 @@ function GetRefresh_token() {
             ADrivreInfo.headers = headers
             let t = $.setjson(ADrivreInfo,keyName)
             if (t) {
-                $.msg('更新阿里网盘refresh_token成功 🎉', '', '')
+                $.msg('首次写入阿里网盘refresh_token成功 🎉', '', '')
             } else {
-                $.msg('更新阿里网盘refresh_token失败‼️', '', '')
+                $.msg('首次写入阿里网盘refresh_token失败‼️', '', '')
             }
         }
     }
