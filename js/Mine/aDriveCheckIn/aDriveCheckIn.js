@@ -159,7 +159,13 @@ function signCheckin(authorization) {
             let signInLogs = body.result.signInLogs
             $.log('签到天数: ' + signInCount)
             let reward = ''
+            let index = 1;
             signInLogs.forEach(function (i) {
+                if(index === signInLogs.length && !ADrivreInfo.isAutoGetReword)
+                {
+                    $.log('已经月末了，请不要忘记领取前面未领取的奖励')
+                    $.msg(title,'📅月末提醒','请不要忘记领取之前的奖励')
+                }
                 if (Number(i.day) === signInCount) {
                     if(i.isReward)
                     {
@@ -173,7 +179,7 @@ function signCheckin(authorization) {
                             {
                                 reward = ''
                                 $.log('签到完成')
-                                if(ADrivreInfo.isAutoGetReword)
+                                if(!ADrivreInfo.isAutoGetReword)
                                     $.log('⚠自动领取奖励未开启')
                                 getReword(authorization,signInCount)
                             }else{
@@ -184,6 +190,7 @@ function signCheckin(authorization) {
 
                     }
                 }
+                index++
             })
             if (isReward && reward) {
                 $.msg(title, stitle, reward)
