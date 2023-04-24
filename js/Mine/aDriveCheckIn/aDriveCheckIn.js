@@ -173,6 +173,8 @@ function signCheckin(authorization) {
                             {
                                 reward = ''
                                 $.log('签到完成')
+                                if(ADrivreInfo.isAutoGetReword)
+                                    $.log('⚠自动领取奖励未开启')
                                 getReword(authorization,signInCount)
                             }else{
                                 reward = '❌签到奖励还未领取，自动领取未开启'
