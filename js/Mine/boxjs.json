@@ -225,14 +225,14 @@
       "id": "aDriveCheckIn",
       "name": "阿里云盘自动签到",
       "keys": [
-        "@ADrive.refresh_token_body",
-        "@ADrive.headers",
-        "@ADrive.refresh_token",
-        "@ADrive.autoGetReword"
+        "@ADriveCheckIn.refresh_token_body",
+        "@ADriveCheckIn.headers",
+        "@ADriveCheckIn.refresh_token",
+        "@ADriveCheckIn.autoGetReword"
       ],
       "settings": [
         {
-          "id": "@ADrive.refresh_token",
+          "id": "@ADriveCheckIn.refresh_token",
           "name": "refresh_token",
           "val": null,
           "type": "text",
@@ -241,7 +241,7 @@
           "desc": "阿里云盘refresh_token"
         },
         {
-          "id": "@ADrive.autoGetReword",
+          "id": "@ADriveCheckIn.autoGetReword",
           "name": "开启自动领取奖励",
           "val": true,
           "type": "boolean",
