@@ -31,7 +31,7 @@ if (typeof $request !== 'undefined') {
 } else if (!ADrivreInfo.refresh_token_body && !ADrivreInfo.headers) {
     if($.getdata('@ADrive.refresh_token'))
     {
-        $.msg($.name, `脚本近期已更新，请重新获取token`, `请先更新boxjs选择是否关闭自动领取奖励，默认开启`);
+        $.msg($.name, `脚本近期已更新，请重新获取token`, `请更新boxjs选择是否关闭自动领取奖励，默认开启`);
     }else{
         $.msg($.name, ``, `token失效/未获取 ⚠️`);
     }
