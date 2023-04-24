@@ -6,7 +6,7 @@
   "repo": "https://github.com/zqzess/rule_for_quantumultX",
   "apps": [
     {
-      "id": "DaysMatter",
+      "id": "debug.DaysMatter",
       "name": "倒数日debug",
       "keys": [
         "@DaysMatter.userDays",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": "aDriveCheckIn",
+      "id": "debug.aDriveCheckIn",
       "name": "阿里云盘自动签到debug",
       "keys": [
         "@ADrive.refresh_token_body",
