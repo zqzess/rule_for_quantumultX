@@ -19,6 +19,7 @@ if (headers)
 let refresh_token = $zqzess.read('@ADrive.refresh_token') // 备用
 let authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 let checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
+const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
 let title = '🔔阿里云盘签到'
 
 if ($zqzess.isRequest) {
@@ -168,7 +169,7 @@ function signCheckin(authorization) {
                         reward = ' 第' + signInCount + '天奖励，' + i.reward.name + i.reward.description
                     }else
                     {
-                        reward = i.poster.reason + '\n' + i.poster.name
+                        reward = '签到奖励还未领取'
                     }
                 }
             })

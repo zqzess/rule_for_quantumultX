@@ -227,7 +227,8 @@
       "keys": [
         "@ADrive.refresh_token_body",
         "@ADrive.headers",
-        "@ADrive.refresh_token"
+        "@ADrive.refresh_token",
+        "@ADrive.autoGetReword"
       ],
       "settings": [
         {
@@ -238,6 +239,13 @@
           "autoGrow": false,
           "rows": 1,
           "desc": "阿里云盘refresh_token"
+        },
+        {
+          "id": "@ADrive.autoGetReword",
+          "name": "开启自动领取奖励",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开启"
         }
       ],
       "author": "@zqzess",
