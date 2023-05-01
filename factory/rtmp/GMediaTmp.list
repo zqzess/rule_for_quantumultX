@@ -1439,7 +1439,7 @@ HOST-WILDCARD,youtube.com.*,GMedia
 HOST-WILDCARD,youtubego.*,GMedia
 HOST-WILDCARD,youtubego.co.*,GMedia
 HOST-WILDCARD,youtubego.com.*,GMedia
-HOST-KEYWORD,-spotify-com,GMedia
+HOST-KEYWORD,-spotify-,GMedia
 HOST-KEYWORD,abematv.akamaized.net,GMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GMedia
 HOST-KEYWORD,avoddashs,GMedia
@@ -1458,7 +1458,7 @@ HOST-KEYWORD,nowtv100,GMedia
 HOST-KEYWORD,olevod,GMedia
 HOST-KEYWORD,rthklive,GMedia
 HOST-KEYWORD,spotify.com,GMedia
-HOST-KEYWORD,tiktokcdn-,GMedia
+HOST-KEYWORD,tiktokcdn,GMedia
 HOST-KEYWORD,ttvnw,GMedia
 HOST-KEYWORD,uk-live,GMedia
 HOST-KEYWORD,voddazn,GMedia

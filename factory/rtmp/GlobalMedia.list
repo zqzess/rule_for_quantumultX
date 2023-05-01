@@ -1,7 +1,7 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-07 14:50:21
+# UPDATED: 2023-04-28 02:11:39
 # HOST: 28
 # HOST-KEYWORD: 24
 # HOST-SUFFIX: 1086
@@ -1134,7 +1134,7 @@ HOST-WILDCARD,youtube.com.*,GlobalMedia
 HOST-WILDCARD,youtubego.*,GlobalMedia
 HOST-WILDCARD,youtubego.co.*,GlobalMedia
 HOST-WILDCARD,youtubego.com.*,GlobalMedia
-HOST-KEYWORD,-spotify-com,GlobalMedia
+HOST-KEYWORD,-spotify-,GlobalMedia
 HOST-KEYWORD,abematv.akamaized.net,GlobalMedia
 HOST-KEYWORD,apiproxy-device-prod-nlb-,GlobalMedia
 HOST-KEYWORD,avoddashs,GlobalMedia
@@ -1153,7 +1153,7 @@ HOST-KEYWORD,nowtv100,GlobalMedia
 HOST-KEYWORD,olevod,GlobalMedia
 HOST-KEYWORD,rthklive,GlobalMedia
 HOST-KEYWORD,spotify.com,GlobalMedia
-HOST-KEYWORD,tiktokcdn-,GlobalMedia
+HOST-KEYWORD,tiktokcdn,GlobalMedia
 HOST-KEYWORD,ttvnw,GlobalMedia
 HOST-KEYWORD,uk-live,GlobalMedia
 HOST-KEYWORD,voddazn,GlobalMedia

@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-24 02:13:08
+# UPDATED: 2023-04-25 02:11:08
 # HOST: 11
 # HOST-KEYWORD: 31
-# HOST-SUFFIX: 6322
+# HOST-SUFFIX: 6327
 # IP-CIDR: 88
 # IP6-CIDR: 3
 # USER-AGENT: 9
-# TOTAL: 6464
+# TOTAL: 6469
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -1924,6 +1924,7 @@ HOST-SUFFIX,freewww.info,Proxy
 HOST-SUFFIX,freexinwen.com,Proxy
 HOST-SUFFIX,freeyellow.com,Proxy
 HOST-SUFFIX,freeyoutubeproxy.net,Proxy
+HOST-SUFFIX,freezhihu.org,Proxy
 HOST-SUFFIX,frienddy.com,Proxy
 HOST-SUFFIX,friendfeed-media.com,Proxy
 HOST-SUFFIX,friendfeed.com,Proxy
@@ -5122,6 +5123,7 @@ HOST-SUFFIX,teamamericany.com,Proxy
 HOST-SUFFIX,teamviewer.com,Proxy
 HOST-SUFFIX,techcrunch.com,Proxy
 HOST-SUFFIX,technews.tw,Proxy
+HOST-SUFFIX,technorati.com,Proxy
 HOST-SUFFIX,techsmith.com,Proxy
 HOST-SUFFIX,techspot.com,Proxy
 HOST-SUFFIX,techviz.net,Proxy
@@ -5483,6 +5485,7 @@ HOST-SUFFIX,tweeplike.me,Proxy
 HOST-SUFFIX,tweepmag.com,Proxy
 HOST-SUFFIX,tweepml.org,Proxy
 HOST-SUFFIX,tweetbackup.com,Proxy
+HOST-SUFFIX,tweetboard.com,Proxy
 HOST-SUFFIX,tweetboner.biz,Proxy
 HOST-SUFFIX,tweetcs.com,Proxy
 HOST-SUFFIX,tweetdeck.com,Proxy
@@ -5544,6 +5547,7 @@ HOST-SUFFIX,twittbot.net,Proxy
 HOST-SUFFIX,twitter.com,Proxy
 HOST-SUFFIX,twitter.jp,Proxy
 HOST-SUFFIX,twitter4j.org,Proxy
+HOST-SUFFIX,twittercounter.com,Proxy
 HOST-SUFFIX,twitterfeed.com,Proxy
 HOST-SUFFIX,twittergadget.com,Proxy
 HOST-SUFFIX,twitterkr.com,Proxy
@@ -5980,6 +5984,7 @@ HOST-SUFFIX,wikipedia.com,Proxy
 HOST-SUFFIX,wikipedia.org,Proxy
 HOST-SUFFIX,wikiquote.org,Proxy
 HOST-SUFFIX,wikisource.org,Proxy
+HOST-SUFFIX,wikiunblocked.org,Proxy
 HOST-SUFFIX,wikiversity.org,Proxy
 HOST-SUFFIX,wikivoyage.org,Proxy
 HOST-SUFFIX,wikiwand.com,Proxy
