@@ -228,7 +228,7 @@
         "@ADriveCheckIn.refresh_token_body",
         "@ADriveCheckIn.headers",
         "@ADriveCheckIn.refresh_token",
-        "@ADriveCheckIn.autoGetReword"
+        "@ADriveCheckIn.isAutoGetReword"
       ],
       "settings": [
         {
