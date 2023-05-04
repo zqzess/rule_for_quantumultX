@@ -7,6 +7,7 @@
  * @Version :
  * @Desc : switch价格监控，目前只支持日区，点击通知可以跳转查看详情
  * @GitHUb Https://github.com/zqzess
+ * @Thanks 感谢@chavyleung提供的Env
  * ========================
  **/
 let title = '🎮switch游戏价格监控'
