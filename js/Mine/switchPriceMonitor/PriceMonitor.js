@@ -19,6 +19,7 @@ let Monitor = {
 // const api = 'https://api.ec.nintendo.com/v1/price?country=JP&lang=zh&ids=70070000000024'
 const api = 'https://api.ec.nintendo.com/v1/price?country=JP&lang=zh&ids='
 let MonitorInfo = $.getjson(keyName) || Monitor
+$.log(MonitorInfo)
 const delay = ms => new Promise((resolve, reject) => setTimeout(resolve, ms))
 Promise.all(MonitorInfo.list.map(async (item) => CheckPrice(item))).then(() => $.done());
 async function CheckPrice(item){
@@ -50,7 +51,6 @@ async function CheckPrice(item){
 }
 
 function getCountry(ct){
-    console.log(ct)
     if(ct === 'JP')
         return {flag:'🇯🇵',name:'日元'}
     if(ct=== 'HK')
