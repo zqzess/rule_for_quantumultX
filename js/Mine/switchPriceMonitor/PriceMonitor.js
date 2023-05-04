@@ -46,7 +46,7 @@ async function CheckPrice(item){
                 const gold_point = i.gold_point.basic_gift_gp // 黄金点数
                 const discount = (1-discount_price/regular_price) * 100 + '%OFF'
                 // $.msg(title,tag.flag+name + '打折了！' + discount_price + tag.name,'日常价: ' + regular_price + tag.name + '   折扣: ' + discount +'\n开始时间：' + discount_start_time+'\n结束时间：' + discount_end_time,{'open-url': `https://store-jp.nintendo.com/list/software/${id}.html`})
-                $.msg(title,tag.flag+name + '打折了！' + discount_price + tag.name,'原价:' + regular_price + tag.name + '  ' + discount + '  返点:' + gold_point +'\n结束时间：' + discount_end_time+'\n开始时间：' + discount_start_time,{'open-url': `https://store-jp.nintendo.com/list/software/${id}.html`})
+                $.msg(title,tag.flag+name + '打折了！' + discount_price + tag.name,'原价:' + regular_price + tag.name + '📉' + discount + '🪙返点:' + gold_point +'\n结束时间：' + discount_end_time+'\n开始时间：' + discount_start_time,{'open-url': `https://store-jp.nintendo.com/list/software/${id}.html`})
             }
         })
     })
