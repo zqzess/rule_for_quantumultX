@@ -1,6 +1,7 @@
 # rule_for_quantumultX
 
 ## 📢 最近更新 
+- [switch游戏价格监控](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/switchPriceMonitor)
 - [阿里云盘签到更新自动领取](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/aDriveCheckIn)
 - [阿里云盘fake vip 测试版](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/debug/aDriveCrack)
 - [新增倒数日脚本](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)
