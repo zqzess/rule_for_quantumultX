@@ -20,9 +20,10 @@ let ADrivre = {
     refresh_token_body: '',
     headers: '',
     refresh_token: '',
-    isAutoGetReword: true
+    isAutoGetReword: 'true'
 }
 ADrivreInfo = $.getjson(keyName) || ADrivre
+ADrivreInfo.isAutoGetReword = ADrivreInfo.isAutoGetReword==='true'?true:false
 const authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 const checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
 const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
