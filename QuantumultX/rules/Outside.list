@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2023-05-01 00:47:21
+# Outside rules refresh time: 2023-05-08 00:46:38
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -816,6 +816,7 @@ IP-CIDR,75.126.0.0/16,Outside
 IP-CIDR,174.37.0.0/16,Outside
 IP-CIDR,208.43.0.0/16,Outside
 HOST,assets-priconne-redive-us.akamaized.net,Outside
+HOST,cloud.oracle.com,Outside
 HOST,cvws.icloud-content.com,Outside
 HOST,developer.apple.com,Outside
 HOST,services.googleapis.cn,Outside
@@ -4472,6 +4473,7 @@ HOST-SUFFIX,openwrt.org.cn,Outside
 HOST-SUFFIX,opera-mini.net,Outside
 HOST-SUFFIX,opera.com,Outside
 HOST-SUFFIX,opus-gaming.com,Outside
+HOST-SUFFIX,oraclecloud.com,Outside
 HOST-SUFFIX,orchidbbs.com,Outside
 HOST-SUFFIX,organcare.org.tw,Outside
 HOST-SUFFIX,organharvestinvestigation.net,Outside
