@@ -23,7 +23,7 @@ let ADrivre = {
     isAutoGetReword: 'true'
 }
 ADrivreInfo = $.getjson(keyName) || ADrivre
-if(ADrivreInfo.isAutoGetReword===undefined)
+if(ADrivreInfo.isAutoGetReword===undefined || ADrivreInfo.isAutoGetReword==='')
     ADrivreInfo.isAutoGetReword = true
 else
     ADrivreInfo.isAutoGetReword = ADrivreInfo.isAutoGetReword === 'true'
