@@ -166,12 +166,12 @@ function signCheckin(authorization) {
             let signInLogs = body.result.signInLogs
             $.log('签到天数: ' + signInCount)
             let reward = ''
-            signInLogs.forEach(function (i) {
-                if(signInCount > 22 && !$.isAutoGetReword)
+            if(signInCount > 22 && !$.isAutoGetReword)
                 {
                     $.log('已经月末了，请不要忘记领取前面未领取的奖励')
                     $.msg(title,'📅月末提醒','请不要忘记领取之前的奖励')
                 }
+            signInLogs.forEach(function (i) {
                 if (Number(i.day) === signInCount) {
                     if(i.isReward)
                     {
