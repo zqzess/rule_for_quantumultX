@@ -103,6 +103,59 @@
           "Stash": ""
         }
       }
+    },
+        {
+      "id": "debug.SwitchPriceMonitor",
+      "name": "Switch游戏价格监控debug",
+      "descs_html": [
+        "<h3 align=\"center\">目前只支持日区</h4>"
+      ],
+      "keys": [
+        "@SwitchPriceMonitor.list",
+        "@SwitchPriceMonitor.isNotify"
+      ],
+      "settings": [
+        {
+          "id": "@SwitchPriceMonitor.list",
+          "name": "监控列表",
+          "val": "[\n\t{\n\t\t\"name\": \"野炊dlc\",\n\t\t\"id\": \"70070000000024\"\n\t},\n\t{\n\t\t\"name\": \"怪物猎人崛起\",\n\t\t\"id\": \"70010000029014\"\n\t}\n]",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 10,
+          "desc": "监控列表，name自定，id为商店链接后面的数字（.html前面的那一串数字）"
+        },
+        {
+          "id": "@SwitchPriceMonitor.isNotify",
+          "name": "开启通知",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认开启，目前修改无效"
+        },
+        {
+          "id": "@SwitchPriceMonitor.country",
+          "name": "选择区服",
+          "val": ["日服","港服"],
+          "type": "picker",
+          "desc": "选择监控的区服"
+        }
+      ],
+      "author": "@zqzess",
+      "repo": "https://github.com/zqzess/rule_for_quantumultX",
+      "icons": [
+        "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Nintendo.png",
+        "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Nintendo.png"
+      ],
+      "onInstall": {
+        "title": "安装确认",
+        "message": "本订阅包含重写资源, 是否需要自动安装?",
+        "install": {
+          "Surge": "",
+          "QuanX": "quantumult-x:///add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon": "",
+          "Shadowrocket": "",
+          "Stash": ""
+        }
+      }
     }
   ]
 }
