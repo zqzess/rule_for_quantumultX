@@ -134,8 +134,11 @@
         {
           "id": "@SwitchPriceMonitor.country",
           "name": "选择区服",
-          "val": ["日服","港服"],
-          "type": "picker",
+          "val": [
+            "日服",
+            "港服"
+          ],
+          "type": "selects",
           "desc": "选择监控的区服"
         }
       ],
