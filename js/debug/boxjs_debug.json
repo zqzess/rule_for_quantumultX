@@ -104,7 +104,7 @@
         }
       }
     },
-        {
+    {
       "id": "debug.SwitchPriceMonitor",
       "name": "Switch游戏价格监控debug",
       "descs_html": [
@@ -134,12 +134,19 @@
         {
           "id": "@SwitchPriceMonitor.country",
           "name": "选择区服",
-          "val": [
-            "日服",
-            "港服"
-          ],
+          "val": "0",
           "type": "selects",
-          "desc": "选择监控的区服"
+          "items": [
+            {
+              "key": "0",
+              "label": "日服"
+            },
+            {
+              "key": "1",
+              "label": "港服"
+            }
+          ],
+          "desc": "选择监控价格的区服"
         }
       ],
       "author": "@zqzess",
