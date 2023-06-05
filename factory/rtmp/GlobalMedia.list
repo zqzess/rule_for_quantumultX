@@ -1,7 +1,7 @@
 # NAME: GlobalMedia
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-28 18:21:13
+# UPDATED: 2023-06-05 02:11:34
 # HOST: 25
 # HOST-KEYWORD: 24
 # HOST-SUFFIX: 1084
@@ -246,6 +246,7 @@ HOST-SUFFIX,disney.in,GlobalMedia
 HOST-SUFFIX,disney.io,GlobalMedia
 HOST-SUFFIX,disney.it,GlobalMedia
 HOST-SUFFIX,disney.my,GlobalMedia
+HOST-SUFFIX,disney.my.sentry.io,GlobalMedia
 HOST-SUFFIX,disney.nl,GlobalMedia
 HOST-SUFFIX,disney.no,GlobalMedia
 HOST-SUFFIX,disney.ph,GlobalMedia
@@ -641,7 +642,6 @@ HOST-SUFFIX,indazn.com,GlobalMedia
 HOST-SUFFIX,indaznlab.com,GlobalMedia
 HOST-SUFFIX,insidevoa.com,GlobalMedia
 HOST-SUFFIX,inter.iqiyi.com,GlobalMedia
-HOST-SUFFIX,intercom.io,GlobalMedia
 HOST-SUFFIX,intl-rcd.iqiyi.com,GlobalMedia
 HOST-SUFFIX,intl-subscription.iqiyi.com,GlobalMedia
 HOST-SUFFIX,intl.iqiyi.com,GlobalMedia
@@ -920,7 +920,7 @@ HOST-SUFFIX,s.yimg.jp,GlobalMedia
 HOST-SUFFIX,sbnation.com,GlobalMedia
 HOST-SUFFIX,scdn.co,GlobalMedia
 HOST-SUFFIX,screens-lab.jp,GlobalMedia
-HOST-SUFFIX,sentry.io,GlobalMedia
+HOST-SUFFIX,seattlespheres.com,GlobalMedia
 HOST-SUFFIX,sgpstatp.com,GlobalMedia
 HOST-SUFFIX,shopdisney.com,GlobalMedia
 HOST-SUFFIX,shops-disney.com,GlobalMedia
