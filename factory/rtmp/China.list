@@ -1,15 +1,15 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-06-26 02:11:10
+# UPDATED: 2023-07-10 02:11:05
 # HOST: 19
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3633
+# HOST-SUFFIX: 3637
 # HOST-WILDCARD: 1
 # IP-CIDR: 17
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3714
+# TOTAL: 3718
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
@@ -459,6 +459,7 @@ HOST-SUFFIX,apaas-zone-test.com,China
 HOST-SUFFIX,apabi.com,China
 HOST-SUFFIX,apcdns.net,China
 HOST-SUFFIX,api.crisp.chat,China
+HOST-SUFFIX,apifox.com,China
 HOST-SUFFIX,apigwtencent.com,China
 HOST-SUFFIX,apimkt.net,China
 HOST-SUFFIX,apk3.com,China
@@ -644,6 +645,7 @@ HOST-SUFFIX,bytegoofy.com,China
 HOST-SUFFIX,bytegslb.com,China
 HOST-SUFFIX,bytehwm.com,China
 HOST-SUFFIX,byteimg.com,China
+HOST-SUFFIX,byteintl.net,China
 HOST-SUFFIX,bytelb.net,China
 HOST-SUFFIX,bytescm.com,China
 HOST-SUFFIX,bytetcc.com,China
@@ -3040,6 +3042,8 @@ HOST-SUFFIX,tiebaimg.com,China
 HOST-SUFFIX,tietuku.com,China
 HOST-SUFFIX,tiexue.net,China
 HOST-SUFFIX,tieyou.com,China
+HOST-SUFFIX,tiktokd.net,China
+HOST-SUFFIX,tiktokd.org,China
 HOST-SUFFIX,timedoo.com,China
 HOST-SUFFIX,timibase.com,China
 HOST-SUFFIX,timmerse.com,China
