@@ -1,0 +1,4 @@
+# v2free_cookie获取 @zqzess
+hostname = w1.v2free.top
+
+^https:\/\/w1\.v2free\.top\/user url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn.js
