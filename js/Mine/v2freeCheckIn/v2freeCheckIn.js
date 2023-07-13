@@ -34,9 +34,16 @@ if(V2freeInfo.isShowDetail === 'false')
 console.log('流量详情开启：' + $.isNotify)
 const checkInUrl = 'https://w1.v2free.top/user/checkin'
 console.log($request)
-if (typeof $request !== 'undefined' && $request.url!=='http://www.apple.com/') {
-    $.log('🤖获取token')
-    GetRefresh_token()
+if (typeof $request !== 'undefined') {
+    if($request.url!=='http://www.apple.com/')
+    {
+        $.log('🤖签到操作')
+        signCheckin()
+    }else
+    {
+        $.log('🤖获取token')
+        GetRefresh_token()
+    }
 } else if (!V2freeInfo.Cookie && !V2freeInfo.UserAgent) {
     $.msg($.name, ``, `token失效/未获取 ⚠️`);
     $.done();
