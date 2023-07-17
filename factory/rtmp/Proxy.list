@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-05 02:12:10
+# UPDATED: 2023-07-14 02:11:57
 # HOST: 17
 # HOST-KEYWORD: 31
 # HOST-SUFFIX: 6330
-# IP-CIDR: 88
+# IP-CIDR: 87
 # IP6-CIDR: 3
 # USER-AGENT: 9
-# TOTAL: 6478
+# TOTAL: 6477
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -6444,7 +6444,6 @@ IP-CIDR,180.163.150.162/32,Proxy
 IP-CIDR,180.163.150.34/32,Proxy
 IP-CIDR,180.163.151.162/32,Proxy
 IP-CIDR,180.163.151.34/32,Proxy
-IP-CIDR,183.131.48.0/20,Proxy
 IP-CIDR,184.173.128.0/17,Proxy
 IP-CIDR,185.60.216.0/22,Proxy
 IP-CIDR,203.104.103.0/24,Proxy
