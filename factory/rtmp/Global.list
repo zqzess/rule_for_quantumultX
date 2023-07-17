@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-10 02:10:54
+# UPDATED: 2023-07-14 02:11:56
 # HOST: 547
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 19446
-# IP-CIDR: 106
+# HOST-SUFFIX: 19448
+# IP-CIDR: 105
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 20188
+# TOTAL: 20189
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -8167,6 +8167,8 @@ HOST-SUFFIX,mdn.allizom.net,Global
 HOST-SUFFIX,mdn.dev,Global
 HOST-SUFFIX,mdn.mozit.cloud,Global
 HOST-SUFFIX,mdnkids.com,Global
+HOST-SUFFIX,mdnplay.dev,Global
+HOST-SUFFIX,mdnyalp.dev,Global
 HOST-SUFFIX,mdpi.com,Global
 HOST-SUFFIX,me-gay.com,Global
 HOST-SUFFIX,meadjohnson.com,Global
@@ -20137,7 +20139,6 @@ IP-CIDR,180.163.150.162/32,Global
 IP-CIDR,180.163.150.34/32,Global
 IP-CIDR,180.163.151.162/32,Global
 IP-CIDR,180.163.151.34/32,Global
-IP-CIDR,183.131.48.0/20,Global
 IP-CIDR,184.173.128.0/17,Global
 IP-CIDR,185.60.216.0/22,Global
 IP-CIDR,185.76.151.0/24,Global
