@@ -74,6 +74,6 @@ Qsearchddg是DuckDuckgo的，需要更改为DuckDuckgo搜索
 
 ![](http://profile-counter.glitch.me/zqzess/count.svg)
 
-### 项目 Star 数增长趋势
+### Star History
 
-[![Stargazers over time](https://starchart.cc/zqzess/rule_for_quantumultX.svg)](https://starchart.cc/zqzess/rule_for_quantumultX)
+[![Star History Chart](https://api.star-history.com/svg?repos=zqzess/rule_for_quantumultX&type=Date)](https://star-history.com/#zqzess/rule_for_quantumultX&Date)
