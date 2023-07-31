@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-20 23:22:28
-# HOST: 547
+# UPDATED: 2023-07-31 02:11:08
+# HOST: 513
 # HOST-KEYWORD: 39
-# HOST-SUFFIX: 19450
+# HOST-SUFFIX: 19445
 # IP-CIDR: 105
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 20191
+# TOTAL: 20152
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -26,7 +26,6 @@ HOST,activate.wip1.adobe.com,Global
 HOST,activate.wip2.adobe.com,Global
 HOST,activate.wip3.adobe.com,Global
 HOST,activate.wip4.adobe.com,Global
-HOST,adcdownload.apple.com.akadns.net,Global
 HOST,addons.mozilla.org,Global
 HOST,adobe-dns-1.adobe.com,Global
 HOST,adobe-dns-2.adobe.com,Global
@@ -95,25 +94,16 @@ HOST,cdn.apple-cloudkit.com,Global
 HOST,cdn.jsdelivr.net,Global
 HOST,cdn.registerdisney.go.com,Global
 HOST,cdngarenanow-a.akamaihd.net,Global
-HOST,cds.apple.com.akadns.net,Global
-HOST,certs-lb.apple.com.akadns.net,Global
 HOST,cf-images.ap-southeast-1.prod.boltdns.net,Global
 HOST,chinapower.csis.org,Global
 HOST,cisco.evergage.com,Global
 HOST,ciscolivehls-i.akamaihd.net,Global
-HOST,cl1-cdn.origin-apple.com.akadns.net,Global
-HOST,cl3-cdn.origin-apple.com.akadns.net,Global
-HOST,cl4-cdn.origin-apple.com.akadns.net,Global
-HOST,cl5-cdn.origin-apple.com.akadns.net,Global
 HOST,client-teamviewer-com.trafficmanager.net,Global
-HOST,clientflow.apple.com.akadns.net,Global
 HOST,clients1.google.com,Global
 HOST,cloud-cdn-digitalocean-com.global.ssl.fastly.net,Global
 HOST,cloudsync-prod.s3.amazonaws.com,Global
 HOST,clubhouse.pubnubapi.com,Global
-HOST,configuration.apple.com.akadns.net,Global
 HOST,courier-push-apple.com.akadns.net,Global
-HOST,crl-lb.apple.com.akadns.net,Global
 HOST,crl.microsoft.com,Global
 HOST,crl.versign.net,Global
 HOST,csis-prod.s3.amazonaws.com,Global
@@ -131,7 +121,6 @@ HOST,d3c7rimkq79yfu.cloudfront.net,Global
 HOST,dai3fd1oh325y.cloudfront.net,Global
 HOST,databank.worldbank.org,Global
 HOST,database.asahi.com,Global
-HOST,dd-cdn.origin-apple.com.akadns.net,Global
 HOST,default.exp-tas.com,Global
 HOST,deutschewelle.h-cdn.com,Global
 HOST,developer.microsoft.com,Global
@@ -195,8 +184,6 @@ HOST,github.global.ssl.fastly.net,Global
 HOST,gitlab-assets.oss-cn-hongkong.aliyuncs.com,Global
 HOST,gog.qtlglb.com,Global
 HOST,gsp4-cn.ls.apple.com.edgekey.net,Global
-HOST,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,Global
-HOST,gspe19-cn.ls-apple.com.akadns.net,Global
 HOST,hamifans.emome.net,Global
 HOST,hamivideo.hinet.net,Global
 HOST,hammerandchisel.ssl.zendesk.com,Global
@@ -216,16 +203,10 @@ HOST,homebrew.bintray.com,Global
 HOST,hpstore.corpmerchandise.com,Global
 HOST,hulu.playback.edge.bamgrid.com,Global
 HOST,i.jeded.com,Global
-HOST,icloud-cdn.icloud.com.akadns.net,Global
-HOST,images.apple.com.akadns.net,Global
-HOST,images.apple.com.edgekey.net.globalredir.akadns.net,Global
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,Global
 HOST,img-s-msn-com.akamaized.net,Global
 HOST,impala-media-production.s3.amazonaws.com,Global
 HOST,imperial.insendi.com,Global
-HOST,init-p01md-lb.push-apple.com.akadns.net,Global
-HOST,init-p01st-lb.push-apple.com.akadns.net,Global
-HOST,init-s01st-lb.push-apple.com.akadns.net,Global
 HOST,itvpnpmobile-a.akamaihd.net,Global
 HOST,js-cdn.music.apple.com,Global
 HOST,kktv-theater.kk.stream,Global
@@ -244,8 +225,6 @@ HOST,lookup-api.apple.com,Global
 HOST,mdn.mozillademos.org,Global
 HOST,media-rockstargames-com.akamaized.net,Global
 HOST,medone-education.thieme.com,Global
-HOST,mesu-cdn.apple.com.akadns.net,Global
-HOST,mesu-china.apple.com.akadns.net,Global
 HOST,misa-prod.s3.ap-northeast-1.amazonaws.com,Global
 HOST,mobilelive-hamivideo.cdn.hinet.net,Global
 HOST,mscrl.microsoft.com,Global
@@ -263,16 +242,13 @@ HOST,news-events.apple.com,Global
 HOST,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com,Global
 HOST,nvidia.tt.omtrdc.net,Global
 HOST,nytimes.map.fastly.net,Global
-HOST,ocsp-lb.apple.com.akadns.net,Global
 HOST,ocsp.int-x3.letsencrypt.org,Global
 HOST,ocsp.microsoft.com,Global
-HOST,ocsp2-lb.apple.com.akadns.net,Global
 HOST,okaapps.com,Global
 HOST,oneclient.sfx.ms,Global
 HOST,oneocsp.microsoft.com,Global
 HOST,ood.opsource.net,Global
 HOST,opgg-static.akamaized.net,Global
-HOST,oscdn.origin-apple.com.akadns.net,Global
 HOST,overwatch.nosdn.127.net,Global
 HOST,p-events-delivery.akamaized.net,Global
 HOST,paper-attachments.s3.amazonaws.com,Global
@@ -287,7 +263,6 @@ HOST,practivate.adobe.ipp,Global
 HOST,practivate.adobe.newoa,Global
 HOST,practivate.adobe.ntp,Global
 HOST,prd-priconne-redive.akamaized.net,Global
-HOST,prod-support.apple-support.akadns.net,Global
 HOST,psg-int-centralus.cloudapp.net,Global
 HOST,psg-int-eastus.cloudapp.net,Global
 HOST,push-apple.com.akadns.net,Global
@@ -387,14 +362,7 @@ HOST,static-hamivideo.cdn.hinet.net,Global
 HOST,statics-marketingsites-eas-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Global
-HOST,stocks-sparkline-lb.apple.com.akadns.net,Global
 HOST,store.apple.com.edgekey.net,Global
-HOST,store.apple.com.edgekey.net.globalredir.akadns.net,Global
-HOST,store.storeimages.apple.com.akadns.net,Global
-HOST,support-china.apple-support.akadns.net,Global
-HOST,swcatalog-cdn.apple.com.akadns.net,Global
-HOST,swdist.apple.com.akadns.net,Global
-HOST,swscan-cdn.apple.com.akadns.net,Global
 HOST,t21.nikkei.co.jp,Global
 HOST,t21ipau.nikkei.co.jp,Global
 HOST,teamviewer.com.cdn.cloudflare.net,Global
@@ -407,7 +375,6 @@ HOST,ubisoft-uplay-savegames.s3.amazonaws.com,Global
 HOST,ubistatic3-a.akamaihd.net,Global
 HOST,ulrichsweb.serialssolutions.com,Global
 HOST,update.crashlytics.com,Global
-HOST,valid.origin-apple.com.akadns.net,Global
 HOST,ve-dash-uk-live.akamaized.net,Global
 HOST,ve-uhd-push-uk-live.akamaized.net,Global
 HOST,venmo.s3.amazonaws.com,Global
@@ -537,7 +504,6 @@ HOST,wwis-dubc1-vip98.adobe.com,Global
 HOST,wwis-dubc1-vip99.adobe.com,Global
 HOST,www-cdn.icloud.com.akadns.net,Global
 HOST,www.apple.com.edgekey.net,Global
-HOST,www.apple.com.edgekey.net.globalredir.akadns.net,Global
 HOST,youtubei.googleapis.com,Global
 HOST,zeenews-fonts.s3.amazonaws.com,Global
 HOST,api.waqi.info,Global
@@ -944,11 +910,11 @@ HOST-SUFFIX,ad69.com,Global
 HOST-SUFFIX,adanaatikhaber.com,Global
 HOST-SUFFIX,adbecrsl.com,Global
 HOST-SUFFIX,adbkm.com,Global
-HOST-SUFFIX,adcdownload.apple.com.akadns.net,Global
 HOST-SUFFIX,adcommerce.cn,Global
 HOST-SUFFIX,addthiscdn.com,Global
 HOST-SUFFIX,addtoany.com,Global
 HOST-SUFFIX,adgoogle.net,Global
+HOST-SUFFIX,adguard-dns.com,Global
 HOST-SUFFIX,adguard-vpn.com,Global
 HOST-SUFFIX,adguard.com,Global
 HOST-SUFFIX,adhelpnews.com,Global
@@ -1133,6 +1099,7 @@ HOST-SUFFIX,akadns.com,Global
 HOST-SUFFIX,akadns6.net,Global
 HOST-SUFFIX,akaeai.com,Global
 HOST-SUFFIX,akafms.net,Global
+HOST-SUFFIX,akagtm.org,Global
 HOST-SUFFIX,akahost.net,Global
 HOST-SUFFIX,akaint.net,Global
 HOST-SUFFIX,akam.net,Global
@@ -1151,6 +1118,7 @@ HOST-SUFFIX,akamai-thailand.com,Global
 HOST-SUFFIX,akamai-thailand.net,Global
 HOST-SUFFIX,akamai-trials.com,Global
 HOST-SUFFIX,akamai.com,Global
+HOST-SUFFIX,akamaiedge.net,Global
 HOST-SUFFIX,akamaientrypoint.net,Global
 HOST-SUFFIX,akamaietpcnctest.com,Global
 HOST-SUFFIX,akamaietpcompromisedcnctest.com,Global
@@ -1303,6 +1271,7 @@ HOST-SUFFIX,amazon-jp-recruiting.com,Global
 HOST-SUFFIX,amazon-lantern.com,Global
 HOST-SUFFIX,amazon-launchpad.com,Global
 HOST-SUFFIX,amazon.cn,Global
+HOST-SUFFIX,amazon.dev,Global
 HOST-SUFFIX,amazon.jobs,Global
 HOST-SUFFIX,amazon.red,Global
 HOST-SUFFIX,amazonalexavoxcon.com,Global
@@ -1647,6 +1616,7 @@ HOST-SUFFIX,arabysexy.com,Global
 HOST-SUFFIX,arabysexy.mobi,Global
 HOST-SUFFIX,arcadewank.com,Global
 HOST-SUFFIX,arcgisonline.com,Global
+HOST-SUFFIX,archive-it.org,Global
 HOST-SUFFIX,archiveofourown.net,Global
 HOST-SUFFIX,archlinux.org,Global
 HOST-SUFFIX,archlinuxarm.org,Global
@@ -1826,6 +1796,7 @@ HOST-SUFFIX,avinin.com,Global
 HOST-SUFFIX,avizoon.site,Global
 HOST-SUFFIX,avizoone.com,Global
 HOST-SUFFIX,avjb.com,Global
+HOST-SUFFIX,avjoy.me,Global
 HOST-SUFFIX,avlulu.cc,Global
 HOST-SUFFIX,avmoo.click,Global
 HOST-SUFFIX,avn.com,Global
@@ -1933,6 +1904,7 @@ HOST-SUFFIX,azuredigitaltwins.net,Global
 HOST-SUFFIX,azuredns-prd.info,Global
 HOST-SUFFIX,azuredns-prd.org,Global
 HOST-SUFFIX,azureedge-test.net,Global
+HOST-SUFFIX,azurefd.net,Global
 HOST-SUFFIX,azurehdinsight.cn,Global
 HOST-SUFFIX,azureiotcentral.com,Global
 HOST-SUFFIX,azureiotsolutions.com,Global
@@ -3204,7 +3176,6 @@ HOST-SUFFIX,cdn77.org,Global
 HOST-SUFFIX,cdnjs.com,Global
 HOST-SUFFIX,cdnlab.live,Global
 HOST-SUFFIX,cdnpure.com,Global
-HOST-SUFFIX,cds.apple.com.akadns.net,Global
 HOST-SUFFIX,cebay.com,Global
 HOST-SUFFIX,cegid-cloud.cn,Global
 HOST-SUFFIX,ceicdata.com,Global
@@ -3304,6 +3275,8 @@ HOST-SUFFIX,cheapsalemonster.com,Global
 HOST-SUFFIX,cheapshoesvip.com,Global
 HOST-SUFFIX,cheapwireless04.com,Global
 HOST-SUFFIX,cheapwirelessbeats.com,Global
+HOST-SUFFIX,chegg.com,Global
+HOST-SUFFIX,cheggcdn.com,Global
 HOST-SUFFIX,chemequations.com,Global
 HOST-SUFFIX,chemnetbase.com,Global
 HOST-SUFFIX,chengjuanseo.com,Global
@@ -3407,10 +3380,6 @@ HOST-SUFFIX,ciyuanjie.cc,Global
 HOST-SUFFIX,ckcdn.com,Global
 HOST-SUFFIX,ckck.fun,Global
 HOST-SUFFIX,ckss98.com,Global
-HOST-SUFFIX,cl1-cdn.origin-apple.com.akadns.net,Global
-HOST-SUFFIX,cl3-cdn.origin-apple.com.akadns.net,Global
-HOST-SUFFIX,cl4-cdn.origin-apple.com.akadns.net,Global
-HOST-SUFFIX,cl5-cdn.origin-apple.com.akadns.net,Global
 HOST-SUFFIX,claravenger.com,Global
 HOST-SUFFIX,clasporno.org,Global
 HOST-SUFFIX,classicnike.com,Global
@@ -3421,7 +3390,6 @@ HOST-SUFFIX,clearlinux.org,Global
 HOST-SUFFIX,click-url.com,Global
 HOST-SUFFIX,clickserve.cc-dt.com,Global
 HOST-SUFFIX,clickserver.googleads.com,Global
-HOST-SUFFIX,clientflow.apple.com.akadns.net,Global
 HOST-SUFFIX,clincha.cn,Global
 HOST-SUFFIX,clinical-videos.com,Global
 HOST-SUFFIX,clinicalkey.com,Global
@@ -3445,6 +3413,7 @@ HOST-SUFFIX,cloudconvert.com,Global
 HOST-SUFFIX,cloudcraze.com,Global
 HOST-SUFFIX,cloudcredibility.com,Global
 HOST-SUFFIX,cloudflare-dns.com,Global
+HOST-SUFFIX,cloudflare-gateway.com,Global
 HOST-SUFFIX,cloudflare-quic.com,Global
 HOST-SUFFIX,cloudflare.net,Global
 HOST-SUFFIX,cloudflareaccess.com,Global
@@ -3453,6 +3422,7 @@ HOST-SUFFIX,cloudflarebolt.com,Global
 HOST-SUFFIX,cloudflareclient.com,Global
 HOST-SUFFIX,cloudflareinsights.com,Global
 HOST-SUFFIX,cloudflareok.com,Global
+HOST-SUFFIX,cloudflareportal.com,Global
 HOST-SUFFIX,cloudflarepreview.com,Global
 HOST-SUFFIX,cloudflareresolve.com,Global
 HOST-SUFFIX,cloudflaressl.com,Global
@@ -3463,6 +3433,7 @@ HOST-SUFFIX,cloudflaretest.com,Global
 HOST-SUFFIX,cloudflarewarp.com,Global
 HOST-SUFFIX,cloudfront-test.cn,Global
 HOST-SUFFIX,cloudfront.cn,Global
+HOST-SUFFIX,cloudfront.com,Global
 HOST-SUFFIX,cloudhealthtech.com,Global
 HOST-SUFFIX,cloudinary.com,Global
 HOST-SUFFIX,cloudinary.net,Global
@@ -3476,6 +3447,7 @@ HOST-SUFFIX,cloudvolumes.com,Global
 HOST-SUFFIX,cloudyzgirl.com,Global
 HOST-SUFFIX,cloupia.com,Global
 HOST-SUFFIX,cloupia.net,Global
+HOST-SUFFIX,clubhouse.com,Global
 HOST-SUFFIX,clubseventeen.com,Global
 HOST-SUFFIX,clubsweethearts.com,Global
 HOST-SUFFIX,clubtubes.com,Global
@@ -3559,7 +3531,6 @@ HOST-SUFFIX,computer.org,Global
 HOST-SUFFIX,computingreviews.com,Global
 HOST-SUFFIX,comsoc.org,Global
 HOST-SUFFIX,conair.me,Global
-HOST-SUFFIX,configuration.apple.com.akadns.net,Global
 HOST-SUFFIX,connect-in-canada.com,Global
 HOST-SUFFIX,connectcommerce.cn,Global
 HOST-SUFFIX,connectcommerce.info,Global
@@ -3808,7 +3779,6 @@ HOST-SUFFIX,dcard.cc,Global
 HOST-SUFFIX,dcard.link,Global
 HOST-SUFFIX,dcocsp.cn,Global
 HOST-SUFFIX,dctbeatsbydre.com,Global
-HOST-SUFFIX,dd-cdn.origin-apple.com.akadns.net,Global
 HOST-SUFFIX,ddd-smart.net,Global
 HOST-SUFFIX,ddg.co,Global
 HOST-SUFFIX,dditsadn.com,Global
@@ -4075,6 +4045,7 @@ HOST-SUFFIX,dlfacebook.com,Global
 HOST-SUFFIX,dlib.eastview.com,Global
 HOST-SUFFIX,dlsitenews.com,Global
 HOST-SUFFIX,dlsitestudio.com,Global
+HOST-SUFFIX,dm-event.net,Global
 HOST-SUFFIX,dmed.technology,Global
 HOST-SUFFIX,dmm-extension.com,Global
 HOST-SUFFIX,dmmapis.com,Global
@@ -4115,6 +4086,7 @@ HOST-SUFFIX,dndbeyond.com,Global
 HOST-SUFFIX,dnset.com,Global
 HOST-SUFFIX,dnsvisa.com,Global
 HOST-SUFFIX,dnvod.tv,Global
+HOST-SUFFIX,dnvodcdn.me,Global
 HOST-SUFFIX,do.co,Global
 HOST-SUFFIX,dobbyporn.com,Global
 HOST-SUFFIX,doceapower.com,Global
@@ -4631,6 +4603,7 @@ HOST-SUFFIX,enterprisessl.com,Global
 HOST-SUFFIX,entrustdatacard.com,Global
 HOST-SUFFIX,epicbrowser.com,Global
 HOST-SUFFIX,epicgames.com,Global
+HOST-SUFFIX,epicgames.dev,Global
 HOST-SUFFIX,epicreads.com,Global
 HOST-SUFFIX,epigeum.com,Global
 HOST-SUFFIX,epikporn.com,Global
@@ -5329,6 +5302,7 @@ HOST-SUFFIX,fonts.net,Global
 HOST-SUFFIX,fontshop.com,Global
 HOST-SUFFIX,fontsinuse.com,Global
 HOST-SUFFIX,foofle.com,Global
+HOST-SUFFIX,footprintdns.com,Global
 HOST-SUFFIX,footseen.com,Global
 HOST-SUFFIX,footstockings.com,Global
 HOST-SUFFIX,forbes.com,Global
@@ -6040,8 +6014,6 @@ HOST-SUFFIX,grss-ieee.org,Global
 HOST-SUFFIX,grupobmw.com,Global
 HOST-SUFFIX,gscanada.info,Global
 HOST-SUFFIX,gsccdn.com,Global
-HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net,Global
-HOST-SUFFIX,gspe19-cn.ls-apple.com.akadns.net,Global
 HOST-SUFFIX,gstatic-cn.com,Global
 HOST-SUFFIX,gstaticcnapps.cn,Global
 HOST-SUFFIX,gsuite.com,Global
@@ -6745,6 +6717,7 @@ HOST-SUFFIX,iamakamai.com,Global
 HOST-SUFFIX,iamakamai.net,Global
 HOST-SUFFIX,iamremarkable.org,Global
 HOST-SUFFIX,iana.org,Global
+HOST-SUFFIX,iavnight.com,Global
 HOST-SUFFIX,ib.metapix.net,Global
 HOST-SUFFIX,ibb.co,Global
 HOST-SUFFIX,ibeats-uk.com,Global
@@ -6763,7 +6736,6 @@ HOST-SUFFIX,iceporncasting.com,Global
 HOST-SUFFIX,ichigocandy.com,Global
 HOST-SUFFIX,ichineseporn.com,Global
 HOST-SUFFIX,icloud-apple.cn,Global
-HOST-SUFFIX,icloud-cdn.icloud.com.akadns.net,Global
 HOST-SUFFIX,icloud-content.com,Global
 HOST-SUFFIX,icloud-isupport.com,Global
 HOST-SUFFIX,icloud.com,Global
@@ -6898,8 +6870,6 @@ HOST-SUFFIX,imagebam.com,Global
 HOST-SUFFIX,imagecurl.com,Global
 HOST-SUFFIX,imagecurl.org,Global
 HOST-SUFFIX,imagepost.com,Global
-HOST-SUFFIX,images.apple.com.akadns.net,Global
-HOST-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net,Global
 HOST-SUFFIX,imageshack.com,Global
 HOST-SUFFIX,imagetwist.com,Global
 HOST-SUFFIX,imageworks.com,Global
@@ -6976,9 +6946,6 @@ HOST-SUFFIX,ingkacentres.com,Global
 HOST-SUFFIX,ingyenszexvideo.top,Global
 HOST-SUFFIX,inhumanity.com,Global
 HOST-SUFFIX,inikesneakers.com,Global
-HOST-SUFFIX,init-p01md-lb.push-apple.com.akadns.net,Global
-HOST-SUFFIX,init-p01st-lb.push-apple.com.akadns.net,Global
-HOST-SUFFIX,init-s01st-lb.push-apple.com.akadns.net,Global
 HOST-SUFFIX,init.shop,Global
 HOST-SUFFIX,initiummall.com,Global
 HOST-SUFFIX,initproducts.com,Global
@@ -7134,7 +7101,6 @@ HOST-SUFFIX,ipfs.runfission.com,Global
 HOST-SUFFIX,iphine.com,Global
 HOST-SUFFIX,iphone-cd.com,Global
 HOST-SUFFIX,iphone-cn.com,Global
-HOST-SUFFIX,iphone-ld.origin-apple.com.akadns.net,Global
 HOST-SUFFIX,iphone-sh.com,Global
 HOST-SUFFIX,iphone-vip1.com,Global
 HOST-SUFFIX,iphone-vip2.com,Global
@@ -7223,7 +7189,6 @@ HOST-SUFFIX,itu.int,Global
 HOST-SUFFIX,itunbes.com,Global
 HOST-SUFFIX,ituneas.com,Global
 HOST-SUFFIX,itunes-apple.cn,Global
-HOST-SUFFIX,itunes-apple.com.akadns.net,Global
 HOST-SUFFIX,itunes-radio.net,Global
 HOST-SUFFIX,itunes.co,Global
 HOST-SUFFIX,itunes.com,Global
@@ -8130,6 +8095,7 @@ HOST-SUFFIX,masturbate2gether.com,Global
 HOST-SUFFIX,mat6tube.com,Global
 HOST-SUFFIX,mathoverflow.net,Global
 HOST-SUFFIX,matters.one,Global
+HOST-SUFFIX,matters.town,Global
 HOST-SUFFIX,mature-amateur-sex.com,Global
 HOST-SUFFIX,mature-porn-flix.com,Global
 HOST-SUFFIX,matureclub.com,Global
@@ -8214,8 +8180,6 @@ HOST-SUFFIX,merakigo.com,Global
 HOST-SUFFIX,meridian.net,Global
 HOST-SUFFIX,messengerdevelopers.com,Global
 HOST-SUFFIX,messytube.com,Global
-HOST-SUFFIX,mesu-cdn.apple.com.akadns.net,Global
-HOST-SUFFIX,mesu-china.apple.com.akadns.net,Global
 HOST-SUFFIX,met-nude.com,Global
 HOST-SUFFIX,meta.com,Global
 HOST-SUFFIX,metacloud.com,Global
@@ -8722,6 +8686,7 @@ HOST-SUFFIX,multporn.net,Global
 HOST-SUFFIX,muncloud.dog,Global
 HOST-SUFFIX,muryouav.net,Global
 HOST-SUFFIX,musclegirlflix.com,Global
+HOST-SUFFIX,mushroomtrack.com,Global
 HOST-SUFFIX,musicbay.net,Global
 HOST-SUFFIX,musickit.net,Global
 HOST-SUFFIX,musixmatch.com,Global
@@ -9370,7 +9335,6 @@ HOST-SUFFIX,obsrvbl.com,Global
 HOST-SUFFIX,obutsumania.com,Global
 HOST-SUFFIX,ocbmwdealers.com,Global
 HOST-SUFFIX,ocsp-certum.com,Global
-HOST-SUFFIX,ocsp-lb.apple.com.akadns.net,Global
 HOST-SUFFIX,ocsp-responder.com,Global
 HOST-SUFFIX,oculus-china.com,Global
 HOST-SUFFIX,oculus2014.com,Global
@@ -9416,6 +9380,7 @@ HOST-SUFFIX,oldhornymilfs.com,Global
 HOST-SUFFIX,oldje.com,Global
 HOST-SUFFIX,olehd.com,Global
 HOST-SUFFIX,olelive.com,Global
+HOST-SUFFIX,olemovienews.com,Global
 HOST-SUFFIX,olevodtv.com,Global
 HOST-SUFFIX,oli-school.com,Global
 HOST-SUFFIX,omafotze.com,Global
@@ -9496,6 +9461,7 @@ HOST-SUFFIX,opengraphprotocol.com,Global
 HOST-SUFFIX,opengraphprotocol.org,Global
 HOST-SUFFIX,opengw.net,Global
 HOST-SUFFIX,openjsf.org,Global
+HOST-SUFFIX,openlibrary.org,Global
 HOST-SUFFIX,openmaps.org,Global
 HOST-SUFFIX,openresty.org,Global
 HOST-SUFFIX,opensource.guide,Global
@@ -9539,7 +9505,6 @@ HOST-SUFFIX,orlandohurricane.com,Global
 HOST-SUFFIX,orsm.net,Global
 HOST-SUFFIX,orzqwq.com,Global
 HOST-SUFFIX,osakamotion.net,Global
-HOST-SUFFIX,oscdn.origin-apple.com.akadns.net,Global
 HOST-SUFFIX,osdn.net,Global
 HOST-SUFFIX,osiri-suki-club.com,Global
 HOST-SUFFIX,osm.org,Global
@@ -9905,6 +9870,8 @@ HOST-SUFFIX,pieceofplastic.com,Global
 HOST-SUFFIX,pifpafarabia.com,Global
 HOST-SUFFIX,pigav.com,Global
 HOST-SUFFIX,pikabu.monster,Global
+HOST-SUFFIX,pikpak.me,Global
+HOST-SUFFIX,pikpakdrive.com,Global
 HOST-SUFFIX,pillbeatsblackfridaysale.com,Global
 HOST-SUFFIX,pinduck.com,Global
 HOST-SUFFIX,pinflix.com,Global
@@ -10401,7 +10368,6 @@ HOST-SUFFIX,privateclassics.com,Global
 HOST-SUFFIX,privatemarketplaces.net,Global
 HOST-SUFFIX,privatevoyeurvideos.com,Global
 HOST-SUFFIX,proctoscopeexam.com,Global
-HOST-SUFFIX,prod-support.apple-support.akadns.net,Global
 HOST-SUFFIX,prodrive-japan.com,Global
 HOST-SUFFIX,profreeporno.com,Global
 HOST-SUFFIX,projectapex.com,Global
@@ -10510,6 +10476,7 @@ HOST-SUFFIX,qmov.com,Global
 HOST-SUFFIX,qmov.net,Global
 HOST-SUFFIX,qmttqg3k.me,Global
 HOST-SUFFIX,qombol.com,Global
+HOST-SUFFIX,qooqlevideo.com,Global
 HOST-SUFFIX,qorno.com,Global
 HOST-SUFFIX,qprize.com,Global
 HOST-SUFFIX,qpx.googleflights.net,Global
@@ -10585,6 +10552,7 @@ HOST-SUFFIX,rarbgproxy.org,Global
 HOST-SUFFIX,rarbgto.org,Global
 HOST-SUFFIX,rarbgunblock.com,Global
 HOST-SUFFIX,rarbgunblock.org,Global
+HOST-SUFFIX,rarbgunblocked.org,Global
 HOST-SUFFIX,rarbgway.org,Global
 HOST-SUFFIX,raspberrypi.org,Global
 HOST-SUFFIX,raspbian.org,Global
@@ -11320,11 +11288,9 @@ HOST-SUFFIX,sky.com,Global
 HOST-SUFFIX,skyassets.com,Global
 HOST-SUFFIX,skydweller.cn,Global
 HOST-SUFFIX,skyoceanrescue.com,Global
-HOST-SUFFIX,skype-edf.akadns.net,Global
 HOST-SUFFIX,skype.net,Global
 HOST-SUFFIX,skypeassets.com,Global
 HOST-SUFFIX,skypeassets.net,Global
-HOST-SUFFIX,skypedata.akadns.net,Global
 HOST-SUFFIX,skyporn.online,Global
 HOST-SUFFIX,skysports.com,Global
 HOST-SUFFIX,skysportsonline.com,Global
@@ -11595,12 +11561,9 @@ HOST-SUFFIX,stlouisbmw.net,Global
 HOST-SUFFIX,stockagainstphotography.com,Global
 HOST-SUFFIX,stocking-tease.com,Global
 HOST-SUFFIX,stockingfetishvideo.com,Global
-HOST-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net,Global
 HOST-SUFFIX,stonefoxlingerie.com,Global
 HOST-SUFFIX,stonefoxproductions.com,Global
 HOST-SUFFIX,store-bridgestonesports.com,Global
-HOST-SUFFIX,store.apple.com.edgekey.net.globalredir.akadns.net,Global
-HOST-SUFFIX,store.storeimages.apple.com.akadns.net,Global
 HOST-SUFFIX,storesense.com,Global
 HOST-SUFFIX,storiesonline.net,Global
 HOST-SUFFIX,storyful.com,Global
@@ -11675,7 +11638,6 @@ HOST-SUFFIX,supertop.co,Global
 HOST-SUFFIX,superuser.com,Global
 HOST-SUFFIX,supjav.com,Global
 HOST-SUFFIX,supplybestjerseys.com,Global
-HOST-SUFFIX,support-china.apple-support.akadns.net,Global
 HOST-SUFFIX,supportfacebook.com,Global
 HOST-SUFFIX,supremacy.com,Global
 HOST-SUFFIX,supremacy.net,Global
@@ -11701,8 +11663,6 @@ HOST-SUFFIX,swag.live,Global
 HOST-SUFFIX,swapsmut.com,Global
 HOST-SUFFIX,sway-cdn.com,Global
 HOST-SUFFIX,sway.com,Global
-HOST-SUFFIX,swcatalog-cdn.apple.com.akadns.net,Global
-HOST-SUFFIX,swdist.apple.com.akadns.net,Global
 HOST-SUFFIX,sweetadult-tube.com,Global
 HOST-SUFFIX,sweetmlif.net,Global
 HOST-SUFFIX,sweetsext.com,Global
@@ -11733,7 +11693,6 @@ HOST-SUFFIX,swjedifallenorder.com,Global
 HOST-SUFFIX,swjfo.com,Global
 HOST-SUFFIX,swoosh.com,Global
 HOST-SUFFIX,swpr.livedoor.blog,Global
-HOST-SUFFIX,swscan-cdn.apple.com.akadns.net,Global
 HOST-SUFFIX,swtor.com,Global
 HOST-SUFFIX,swtor.net,Global
 HOST-SUFFIX,sxarab.top,Global
@@ -11985,6 +11944,7 @@ HOST-SUFFIX,thomsonreuters.com,Global
 HOST-SUFFIX,thomsonreutersmexico.com,Global
 HOST-SUFFIX,thottok.com,Global
 HOST-SUFFIX,thotvids.com,Global
+HOST-SUFFIX,threads.net,Global
 HOST-SUFFIX,thrixxx.com,Global
 HOST-SUFFIX,thtmod1.com,Global
 HOST-SUFFIX,thumbnailseries.com,Global
@@ -12395,7 +12355,6 @@ HOST-SUFFIX,vaginalultrasound.info,Global
 HOST-SUFFIX,vaginapics.pro,Global
 HOST-SUFFIX,vagrantcloud.com,Global
 HOST-SUFFIX,vagrantup.com,Global
-HOST-SUFFIX,valid.origin-apple.com.akadns.net,Global
 HOST-SUFFIX,valoryirene.com,Global
 HOST-SUFFIX,valuegb.com,Global
 HOST-SUFFIX,vanish.cn,Global
@@ -12742,6 +12701,7 @@ HOST-SUFFIX,wal-mart.com,Global
 HOST-SUFFIX,wal.co,Global
 HOST-SUFFIX,wallet.com,Global
 HOST-SUFFIX,walmart-content.com,Global
+HOST-SUFFIX,walmart.cn,Global
 HOST-SUFFIX,walmart.com,Global
 HOST-SUFFIX,walmart.pharmacy,Global
 HOST-SUFFIX,walmartimages.com,Global
@@ -12788,7 +12748,6 @@ HOST-SUFFIX,wd.com,Global
 HOST-SUFFIX,wdc.com,Global
 HOST-SUFFIX,wdfiles.com,Global
 HOST-SUFFIX,weareebay.com,Global
-HOST-SUFFIX,weather-data.apple.com.akadns.net,Global
 HOST-SUFFIX,weav.xyz,Global
 HOST-SUFFIX,web-instagram.net,Global
 HOST-SUFFIX,web.app,Global
@@ -13004,7 +12963,6 @@ HOST-SUFFIX,www-bestbuystores.com,Global
 HOST-SUFFIX,www-facebook.com,Global
 HOST-SUFFIX,www-paypal.info,Global
 HOST-SUFFIX,www-sms-apple.com,Global
-HOST-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net,Global
 HOST-SUFFIX,www.destinationurl.com,Global
 HOST-SUFFIX,www.pxcc.com,Global
 HOST-SUFFIX,www8-hp.com,Global
@@ -16111,6 +16069,7 @@ HOST-SUFFIX,greenpeace.org,Global
 HOST-SUFFIX,greenreadings.com,Global
 HOST-SUFFIX,greenvpn.net,Global
 HOST-SUFFIX,greenvpn.org,Global
+HOST-SUFFIX,grindr.com,Global
 HOST-SUFFIX,grotty-monday.com,Global
 HOST-SUFFIX,grow.google,Global
 HOST-SUFFIX,gs-discuss.com,Global
@@ -16509,6 +16468,7 @@ HOST-SUFFIX,imagezilla.net,Global
 HOST-SUFFIX,imb.org,Global
 HOST-SUFFIX,imdb.com,Global
 HOST-SUFFIX,img.ly,Global
+HOST-SUFFIX,imgasd.com,Global
 HOST-SUFFIX,imgchili.net,Global
 HOST-SUFFIX,imgmega.com,Global
 HOST-SUFFIX,imgur.com,Global
@@ -16606,7 +16566,6 @@ HOST-SUFFIX,isohunt.com,Global
 HOST-SUFFIX,israbox.com,Global
 HOST-SUFFIX,issuu.com,Global
 HOST-SUFFIX,istars.co.nz,Global
-HOST-SUFFIX,istarshine.com,Global
 HOST-SUFFIX,istef.info,Global
 HOST-SUFFIX,istiqlalhewer.com,Global
 HOST-SUFFIX,istockphoto.com,Global
@@ -17730,6 +17689,7 @@ HOST-SUFFIX,over-blog.com,Global
 HOST-SUFFIX,overcast.fm,Global
 HOST-SUFFIX,overdaily.org,Global
 HOST-SUFFIX,overplay.net,Global
+HOST-SUFFIX,oversea.istarshine.com,Global
 HOST-SUFFIX,ovi.com,Global
 HOST-SUFFIX,ovpn.com,Global
 HOST-SUFFIX,ow.ly,Global
@@ -19764,6 +19724,7 @@ HOST-SUFFIX,xiaod.in,Global
 HOST-SUFFIX,xiaohexie.com,Global
 HOST-SUFFIX,xiaolan.me,Global
 HOST-SUFFIX,xiaoma.org,Global
+HOST-SUFFIX,xiaomi.eu,Global
 HOST-SUFFIX,xiaxiaoqiang.net,Global
 HOST-SUFFIX,xiezhua.com,Global
 HOST-SUFFIX,xihua.es,Global
