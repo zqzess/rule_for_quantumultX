@@ -98,7 +98,7 @@ function signCheckin() {
     $.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
-            $.msg(title, '❌签到失败', '无法签到，请手动签到')
+            $.msg(title, '❌签到失败', '无法签到，请手动签到或刷新cookie重试')
             $.done()
         } else if(!data)
         {
