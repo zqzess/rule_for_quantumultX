@@ -33,7 +33,6 @@ if(V2freeInfo.isShowDetail === 'false')
     $.isShowDetail = false
 console.log('流量详情开启：' + $.isNotify)
 const checkInUrl = 'https://w1.v2free.top/user/checkin'
-console.log($request)
 if (typeof $request !== 'undefined') {
     if($request.url == 'http://www.apple.com/')
     {
