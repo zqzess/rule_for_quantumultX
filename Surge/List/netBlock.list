@@ -1,0 +1,29 @@
+# 公司网络屏蔽的域名走代理
+  # > bilibili
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+  # > iQiyi
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,71edge.com
+  # > Sohu
+DOMAIN-SUFFIX,sohu.com
+  # > QQ Music
+DOMAIN-SUFFIX,music.qq.com
+DOMAIN-SUFFIX,music.tc.qq.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN,aqqmusic.tc.qq.com
+DOMAIN,moo.qq.com
+  # weibo
+DOMAIN-SUFFIX,weibo.com
+  #
+DOMAIN-SUFFIX,qince.net
+  #
+DOMAIN-SUFFIX,pconline.com.cn
+  # 喜马拉雅
+DOMAIN-SUFFIX,ximalaya.com
+  # 贴吧
+DOMAIN,tieba.baidu.com
