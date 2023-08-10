@@ -3,7 +3,7 @@ desc: 打开阿里网盘，等待token获取通知，如果没有token获取通�
 
 http:
   script:
-    - match: ^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token
+    - match: ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token
       name: aDriveCheckIn_cookie
       type: request # request / response
       require-body: true
@@ -12,6 +12,7 @@ http:
       binary-mode: false
       max-size: 2097152 # 2MB
   mitm:
+    - "auth.alipan.com"
     - "auth.aliyundrive.com"
 
 script-providers:

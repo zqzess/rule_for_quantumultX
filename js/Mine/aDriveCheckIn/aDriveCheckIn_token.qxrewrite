@@ -1,4 +1,4 @@
 # 阿里云盘token获取 @zqzess
-hostname = auth.aliyundrive.com
+hostname = auth.alipan.com, auth.aliyundrive.com
 
-^https:\/\/auth\.aliyundrive\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
+^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
