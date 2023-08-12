@@ -10,7 +10,18 @@ let title = '📅 今日黄历'
 let proxy = 'https://ghproxy.com/'
 let url = 'https://raw.githubusercontent.com/zqzess/openApiData/main/calendar/'
 let date = new Date()
-date = date.toLocaleDateString() // 2023/1/17
+// date = date.toLocaleDateString() // 2023/1/17
+
+let _date = date.toLocaleDateString()
+const regex = /^(\d{4})\/(\d{1,2})\/(\d{1,2})$/;
+
+// 判断日期格式是否正确，不是yyyy/MM/dd格式的话进行调整
+if (regex.test(_date)) {
+  date = _date;
+} else {
+  date = _date.replace(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/,'$3/$1/$2');
+}
+
 let dateArray = date.split('/') // 分割日期
 let month = '0' + dateArray[1] // 默认月份前加0，再加后长度是否大于2，大于就截取后两位，排除 012 此情况
 if (month.length > 2)
