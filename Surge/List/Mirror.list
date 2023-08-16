@@ -1,0 +1,15 @@
+# python pip
+DOMAIN-SUFFIX, pypi.org
+DOMAIN-SUFFIX, pythonhosted.org
+# homebrew
+DOMAIN-SUFFIX, ghcr.io
+DOMAIN-SUFFIX, pkg-containers.githubusercontent.com
+# docker
+DOMAIN-SUFFIX, registry-1.docker.io
+DOMAIN-SUFFIX, production.cloudflare.docker.com
+# qt
+DOMAIN-SUFFIX, download.qt.io
+# npm
+DOMAIN-SUFFIX, npmjs.com
+DOMAIN-SUFFIX, npmjs.org
+DOMAIN-SUFFIX, npm.community
