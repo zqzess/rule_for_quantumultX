@@ -2,11 +2,11 @@
 DOMAIN-SUFFIX, dingtalk.com
 DOMAIN-SUFFIX, dingtalkapps.com
 # trello
-DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX, trello.com
 # postman
-DOMAIN-SUFFIX,postman.com
+DOMAIN-SUFFIX, postman.com
 # termius
-DOMAIN-SUFFIX,termius.com
+DOMAIN-SUFFIX, termius.com
 # 自有域名
 DOMAIN, log.whitemoon.top
 DOMAIN, test.whitemoon.top
@@ -15,8 +15,12 @@ DOMAIN, sub.whitemoon.top
 DOMAIN, dy.whitemoon.top
 DOMAIN-SUFFIX, zqzess.top
 # 自有 ip
-IP-CIDR,98.142.140.135/32,no-resolve
-IP-CIDR,38.47.111.105/32,no-resolve
+IP-CIDR, 98.142.140.135/32, no-resolve
+IP-CIDR, 38.47.111.105/32, no-resolve
 #
-IP-CIDR6,240e:c2:1800:24:3c::/128,no-resolve
+IP-CIDR6, 240e:c2:1800:24:3c::/128, no-resolve
+#
+DOMAIN, apps.mzstatic.com
+#
+DOMAIN, h.trace.qq.com
 
