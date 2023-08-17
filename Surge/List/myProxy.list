@@ -7,6 +7,10 @@ DOMAIN-SUFFIX, inf.news
 DOMAIN-SUFFIX,downallbook.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN,gallery.scriptable.app
+# bing ai
 DOMAIN-SUFFIX, bing.com
 DOMAIN-SUFFIX, bing.net
 DOMAIN-SUFFIX, bingapis.com
+DOMAIN, edge.microsoft.com
+DOMAIN, functional.events.data.microsoft.com
+DOMAIN, self.events.data.microsoft.com
