@@ -52,6 +52,8 @@ URL-REGEX,*-default.ixigua.com,REJECT
 # URL-REGEX,.+web\.business\.image,REJECT
 URL-REGEX,^http:\/\/.+\.byteimg\.com\/ad-app-package,REJECT
 URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image,REJECT
+# 番茄视频广告页的sdk agent都是ttplayer
+USER-AGENT,ttplayer*,REJECT
 
 [URL Rewrite]
 # 番茄小说去章末广告
@@ -69,5 +71,9 @@ URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image,REJECT
 # 下面两条来自他人,暂不知是哪个app
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
 
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ - reject
+^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ - reject
+^https?:\/\/v(\d)+-novelapp\.fqnovelvod\.com\/.+\/video\/.+ - reject
+
 [MITM]
-hostname = %APPEND% *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com
+hostname = %APPEND% *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,*.fqnovelvod.com
