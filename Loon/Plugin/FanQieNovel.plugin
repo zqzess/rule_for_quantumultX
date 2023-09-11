@@ -5,7 +5,7 @@
 #!homepage=https://github.com/zqzess/rule_for_quantumultX
 #!icon=
 [Rule]
-# 番茄小说
+# 番茄小说 version = 3.1
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
 DOMAIN,p9-ad-sign.byteimg.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
@@ -69,4 +69,4 @@ IP-CIDR,180.96.2.114/32,REJECT,no-resolve
 ^https?:\/\/v(\d)+-novelapp\.fqnovelvod\.com\/.+\/video\/.+ _ reject
 
 [MITM]
-hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,v6-novelapp.fqnovelvod.com
+hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,*.fqnovelvod.com
