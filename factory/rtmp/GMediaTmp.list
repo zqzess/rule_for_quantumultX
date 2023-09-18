@@ -223,17 +223,14 @@ HOST-SUFFIX,nflxvideo.net,GMedia
 HOST,e13252.dscg.akamaiedge.net,GMedia
 HOST,h-netflix.online-metrix.net,GMedia
 HOST,netflix.com.edgesuite.net,GMedia
-IP-CIDR,23.246.0.0/18,GMedia
-IP-CIDR,34.210.42.111/32,GMedia
+HOST-SUFFIX,onetrust.com,GMedia
+HOST-SUFFIX,cookielaw.org,GMedia
+IP-CIDR,23.246.18.0/23,GMedia
 IP-CIDR,37.77.184.0/21,GMedia
-IP-CIDR,38.72.126.0/24,GMedia
 IP-CIDR,45.57.0.0/17,GMedia
-IP-CIDR,52.89.124.203/32,GMedia
-IP-CIDR,54.148.37.5/32,GMedia
 IP-CIDR,64.120.128.0/17,GMedia
 IP-CIDR,66.197.128.0/17,GMedia
 IP-CIDR,69.53.224.0/19,GMedia
-IP-CIDR,103.87.204.0/22,GMedia
 IP-CIDR,108.175.32.0/20,GMedia
 IP-CIDR,185.2.220.0/22,GMedia
 IP-CIDR,185.9.188.0/22,GMedia
@@ -484,6 +481,7 @@ HOST-SUFFIX,cobuzz.fr,GMedia
 HOST-SUFFIX,content.jwplatform.com,GMedia
 HOST-SUFFIX,control.kochava.com,GMedia
 HOST-SUFFIX,conviva.com,GMedia
+HOST-SUFFIX,cookielaw.org,GMedia
 HOST-SUFFIX,coronavirusnow.com,GMedia
 HOST-SUFFIX,cstatic.net,GMedia
 HOST-SUFFIX,curbed.com,GMedia
@@ -523,7 +521,6 @@ HOST-SUFFIX,discoveryplus.in,GMedia
 HOST-SUFFIX,disney-asia.com,GMedia
 HOST-SUFFIX,disney-discount.com,GMedia
 HOST-SUFFIX,disney-plus.net,GMedia
-HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
 HOST-SUFFIX,disney-studio.com,GMedia
 HOST-SUFFIX,disney-studio.net,GMedia
 HOST-SUFFIX,disney.asia,GMedia
@@ -1150,6 +1147,7 @@ HOST-SUFFIX,olevod.com,GMedia
 HOST-SUFFIX,olevod.io,GMedia
 HOST-SUFFIX,olevod.tv,GMedia
 HOST-SUFFIX,olevodtv.com,GMedia
+HOST-SUFFIX,onetrust.com,GMedia
 HOST-SUFFIX,originalhulu.com,GMedia
 HOST-SUFFIX,orlandohurricane.com,GMedia
 HOST-SUFFIX,overcast.fm,GMedia
