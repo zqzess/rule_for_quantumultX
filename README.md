@@ -1,6 +1,7 @@
 # rule_for_quantumultX
 
 ## 📢 最近更新 
+- [今日油价](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/gasoline)
 - [v2free机场签到领流量](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/v2freeCheckIn)
 - [switch游戏价格监控](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/switchPriceMonitor)
 - [阿里云盘签到更新自动领取](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/aDriveCheckIn)
@@ -25,8 +26,7 @@
 **关于番茄小说广告**
 ```ruby
 QuantumultX 需要重写和分流配合即 FanQieNovel.qxrewrite 和 FanQieNovel.list
-QuantumultX 官方和非官方TG群组里提供的也是搬运此处的，不过已经过时，失效了
-QuantumultX 如果添加了没有效果，请自行排查规则是否冲突，不是规则失效，我自己也在用番茄小说，失效会及时更新
+QuantumultX 如果添加了没有效果，请自行排查规则是否冲突，不是规则失效
 ```
 ```ruby
 Loon 只需要 FanQieNovel.plugin

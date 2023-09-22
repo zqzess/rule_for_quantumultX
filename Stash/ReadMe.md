@@ -13,7 +13,7 @@
 | 谷歌搜索重定向       | x          | x                                                                                      | [下载](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Stash/override/GoogleRewrite.stoverride) |
 | 今日黄历          | 2023-01-18 | [前往](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)    | [下载](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Stash/override/wnCalendar.stoverride)    |
 | 倒数日           | 2023-02-17 | [前往](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/wnCalendar)    | [下载](https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/Stash/override/DaysMatter.stoverride)    |
-| 阿里网盘签到        | 2023-04-24 | [前往](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/aDriveCheckIn) | x                                                                                                                  |
+| 阿里网盘签到        | 2023-08-10 | [前往](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/aDriveCheckIn) | x                                                                                                                  |
 
 ## 规则
 [前往 -- >](https://github.com/zqzess/rule_for_quantumultX/tree/master/Stash/ruleList)

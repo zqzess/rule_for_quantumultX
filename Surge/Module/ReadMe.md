@@ -21,3 +21,5 @@
 - **zhihu.sgmodule**  知乎助手
 - **skip-proxy**  跳过部分应用代理监测
 - **NjtechAutoLogin**  南京工业大学校园网Njetch-Home自动登录
+- **wnCalendar.sgmodule** 万年历模块
+- **DaysMatter.sgmodule** 假日提醒模块
