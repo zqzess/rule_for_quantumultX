@@ -4,7 +4,7 @@
  * @Author zqzess
  * @Date 2023/09/21 17:49
  * @File myjs/gasolinePrice.js
- * @Version : v0.9
+ * @Version : v0.9.1
  * @Desc : 汽油价格通知
  * @GitHUb Https://github.com/zqzess
  * ========================
