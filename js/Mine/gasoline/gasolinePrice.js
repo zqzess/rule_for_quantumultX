@@ -4,7 +4,7 @@
  * @Author zqzess
  * @Date 2023/09/21 17:49
  * @File myjs/gasolinePrice.js
- * @Version : v0.9.2
+ * @Version : v0.9.3
  * @Desc : 汽油价格通知
  * @GitHUb Https://github.com/zqzess
  * ========================
@@ -49,7 +49,7 @@ $.get(option, function (error, response, data) {
     })
     notifyContent = notifyContent.substring(0, notifyContent.length - 2)
     $.isSurge() ? body = {
-        title: title,
+        title: '⛽️' + locateInfo.location + '今日油价',
         content: notifyContent + '\n' + jsonObj.message,
         icon: 'fuelpump',
         'icon-color': '#FFCD00'
