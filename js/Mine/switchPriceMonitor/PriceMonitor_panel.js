@@ -23,15 +23,32 @@ let MonitorInfo = $.getjson(keyName) || Monitor
 $.log(MonitorInfo.list)
 MonitorInfo.list = JSON.parse(MonitorInfo.list)
 const delay = ms => new Promise((resolve, reject) => setTimeout(resolve, ms))
-Promise.all(MonitorInfo.list.map(async (item) => CheckPrice(item))).then(() => $.done());
+Promise.all(MonitorInfo.list.map(async (item) => CheckPrice(item))).then((res) => {
+    let content = ''
+    res.forEach(function (i) {
+        if (i !== undefined) {
+            content = content + i + '\n'
+        }
+    })
+    if (content.length > 1) {
+        content = content.substring(0, content.length - 1)
+    }
+    $.done({
+        title: content,
+        content: res,
+        icon: 'gamecontroller',
+        'icon-color': '#FF9E9E'
+    })
+});
 async function CheckPrice(item){
     const { id, name } = item;
     let url = api + id
     await delay(100)
-    await $.http.get({url:url}).then(response=>{
+    return await $.http.get({url:url}).then(async (response) => {
         const obj = JSON.parse(response.body);
         const tag = getCountry(obj.country)
-        obj.prices.forEach(function (i) {
+        let returnValue;
+        await obj.prices.forEach(function (i) {
             if(i.sales_status!=='onsale')
             {
                 $.msg(title,name + ' 已经不再销售')
@@ -45,10 +62,11 @@ async function CheckPrice(item){
                 const discount_end_time = i.discount_price.end_datetime // 折扣结束时间
                 const gold_point = i.gold_point.basic_gift_gp // 黄金点数
                 const discount = Math.round((1-discount_price/regular_price)* 100) + '%OFF'
-                // $.msg(title,tag.flag+name + '打折了！' + discount_price + tag.name,'日常价: ' + regular_price + tag.name + '   折扣: ' + discount +'\n开始时间：' + discount_start_time+'\n结束时间：' + discount_end_time,{'open-url': `https://store-jp.nintendo.com/list/software/${id}.html`})
-                $.msg(title,tag.flag+name + '打折了！' + discount_price + tag.name,'原价:' + regular_price + tag.name + '📉' + discount + '🪙返点:' + gold_point +'\n结束时间：' + discount_end_time+'\n开始时间：' + discount_start_time,{'open-url': `https://store-jp.nintendo.com/list/software/${id}.html`})
+                // $.msg(title,tag.flag+name + '打折了！' + discount_price + tag.name,'原价:' + regular_price + tag.name + '📉' + discount + '🪙返点:' + gold_point +'\n结束时间：' + discount_end_time+'\n开始时间：' + discount_start_time,{'open-url': `https://store-jp.nintendo.com/list/software/${id}.html`})
+                returnValue = tag.flag+name + '打折了！' + "\n折后: " + discount_price + '📉' + discount + '🪙返点:' + gold_point + ' \n结束时间: ' + discount_end_time;
             }
         })
+        return returnValue;
     })
 }
 
