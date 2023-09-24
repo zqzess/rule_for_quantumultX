@@ -47,13 +47,13 @@ $.get(option, function (error, response, data) {
                 notifyContent += jsonObj.title[x].replace('汽油', ':').replace('柴油', ':') + i.data[x] + ', '
             }
     })
-    notifyContent = notifyContent.substring(0, notifyContent.length - 1)
+    notifyContent = notifyContent.substring(0, notifyContent.length - 2)
     $.isSurge() ? body = {
         title: title,
-        content: notifyContent,
-        icon: 'oilcan',
+        content: notifyContent + '\n' + jsonObj.message,
+        icon: 'drop',
         'icon-color': '#FFFF00'
-    } : body = {title: title, content: notifyContent, icon: 'oilcan', backgroundColor: '#FFFF00'}
+    } : body = {title: title, content: notifyContent + '\n' + jsonObj.message, icon: 'oilcan', backgroundColor: '#FFFF00'}
     console.log('\n内容：\n' + notifyContent)
     $.msg( '🔔' + locateInfo.location + '今日油价', notifyContent, jsonObj.message)
     $.isSurge || $.isStash ? $.done(body) : $.done()
