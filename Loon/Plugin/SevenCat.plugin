@@ -1,0 +1,16 @@
+#!name=七猫小说
+#!desc=七猫小说广告屏蔽
+#!author=zqzess
+#!version=v1.0
+#!openUrl=
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
+
+[Rule]
+URL-REGEX,^https:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ,REJECT
+URL-REGEX,^https:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad\/union\/sdk\/get_ads,REJECT
+DOMAIN,cdn-new-ad.wtzw.com,REJECT
+DOMAIN,a-remad.qm989.com,REJECT
+
+[MITM]
+hostname = open.e.kuaishou.cn, api-access.pangolin-sdk-toutiao-b.com
