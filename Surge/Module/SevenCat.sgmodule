@@ -6,7 +6,7 @@
 URL-REGEX,^https:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ,REJECT
 URL-REGEX,^https:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad\/union\/sdk\/get_ads,REJECT
 DOMAIN,cdn-new-ad.wtzw.com,REJECT
-DOMAIN,a-remad.qm989.com,Reject
+DOMAIN,a-remad.qm989.com,REJECT
 
 [MITM]
 hostname = %APPEND% open.e.kuaishou.cn, api-access.pangolin-sdk-toutiao-b.com
