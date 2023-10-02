@@ -5,8 +5,19 @@
 [Rule]
 URL-REGEX,^https:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ,REJECT
 URL-REGEX,^https:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad\/union\/sdk\/get_ads,REJECT
+URL-REGEX,^https:\/\/api-access\.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1)\.com\/api\/ad,REJECT
+URL-REGEX,^https:\/\/dsp\-x\.jd\.com\/adx\/sdk,REJECT
+URL-REGEX,^https:\/\/api\-cfg\.wtzw\.com\/v1\/(adv|reward|operation),REJECT
+URL-REGEX,https:\/\/p1\-lm\.adukwai\.com\/bs2\/adUnionVideo,REJECT
+URL-REGEX,https:\/\/lf\-cdn\-tos\.bytescm\.com\/obj\/static\/ad,REJECT
 DOMAIN,cdn-new-ad.wtzw.com,REJECT
 DOMAIN,a-remad.qm989.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN,qzs.gdtimg.com,REJECT
+DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
 
 [MITM]
-hostname = %APPEND% open.e.kuaishou.cn, api-access.pangolin-sdk-toutiao-b.com
+hostname = %APPEND% open.e.kuaishou.cn,api-access.pangolin-sdk-toutiao-b.com,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,dsp-x.jd.com,api-cfg.wtzw.com,p1-lm.adukwai.com,lf-cdn-tos.bytescm.com
