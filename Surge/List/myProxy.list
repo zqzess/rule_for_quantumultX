@@ -3,10 +3,11 @@ DOMAIN, www.whitemoon.top
 DOMAIN, whitemoon.top
 DOMAIN-SUFFIX, sentry.io
 DOMAIN-SUFFIX, openai.com
+DOMAIN-SUFFIX, auth0.com
 DOMAIN-SUFFIX, inf.news
-DOMAIN-SUFFIX,downallbook.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN,gallery.scriptable.app
+DOMAIN-SUFFIX, downallbook.com
+DOMAIN-SUFFIX, cloudflare.com
+DOMAIN, gallery.scriptable.app
 # bing ai
 DOMAIN-SUFFIX, bing.com
 DOMAIN-SUFFIX, bing.net
