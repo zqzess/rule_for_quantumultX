@@ -13,8 +13,6 @@ let option = {
     url: url,
     headers: {}
 }
-let nowDate = new Date().toLocaleDateString()
-let year = nowDate.split('/')[0]
 // 各日期区分开方便日后区分放假通知与倒数日通知
 let holidayData = $.getjson('@DaysMatter.holidayData', null) // 法定节假日，放假的那种
 let daysData = [] // 节日集合，包含法定节假日，内置假日，用户假日（固定+浮动）
@@ -39,7 +37,8 @@ let defaultDaysData = [  // 内置假日
     {'date': '2023.10.23', 'name': '重阳'}
  */
 
-let tnow = new Date()
+let tnow = new Date(2023,10,31)
+const tnowY = tnow.getFullYear()
 let tnowf = tnow.getFullYear() + "-" + (tnow.getMonth() + 1) + "-" + tnow.getDate()
 // let tnowf = '2023-2-5'
 
@@ -48,10 +47,36 @@ let dateDiffArray = []
 startWork()
 
 async function startWork() {
-    await setHoliDayData()
+    daysData = daysData.concat(await setHoliDayData(tnowY),await setUserDayData(tnowY))
+    console.log('节日集合: ')
+    daysData.forEach((i) => console.log(i))
     let nowlist = now();
-    $.log('距离最近的节日：' + daysData[nowlist].name)
-    let notifyContent = dateDiffArray[0].name + ":" + today(tnumcount(0)) + "," + dateDiffArray[Number(0) + Number(1)].name + ":" + tnumcount(Number(0) + Number(1)) + "天," + dateDiffArray[Number(0) + Number(2)].name + ":" + tnumcount(Number(0) + Number(2)) + "天"
+    if(dateDiffArray.length<2){
+        dateDiffArray.push({date: tnowY + '-12-31', name: '今年已经没有节日啦!', key: 0})
+        dateDiffArray.push({date: String(tnowY + 1) + '-1-1', name: '元旦', key: 1})
+    }
+    else{
+        dateDiffArray = mergeSort(dateDiffArray) // 对集合排序
+    }
+    console.log('未来假日: ')
+    dateDiffArray.forEach((i) => console.log(i))
+    // $.log('距离最近的节日：' + daysData[nowlist].name)
+    // dateDiffArray = mergeSort(dateDiffArray) // 对集合排序
+
+    $.log('距离最近的节日：' + dateDiffArray[0].name)
+    let notifyContent = ''
+    for(let i= 0;i<dateDiffArray.length;i++){
+        if (dateDiffArray[i].name === '今年已经没有节日啦!'){
+            notifyContent = notifyContent + dateDiffArray[i].name + ","
+            continue
+        }
+        if (i === 0){
+            notifyContent = dateDiffArray[i].name + ":" + today(tnumcount(i)) + ","
+            continue
+        }
+        notifyContent = notifyContent + dateDiffArray[i].name + ":" + tnumcount(i) + ","
+    }
+    notifyContent = notifyContent.substring(0,notifyContent.length-1)
     $.isSurge() ? body = {
         title: title_random(tnumcount(Number(0))),
         content: notifyContent,
@@ -63,20 +88,31 @@ async function startWork() {
     $.isSurge || $.isStash ? $.done(body) : $.done()
 }
 
-async function setHoliDayData() {
-    if (holidayData === null || holidayData.year !== year) {
-        await $.http.get(option).then(function (response) {
+// 设置法定节假日
+async function setHoliDayData(year) {
+    if (holidayData === null || holidayData.year !== String(year)) {
+        await $.http.get(option).then(async function (response) {
             let jsonObj = JSON.parse(response.body)
             let result = jsonObj.data[0].holiday
-            result.forEach(function (i) {
-                if (i.year === year) {
+            await result.forEach(function (i) {
+                if (i.year === String(year)) {
                     holidayData = i
                     $.setjson(i, '@DaysMatter.holidayData')
                 }
             })
         })
     }
-    daysData = daysData.concat(holidayData.list) // 法定节假日并入假日集合
+    // console.log('法定节日集合: ')
+    // holidayData.list.forEach(function (i) {
+    //     console.log(i)
+    // })
+    return holidayData.list
+}
+
+
+// 设置用户假日
+async function setUserDayData(year) {
+    let daysData2 = []
     let clearFlag = false
     // 如果用户填写了固定日期，就解析并入节日集合，如公历生日，每年都是一样的，所以填入月和日即可，3-1。会自动解析并加入当前年份
     if (userDays !== '' && userDays !== undefined && userDays !== null && userDaysName !== '' && userDaysName !== undefined && userDaysName !== null) {
@@ -92,10 +128,10 @@ async function setHoliDayData() {
                 userDaysArray[i] = userDaysArray[i].replace(/\./g, '-').replace(/\//g, '-').replace(/。/g, '-').replace(/年/g, '-').replace(/月/g, '-').replace(/日/g, '').replace(/号/g, '')
                 // 如果用户填写的是浮动日期，此处与下面的重复了，目前设计是浮动日期和固定日期分开填写，后期可视情况合并（删除下面）
                 if (userDaysArray[i].split('-').length > 2) {
-                    daysData.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]})
+                    daysData2.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]})
                     userDaysData.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]}) // 此变量备用
                 } else if (userDaysArray[i].split('-').length === 2) { // 用户填写的是固定日期
-                    daysData.push({'date': year + '-' + userDaysArray[i], 'name': userDaysNameArray[i]})
+                    daysData2.push({'date': year + '-' + userDaysArray[i], 'name': userDaysNameArray[i]})
                     userDaysData.push({'date': year + '-' + userDaysArray[i], 'name': userDaysNameArray[i]}) // 此变量备用
                 }
             }
@@ -121,7 +157,7 @@ async function setHoliDayData() {
                 userDaysArray[i] = userDaysArray[i].replace(/\./g, '-').replace(/\//g, '-').replace(/。/g, '-').replace(/年/g, '-').replace(/月/g, '-').replace(/日/g, '').replace(/号/g, '')
                 console.log(userDaysArray[i])
                 if (userDaysArray[i].split('-').length > 2) {
-                    daysData.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]})
+                    daysData2.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]})
                     userDaysData.push({'date': userDaysArray[i], 'name': userDaysNameArray[i]}) // 此变量备用
                 }
             }
@@ -136,13 +172,23 @@ async function setHoliDayData() {
                 day.date = year + '-' + day.date
             }
         })
-        daysData = daysData.concat(defaultDaysData)
+        daysData2 = daysData2.concat(defaultDaysData)
     }
-    console.log('节日集合: ')
-    daysData.forEach(function (i) {
-        console.log(i)
-    })
+    // daysData2.push({date: tnowY + '-12-31', name: '今年已经没有节日啦！'})
+    // daysData2.push({date: String(tnowY + 1) + '-1-1', name: '元旦'})
+    // console.log('用户节日集合: ')
+    // daysData2.forEach(function (i) {
+    //     console.log(i)
+    // })
+    return daysData2
     // console.log(daysData)
+}
+
+// 切换下一年日期
+async function setNextYear(dateDiffArray) {
+    dateDiffArray.push({date: '2023-12-31', name: '今年的已经没有节日啦！'})
+    dateDiffArray.push({date: String(tnowY + 1) + '-1-1', name: '元旦'})
+    return dateDiffArray
 }
 
 /* 计算2个日期相差的天数，不包含今天，如：2016-12-13到2016-12-15，相差2天
@@ -181,7 +227,6 @@ function now() {
             res = i
         }
     }
-    dateDiffArray = mergeSort(dateDiffArray) // 对集合排序
     return res
 }
 
