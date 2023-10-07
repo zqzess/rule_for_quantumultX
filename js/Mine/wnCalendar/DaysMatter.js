@@ -67,7 +67,7 @@ async function startWork() {
     let notifyContent = ''
     for(let i= 0;i<dateDiffArray.length;i++){
         if (dateDiffArray[i].name === '今年已经没有节日啦!'){
-            notifyContent = notifyContent + dateDiffArray[i].name + ","
+            notifyContent = notifyContent + "🥀" +dateDiffArray[i].name + ","
             continue
         }
         if (i === 0){
