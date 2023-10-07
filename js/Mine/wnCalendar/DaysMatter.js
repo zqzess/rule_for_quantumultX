@@ -37,7 +37,7 @@ let defaultDaysData = [  // 内置假日
     {'date': '2023.10.23', 'name': '重阳'}
  */
 
-let tnow = new Date(2023,10,31)
+let tnow = new Date()
 const tnowY = tnow.getFullYear()
 let tnowf = tnow.getFullYear() + "-" + (tnow.getMonth() + 1) + "-" + tnow.getDate()
 // let tnowf = '2023-2-5'
