@@ -74,7 +74,7 @@ async function startWork() {
             notifyContent = dateDiffArray[i].name + ":" + today(tnumcount(i)) + ","
             continue
         }
-        notifyContent = notifyContent + dateDiffArray[i].name + ":" + tnumcount(i) + ","
+        notifyContent = notifyContent + dateDiffArray[i].name + ":" + tnumcount(i) + "天,"
     }
     notifyContent = notifyContent.substring(0,notifyContent.length-1)
     $.isSurge() ? body = {
