@@ -48,6 +48,9 @@ $.get(option, function (error, response, data) {
             }
     })
     notifyContent = notifyContent.substring(0, notifyContent.length - 2)
+    if(jsonObj.message === null) {
+        jsonObj.message = ''
+    }
     $.isSurge() ? body = {
         title: '⛽️' + locateInfo.location + '今日油价',
         content: notifyContent + '\n' + jsonObj.message,
