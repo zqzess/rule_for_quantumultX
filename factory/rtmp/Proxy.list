@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-08 02:11:10
+# UPDATED: 2023-10-23 02:11:12
 # HOST: 17
 # HOST-KEYWORD: 29
-# HOST-SUFFIX: 6329
+# HOST-SUFFIX: 6325
 # IP-CIDR: 94
 # IP6-CIDR: 3
 # USER-AGENT: 9
-# TOTAL: 6481
+# TOTAL: 6477
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -132,7 +132,6 @@ HOST-SUFFIX,6park.com,Proxy
 HOST-SUFFIX,6parkbbs.com,Proxy
 HOST-SUFFIX,6parker.com,Proxy
 HOST-SUFFIX,6parknews.com,Proxy
-HOST-SUFFIX,7-zip.org,Proxy
 HOST-SUFFIX,7capture.com,Proxy
 HOST-SUFFIX,7cow.com,Proxy
 HOST-SUFFIX,8-d.com,Proxy
@@ -1069,7 +1068,6 @@ HOST-SUFFIX,civiliangunner.com,Proxy
 HOST-SUFFIX,civilmedia.tw,Proxy
 HOST-SUFFIX,civisec.org,Proxy
 HOST-SUFFIX,civitai.com,Proxy
-HOST-SUFFIX,cjb.net,Proxy
 HOST-SUFFIX,ck101.com,Proxy
 HOST-SUFFIX,cl.ly,Proxy
 HOST-SUFFIX,clarionproject.org,Proxy
@@ -2945,6 +2943,7 @@ HOST-SUFFIX,isohunt.com,Proxy
 HOST-SUFFIX,israbox.com,Proxy
 HOST-SUFFIX,issuu.com,Proxy
 HOST-SUFFIX,istars.co.nz,Proxy
+HOST-SUFFIX,istarshine.com,Proxy
 HOST-SUFFIX,istef.info,Proxy
 HOST-SUFFIX,istiqlalhewer.com,Proxy
 HOST-SUFFIX,istockphoto.com,Proxy
@@ -4071,7 +4070,6 @@ HOST-SUFFIX,over-blog.com,Proxy
 HOST-SUFFIX,overcast.fm,Proxy
 HOST-SUFFIX,overdaily.org,Proxy
 HOST-SUFFIX,overplay.net,Proxy
-HOST-SUFFIX,oversea.istarshine.com,Proxy
 HOST-SUFFIX,ovi.com,Proxy
 HOST-SUFFIX,ovpn.com,Proxy
 HOST-SUFFIX,ow.ly,Proxy
@@ -4094,7 +4092,6 @@ HOST-SUFFIX,paddle.com,Proxy
 HOST-SUFFIX,paddleapi.com,Proxy
 HOST-SUFFIX,padmanet.com,Proxy
 HOST-SUFFIX,page.link,Proxy
-HOST-SUFFIX,pages.dev,Proxy
 HOST-SUFFIX,pagodabox.com,Proxy
 HOST-SUFFIX,palacemoon.com,Proxy
 HOST-SUFFIX,paldengyal.com,Proxy
@@ -5397,7 +5394,6 @@ HOST-SUFFIX,tracfone.com,Proxy
 HOST-SUFFIX,tradingview.com,Proxy
 HOST-SUFFIX,trakt.tv,Proxy
 HOST-SUFFIX,translate.goog,Proxy
-HOST-SUFFIX,translate.google,Proxy
 HOST-SUFFIX,transparency.org,Proxy
 HOST-SUFFIX,treemall.com.tw,Proxy
 HOST-SUFFIX,trello.com,Proxy

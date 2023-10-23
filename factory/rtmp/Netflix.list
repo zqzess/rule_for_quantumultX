@@ -1,15 +1,15 @@
 # NAME: Netflix
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-13 02:11:19
+# UPDATED: 2023-10-20 02:12:01
 # HOST: 3
 # HOST-KEYWORD: 4
 # HOST-SUFFIX: 30
 # HOST-WILDCARD: 1
-# IP-CIDR: 1032
+# IP-CIDR: 1033
 # IP6-CIDR: 4
 # USER-AGENT: 1
-# TOTAL: 1075
+# TOTAL: 1076
 HOST,e13252.dscg.akamaiedge.net,Netflix
 HOST,h-netflix.online-metrix.net,Netflix
 HOST,netflix.com.edgesuite.net,Netflix
@@ -590,6 +590,7 @@ IP-CIDR,3.145.220.0/22,Netflix
 IP-CIDR,3.145.230.0/24,Netflix
 IP-CIDR,3.145.246.48/28,Netflix
 IP-CIDR,3.145.31.0/26,Netflix
+IP-CIDR,3.146.44.0/23,Netflix
 IP-CIDR,3.15.35.0/24,Netflix
 IP-CIDR,3.15.36.0/26,Netflix
 IP-CIDR,3.16.146.0/29,Netflix
