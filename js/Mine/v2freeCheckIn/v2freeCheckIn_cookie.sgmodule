@@ -1,0 +1,8 @@
+#!name=v2free机场签到cookie获取 @zqzess
+#!desc=v2free机场签到领流量cookie获取
+
+[Script]
+阿里网盘token获取 = type=http-request,pattern=^https:\/\/w1\.v2free\.top\/user,requires-body=1,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/v2freeCheckIn/v2freeCheckIn.js
+
+[MITM]
+hostname = %APPEND% w1.v2free.top
