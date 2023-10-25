@@ -1,10 +1,11 @@
 #!name=七猫小说
 #!desc=七猫小说广告屏蔽
 #!author=zqzess
-#!version=v1.0
+#!version=v1.1
 #!openUrl=
 #!homepage=https://github.com/zqzess/rule_for_quantumultX
-#!icon=
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/SevenCat.png
+#!date=2023-10-02 19:00
 
 [Rule]
 URL-REGEX,^https:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ,REJECT
@@ -22,6 +23,7 @@ DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN-KEYWORD,remad.qm989.com,REJECT
 
 # https://lf-cdn-tos.bytescm.com/obj/static/ad/play-comp/playable-component-sdk/package.ugen.json?aid=5000546&version_code=5.3.1.3&device_platform=iphone
 # https://qzs.gdtimg.com/union/res/union_cdn/page/temp_v2/tempMob.package.json
