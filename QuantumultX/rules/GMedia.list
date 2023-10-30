@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2023-10-23 01:32:52
+# GMedia rules refresh time: 2023-10-30 01:32:44
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -47,6 +47,7 @@ HOST,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com,GMedia
 HOST-SUFFIX,tv.apple.com,GMedia
 HOST,np-edge.itunes.apple.com,GMedia
 HOST,play-edge.itunes.apple.com,GMedia
+HOST,uts-api.itunes.apple.com,GMedia
 USER-AGENT,Anime*,GMedia
 HOST-SUFFIX,bahamut.com.tw,GMedia
 HOST-SUFFIX,gamer.com.tw,GMedia
@@ -286,10 +287,14 @@ HOST-SUFFIX,youtube-ui.l.google.com,GMedia
 HOST-SUFFIX,yt.be,GMedia
 HOST-SUFFIX,yt3.ggpht.com,GMedia
 HOST-SUFFIX,ytimg.com,GMedia
+HOST,akmcdnoversea-tw.inter.ptqy.gitv.tv,GMedia
 HOST,api.okzy.tv,GMedia
 HOST,apm-misaka.biliapi.net,GMedia
 HOST,apple.comscoreresearch.com,GMedia
 HOST,bcbolt446c5271-a.akamaihd.net,GMedia
+HOST,cache.video.iqiyi.com,GMedia
+HOST,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv,GMedia
+HOST,dashasiafox.akamaized.netflix,GMedia
 HOST,daznfeeds.com.edgekey.net,GMedia
 HOST,dca-lm-livedazn.secure.footprint.net,GMedia
 HOST,edge.cwtv-vod-ext.top.comcast.net,GMedia
@@ -302,14 +307,15 @@ HOST,ktpx.amazon.com,GMedia
 HOST,news-client.apple.com,GMedia
 HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
+HOST,ocvideo.apple.com,GMedia
 HOST,p.bstarstatic.com,GMedia
 HOST,rpg.pic-imges.com,GMedia
 HOST,rthklive2-lh.akamaihd.net,GMedia
-HOST,tv.applemusic.com,GMedia
 HOST-SUFFIX,112263.com,GMedia
 HOST-SUFFIX,20thcenturystudios.com.au,GMedia
 HOST-SUFFIX,20thcenturystudios.com.br,GMedia
 HOST-SUFFIX,20thcenturystudios.jp,GMedia
+HOST-SUFFIX,4gtv.tv,GMedia
 HOST-SUFFIX,5itv.tv,GMedia
 HOST-SUFFIX,abc-studios.com,GMedia
 HOST-SUFFIX,abc.com,GMedia
@@ -341,6 +347,7 @@ HOST-SUFFIX,amlg.io,GMedia
 HOST-SUFFIX,anidom.com,GMedia
 HOST-SUFFIX,api.tv.colnv.com,GMedia
 HOST-SUFFIX,apple.news,GMedia
+HOST-SUFFIX,applemusic.com,GMedia
 HOST-SUFFIX,assetshuluimcom-a.akamaihd.net,GMedia
 HOST-SUFFIX,att.tv,GMedia
 HOST-SUFFIX,atttvnow.com,GMedia
@@ -363,6 +370,7 @@ HOST-SUFFIX,bentobox.tv,GMedia
 HOST-SUFFIX,bigbigchannel.com.hk,GMedia
 HOST-SUFFIX,bigbigshop.com,GMedia
 HOST-SUFFIX,biggggg.com,GMedia
+HOST-SUFFIX,bilibili.tv,GMedia
 HOST-SUFFIX,biliintl.com,GMedia
 HOST-SUFFIX,bowenpress.com,GMedia
 HOST-SUFFIX,boxun.com,GMedia
@@ -833,6 +841,7 @@ HOST-SUFFIX,intl.iqiyi.com,GMedia
 HOST-SUFFIX,iole.tv,GMedia
 HOST-SUFFIX,ipstatp.com,GMedia
 HOST-SUFFIX,iq.com,GMedia
+HOST-SUFFIX,isnssdk.com,GMedia
 HOST-SUFFIX,italkbb.com,GMedia
 HOST-SUFFIX,italkbbtv.com,GMedia
 HOST-SUFFIX,itv.com,GMedia
@@ -1055,6 +1064,7 @@ HOST-SUFFIX,sbnation.com,GMedia
 HOST-SUFFIX,screens-lab.jp,GMedia
 HOST-SUFFIX,seattlespheres.com,GMedia
 HOST-SUFFIX,sgpstatp.com,GMedia
+HOST-SUFFIX,sho.com,GMedia
 HOST-SUFFIX,shopdisney.com,GMedia
 HOST-SUFFIX,shops-disney.com,GMedia
 HOST-SUFFIX,shopspeedtv.com,GMedia
@@ -1116,6 +1126,7 @@ HOST-SUFFIX,twemoji.maxcdn.com,GMedia
 HOST-SUFFIX,twitch-ext.rootonline.de,GMedia
 HOST-SUFFIX,twitch.tv,GMedia
 HOST-SUFFIX,twitchcdn.net,GMedia
+HOST-SUFFIX,twitchsvc.net,GMedia
 HOST-SUFFIX,tynt.com,GMedia
 HOST-SUFFIX,universalkids.com,GMedia
 HOST-SUFFIX,urduvoa.com,GMedia
@@ -1132,6 +1143,7 @@ HOST-SUFFIX,viacbs.com,GMedia
 HOST-SUFFIX,viacom.com,GMedia
 HOST-SUFFIX,viacomcbs.com,GMedia
 HOST-SUFFIX,viacomcbspressexpress.com,GMedia
+HOST-SUFFIX,viblast.com,GMedia
 HOST-SUFFIX,videos-f.jwpsrv.com,GMedia
 HOST-SUFFIX,vidol.tv,GMedia
 HOST-SUFFIX,viki.com,GMedia
@@ -1231,10 +1243,13 @@ HOST-KEYWORD,olevod,GMedia
 HOST-KEYWORD,spotify.com,GMedia
 HOST-KEYWORD,tiktokcdn,GMedia
 HOST-KEYWORD,ttvnw,GMedia
+HOST-KEYWORD,tvbanywhere,GMedia
 HOST-KEYWORD,uk-live,GMedia
 HOST-KEYWORD,voddazn,GMedia
 HOST-KEYWORD,youtube,GMedia
+USER-AGENT,*Spotify*,GMedia
 USER-AGENT,All4*,GMedia
+USER-AGENT,AppleTV*,GMedia
 USER-AGENT,Argo*,GMedia
 USER-AGENT,DPlus*,GMedia
 USER-AGENT,Deezer*,GMedia
@@ -1242,10 +1257,13 @@ USER-AGENT,Disney+*,GMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
 USER-AGENT,HBO%20GO%20PROD*,GMedia
 USER-AGENT,HBO%20NOW*,GMedia
+USER-AGENT,HBO*,GMedia
 USER-AGENT,HWTVMobile*,GMedia
 USER-AGENT,Himalaya*,GMedia
+USER-AGENT,Hulu*,GMedia
 USER-AGENT,ITV_Player*,GMedia
 USER-AGENT,LINE%20TV*,GMedia
+USER-AGENT,Max*,GMedia
 USER-AGENT,My5*,GMedia
 USER-AGENT,Naver%20TV*,GMedia
 USER-AGENT,Niconico*,GMedia
@@ -1261,6 +1279,7 @@ USER-AGENT,TikTok*,GMedia
 USER-AGENT,Viu*,GMedia
 USER-AGENT,WeTV*,GMedia
 USER-AGENT,YouTubeMusic*,GMedia
+USER-AGENT,com.apple.tv*,GMedia
 USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 USER-AGENT,com.kktv.ios.kktv*,GMedia

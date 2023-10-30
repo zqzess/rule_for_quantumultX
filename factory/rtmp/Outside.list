@@ -48,9 +48,11 @@ HOST-SUFFIX,storage.msn.com,Outside
 # > OpenAI
 # > > ChatGPT
 HOST-SUFFIX,ai.com,Outside
+HOST-SUFFIX,chatgpt.com,Outside
 HOST-SUFFIX,openai.com,Outside
 
 # > > CDN & API
+HOST-SUFFIX,cdn.oaistatic.com,Outside
 HOST,chat.openai.com.cdn.cloudflare.net,Outside
 HOST,openaiapi-site.azureedge.net,Outside
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
@@ -338,6 +340,8 @@ HOST-SUFFIX,ghostnoteapp.com,Outside
 HOST-SUFFIX,ghcr.io,Outside
 HOST-SUFFIX,git.io,Outside
 HOST-SUFFIX,gitbook.com,Outside
+HOST-SUFFIX,gitlab.com,Outside
+HOST-SUFFIX,gitlab.io,Outside
 HOST-SUFFIX,globalsign.com,Outside
 HOST-SUFFIX,gmocloud.com,Outside
 HOST-SUFFIX,gmodules.com,Outside

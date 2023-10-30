@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2023-10-23 01:32:53
+# Outside rules refresh time: 2023-10-30 01:32:45
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -35,7 +35,9 @@ HOST-SUFFIX,skype.com,Outside
 HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
 HOST-SUFFIX,ai.com,Outside
+HOST-SUFFIX,chatgpt.com,Outside
 HOST-SUFFIX,openai.com,Outside
+HOST-SUFFIX,cdn.oaistatic.com,Outside
 HOST,chat.openai.com.cdn.cloudflare.net,Outside
 HOST,openaiapi-site.azureedge.net,Outside
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
@@ -295,6 +297,8 @@ HOST-SUFFIX,ghostnoteapp.com,Outside
 HOST-SUFFIX,ghcr.io,Outside
 HOST-SUFFIX,git.io,Outside
 HOST-SUFFIX,gitbook.com,Outside
+HOST-SUFFIX,gitlab.com,Outside
+HOST-SUFFIX,gitlab.io,Outside
 HOST-SUFFIX,globalsign.com,Outside
 HOST-SUFFIX,gmocloud.com,Outside
 HOST-SUFFIX,gmodules.com,Outside
@@ -989,6 +993,7 @@ HOST-SUFFIX,addictedtocoffee.de,Outside
 HOST-SUFFIX,addyoutube.com,Outside
 HOST-SUFFIX,adelaidebbs.com,Outside
 HOST-SUFFIX,adguard.org,Outside
+HOST-SUFFIX,admob.com,Outside
 HOST-SUFFIX,adpl.org.hk,Outside
 HOST-SUFFIX,adsense.com,Outside
 HOST-SUFFIX,adtidy.org,Outside
@@ -1080,7 +1085,6 @@ HOST-SUFFIX,amnesty.tw,Outside
 HOST-SUFFIX,amnestyusa.org,Outside
 HOST-SUFFIX,amnyemachen.org,Outside
 HOST-SUFFIX,amoiist.com,Outside
-HOST-SUFFIX,amplitude.com,Outside
 HOST-SUFFIX,amtb-taipei.org,Outside
 HOST-SUFFIX,anchor.fm,Outside
 HOST-SUFFIX,anchorfree.com,Outside
@@ -2097,7 +2101,6 @@ HOST-SUFFIX,dtwang.org,Outside
 HOST-SUFFIX,duanzhihu.com,Outside
 HOST-SUFFIX,dubox.com,Outside
 HOST-SUFFIX,duck.com,Outside
-HOST-SUFFIX,duckdns.org,Outside
 HOST-SUFFIX,duckload.com,Outside
 HOST-SUFFIX,duckmylife.com,Outside
 HOST-SUFFIX,duga.jp,Outside
@@ -2690,8 +2693,6 @@ HOST-SUFFIX,github.io,Outside
 HOST-SUFFIX,githubapp.com,Outside
 HOST-SUFFIX,githubassets.com,Outside
 HOST-SUFFIX,githubusercontent.com,Outside
-HOST-SUFFIX,gitlab.com,Outside
-HOST-SUFFIX,gitlab.io,Outside
 HOST-SUFFIX,gizlen.net,Outside
 HOST-SUFFIX,gjczz.com,Outside
 HOST-SUFFIX,glass8.eu,Outside
@@ -3217,7 +3218,6 @@ HOST-SUFFIX,hnjhj.com,Outside
 HOST-SUFFIX,hnntube.com,Outside
 HOST-SUFFIX,hojemacau.com.mo,Outside
 HOST-SUFFIX,hola.com,Outside
-HOST-SUFFIX,hola.org,Outside
 HOST-SUFFIX,holymountaincn.com,Outside
 HOST-SUFFIX,holyspiritspeaks.org,Outside
 HOST-SUFFIX,home.sina.com,Outside
@@ -3598,7 +3598,6 @@ HOST-SUFFIX,juliereyc.com,Outside
 HOST-SUFFIX,junauza.com,Outside
 HOST-SUFFIX,june4commemoration.org,Outside
 HOST-SUFFIX,junefourth-20.net,Outside
-HOST-SUFFIX,jungleheart.com,Outside
 HOST-SUFFIX,junglobal.net,Outside
 HOST-SUFFIX,juoaa.com,Outside
 HOST-SUFFIX,justdied.com,Outside
@@ -4441,7 +4440,6 @@ HOST-SUFFIX,omy.sg,Outside
 HOST-SUFFIX,on.cc,Outside
 HOST-SUFFIX,on2.com,Outside
 HOST-SUFFIX,onapp.com,Outside
-HOST-SUFFIX,onedumb.com,Outside
 HOST-SUFFIX,onejav.com,Outside
 HOST-SUFFIX,onion.city,Outside
 HOST-SUFFIX,onion.ly,Outside
@@ -4479,7 +4477,6 @@ HOST-SUFFIX,oraclecloud.com,Outside
 HOST-SUFFIX,orchidbbs.com,Outside
 HOST-SUFFIX,organcare.org.tw,Outside
 HOST-SUFFIX,organharvestinvestigation.net,Outside
-HOST-SUFFIX,organiccrap.com,Outside
 HOST-SUFFIX,orgasm.com,Outside
 HOST-SUFFIX,orgfree.com,Outside
 HOST-SUFFIX,oricon.co.jp,Outside
@@ -6364,12 +6361,10 @@ HOST-SUFFIX,yobit.net,Outside
 HOST-SUFFIX,yobt.com,Outside
 HOST-SUFFIX,yobt.tv,Outside
 HOST-SUFFIX,yogichen.org,Outside
-HOST-SUFFIX,yolasite.com,Outside
 HOST-SUFFIX,yomiuri.co.jp,Outside
 HOST-SUFFIX,yong.hu,Outside
 HOST-SUFFIX,you-get.org,Outside
 HOST-SUFFIX,you.com,Outside
-HOST-SUFFIX,youdontcare.com,Outside
 HOST-SUFFIX,youjizz.com,Outside
 HOST-SUFFIX,youngpornvideos.com,Outside
 HOST-SUFFIX,youngspiration.hk,Outside
@@ -6380,7 +6375,6 @@ HOST-SUFFIX,your-freedom.net,Outside
 HOST-SUFFIX,yourepeat.com,Outside
 HOST-SUFFIX,yourlust.com,Outside
 HOST-SUFFIX,yourprivatevpn.com,Outside
-HOST-SUFFIX,yourtrap.com,Outside
 HOST-SUFFIX,yousendit.com,Outside
 HOST-SUFFIX,youshun12.com,Outside
 HOST-SUFFIX,youthforfreechina.org,Outside
@@ -6482,7 +6476,6 @@ HOST-SUFFIX,zyxel.com,Outside
 HOST-SUFFIX,zyzc9.com,Outside
 HOST-SUFFIX,zzcartoon.com,Outside
 HOST-SUFFIX,zzcloud.me,Outside
-HOST-SUFFIX,zzux.com,Outside
 HOST-KEYWORD,1drv,Outside
 HOST-KEYWORD,1e100,Outside
 HOST-KEYWORD,abema,Outside

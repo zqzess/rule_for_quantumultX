@@ -1,4 +1,5 @@
-# YouTube rules refresh time: 2023-10-23 01:32:52
+# YouTube rules refresh time: 2023-10-30 01:32:44
+HOST,music.youtube.com,YouTube
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
 HOST-SUFFIX,ggpht.cn,YouTube
@@ -183,9 +184,13 @@ HOST-WILDCARD,youtube.*,YouTube
 HOST-WILDCARD,youtube.*.*,YouTube
 HOST-WILDCARD,youtube.com.*,YouTube
 HOST-KEYWORD,youtube,YouTube
+USER-AGENT,*YouTubeMusic*,YouTube
+USER-AGENT,*com.google.ios.youtubemusic*,YouTube
 USER-AGENT,*youtube*,YouTube
 USER-AGENT,YouTube*,YouTube
+USER-AGENT,YouTubeMusic*,YouTube
 USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,com.google.ios.youtubemusic*,YouTube
 IP-CIDR,172.110.32.0/21,YouTube
 IP-CIDR,216.73.80.0/20,YouTube
 IP6-CIDR,2620:120:e000::/40,YouTube
