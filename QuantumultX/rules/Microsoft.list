@@ -1,4 +1,4 @@
-# Microsoft rules refresh time: 2023-10-30 01:32:44
+# Microsoft rules refresh time: 2023-11-06 01:35:58
 HOST,bg.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bg4.v4.a.dl.ws.microsoft.com,Microsoft
 HOST,bj1.api.bing.com,Microsoft
@@ -422,6 +422,7 @@ HOST-SUFFIX,microsoftsilverlight.net,Microsoft
 HOST-SUFFIX,microsoftsilverlight.org,Microsoft
 HOST-SUFFIX,microsoftsiteselection.com,Microsoft
 HOST-SUFFIX,microsoftsqlserver.com,Microsoft
+HOST-SUFFIX,microsoftstart.com,Microsoft
 HOST-SUFFIX,microsoftstore.com,Microsoft
 HOST-SUFFIX,microsoftstore.com.cn,Microsoft
 HOST-SUFFIX,microsoftstore.com.hk,Microsoft
@@ -594,6 +595,7 @@ HOST-SUFFIX,skypeforbusiness.com,Microsoft
 HOST-SUFFIX,sprinklesapp.com,Microsoft
 HOST-SUFFIX,sqlserveronlinux.com,Microsoft
 HOST-SUFFIX,staffhub.ms,Microsoft
+HOST-SUFFIX,start.com,Microsoft
 HOST-SUFFIX,statics-marketingsites-eas-ms-com.akamaized.net,Microsoft
 HOST-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net,Microsoft
 HOST-SUFFIX,statics-marketingsites-neu-ms-com.akamaized.net,Microsoft
