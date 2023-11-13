@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-03 02:12:21
-# HOST: 507
+# UPDATED: 2023-11-13 02:12:12
+# HOST: 516
 # HOST-KEYWORD: 37
-# HOST-SUFFIX: 19538
+# HOST-SUFFIX: 19554
 # IP-CIDR: 112
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 20244
+# TOTAL: 20269
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -16,6 +16,7 @@ HOST,3dns-4.adobe.com,Global
 HOST,3dns-5.adobe.com,Global
 HOST,3dns.adobe.com,Global
 HOST,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Global
+HOST,a.ppy.sh,Global
 HOST,a248.e.akamai.net,Global
 HOST,a771.dscq.akamai.net,Global
 HOST,abematv.akamaized.net,Global
@@ -57,6 +58,7 @@ HOST,appleworldwidedeveloper.sc.omtrdc.net,Global
 HOST,as-dash-uk-live.akamaized.net,Global
 HOST,as-hls-uk-live.akamaized.net,Global
 HOST,asahishimbun.sc.omtrdc.net,Global
+HOST,assets.ppy.sh,Global
 HOST,assets1.xboxlive.com,Global
 HOST,assets2.xboxlive.com,Global
 HOST,audio-ak-spotify-com.akamaized.net,Global
@@ -86,6 +88,7 @@ HOST,bnetproduct-a.akamaihd.net,Global
 HOST,bnetshopus.akamaized.net,Global
 HOST,books.apple.com,Global
 HOST,brightcove.imgix.net,Global
+HOST,c.ppy.sh,Global
 HOST,cbsi.live.ott.irdeto.com,Global
 HOST,cbsplaylistserver.aws.syncbak.com,Global
 HOST,cbsservice.aws.syncbak.com,Global
@@ -207,6 +210,7 @@ HOST,itvpnpmobile-a.akamaihd.net,Global
 HOST,js-cdn.music.apple.com,Global
 HOST,kktv-theater.kk.stream,Global
 HOST,lab.skk.moe,Global
+HOST,lazer.ppy.sh,Global
 HOST,lgelectronics.122.2o7.net,Global
 HOST,licdn.cn.cdn20.com,Global
 HOST,linear-abematv.akamaized.net,Global
@@ -218,6 +222,7 @@ HOST,lm.licenses.adobe.com,Global
 HOST,lmlicenses.wip4.adobe.com,Global
 HOST,lolstatic-a.akamaihd.net,Global
 HOST,lookup-api.apple.com,Global
+HOST,m1.ppy.sh,Global
 HOST,mdn.mozillademos.org,Global
 HOST,media-rockstargames-com.akamaized.net,Global
 HOST,medone-education.thieme.com,Global
@@ -235,6 +240,7 @@ HOST,news-client-search.apple.com,Global
 HOST,news-client.apple.com,Global
 HOST,news-edge.apple.com,Global
 HOST,news-events.apple.com,Global
+HOST,notify.ppy.sh,Global
 HOST,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com,Global
 HOST,nvidia.tt.omtrdc.net,Global
 HOST,nytimes.map.fastly.net,Global
@@ -246,6 +252,7 @@ HOST,onekey.zendesk.com,Global
 HOST,oneocsp.microsoft.com,Global
 HOST,ood.opsource.net,Global
 HOST,opgg-static.akamaized.net,Global
+HOST,osu.ppy.sh,Global
 HOST,p-events-delivery.akamaized.net,Global
 HOST,paper-attachments.s3.amazonaws.com,Global
 HOST,payments-jp.amazon.com,Global
@@ -348,7 +355,9 @@ HOST,scholar.google.sk,Global
 HOST,scholar.googleusercontent.com,Global
 HOST,scholar.l.google.com,Global
 HOST,search.yahoo.co.jp,Global
+HOST,sentry.ppy.sh,Global
 HOST,sni1dcb6gl.wpc.edgecastcdn.net,Global
+HOST,spectator.ppy.sh,Global
 HOST,spotify.com.edgesuite.net,Global
 HOST,spotify.map.fastly.net,Global
 HOST,spotify.map.fastlylb.net,Global
@@ -565,6 +574,9 @@ HOST-SUFFIX,18-teen-xxx.com,Global
 HOST-SUFFIX,188channel.com,Global
 HOST-SUFFIX,18av.pro,Global
 HOST-SUFFIX,18avx.com,Global
+HOST-SUFFIX,18comic-god.cc,Global
+HOST-SUFFIX,18comic-god.club,Global
+HOST-SUFFIX,18comic-god.xyz,Global
 HOST-SUFFIX,18comic.cc,Global
 HOST-SUFFIX,18comic.company,Global
 HOST-SUFFIX,18comic.org,Global
@@ -916,7 +928,11 @@ HOST-SUFFIX,addtoany.com,Global
 HOST-SUFFIX,adgoogle.net,Global
 HOST-SUFFIX,adguard-dns.com,Global
 HOST-SUFFIX,adguard-vpn.com,Global
+HOST-SUFFIX,adguard-vpn.online,Global
+HOST-SUFFIX,adguard.app,Global
 HOST-SUFFIX,adguard.com,Global
+HOST-SUFFIX,adguard.info,Global
+HOST-SUFFIX,adguardvpn.com,Global
 HOST-SUFFIX,adhelpnews.com,Global
 HOST-SUFFIX,adidas.com,Global
 HOST-SUFFIX,admeld.com,Global
@@ -962,6 +978,7 @@ HOST-SUFFIX,adorevids.com,Global
 HOST-SUFFIX,ads-pixiv.net,Global
 HOST-SUFFIX,adsensecustomsearchads.com,Global
 HOST-SUFFIX,adsenseformobileapps.com,Global
+HOST-SUFFIX,adtidy.net,Global
 HOST-SUFFIX,adult-h.com,Global
 HOST-SUFFIX,adult-home-videos.com,Global
 HOST-SUFFIX,adult-list.com,Global
@@ -3176,6 +3193,7 @@ HOST-SUFFIX,ccpsx.com,Global
 HOST-SUFFIX,ccstatic.org,Global
 HOST-SUFFIX,cdkworkshop.com,Global
 HOST-SUFFIX,cdmatech.com,Global
+HOST-SUFFIX,cdn-telegram.org,Global
 HOST-SUFFIX,cdn-terapeak.com,Global
 HOST-SUFFIX,cdn77.com,Global
 HOST-SUFFIX,cdn77.org,Global
@@ -5202,6 +5220,7 @@ HOST-SUFFIX,ffacebook.com,Global
 HOST-SUFFIX,fffdm.com,Global
 HOST-SUFFIX,fffucked.com,Global
 HOST-SUFFIX,fflnk.net,Global
+HOST-SUFFIX,fflogs.com,Global
 HOST-SUFFIX,ffmpeg.org,Global
 HOST-SUFFIX,ffotolia.com,Global
 HOST-SUFFIX,ffprofile.com,Global
@@ -7133,6 +7152,7 @@ HOST-SUFFIX,ipfs.anonymize.com,Global
 HOST-SUFFIX,ipfs.eth.aragon.network,Global
 HOST-SUFFIX,ipfs.fleek.co,Global
 HOST-SUFFIX,ipfs.runfission.com,Global
+HOST-SUFFIX,ipfs.tech,Global
 HOST-SUFFIX,iphine.com,Global
 HOST-SUFFIX,iphone-cd.com,Global
 HOST-SUFFIX,iphone-cn.com,Global
@@ -7450,6 +7470,7 @@ HOST-SUFFIX,jkbeats.com,Global
 HOST-SUFFIX,jkf.net,Global
 HOST-SUFFIX,jkface.net,Global
 HOST-SUFFIX,jm98.cc,Global
+HOST-SUFFIX,jmcomic.ltd,Global
 HOST-SUFFIX,jmcomic.me,Global
 HOST-SUFFIX,jmcomic.mobi,Global
 HOST-SUFFIX,jmcomic.moe,Global
@@ -8657,6 +8678,7 @@ HOST-SUFFIX,moviesneek.com,Global
 HOST-SUFFIX,moxing.mobi,Global
 HOST-SUFFIX,moxing.news,Global
 HOST-SUFFIX,moystoys.com,Global
+HOST-SUFFIX,mozgcp.net,Global
 HOST-SUFFIX,mozilla.com,Global
 HOST-SUFFIX,mozilla.community,Global
 HOST-SUFFIX,mozilla.net,Global
@@ -10834,6 +10856,7 @@ HOST-SUFFIX,routerboard.com,Global
 HOST-SUFFIX,routledgehandbooks.com,Global
 HOST-SUFFIX,royalcams.com,Global
 HOST-SUFFIX,royalsocietypublishing.org,Global
+HOST-SUFFIX,rpglogs.com,Global
 HOST-SUFFIX,rplay.live,Global
 HOST-SUFFIX,rpmfusion.org,Global
 HOST-SUFFIX,rprimelab.com,Global
@@ -12056,6 +12079,7 @@ HOST-SUFFIX,tidelift.com,Global
 HOST-SUFFIX,tiendabestbuy.com,Global
 HOST-SUFFIX,tiffany-towers.com,Global
 HOST-SUFFIX,tig-ol-bitties.live,Global
+HOST-SUFFIX,tiktokcdn-us.com,Global
 HOST-SUFFIX,tiktokcdn.com,Global
 HOST-SUFFIX,tiktokv.com,Global
 HOST-SUFFIX,timelinestoryteller.com,Global
@@ -12232,6 +12256,7 @@ HOST-SUFFIX,tsundora.com,Global
 HOST-SUFFIX,tsuradou.noonvob.com,Global
 HOST-SUFFIX,tsyum.com,Global
 HOST-SUFFIX,tteshop.com,Global
+HOST-SUFFIX,ttwstatic.com,Global
 HOST-SUFFIX,tube-pornomovs.com,Global
 HOST-SUFFIX,tube-sex-videos.com,Global
 HOST-SUFFIX,tube188.com,Global
@@ -13749,7 +13774,6 @@ HOST-SUFFIX,zweiporn.com,Global
 HOST-SUFFIX,zwtvusa.com,Global
 HOST-SUFFIX,zzgays.com,Global
 HOST-SUFFIX,zzitube.com,Global
-HOST-SUFFIX,zzux.com,Global
 HOST-SUFFIX,zzycdz.com,Global
 HOST-SUFFIX,000webhost.com,Global
 HOST-SUFFIX,030buy.com,Global
@@ -20054,6 +20078,7 @@ HOST-SUFFIX,zyxel.com,Global
 HOST-SUFFIX,zyzc9.com,Global
 HOST-SUFFIX,zzcartoon.com,Global
 HOST-SUFFIX,zzcloud.me,Global
+HOST-SUFFIX,zzux.com,Global
 HOST-KEYWORD,amazon,Global
 HOST-KEYWORD,avoddashs,Global
 HOST-KEYWORD,bbcfmt,Global
