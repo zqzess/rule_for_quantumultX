@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2023-11-13 01:36:32
+# Outside rules refresh time: 2023-11-20 01:37:32
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -36,8 +36,9 @@ HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
 HOST-SUFFIX,ai.com,Outside
 HOST-SUFFIX,chatgpt.com,Outside
+HOST-SUFFIX,oaistatic.com,Outside
+HOST-SUFFIX,oaiusercontent.com,Outside
 HOST-SUFFIX,openai.com,Outside
-HOST-SUFFIX,cdn.oaistatic.com,Outside
 HOST,chat.openai.com.cdn.cloudflare.net,Outside
 HOST,openaiapi-site.azureedge.net,Outside
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
@@ -2955,7 +2956,6 @@ HOST-SUFFIX,google.vn,Outside
 HOST-SUFFIX,google.vu,Outside
 HOST-SUFFIX,google.ws,Outside
 HOST-SUFFIX,googleapis.cn,Outside
-HOST-SUFFIX,googleapis.com,Outside
 HOST-SUFFIX,googleapps.com,Outside
 HOST-SUFFIX,googlearth.com,Outside
 HOST-SUFFIX,googleartproject.com,Outside
