@@ -158,8 +158,12 @@ function signCheckin(authorization) {
             $.log('没有获取到数据')
         }else {
             let body = JSON.parse(data)
-            if(body.message!==null)
+            if(body.message!==null) {
+                $.log('\n body.message内容打印\n')
+                $.log(body.message)
+                $.log('\n body.message不为空，脚本结束')
                 $.done()
+            }
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
             let stitle = '🎉' + body.result.title + ' 签到成功'
