@@ -30,7 +30,7 @@ if(ADrivreInfo.isAutoGetReword === 'false')
     $.isAutoGetReword = false
 console.log('自动领取开启：' + $.isAutoGetReword)
 const authUrl = 'https://auth.aliyundrive.com/v2/account/token'
-const checkInUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
+const checkInUrl = 'https://member.aliyundrive.com/v2/activity/sign_in_list'
 const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
 if (typeof $request !== 'undefined') {
     $.log('🤖获取token')
@@ -162,24 +162,26 @@ function signCheckin(authorization) {
                 $.log('\n body.message内容打印\n')
                 $.log(body.message)
                 $.log('\n body.message不为空，脚本结束')
+                $.msg(title, '❌签到失败', body.message)
                 $.done()
             }
+            const isSignIn = body.result.isSignIn
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
             let stitle = '🎉' + body.result.title + ' 签到成功'
-            let signInLogs = body.result.signInLogs
+            let signInLogs = body.result.signInInfos
             $.log('签到天数: ' + signInCount)
             let reward = ''
             if(signInCount > 22 && !$.isAutoGetReword)
-                {
-                    $.log('已经月末了，请不要忘记领取前面未领取的奖励')
-                    $.msg(title,'📅月末提醒','请不要忘记领取之前的奖励')
-                }
+            {
+                $.log('已经月末了，请不要忘记领取前面未领取的奖励')
+                $.msg(title,'📅月末提醒','请不要忘记领取之前的奖励')
+            }
             signInLogs.forEach(function (i) {
                 if (Number(i.day) === signInCount) {
-                    if(i.isReward)
+                    if(i.status === 'normal')
                     {
-                        reward = ' 第' + signInCount + '天奖励，' + i.reward.name + i.reward.description
+                        reward = ' 第' + signInCount + '天奖励，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
                         $.log('签到奖励：' + reward)
                     }else
                     {
