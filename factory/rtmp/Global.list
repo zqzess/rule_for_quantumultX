@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-11-20 02:13:58
-# HOST: 516
+# UPDATED: 2023-11-25 02:13:02
+# HOST: 517
 # HOST-KEYWORD: 37
-# HOST-SUFFIX: 19560
+# HOST-SUFFIX: 19563
 # IP-CIDR: 112
 # IP6-CIDR: 4
 # USER-AGENT: 46
-# TOTAL: 20275
+# TOTAL: 20279
 HOST,3dns-1.adobe.com,Global
 HOST,3dns-2.adobe.com,Global
 HOST,3dns-3.adobe.com,Global
@@ -210,6 +210,7 @@ HOST,itvpnpmobile-a.akamaihd.net,Global
 HOST,js-cdn.music.apple.com,Global
 HOST,kktv-theater.kk.stream,Global
 HOST,lab.skk.moe,Global
+HOST,lastfm.freetls.fastly.net,Global
 HOST,lazer.ppy.sh,Global
 HOST,lgelectronics.122.2o7.net,Global
 HOST,licdn.cn.cdn20.com,Global
@@ -3438,6 +3439,7 @@ HOST-SUFFIX,cloudcraze.com,Global
 HOST-SUFFIX,cloudcredibility.com,Global
 HOST-SUFFIX,cloudflare-dns.com,Global
 HOST-SUFFIX,cloudflare-ech.com,Global
+HOST-SUFFIX,cloudflare-esni.com,Global
 HOST-SUFFIX,cloudflare-gateway.com,Global
 HOST-SUFFIX,cloudflare-quic.com,Global
 HOST-SUFFIX,cloudflare.net,Global
@@ -3583,6 +3585,7 @@ HOST-SUFFIX,coomer.party,Global
 HOST-SUFFIX,coova.com,Global
 HOST-SUFFIX,coova.net,Global
 HOST-SUFFIX,coova.org,Global
+HOST-SUFFIX,copilot.microsoft.com,Global
 HOST-SUFFIX,copro.pw,Global
 HOST-SUFFIX,coqnu.com,Global
 HOST-SUFFIX,corbinfisher.com,Global
@@ -5982,7 +5985,6 @@ HOST-SUFFIX,googleadservices-cn.com,Global
 HOST-SUFFIX,googleadservices.com,Global
 HOST-SUFFIX,googleanalytics.com,Global
 HOST-SUFFIX,googleapis-cn.com,Global
-HOST-SUFFIX,googleapis.com,Global
 HOST-SUFFIX,googleapps-cn.com,Global
 HOST-SUFFIX,googlecapital.com,Global
 HOST-SUFFIX,googlecert.net,Global
@@ -7218,6 +7220,7 @@ HOST-SUFFIX,iranx.net,Global
 HOST-SUFFIX,iromod91.info,Global
 HOST-SUFFIX,irotv301.top,Global
 HOST-SUFFIX,irribay.com,Global
+HOST-SUFFIX,isbgpsafeyet.com,Global
 HOST-SUFFIX,isca-speech.org,Global
 HOST-SUFFIX,ischool.com,Global
 HOST-SUFFIX,isfocus.net,Global
@@ -8868,6 +8871,7 @@ HOST-SUFFIX,myminisexdoll.com,Global
 HOST-SUFFIX,myminiso.com,Global
 HOST-SUFFIX,mymmode.com,Global
 HOST-SUFFIX,mymusclevideo.com,Global
+HOST-SUFFIX,mynetname.net,Global
 HOST-SUFFIX,mynike.com,Global
 HOST-SUFFIX,myoctocat.com,Global
 HOST-SUFFIX,mypearson.com,Global
@@ -8883,7 +8887,6 @@ HOST-SUFFIX,mypornstarbook.net,Global
 HOST-SUFFIX,mypornvid.fun,Global
 HOST-SUFFIX,mypornwap.fun,Global
 HOST-SUFFIX,myq2.com,Global
-HOST-SUFFIX,myqnapcloud.cn,Global
 HOST-SUFFIX,myqnapcloud.com,Global
 HOST-SUFFIX,myrewardzone.com,Global
 HOST-SUFFIX,myrimmingporn.com,Global
@@ -12022,7 +12025,6 @@ HOST-SUFFIX,thepornbet.com,Global
 HOST-SUFFIX,thepornbin.com,Global
 HOST-SUFFIX,thepornblender.com,Global
 HOST-SUFFIX,theporndude.cc,Global
-HOST-SUFFIX,theporndude.com,Global
 HOST-SUFFIX,theporndude.vip,Global
 HOST-SUFFIX,thepornguy.org,Global
 HOST-SUFFIX,thepornlinks.com,Global
@@ -16125,6 +16127,7 @@ HOST-SUFFIX,google.vn,Global
 HOST-SUFFIX,google.vu,Global
 HOST-SUFFIX,google.ws,Global
 HOST-SUFFIX,googleapis.cn,Global
+HOST-SUFFIX,googleapis.com,Global
 HOST-SUFFIX,googleapps.com,Global
 HOST-SUFFIX,googlearth.com,Global
 HOST-SUFFIX,googleartproject.com,Global
@@ -18930,6 +18933,7 @@ HOST-SUFFIX,theinitium.com,Global
 HOST-SUFFIX,themoviedb.org,Global
 HOST-SUFFIX,thenewslens.com,Global
 HOST-SUFFIX,thepiratebay.org,Global
+HOST-SUFFIX,theporndude.com,Global
 HOST-SUFFIX,theportalwiki.com,Global
 HOST-SUFFIX,theprint.in,Global
 HOST-SUFFIX,thereallove.kr,Global

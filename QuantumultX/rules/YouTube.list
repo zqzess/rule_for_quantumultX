@@ -1,4 +1,4 @@
-# YouTube rules refresh time: 2023-11-20 01:37:31
+# YouTube rules refresh time: 2023-11-27 01:36:52
 HOST,music.youtube.com,YouTube
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
@@ -11,6 +11,7 @@ HOST-SUFFIX,video.google.com,YouTube
 HOST-SUFFIX,wide-youtube.l.google.com,YouTube
 HOST-SUFFIX,withyoutube.com,YouTube
 HOST-SUFFIX,youtu.be,YouTube
+HOST-SUFFIX,youtube,YouTube
 HOST-SUFFIX,youtube-nocookie.com,YouTube
 HOST-SUFFIX,youtube-ui.l.google.com,YouTube
 HOST-SUFFIX,youtube.ae,YouTube
