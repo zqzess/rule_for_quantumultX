@@ -181,25 +181,26 @@ function signCheckin(authorization) {
                 if (Number(i.day) === signInCount) {
                     if(i.status === 'normal')
                     {
-                        reward = ' 第' + signInCount + '天奖励，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
-                        $.log('签到奖励：' + reward)
-                    }else
-                    {
-                        reward = i.poster?.reason +'\n' + i.poster?.name
-                        if(reward === 'undefined\nundefined') {
-                            if($.isAutoGetReword)
-                            {
-                                reward = ''
-                                $.log('签到完成')
-                                if(!$.isAutoGetReword)
-                                    $.log('⚠自动领取奖励未开启')
-                                getReword(authorization,signInCount)
-                            }else{
-                                reward = '❌签到奖励还未领取，自动领取未开启'
-                                $.log('奖励还未领取')
+                        if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
+                            reward = ' 第' + signInCount + '天奖励，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            $.log('签到奖励：' + reward)
+                        }
+                        else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
+                            reward = i.poster?.reason +'\n' + i.poster?.name
+                            if(reward === 'undefined\nundefined') {
+                                if($.isAutoGetReword)
+                                {
+                                    reward = ''
+                                    $.log('签到完成')
+                                    if(!$.isAutoGetReword)
+                                        $.log('⚠自动领取奖励未开启')
+                                    getReword(authorization,signInCount)
+                                }else{
+                                    reward = '❌签到奖励还未领取，自动领取未开启'
+                                    $.log('奖励还未领取')
+                                }
                             }
                         }
-
                     }
                 }
             })
