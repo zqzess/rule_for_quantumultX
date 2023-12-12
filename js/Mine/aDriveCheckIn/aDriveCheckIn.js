@@ -254,10 +254,16 @@ function getReword(authorization,signInCount){
                 $.msg(title, '❌自动领取奖励失败', '自动领取奖励失败，请手动领取')
                 $.done()
             }
+            console.log('body.result:\n' + body.result)
             const rewordName = body.result.name
             const rewordDescription = body.result.description
-            $.log('自动领取奖励成功，获得 ' + rewordDescription)
-            $.msg(title,'签到成功！已自动领取奖励！','获得 ' + rewordDescription)
+            let finalResult = rewordDescription
+            if (rewordDescription === '' || rewordDescription === undefined)
+                finalResult = rewordName
+            $.log('rewordName: ' + rewordName)
+            $.log('rewordDescription: ' + rewordDescription)
+            console.log('自动领取奖励成功，获得 ' + rewordDescription)
+            $.msg(title,'签到成功！已自动领取奖励！','获得 ' + finalResult)
             $.done()
         }
     })
