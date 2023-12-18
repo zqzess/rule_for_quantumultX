@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-11 02:13:03
+# UPDATED: 2023-12-16 02:14:45
 # HOST: 17
 # HOST-KEYWORD: 29
-# HOST-SUFFIX: 6331
+# HOST-SUFFIX: 6337
 # IP-CIDR: 94
 # IP6-CIDR: 3
 # USER-AGENT: 9
-# TOTAL: 6483
+# TOTAL: 6489
 HOST,api.waqi.info,Proxy
 HOST,aqi.aqicn.org,Proxy
 HOST,assets-priconne-redive-us.akamaized.net,Proxy
@@ -334,6 +334,7 @@ HOST-SUFFIX,anpopo.com,Proxy
 HOST-SUFFIX,answering-islam.org,Proxy
 HOST-SUFFIX,antd.org,Proxy
 HOST-SUFFIX,anthonycalzadilla.com,Proxy
+HOST-SUFFIX,anthropic.com,Proxy
 HOST-SUFFIX,anti1984.com,Proxy
 HOST-SUFFIX,antichristendom.com,Proxy
 HOST-SUFFIX,antiwave.net,Proxy
@@ -812,6 +813,7 @@ HOST-SUFFIX,buugaa.com,Proxy
 HOST-SUFFIX,buzzhand.com,Proxy
 HOST-SUFFIX,buzzhand.net,Proxy
 HOST-SUFFIX,buzzorange.com,Proxy
+HOST-SUFFIX,buzzsprout.com,Proxy
 HOST-SUFFIX,bvpn.com,Proxy
 HOST-SUFFIX,bwbx.io,Proxy
 HOST-SUFFIX,bwgyhw.com,Proxy
@@ -1075,6 +1077,7 @@ HOST-SUFFIX,ck101.com,Proxy
 HOST-SUFFIX,cl.ly,Proxy
 HOST-SUFFIX,clarionproject.org,Proxy
 HOST-SUFFIX,classicalguitarblog.net,Proxy
+HOST-SUFFIX,claude.ai,Proxy
 HOST-SUFFIX,clb.org.hk,Proxy
 HOST-SUFFIX,cleansite.biz,Proxy
 HOST-SUFFIX,cleansite.info,Proxy
@@ -1717,6 +1720,7 @@ HOST-SUFFIX,familyfed.org,Proxy
 HOST-SUFFIX,famunion.com,Proxy
 HOST-SUFFIX,fan-qiang.com,Proxy
 HOST-SUFFIX,fanatical.com,Proxy
+HOST-SUFFIX,fanbox.cc,Proxy
 HOST-SUFFIX,fandom.com,Proxy
 HOST-SUFFIX,fangbinxing.com,Proxy
 HOST-SUFFIX,fangeming.com,Proxy
@@ -6337,6 +6341,8 @@ HOST-SUFFIX,zonaeuropa.com,Proxy
 HOST-SUFFIX,zonghexinwen.com,Proxy
 HOST-SUFFIX,zonghexinwen.net,Proxy
 HOST-SUFFIX,zoogvpn.com,Proxy
+HOST-SUFFIX,zoom.us,Proxy
+HOST-SUFFIX,zoomgov.com,Proxy
 HOST-SUFFIX,zootool.com,Proxy
 HOST-SUFFIX,zoozle.net,Proxy
 HOST-SUFFIX,zophar.net,Proxy
