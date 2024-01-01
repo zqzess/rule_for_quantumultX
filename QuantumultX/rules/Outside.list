@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2023-12-25 01:36:31
+# Outside rules refresh time: 2024-01-01 01:43:13
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -1554,6 +1554,7 @@ HOST-SUFFIX,cahr.org.tw,Outside
 HOST-SUFFIX,caijinglengyan.com,Outside
 HOST-SUFFIX,calameo.com,Outside
 HOST-SUFFIX,calebelston.com,Outside
+HOST-SUFFIX,calendarz.com,Outside
 HOST-SUFFIX,calgarychinese.ca,Outside
 HOST-SUFFIX,calgarychinese.com,Outside
 HOST-SUFFIX,calgarychinese.net,Outside
@@ -1623,6 +1624,7 @@ HOST-SUFFIX,cdcparty.com,Outside
 HOST-SUFFIX,cdef.org,Outside
 HOST-SUFFIX,cdig.info,Outside
 HOST-SUFFIX,cdjp.org,Outside
+HOST-SUFFIX,cdn-telegram.org,Outside
 HOST-SUFFIX,cdnews.com.tw,Outside
 HOST-SUFFIX,cdninstagram.com,Outside
 HOST-SUFFIX,cdp1989.org,Outside
@@ -1841,6 +1843,7 @@ HOST-SUFFIX,comefromchina.com,Outside
 HOST-SUFFIX,comic-mega.me,Outside
 HOST-SUFFIX,comico.tw,Outside
 HOST-SUFFIX,commandarms.com,Outside
+HOST-SUFFIX,comments.app,Outside
 HOST-SUFFIX,commentshk.com,Outside
 HOST-SUFFIX,communistcrimes.org,Outside
 HOST-SUFFIX,communitychoicecu.com,Outside
@@ -2025,6 +2028,7 @@ HOST-SUFFIX,discord.co,Outside
 HOST-SUFFIX,discuss.com.hk,Outside
 HOST-SUFFIX,discuss4u.com,Outside
 HOST-SUFFIX,dish.com,Outside
+HOST-SUFFIX,disk.yandex.ru,Outside
 HOST-SUFFIX,disp.cc,Outside
 HOST-SUFFIX,dit-inc.us,Outside
 HOST-SUFFIX,dizhidizhi.com,Outside
@@ -2650,6 +2654,7 @@ HOST-SUFFIX,geekerhome.com,Outside
 HOST-SUFFIX,geekheart.info,Outside
 HOST-SUFFIX,gekikame.com,Outside
 HOST-SUFFIX,gelbooru.com,Outside
+HOST-SUFFIX,generated.photos,Outside
 HOST-SUFFIX,genius.com,Outside
 HOST-SUFFIX,geocities.co.jp,Outside
 HOST-SUFFIX,geocities.com,Outside
@@ -3010,6 +3015,7 @@ HOST-SUFFIX,gradconnection.com,Outside
 HOST-SUFFIX,grammaly.com,Outside
 HOST-SUFFIX,grandtrial.org,Outside
 HOST-SUFFIX,grangorz.org,Outside
+HOST-SUFFIX,graph.org,Outside
 HOST-SUFFIX,graphis.ne.jp,Outside
 HOST-SUFFIX,graphql.org,Outside
 HOST-SUFFIX,greasespot.net,Outside
@@ -3298,6 +3304,8 @@ HOST-SUFFIX,huayuworld.org,Outside
 HOST-SUFFIX,hudatoriq.web.id,Outside
 HOST-SUFFIX,hudson.org,Outside
 HOST-SUFFIX,huffingtonpost.com,Outside
+HOST-SUFFIX,huffpost.com,Outside
+HOST-SUFFIX,huggingface.co,Outside
 HOST-SUFFIX,hugoroy.eu,Outside
 HOST-SUFFIX,huhaitai.com,Outside
 HOST-SUFFIX,huhamhire.com,Outside
@@ -4410,6 +4418,7 @@ HOST-SUFFIX,oann.com,Outside
 HOST-SUFFIX,oauth.net,Outside
 HOST-SUFFIX,observechina.net,Outside
 HOST-SUFFIX,obutu.com,Outside
+HOST-SUFFIX,obyte.org,Outside
 HOST-SUFFIX,ocaspro.com,Outside
 HOST-SUFFIX,occupytiananmen.com,Outside
 HOST-SUFFIX,oclp.hk,Outside
@@ -4755,6 +4764,7 @@ HOST-SUFFIX,pscp.tv,Outside
 HOST-SUFFIX,pshvpn.com,Outside
 HOST-SUFFIX,psiphon.ca,Outside
 HOST-SUFFIX,psiphontoday.com,Outside
+HOST-SUFFIX,pstatic.net,Outside
 HOST-SUFFIX,pt.im,Outside
 HOST-SUFFIX,pts.org.tw,Outside
 HOST-SUFFIX,pttgame.com,Outside
@@ -4811,6 +4821,7 @@ HOST-SUFFIX,quay.io,Outside
 HOST-SUFFIX,questvisual.com,Outside
 HOST-SUFFIX,quitccp.net,Outside
 HOST-SUFFIX,quitccp.org,Outside
+HOST-SUFFIX,quiz.directory,Outside
 HOST-SUFFIX,quran.com,Outside
 HOST-SUFFIX,quranexplorer.com,Outside
 HOST-SUFFIX,qusi8.net,Outside
@@ -5461,6 +5472,7 @@ HOST-SUFFIX,teensinasia.com,Outside
 HOST-SUFFIX,tehrantimes.com,Outside
 HOST-SUFFIX,telecomspace.com,Outside
 HOST-SUFFIX,telegram.dog,Outside
+HOST-SUFFIX,telegram.space,Outside
 HOST-SUFFIX,telegramdownload.com,Outside
 HOST-SUFFIX,telegraph.co.uk,Outside
 HOST-SUFFIX,tellme.pw,Outside
@@ -5525,6 +5537,7 @@ HOST-SUFFIX,thlib.org,Outside
 HOST-SUFFIX,thomasbernhard.org,Outside
 HOST-SUFFIX,thongdreams.com,Outside
 HOST-SUFFIX,threadreaderapp.com,Outside
+HOST-SUFFIX,threads.net,Outside
 HOST-SUFFIX,threatchaos.com,Outside
 HOST-SUFFIX,throughnightsfire.com,Outside
 HOST-SUFFIX,thumbzilla.com,Outside
@@ -6094,6 +6107,7 @@ HOST-SUFFIX,watchmygf.net,Outside
 HOST-SUFFIX,watchout.tw,Outside
 HOST-SUFFIX,wav.tv,Outside
 HOST-SUFFIX,waymo.com,Outside
+HOST-SUFFIX,wd.bible,Outside
 HOST-SUFFIX,wda.gov.tw,Outside
 HOST-SUFFIX,wdf5.com,Outside
 HOST-SUFFIX,wealth.com.tw,Outside
@@ -6200,6 +6214,7 @@ HOST-SUFFIX,witnessleeteaching.com,Outside
 HOST-SUFFIX,witopia.net,Outside
 HOST-SUFFIX,wizcrafts.net,Outside
 HOST-SUFFIX,wjbk.org,Outside
+HOST-SUFFIX,wmflabs.org,Outside
 HOST-SUFFIX,wnacg.com,Outside
 HOST-SUFFIX,wnacg.org,Outside
 HOST-SUFFIX,wo.tc,Outside
