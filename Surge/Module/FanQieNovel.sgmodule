@@ -8,6 +8,7 @@ DOMAIN,p9-ad-sign.byteimg.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
+DOMAIN,imapi3-normal-lf.zijieapi.com,DIRECT
 DOMAIN-KEYWORD,zijieapi,REJECT
 # DOMAIN,ads3-normal-lq.zijieapi.com,REJECT
 # DOMAIN,ads5-normal-lq.zijieapi.com,REJECT
