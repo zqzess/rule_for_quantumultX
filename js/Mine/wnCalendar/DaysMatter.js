@@ -66,6 +66,9 @@ async function startWork() {
     $.log('距离最近的节日：' + dateDiffArray[0].name)
     let notifyContent = ''
     for(let i= 0;i<dateDiffArray.length;i++){
+        if (i === 3) {
+            break
+        }
         if (dateDiffArray[i].name === '今年已经没有节日啦!'){
             notifyContent = notifyContent + "🥀" +dateDiffArray[i].name + ","
             continue
