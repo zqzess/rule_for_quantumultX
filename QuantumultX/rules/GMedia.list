@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2024-01-22 01:41:58
+# GMedia rules refresh time: 2024-01-29 01:30:32
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -308,7 +308,6 @@ HOST,news-client.apple.com,GMedia
 HOST,news-edge.apple.com,GMedia
 HOST,news-events.apple.com,GMedia
 HOST,ocvideo.apple.com,GMedia
-HOST,p.bstarstatic.com,GMedia
 HOST,rpg.pic-imges.com,GMedia
 HOST,rthklive2-lh.akamaihd.net,GMedia
 HOST-SUFFIX,112263.com,GMedia
@@ -374,6 +373,7 @@ HOST-SUFFIX,biliintl.com,GMedia
 HOST-SUFFIX,bowenpress.com,GMedia
 HOST-SUFFIX,boxun.com,GMedia
 HOST-SUFFIX,bravotv.com,GMedia
+HOST-SUFFIX,bstarstatic.com,GMedia
 HOST-SUFFIX,bucketeer.jp,GMedia
 HOST-SUFFIX,byspotify.com,GMedia
 HOST-SUFFIX,byteoversea.com,GMedia
@@ -1434,11 +1434,12 @@ USER-AGENT,TaiwanGood*,GMedia
 USER-AGENT,TikTok*,GMedia
 USER-AGENT,Viu*,GMedia
 USER-AGENT,WeTV*,GMedia
+USER-AGENT,app/bstar*,GMedia
 USER-AGENT,com.apple.tv*,GMedia
 USER-AGENT,com.kktv.ios.kktv*,GMedia
 USER-AGENT,discovery+*,GMedia
-USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,YouTubeMusic*,GMedia
+USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 IP-CIDR,1.201.0.0/24,GMedia
 IP-CIDR,1.37.35.6/32,GMedia
