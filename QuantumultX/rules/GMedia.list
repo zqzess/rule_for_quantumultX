@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2024-01-29 01:30:32
+# GMedia rules refresh time: 2024-02-05 01:33:19
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -1410,23 +1410,29 @@ USER-AGENT,Argo*,GMedia
 USER-AGENT,DPlus*,GMedia
 USER-AGENT,Deezer*,GMedia
 USER-AGENT,Disney+*,GMedia
+USER-AGENT,FOXNOW*,GMedia
 USER-AGENT,HBO%20GO%20PROD%20HKG*,GMedia
 USER-AGENT,HBO%20GO%20PROD*,GMedia
 USER-AGENT,HBO%20NOW*,GMedia
 USER-AGENT,HBO*,GMedia
+USER-AGENT,HBOGOPRODHKG*,GMedia
+USER-AGENT,HBONOW*,GMedia
 USER-AGENT,HWTVMobile*,GMedia
 USER-AGENT,Himalaya*,GMedia
 USER-AGENT,Hulu*,GMedia
 USER-AGENT,ITV_Player*,GMedia
 USER-AGENT,LINE%20TV*,GMedia
+USER-AGENT,LINETV*,GMedia
 USER-AGENT,Max*,GMedia
 USER-AGENT,My5*,GMedia
 USER-AGENT,Naver%20TV*,GMedia
+USER-AGENT,NaverTV*,GMedia
 USER-AGENT,Niconico*,GMedia
 USER-AGENT,Overcast*,GMedia
 USER-AGENT,PPlus*,GMedia
 USER-AGENT,Pandora*,GMedia
 USER-AGENT,PeacockMobile*,GMedia
+USER-AGENT,PrimeVideo*,GMedia
 USER-AGENT,TIDAL*,GMedia
 USER-AGENT,TIDAL*dia,GMedia
 USER-AGENT,TVer-Release*,GMedia
