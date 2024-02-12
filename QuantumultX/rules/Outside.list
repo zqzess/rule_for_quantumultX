@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2024-02-05 01:33:19
+# Outside rules refresh time: 2024-02-12 01:30:11
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -271,6 +271,7 @@ HOST-SUFFIX,feedly.com,Outside
 HOST-SUFFIX,feedsportal.com,Outside
 HOST-SUFFIX,fiftythree.com,Outside
 HOST-SUFFIX,firebaseio.com,Outside
+HOST-SUFFIX,firefox.com,Outside
 HOST-SUFFIX,flexibits.com,Outside
 HOST-SUFFIX,flickr.com,Outside
 HOST-SUFFIX,flipboard.com,Outside
@@ -2430,7 +2431,6 @@ HOST-SUFFIX,findyoutube.net,Outside
 HOST-SUFFIX,fingerdaily.com,Outside
 HOST-SUFFIX,finler.net,Outside
 HOST-SUFFIX,firearmsworld.net,Outside
-HOST-SUFFIX,firefox.com,Outside
 HOST-SUFFIX,fireofliberty.org,Outside
 HOST-SUFFIX,firetweet.io,Outside
 HOST-SUFFIX,firstfivefollowers.com,Outside
