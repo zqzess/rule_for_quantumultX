@@ -22,4 +22,4 @@ DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN-KEYWORD,remad.qm989.com,REJECT
 
 [MITM]
-hostname = %APPEND% open.e.kuaishou.cn,api-access.pangolin-sdk-toutiao-b.com,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,dsp-x.jd.com,api-cfg.wtzw.com,p1-lm.adukwai.com,lf-cdn-tos.bytescm.com
+hostname = %APPEND% open.e.kuaishou.cn,api-access.pangolin-sdk-toutiao-b.com,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,dsp-x.jd.com,p1-lm.adukwai.com,lf-cdn-tos.bytescm.com
