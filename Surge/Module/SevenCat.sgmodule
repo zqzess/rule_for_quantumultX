@@ -20,6 +20,7 @@ DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN-KEYWORD,remad.qm989.com,REJECT
+DOMAIN,api-cfg.wtzw.com,REJECT
 
 [MITM]
 hostname = %APPEND% open.e.kuaishou.cn,api-access.pangolin-sdk-toutiao-b.com,api-access.pangolin-sdk-toutiao.com,api-access.pangolin-sdk-toutiao1.com,dsp-x.jd.com,p1-lm.adukwai.com,lf-cdn-tos.bytescm.com
