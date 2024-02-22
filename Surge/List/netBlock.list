@@ -1,3 +1,35 @@
+# 公司网络屏蔽的域名走代理
+DOMAIN-SUFFIX, xiaohongshu.com
+DOMAIN-SUFFIX, xiaoheihe.cn
+DOMAIN-SUFFIX, juejin.cn
+# weibo
+DOMAIN-SUFFIX, weibo.com
+#
+DOMAIN-SUFFIX, qince.net
+#
+DOMAIN-SUFFIX, pconline.com.cn
+# 喜马拉雅
+DOMAIN-SUFFIX, ximalaya.com
+# 贴吧
+DOMAIN, tieba.baidu.com
+# elementui
+DOMAIN-SUFFIX, eleme.io
+# jd
+DOMAIN-SUFFIX, jd.com
+# 数码荔枝
+DOMAIN-SUFFIX, lizhi.shop
+# 恩山
+DOMAIN-SUFFIX, right.com.cn
+# 306doc
+DOMAIN-SUFFIX, 360doc.com
+# 百度
+DOMAIN, haokan.baidu.com
+#
+DOMAIN, bbs.saraba1st.com
+#  游民星空
+DOMAIN-SUFFIX, gamersky.com
+#
+DOMAIN-SUFFIX, vpsgo.com
 # > Acfun
 DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,aixifan.com
@@ -13,7 +45,7 @@ DOMAIN-SUFFIX,v.qq.com
 # > iQiyi
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,71edge.com
-DOMAIN_SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,iqiyipic.com
 # > Youku
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,youku.com
