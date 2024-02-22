@@ -2,7 +2,6 @@
 DOMAIN-SUFFIX, xiaohongshu.com
 DOMAIN-SUFFIX, xiaoheihe.cn
 DOMAIN-SUFFIX, juejin.cn
-PROCESS-NAME, QQMusic
 # weibo
 DOMAIN-SUFFIX, weibo.com
 #
@@ -31,7 +30,6 @@ DOMAIN, bbs.saraba1st.com
 DOMAIN-SUFFIX, gamersky.com
 #
 DOMAIN-SUFFIX, vpsgo.com
-# (Video)
 # > Acfun
 DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,aixifan.com
@@ -47,7 +45,7 @@ DOMAIN-SUFFIX,v.qq.com
 # > iQiyi
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,71edge.com
-DOMAIN_SUFFIX, iqiyipic.com
+DOMAIN_SUFFIX,iqiyipic.com
 # > Youku
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,youku.com
