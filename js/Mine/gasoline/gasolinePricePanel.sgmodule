@@ -1,6 +1,7 @@
-#!name=油价面板 @zqzess
+#!name=油价面板
 #!desc=显示今日的油价信息, 详情见 https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/gasoline
 #!version = v0.9
+#!category=zqzess
 
 [Script]
 gasolinePrice = type = generic,script-path= https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/gasoline/gasolinePrice.js,timeout=10

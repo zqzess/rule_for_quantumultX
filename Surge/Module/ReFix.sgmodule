@@ -1,5 +1,7 @@
 #!name=ReFix
 #!desc=zqzess自用规则修正
+#!category=zqzess
+
 [Rule]
 # 小绿人
 DOMAIN-SUFFIX,greenmangaming.com,DIRECT

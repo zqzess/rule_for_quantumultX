@@ -1,5 +1,6 @@
 #!name=Block YouTube Advertising
 #!desc=仅用于视频广告（by 神机规则）
+#!category=zqzess
 
 [Rule]
 AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP

@@ -1,5 +1,6 @@
 #!name=节假日倒计时
 #!desc=通过panel显示节假日倒计时，节日当天早上有提醒。by @smartmimi
+#!category=zqzess
 
 [Script]
 节假日倒计时 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/TimeCard.js

@@ -1,5 +1,6 @@
 #!name=switch游戏价格监控 @zqzess
 #!desc=boxjs添加游戏
+#!category=zqzess
 
 [Script]
 switch游戏价格监控 = type=cron,cronexp="10 0,10,15,20 * * *",script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/switchPriceMonitor/PriceMonitor.js

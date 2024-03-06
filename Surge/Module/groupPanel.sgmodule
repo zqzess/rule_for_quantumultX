@@ -1,5 +1,6 @@
 #!name=groupPanel
 #!desc=通过panel显示及控制策略组 只有手动更新情况下会切换策略组，因此你可以配置自动更新以防止数据与实际不一致 by @fishingworld
+#!category=zqzess
 
 [Script]
 节点选择 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/groupPanel.js,argument=icon=network&color=#3CB371&group=节点选择

@@ -1,5 +1,7 @@
 #!name=知乎增强
 #!desc=各知乎规则整合
+#!category=zqzess
+
 [Rule]
 DOMAIN,118.89.204.198,REJECT
 DOMAIN-KEYWORD,118.89.204.198,REJECT

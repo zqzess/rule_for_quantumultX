@@ -1,5 +1,6 @@
 #!name=哔哩哔哩增强模组lite版
 #!desc=哔哩哔哩脚本重写整合lite版
+#!category=zqzess
 [Rule]
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT

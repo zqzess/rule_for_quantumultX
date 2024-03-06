@@ -1,5 +1,6 @@
 #!name=qq空间广告屏蔽
 #!desc=qq空间广告屏蔽
+#!category=zqzess
 
 [Rule]
 DOMAIN,d3g.qq.com,REJECT

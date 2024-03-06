@@ -1,5 +1,6 @@
 #!name=app防火墙
 #!desc=网络切换时打断app触发联网请求
+#!category=zqzess
 
 [Rule]
 # AND,((NOT,((OR, (USER-AGENT,Surge*), (RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list))))), (SCRIPT,TIME防火墙)),REJECT

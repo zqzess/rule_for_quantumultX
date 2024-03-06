@@ -1,7 +1,8 @@
-#!name=七猫小说 @zqzess
+#!name=七猫小说
 #!desc=七猫小说广告屏蔽
 #!version=v1.1
 #!date=2023-10-02 19:00
+#!category=zqzess
 
 [Rule]
 URL-REGEX,^https:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ,REJECT

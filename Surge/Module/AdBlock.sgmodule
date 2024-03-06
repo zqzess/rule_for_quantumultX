@@ -1,5 +1,6 @@
 #!name=广告屏蔽
 #!desc=通用广告屏蔽
+#!category=zqzess
 
 [General]
 force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net

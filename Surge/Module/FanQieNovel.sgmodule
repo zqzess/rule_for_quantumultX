@@ -1,5 +1,7 @@
-#!name=番茄小说 @zqzess
+#!name=番茄小说
 #!desc=番茄小说广告屏蔽
+#!category=zqzess
+
 [Rule]
 # 番茄小说 version = 3.1
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
