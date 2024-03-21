@@ -7,7 +7,7 @@
  */
 const $ = new Env('wnCalendar', true)
 let title = '📅 今日黄历'
-let proxy = 'https://ghproxy.com/'
+let proxy = 'https://mirror.ghproxy.com/'
 let url = 'https://raw.githubusercontent.com/zqzess/openApiData/main/calendar/'
 let date = new Date()
 // date = date.toLocaleDateString() // 2023/1/17
