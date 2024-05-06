@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2024-04-29 01:35:06
+# Mainland rules refresh time: 2024-05-06 01:36:09
 
 HOST-SUFFIX,abchina.com,Mainland
 HOST-SUFFIX,abchina.com.cn,Mainland
@@ -333,6 +333,7 @@ HOST,origin-a.akamaihd.ne,Mainland
 HOST,origin-a.akamaihd.net,Mainland
 HOST,sms.imagetasks.com,Mainland
 HOST,steamcommunity-a.akamaihd.net,Mainland
+HOST,weixin.com,Mainland
 HOST,www.libvideo.com,Mainland
 HOST,www.yxssp.com,Mainland
 HOST-SUFFIX,00cdn.com,Mainland
@@ -3387,7 +3388,6 @@ HOST-SUFFIX,weidian.com,Mainland
 HOST-SUFFIX,weilaicaijing.com,Mainland
 HOST-SUFFIX,weilaiyunxiao.com,Mainland
 HOST-SUFFIX,weixinbridge.com,Mainland
-HOST-SUFFIX,weixing.com,Mainland
 HOST-SUFFIX,weiyangx.com,Mainland
 HOST-SUFFIX,weiyun.com,Mainland
 HOST-SUFFIX,welltrend-edu.com,Mainland
