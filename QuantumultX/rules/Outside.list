@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2024-05-06 01:36:09
+# Outside rules refresh time: 2024-05-13 01:38:08
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -1625,7 +1625,6 @@ HOST-SUFFIX,cdef.org,Outside
 HOST-SUFFIX,cdig.info,Outside
 HOST-SUFFIX,cdjp.org,Outside
 HOST-SUFFIX,cdn-telegram.org,Outside
-HOST-SUFFIX,cdn.jwplayer.com,Outside
 HOST-SUFFIX,cdnews.com.tw,Outside
 HOST-SUFFIX,cdninstagram.com,Outside
 HOST-SUFFIX,cdp1989.org,Outside
@@ -3355,7 +3354,6 @@ HOST-SUFFIX,ibtimes.com,Outside
 HOST-SUFFIX,ibvpn.com,Outside
 HOST-SUFFIX,icams.com,Outside
 HOST-SUFFIX,icedrive.net,Outside
-HOST-SUFFIX,icerocket.com,Outside
 HOST-SUFFIX,icij.org,Outside
 HOST-SUFFIX,icl-fi.org,Outside
 HOST-SUFFIX,icntv.xyz,Outside
@@ -3626,6 +3624,7 @@ HOST-SUFFIX,justtristan.com,Outside
 HOST-SUFFIX,juyuange.org,Outside
 HOST-SUFFIX,juziyue.com,Outside
 HOST-SUFFIX,jwmusic.org,Outside
+HOST-SUFFIX,jwplayer.com,Outside
 HOST-SUFFIX,jyxf.net,Outside
 HOST-SUFFIX,k-doujin.net,Outside
 HOST-SUFFIX,ka-wai.com,Outside
