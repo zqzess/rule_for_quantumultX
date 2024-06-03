@@ -33,10 +33,19 @@ USER-AGENT,OneDrive*,Outside
 HOST-KEYWORD,onedrive,Outside
 HOST-SUFFIX,bing.com,Outside
 HOST-SUFFIX,bing.net,Outside
+HOST-SUFFIX,bingapis.com,Outside
+HOST-SUFFIX,microsoft-falcon.io,Outside
+HOST-SUFFIX,microsoftapp.net,Outside
 HOST-SUFFIX,onedrive.com,Outside
 HOST-SUFFIX,skype.com,Outside
 HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
+HOST,api.msn.com,Outside
+HOST,assets.msn.com,Outside
+HOST,copilot.microsoft.com,Outside
+HOST,location.microsoft.com,Outside
+HOST,login.microsoftonline.com,Outside
+HOST,self.events.data.microsoft.com,Outside
 
 HOST-SUFFIX,ai.com,Outside
 HOST-SUFFIX,chatgpt.com,Outside
@@ -63,6 +72,10 @@ HOST-SUFFIX,pornhubpremium.com,Outside
 HOST-SUFFIX,riotcdn.net,Outside
 HOST-SUFFIX,wr.pvp.net,Outside
 HOST-SUFFIX,riotgames.com,Outside
+
+DOMAIN-SUFFIX,playstation.com,Outside
+DOMAIN-SUFFIX,playstation.net,Outside
+DOMAIN-SUFFIX,playstationnetwork.com,Outside
 
 HOST-SUFFIX,api.amplitude.com,Outside
 HOST-SUFFIX,app.smartmailcloud.com,Outside
@@ -91,12 +104,15 @@ HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
 HOST-SUFFIX,telegram-cdn.org,Outside
 HOST-SUFFIX,telesco.pe,Outside
+IP-CIDR,91.105.192.0/23,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
+IP-CIDR,185.76.151.0/24,Outside
 IP6-CIDR,2001:67c:4e8::/48,Outside
 IP6-CIDR,2001:b28:f23d::/48,Outside
 IP6-CIDR,2001:b28:f23f::/48,Outside
+IP6-CIDR,2a0a:f280::/32,Outside
 
 HOST-KEYWORD,tesla,Outside
 
@@ -860,20 +876,26 @@ IP-CIDR,75.126.0.0/16,Outside
 IP-CIDR,174.37.0.0/16,Outside
 IP-CIDR,208.43.0.0/16,Outside
 
+HOST,api.msn.com,Outside
 HOST,api.waqi.info,Outside
 HOST,aqi.aqicn.org,Outside
 HOST,assets-priconne-redive-us.akamaized.net,Outside
+HOST,assets.msn.com,Outside
 HOST,cdp.cloud.unity3d.com,Outside
 HOST,chat.openai.com.cdn.cloudflare.net,Outside
 HOST,cloud.oracle.com,Outside
+HOST,copilot.microsoft.com,Outside
 HOST,cvws.icloud-content.com,Outside
 HOST,developer.apple.com,Outside
 HOST,lens.l.google.com,Outside
+HOST,location.microsoft.com,Outside
+HOST,login.microsoftonline.com,Outside
 HOST,openaiapi-site.azureedge.net,Outside
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
 HOST,openaicomproductionae4b.blob.core.windows.net,Outside
 HOST,p16-tiktokcdn-com.akamaized.net,Outside
 HOST,production-openaicom-storage.azureedge.net,Outside
+HOST,self.events.data.microsoft.com,Outside
 HOST,testflight.apple.com,Outside
 HOST,voice.telephony.goog,Outside
 HOST-SUFFIX,000webhost.com,Outside
@@ -1444,6 +1466,7 @@ HOST-SUFFIX,billypan.com,Outside
 HOST-SUFFIX,binance.com,Outside
 HOST-SUFFIX,bing.com,Outside
 HOST-SUFFIX,bing.net,Outside
+HOST-SUFFIX,bingapis.com,Outside
 HOST-SUFFIX,bintray.com,Outside
 HOST-SUFFIX,binux.me,Outside
 HOST-SUFFIX,binwang.me,Outside
@@ -4364,6 +4387,8 @@ HOST-SUFFIX,mgstage.com,Outside
 HOST-SUFFIX,mh4u.org,Outside
 HOST-SUFFIX,michaelanti.com,Outside
 HOST-SUFFIX,michaelmarketl.com,Outside
+HOST-SUFFIX,microsoft-falcon.io,Outside
+HOST-SUFFIX,microsoftapp.net,Outside
 HOST-SUFFIX,microsofttranslator.com,Outside
 HOST-SUFFIX,microvpn.com,Outside
 HOST-SUFFIX,middle-way.net,Outside
@@ -5241,6 +5266,7 @@ HOST-SUFFIX,pythonhosted.org,Outside
 HOST-SUFFIX,pythonic.life,Outside
 HOST-SUFFIX,pytorch.org,Outside
 HOST-SUFFIX,qanote.com,Outside
+HOST-SUFFIX,qbittorrent.org,Outside
 HOST-SUFFIX,qgirl.com.tw,Outside
 HOST-SUFFIX,qhigh.com,Outside
 HOST-SUFFIX,qi-gong.me,Outside
@@ -6943,6 +6969,7 @@ HOST-SUFFIX,x-art.com,Outside
 HOST-SUFFIX,x-berry.com,Outside
 HOST-SUFFIX,x-wall.org,Outside
 HOST-SUFFIX,x.co,Outside
+HOST-SUFFIX,x.com,Outside
 HOST-SUFFIX,x.company,Outside
 HOST-SUFFIX,x1949x.com,Outside
 HOST-SUFFIX,x24hr.com,Outside
@@ -7307,6 +7334,7 @@ IP-CIDR,180.163.151.162/32,Outside
 IP-CIDR,180.163.151.34/32,Outside
 IP-CIDR,184.173.128.0/17,Outside
 IP-CIDR,185.60.216.0/22,Outside
+IP-CIDR,185.76.151.0/24,Outside
 IP-CIDR,203.104.103.0/24,Outside
 IP-CIDR,203.104.128.0/19,Outside
 IP-CIDR,203.174.66.64/26,Outside
@@ -7348,7 +7376,9 @@ IP-CIDR,74.119.76.0/22,Outside
 IP-CIDR,74.125.0.0/16,Outside
 IP-CIDR,74.86.0.0/16,Outside
 IP-CIDR,75.126.0.0/16,Outside
+IP-CIDR,91.105.192.0/23,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP6-CIDR,2001:67c:4e8::/48,Outside
 IP6-CIDR,2001:b28:f23d::/48,Outside
 IP6-CIDR,2001:b28:f23f::/48,Outside
+IP6-CIDR,2a0a:f280::/32,Outside

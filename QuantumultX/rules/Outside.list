@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2024-05-27 01:39:14
+# Outside rules refresh time: 2024-06-03 01:41:17
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -30,10 +30,19 @@ USER-AGENT,OneDrive*,Outside
 HOST-KEYWORD,onedrive,Outside
 HOST-SUFFIX,bing.com,Outside
 HOST-SUFFIX,bing.net,Outside
+HOST-SUFFIX,bingapis.com,Outside
+HOST-SUFFIX,microsoft-falcon.io,Outside
+HOST-SUFFIX,microsoftapp.net,Outside
 HOST-SUFFIX,onedrive.com,Outside
 HOST-SUFFIX,skype.com,Outside
 HOST-SUFFIX,storage.live.com,Outside
 HOST-SUFFIX,storage.msn.com,Outside
+HOST,api.msn.com,Outside
+HOST,assets.msn.com,Outside
+HOST,copilot.microsoft.com,Outside
+HOST,location.microsoft.com,Outside
+HOST,login.microsoftonline.com,Outside
+HOST,self.events.data.microsoft.com,Outside
 HOST-SUFFIX,ai.com,Outside
 HOST-SUFFIX,chatgpt.com,Outside
 HOST-SUFFIX,oaistatic.com,Outside
@@ -55,6 +64,9 @@ HOST-SUFFIX,pornhubpremium.com,Outside
 HOST-SUFFIX,riotcdn.net,Outside
 HOST-SUFFIX,wr.pvp.net,Outside
 HOST-SUFFIX,riotgames.com,Outside
+DOMAIN-SUFFIX,playstation.com,Outside
+DOMAIN-SUFFIX,playstation.net,Outside
+DOMAIN-SUFFIX,playstationnetwork.com,Outside
 HOST-SUFFIX,api.amplitude.com,Outside
 HOST-SUFFIX,app.smartmailcloud.com,Outside
 HOST-SUFFIX,gate.hockeyapp.net,Outside
@@ -80,12 +92,15 @@ HOST-SUFFIX,telegram.me,Outside
 HOST-SUFFIX,telegram.org,Outside
 HOST-SUFFIX,telegram-cdn.org,Outside
 HOST-SUFFIX,telesco.pe,Outside
+IP-CIDR,91.105.192.0/23,Outside
 IP-CIDR,91.108.0.0/16,Outside
 IP-CIDR,109.239.140.0/24,Outside
 IP-CIDR,149.154.160.0/20,Outside
+IP-CIDR,185.76.151.0/24,Outside
 IP6-CIDR,2001:67c:4e8::/48,Outside
 IP6-CIDR,2001:b28:f23d::/48,Outside
 IP6-CIDR,2001:b28:f23f::/48,Outside
+IP6-CIDR,2a0a:f280::/32,Outside
 HOST-KEYWORD,tesla,Outside
 HOST,testflight.apple.com,Outside
 IP-CIDR,101.32.96.0/20,Outside
@@ -4791,6 +4806,7 @@ HOST-SUFFIX,pythonhosted.org,Outside
 HOST-SUFFIX,pythonic.life,Outside
 HOST-SUFFIX,pytorch.org,Outside
 HOST-SUFFIX,qanote.com,Outside
+HOST-SUFFIX,qbittorrent.org,Outside
 HOST-SUFFIX,qgirl.com.tw,Outside
 HOST-SUFFIX,qhigh.com,Outside
 HOST-SUFFIX,qi-gong.me,Outside
@@ -6258,6 +6274,7 @@ HOST-SUFFIX,x-art.com,Outside
 HOST-SUFFIX,x-berry.com,Outside
 HOST-SUFFIX,x-wall.org,Outside
 HOST-SUFFIX,x.co,Outside
+HOST-SUFFIX,x.com,Outside
 HOST-SUFFIX,x.company,Outside
 HOST-SUFFIX,x1949x.com,Outside
 HOST-SUFFIX,x24hr.com,Outside

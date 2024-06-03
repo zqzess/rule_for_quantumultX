@@ -1,4 +1,4 @@
-# Mainland rules refresh time: 2024-05-27 01:39:15
+# Mainland rules refresh time: 2024-06-03 01:41:18
 
 HOST-SUFFIX,abchina.com,Mainland
 HOST-SUFFIX,abchina.com.cn,Mainland
@@ -51,9 +51,6 @@ HOST-SUFFIX,edu.cn,Mainland
 HOST-SUFFIX,p4pfile.com,Mainland
 HOST-SUFFIX,zmzfile.com,Mainland
 USER-AGENT,RemotePlay*,Mainland
-HOST-SUFFIX,playstation.com,Mainland
-HOST-SUFFIX,playstation.net,Mainland
-HOST-SUFFIX,playstationnetwork.com,Mainland
 HOST-SUFFIX,sony.com,Mainland
 HOST-SUFFIX,sonyentertainmentnetwork.com,Mainland
 IP-CIDR,185.188.32.0/24,Mainland
@@ -173,6 +170,7 @@ HOST-SUFFIX,ifeng.com,Mainland
 HOST-SUFFIX,ifengimg.com,Mainland
 HOST-SUFFIX,images-amazon.com,Mainland
 HOST-SUFFIX,img4me.com,Mainland
+HOST-SUFFIX,ipapark.com,Mainland
 HOST-SUFFIX,ithome.com,Mainland
 HOST-SUFFIX,ixdzs.com,Mainland
 HOST-SUFFIX,jd.com,Mainland
@@ -1407,6 +1405,7 @@ HOST-SUFFIX,discuz.org,Mainland
 HOST-SUFFIX,diyiyou.com,Mainland
 HOST-SUFFIX,dj99.com,Mainland
 HOST-SUFFIX,dl-vip.pcfaster.baidu.co.th,Mainland
+HOST-SUFFIX,dler.cloud,Mainland
 HOST-SUFFIX,dlgslb.net,Mainland
 HOST-SUFFIX,dlnel.com,Mainland
 HOST-SUFFIX,dlnel.org,Mainland
