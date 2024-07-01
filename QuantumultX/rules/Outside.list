@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2024-06-24 01:42:53
+# Outside rules refresh time: 2024-07-01 01:51:04
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -977,6 +977,7 @@ HOST-SUFFIX,9cache.com,Outside
 HOST-SUFFIX,9gag.com,Outside
 HOST-SUFFIX,9news.com.au,Outside
 HOST-SUFFIX,a-normal-day.com,Outside
+HOST-SUFFIX,a5.com.ru,Outside
 HOST-SUFFIX,aamacau.com,Outside
 HOST-SUFFIX,abc.com,Outside
 HOST-SUFFIX,abc.net.au,Outside
@@ -1646,6 +1647,7 @@ HOST-SUFFIX,cdninstagram.com,Outside
 HOST-SUFFIX,cdp1989.org,Outside
 HOST-SUFFIX,cdp1998.org,Outside
 HOST-SUFFIX,cdp2006.org,Outside
+HOST-SUFFIX,cdpa.url.tw,Outside
 HOST-SUFFIX,cdpeu.org,Outside
 HOST-SUFFIX,cdpusa.org,Outside
 HOST-SUFFIX,cdpweb.org,Outside
@@ -1673,7 +1675,6 @@ HOST-SUFFIX,changsa.net,Outside
 HOST-SUFFIX,channelnewsasia.com,Outside
 HOST-SUFFIX,chaoex.com,Outside
 HOST-SUFFIX,chapm25.com,Outside
-HOST-SUFFIX,chat.lmsys.org,Outside
 HOST-SUFFIX,chatnook.com,Outside
 HOST-SUFFIX,chaturbate.com,Outside
 HOST-SUFFIX,checkgfw.com,Outside
@@ -1685,7 +1686,9 @@ HOST-SUFFIX,chenpokongvip.com,Outside
 HOST-SUFFIX,cherrysave.com,Outside
 HOST-SUFFIX,chhongbi.org,Outside
 HOST-SUFFIX,chicagoncmtv.com,Outside
+HOST-SUFFIX,china-mmm.jp.net,Outside
 HOST-SUFFIX,china-mmm.net,Outside
+HOST-SUFFIX,china-mmm.sa.com,Outside
 HOST-SUFFIX,china-review.com.ua,Outside
 HOST-SUFFIX,china-week.com,Outside
 HOST-SUFFIX,china101.com,Outside
@@ -1818,7 +1821,6 @@ HOST-SUFFIX,cmule.com,Outside
 HOST-SUFFIX,cmule.org,Outside
 HOST-SUFFIX,cmx.im,Outside
 HOST-SUFFIX,cn-proxy.com,Outside
-HOST-SUFFIX,cn.com,Outside
 HOST-SUFFIX,cn6.eu,Outside
 HOST-SUFFIX,cna.com.tw,Outside
 HOST-SUFFIX,cnabc.com,Outside
@@ -1851,7 +1853,6 @@ HOST-SUFFIX,coinut.com,Outside
 HOST-SUFFIX,collateralmurder.com,Outside
 HOST-SUFFIX,collateralmurder.org,Outside
 HOST-SUFFIX,com.google,Outside
-HOST-SUFFIX,com.ru,Outside
 HOST-SUFFIX,com.uk,Outside
 HOST-SUFFIX,comedycentral.com,Outside
 HOST-SUFFIX,comefromchina.com,Outside
@@ -2013,6 +2014,7 @@ HOST-SUFFIX,delicious.com,Outside
 HOST-SUFFIX,democrats.org,Outside
 HOST-SUFFIX,demosisto.hk,Outside
 HOST-SUFFIX,depositphotos.com,Outside
+HOST-SUFFIX,derekhsu.homeip.net,Outside
 HOST-SUFFIX,desc.se,Outside
 HOST-SUFFIX,design.google,Outside
 HOST-SUFFIX,desipro.de,Outside
@@ -2072,6 +2074,7 @@ HOST-SUFFIX,dns2go.com,Outside
 HOST-SUFFIX,dnscrypt.org,Outside
 HOST-SUFFIX,dnsrd.com,Outside
 HOST-SUFFIX,dnssec.net,Outside
+HOST-SUFFIX,docker.io,Outside
 HOST-SUFFIX,doctorvoice.org,Outside
 HOST-SUFFIX,documentingreality.com,Outside
 HOST-SUFFIX,dogfartnetwork.com,Outside
@@ -3248,7 +3251,6 @@ HOST-SUFFIX,hola.org,Outside
 HOST-SUFFIX,holymountaincn.com,Outside
 HOST-SUFFIX,holyspiritspeaks.org,Outside
 HOST-SUFFIX,home.sina.com,Outside
-HOST-SUFFIX,homeip.net,Outside
 HOST-SUFFIX,homeperversion.com,Outside
 HOST-SUFFIX,homeservershow.com,Outside
 HOST-SUFFIX,honeynet.org,Outside
@@ -3616,7 +3618,6 @@ HOST-SUFFIX,journalchretien.net,Outside
 HOST-SUFFIX,journalofdemocracy.org,Outside
 HOST-SUFFIX,joymiihub.com,Outside
 HOST-SUFFIX,jp.hao123.com,Outside
-HOST-SUFFIX,jp.net,Outside
 HOST-SUFFIX,jpopforum.net,Outside
 HOST-SUFFIX,jqueryui.com,Outside
 HOST-SUFFIX,jsdelivr.net,Outside
@@ -3838,7 +3839,6 @@ HOST-SUFFIX,livecoin.net,Outside
 HOST-SUFFIX,livedoor.jp,Outside
 HOST-SUFFIX,liveleak.com,Outside
 HOST-SUFFIX,livemint.com,Outside
-HOST-SUFFIX,livestation.com,Outside
 HOST-SUFFIX,livestream.com,Outside
 HOST-SUFFIX,livevideo.com,Outside
 HOST-SUFFIX,livingonline.us,Outside
@@ -3847,7 +3847,7 @@ HOST-SUFFIX,liwangyang.com,Outside
 HOST-SUFFIX,liyuans.com,Outside
 HOST-SUFFIX,lizhizhuangbi.com,Outside
 HOST-SUFFIX,lkcn.net,Outside
-HOST-SUFFIX,llss.me,Outside
+HOST-SUFFIX,lmsys.org,Outside
 HOST-SUFFIX,lncn.org,Outside
 HOST-SUFFIX,load.to,Outside
 HOST-SUFFIX,lobsangwangyal.com,Outside
@@ -4847,7 +4847,6 @@ HOST-SUFFIX,qxbbs.org,Outside
 HOST-SUFFIX,qz.com,Outside
 HOST-SUFFIX,r0.ru,Outside
 HOST-SUFFIX,r18.com,Outside
-HOST-SUFFIX,ra.gg,Outside
 HOST-SUFFIX,radicalparty.org,Outside
 HOST-SUFFIX,radiko.jp,Outside
 HOST-SUFFIX,radio-canada.ca,Outside
@@ -4996,7 +4995,6 @@ HOST-SUFFIX,s1heng.com,Outside
 HOST-SUFFIX,s1s1s1.com,Outside
 HOST-SUFFIX,s4miniarchive.com,Outside
 HOST-SUFFIX,s8forum.com,Outside
-HOST-SUFFIX,sa.com,Outside
 HOST-SUFFIX,sa.hao123.com,Outside
 HOST-SUFFIX,saboom.com,Outside
 HOST-SUFFIX,sacks.com,Outside
@@ -5940,7 +5938,6 @@ HOST-SUFFIX,uraban.me,Outside
 HOST-SUFFIX,urbandictionary.com,Outside
 HOST-SUFFIX,urbansurvival.com,Outside
 HOST-SUFFIX,url.com.tw,Outside
-HOST-SUFFIX,url.tw,Outside
 HOST-SUFFIX,urlborg.com,Outside
 HOST-SUFFIX,usacn.com,Outside
 HOST-SUFFIX,usaip.eu,Outside
@@ -6403,7 +6400,6 @@ HOST-SUFFIX,yilubbs.com,Outside
 HOST-SUFFIX,yingsuoss.com,Outside
 HOST-SUFFIX,yinlei.org,Outside
 HOST-SUFFIX,yipub.com,Outside
-HOST-SUFFIX,yiyechat.com,Outside
 HOST-SUFFIX,yizhihongxing.com,Outside
 HOST-SUFFIX,yobit.net,Outside
 HOST-SUFFIX,yobt.com,Outside
@@ -6449,7 +6445,6 @@ HOST-SUFFIX,ytn.co.kr,Outside
 HOST-SUFFIX,yuanzhengtang.org,Outside
 HOST-SUFFIX,yulghun.com,Outside
 HOST-SUFFIX,yunchao.net,Outside
-HOST-SUFFIX,yuntipub.com,Outside
 HOST-SUFFIX,yuvutu.com,Outside
 HOST-SUFFIX,yvesgeleyn.com,Outside
 HOST-SUFFIX,ywpw.com,Outside
@@ -6470,6 +6465,7 @@ HOST-SUFFIX,zdnet.com.tw,Outside
 HOST-SUFFIX,zello.com,Outside
 HOST-SUFFIX,zengjinyan.org,Outside
 HOST-SUFFIX,zenmate.com,Outside
+HOST-SUFFIX,zenmate.com.ru,Outside
 HOST-SUFFIX,zerohedge.com,Outside
 HOST-SUFFIX,zeronet.io,Outside
 HOST-SUFFIX,zfreet.com,Outside
