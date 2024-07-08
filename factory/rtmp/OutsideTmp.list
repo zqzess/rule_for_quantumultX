@@ -882,7 +882,6 @@ HOST,aqi.aqicn.org,Outside
 HOST,assets-priconne-redive-us.akamaized.net,Outside
 HOST,assets.msn.com,Outside
 HOST,cdp.cloud.unity3d.com,Outside
-HOST,chat.openai.com.cdn.cloudflare.net,Outside
 HOST,cloud.oracle.com,Outside
 HOST,copilot.microsoft.com,Outside
 HOST,cvws.icloud-content.com,Outside
@@ -891,10 +890,7 @@ HOST,lens.l.google.com,Outside
 HOST,location.microsoft.com,Outside
 HOST,login.microsoftonline.com,Outside
 HOST,openaiapi-site.azureedge.net,Outside
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
-HOST,openaicomproductionae4b.blob.core.windows.net,Outside
 HOST,p16-tiktokcdn-com.akamaized.net,Outside
-HOST,production-openaicom-storage.azureedge.net,Outside
 HOST,self.events.data.microsoft.com,Outside
 HOST,testflight.apple.com,Outside
 HOST,voice.telephony.goog,Outside
@@ -1827,6 +1823,7 @@ HOST-SUFFIX,changsa.net,Outside
 HOST-SUFFIX,channelnewsasia.com,Outside
 HOST-SUFFIX,chaoex.com,Outside
 HOST-SUFFIX,chapm25.com,Outside
+HOST-SUFFIX,chat.openai.com,Outside
 HOST-SUFFIX,chatnook.com,Outside
 HOST-SUFFIX,chaturbate.com,Outside
 HOST-SUFFIX,checkgfw.com,Outside
@@ -7260,7 +7257,6 @@ HOST-KEYWORD,dlercloud,Outside
 HOST-KEYWORD,dropbox,Outside
 HOST-KEYWORD,facebook,Outside
 HOST-KEYWORD,fbcdn,Outside
-HOST-KEYWORD,github,Outside
 HOST-KEYWORD,gmail,Outside
 HOST-KEYWORD,google,Outside
 HOST-KEYWORD,instagram,Outside
