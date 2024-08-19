@@ -1694,12 +1694,12 @@ USER-AGENT,com.kktv.ios.kktv*,GMedia
 USER-AGENT,discovery+*,GMedia
 USER-AGENT,encoreTVB*,GMedia
 USER-AGENT,mytv*,GMedia
-USER-AGENT,*YouTubeMusic*,GMedia
-USER-AGENT,*com.google.ios.youtubemusic*,GMedia
 USER-AGENT,*youtube*,GMedia
 USER-AGENT,YouTube*,GMedia
-USER-AGENT,YouTubeMusic*,GMedia
 USER-AGENT,com.google.ios.youtube*,GMedia
+USER-AGENT,*YouTubeMusic*,GMedia
+USER-AGENT,*com.google.ios.youtubemusic*,GMedia
+USER-AGENT,YouTubeMusic*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 IP-CIDR,1.201.0.0/24,GMedia
 IP-CIDR,1.37.35.6/32,GMedia
