@@ -1,4 +1,4 @@
-# GMedia rules refresh time: 2024-08-26 01:47:47
+# GMedia rules refresh time: 2024-09-02 01:52:48
 
 HOST-SUFFIX,edgedatg.com,GMedia
 HOST-SUFFIX,go.com,GMedia
@@ -842,6 +842,7 @@ HOST-SUFFIX,italkbb.com,GMedia
 HOST-SUFFIX,italkbbtv.com,GMedia
 HOST-SUFFIX,itv.com,GMedia
 HOST-SUFFIX,itvstatic.com,GMedia
+HOST-SUFFIX,iwara.tv,GMedia
 HOST-SUFFIX,joeswall.com,GMedia
 HOST-SUFFIX,joinmaidez.com,GMedia
 HOST-SUFFIX,js-agent.newrelic.com,GMedia
@@ -1445,8 +1446,8 @@ USER-AGENT,app/bstar*,GMedia
 USER-AGENT,com.apple.tv*,GMedia
 USER-AGENT,com.kktv.ios.kktv*,GMedia
 USER-AGENT,discovery+*,GMedia
-USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,YouTubeMusic*,GMedia
+USER-AGENT,com.google.ios.youtube*,GMedia
 USER-AGENT,com.google.ios.youtubemusic*,GMedia
 IP-CIDR,1.201.0.0/24,GMedia
 IP-CIDR,1.37.35.6/32,GMedia
