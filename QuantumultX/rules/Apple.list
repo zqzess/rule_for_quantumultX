@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2024-10-14 02:01:41
+# Apple rules refresh time: 2024-10-21 02:03:51
 
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
@@ -31,6 +31,7 @@ IP-CIDR,205.180.175.0/24,Apple
 HOST-SUFFIX,apple.comscoreresearch.com,Apple
 HOST-SUFFIX,apple.news,Apple
 HOST,apps.apple.com,Apple
+HOST,itunes.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
 HOST,a3.mzstatic.com,Apple
@@ -258,6 +259,7 @@ HOST,audio-ssl.itunes.apple.com,Apple
 HOST,audio.itunes.apple.com,Apple
 HOST,mvod.itunes.apple.com,Apple
 HOST,streamingaudio.itunes.apple.com,Apple
+HOST,gspe1-ssl.ls.apple.com,Apple
 HOST,news-client-search.apple.com,Apple
 HOST,api-glb-sea.smoot.apple.com,Apple
 HOST,apple.comscoreresearch.com,Apple
@@ -268,8 +270,7 @@ HOST,developer.apple.com,Apple
 HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
-HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,itunes.apple.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
 HOST,lookup-api.apple.com,Apple
 HOST,mask-api.fe.apple-dns.net,Apple
@@ -294,7 +295,6 @@ HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
-HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
