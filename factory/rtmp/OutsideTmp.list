@@ -47,18 +47,6 @@ HOST,location.microsoft.com,Outside
 HOST,login.microsoftonline.com,Outside
 HOST,self.events.data.microsoft.com,Outside
 
-HOST-SUFFIX,ai.com,Outside
-HOST-SUFFIX,chatgpt.com,Outside
-HOST-SUFFIX,oaistatic.com,Outside
-HOST-SUFFIX,oaiusercontent.com,Outside
-HOST-SUFFIX,openai.com,Outside
-
-HOST,chat.openai.com.cdn.cloudflare.net,Outside
-HOST,openaiapi-site.azureedge.net,Outside
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
-HOST,openaicomproductionae4b.blob.core.windows.net,Outside
-HOST,production-openaicom-storage.azureedge.net,Outside
-
 USER-AGENT,PayPal*,Outside
 HOST-KEYWORD,paypal,Outside
 HOST-SUFFIX,paypal.com,Outside
@@ -117,27 +105,6 @@ IP6-CIDR,2a0a:f280::/32,Outside
 HOST-KEYWORD,tesla,Outside
 
 HOST,testflight.apple.com,Outside
-
-IP-CIDR,101.32.96.0/20,Outside
-IP-CIDR,101.32.104.0/21,Outside
-IP-CIDR,101.32.118.0/23,Outside
-IP-CIDR,129.226.0.0/16,Outside
-IP-CIDR,183.128.0.0/11,Outside
-IP-CIDR,183.131.48.0/20,Outside
-
-USER-AGENT,TikTok*,Outside
-HOST-KEYWORD,tiktokcdn-,Outside
-HOST-KEYWORD,musical.ly,Outside
-HOST-KEYWORD,tiktok,Outside
-HOST-KEYWORD,tiktokv,Outside
-HOST,p16-tiktokcdn-com.akamaized.net,Outside
-HOST-SUFFIX,byteoversea.com,Outside
-HOST-SUFFIX,ibytedtos.com,Outside
-HOST-SUFFIX,ibyteimg.com,Outside
-HOST-SUFFIX,ipstatp.com,Outside
-HOST-SUFFIX,muscdn.com,Outside
-HOST-SUFFIX,sgpstatp.com,Outside
-HOST-SUFFIX,tik-tokapi.com,Outside
 
 HOST,api.waqi.info,Outside
 HOST,aqi.aqicn.org,Outside
@@ -509,6 +476,7 @@ HOST-SUFFIX,readmoo.com,Outside
 HOST-SUFFIX,recaptcha.net,Outside
 HOST-SUFFIX,reddit.com,Outside
 HOST-SUFFIX,redditmedia.com,Outside
+HOST-SUFFIX,redditstatic.com,Outside
 HOST-SUFFIX,reuters.com,Outside
 HOST-SUFFIX,rfi.fr,Outside
 HOST-SUFFIX,rileyguide.com,Outside
@@ -722,6 +690,7 @@ HOST-SUFFIX,xuite.net,Outside
 HOST-SUFFIX,xvideos.com,Outside
 HOST-SUFFIX,yahoo.com,Outside
 HOST-SUFFIX,yahooapis.com,Outside
+HOST-SUFFIX,yandex.com,Outside
 HOST-SUFFIX,yasni.co.uk,Outside
 HOST-SUFFIX,yastatic.net,Outside
 HOST-SUFFIX,ycombinator.com,Outside
@@ -755,6 +724,7 @@ HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
 HOST-SUFFIX,google.cn,Outside
 HOST-SUFFIX,google.com,Outside
+HOST-SUFFIX,x.com,Outside
 HOST-SUFFIX,1e100.net,Outside
 HOST-SUFFIX,2mdn.net,Outside
 HOST-SUFFIX,abc.xyz,Outside
@@ -788,9 +758,11 @@ HOST-SUFFIX,messenger.com,Outside
 HOST-SUFFIX,netmarble.com,Outside
 HOST-SUFFIX,nianticlabs.com,Outside
 HOST-SUFFIX,pinimg.com,Outside
+HOST-SUFFIX,proton.me,Outside
 HOST-SUFFIX,pubnub.com,Outside
 HOST-SUFFIX,scdn.co,Outside
 HOST-SUFFIX,t.co,Outside
+HOST-SUFFIX,tenor.com,Outside
 HOST-SUFFIX,tensorflow.org,Outside
 HOST-SUFFIX,toggleable.com,Outside
 HOST-SUFFIX,torproject.org,Outside
@@ -892,8 +864,6 @@ HOST,developer.apple.com,Outside
 HOST,lens.l.google.com,Outside
 HOST,location.microsoft.com,Outside
 HOST,login.microsoftonline.com,Outside
-HOST,openaiapi-site.azureedge.net,Outside
-HOST,p16-tiktokcdn-com.akamaized.net,Outside
 HOST,self.events.data.microsoft.com,Outside
 HOST,testflight.apple.com,Outside
 HOST,voice.telephony.goog,Outside
@@ -1699,7 +1669,6 @@ HOST-SUFFIX,bybit.com,Outside
 HOST-SUFFIX,bynet.co.il,Outside
 HOST-SUFFIX,bypasscensorship.org,Outside
 HOST-SUFFIX,byrut.org,Outside
-HOST-SUFFIX,byteoversea.com,Outside
 HOST-SUFFIX,c-est-simple.com,Outside
 HOST-SUFFIX,c-span.org,Outside
 HOST-SUFFIX,c-spanvideo.org,Outside
@@ -3674,8 +3643,6 @@ HOST-SUFFIX,iblogserv-f.net,Outside
 HOST-SUFFIX,ibros.org,Outside
 HOST-SUFFIX,ibtimes.com,Outside
 HOST-SUFFIX,ibvpn.com,Outside
-HOST-SUFFIX,ibytedtos.com,Outside
-HOST-SUFFIX,ibyteimg.com,Outside
 HOST-SUFFIX,icams.com,Outside
 HOST-SUFFIX,icedrive.net,Outside
 HOST-SUFFIX,icij.org,Outside
@@ -3808,7 +3775,6 @@ HOST-SUFFIX,ipoock.com,Outside
 HOST-SUFFIX,iportal.me,Outside
 HOST-SUFFIX,ippotv.com,Outside
 HOST-SUFFIX,ipredator.se,Outside
-HOST-SUFFIX,ipstatp.com,Outside
 HOST-SUFFIX,iptv.com.tw,Outside
 HOST-SUFFIX,iptvbin.com,Outside
 HOST-SUFFIX,ipvanish.com,Outside
@@ -4538,7 +4504,6 @@ HOST-SUFFIX,multiproxy.org,Outside
 HOST-SUFFIX,multiupload.com,Outside
 HOST-SUFFIX,mummysgold.com,Outside
 HOST-SUFFIX,murmur.tw,Outside
-HOST-SUFFIX,muscdn.com,Outside
 HOST-SUFFIX,musicade.net,Outside
 HOST-SUFFIX,muslimvideo.com,Outside
 HOST-SUFFIX,muzi.com,Outside
@@ -5587,7 +5552,6 @@ HOST-SUFFIX,sfshibao.com,Outside
 HOST-SUFFIX,sftindia.org,Outside
 HOST-SUFFIX,sftuk.org,Outside
 HOST-SUFFIX,sfx.ms,Outside
-HOST-SUFFIX,sgpstatp.com,Outside
 HOST-SUFFIX,shadeyouvpn.com,Outside
 HOST-SUFFIX,shadow.ma,Outside
 HOST-SUFFIX,shadowsky.xyz,Outside
@@ -6223,7 +6187,6 @@ HOST-SUFFIX,tibettruth.com,Outside
 HOST-SUFFIX,tibetwrites.org,Outside
 HOST-SUFFIX,ticket.com.tw,Outside
 HOST-SUFFIX,tigervpn.com,Outside
-HOST-SUFFIX,tik-tokapi.com,Outside
 HOST-SUFFIX,tiktok.com,Outside
 HOST-SUFFIX,tiktokv.com,Outside
 HOST-SUFFIX,tiltbrush.com,Outside
@@ -7279,7 +7242,6 @@ HOST-KEYWORD,fbcdn,Outside
 HOST-KEYWORD,gmail,Outside
 HOST-KEYWORD,google,Outside
 HOST-KEYWORD,instagram,Outside
-HOST-KEYWORD,musical.ly,Outside
 HOST-KEYWORD,onedrive,Outside
 HOST-KEYWORD,paypal,Outside
 HOST-KEYWORD,porn,Outside
@@ -7287,7 +7249,6 @@ HOST-KEYWORD,sci-hub,Outside
 HOST-KEYWORD,skydrive,Outside
 HOST-KEYWORD,spotify,Outside
 HOST-KEYWORD,telegram,Outside
-HOST-KEYWORD,tiktok,Outside
 HOST-KEYWORD,ttvnw,Outside
 HOST-KEYWORD,twitter,Outside
 HOST-KEYWORD,uk-live,Outside
@@ -7297,14 +7258,11 @@ USER-AGENT,Duolingo*,Outside
 USER-AGENT,OneDrive*,Outside
 USER-AGENT,PayPal*,Outside
 USER-AGENT,Roam*,Outside
-USER-AGENT,TikTok*,Outside
 USER-AGENT,WhatsApp*,Outside
 USER-AGENT,battleroyale*,Outside
 USER-AGENT,com.apple.trustd*,Outside
 USER-AGENT,hearthstone*,Outside
 IP-CIDR,1.201.0.0/24,Outside
-IP-CIDR,101.32.118.0/23,Outside
-IP-CIDR,101.32.96.0/20,Outside
 IP-CIDR,103.2.28.0/22,Outside
 IP-CIDR,103.246.56.0/22,Outside
 IP-CIDR,103.27.148.0/22,Outside
@@ -7327,7 +7285,6 @@ IP-CIDR,125.6.146.0/24,Outside
 IP-CIDR,125.6.149.0/24,Outside
 IP-CIDR,125.6.190.0/24,Outside
 IP-CIDR,129.134.0.0/17,Outside
-IP-CIDR,129.226.0.0/16,Outside
 IP-CIDR,13.32.0.0/15,Outside
 IP-CIDR,13.35.0.0/17,Outside
 IP-CIDR,14.102.250.18/31,Outside

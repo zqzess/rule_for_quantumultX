@@ -95,21 +95,12 @@ HOST-SUFFIX,dc1-lm-live2dazn.secure.footprint.net,GMedia
 
 # > Disney Plus
 USER-AGENT,Disney*,GMedia
-HOST-SUFFIX,adobedtm.com,GMedia
-HOST-SUFFIX,bam.nr-date.net,GMedia
-HOST-SUFFIX,bamgrid.com,GMedia
-HOST-SUFFIX,braze.com,GMedia
-HOST-SUFFIX,cdn.optimizely.com,GMedia
-HOST-SUFFIX,d9.flashtalking.com,GMedia
-HOST-SUFFIX,disney.demdex.net,GMedia
-HOST-SUFFIX,disney.my.sentry.io,GMedia
-HOST-SUFFIX,disneyplus.bn5x.net,GMedia
 HOST-SUFFIX,disneyplus.com,GMedia
-HOST-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,GMedia
-HOST-SUFFIX,disney-plus.net,GMedia
-HOST-SUFFIX,disney-portal.my.onetrust.com,GMedia
-HOST-SUFFIX,dssott.com,GMedia
-HOST-SUFFIX,registerdisney.go.com,GMedia
+HOST-SUFFIX,disney.api.edge.bamgrid.com,GMedia
+HOST-SUFFIX,disney.content.edge.bamgrid.com,GMedia
+HOST-SUFFIX,prod-static.disney-plus.net,GMedia
+HOST-SUFFIX,disney.content.edge.bamgrid.com,GMedia
+HOST-SUFFIX,prod-static.disney-plus.net,GMedia
 
 # > encoreTVB
 USER-AGENT,encoreTVB*,GMedia
@@ -231,41 +222,19 @@ HOST-SUFFIX,tvb.com,GMedia
 
 # > Netflix
 HOST-WILDCARD,netflixdnstest*.com,GMedia
-HOST-SUFFIX,flxvpn.net,GMedia
+HOST-SUFFIX,fast.com,GMedia
 HOST-SUFFIX,netflix.ca,GMedia
 HOST-SUFFIX,netflix.com,GMedia
-HOST-SUFFIX,netflix.com.au,GMedia
-HOST-SUFFIX,netflixinvestor.com,GMedia
 HOST-SUFFIX,netflix.net,GMedia
-HOST-SUFFIX,netflixstudios.com,GMedia
+HOST-SUFFIX,netflixinvestor.com,GMedia
 HOST-SUFFIX,netflixtechblog.com,GMedia
 HOST-SUFFIX,nflxext.com,GMedia
 HOST-SUFFIX,nflximg.com,GMedia
 HOST-SUFFIX,nflximg.net,GMedia
+HOST-SUFFIX,nflxsearch.net,GMedia
 HOST-SUFFIX,nflxso.net,GMedia
 HOST-SUFFIX,nflxvideo.net,GMedia
-HOST,e13252.dscg.akamaiedge.net,GMedia
-HOST,h-netflix.online-metrix.net,GMedia
-HOST,netflix.com.edgesuite.net,GMedia
-HOST-SUFFIX,onetrust.com,GMedia
-HOST-SUFFIX,cookielaw.org,GMedia
-IP-CIDR,23.246.18.0/23,GMedia
-IP-CIDR,37.77.184.0/21,GMedia
-IP-CIDR,45.57.0.0/17,GMedia
-IP-CIDR,64.120.128.0/17,GMedia
-IP-CIDR,66.197.128.0/17,GMedia
-IP-CIDR,69.53.224.0/19,GMedia
-IP-CIDR,108.175.32.0/20,GMedia
-IP-CIDR,185.2.220.0/22,GMedia
-IP-CIDR,185.9.188.0/22,GMedia
-IP-CIDR,192.173.64.0/18,GMedia
-IP-CIDR,198.38.96.0/19,GMedia
-IP-CIDR,198.45.48.0/20,GMedia
-IP-CIDR,208.75.76.0/22,GMedia
-IP6-CIDR,2607:fb10::/32,GMedia
-IP6-CIDR,2620:10c:7000::/44,GMedia
-IP6-CIDR,2a00:86c0::/32,GMedia
-IP6-CIDR,2a03:5640::/32,GMedia
+HOST-SUFFIX,netflix.com.edgesuite.net,GMedia
 
 # > Niconico
 HOST-SUFFIX,dmc.nico,GMedia
@@ -293,18 +262,11 @@ HOST-SUFFIX,soundcloudmail.com,GMedia
 
 # > Spotify
 USER-AGENT,Spotify*,GMedia
+HOST-KEYWORD,spotify,GMedia
 HOST-SUFFIX,pscdn.co,GMedia
 HOST-SUFFIX,scdn.co,GMedia
 HOST-SUFFIX,spoti.fi,GMedia
-HOST-SUFFIX,spotify.com,GMedia
-HOST-SUFFIX,spotifycdn.com,GMedia
-HOST-SUFFIX,spotifycdn.net,GMedia
-HOST-SUFFIX,spotifycharts.com,GMedia
-HOST-SUFFIX,spotifycodes.com,GMedia
-HOST-SUFFIX,spotifyjobs.com,GMedia
-HOST-SUFFIX,spotifynewsroom.jp,GMedia
 HOST-SUFFIX,spotilocal.com,GMedia
-HOST-SUFFIX,tospotify.com,GMedia
 
 # > ViuTV
 USER-AGENT,ViuTV*,GMedia

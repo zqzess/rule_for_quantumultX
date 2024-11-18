@@ -1,4 +1,4 @@
-# Apple rules refresh time: 2024-11-11 01:57:57
+# Apple rules refresh time: 2024-11-18 02:10:37
 
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,icloud.com.akadns.net,Apple
@@ -269,7 +269,6 @@ HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
 HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,hls-svod.itunes.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
 HOST,itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
@@ -287,7 +286,6 @@ HOST,news-events.apple.com,Apple
 HOST,np-edge.itunes.apple.com,Apple
 HOST,play-edge.itunes.apple.com,Apple
 HOST,sandbox.itunes.apple.com,Apple
-HOST,testflight.apple.com,Apple
 HOST,tv.applemusic.com,Apple
 HOST,uts-api.itunes.apple.com,Apple
 HOST,hls-amt.itunes.apple.com,Apple
@@ -295,8 +293,10 @@ HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
+HOST,testflight.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
 HOST-SUFFIX,100beatscheap.com,Apple
 HOST-SUFFIX,1monsterbeatsbydreus.com,Apple
@@ -1092,7 +1092,6 @@ HOST-SUFFIX,ibeatsbydre.cc,Apple
 HOST-SUFFIX,ibeatsbydre.com,Apple
 HOST-SUFFIX,ichat.co.in,Apple
 HOST-SUFFIX,icloud-content.com.cn,Apple
-HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,idvd.eu,Apple
 HOST-SUFFIX,igoshopping.net,Apple
 HOST-SUFFIX,ikids.com,Apple
@@ -1789,6 +1788,7 @@ HOST-SUFFIX,appleicloud.cn,Apple
 HOST-SUFFIX,applemx-icloud.com,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
 HOST-SUFFIX,icloud.de,Apple

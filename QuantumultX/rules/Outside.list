@@ -1,4 +1,4 @@
-# Outside rules refresh time: 2024-11-11 01:57:56
+# Outside rules refresh time: 2024-11-18 02:10:36
 
 USER-AGENT,hearthstone*,Outside
 HOST,cdp.cloud.unity3d.com,Outside
@@ -43,16 +43,6 @@ HOST,copilot.microsoft.com,Outside
 HOST,location.microsoft.com,Outside
 HOST,login.microsoftonline.com,Outside
 HOST,self.events.data.microsoft.com,Outside
-HOST-SUFFIX,ai.com,Outside
-HOST-SUFFIX,chatgpt.com,Outside
-HOST-SUFFIX,oaistatic.com,Outside
-HOST-SUFFIX,oaiusercontent.com,Outside
-HOST-SUFFIX,openai.com,Outside
-HOST,chat.openai.com.cdn.cloudflare.net,Outside
-HOST,openaiapi-site.azureedge.net,Outside
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Outside
-HOST,openaicomproductionae4b.blob.core.windows.net,Outside
-HOST,production-openaicom-storage.azureedge.net,Outside
 USER-AGENT,PayPal*,Outside
 HOST-KEYWORD,paypal,Outside
 HOST-SUFFIX,paypal.com,Outside
@@ -103,25 +93,6 @@ IP6-CIDR,2001:b28:f23f::/48,Outside
 IP6-CIDR,2a0a:f280::/32,Outside
 HOST-KEYWORD,tesla,Outside
 HOST,testflight.apple.com,Outside
-IP-CIDR,101.32.96.0/20,Outside
-IP-CIDR,101.32.104.0/21,Outside
-IP-CIDR,101.32.118.0/23,Outside
-IP-CIDR,129.226.0.0/16,Outside
-IP-CIDR,183.128.0.0/11,Outside
-IP-CIDR,183.131.48.0/20,Outside
-USER-AGENT,TikTok*,Outside
-HOST-KEYWORD,tiktokcdn-,Outside
-HOST-KEYWORD,musical.ly,Outside
-HOST-KEYWORD,tiktok,Outside
-HOST-KEYWORD,tiktokv,Outside
-HOST,p16-tiktokcdn-com.akamaized.net,Outside
-HOST-SUFFIX,byteoversea.com,Outside
-HOST-SUFFIX,ibytedtos.com,Outside
-HOST-SUFFIX,ibyteimg.com,Outside
-HOST-SUFFIX,ipstatp.com,Outside
-HOST-SUFFIX,muscdn.com,Outside
-HOST-SUFFIX,sgpstatp.com,Outside
-HOST-SUFFIX,tik-tokapi.com,Outside
 HOST,api.waqi.info,Outside
 HOST,aqi.aqicn.org,Outside
 USER-AGENT,battleroyale*,Outside
@@ -488,6 +459,7 @@ HOST-SUFFIX,readmoo.com,Outside
 HOST-SUFFIX,recaptcha.net,Outside
 HOST-SUFFIX,reddit.com,Outside
 HOST-SUFFIX,redditmedia.com,Outside
+HOST-SUFFIX,redditstatic.com,Outside
 HOST-SUFFIX,reuters.com,Outside
 HOST-SUFFIX,rfi.fr,Outside
 HOST-SUFFIX,rileyguide.com,Outside
@@ -701,6 +673,7 @@ HOST-SUFFIX,xuite.net,Outside
 HOST-SUFFIX,xvideos.com,Outside
 HOST-SUFFIX,yahoo.com,Outside
 HOST-SUFFIX,yahooapis.com,Outside
+HOST-SUFFIX,yandex.com,Outside
 HOST-SUFFIX,yasni.co.uk,Outside
 HOST-SUFFIX,yastatic.net,Outside
 HOST-SUFFIX,ycombinator.com,Outside
@@ -732,6 +705,7 @@ HOST-KEYWORD,whatsapp,Outside
 HOST-KEYWORD,google,Outside
 HOST-SUFFIX,google.cn,Outside
 HOST-SUFFIX,google.com,Outside
+HOST-SUFFIX,x.com,Outside
 HOST-SUFFIX,1e100.net,Outside
 HOST-SUFFIX,2mdn.net,Outside
 HOST-SUFFIX,abc.xyz,Outside
@@ -765,9 +739,11 @@ HOST-SUFFIX,messenger.com,Outside
 HOST-SUFFIX,netmarble.com,Outside
 HOST-SUFFIX,nianticlabs.com,Outside
 HOST-SUFFIX,pinimg.com,Outside
+HOST-SUFFIX,proton.me,Outside
 HOST-SUFFIX,pubnub.com,Outside
 HOST-SUFFIX,scdn.co,Outside
 HOST-SUFFIX,t.co,Outside
+HOST-SUFFIX,tenor.com,Outside
 HOST-SUFFIX,tensorflow.org,Outside
 HOST-SUFFIX,toggleable.com,Outside
 HOST-SUFFIX,torproject.org,Outside
@@ -4775,7 +4751,6 @@ HOST-SUFFIX,privoxy.org,Outside
 HOST-SUFFIX,procopytips.com,Outside
 HOST-SUFFIX,project-syndicate.org,Outside
 HOST-SUFFIX,prosiben.de,Outside
-HOST-SUFFIX,proton.me,Outside
 HOST-SUFFIX,protonvpn.com,Outside
 HOST-SUFFIX,provideocoalition.com,Outside
 HOST-SUFFIX,provpnaccounts.com,Outside
@@ -4925,7 +4900,6 @@ HOST-SUFFIX,redbubble.com,Outside
 HOST-SUFFIX,redchinacn.net,Outside
 HOST-SUFFIX,redchinacn.org,Outside
 HOST-SUFFIX,redditlist.com,Outside
-HOST-SUFFIX,redditstatic.com,Outside
 HOST-SUFFIX,redhat.com,Outside
 HOST-SUFFIX,redhotlabs.com,Outside
 HOST-SUFFIX,redtube.com,Outside
@@ -5511,7 +5485,6 @@ HOST-SUFFIX,telegramdownload.com,Outside
 HOST-SUFFIX,telegraph.co.uk,Outside
 HOST-SUFFIX,tellme.pw,Outside
 HOST-SUFFIX,tenacy.com,Outside
-HOST-SUFFIX,tenor.com,Outside
 HOST-SUFFIX,tenzinpalmo.com,Outside
 HOST-SUFFIX,terabox.com,Outside
 HOST-SUFFIX,teraboxcdn.com,Outside
@@ -6300,7 +6273,6 @@ HOST-SUFFIX,x-art.com,Outside
 HOST-SUFFIX,x-berry.com,Outside
 HOST-SUFFIX,x-wall.org,Outside
 HOST-SUFFIX,x.co,Outside
-HOST-SUFFIX,x.com,Outside
 HOST-SUFFIX,x.company,Outside
 HOST-SUFFIX,x1949x.com,Outside
 HOST-SUFFIX,x24hr.com,Outside
@@ -6397,7 +6369,6 @@ HOST-SUFFIX,yakbutterblues.com,Outside
 HOST-SUFFIX,yam.com,Outside
 HOST-SUFFIX,yam.org.tw,Outside
 HOST-SUFFIX,yande.re,Outside
-HOST-SUFFIX,yandex.com,Outside
 HOST-SUFFIX,yandex.ru,Outside
 HOST-SUFFIX,yanghengjun.com,Outside
 HOST-SUFFIX,yangjianli.com,Outside
