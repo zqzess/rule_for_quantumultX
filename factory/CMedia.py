@@ -42,7 +42,7 @@ def download():
         os.remove(out_fname2)
         print("CMediaTmp.list文件存在，已执行删除")
 
-    wget.download(DATA_URL, out=in_fname)
+    #wget.download(DATA_URL, out=in_fname)
     # wget.download(DATA_URL2, out=in_fname2)
     # wget.download(DATA_URL3, out=in_fname3)
     wget.download(DATA_URL4, out=in_fname4)
