@@ -77,3 +77,6 @@ Qsearchddg是DuckDuckgo的，需要更改为DuckDuckgo搜索
 ### Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=zqzess/rule_for_quantumultX&type=Date)](https://star-history.com/#zqzess/rule_for_quantumultX&Date)
+
+###
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
