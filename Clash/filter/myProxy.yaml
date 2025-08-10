@@ -24,3 +24,4 @@ payload:
   - DOMAIN, inf.news
   - DOMAIN-SUFFIX, amazon.co.jp
   - DOMAIN-KEYWORD,amazon
+  - DOMAIN-SUFFIX, captcha.awswaf.com
